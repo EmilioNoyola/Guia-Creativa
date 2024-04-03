@@ -39,7 +39,7 @@ CREATE TABLE PreguntasA(
 --Preguntas Primer Parcial Álgebra.
 
 --Tema 1 Operaciones con Fracciones
-INSERT INTO PreguntasA VALUES (111,01,'Resuelve la sieguiente operación: a) b) c)');
+INSERT INTO PreguntasA VALUES (111,01,'aqui va a haber una imagen');
 INSERT INTO PreguntasA VALUES (111,02,' a) b) c)');
 INSERT INTO PreguntasA VALUES (111,03,' a) b) c)');
 INSERT INTO PreguntasA VALUES (111,04,' a) b) c)');
