@@ -1,4 +1,4 @@
-# ![Guía Creativa](https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Look%20&%20Feel/4IV9_GU%C3%8DA_CREATIVA_(%20Banner%20).png?raw=true)
+# ![Guía Creativa](https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Look-&-Feel/4IV9_GU%C3%8DA_CREATIVA_(%20Banner%20).png?raw=true)
 
 ### ¿Qué es?
 
