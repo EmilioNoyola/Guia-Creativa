@@ -39,13 +39,14 @@ public class Prueba extends javax.swing.JFrame {
         bg.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton2.setText("Borrar");
+        jButton2.setBorder(null);
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        bg.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 30, 120, -1));
+        bg.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 30, 120, 20));
 
         pngInicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagen/inicio (1).png"))); // NOI18N
         bg.add(pngInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
