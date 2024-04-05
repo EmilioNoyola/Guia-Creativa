@@ -12,7 +12,7 @@ INSERT INTO Temas VALUES (160,166,'Domingo y rango');
 
 
 --Temas Segundo Parcial Calculo Diferencial.
-INSERT INTO Temas VALUES (260,261,'Limites determinados,al infinito'); --10
+INSERT INTO Temas VALUES (260,261,'Limites'); --10
 INSERT INTO Temas VALUES (260,262,'Derivadas'); --10
 
 
@@ -297,8 +297,8 @@ d) -6 < x < -1/5 o x > 5. Notación de intervalos:(-6,-1/5) ∪ (5, ∞)
 INSERT INTO PreguntasCD VALUES (165,43,'f(x) = 3x-2; a) f (0)		b) f(5)		c) f(b) 		d) f(x-1)
 A)a) -2 		b) 13 		c) 3b-2 	d) 3x-5
 B)a) -1 		b) 14 		c) 6b-1 	d) 3x+3
-C)a) 0 		b) 16 		c) 2b-9 	d) x-6
-D)a) -3 		b) 14 		c) b-2 	d) 6x-8
+C)a) 0 		    b) 16 		c) 2b-9 	d) x-6
+D)a) -3 		b) 14 		c) b-2 	    d) 6x-8
 ');
 INSERT INTO PreguntasCD VALUES (165,44,'x es inversamente proporcional a y²-1. Si x=9 cuando y=3, hallar cuando y=5
 a)3
@@ -331,10 +331,10 @@ c)4 y 5
 d)4 y -4
 ');
 INSERT INTO PreguntasCD VALUES (165,49,'g(x) = 5-x²; a) g (0)		b) g(√5)		c) g(-2) 		d) g(t-1)
-A)a) 4√18		b) √8 		c) 2√4 	d) √(x^2+2bx^2+b^2+4)
+A)a) 4√18	b) √8 		c) 2√4 	d) √(x^2+2bx^2+b^2+4)
 B)a) √3		b) √10 		c) 3√6 	d) √(x^2+2bx^2+b^2x)
 C)a) √2		b) √11 		c) 2√2 	d) √(2bx^2+b^2x^2+4)
-D)a) 2√2		b) √13 		c) 2√2 	d) √(x^2+2bx^2+b^2x^2+4)
+D)a) 2√2	b) √13 		c) 2√2 	d) √(x^2+2bx^2+b^2x^2+4)
 ');
 INSERT INTO PreguntasCD VALUES (165,50,'f(x) = √ (x²+5); a) f (-2)		b) f(3)		c) f (2) 		d) f(x+bx)
 A)a) 5		b) 0 		c) 1 	d) 4+2t-t^2
@@ -350,20 +350,20 @@ d)x^2 + 5x∆x + (∆x) ^2, ∆x ≠ 0
 ');
 INSERT INTO PreguntasCD VALUES (165,52,'Sea f(x) = 3x²+x-5; a) f (-2)		b) f(0)		c) f (4) 		d) f (1/2)
 A) a) 5		b) -5 	c) 47 	d) -15/4
-B) 
-C) 
-D) 
+B) a) 10	b) -3 	c) 47 	d) 15/4
+C) a) 5		b) -3 	c) 33 	d) -12/2
+D) a) 15	b) 3 	c) 33 	d) 12/2
 ');
 INSERT INTO PreguntasCD VALUES (165,53,'Sea f(x) = x².Encuentre el cambio neto en el valor de f; a) De 1 a 3		b) De -2 a 2
-A)
-B)
+A)a) El cambio neto es 7 		b) El cambio neto es 1
+B)a) El cambio neto es 7 		b) El cambio neto es 3
 C)a) El cambio neto es 8 		b) El cambio neto es 0
-D)
+D)a) El cambio neto es 6 		b) El cambio neto es 2
 ');
 INSERT INTO PreguntasCD VALUES (165,54,'Sea f(x) = 2x²+3x-1; a) f (a)		b) f(-a)		c) f (a+h) 		d) (f(a+h)-f(a)) /(h), h ≠ 0
-A) 
-B) 
-C)
+A)a) 5x^2 - 3x + 2  b) 4x^2 + 2x - 1    c) 3x^2 - 5x + 4                d) 2x^2 - 3x - 2
+B)a) 3y^2 + 5y - 2  b) 4y^2 - 3y + 1    c) 2y^2 + 4y + 3                d) 5y - 2y^2 - 4
+C)a) 6z^2 + 2z - 3  b) 3z^2 - 4z + 5    c) 2z^2 + 3z + 1                d) 4z - 2z^2 - 3
 D)a) 2a^2+3a-1		b) 2a^2-3a-1		c) 2a^2+4ah+2h^2+3a+3h-1	    d) 4a+2h+3	
 ');
 INSERT INTO PreguntasCD VALUES (165,55,'Si una astronauta pesa 130 libras en la superficie de la Tierra, entonces... (la pregunta sigue)
@@ -665,10 +665,10 @@ c)Recta tangente:y+2x-2=0 , Para la normal:2y-x+6=0
 d)Recta tangente:x-2y-2=0 , Para la normal:2y+2xx+6=0
 ');
 INSERT INTO PreguntasCD VALUES (262, 100,'La ecuación de movimiento de un objeto en caída libre es s(t)=-16t²-22t+220, dondes esta dado en pies y t en segundos.Determina la velocidad promedio sobre el intervalo [2,3], así como la rapidez y la aceleración en el instante t=3; Respuesta:
-a)
+a)V=102ft/s, rapidez=158ft/s, aceleración=16ft/s²
 b)V=-102ft/s, rapidez=118ft/s, aceleración=-32ft/s²
-c)
-d)
+c)V=-342ft/s, rapidez=568ft/s, aceleración=-16ft/s²
+d)V=242ft/s, rapidez=348ft/s, aceleración=-24ft/s²
 ');
 INSERT INTO PreguntasCD VALUES (262, 101,'Deriva por definición la siguiente función: f(x)=(∛bx+a)  ; Respuesta:
 a)b/3(∛bx+a)²
@@ -689,10 +689,10 @@ C)a)-48ft/s b)-40ft/s c)-33.6ft/s
 D)a)-46ft/s b)-40ft/s c)-36.3ft/s
 ');
 INSERT INTO PreguntasCD VALUES (262, 104,'Encuentre la pendiente de la gráfica de la función f(x)=8/x² en el punto(2,2) ; Respuesta:
-a)
-b)
+a)1
+b)0
 c)-2
-d)
+d)1/2
 ');
 INSERT INTO PreguntasCD VALUES (262, 105,'Encuentre la pendiente de la gráfica de la función f(x)=-1/2+7/5x³ en el punto(0,-1/2) ; Respuesta:
 a)0
@@ -767,10 +767,10 @@ c)e^ax (asenbx+bcosbx)
 d)e^a (asenbx-bcosbx)
 ');
 INSERT INTO PreguntasCD VALUES (262, 117,'Deriva y=sen nx sen^n x; Respuesta:
-a)
+a)(narccos)^n-1 xcos(n+1)x
 b)(nsen)^n-1 xsen(n+1)x
-c)
-d)
+c)(ncos)^n-2 xcos(n+1)x
+d)(narcsen)^n-2 xsen(n+1)x
 ');
 INSERT INTO PreguntasCD VALUES (262, 118,'Deriva y=arc sec1/x; Respuesta:
 a)-1/(√1-x²)
@@ -785,16 +785,16 @@ c)arccos2x+ x/(√1+4x)
 d)arcsenx+ 2x/(√1+4x)
 ');
 INSERT INTO PreguntasCD VALUES (262, 120,'Deriva y=1/3x³arctgx+1/6ln(x²+1)-1/6x²; Respuesta:
-a)
+a)xarctgx²
 b)x²arctgx
-c)
-d)
+c)2xarctgx²
+d)x²arctg2x
 ');
 INSERT INTO PreguntasCD VALUES (262, 121,'Deriva y=arctg((a+r)/(1-ar)); Respuesta:
-a)
+a)r²
 b)1/1+r²
 c)1/2+r
-d)
+d)r
 ');
 INSERT INTO PreguntasCD VALUES (262, 122,'Encuentra la pendiente de la derivada de y=arcsec2x/√x en el punto x=1; Respuesta:
 a)0.053
@@ -809,21 +809,21 @@ c)2.142
 d)2.098
 ');
 INSERT INTO PreguntasCD VALUES (262, 124,'Deriva por definición y=-2/√(x-3); Respuesta:
-a)
-b)
+a)-1/√(x-3) (x+3)
+b)1/√(x-3) / (x-3)
 c)1/√(x-3) (x-3)
-d)
+d)1/√(x-3)/ (x+3)
 ');
 INSERT INTO PreguntasCD VALUES (262, 125,'Deriva la función f(t)=ln³t/3 + a(^t²-c²); Respuesta:
-a)
-b)
-c)
+a)(ln(t)²+2(a^t+c) t(ln(a)))/t
+b)(ln(t)²+2(a^t²-c)/t²(ln(a)))/t
+c)(ln(t)+2(a^t²-c) t(ln(a)))/t
 d)(ln(t)²+2(a^t²-c) t²(ln(a)))/t
 ');
 INSERT INTO PreguntasCD VALUES (262, 126,'Deriva y=arcsen(sen(senθ)); Respuesta:
-a)
-b)
-c)
+a)arccosθ
+b)senθ
+c)tanθ
 d)cosθ
 ');
 INSERT INTO PreguntasCD VALUES (262, 127,'Si f'(x)= g'(x), entonces f(x)=g(x); Respuesta:
@@ -835,46 +835,46 @@ a)Verdadero
 b)Falso
 ');
 INSERT INTO PreguntasCD VALUES (262, 129,'Encuentre las ecuaciones de las rectas tangentes a la gráfica de la curva y=x³-9x que pasan por el punto (1,-9) que no está en la gráfica ; Respuesta:
-a)
-b)
+a)3x+y=0, 8x+y+13=0
+b)x+y=0, x+8y+13=0
 c)9x+y=0, 9x+4y+27=0
-d)
+d)9x-y=0, 5x+3y+27=0
 ');
 INSERT INTO PreguntasCD VALUES (262, 130,'Encuentre la ecuación de la parábola y=ax²+bx+c que pasa por el punto (0,1) y es tangente a la recta y=x-1 en el punto (1,0) ; Respuesta:
-a)
-b)
+a)y=5x²-4x-1
+b)y=x²-6x-7
 c)y=2x²-3x+1
-d)
+d)y=4x²+3x+5
 ');
 INSERT INTO PreguntasCD VALUES (262, 131,'Encuentre la derivada de f(x)=(2x³+5x)(x-3)(x+2) ; Respuesta:
 a)x^4-8x³-21x²-10x-30
-b)
-c)
-d)
+b)x^4-8x-26x²-7x+56
+c)x^6-4x³+13x²-5x+67
+d)x^6-4x³-13x²-4-67
 ');
 INSERT INTO PreguntasCD VALUES (262, 132,'Encuentre la derivada de y=-cscx-senx ; Respuesta:
 a)cosx cot²x
-b)
-c)
-d)
+b)cosx/cotx
+c)senx arccot²x
+d)senx/arccot²x
 ');
 INSERT INTO PreguntasCD VALUES (262, 133,'Encuentre la derivada de g(x)=((x+1)/(x+2)) (2x-5) ; Respuesta:
-a)
-b)
-c)
+a)(2x²-8x+1)/(x-2)²
+b)(x²-8x+1)(x-2)
+c)(x²-8x+1)(x-2)²
 d)(2x²+8x-1)/(x+2)²
 ');
 INSERT INTO PreguntasCD VALUES (262, 134,'Encuentre la derivada de f(x)=(x²-x-3)/(x²+1) (x²+x+1) ; Respuesta:
-a)
-b)
-c)
+a)(x²-8x+1)(x-2)²
+b)(2x+x³+x²+9)/(x²+1)
+c)(2x+x³+x²+9)(x²+1)
 d)(2x^5+4x³+4x²-4)/(x²+1)²
 ');
 INSERT INTO PreguntasCD VALUES (262, 135,'Encuentre la derivada de g(θ)=θ/1-senθ ; Respuesta:
-a)
-b)
-c)(1-senθ)+θcosθ/ (1-senθ)²
-d)
+a)(senθ²)+cosθ (1-senθ)²
+b)(1+2senθ)+θcosθ/ (1+arcsenθ)
+c)(1-senθ)+cosθ/ (1-senθ)²
+d)(1+senθ)-θarccosθ/ (1+senθ)²
 ');
 INSERT INTO PreguntasCD VALUES (262, 136,'Encuentre la derivada de f(x)= cosx/1-senx ; Respuesta:
 a)1/2+senx
@@ -887,15 +887,15 @@ d)1/1+cosx
 
 INSERT INTO PreguntasA VALUES (360,137,'Cada lado de un cuadrado mide 5 unidades de longitud.Hallar la longitud de cada lado del cuadrado de máxima área que puede circunscribirse al cuadrado dado;Respuesta:
 a)(5√2)/2
-b)
-c)
-d)
+b)(5√2)
+c)(5√3)/3
+d)(2√3)/2
 ');
 INSERT INTO PreguntasA VALUES (360,138,'Un rectángulo tiene 2 de sus lados sobre los ejes coordenados positivos y su vértice opuesto al origen M(x,y) está sobre la curva de ecuación x=(1/2)^-y.En este vértice la ordenada aumenta a razón d 1/3 cm/s,¿Cuál es la variación del área del rectángulo cuando y=1cm?  ;Respuesta:
 a)La variación es aproximadamente de 1.1287 cm²/s
-b)
-c)
-d)
+b)La variación es aproximadamente de 0.5757 cm²/s
+c)La variación es aproximadamente de 0.2124 cm²/s
+d)La variación es aproximadamente de 1.7787 cm²/s
 ');
 INSERT INTO PreguntasCD VALUES (360, 139,'Sean las funciones f(x)=k arctan(x) y g(x)=-1/2senx ¿ Cuál es el valor de la constante k para que el ángulo se intersección de ambas curvas sea de 90 grados en el origen?  ; Respuesta:
 a)k=1.5
@@ -904,10 +904,10 @@ c)k=1
 d)k=3
 ');
 INSERT INTO PreguntasCD VALUES (360, 140,'Sea la función f(x)=-x(e^x/3).Determinar los puntos de inflexión y los intervalos de sentido de concavidad.   ; Respuesta:
-a)
+a)Punto de inflexión: (3,-3/e²), de(∞,3),la función es concava y de (3,∞), la función es convexa 
 b)Punto de inflexión: (-6,6/e²), de(-∞,-6),la función es concava y de (-6,∞), la función es convexa 
-c)
-d)
+c)Punto de inflexión: (-3,3/e²), de(-∞,-3),la función es concava y de (-3,∞), la función es convexa 
+d)Punto de inflexión: (6,-6/e²), de(∞,6),la función es concava y de (6,∞), la función es convexa 
 ');
 INSERT INTO PreguntasCD VALUES (360, 141,'Hallar un punto sobre la curva y-x=ln(y) donde la recta tangente tiene como pendiente 20/19, aproximar el resultado  ; Respuesta:
 a)P(20-ln2,20)
