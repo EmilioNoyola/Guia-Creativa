@@ -39,7 +39,6 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         P1_fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1920, 1080));
 
         bg.setBackground(new java.awt.Color(255, 255, 255));
         bg.setPreferredSize(new java.awt.Dimension(1920, 1080));
@@ -55,20 +54,19 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
                 btnRegistrarActionPerformed(evt);
             }
         });
-        bg.add(btnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1610, 60, 261, 48));
+        bg.add(btnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 50, 261, 48));
 
         btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Registro.png"))); // NOI18N
         btnRegistro.setBorder(null);
         btnRegistro.setContentAreaFilled(false);
-        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 60, 269, 55));
+        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 50, 269, 50));
         btnRegistro.getAccessibleContext().setAccessibleName("btnRegistro");
 
         btnConocenos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/conocenos.png"))); // NOI18N
         btnConocenos.setBorder(null);
         btnConocenos.setContentAreaFilled(false);
-        btnConocenos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnConocenos.setPreferredSize(new java.awt.Dimension(262, 49));
-        bg.add(btnConocenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 60, -1, -1));
+        btnConocenos.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        bg.add(btnConocenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 50, -1, -1));
 
         P1_fondo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         P1_fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/P1.png"))); // NOI18N
