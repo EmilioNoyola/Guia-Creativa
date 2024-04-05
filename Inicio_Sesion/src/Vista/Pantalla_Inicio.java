@@ -2,12 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
+
 package Vista;
 
 /**
  *
  * @author user
  */
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
 public class Pantalla_Inicio extends javax.swing.JFrame {
 
     /**
@@ -15,6 +20,7 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
      */
     public Pantalla_Inicio() {
         initComponents();
+       // btnRegistrar.setIcon(setIcono("/Imagenes/Inicio-Sesion.png", btnRegistrar));
     }
 
     /**
@@ -26,21 +32,69 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        bg = new javax.swing.JPanel();
+        btnRegistrar = new javax.swing.JButton();
+        btnRegistro = new javax.swing.JButton();
+        btnConocenos = new javax.swing.JButton();
+        P1_fondo = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1920, 1080));
+
+        bg.setBackground(new java.awt.Color(255, 255, 255));
+        bg.setPreferredSize(new java.awt.Dimension(1920, 1080));
+        bg.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnRegistrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inicio-Sesion.png"))); // NOI18N
+        btnRegistrar.setBorder(null);
+        btnRegistrar.setContentAreaFilled(false);
+        btnRegistrar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnRegistrar.setPreferredSize(new java.awt.Dimension(262, 49));
+        btnRegistrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegistrarActionPerformed(evt);
+            }
+        });
+        bg.add(btnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1610, 60, 261, 48));
+
+        btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Registro.png"))); // NOI18N
+        btnRegistro.setBorder(null);
+        btnRegistro.setContentAreaFilled(false);
+        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 60, 269, 55));
+        btnRegistro.getAccessibleContext().setAccessibleName("btnRegistro");
+
+        btnConocenos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/conocenos.png"))); // NOI18N
+        btnConocenos.setBorder(null);
+        btnConocenos.setContentAreaFilled(false);
+        btnConocenos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnConocenos.setPreferredSize(new java.awt.Dimension(262, 49));
+        bg.add(btnConocenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 60, -1, -1));
+
+        P1_fondo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        P1_fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/P1.png"))); // NOI18N
+        bg.add(P1_fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 1080));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(bg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(bg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
+        //todos
+    }//GEN-LAST:event_btnRegistrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -70,13 +124,31 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
+        
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Pantalla_Inicio().setVisible(true);
             }
         });
     }
+   /* public Icon setIcono(String url,JButton boton){
+        ImageIcon icon = new ImageIcon(getClass().getResource(url));
+        
+        int ancho = boton.getWidth();
+        
+        int alto = boton.getHeight();
+        
+        ImageIcon icono = new ImageIcon(icon.getImage().getScaledInstance(ancho, alto, Image.SCALE_SMOOTH));
+        
+        return icono;
+    }*/
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel P1_fondo;
+    private javax.swing.JPanel bg;
+    private javax.swing.JButton btnConocenos;
+    private javax.swing.JButton btnRegistrar;
+    private javax.swing.JButton btnRegistro;
     // End of variables declaration//GEN-END:variables
 }
