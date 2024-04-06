@@ -7,6 +7,7 @@ package Vista;
 import Modelos.Hash;
 import Modelos.SqlUsuarios;
 import Modelos.Usuarios;
+
 import java.awt.Image;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -28,6 +29,7 @@ public class Pantalla_Registro extends javax.swing.JFrame {
     public Pantalla_Registro() {
         initComponents();
         btnRegistro.setIcon(setIcono("/Imagenes/Boton-Registro.png", btnRegistro));
+
     }
 
     /**
@@ -80,6 +82,11 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         txtBoleta.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txtBoleta.setText("20");
         txtBoleta.setBorder(null);
+        txtBoleta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtBoletaActionPerformed(evt);
+            }
+        });
         bg.add(txtBoleta, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, 250, 20));
 
         btnRegistro.setBorder(null);
@@ -122,40 +129,87 @@ public class Pantalla_Registro extends javax.swing.JFrame {
     }//GEN-LAST:event_txtUsuarioActionPerformed
 
     private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
-        SqlUsuarios modSql = new SqlUsuarios();
+        // Crear una instancia de la clase SqlUsuarios para interactuar con la base de datos
+SqlUsuarios modSql = new SqlUsuarios();
 
-        Usuarios mod = new Usuarios();
+// Crear una instancia de la clase Usuarios para almacenar los datos del usuario
+Usuarios mod = new Usuarios();
 
-        String pass = new String(txtPassword.getPassword());
-        String conPass = new String(txtConfirmarPassword.getPassword());
+// Obtener la contraseña ingresada por el usuario
+String pass = new String(txtPassword.getPassword());
 
-        if (txtUsuario.getText().equals("") || pass.equals("") || conPass.equals("") || txtBoleta.getText().equals("")) {
-            JOptionPane.showMessageDialog(null, "Debes de llenar todo los campos");
-        } else {
-            try {
-                if (pass.equals(conPass)) {
-                    String nuevoPass = Hash.sha1(pass);
+// Obtener la confirmación de la contraseña ingresada por el usuario
+String conPass = new String(txtConfirmarPassword.getPassword());
 
-                    mod.setUsuario(txtUsuario.getText());
-                    mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
-                    mod.setPassword(nuevoPass);
-                    limpiar();
+// Obtener el nombre de usuario ingresado por el usuario, eliminando cualquier espacio en blanco al principio o al final
+String usuario = txtUsuario.getText().trim();
 
-                    if (modSql.Registro(mod)) {
-                        JOptionPane.showMessageDialog(null, "Registro Exitosa");
-                    } else {
-                        JOptionPane.showMessageDialog(null, "");
+// Obtener el número de boleta ingresado por el usuario, eliminando cualquier espacio en blanco al principio o al final
+String boletaStr = txtBoleta.getText().trim();
 
-                    }
+// Declarar una variable para almacenar el número de boleta después de convertirlo de una cadena a un entero
+int nuevaBoleta = 0;
+
+// Validar si el campo de boleta es numérico
+try {
+    nuevaBoleta = Integer.parseInt(boletaStr);
+} catch (NumberFormatException e) {
+    // Mostrar un mensaje de error si el campo de boleta no es numérico
+    JOptionPane.showMessageDialog(null, "El campo de boleta debe contener sólo números.");
+    return;
+}
+
+// Validar si algún campo está vacío
+if (usuario.isEmpty() || pass.isEmpty() || conPass.isEmpty() || boletaStr.isEmpty()) {
+    // Mostrar un mensaje de error si algún campo está vacío
+    JOptionPane.showMessageDialog(null, "Debes llenar todos los campos.");
+    return;
+}
+
+try {
+    // Verificar si la boleta ya está registrada en la base de datos
+    if (modSql.ExisteBoleta(nuevaBoleta) == 0) {
+        // Verificar si la boleta cumple con el formato válido
+        if (modSql.esBoleta(nuevaBoleta)) {
+            // Verificar si las contraseñas coinciden
+            if (pass.equals(conPass)) {
+                // Hashear la contraseña antes de guardarla en la base de datos
+                String nuevoPass = Hash.sha1(pass);
+
+                // Establecer los datos del usuario en el objeto Usuarios
+                mod.setUsuario(usuario);
+                mod.setBoleta(nuevaBoleta);
+                mod.setPassword(nuevoPass);
+                limpiar();
+
+                // Intentar registrar al usuario en la base de datos
+                if (modSql.Registro(mod)) {
+                    JOptionPane.showMessageDialog(null, "Registro Exitoso");
                 } else {
-                    JOptionPane.showMessageDialog(null, "Las contraseñas no se coincide");
+                    JOptionPane.showMessageDialog(null, "Error al guardar");
                 }
-            } catch (SQLException ex) {
-                Logger.getLogger(Pantalla_Registro.class.getName()).log(Level.SEVERE, null, ex);
+            } else {
+                // Mostrar un mensaje de error si las contraseñas no coinciden
+                JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden");
             }
+        } else {
+            // Mostrar un mensaje de error si la boleta no cumple con el formato válido
+            JOptionPane.showMessageDialog(null, "Debes ingresar un número de boleta válido del Cecyt 9");
         }
+    } else {
+        // Mostrar un mensaje de error si la boleta ya está registrada
+        JOptionPane.showMessageDialog(null, "Número de Boleta ya registrado. Favor de registrar con otro número de Boleta");
+    }
+} catch (SQLException ex) {
+    // Manejar excepciones SQL
+    Logger.getLogger(Pantalla_Registro.class.getName()).log(Level.SEVERE, null, ex);
+}
 
     }//GEN-LAST:event_btnRegistroActionPerformed
+
+    private void txtBoletaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtBoletaActionPerformed
+
+    }//GEN-LAST:event_txtBoletaActionPerformed
 
     public void limpiar() {
         txtUsuario.setText("");

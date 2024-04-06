@@ -6,9 +6,12 @@ package Modelos;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -40,6 +43,53 @@ public class SqlUsuarios extends Conexion {
 
         }
 
+    }
+
+    public int ExisteBoleta(int Boleta) throws SQLException {
+
+        PreparedStatement ps = null;
+
+        ResultSet rs = null;
+
+        Connection con = getConexion();
+
+        String sql = "SELECT count(id) FROM usuarios WHERE Boleta = ?";
+
+        try {
+            ps = con.prepareStatement(sql);
+
+            ps.setInt(1, Boleta);
+
+            rs = ps.executeQuery();
+
+            if (rs.next()) {
+                return rs.getInt(1);
+            }
+            return 1;
+        } catch (SQLException ex) {
+            Logger.getLogger(SqlUsuarios.class.getName()).log(Level.SEVERE, null, ex);
+
+            return 1;
+
+        }
+
+    }
+
+    public boolean esBoleta(int boleta) {
+        // Convertir el entero a una cadena
+        String boletaStr = Integer.toString(boleta);
+
+        // Expresión regular para validar la boleta
+        String regex = "^\\d{4}09\\d{4}$";
+
+        // Compilar la expresión regular en un patrón
+        Pattern pattern = Pattern.compile(regex);
+
+        // Crear un Matcher para la cadena proporcionada
+        Matcher matcher = pattern.matcher(boletaStr);
+
+        // Verificar si la cadena coincide con el patrón
+        return matcher.matches();
     }
 
 }
