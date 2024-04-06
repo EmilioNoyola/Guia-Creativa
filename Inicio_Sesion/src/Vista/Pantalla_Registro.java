@@ -48,7 +48,6 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         pantalla_Registro = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1280, 720));
         setResizable(false);
 
         bg.setBackground(new java.awt.Color(255, 255, 255));
@@ -79,9 +78,9 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         txtBoleta.setBackground(new java.awt.Color(245, 231, 255));
         txtBoleta.setForeground(new java.awt.Color(204, 204, 204));
         txtBoleta.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        txtBoleta.setText("Ingresa su numero de boleta");
+        txtBoleta.setText("20");
         txtBoleta.setBorder(null);
-        bg.add(txtBoleta, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, 250, -1));
+        bg.add(txtBoleta, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, 250, 20));
 
         btnRegistro.setBorder(null);
         btnRegistro.setContentAreaFilled(false);
@@ -129,28 +128,32 @@ public class Pantalla_Registro extends javax.swing.JFrame {
 
         String pass = new String(txtPassword.getPassword());
         String conPass = new String(txtConfirmarPassword.getPassword());
-        try {
-            if (pass.equals(conPass)) {
-                String nuevoPass = Hash.sha1(pass);
 
-                mod.setUsuario(txtUsuario.getText());
-                mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
-                mod.setPassword(nuevoPass);
-                limpiar();
+        if (txtUsuario.getText().equals("") || pass.equals("") || conPass.equals("") || txtBoleta.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Debes de llenar todo los campos");
+        } else {
+            try {
+                if (pass.equals(conPass)) {
+                    String nuevoPass = Hash.sha1(pass);
 
-                if (modSql.Registro(mod)) {
-                    JOptionPane.showMessageDialog(null, "Registro Exitosa");
+                    mod.setUsuario(txtUsuario.getText());
+                    mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
+                    mod.setPassword(nuevoPass);
+                    limpiar();
+
+                    if (modSql.Registro(mod)) {
+                        JOptionPane.showMessageDialog(null, "Registro Exitosa");
+                    } else {
+                        JOptionPane.showMessageDialog(null, "");
+
+                    }
                 } else {
-                    JOptionPane.showMessageDialog(null, "");
-
+                    JOptionPane.showMessageDialog(null, "Las contraseñas no se coincide");
                 }
-            } else {
-                JOptionPane.showMessageDialog(null, "Las contraseñas no se coincide");
+            } catch (SQLException ex) {
+                Logger.getLogger(Pantalla_Registro.class.getName()).log(Level.SEVERE, null, ex);
             }
-        } catch (SQLException ex) {
-            Logger.getLogger(Pantalla_Registro.class.getName()).log(Level.SEVERE, null, ex);
         }
-
 
     }//GEN-LAST:event_btnRegistroActionPerformed
 
