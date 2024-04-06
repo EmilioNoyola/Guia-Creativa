@@ -129,28 +129,28 @@ public class Pantalla_Registro extends javax.swing.JFrame {
 
         String pass = new String(txtPassword.getPassword());
         String conPass = new String(txtConfirmarPassword.getPassword());
-        try{
-        if (pass.equals(conPass)) {
-            String nuevoPass = Hash.sha1(pass);
+        try {
+            if (pass.equals(conPass)) {
+                String nuevoPass = Hash.sha1(pass);
 
-            mod.setUsuario(txtUsuario.getText());
-            mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
-            mod.setPassword(nuevoPass);
-            limpiar();
-            
-            
-                if(modSql.Registro(mod)){
+                mod.setUsuario(txtUsuario.getText());
+                mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
+                mod.setPassword(nuevoPass);
+                limpiar();
+
+                if (modSql.Registro(mod)) {
                     JOptionPane.showMessageDialog(null, "Registro Exitosa");
-                }else {
-            JOptionPane.showMessageDialog(null, "las Contraseñas no se coincide");
-                
+                } else {
+                    JOptionPane.showMessageDialog(null, "");
+
+                }
+            } else {
+                JOptionPane.showMessageDialog(null, "Las contraseñas no se coincide");
             }
+        } catch (SQLException ex) {
+            Logger.getLogger(Pantalla_Registro.class.getName()).log(Level.SEVERE, null, ex);
         }
-        }catch (SQLException ex) {
-                Logger.getLogger(Pantalla_Registro.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        
-        
+
 
     }//GEN-LAST:event_btnRegistroActionPerformed
 
