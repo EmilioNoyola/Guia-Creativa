@@ -12,7 +12,7 @@ public class Usuarios {
     
     private int id;
     private int Boleta;
-    private String Nombre;
+    private String usuario;
     private String Password;
 
     public int getId() {
@@ -31,12 +31,12 @@ public class Usuarios {
         this.Boleta = Boleta;
     }
 
-    public String getNombre() {
-        return Nombre;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
 
     public String getPassword() {
@@ -46,7 +46,10 @@ public class Usuarios {
     public void setPassword(String Password) {
         this.Password = Password;
     }
+
     
+
+   
     
     
 }

@@ -8,9 +8,13 @@ import Modelos.Hash;
 import Modelos.SqlUsuarios;
 import Modelos.Usuarios;
 import java.awt.Image;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -43,7 +47,7 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         txtConfirmarPassword = new javax.swing.JPasswordField();
         pantalla_Registro = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1280, 720));
         setResizable(false);
 
@@ -89,7 +93,7 @@ public class Pantalla_Registro extends javax.swing.JFrame {
                 btnRegistroActionPerformed(evt);
             }
         });
-        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 600, -1, -1));
+        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 610, -1, -1));
 
         txtConfirmarPassword.setBackground(new java.awt.Color(245, 231, 255));
         txtConfirmarPassword.setForeground(new java.awt.Color(204, 204, 204));
@@ -120,38 +124,58 @@ public class Pantalla_Registro extends javax.swing.JFrame {
 
     private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
         SqlUsuarios modSql = new SqlUsuarios();
-        
+
         Usuarios mod = new Usuarios();
-        
+
         String pass = new String(txtPassword.getPassword());
         String conPass = new String(txtConfirmarPassword.getPassword());
-        
-            if(pass.equals(conPass)){
-                String nuevoPass = Hash.sha1(pass);
+        try{
+        if (pass.equals(conPass)) {
+            String nuevoPass = Hash.sha1(pass);
+
+            mod.setUsuario(txtUsuario.getText());
+            mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
+            mod.setPassword(nuevoPass);
+            limpiar();
+            
+            
+                if(modSql.Registro(mod)){
+                    JOptionPane.showMessageDialog(null, "Registro Exitosa");
+                }else {
+            JOptionPane.showMessageDialog(null, "las Contraseñas no se coincide");
                 
-                mod.setNombre(txtUsuario.getText());
-                mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
-                mod.setPassword(nuevoPass);
+            }
+        }
+        }catch (SQLException ex) {
+                Logger.getLogger(Pantalla_Registro.class.getName()).log(Level.SEVERE, null, ex);
             }
         
         
-        
+
     }//GEN-LAST:event_btnRegistroActionPerformed
+
+    public void limpiar() {
+        txtUsuario.setText("");
+        txtBoleta.setText("");
+        txtPassword.setText("");
+        txtConfirmarPassword.setText("");
+    }
 
     /**
      * @param args the command line arguments
      */
-    public Icon setIcono(String url,JButton boton){
+    public Icon setIcono(String url, JButton boton) {
         ImageIcon icon = new ImageIcon(getClass().getResource(url));
-        
+
         int ancho = boton.getWidth();
-        
+
         int alto = boton.getHeight();
-        
+
         ImageIcon icono = new ImageIcon(icon.getImage().getScaledInstance(ancho, alto, Image.SCALE_SMOOTH));
-        
+
         return icono;
     }
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

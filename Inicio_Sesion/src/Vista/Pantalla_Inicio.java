@@ -15,9 +15,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 public class Pantalla_Inicio extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Pantalla_Inicio
-     */
+   Pantalla_Registro frmReg;
     public Pantalla_Inicio() {
         initComponents();
         
@@ -105,7 +103,10 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
-        // TODO add your handling code here:
+        if(frmReg == null)
+        frmReg = new Pantalla_Registro();
+        frmReg.setVisible(true);
+        
     }//GEN-LAST:event_btnRegistroActionPerformed
 
     /**

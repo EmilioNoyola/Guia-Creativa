@@ -22,14 +22,14 @@ public class SqlUsuarios extends Conexion {
 
         Connection con = getConexion();
 
-        String sql = "INSERT INTO usuarios(Nombre,Password,Boleta) VALUES(?,?,?)";
+        String sql = "INSERT INTO usuarios(usuario,boleta,Password) VALUES(?,?,?)";
 
         try {
             ps = con.prepareStatement(sql);
 
-            ps.setString(1, usr.getNombre());
-            ps.setString(2, usr.getPassword());
-            ps.setInt(3, usr.getBoleta());
+            ps.setString(1, usr.getUsuario());
+            ps.setString(3, usr.getPassword());
+            ps.setInt(2, usr.getBoleta());
 
             ps.execute();
             return true;
