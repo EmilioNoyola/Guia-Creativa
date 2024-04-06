@@ -18,7 +18,7 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
    Pantalla_Registro frmReg;
     public Pantalla_Inicio() {
         initComponents();
-        
+        //maximizar ventana
         setExtendedState(MAXIMIZED_BOTH);
        // btnRegistrar.setIcon(setIcono("/Imagenes/Inicio-Sesion.png", btnRegistrar));
     }
