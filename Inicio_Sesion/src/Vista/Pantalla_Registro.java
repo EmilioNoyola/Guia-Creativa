@@ -4,6 +4,14 @@
  */
 package Vista;
 
+import Modelos.Hash;
+import Modelos.SqlUsuarios;
+import Modelos.Usuarios;
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
 /**
  *
  * @author user
@@ -15,6 +23,7 @@ public class Pantalla_Registro extends javax.swing.JFrame {
      */
     public Pantalla_Registro() {
         initComponents();
+        btnRegistro.setIcon(setIcono("/Imagenes/Boton-Registro.png", btnRegistro));
     }
 
     /**
@@ -27,53 +36,122 @@ public class Pantalla_Registro extends javax.swing.JFrame {
     private void initComponents() {
 
         bg = new javax.swing.JPanel();
+        txtUsuario = new javax.swing.JTextField();
+        txtPassword = new javax.swing.JPasswordField();
+        txtBoleta = new javax.swing.JTextField();
+        btnRegistro = new javax.swing.JButton();
+        txtConfirmarPassword = new javax.swing.JPasswordField();
         pantalla_Registro = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1366, 768));
+        setPreferredSize(new java.awt.Dimension(1280, 720));
         setResizable(false);
 
         bg.setBackground(new java.awt.Color(255, 255, 255));
-        bg.setPreferredSize(new java.awt.Dimension(1366, 768));
+        bg.setPreferredSize(new java.awt.Dimension(1280, 720));
+        bg.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        txtUsuario.setBackground(new java.awt.Color(245, 231, 255));
+        txtUsuario.setForeground(new java.awt.Color(204, 204, 204));
+        txtUsuario.setText("Ingresar su nombre de usuario");
+        txtUsuario.setBorder(null);
+        txtUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        txtUsuario.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+        txtUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtUsuarioActionPerformed(evt);
+            }
+        });
+        bg.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 360, 260, 20));
+
+        txtPassword.setBackground(new java.awt.Color(245, 231, 255));
+        txtPassword.setForeground(new java.awt.Color(204, 204, 204));
+        txtPassword.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        txtPassword.setText("jPasswordField1");
+        txtPassword.setBorder(null);
+        txtPassword.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+        bg.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 250, 20));
+
+        txtBoleta.setBackground(new java.awt.Color(245, 231, 255));
+        txtBoleta.setForeground(new java.awt.Color(204, 204, 204));
+        txtBoleta.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        txtBoleta.setText("Ingresa su numero de boleta");
+        txtBoleta.setBorder(null);
+        bg.add(txtBoleta, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, 250, -1));
+
+        btnRegistro.setBorder(null);
+        btnRegistro.setContentAreaFilled(false);
+        btnRegistro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistro.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnRegistro.setPreferredSize(new java.awt.Dimension(170, 40));
+        btnRegistro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegistroActionPerformed(evt);
+            }
+        });
+        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 600, -1, -1));
+
+        txtConfirmarPassword.setBackground(new java.awt.Color(245, 231, 255));
+        txtConfirmarPassword.setForeground(new java.awt.Color(204, 204, 204));
+        txtConfirmarPassword.setText("jPasswordField1");
+        txtConfirmarPassword.setBorder(null);
+        bg.add(txtConfirmarPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 570, 250, 20));
 
         pantalla_Registro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Fondo2.png"))); // NOI18N
-
-        javax.swing.GroupLayout bgLayout = new javax.swing.GroupLayout(bg);
-        bg.setLayout(bgLayout);
-        bgLayout.setHorizontalGroup(
-            bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(bgLayout.createSequentialGroup()
-                .addComponent(pantalla_Registro, javax.swing.GroupLayout.PREFERRED_SIZE, 1366, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        bgLayout.setVerticalGroup(
-            bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(bgLayout.createSequentialGroup()
-                .addComponent(pantalla_Registro, javax.swing.GroupLayout.PREFERRED_SIZE, 768, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
+        bg.add(pantalla_Registro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(bg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 1255, Short.MAX_VALUE))
+            .addComponent(bg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(bg, javax.swing.GroupLayout.DEFAULT_SIZE, 768, Short.MAX_VALUE)
-                .addGap(0, 654, Short.MAX_VALUE))
+            .addComponent(bg, javax.swing.GroupLayout.PREFERRED_SIZE, 720, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtUsuarioActionPerformed
+
+    private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
+        SqlUsuarios modSql = new SqlUsuarios();
+        
+        Usuarios mod = new Usuarios();
+        
+        String pass = new String(txtPassword.getPassword());
+        String conPass = new String(txtConfirmarPassword.getPassword());
+        
+            if(pass.equals(conPass)){
+                String nuevoPass = Hash.sha1(pass);
+                
+                mod.setNombre(txtUsuario.getText());
+                mod.setBoleta(Integer.parseInt(txtBoleta.getText()));
+                mod.setPassword(nuevoPass);
+            }
+        
+        
+        
+    }//GEN-LAST:event_btnRegistroActionPerformed
+
     /**
      * @param args the command line arguments
      */
+    public Icon setIcono(String url,JButton boton){
+        ImageIcon icon = new ImageIcon(getClass().getResource(url));
+        
+        int ancho = boton.getWidth();
+        
+        int alto = boton.getHeight();
+        
+        ImageIcon icono = new ImageIcon(icon.getImage().getScaledInstance(ancho, alto, Image.SCALE_SMOOTH));
+        
+        return icono;
+    }
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -108,6 +186,11 @@ public class Pantalla_Registro extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bg;
+    private javax.swing.JButton btnRegistro;
     private javax.swing.JLabel pantalla_Registro;
+    private javax.swing.JTextField txtBoleta;
+    private javax.swing.JPasswordField txtConfirmarPassword;
+    private javax.swing.JPasswordField txtPassword;
+    private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
 }

@@ -20,6 +20,8 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
      */
     public Pantalla_Inicio() {
         initComponents();
+        
+        setExtendedState(MAXIMIZED_BOTH);
        // btnRegistrar.setIcon(setIcono("/Imagenes/Inicio-Sesion.png", btnRegistrar));
     }
 
@@ -33,39 +35,47 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
     private void initComponents() {
 
         bg = new javax.swing.JPanel();
-        btnRegistrar = new javax.swing.JButton();
+        btnLogin = new javax.swing.JButton();
         btnRegistro = new javax.swing.JButton();
         btnConocenos = new javax.swing.JButton();
         P1_fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         bg.setBackground(new java.awt.Color(255, 255, 255));
         bg.setPreferredSize(new java.awt.Dimension(1920, 1080));
         bg.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnRegistrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inicio-Sesion.png"))); // NOI18N
-        btnRegistrar.setBorder(null);
-        btnRegistrar.setContentAreaFilled(false);
-        btnRegistrar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnRegistrar.setPreferredSize(new java.awt.Dimension(262, 49));
-        btnRegistrar.addActionListener(new java.awt.event.ActionListener() {
+        btnLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inicio-Sesion.png"))); // NOI18N
+        btnLogin.setBorder(null);
+        btnLogin.setContentAreaFilled(false);
+        btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnLogin.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnLogin.setPreferredSize(new java.awt.Dimension(262, 49));
+        btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnRegistrarActionPerformed(evt);
+                btnLoginActionPerformed(evt);
             }
         });
-        bg.add(btnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 50, 261, 48));
+        bg.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 50, 261, 48));
 
         btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Registro.png"))); // NOI18N
         btnRegistro.setBorder(null);
         btnRegistro.setContentAreaFilled(false);
+        btnRegistro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegistroActionPerformed(evt);
+            }
+        });
         bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 50, 269, 50));
         btnRegistro.getAccessibleContext().setAccessibleName("btnRegistro");
 
         btnConocenos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/conocenos.png"))); // NOI18N
         btnConocenos.setBorder(null);
         btnConocenos.setContentAreaFilled(false);
-        btnConocenos.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btnConocenos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bg.add(btnConocenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 50, -1, -1));
 
         P1_fondo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -90,9 +100,13 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
+    private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         //todos
-    }//GEN-LAST:event_btnRegistrarActionPerformed
+    }//GEN-LAST:event_btnLoginActionPerformed
+
+    private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegistroActionPerformed
 
     /**
      * @param args the command line arguments
@@ -146,7 +160,7 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
     private javax.swing.JLabel P1_fondo;
     private javax.swing.JPanel bg;
     private javax.swing.JButton btnConocenos;
-    private javax.swing.JButton btnRegistrar;
+    private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnRegistro;
     // End of variables declaration//GEN-END:variables
 }
