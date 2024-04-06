@@ -4,7 +4,7 @@
 
 **Guía Creativa** es un software diseñado para mejorar el rendimiento académico de los estudiantes del CECyT 9 en *Matemáticas, Física y Química*. Automatiza sesiones de estudio personalizadas y preguntas tipo examen adaptadas a las necesidades individuales. Ofrece recursos educativos pertinentes, promoviendo un aprendizaje efectivo y motivador. Este software es intuitivo y fácil de usar, beneficiando a estudiantes de diferentes niveles educativos. Permite a los estudiantes monitorear su progreso y recibir orientación para mejorar su desempeño.
 
-> Miembros del Equipo 
+> **Desarrolladores** 
 > - Cayetano Verduzco Alejandro
 > - Hernández Barrios Samuel Rodrigo
 > - Herrera Macedo Karol Marilú
@@ -54,31 +54,31 @@ se enfrenta un desafío significativo en términos de deserción estudiantil, co
 ---
 ### Características Principales 
 
-1. Enfoque en el Aprendizaje del Alumno: Guía Creativa se enfoca en el aprendizaje del alumno al proporcionar un entorno educativo
+1. **Enfoque en el Aprendizaje del Alumno:** Guía Creativa se enfoca en el aprendizaje del alumno al proporcionar un entorno educativo
 centrado en las necesidades individuales de cada estudiante. A través de su plataforma, los alumnos pueden acceder a recursos educativos
 personalizados, incluyendo material de estudio adaptado a su nivel de comprensión, ejercicios prácticos para reforzar conceptos y
 herramientas interactivas que fomentan un aprendizaje activo y participativo.
 
-2. Orientado a la Comunidad del CECyT 9: Guía Creativa está diseñado específicamente para la comunidad del CECyT 9, reconociendo
+2. **Orientado a la Comunidad del CECyT 9:** Guía Creativa está diseñado específicamente para la comunidad del CECyT 9, reconociendo
 las necesidades y desafíos únicos de los estudiantes de esta institución. La plataforma integra contenido curricular alineado con los
 programas de estudio del CECyT 9 y ofrece recursos educativos que complementan la enseñanza en el aula, brindando un apoyo integral
 para el éxito académico de los estudiantes.
 
-3. Nivel de Dificultad Adecuado: Guía Creativa ofrece un nivel de dificultad adecuado que se ajusta a las capacidades y conocimientos de
+3. **Nivel de Dificultad Adecuado:** Guía Creativa ofrece un nivel de dificultad adecuado que se ajusta a las capacidades y conocimientos de
 los estudiantes del CECyT 9. Los materiales de estudio y los ejercicios prácticos están diseñados de manera progresiva, permitiendo a los
 estudiantes avanzar gradualmente desde conceptos básicos hasta niveles más avanzados de comprensión. Además, la plataforma ofrece
 opciones de personalización para adaptar el nivel de dificultad según las necesidades individuales de cada estudiante.
 
-4. Precio Accesible: Guía Creativa es una plataforma gratuita para todos los estudiantes del CECyT 9. La accesibilidad es una prioridad para
+4. **Precio Accesible:** Guía Creativa es una plataforma gratuita para todos los estudiantes del CECyT 9. La accesibilidad es una prioridad para
 nosotros, por lo que hemos eliminado cualquier barrera de costo para garantizar que todos los estudiantes tengan igualdad de
 oportunidades en el acceso a recursos educativos de calidad.
 
-5. Sesiones de Estudio Personalizadas: Guía Creativa proporciona sesiones de estudio personalizadas que permiten a los estudiantes
+5. **Sesiones de Estudio Personalizadas:** Guía Creativa proporciona sesiones de estudio personalizadas que permiten a los estudiantes
 planificar y gestionar su tiempo de estudio de manera eficiente. La plataforma ofrece herramientas para crear horarios de estudio flexibles
 y adaptados a las necesidades individuales de cada estudiante, lo que les ayuda a establecer rutinas de estudio efectivas y mantenerse
 organizados durante todo el semestre.
 
-6. Prioriza Hábitos de Estudio: Guía Creativa prioriza el desarrollo de hábitos de estudio efectivos entre los estudiantes del CECyT 9. La
+6. **Prioriza Hábitos de Estudio:** Guía Creativa prioriza el desarrollo de hábitos de estudio efectivos entre los estudiantes del CECyT 9. La
 plataforma ofrece recursos y herramientas diseñadas para fomentar la autonomía y la responsabilidad en el proceso de aprendizaje,
 promoviendo la práctica regular, la revisión constante de los materiales y el seguimiento del progreso académico. Además, Guía Creativa
 ofrece consejos y orientación sobre técnicas de estudio probadas que ayudan a los estudiantes a maximizar su rendimiento académico y
