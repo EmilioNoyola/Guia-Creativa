@@ -298,3 +298,33 @@ C) 3600kg
 
 --D) 600kg
 ");
+
+INSERT INTO PreguntasF1 VALUES(143,25,"Explica lo que es la Física
+A) Es el estudio de las fuerzas sobrenaturales.
+
+B) Es una ciencia que se dedica al análisis de la biología.
+
+--C) Es una ciencia factual natural que investiga las propiedades de la materia, energía y las relaciones entre ellas.
+
+D) Es una disciplina que se centra en el estudio de la historia humana.
+");
+
+INSERT INTO PreguntasF1 VALUES(143,26," Explica qué es una ciencia factual y da dos ejemplos de las mismas
+A) Son las ciencias que se ocupan de estudiar conceptos abstractos y teorías. Ejemplos: Matemáticas y Filosofía.
+
+--B) Son las ciencias que se encargan de estudiar hechos y sucesiones reales. Ejemplos: Física y Química.
+
+C) Son las ciencias que analizan las emociones y los sentimientos. Ejemplos: Psicología y Sociología.
+
+D) Son las ciencias que se enfocan en el estudio de la música y las artes visuales. Ejemplos: Música y Pintura.
+");
+
+INSERT INTO PreguntasF1 VALUES(143,27,"Ciencia que estudia las propiedades de la mate materia y de la energía y establece las leyes que
+explican los fenómenos naturales, excluyendo los que modifican la estructura molecular de los cuerpos.
+A) Química
+--B) Física
+C) Biología
+D) Matemática
+
+
+");
