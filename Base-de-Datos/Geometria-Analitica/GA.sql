@@ -40,9 +40,8 @@ CREATE TABLE PreguntasGA(
 --Preguntas Primer Parcial Geometría Analítica
 
 --Tema 1 Distancia entre dos puntos en el plano cartesiano.
-INSERT INTO PreguntasGA VALUES (131,01,'');
-INSERT INTO PreguntasGA VALUES (131,02,'');
-INSERT INTO PreguntasGA VALUES (131,03,'');
+INSERT INTO PreguntasGA VALUES (131,01,' Encuentra la distancia entre los puntos P(0,1) y Q(2,2): a)√5 b)√4 c)√6');
+INSERT INTO PreguntasGA VALUES (131,02,' Encuentra la distancia entre los puntos P(2,4) y Q(-2,4): a)2 b)4 c)5');
 INSERT INTO PreguntasGA VALUES (131,03,' Encuentra la distancia entre los puntos P(-6,0) y Q(0,6): a)-4    b)sqrt(72)......    c)sqrt(5)');
 INSERT INTO PreguntasGA VALUES (131,04,' ¿Qué coordenadas tiene el punto del eje Y que equidista de A(5,5) y de B(4,2)?   a)C(7,1)    b)(0,5).......    c)=(10,1)');
 INSERT INTO PreguntasGA VALUES (131,05,' ¿Cuál es la coordenada del punto de la abscisa -1 que equidista de los puntos A(6,8) y B(-3,4)?        a)C(15,3)   b)C(-1,93/8).......    c)C(6,0)');
@@ -277,65 +276,67 @@ INSERT INTO PreguntasGA VALUES (331,149,'Encuentra la intersección de la recta 
 INSERT INTO PreguntasGA VALUES (331,150,'Una parábola tiene ecuación y^2+2x+Ey+F=0 y su vértice es V(1/2,-3/2), encuentra los valores de E y F. a)E=-1/2, F=-15/4 b)E=-15/4, F=-1/2 c)E=1/2, F=-15/4');
 
 --Tema 2 Aplicaciones de la Parábola
-INSERT INTO PreguntasGA VALUES (332,151,'Un puente tiene una longitud de 160 metros. El cable que lo soporta tiene la forma de una parábola. Si el puntal ubicado en cada uno de los extremos tiene una altira de 25 metros, ¿Cuál es la ecuación de la parábola? a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,152,'En un puente colgante, la distancia entre sus torres es de 300 metros y la altura de las torres es de 100 metros. Describe la ecuación de la parábola formada por el cable que soporta el puente. a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,153,'El cable de un puente colgante está dado por la ecuación x^2=400y. Si los postes del puente tienen una altura de 50 metros, ¿cuál es la longitud del puente? a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,154,'En un puente colgante, la distancia entre sus torres es de 200 metros y la altura de las torres es de 100 metros. Da la ecuación de la parábola que describe el cable que soporta al puente.  a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,155,'Un diseñador de automovile desea diseñar un faro que tenga 16 centímetros de diámetro. La bombilla que va a utilizar en él tiene el filamento a 2 centímetros del cuello. ¿Qué profundidad debe tener el faro para que el filamento quede en el foco del faro si el cuello de la bombilla se coloca a la altura del vértice del faro? a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,156,'La antena de un radiotelescopio en forma de paraboloide tiene un diámetro de 8 metros. Si la profundidad de la antena es de 0.5 metros , ¿a qué distancia del vértice debe colocarse el receptor? a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,157,'Una antena parabólica para televisión tiene un diámetro de 1 metro y su receptor está colocado 25 centímetros por arriba de su vértice. ¿Qué profundidad tiene la antena? a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,158,'Un niño acciona un juguete que dispara un proyectil. El proyectil decribe en el aire una tryectoria parabólica con ecuación h(t)=-4r^2+16t, donde t es el tiempo en segundos y h(t) es la altura que alcanza el proyectil, expresada en metros. ¿Cuántos segundos han pasado dese el lanzamiento hasta que el proyectil alcanza su altura máxima? a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,159,'Un proyectil es lanzado desde el nivel del suelo y sigue la trayectoria parabólica (x-3)^2=-y+9; la unidades están dadas en kilómetros. ¿Cuál será la altura máxima del proyectil y a qué distancia del cañón será? a) b) c)');
-INSERT INTO PreguntasGA VALUES (332,160,'Un artillero atina a un objetivo que está a 500 metros de su cañón. El cañón está en el orgien de coordenadas. Encuentra la ecuación de la parábola que describió su disparo si éste alcanzó una altura máxima de 100 metros. a) b) c)');
+INSERT INTO PreguntasGA VALUES (332,151,'Un puente tiene una longitud de 160 metros. El cable que lo soporta tiene la forma de una parábola. Si el puntal ubicado en cada uno de los extremos tiene una altira de 25 metros, ¿Cuál es la ecuación de la parábola? a)x^2-256y=0 b)y^2-256x=0 c)x^2+256y=0');
+INSERT INTO PreguntasGA VALUES (332,152,'En un puente colgante, la distancia entre sus torres es de 300 metros y la altura de las torres es de 100 metros. Encuentra la altura del puntal que se encuentra a 50 metros del centro del puente. a)y=14.14m b)y=13.13m c)y=11.11m');
+INSERT INTO PreguntasGA VALUES (332,153,'El cable de un puente colgante está dado por la ecuación x^2=400y. Si los postes del puente tienen una altura de 50 metros, Determina la longitud del puntal que se encuentra a 100 metros del cetntro del puente. a)y=5m b)y=25m c)y^2=25m');
+INSERT INTO PreguntasGA VALUES (332,154,'En un puente colgante, la distancia entre sus torres es de 200 metros y la altura de las torres es de 100 metros. Encuentra a qué distancia del centro está un puntal de 50 metros de longitud.  a)x=74.31m b)x=70.71m c)x=73.96m');
+INSERT INTO PreguntasGA VALUES (332,155,'Un diseñador de automovile desea diseñar un faro que tenga 16 centímetros de diámetro. La bombilla que va a utilizar en él tiene el filamento a 2 centímetros del cuello. ¿Qué profundidad debe tener el faro para que el filamento quede en el foco del faro si el cuello de la bombilla se coloca a la altura del vértice del faro? a)x=8 b)x=7 c)x=9');
+INSERT INTO PreguntasGA VALUES (332,156,'La antena de un radiotelescopio en forma de paraboloide tiene un diámetro de 8 metros. Si la profundidad de la antena es de 0.5 metros , ¿a qué distancia del vértice debe colocarse el receptor? a)2 metros b)4 metros c)3 metros');
+INSERT INTO PreguntasGA VALUES (332,157,'Una antena parabólica para televisión tiene un diámetro de 1 metro y su receptor está colocado 25 centímetros por arriba de su vértice. ¿Qué profundidad tiene la antena? a)y^2=25 b)y=5 c)y=25');
+INSERT INTO PreguntasGA VALUES (332,158,'Un niño acciona un juguete que dispara un proyectil. El proyectil decribe en el aire una tryectoria parabólica con ecuación h(t)=-4r^2+16t, donde t es el tiempo en segundos y h(t) es la altura que alcanza el proyectil, expresada en metros. ¿Cuántos segundos han pasado dese el lanzamiento hasta que el proyectil alcanza su altura máxima? a)2 segundos  b)4 segundos c)3 segundos');
+INSERT INTO PreguntasGA VALUES (332,159,'Un proyectil es lanzado desde el nivel del suelo y sigue la trayectoria parabólica (x-3)^2=-y+9; la unidades están dadas en kilómetros. ¿Cuál será la altura máxima del proyectil y a qué distancia del cañón será? a)x=3,y=6 b)x=3,y=9 c)x=9,y=3');
+INSERT INTO PreguntasGA VALUES (332,160,'Un artillero atina a un objetivo que está a 500 metros de su cañón. El cañón está en el orgien de coordenadas. Encuentra la ecuación de la parábola que describió su disparo si éste alcanzó una altura máxima de 100 metros. a)y^2-500y-625x=0 b)x^2+500x-625y=0 c)x^2-500x+625y=0');
 
 
 --Tema 3 Parábola dada tres condiciones
-INSERT INTO PreguntasGA VALUES (333,161,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por los puntos P(6,12), Q(2/3,8) y R(1/6,5). a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,162,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje Y y que pasa por los puntos P(0,-7/4), Q(5/2,2) y R (-1/2,-2). a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,163,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje Y y que pasa por los puntos P(-1,4), Q(3,-38) y R(-4,4). a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,164,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje Y y que pasa por los puntos P(-1,-9), Q(4,-19) y R(2,-3). a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,165,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X, que pasa por el centro del círculo x^2+y^2-6x-8y=0 y por los puntos donde se corta dicho círculo con la parabola (y-4)^2=4(x+4) y que no tienen abscisa 2. a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,166,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por los puntos P(0,0), Q(8,8) y R(6,12). a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,167,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje Y, que pasa por el centro del círculo x^2+y^2+10x+4y+25=0, por el punto de intersección de las rectas 2x-y-4=0 y x+2y+13=0 y por el punto P(1,-11). a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,168,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por el punto P(-4,7), por el punto de intersección de la recta x-y-1=0 con la perpendicular a ella que pasa por el punto T(-1,0) y por el vértice de la parábola x^2-10x-4y+41=0. a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,169,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por los puntos P(3/4,9), Q(-5/4,1) y R(0,11). a) b) c)');
-INSERT INTO PreguntasGA VALUES (333,170,' a) b) c)');
+INSERT INTO PreguntasGA VALUES (333,161,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por los puntos P(6,12), Q(2/3,8) y R(1/6,5). a)(y+6)^2=-4(3/2)x b)(y-6)^2=4(3/2)x c)(x-6)^2=4(3/2)y');
+INSERT INTO PreguntasGA VALUES (333,162,'Encuentra la ecuación de la parábola que pasa por los puntos P(-1,1), Q(1,9) y R(-2,0). a)x=y^2-4x-4 b)y=x^2-4x+4 c)y=x^2+4x+4')
+INSERT INTO PreguntasGA VALUES (333,163,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje Y y que pasa por los puntos P(-1,4), Q(3,-38) y R(-4,4). a)(x+5/2)^2=-4(1/6)(y-59/8) b)(y-5/2)^2=-4(1/6)(x+59/8) c)(x-5/2)^2=-4(1/6)(y+59/8)');
+INSERT INTO PreguntasGA VALUES (333,164,'Encuentra la ecuación de la parábola que pasa por los puntos P(0,-1), Q(1,-3) y R(-1,-3). a)y=2x^2-1 b)y=-2x^2-1 c)y=-2x^2+1');
+INSERT INTO PreguntasGA VALUES (333,165,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X, que pasa por el centro del círculo x^2+y^2-6x-8y=0 y por los puntos donde se corta dicho círculo con la parabola (y-4)^2=4(x+4) y que no tienen abscisa 2. a)(y-4)^2=-4(4/3)(x-3) b)(y+4)^2=-4(4/3)(x-3) c)(y-4)^2=-4(4/3)(x+3)');
+INSERT INTO PreguntasGA VALUES (333,166,'Encuentra la ecuación de la parábola que pasa por los puntos P(0,-1), Q(1,1) y R(2,7). a)y=-2x^2+1 b)y=2x^2-1 c)y=-2x^2-1');
+INSERT INTO PreguntasGA VALUES (333,167,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje Y, que pasa por el centro del círculo x^2+y^2+10x+4y+25=0, por el punto de intersección de las rectas 2x-y-4=0 y x+2y+13=0 y por el punto P(1,-11). a)(x+5)^2=4(y+2) b)(x-5)^2=-4(y+2) c)(x+5)^2=-4(y+2)');
+INSERT INTO PreguntasGA VALUES (333,168,'Encuentra la ecuación de la parábola que pasa por los puntos P(3/2,3), Q(3,5) y R(3,-3). a)(y-1)^2=8(x-1) b)(y+1)^2=8(x+1) c)(y-1)^2=8(x+1)');
+INSERT INTO PreguntasGA VALUES (333,169,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por los puntos P(3/4,9), Q(-5/4,1) y R(0,11). a)y^2-16x-14y+33=0 b)y^2+16x+14y+33=0 c)y^2+16x-14y+33=0');
+INSERT INTO PreguntasGA VALUES (333,170,'Hallar la ecuación de la parábola de eje vertical y que pasa por los puntos P(6,1), Q(-2,3) y R(16,6). a)x^2−10x+24y−48=0 b)x^2+10x+24y+48=0 c)x^2−10x-24y+48=0');
 
 --Tema 4 Elipse
-INSERT INTO PreguntasGA VALUES (334,171,'Encuentra las coordenadas de los vértices y de los focos de la elipse 4x^2+25y^2-100=0 a)V(5,0),V´(-5,0);F(sqrt(21)),F´(-sqrt(21)) b) c)');
-INSERT INTO PreguntasGA VALUES (334,172,'Encuentra las coordenadas de los vértices y de los focos de la elipse   a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,173,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,174,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,175,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,176,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,177,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,178,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,179,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (334,180,'  a) b) c)');
+INSERT INTO PreguntasGA VALUES (334,171,'Encuentra las coordenadas de los vértices y de los focos de la elipse 4x^2+25y^2-100=0. a)V(5,0),V´(-5,0);F(√21,0),F´(-√21,0) b)V(4,0),V´(-4,0);F(√21,0),F´(-√21,0) c)V(4,0),V´(-4,0);F(-√22,0),F´(√22,0)');
+INSERT INTO PreguntasGA VALUES (334,172,'Encuentra las coordenadas de los vértices y de los focos de la elipse x^2+64y^2=64. a)V(8,0),V´(8,0);F(-3√7,0),F´(3√7,0) b)V(8,0),V´(-8,0);F(3√7,0),F´(-3√7,0) c)V(8,0),V´(-8,0);F(-3√7,0),F´(-3√7,0)');
+INSERT INTO PreguntasGA VALUES (334,173,'Halla la ecuación de la elipse que pasa por el punto P(-3,-2)y cuyos vértices son V(5,0), V´(-5,0). a)x^2/25-y^2/25/4=1 b)x^2/25+y^2/25/-4=1 c)x^2/25+y^2/25/4=1');
+INSERT INTO PreguntasGA VALUES (334,174,'Encuentra las coordenadas del centro, de los focos y de los vértices de la elipse 4x^2+y^2+64x-6y+201=0. a)C(-8,3),F(8,3+4√3),F´(8,3-4√3),V(8,11),V´(8,-5) b)C(-8,3),F(-8,3+4√3),F´(-8,3-4√3),V(-8,11),V´(-8,-5) c)C(-8,3),F(-8,3+4√3),F´(-8,3-4√3),V(8,11),V´(8,-5)');
+INSERT INTO PreguntasGA VALUES (334,175,'Encuentra la ecuación de la elipse cuyo eje mayor es PQ y cuyo eje menor es RS. P(4,6), Q(12,6), R(8,3) y S(8,9). a)(x+8)^2/16+(y-6)^2/9=1 b)(x-8)^2/16+(y-6)^2/9=1 c)(x+8)^2/16+(y+6)^2/9=1');
+INSERT INTO PreguntasGA VALUES (334,176,'Encuentra la forma simétrica de la elipse con vértices V(1,4), V´(-5,4) y excentricidad e=1/4. a)(x+2)^2/9+(y-4)^2/136/16=1 b)(x-2)^2/9+(y-4)^2/136/4=1 c)(x-2)^2/9+(y+4)^2/136/4=1');
+INSERT INTO PreguntasGA VALUES (334,177,'Encuentra la forma simétrica de la elipse con centro C(1,4), foco F(1,-10) y excentricidad e=1/5. a)(x-1)^2/4704-(y-4)^2/4900=1 b)(x+1)^2/4704-(y-4)^2/4900=1 c)(x-1)^2/4704+(y-4)^2/4900=1');
+INSERT INTO PreguntasGA VALUES (334,178,'Encuentra la forma simétrica de la elipse con vértices V(4,0), V´(-4,0) y pasa por el punto P(0,-3). a)x^2/6-y^2/3=1 b)x^2/16+y^2/9=1 c)x^2/4-y^2/3=1');
+INSERT INTO PreguntasGA VALUES (334,179,'Dada la elipse 4x^2+9y^2-32x+54y+109=0, encuentra la ecuación del círculo cuyo radio es el semieje menor de dicha elipse y cuyo centro es el mismo que el de ésta. a)(x-4)^2+(y+3)^2=4 b)(x+4)^2-(y+3)^2=4 c)(x+4)^2+(y-3)^2=4');
+INSERT INTO PreguntasGA VALUES (334,180,'Da los puntos de intersección de la elipse x^2+8y^2+12x-64y+148=0 y el círculo x^2+y^2+12x-8y+43=0. a)P(6+2√2,3),Q(6+2√2,5),R(6-2√2,5),S(6-2√2,3) b)P(-6+2√2,3),Q(-6+2√2,5),R(-6-2√2,5),S(-6-2√2,3) c)P(6+2√2,3),Q(6+2√2,5),R(-6-2√2,5),S(-6-2√2,3)');
 
 --Tema 5 Aplicaciones de la Elipse
-INSERT INTO PreguntasGA VALUES (335,181,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,182,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,183,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,184,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,185,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,186,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,187,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,188,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,189,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (335,190,'  a) b) c)');
+INSERT INTO PreguntasGA VALUES (335,181,'Un arco de 80m de luz tiene forma semielíptica. Sabiendo que su altura es 30m, calcular la altura del arco en un punto situado a 15m del centro. a)15√55/4 b)12√55 c)9√55/5');
+INSERT INTO PreguntasGA VALUES (335,182,'El techo de 14u de altura es el centro de un pasillo de 10u de ancho, tiene la forma de una semielipse , las paredes laterales tiene una altura de 10u, encontrar la altura del techo a 2u de cualquier pared. a)13 b)13,1 c)13,2');
+INSERT INTO PreguntasGA VALUES (335,183,'Un arco en forma de media elipse tiene 40 pies de ancho y 16 pies de altura en el centro. Encuentre la altura del arco de 10 pies del extremo derecho. a)8√3 b)2√5 c)3√3');
+INSERT INTO PreguntasGA VALUES (335,184,'Un puente está diseñado de tal manera que su base tiene forma de semielipse con una luz de 150m, siendo su máxima altura 45m. Hallar la longitud de dos soportes verticales cuya distancia entre sí y a sus respectivos extremos es la misma. 
+a)30√3 b)30√2 c)13√3');
+INSERT INTO PreguntasGA VALUES (335,185,'El arco de un túnel es de forma semielíptica, tiene un ancho en la parte más baja de 48 m y una altura en el centro de 20 m. ¿Qué ancho tiene el túnel a la mitad de su altura? a)10√3 b)20√3 c)24√3');
+INSERT INTO PreguntasGA VALUES (335,186,'Un techo de 14 m de altura en el centro de un pasillo de 10 m de ancho tiene la forma de una semielipse, las paredes laterales tienen una altura de 10 m, calcule la altura del techo a 2 m de cualquier pared lateral. a)13,2m b)9,7m c)12,4m');
+INSERT INTO PreguntasGA VALUES (335,187,'El arco de un puente es semielíptico con eje mayor horizontal. La base del arco mide 6 m y la
+parte más alta del arco mide 2 m arriba del agua. Encuentra la altura a los 2 m de la base. a)1.9m b)2.0m c)1.7m');
+INSERT INTO PreguntasGA VALUES (335,188,'Una compañía de construcción está diseñando una fuente ornamental en forma de elipse para un parque. El radio del eje mayor es de 15 metros y el radio del eje menor es de 10 metros. La distancia entre el centro de la elipse y uno de los focos es: a)12 metros b)9 metros c)6 metros.');
+INSERT INTO PreguntasGA VALUES (335,189,'Un astrónomo está estudiando la órbita de un cometa alrededor del sol, que se modela como una elipse. La distancia entre los dos focos de la elipse es de 20 unidades astronómicas (UA), y el eje mayor tiene una longitud de 30 UA. La excentricidad de la órbita del cometa, aproximada a dos decimales, es: a)0.33 b)0.66 c)0.75');
+INSERT INTO PreguntasGA VALUES (335,190,'Una empresa de producción agrícola quiere cercar un terreno para plantar árboles frutales en forma de una elipse. La longitud del eje mayor es de 60 metros y la longitud del eje menor es de 40 metros. El perímetro de la elipse, aproximado al metro más cercano, es: a)200 metros b)150 metros c)180 metros a) b) c)');
 
 --Tema 6 Hipérbola
-INSERT INTO PreguntasGA VALUES (336,191,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,192,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,193,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,194,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,195,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,196,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,197,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,198,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,199,'  a) b) c)');
-INSERT INTO PreguntasGA VALUES (336,200,'  a) b) c)');
+INSERT INTO PreguntasGA VALUES (336,191,'Encuentra la coordenada de los vértices y de los focos de la hipérbola 2x^2-3y^2=12. a)V(√6,0),V´(-√6,0),F(√10,0),F´(-√10,0) b)V(-√6,0),V´(-√6,0),F(√10,0),F´(-√10,0) c)V(√6,0),V´(0,-√6),F(√10,0),F´(-√10,0)');
+INSERT INTO PreguntasGA VALUES (336,192,'Encuentra la coordenada de los vértices y de los focos de la hipérbola x^2-9y^2-81=0. a)V(0,9),V´(-9,0),F(3√10,0),F´(-3√10,0) b)V(0,9),V´(-9,0),F(0,3√10),F´(-3√10,0) c)V(9,0),V´(-9,0),F(3√10,0),F´(-3√10,0)');
+INSERT INTO PreguntasGA VALUES (336,193,'Encuentra la ecuación de la hipérbola con focos F´(-5,0) F(5,0) la distancia entre sus vértices es 4. a)x^2/4-y^2/21=1 b)x^2/4+y^2/22=1 c)x^2/4-y^2/20=1');
+INSERT INTO PreguntasGA VALUES (336,194,'Encuentra la ecuación de la hipérbola con focos F´(0,-6) F´(0,6); vértices V´(0,-3) V(0,3). a)x^2/3+y^2/27=1 b)y^2/9-x^2/27=1 c)y^2/3+x^2/27=1');
+INSERT INTO PreguntasGA VALUES (336,195,'Encuentra la coordenada de los vértices y los focos de la hipérbola 4x^2-y^2-40x-8y+68=0. a)V(-7,-4),V´(3,-4),F(5+2√5,-4),F´(5-2√5,-4) b)V(-7,-4),V´(-3,-4),F(5+2√5,4),F´(5-2√5,4) c)V(7,-4),V´(3,-4),F(5+2√5,-4),F´(5-2√5,-4)');
+INSERT INTO PreguntasGA VALUES (336,196,'Encuentra la coordenada de los vértices y los focos de la hipérbola x^2-2y^2+4x+20y-50=0. a)V(0,5),V´(-4,5),F(-2+√6,5),F´(-2-√6,5) b)V(0,5),V´(4,5),F(2+√6,5),F´(2-√6,5) c)V(0,5),V´(4,5),F(-2+√6,5),F´(2+√6,5)');
+INSERT INTO PreguntasGA VALUES (336,197,'Encuentra la coordenada de los vértices y los focos de la hipérbola -8x^2+3y^2+128x-6y-557=0. a)V(8,-5),V´(8,-3),F(8,1-√22),F´(8,1+√22) b)V(8,5),V´(8,-3),F(8,1+√22),F´(8,1-√22) c)V(8,5),V´(8,3),F(-8,1+√22),F´(-8,1-√22)');
+INSERT INTO PreguntasGA VALUES (336,198,'Encuentra la ecuación de la hipérbola con vértices en V(7,1), V´(-3,1) y con focos (9,1), F´(-5,1). a)(x-2)^2/25-(y-1)^2/24=1 b)(x-2)^2/25+(y+1)^2/24=1 c)(x+2)^2/25-(y+1)^2/24=1');
+INSERT INTO PreguntasGA VALUES (336,199,'Encuentra la ecuación de la hipérbola con vértices en V(2,7), V´(2,-7) que pasa por el punto P(4,7√2). a)y^2/49+(x+2)^2/4=1 b)y^2/49+(x-2)^2/4=1 c)y^2/49-(x-2)^2/4=1');
+INSERT INTO PreguntasGA VALUES (336,200,'Da la ecuación de la hipérbola vertical que tiene el mismo centro que la hipérbola x^2-3y^2+16x+36y-53=0, la misma longitud del eje focal y la misma distancia entre su vértices. a)(y-6)^2/9+(x-8)^2/3=1 b)(y-6)^2/9-(x+8)^2/3=1 c)(y+6)^2/9+(x+8)^2/3=1');
 
 
 
@@ -357,7 +358,7 @@ CREATE TABLE RespuestasGA(
 
 --Tema 1 Distancia entre dos puntos en el plano cartesiano.
 INSERT INTO RespuestasGA VALUES (01,010,'a'),
-INSERT INTO RespuestasGA VALUES (02,020,'C'),
+INSERT INTO RespuestasGA VALUES (02,020,'c'),
 INSERT INTO RespuestasGA VALUES (03,030,'b'),
 INSERT INTO RespuestasGA VALUES (04,040,'b'),
 INSERT INTO RespuestasGA VALUES (05,050,'b'),
@@ -369,7 +370,7 @@ INSERT INTO RespuestasGA VALUES (10,100,'a');
 
 --Tema 2 Área de un polígono dados sus vértices.
 INSERT INTO RespuestasGA VALUES (11,110,'a');
-INSERT INTO RespuestasGA VALUES (12,120,'C');
+INSERT INTO RespuestasGA VALUES (12,120,'c');
 INSERT INTO RespuestasGA VALUES (13,130,'b');
 INSERT INTO RespuestasGA VALUES (14,140,'b'); 
 INSERT INTO RespuestasGA VALUES (15,150,'b'); 
@@ -382,7 +383,7 @@ INSERT INTO RespuestasGA VALUES (20,200,'a');
 
 --Tema 3 División de un segmento en una razón dada.
 INSERT INTO RespuestasGA VALUES (21,210,'a');
-INSERT INTO RespuestasGA VALUES (22,220,'C');
+INSERT INTO RespuestasGA VALUES (22,220,'c');
 INSERT INTO RespuestasGA VALUES (23,230,'b');
 INSERT INTO RespuestasGA VALUES (24,240,'b'); 
 INSERT INTO RespuestasGA VALUES (25,250,'b'); 
@@ -394,7 +395,7 @@ INSERT INTO RespuestasGA VALUES (30,300,'a');
 
 --Tema 4 Pendiente y Ángulo de inclinación de una recta.
 INSERT INTO RespuestasGA VALUES (31,310,'a');
-INSERT INTO RespuestasGA VALUES (32,320,'C');
+INSERT INTO RespuestasGA VALUES (32,320,'c');
 INSERT INTO RespuestasGA VALUES (33,330,'b');
 INSERT INTO RespuestasGA VALUES (34,340,'b'); 
 INSERT INTO RespuestasGA VALUES (35,350,'b'); 
@@ -407,7 +408,7 @@ INSERT INTO RespuestasGA VALUES (40,400,'a');
 
 --Tema 5 Primer Problema fundamental de la Geometría Analítica
 INSERT INTO RespuestasGA VALUES (41,410,'a');
-INSERT INTO RespuestasGA VALUES (42,420,'C');
+INSERT INTO RespuestasGA VALUES (42,420,'c');
 INSERT INTO RespuestasGA VALUES (43,430,'b');
 INSERT INTO RespuestasGA VALUES (44,440,'b'); 
 INSERT INTO RespuestasGA VALUES (45,450,'b'); 
@@ -419,7 +420,7 @@ INSERT INTO RespuestasGA VALUES (50,500,'a');
 
 --Tema 6 Segundo Problema fundamental de la Geometía Analítica
 INSERT INTO RespuestasGA VALUES (51,510,'a');
-INSERT INTO RespuestasGA VALUES (52,520,'C');
+INSERT INTO RespuestasGA VALUES (52,520,'c');
 INSERT INTO RespuestasGA VALUES (53,530,'b');
 INSERT INTO RespuestasGA VALUES (54,540,'b'); 
 INSERT INTO RespuestasGA VALUES (55,550,'b'); 
@@ -442,7 +443,7 @@ INSERT INTO RespuestasGA VALUES (60,600,'a');
 
 --Tema 1 La línea Recta
 INSERT INTO RespuestasGA VALUES (61,610,'a');
-INSERT INTO RespuestasGA VALUES (62,620,'C');
+INSERT INTO RespuestasGA VALUES (62,620,'c');
 INSERT INTO RespuestasGA VALUES (63,630,'b');
 INSERT INTO RespuestasGA VALUES (64,640,'b'); 
 INSERT INTO RespuestasGA VALUES (65,650,'b'); 
@@ -454,7 +455,7 @@ INSERT INTO RespuestasGA VALUES (70,700,'a');
 
 --Tema 2 Condición de Paralelismo y Perpendicularidad
 INSERT INTO RespuestasGA VALUES (71,710,'a');
-INSERT INTO RespuestasGA VALUES (72,720,'C');
+INSERT INTO RespuestasGA VALUES (72,720,'c');
 INSERT INTO RespuestasGA VALUES (73,730,'b');
 INSERT INTO RespuestasGA VALUES (74,740,'b'); 
 INSERT INTO RespuestasGA VALUES (75,750,'b'); 
@@ -466,7 +467,7 @@ INSERT INTO RespuestasGA VALUES (80,800,'a');
 
 --Tema 3 Ecuación normal de la recta
 INSERT INTO RespuestasGA VALUES (81,810,'a');
-INSERT INTO RespuestasGA VALUES (82,820,'C');
+INSERT INTO RespuestasGA VALUES (82,820,'c');
 INSERT INTO RespuestasGA VALUES (83,830,'b');
 INSERT INTO RespuestasGA VALUES (84,840,'b'); 
 INSERT INTO RespuestasGA VALUES (85,850,'b'); 
@@ -478,7 +479,7 @@ INSERT INTO RespuestasGA VALUES (90,900,'a');
 
 --Tema 4 Distancia de un punto a una recta
 INSERT INTO RespuestasGA VALUES (91,910,'a');
-INSERT INTO RespuestasGA VALUES (92,920,'C');
+INSERT INTO RespuestasGA VALUES (92,920,'c');
 INSERT INTO RespuestasGA VALUES (93,930,'b');
 INSERT INTO RespuestasGA VALUES (94,940,'b'); 
 INSERT INTO RespuestasGA VALUES (95,950,'b'); 
@@ -490,7 +491,7 @@ INSERT INTO RespuestasGA VALUES (100,1000,'a');
 
 --Tema 5 Ángulo entre dos rectas
 INSERT INTO RespuestasGA VALUES (101,1010,'a');
-INSERT INTO RespuestasGA VALUES (102,1020,'C');
+INSERT INTO RespuestasGA VALUES (102,1020,'c');
 INSERT INTO RespuestasGA VALUES (103,1030,'b');
 INSERT INTO RespuestasGA VALUES (104,1040,'b'); 
 INSERT INTO RespuestasGA VALUES (105,1050,'b'); 
@@ -502,7 +503,7 @@ INSERT INTO RespuestasGA VALUES (110,1100,'a');
 
 --Tema 6 Circunfernecia
 INSERT INTO RespuestasGA VALUES (111,1110,'a');
-INSERT INTO RespuestasGA VALUES (112,1120,'C');
+INSERT INTO RespuestasGA VALUES (112,1120,'c');
 INSERT INTO RespuestasGA VALUES (113,1130,'b');
 INSERT INTO RespuestasGA VALUES (114,1140,'b'); 
 INSERT INTO RespuestasGA VALUES (115,1150,'b'); 
@@ -514,7 +515,7 @@ INSERT INTO RespuestasGA VALUES (120,1200,'a');
 
 --Tema 7 Recta tangente a una circunferencia
 INSERT INTO RespuestasGA VALUES (121,1210,'a');
-INSERT INTO RespuestasGA VALUES (122,1220,'C');
+INSERT INTO RespuestasGA VALUES (122,1220,'c');
 INSERT INTO RespuestasGA VALUES (123,1230,'b');
 INSERT INTO RespuestasGA VALUES (124,1240,'b'); 
 INSERT INTO RespuestasGA VALUES (125,1250,'b'); 
@@ -526,7 +527,7 @@ INSERT INTO RespuestasGA VALUES (130,1300,'a');
 
 --Tema 8 Circunferencia dada tres condiciones
 INSERT INTO RespuestasGA VALUES (131,1310,'a');
-INSERT INTO RespuestasGA VALUES (132,1320,'C');
+INSERT INTO RespuestasGA VALUES (132,1320,'c');
 INSERT INTO RespuestasGA VALUES (133,1330,'b');
 INSERT INTO RespuestasGA VALUES (134,1340,'b'); 
 INSERT INTO RespuestasGA VALUES (135,1350,'b'); 
@@ -550,35 +551,35 @@ INSERT INTO RespuestasGA VALUES (140,1400,'a');
 
 --Tema 1 Parábola
 INSERT INTO RespuestasGA VALUES (141,1410,'a');
-INSERT INTO RespuestasGA VALUES (142,1420,'C');
-INSERT INTO RespuestasGA VALUES (143,1430,'b');
+INSERT INTO RespuestasGA VALUES (142,1420,'c');
+INSERT INTO RespuestasGA VALUES (143,1430,'a');
 INSERT INTO RespuestasGA VALUES (144,1440,'b'); 
-INSERT INTO RespuestasGA VALUES (145,1450,'b'); 
+INSERT INTO RespuestasGA VALUES (145,1450,'c'); 
 INSERT INTO RespuestasGA VALUES (146,1460,'a'); 
-INSERT INTO RespuestasGA VALUES (147,1470,'c'); 
-INSERT INTO RespuestasGA VALUES (148,1480,'a');
-INSERT INTO RespuestasGA VALUES (149,1490,'c');
+INSERT INTO RespuestasGA VALUES (147,1470,'b'); 
+INSERT INTO RespuestasGA VALUES (148,1480,'c');
+INSERT INTO RespuestasGA VALUES (149,1490,'a');
 INSERT INTO RespuestasGA VALUES (150,1500,'a');
 
 --Tema 2 Aplicaciones de la Parábola
 INSERT INTO RespuestasGA VALUES (151,1510,'a');
-INSERT INTO RespuestasGA VALUES (152,1520,'C');
+INSERT INTO RespuestasGA VALUES (152,1520,'c');
 INSERT INTO RespuestasGA VALUES (153,1530,'b');
 INSERT INTO RespuestasGA VALUES (154,1540,'b'); 
-INSERT INTO RespuestasGA VALUES (155,1550,'b'); 
+INSERT INTO RespuestasGA VALUES (155,1550,'a'); 
 INSERT INTO RespuestasGA VALUES (156,1560,'a'); 
 INSERT INTO RespuestasGA VALUES (157,1570,'c'); 
 INSERT INTO RespuestasGA VALUES (158,1580,'a');
-INSERT INTO RespuestasGA VALUES (159,1590,'c');
-INSERT INTO RespuestasGA VALUES (160,1600,'a');
+INSERT INTO RespuestasGA VALUES (159,1590,'b');
+INSERT INTO RespuestasGA VALUES (160,1600,'c');
 
 --Tema 3 Parábola dada tres condiciones
-INSERT INTO RespuestasGA VALUES (161,1610,'a');
-INSERT INTO RespuestasGA VALUES (162,1620,'C');
-INSERT INTO RespuestasGA VALUES (163,1630,'b');
+INSERT INTO RespuestasGA VALUES (161,1610,'b');
+INSERT INTO RespuestasGA VALUES (162,1620,'c');
+INSERT INTO RespuestasGA VALUES (163,1630,'a');
 INSERT INTO RespuestasGA VALUES (164,1640,'b'); 
-INSERT INTO RespuestasGA VALUES (165,1650,'b'); 
-INSERT INTO RespuestasGA VALUES (166,1660,'a'); 
+INSERT INTO RespuestasGA VALUES (165,1650,'a'); 
+INSERT INTO RespuestasGA VALUES (166,1660,'b'); 
 INSERT INTO RespuestasGA VALUES (167,1670,'c'); 
 INSERT INTO RespuestasGA VALUES (168,1680,'a');
 INSERT INTO RespuestasGA VALUES (169,1690,'c');
@@ -586,37 +587,37 @@ INSERT INTO RespuestasGA VALUES (170,1700,'a');
 
 --Tema 4 Elipse
 INSERT INTO RespuestasGA VALUES (171,1710,'a');
-INSERT INTO RespuestasGA VALUES (172,1720,'C');
-INSERT INTO RespuestasGA VALUES (173,1730,'b');
+INSERT INTO RespuestasGA VALUES (172,1720,'b');
+INSERT INTO RespuestasGA VALUES (173,1730,'c');
 INSERT INTO RespuestasGA VALUES (174,1740,'b'); 
 INSERT INTO RespuestasGA VALUES (175,1750,'b'); 
 INSERT INTO RespuestasGA VALUES (176,1760,'a'); 
 INSERT INTO RespuestasGA VALUES (177,1770,'c'); 
-INSERT INTO RespuestasGA VALUES (178,1780,'a');
-INSERT INTO RespuestasGA VALUES (179,1790,'c');
-INSERT INTO RespuestasGA VALUES (180,1800,'a');
+INSERT INTO RespuestasGA VALUES (178,1780,'b');
+INSERT INTO RespuestasGA VALUES (179,1790,'a');
+INSERT INTO RespuestasGA VALUES (180,1800,'b');
  
 --Tema 5 Aplicaciones de la Elipse
 INSERT INTO RespuestasGA VALUES (181,1810,'a');
-INSERT INTO RespuestasGA VALUES (182,1820,'C');
-INSERT INTO RespuestasGA VALUES (183,1830,'b');
+INSERT INTO RespuestasGA VALUES (182,1820,'c');
+INSERT INTO RespuestasGA VALUES (183,1830,'a');
 INSERT INTO RespuestasGA VALUES (184,1840,'b'); 
-INSERT INTO RespuestasGA VALUES (185,1850,'b'); 
+INSERT INTO RespuestasGA VALUES (185,1850,'c'); 
 INSERT INTO RespuestasGA VALUES (186,1860,'a'); 
-INSERT INTO RespuestasGA VALUES (187,1870,'c'); 
-INSERT INTO RespuestasGA VALUES (188,1880,'a');
-INSERT INTO RespuestasGA VALUES (189,1890,'c');
-INSERT INTO RespuestasGA VALUES (190,1900,'a');
+INSERT INTO RespuestasGA VALUES (187,1870,'a'); 
+INSERT INTO RespuestasGA VALUES (188,1880,'b');
+INSERT INTO RespuestasGA VALUES (189,1890,'a');
+INSERT INTO RespuestasGA VALUES (190,1900,'b');
 
 --Tema 6 Hipérbola
 INSERT INTO RespuestasGA VALUES (191,1910,'a');
-INSERT INTO RespuestasGA VALUES (192,1920,'C');
-INSERT INTO RespuestasGA VALUES (193,1930,'b');
+INSERT INTO RespuestasGA VALUES (192,1920,'c');
+INSERT INTO RespuestasGA VALUES (193,1930,'a');
 INSERT INTO RespuestasGA VALUES (194,1940,'b'); 
-INSERT INTO RespuestasGA VALUES (195,1950,'b'); 
+INSERT INTO RespuestasGA VALUES (195,1950,'c'); 
 INSERT INTO RespuestasGA VALUES (196,1960,'a'); 
-INSERT INTO RespuestasGA VALUES (197,1970,'c'); 
+INSERT INTO RespuestasGA VALUES (197,1970,'b'); 
 INSERT INTO RespuestasGA VALUES (198,1980,'a');
 INSERT INTO RespuestasGA VALUES (199,1990,'c');
-INSERT INTO RespuestasGA VALUES (200,2000,'a');
+INSERT INTO RespuestasGA VALUES (200,2000,'b');
 
