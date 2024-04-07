@@ -91,5 +91,43 @@ public class SqlUsuarios extends Conexion {
         // Verificar si la cadena coincide con el patrón
         return matcher.matches();
     }
+    
+   public boolean login(Usuarios usr) throws SQLException {
+
+        PreparedStatement ps = null;
+
+        ResultSet rs = null;
+
+        Connection con = getConexion();
+
+        String sql = "SELECT id,usuario,boleta,Password FROM usuarios WHERE usuario";
+
+        try {
+            ps = con.prepareStatement(sql);
+
+            ps.setString(1, usr.getUsuario());
+
+            rs = ps.executeQuery();
+
+            if (rs.next()) {
+                
+                if(usr.getPassword().equals(rs.getString(4))){
+                    usr.setId(rs.getInt(1));
+                    usr.setUsuario(rs.getString(2));
+                    return true;
+                    
+                } else{
+                    return false;
+                }
+            }
+            return false;
+        } catch (SQLException ex) {
+            Logger.getLogger(SqlUsuarios.class.getName()).log(Level.SEVERE, null, ex);
+
+            return false;
+
+        }
+
+    }
 
 }
