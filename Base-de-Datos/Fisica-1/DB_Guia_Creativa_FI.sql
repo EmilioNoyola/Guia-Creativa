@@ -206,10 +206,80 @@ B) 3.4, θ= 225°
 C) 4.808, θ= 135°
 D) 3.4, θ= 45°
 ");
+INSERT INTO PreguntasF1 VALUES(141,15,"¿Cuál es la fórmula para calcular la magnitud de un vector en el espacio tridimensional?
+A) |A| = √(Ax^2 + Ay^2)
+B) |A| = √(Ax^2 + Ay^2 + Az^2)
+--C) |A| = √(Ax^2 + Ay^2 + Az^2)")
+);
 
---Tema 2 primer parcial
+INSERT INTO PreguntasF1 VALUES(141,16,"¿Cuál es la fórmula para calcular el ángulo entre dos vectores A y B utilizando el producto escalar?
+A) cos(θ) = (A·B) / (|A||B|)
+B) cos(θ) = (Ax * Bx + Ay * By) / (|A||B|)
+--C) cos(θ) = (A·B) / (|A||B|)
+D) cos(θ) = (Ax * Bx - Ay * By) / (|A||B|)"
+);
 
-INSERT INTO PreguntasF1 VALUES(142,15," ¿Qué es medir?
+INSERT INTO PreguntasF1 VALUES(141,17,"¿Cuál es la propiedad del producto cruz entre dos vectores A y B?
+A) El resultado es un escalar.
+B) El resultado es un vector perpendicular al plano formado por A y B.
+--C) El resultado es un vector que está contenido en el plano formado por A y B.
+D) El resultado es un vector con magnitud igual al producto de las magnitudes de A y B."
+);
+
+INSERT INTO PreguntasF1 VALUES(141,18,"¿Qué representa el producto cruz de dos vectores unitarios i y j?
+A) Un vector perpendicular al plano xy.
+B) Un vector paralelo al eje z.
+C) Un vector perpendicular al eje z.
+--D) Un vector unitario en la dirección del eje z."
+);
+
+INSERT INTO PreguntasF1 VALUES(141,19,"¿Cuál es la condición necesaria para que dos vectores sean perpendiculares entre sí?
+A) La suma de sus componentes debe ser igual a cero.
+--B) El producto escalar entre ellos debe ser igual a cero.
+C) El producto cruz entre ellos debe ser igual a cero.
+D) La suma de las magnitudes de ambos vectores debe ser igual a cero."
+);
+
+INSERT INTO PreguntasF1 VALUES(141,20,"¿Cuál es la fórmula para calcular el producto cruz entre dos vectores A y B en el espacio tridimensional?
+A) AxB = |A| * |B| * sen(θ)
+B) AxB = |A| * |B| * cos(θ)
+C) AxB = |A| * |B| * tan(θ)
+--D) AxB = |A| * |B| * sen(θ) * n, donde n es un vector unitario perpendicular al plano formado por A y B."
+);
+
+INSERT INTO PreguntasF1 VALUES(141,21,"¿Cuál es la propiedad del producto cruz de dos vectores A y B?
+--A) El resultado es un vector perpendicular al plano formado por A y B.
+B) El resultado es un vector paralelo al plano formado por A y B.
+C) El resultado es un vector contenido en el plano formado por A y B.
+D) El resultado es un vector que está contenido en el mismo plano que A y B."
+);
+
+INSERT INTO PreguntasF1 VALUES(141,22,"¿Cuál es la propiedad del producto cruz entre dos vectores paralelos?
+A) El resultado es cero.
+B) El resultado es un vector perpendicular a ambos vectores.
+C) El resultado es un vector paralelo a los vectores originales.
+--D) El resultado es cero si los vectores tienen la misma dirección."
+);
+
+INSERT INTO PreguntasF1 VALUES(141,23,"¿Qué representa el producto cruz de dos vectores A y B en términos geométricos?
+A) La magnitud de la proyección de A sobre B.
+--B) El área del paralelogramo formado por A y B.
+C) El volumen del paralelepípedo formado por A, B y su producto cruz.
+D) La distancia entre los extremos de A y B."
+);
+
+INSERT INTO PreguntasF1 VALUES(141,24,"¿Cuál es la propiedad del producto cruz de dos vectores ortogonales?
+A) El resultado es un vector paralelo al plano formado por los dos vectores.
+B) El resultado es cero.
+--C) El resultado es un vector perpendicular al plano formado por los dos vectores.
+D) El resultado es un vector perpendicular a uno de los vectores originales."
+);
+
+--Tema 2:Sistemas de unidades primer parcial
+
+--Tema 2:Sistemas de unidades primer parcial
+
+INSERT INTO PreguntasF1 VALUES(142,25," ¿Qué es medir?
 --A) Es la acción de comparar un objeto o cosa con un patrón de medida previamente establecido y validado.
 
 B) Es la acción de observar un objeto sin compararlo con ningún patrón.
@@ -219,7 +289,7 @@ C) Es la acción de crear un patrón de medida.
 D) Es la acción de pesar un objeto.
 ");
 
-INSERT INTO PreguntasF1 VALUES(142,16,"Explica qué es la resolución de un instrumento de medición.
+INSERT INTO PreguntasF1 VALUES(142,26,"Explica qué es la resolución de un instrumento de medición.
 --A) Es la mínima medida que puede ser realizada con un instrumento de medición.
 
 B) Es la máxima medida que puede ser realizada con un instrumento de medición.
@@ -229,7 +299,7 @@ C) Es la precisión de un instrumento de medición.
 D) Es la exactitud de un instrumento de medición.
 ");
 
-INSERT INTO PreguntasF1 VALUES(142,17,"Elige 3 de las cantidades fundamentales del sistema internacional de unidades.
+INSERT INTO PreguntasF1 VALUES(142,27,"Elige 3 de las cantidades fundamentales del sistema internacional de unidades.
 --A) Amperio, Kelvin, mol
 
 B) Metro, Segundo, Libra
@@ -239,7 +309,7 @@ C) Litro, Hora, Newton
 D) Voltio, Joule, Pascal
 ");
 
-INSERT INTO PreguntasF1 VALUES(142,18,"¿Cuál es la diferencia entre la medición y el valor promedio?
+INSERT INTO PreguntasF1 VALUES(142,28,"¿Cuál es la diferencia entre la medición y el valor promedio?
 A) Exactitud
 
 --B) Error absoluto
@@ -249,7 +319,7 @@ C) Precisión
 D) Incertidumbre
 ");
 
-INSERT INTO PreguntasF1 VALUES(142,19,"¿Cuál es el nombre del prefijo para expresar 10^9?
+INSERT INTO PreguntasF1 VALUES(142,29,"¿Cuál es el nombre del prefijo para expresar 10^9?
  --A) Giga 
  B) Tera 
  C) Mega 
@@ -257,9 +327,9 @@ INSERT INTO PreguntasF1 VALUES(142,19,"¿Cuál es el nombre del prefijo para exp
  ");
 
 
-INSERT INTO PreguntasF1 VALUES(142,20,"¿Cuáles son las dimensiones de la velocidad? A) M^0 L^1 T^-1 B) M^1 L^1 T^-1 C) M^1 L^0 T^-1 D) M^0 L^0 T^-1");
+INSERT INTO PreguntasF1 VALUES(142,30,"¿Cuáles son las dimensiones de la velocidad? A) M^0 L^1 T^-1 B) M^1 L^1 T^-1 C) M^1 L^0 T^-1 D) M^0 L^0 T^-1");
 
-INSERT INTO PreguntasF1 VALUES(142,21,"Un terreno rectangular tiene 100.0 ft El Área del terreno en m^2 es:
+INSERT INTO PreguntasF1 VALUES(142,31,"Un terreno rectangular tiene 100.0 ft El Área del terreno en m^2 es:
 A) 30.48m^2
 
 B) 929.0m^2
@@ -269,7 +339,7 @@ C) 100.0m^2
 --D) 1394.0m^2
 ");
 
-INSERT INTO PreguntasF1 VALUES(142,22,"¿Qué es el valor promedio de todos los datos?
+INSERT INTO PreguntasF1 VALUES(142,32,"¿Qué es el valor promedio de todos los datos?
 A) Mediana
 
 --B) Media
@@ -279,7 +349,7 @@ C) Moda
 D) Rango
 ");
 
-INSERT INTO PreguntasF1 VALUES(142,23,"¿Cuánto equivale un metro en pies (ft)?
+INSERT INTO PreguntasF1 VALUES(142,33,"¿Cuánto equivale un metro en pies (ft)?
 A) 0.621mi
 
 B) 1.094yd
@@ -289,7 +359,7 @@ B) 1.094yd
 D) 39.37in
 ");
 
-INSERT INTO PreguntasF1 VALUES(142,24,"Sobre la luna, la aceleración debido a la gravedad es solo 1/6 de la que existe en la Tierra. Un astronauta cuya masa en la tierra es de 600kg se desplaza a la superficie lunar. ¿Cuál es su masa medida en la luna?
+INSERT INTO PreguntasF1 VALUES(142,34,"Sobre la luna, la aceleración debido a la gravedad es solo 1/6 de la que existe en la Tierra. Un astronauta cuya masa en la tierra es de 600kg se desplaza a la superficie lunar. ¿Cuál es su masa medida en la luna?
 A) 360kg
 
 B) 100kg
@@ -299,7 +369,150 @@ C) 3600kg
 --D) 600kg
 ");
 
-INSERT INTO PreguntasF1 VALUES(143,25,"Explica lo que es la Física
+INSERT INTO PreguntasF1 VALUES(142,35,"¿Cuál es la unidad de medida básica de la masa en el sistema internacional?
+A) Kilogramo
+
+B) Gramo
+
+C) Libra
+
+--D) Kilogramo masa
+");
+
+INSERT INTO PreguntasF1 VALUES(142,36,"¿Cuál es la unidad de medida básica de la longitud en el sistema internacional?
+A) Metro
+
+B) Kilómetro
+
+C) Pulgada
+
+--D) Metro
+");
+
+INSERT INTO PreguntasF1 VALUES(142,37,"¿Cuál es la unidad de medida básica del tiempo en el sistema internacional?
+A) Hora
+
+B) Segundo
+
+C) Minuto
+
+--D) Segundo
+");
+
+INSERT INTO PreguntasF1 VALUES(142,38,"¿Qué unidad de medida se utiliza para expresar la corriente eléctrica en el sistema internacional?
+--A) Amperio
+
+B) Voltio
+
+C) Ohmio
+
+D) Faradio
+");
+
+INSERT INTO PreguntasF1 VALUES(142,39,"¿Cuál es el símbolo del kilogramo en el sistema internacional?
+A) kg
+
+B) g
+
+--C) kgm
+
+D) lb
+");
+
+INSERT INTO PreguntasF1 VALUES(142,40,"¿Cuál es el símbolo del metro en el sistema internacional?
+--A) m
+
+B) km
+
+C) Mt
+
+D) cm
+");
+
+INSERT INTO PreguntasF1 VALUES(142,41,"¿Cuál es el símbolo del segundo en el sistema internacional?
+A) s
+
+B) sec
+
+C) sg
+
+--D) s
+");
+
+INSERT INTO PreguntasF1 VALUES(142,42,"¿Qué unidad de medida se utiliza para expresar la temperatura en el sistema internacional?
+A) Grado Celsius
+
+B) Fahrenheit
+
+--C) Kelvin
+
+D) Rankine
+");
+
+INSERT INTO PreguntasF1 VALUES(142,43,"¿Cuál es el símbolo del amperio en el sistema internacional?
+--A) A
+
+B) mA
+
+C) amp
+
+D) A/h
+");
+
+INSERT INTO PreguntasF1 VALUES(142,44,"¿Cuál es el símbolo del voltio en el sistema internacional?
+A) V
+
+B) vlt
+
+--C) Vlt
+
+D) v
+");
+
+INSERT INTO PreguntasF1 VALUES(142,45,"¿Cuál es el símbolo del ohmio en el sistema internacional?
+A) o
+
+B) oh
+
+C) ohm
+
+--D) Ω
+");
+
+INSERT INTO PreguntasF1 VALUES(142,46,"¿Cuál es el símbolo del faradio en el sistema internacional?
+--A) F
+
+B) Fd
+
+C) Fd^2
+
+D) F^2
+");
+
+INSERT INTO PreguntasF1 VALUES(142,48,"¿Cuál es el símbolo del watt en el sistema internacional?
+A) Wt
+
+B) W
+
+--C) Wt
+
+D) Wtt
+");
+
+INSERT INTO PreguntasF1 VALUES(142,49,"¿Cuál es el símbolo del henrio en el sistema internacional?
+A) Hn
+
+B) Hn^2
+
+C) H^2
+
+--D) H
+");
+
+
+--tema 3 : Generalidades de Fisica primer parcial
+
+INSERT INTO PreguntasF1 VALUES(143,50,"Explica lo que es la Física
 A) Es el estudio de las fuerzas sobrenaturales.
 
 B) Es una ciencia que se dedica al análisis de la biología.
@@ -309,7 +522,7 @@ B) Es una ciencia que se dedica al análisis de la biología.
 D) Es una disciplina que se centra en el estudio de la historia humana.
 ");
 
-INSERT INTO PreguntasF1 VALUES(143,26," Explica qué es una ciencia factual y da dos ejemplos de las mismas
+INSERT INTO PreguntasF1 VALUES(143,51," Explica qué es una ciencia factual y da dos ejemplos de las mismas
 A) Son las ciencias que se ocupan de estudiar conceptos abstractos y teorías. Ejemplos: Matemáticas y Filosofía.
 
 --B) Son las ciencias que se encargan de estudiar hechos y sucesiones reales. Ejemplos: Física y Química.
@@ -319,12 +532,23 @@ C) Son las ciencias que analizan las emociones y los sentimientos. Ejemplos: Psi
 D) Son las ciencias que se enfocan en el estudio de la música y las artes visuales. Ejemplos: Música y Pintura.
 ");
 
-INSERT INTO PreguntasF1 VALUES(143,27,"Ciencia que estudia las propiedades de la mate materia y de la energía y establece las leyes que
+INSERT INTO PreguntasF1 VALUES(143,52,"Ciencia que estudia las propiedades de la mate materia y de la energía y establece las leyes que
 explican los fenómenos naturales, excluyendo los que modifican la estructura molecular de los cuerpos.
 A) Química
 --B) Física
 C) Biología
 D) Matemática
 
-
 ");
+
+
+
+--Tabla Respuestas de F1
+CREATE TABLE RespuestasF1(
+	ID_PreguntaF1 INTEGER NOT NULL,
+	ID_RespuestasF1 INTEGER NOT NULL,
+	Respuestas VARCHAR(5) NOT NULL,
+	PRIMARY KEY (ID_RespuestasF1),
+	FOREIGN KEY (ID_PreguntaF1)
+	REFERENCES PreguntasF1(ID_PreguntaF1)
+	);
