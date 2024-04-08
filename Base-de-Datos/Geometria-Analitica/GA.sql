@@ -42,108 +42,108 @@ CREATE TABLE PreguntasGA(
 --Tema 1 Distancia entre dos puntos en el plano cartesiano.
 INSERT INTO PreguntasGA VALUES (131,01,' Encuentra la distancia entre los puntos P(0,1) y Q(2,2): a)√5 b)√4 c)√6');
 INSERT INTO PreguntasGA VALUES (131,02,' Encuentra la distancia entre los puntos P(2,4) y Q(-2,4): a)2 b)4 c)5');
-INSERT INTO PreguntasGA VALUES (131,03,' Encuentra la distancia entre los puntos P(-6,0) y Q(0,6): a)-4    b)sqrt(72)......    c)sqrt(5)');
-INSERT INTO PreguntasGA VALUES (131,04,' ¿Qué coordenadas tiene el punto del eje Y que equidista de A(5,5) y de B(4,2)?   a)C(7,1)    b)(0,5).......    c)=(10,1)');
-INSERT INTO PreguntasGA VALUES (131,05,' ¿Cuál es la coordenada del punto de la abscisa -1 que equidista de los puntos A(6,8) y B(-3,4)?        a)C(15,3)   b)C(-1,93/8).......    c)C(6,0)');
-INSERT INTO PreguntasGA VALUES (131,06,' Localiza los puntos dados, dibuja el triángulo que los tiene como vértices y cálcula las longitudes de sus lados: A(-3,6), B(-4,3) y C(4,7)        a)AB=sqrt(10) BC=sqrt(80) CA=sqrt(50).......    b)AB=13  BC=17  CA=15    c)AB=sqrt(80)  BC=sqrt(180)  CA=28');
-INSERT INTO PreguntasGA VALUES (131,07,' Localiza los puntos dados, dibuja el triángulo que los tiene como vértices y cálcula las longitudes de sus lados: A(-2,-1), B(5,-2) y C(3,1)       a)AB=12  BC=14  CA=27             b)AB=15  BC=sqrt(28)  CA=19             c)AB=sqrt(50)  BC=sqrt(13)  CA=sqrt(29)........');
-INSERT INTO PreguntasGA VALUES (131,08,' Prueba que el triángulo con vértices A(2,5), B(4,-1) y C(6,5) es isóceles:      a)AB=BC y su longitud es sqrt(40)........     b)AB=AC y su longitud es 10    c)AB=BC y su longitud es de 15');
-INSERT INTO PreguntasGA VALUES (131,09,' Encuentra el punto P(x,y) que equidista del los puntos dados: A(0,-2), B(4,0), C(4,4)         a)El punto P(18,1) equidista de A, B y C     b)El punto P(15,3) equidista de A, B y C      c)El punto P(1/2,2) equidista de A, B y C.......');
-INSERT INTO PreguntasGA VALUES (131,10,' Encuentra el punto P(x,y) que equidista del los puntos dados: A(-4,-5), B(2,4), C(6,-3)       a)El punto P(1/2,-3/2) equidista de A, B y C........      b)El punto P(12,2) equidista de A, B y C      c)El punto P(-3/2,1/2) equidista de A, B y C');
+INSERT INTO PreguntasGA VALUES (131,03,' Encuentra la distancia entre los puntos P(-6,0) y Q(0,6): a)-4    b)√72    c)√5');
+INSERT INTO PreguntasGA VALUES (131,04,' ¿Qué coordenadas tiene el punto del eje Y que equidista de A(5,5) y de B(4,2)?   a)C(7,1)    b)(0,5)   c)=(10,1)');
+INSERT INTO PreguntasGA VALUES (131,05,' ¿Cuál es la coordenada del punto de la abscisa -1 que equidista de los puntos A(6,8) y B(-3,4)?        a)C(15,3)   b)C(-1,93/8)   c)C(6,0)');
+INSERT INTO PreguntasGA VALUES (131,06,' Localiza los puntos dados, dibuja el triángulo que los tiene como vértices y cálcula las longitudes de sus lados: A(-3,6), B(-4,3) y C(4,7)        a)AB=√10 BC=√80 CA=√50    b)AB=13  BC=17  CA=15    c)AB=√80  BC=√180  CA=28');
+INSERT INTO PreguntasGA VALUES (131,07,' Localiza los puntos dados, dibuja el triángulo que los tiene como vértices y cálcula las longitudes de sus lados: A(-2,-1), B(5,-2) y C(3,1)       a)AB=12  BC=14  CA=27             b)AB=15  BC=√28  CA=19             c)AB=√50  BC=√13  CA=√29');
+INSERT INTO PreguntasGA VALUES (131,08,' Prueba que el triángulo con vértices A(2,5), B(4,-1) y C(6,5) es isóceles:      a)AB=BC y su longitud es √40    b)AB=AC y su longitud es 10    c)AB=BC y su longitud es de 15');
+INSERT INTO PreguntasGA VALUES (131,09,' Encuentra el punto P(x,y) que equidista del los puntos dados: A(0,-2), B(4,0), C(4,4)         a)El punto P(18,1) equidista de A, B y C     b)El punto P(15,3) equidista de A, B y C      c)El punto P(1/2,2) equidista de A, B y C');
+INSERT INTO PreguntasGA VALUES (131,10,' Encuentra el punto P(x,y) que equidista del los puntos dados: A(-4,-5), B(2,4), C(6,-3)       a)El punto P(1/2,-3/2) equidista de A, B y C     b)El punto P(12,2) equidista de A, B y C      c)El punto P(-3/2,1/2) equidista de A, B y C');
 
 --Tema 2 Área de un polígono dados sus vértices.
-INSERT INTO PreguntasGA VALUES (132,11,' Determinar el área del siguiente polígono dado sus vértices (-5,-2), (0,-5), (1,6), (-4,3), (5,-2), (7,4):   a)AP=86u^2......     b)AP=63u^2       c)AP=15u^2    ');
-INSERT INTO PreguntasGA VALUES (132,12,' Determinar el área del siguiente polígono dado sus vértices (5,-2), (-4,5), (2,7), (6,4), (2,-4):    a)AP=81u^2     b)AP=12u^2     c)AP=63u^2......');
-INSERT INTO PreguntasGA VALUES (132,13,' Determinar el área del siguiente polígono dado sus vértices (6,1), (1,5), (-3,-5), (-6,0), (-5,4), (3,-4):       a)AP=56u^2     b)AP=83u^2...... c)AP=32u^2');
-INSERT INTO PreguntasGA VALUES (132,14,' Los vértices de un cuadrilátero, de área 583u^2, son los puntos (1,5), (x,-5), (5,-1) y (-5,3). Hallar la abscisa del punto faltante si cada vértice se encuentra en un cuadrante:     a)x=5    b)x=-3...... c)x=1');
-INSERT INTO PreguntasGA VALUES (132,15,' El área de un polígono de 31u^2 y los vértices son los puntos A(1,-4), B(-4,0), C(-3,y), D(-1,3) y E(3,1).Determinar la coordenada del punto C si éste se encuentra en el 3er cuadrante:  a)C(-3,-1)       b)(-3,-3)......     c)(-4,-4)');
-INSERT INTO PreguntasGA VALUES (132,16,' Un polígono irregular tiene como vértices los puntos (0,-8), (6,-5), (4,y), (0,9), (6,8), (-5,-6) y (-6,6). Determinar la coordenada del punto faltante para que el polígono tenga un área de 195u^2. Además, se sabe que el punto se encuentra en el cuarto cuadrante y su ordenada es menor a -5:     a)y=-7.......    b)y=-12    c)y=0');
-INSERT INTO PreguntasGA VALUES (132,17,' Los vértices de un polígono de área 46u^2 son los puntos (-4,2), (-6,-1), (x,y), (-3,-5) y (3,-1). Hallar las coordenadas del vértice faltante si el punto se encuentra en el 1er cuadrante y su distancia al eje x es el cuadruplo de su distancia al eje y:   a)E(5,-1)    b)E(1,10)      c)E(1,4)........');
-INSERT INTO PreguntasGA VALUES (132,18,' El área del cuadrilátero de vértices A(0,y), B(1,-6), C(5,-3) y D(4,0) es la misma del triángulo de vértices A(0,y), M(-6,5) y N(-5,-2).¿Cuál es la ordenada del punto A si es común entre ambos polígonos?     a)A(0,1)........     b)A(2,3)     c)A(5,5)');
-INSERT INTO PreguntasGA VALUES (132,19,' Los vértices de un cuadrilátero de área 56u^2 son los puntos A(3,-4), B(-2,3), C(x,y) y D(-5,-1). Determinar las coordenadas del vértice C si se encuentra en el primer cuadrante y su ordenada y abscisa son iguales.    a)C(-5,-5)     b)C(5,5)      c)C(6,6).......');
-INSERT INTO PreguntasGA VALUES (132,20,' Los vértices de un cuadrilátero de área 69u^2 son los puntos A(4,3), B(3,-3), C(x,y) y D(-4,5).Determinar las coordenadas del vértice C si se encuentra en el tercer cuadrante y su ordenada y abscisa son iguales.     a)C(-17/3,-17/3)........     b)(-7,-7)      c)(-18/7,-18/7)');
+INSERT INTO PreguntasGA VALUES (132,11,' Determinar el área del siguiente polígono dado sus vértices (-5,-2), (0,-5), (1,6), (-4,3), (5,-2), (7,4):   a)AP=86u^2    b)AP=63u^2       c)AP=15u^2    ');
+INSERT INTO PreguntasGA VALUES (132,12,' Determinar el área del siguiente polígono dado sus vértices (5,-2), (-4,5), (2,7), (6,4), (2,-4):    a)AP=81u^2     b)AP=12u^2     c)AP=63u^2');
+INSERT INTO PreguntasGA VALUES (132,13,' Determinar el área del siguiente polígono dado sus vértices (6,1), (1,5), (-3,-5), (-6,0), (-5,4), (3,-4):       a)AP=56u^2     b)AP=83u^2 c)AP=32u^2');
+INSERT INTO PreguntasGA VALUES (132,14,' Los vértices de un cuadrilátero, de área 583u^2, son los puntos (1,5), (x,-5), (5,-1) y (-5,3). Hallar la abscisa del punto faltante si cada vértice se encuentra en un cuadrante:     a)x=5    b)x=-3 c)x=1');
+INSERT INTO PreguntasGA VALUES (132,15,' El área de un polígono de 31u^2 y los vértices son los puntos A(1,-4), B(-4,0), C(-3,y), D(-1,3) y E(3,1).Determinar la coordenada del punto C si éste se encuentra en el 3er cuadrante:  a)C(-3,-1)       b)(-3,-3)     c)(-4,-4)');
+INSERT INTO PreguntasGA VALUES (132,16,' Un polígono irregular tiene como vértices los puntos (0,-8), (6,-5), (4,y), (0,9), (6,8), (-5,-6) y (-6,6). Determinar la coordenada del punto faltante para que el polígono tenga un área de 195u^2. Además, se sabe que el punto se encuentra en el cuarto cuadrante y su ordenada es menor a -5:     a)y=-7   b)y=-12    c)y=0');
+INSERT INTO PreguntasGA VALUES (132,17,' Los vértices de un polígono de área 46u^2 son los puntos (-4,2), (-6,-1), (x,y), (-3,-5) y (3,-1). Hallar las coordenadas del vértice faltante si el punto se encuentra en el 1er cuadrante y su distancia al eje x es el cuadruplo de su distancia al eje y:   a)E(5,-1)    b)E(1,10)      c)E(1,4)');
+INSERT INTO PreguntasGA VALUES (132,18,' El área del cuadrilátero de vértices A(0,y), B(1,-6), C(5,-3) y D(4,0) es la misma del triángulo de vértices A(0,y), M(-6,5) y N(-5,-2).¿Cuál es la ordenada del punto A si es común entre ambos polígonos?     a)A(0,1)     b)A(2,3)     c)A(5,5)');
+INSERT INTO PreguntasGA VALUES (132,19,' Los vértices de un cuadrilátero de área 56u^2 son los puntos A(3,-4), B(-2,3), C(x,y) y D(-5,-1). Determinar las coordenadas del vértice C si se encuentra en el primer cuadrante y su ordenada y abscisa son iguales.    a)C(-5,-5)     b)C(5,5)      c)C(6,6)');
+INSERT INTO PreguntasGA VALUES (132,20,' Los vértices de un cuadrilátero de área 69u^2 son los puntos A(4,3), B(3,-3), C(x,y) y D(-4,5).Determinar las coordenadas del vértice C si se encuentra en el tercer cuadrante y su ordenada y abscisa son iguales.     a)C(-17/3,-17/3)     b)(-7,-7)      c)(-18/7,-18/7)');
 
 
 --Tema 3 División de un segmento en una razón dada.
-INSERT INTO PreguntasGA VALUES (133,21,'Encuentra el punto medio del segmento que une los pares de puntos dados (-1,-2) y (2,2):       a)(1/2,0).......    b)(2,1)    c)(0,1/2)');
-INSERT INTO PreguntasGA VALUES (133,22,'Encuentra el punto medio del segmento que une los pares de puntos dados (-4,2) y (2,6):        a)(-1,6)       b)(-2,2)     c)(-1,4)......');
-INSERT INTO PreguntasGA VALUES (133,23,'Encuentra el punto medio del segmento que une los pares de puntos dados (1/6,3) y (-2,3/4):    a)(-11/3,16/3)     b)(-11/12,15/8).....      c)(10/7,-15/7)');
-INSERT INTO PreguntasGA VALUES (133,24,'Si P(1/2,1) y Q(11/2,5) son los extremos de un segmento, encuentra lo siguiente: a)Las coordenadas del punto R1(a1,b1) que divide el segmento dirigido PQ en la razón 1/2.   b)Lac coordenadas del punto R2(a2,b2) que divide el segmento dirigido PQ en la razón 2.  c)La prueba de que los puntos R1 y R2 dividen el segmento dirigido PQ en tres segmentos de igual longitud.         a)R1(5/6,2/3), R2(3/11,11/3), cada segmento tiene una longitud de sqrt(15)           b)R1(13/6,7/3), R2(23/6,11/3), cada segmento tiene una longitud de sqrt(41/9).......            c)R1(4,7/8), R2(5,6), cada segmento tiene una longitud de 18');
-INSERT INTO PreguntasGA VALUES (133,25,'Encuentra las coordenadas de los puntos R, S y T que dividen el segmento dirigido PQ, con extremos P(-5,-2) y Q(-1,6) en cuatro segmentos de igual longitud.        a)R(-4,1), S(-2,3), T(-1,6)         b)R(-4,0), S(-3,2), T(-2,4).......            c)R(3,0), S(-5,1), T(-2,4)');
-INSERT INTO PreguntasGA VALUES (133,26,'Un triángulo tiene vértices A(0,3), B(-1,1) y C(3,2). Determina las coordenadas del punto medio M del segmento que une los vértices B y C, así como la longitud del segmento que une los puntos A y M. Comprueba que la recta que pasa por A y M es una de las medianas del triángulo.       a)M(1,3/2), la longitud del segmento que une a A con M es sqrt(13)/2......            b)M(1,2), la longitud del segmento que une a A con M es sqrt(19)/3           c)M(5,6), la longitud del segmento que une a A con M es sqrt(14)/4');
-INSERT INTO PreguntasGA VALUES (133,27,'Si A(-1/2,sqrt(3)/2), B(1/2,sqrt(3)/2) y C(0,0) son los vértices de un triángulo equilátero, prueba que el triángulo cuyos vértices son los puntos medios de sus lados es equilátero y que la longitud de su lado es igual a la mitad de la longitud del lado del triángulo dado.        a)Los vértices del triángulo nuevo son A´(0,3), B´(1/3, 1/4) y C´(-1, sqrt(3)/4) y sus lados miden 1/3. El lado del triángulo original mide 1.                b)Los vértices del triángulo nuevo son A´(1,sqrt(6)/2), B´(5, sqrt(3)/4) y C´(-1/4, 3) y sus lados miden 3. El lado del triángulo original mide 2.               c)Los vértices del triángulo nuevo son A´(0,sqrt(3)/2), B´(1/3, sqrt(3)/4) y C´(-1/4, sqrt(3)/4) y sus lados miden 1/2. El lado del triángulo original mide 1.......');
+INSERT INTO PreguntasGA VALUES (133,21,'Encuentra el punto medio del segmento que une los pares de puntos dados (-1,-2) y (2,2):       a)(1/2,0)    b)(2,1)    c)(0,1/2)');
+INSERT INTO PreguntasGA VALUES (133,22,'Encuentra el punto medio del segmento que une los pares de puntos dados (-4,2) y (2,6):        a)(-1,6)       b)(-2,2)     c)(-1,4)');
+INSERT INTO PreguntasGA VALUES (133,23,'Encuentra el punto medio del segmento que une los pares de puntos dados (1/6,3) y (-2,3/4):    a)(-11/3,16/3)     b)(-11/12,15/8)      c)(10/7,-15/7)');
+INSERT INTO PreguntasGA VALUES (133,24,'Si P(1/2,1) y Q(11/2,5) son los extremos de un segmento, encuentra lo siguiente: a)Las coordenadas del punto R1(a1,b1) que divide el segmento dirigido PQ en la razón 1/2.   b)Lac coordenadas del punto R2(a2,b2) que divide el segmento dirigido PQ en la razón 2.  c)La prueba de que los puntos R1 y R2 dividen el segmento dirigido PQ en tres segmentos de igual longitud.         a)R1(5/6,2/3), R2(3/11,11/3), cada segmento tiene una longitud de √15           b)R1(13/6,7/3), R2(23/6,11/3), cada segmento tiene una longitud de √41/9            c)R1(4,7/8), R2(5,6), cada segmento tiene una longitud de 18');
+INSERT INTO PreguntasGA VALUES (133,25,'Encuentra las coordenadas de los puntos R, S y T que dividen el segmento dirigido PQ, con extremos P(-5,-2) y Q(-1,6) en cuatro segmentos de igual longitud.        a)R(-4,1), S(-2,3), T(-1,6)         b)R(-4,0), S(-3,2), T(-2,4)          c)R(3,0), S(-5,1), T(-2,4)');
+INSERT INTO PreguntasGA VALUES (133,26,'Un triángulo tiene vértices A(0,3), B(-1,1) y C(3,2). Determina las coordenadas del punto medio M del segmento que une los vértices B y C, así como la longitud del segmento que une los puntos A y M. Comprueba que la recta que pasa por A y M es una de las medianas del triángulo.       a)M(1,3/2), la longitud del segmento que une a A con M es √13/2          b)M(1,2), la longitud del segmento que une a A con M es √19/3           c)M(5,6), la longitud del segmento que une a A con M es √14/4');
+INSERT INTO PreguntasGA VALUES (133,27,'Si A(-1/2,√3/2), B(1/2,√3/2) y C(0,0) son los vértices de un triángulo equilátero, prueba que el triángulo cuyos vértices son los puntos medios de sus lados es equilátero y que la longitud de su lado es igual a la mitad de la longitud del lado del triángulo dado.        a)Los vértices del triángulo nuevo son A´(0,3), B´(1/3, 1/4) y C´(-1, √3/4) y sus lados miden 1/3. El lado del triángulo original mide 1.                b)Los vértices del triángulo nuevo son A´(1, √6/2), B´(5, √3/4) y C´(-1/4, 3) y sus lados miden 3. El lado del triángulo original mide 2.               c)Los vértices del triángulo nuevo son A´(0,√3/2), B´(1/3, √3/4) y C´(-1/4, √3/4) y sus lados miden 1/2. El lado del triángulo original mide 1');
 INSERT INTO PreguntasGA VALUES (133,28,'Al colgar un platito de una regla de 30 cm de largo formamos una balanza. Además, contamos con un cierto número de monedas iguales entre si y sabemos que, al colocar un punto de apoyo de la balanza en el centro de la regla, ésta se encuentra equilibrada. ¿Donde debemos colocar el punto de apoyo para que al poner cinco monedas en el plato izquierdo y tres en el derecho, la balanza se mantenga en equilibrio?       a)El punto de apoyo debe colocarse a 45/4 cm del extremo izquierdo........         b))El punto de apoyo debe colocarse a 31/3 cm del extremo izquierdo       c))El punto de apoyo debe colocarse a 10 cm del extremo izquierdo');
-INSERT INTO PreguntasGA VALUES (133,29,'Si el extremo de un segmento es el punto P(3,-4) y el punto medio de dicho segmento es M(-2,-1), ¿Cuál es el otro extremo?   a)Q(-7,5)     b)Q(-1,2)    c)Q(-7,2).......');
-INSERT INTO PreguntasGA VALUES (133,30,'Encuentra las coordenadas del punto R que divide en la razon 7/4 el segmento dirigido PQ con extremos P(0,1/2) y Q(2,5)      a)R(14/11,37/11)........ b)R(1/2,9/2)     c)R(1,3)');
+INSERT INTO PreguntasGA VALUES (133,29,'Si el extremo de un segmento es el punto P(3,-4) y el punto medio de dicho segmento es M(-2,-1), ¿Cuál es el otro extremo?   a)Q(-7,5)     b)Q(-1,2)    c)Q(-7,2)');
+INSERT INTO PreguntasGA VALUES (133,30,'Encuentra las coordenadas del punto R que divide en la razon 7/4 el segmento dirigido PQ con extremos P(0,1/2) y Q(2,5)      a)R(14/11,37/11)     b)R(1/2,9/2)     c)R(1,3)');
 
 
 --Tema 4 Pendiente y Ángulo de inclinación de una recta.
-INSERT INTO PreguntasGA VALUES (134,31,'Encuentra la pendiente de la recta que pasa por los puntos dados P(-9,0), Q(0,3)     a)m=1/3....   b)m=3   c)m=6');
-INSERT INTO PreguntasGA VALUES (134,32,'Encuentra la pendiente de la recta que pasa por los puntos dados P(5,7), Q(-1,4)     a)m=4    b)m=2    c)m=1/2....');
-INSERT INTO PreguntasGA VALUES (134,33,'Encuentra la pendiente de la recta que pasa por los puntos dados P(1/4,1/2), Q(3,5/2) a)m=5   b)m=8/11....   c)m=11');
-INSERT INTO PreguntasGA VALUES (134,34,'Encuentra la pendiente de la recta que pasa por los puntos dados P(-2,-2), Q(-1,6)       a)m=16   b)m=8....   c)m=1/4');
-INSERT INTO PreguntasGA VALUES (134,35,'Encuentra la pendiente de la recta que pasa por los puntos dados P(-3/2, -1/2), Q(-8/3,-4)    a)m=1/6   b)m=3....   c)m=9');
-INSERT INTO PreguntasGA VALUES (134,36,'Encuentra la pendiente de la recta que pasa por los puntos dados  P(3,2), Q(6,2)   a)m=0......    b)m=3   c)m=1/3');
-INSERT INTO PreguntasGA VALUES (134,37,'Encuentra la pendiente de la recta que pasa por los puntos dados  P(-5,5), Q(1,1)   a)m=-2   b)m=-3   c)m=-2/3.....');
-INSERT INTO PreguntasGA VALUES (134,38,'15.Encuentra la pendiente de la recta que pasa por los puntos dados P(sqrt(2),2*sqrt(5)), Q(2,sqrt(5))     a)m=(2*sqrt(5)+sqrt(10))/2......    b)m=(2*sqrt(5)+sqrt(10))   c)m=(3*sqrt(2)+sqrt(11))/10');
-INSERT INTO PreguntasGA VALUES (134,39,'Encuentra la pendiente de la recta que pasa por los puntos dados P(sqrt(3),1), Q(0,1) a)m=6   b)m=2   c)m=0......');
-INSERT INTO PreguntasGA VALUES (134,40,'Los vértices de un triángulo son A(1,8), B(-7,4) y C(4,-3). Encuentra la pendiente de cada lado del triángulo     a)m(AB)=1/2, m(CA)=-11/3, m(BC)=-7/11......     b)m(AB)=1/5, m(CA)=-5, m(BC)=8/11     c)m(AB)=2, m(CA)=-3/7, m(BC)=1');
+INSERT INTO PreguntasGA VALUES (134,31,'Encuentra la pendiente de la recta que pasa por los puntos dados P(-9,0), Q(0,3)     a)m=1/3   b)m=3   c)m=6');
+INSERT INTO PreguntasGA VALUES (134,32,'Encuentra la pendiente de la recta que pasa por los puntos dados P(5,7), Q(-1,4)     a)m=4    b)m=2    c)m=1/2');
+INSERT INTO PreguntasGA VALUES (134,33,'Encuentra la pendiente de la recta que pasa por los puntos dados P(1/4,1/2), Q(3,5/2) a)m=5   b)m=8/11   c)m=11');
+INSERT INTO PreguntasGA VALUES (134,34,'Encuentra la pendiente de la recta que pasa por los puntos dados P(-2,-2), Q(-1,6)       a)m=16   b)m=8   c)m=1/4');
+INSERT INTO PreguntasGA VALUES (134,35,'Encuentra la pendiente de la recta que pasa por los puntos dados P(-3/2, -1/2), Q(-8/3,-4)    a)m=1/6   b)m=3   c)m=9');
+INSERT INTO PreguntasGA VALUES (134,36,'Encuentra la pendiente de la recta que pasa por los puntos dados  P(3,2), Q(6,2)   a)m=0   b)m=3   c)m=1/3');
+INSERT INTO PreguntasGA VALUES (134,37,'Encuentra la pendiente de la recta que pasa por los puntos dados  P(-5,5), Q(1,1)   a)m=-2   b)m=-3   c)m=-2/3');
+INSERT INTO PreguntasGA VALUES (134,38,'15.Encuentra la pendiente de la recta que pasa por los puntos dados P(√2,2√5), Q(2,√5)     a)m=(2√5+√10)/2    b)m=2√5+√10   c)m=(3√2)+√11)/10');
+INSERT INTO PreguntasGA VALUES (134,39,'Encuentra la pendiente de la recta que pasa por los puntos dados P(sqrt(3),1), Q(0,1) a)m=6   b)m=2   c)m=0');
+INSERT INTO PreguntasGA VALUES (134,40,'Los vértices de un triángulo son A(1,8), B(-7,4) y C(4,-3). Encuentra la pendiente de cada lado del triángulo     a)m(AB)=1/2, m(CA)=-11/3, m(BC)=-7/11     b)m(AB)=1/5, m(CA)=-5, m(BC)=8/11     c)m(AB)=2, m(CA)=-3/7, m(BC)=1');
 
 
 --Tema 5 Primer Problema fundamental de la Geometría Analítica
 INSERT INTO PreguntasGA VALUES (135,41,'Dada la ecuacion 5x+y-20=0, encontrar: Interseptos con los ejes coordenados, Campo de variacion de "x" y "y":  
-a)Interseptos: Ix(4,0) Iy(0,20), Campo de variacion: sobre "x" y "y":Todos los Reales.....     
+a)Interseptos: Ix(4,0) Iy(0,20), Campo de variacion: sobre "x" y "y":Todos los Reales    
 b)Intersecciones: Ix(4,2) Iy(1,10), Campo de variacion: sobre "x":0, "y":Todos los Reales        
 c)Intersecciones: Ix(2,8) Iy(2,5), Campo de variacion: sobre "x":Todos los reales "y":2');
 INSERT INTO PreguntasGA VALUES (135,42,'Dada la ecuacion 3x^2-y=0, encontrar: Interseptos con los ejes coordenados y Asíntotas     
 a)Interseptos: Ix(1/2,0) Iy(0,-2),  Asíntotas: X=1 Y=0  
 b)Interseptos: Ix(1,0) Iy(0,-1),  Asíntotas: X=2 Y=3  
-c)Interseptos: Ix(0,0) Iy(0,0),  Asíntotas: No hay......');
+c)Interseptos: Ix(0,0) Iy(0,0),  Asíntotas: No hay');
 INSERT INTO PreguntasGA VALUES (135,43,'Analiza la ecuación x^2+y^2-9=0  y obten interseptos, si existen simetrias 
 a) Interseptos: X:(3,0)   Y(0,3);(0,-1/3)     Simetrías: X:Si hay  Y:Si hay   Origen:No hay
-b)Interseptos: X:(3,0);(-3,0)   Y(0,3);(0,-3)     Simetrías: X:Si hay  Y:Si hay   Origen:Si hay...... 
+b)Interseptos: X:(3,0);(-3,0)   Y(0,3);(0,-3)     Simetrías: X:Si hay  Y:Si hay   Origen:Si hay 
 c)Interseptos: X:(-6,0)   Y(0,1/3)     Simetrías: X:No hay  Y:No hay   Origen:Si hay');
 INSERT INTO PreguntasGA VALUES (135,44,'Analiza la ecuación x^2y-2x^2-4y=4  y obten interseptos, si existen simetrias y extensiones de la curva: 
 a)Interseptos: X:Ajena al eje "x"  Y:Ajena al eje "y",     Simetrías: X:Si hay  Y:Si hay  Origen:Si hay,      Extensiones: XE(0,-2] y[2,00)  YE(-00,2]  
-b)Interseptos: X:Ajena al eje "x"  Y(0,-1),     Simetrías: X:No hay  Y:Si hay  Origen:No hay,      Extensiones: XE(-00,-2] y[2,00)  YE(-00,-1] ...... 
+b)Interseptos: X:Ajena al eje "x"  Y(0,-1),     Simetrías: X:No hay  Y:Si hay  Origen:No hay,      Extensiones: XE(-00,-2] y[2,00)  YE(-00,-1]  
 c)Interseptos: X:(-1,0)  Y:Ajena al eje "y",     Simetrías: X:Si hay  Y:Si hay  Origen:No hay,      Extensiones: XE(0,-1] y[1,00)  YE(-00,1] ');
 INSERT INTO PreguntasGA VALUES (135,45,'Analiza la ecuación x^2+y^2-6x=0  y obten interseptos, si existen simetrias y extensiones de la curva:
 a)Interseptos: X:(0,1);(1/2,0)   Y(0,3),     Simetrías: X:No hay  Y:No hay   Origen:No hay,      Extensiones: XE[0,3]  YE[-3,3] 
-b)Interseptos: X:(0,0);(6,0)   Y(0,0),     Simetrías: X:Si hay  Y:No hay   Origen:No hay,      Extensiones: XE[0,6]  YE[-3,3] ...... 
+b)Interseptos: X:(0,0);(6,0)   Y(0,0),     Simetrías: X:Si hay  Y:No hay   Origen:No hay,      Extensiones: XE[0,6]  YE[-3,3] 
 c)Interseptos: X:(0,0);(3,0)   Y(0,1/2),     Simetrías: X:Si hay  Y:Si hay   Origen:Si hay,      Extensiones: XE[0,3]  YE[-6,3] ');
 INSERT INTO PreguntasGA VALUES (135,46,'Analiza la ecuación x^2-4y=0 y obten los interceptos y si hay simetría con los ejes y el origen:   
-a)Interseptos: X(0,0) Y(0,0),     Simetrías: X:No hay  Y:Si hay   Origen:No hay...... 
+a)Interseptos: X(0,0) Y(0,0),     Simetrías: X:No hay  Y:Si hay   Origen:No hay
 b)Interseptos: X(0,0) Y:Ajena al eje "y",     Simetrías: X:No hay  Y:Si hay   Origen:Si hay 
 c)Interseptos: X:Ajena al eje "x", Y(0,0)    Simetrías: X:No hay  Y:No hay   Origen:No hay ');
 INSERT INTO PreguntasGA VALUES (135,47,'Trazar la gráfica de la escuación xy+2x+1=0, analizando previamente: puntos de intersepción, simetrías, extensión de la curva y asintotas(si las hay):
 a)Interseptos: X:Ajena al eje "x"   Y:Ajena al eje "y",     Simetrías: X:Si hay  Y:Si hay   Origen:No hay,   Asíntotas: X=0 Y=-2       Extensiones: CUX:(-00,-2)y(-2,00)  CUY:(-00,0)y(0,00) 
 b)Interseptos: X(-1/2,0) Y(0,1/2),     Simetrías: X:No hay  Y:No hay   Origen:Si hay,   Asíntotas: X=4 Y=0       Extensiones: CUX:(-00,0)y(-2,00)  CUY:(-00,-2)y(0,00) 
-c)Interseptos: X(-1/2,0) Y:Ajena al eje "y",     Simetrías: X:No hay  Y:No hay   Origen:No hay,   Asíntotas: X=0 Y=-2       Extensiones: CUX:(-00,0)y(0,00)  CUY:(-00,-2)y(-2,00).......');
+c)Interseptos: X(-1/2,0) Y:Ajena al eje "y",     Simetrías: X:No hay  Y:No hay   Origen:No hay,   Asíntotas: X=0 Y=-2       Extensiones: CUX:(-00,0)y(0,00)  CUY:(-00,-2)y(-2,00)');
 INSERT INTO PreguntasGA VALUES (135,48,'Bosquejar el lugar geométrico de la ecuacion x^2=-9-y^2: 
-a)Interseptos: X(3,0),X(-3,0)   Y(0,3),y(0,-3)     Simetrías: X:No hay  Y:No hay   Origen:Si hay,   Asíntotas: No hay,  Extensiones: CUX:-3<=y<=3  CUY:-3<=y<=3...... 
+a)Interseptos: X(3,0),X(-3,0)   Y(0,3),y(0,-3)     Simetrías: X:No hay  Y:No hay   Origen:Si hay,   Asíntotas: No hay,  Extensiones: CUX:-3<=y<=3  CUY:-3<=y<=3 
 b)Interseptos: X(6,0),X(-6,0)   Y(0,6),y(0,-6)     Simetrías: X:Si hay  Y:Si hay   Origen:Si hay,   Asíntotas: No hay,  Extensiones: CUX:-6<=y<=3  CUY:-3<=y<=6 
 c)Interseptos: X(2,0),X(-2,0)   Y(0,2),y(0,-2)     Simetrías: X:No hay  Y:No hay   Origen:Si hay,   Asíntotas: No hay,  Extensiones: CUX:-2<=y<=2  CUY:-2<=y<=2');
 INSERT INTO PreguntasGA VALUES (135,49,'Bosquejar el lugar geométrico de la ecuacion xy-3x-y:
 a)Interseptos: X(3,0) Y(0,1),     Simetrías: X:No hay  Y:No hay   Origen:Si hay,  Asíntotas: X=2 Y=6,  Extensiones: CUX:XER-{2}  CUY:YER-{6}
 b)Interseptos: X(2,1) Y(6,3),     Simetrías: X:No hay  Y:No hay   Origen:No hay,  Asíntotas: X=1 Y=2,  Extensiones: CUX:XER-{1}  CUY:YER-{2}
-c)Interseptos: X(0,0) Y(0,0),     Simetrías: X:No hay  Y:No hay   Origen:No hay,  Asíntotas: X=1 Y=3,  Extensiones: CUX:XER-{1}  CUY:YER-{3}........');
+c)Interseptos: X(0,0) Y(0,0),     Simetrías: X:No hay  Y:No hay   Origen:No hay,  Asíntotas: X=1 Y=3,  Extensiones: CUX:XER-{1}  CUY:YER-{3}');
 INSERT INTO PreguntasGA VALUES (135,50,'Bosquejar el lugar geométrico de la ecuación xy-2x-y: 
-a)Interseptos: X(0,0) Y(0,0),     Simetrías: X:No hay  Y:No hay   Origen:No hay,  Asíntotas: X=1 Y=2,  Extensiones: CUX:XER-{1}  CUY:YER-{2}...... 
+a)Interseptos: X(0,0) Y(0,0),     Simetrías: X:No hay  Y:No hay   Origen:No hay,  Asíntotas: X=1 Y=2,  Extensiones: CUX:XER-{1}  CUY:YER-{2} 
 b)Interseptos: X(2,0) Y(0,1),     Simetrías: X:No hay  Y:Si hay   Origen:No hay,  Asíntotas: X=2 Y=1/2,  Extensiones: CUX:XER-{2}  CUY:YER-{3}
 c)Interseptos: X(1,1) Y(2,3),     Simetrías: X:Si hay  Y:No hay   Origen:No hay,  Asíntotas: X=2 Y=4,  Extensiones: CUX:XER-{3}  CUY:YER-{0}');
 
 
 --Tema 6 Segundo Problema fundamental de la Geometía Analítica
-INSERT INTO PreguntasGA VALUES (136,51,'Hallar la ecuación del lugar geométrico de todos los puntos del plano P(x,y) tales que la suma de su ordenada con la abscisa es siempre constante e igual a 3:   a)3x+3y+2=0......   b)6x-3y+1/3=0   c)3x+1/6y+3=0');
-INSERT INTO PreguntasGA VALUES (136,52,'Hallar la ecuación del lugar geométrico de todos los puntos del plano P(x,y) tales que el producto de su ordenada y la abscisa es siempre igual a 5:     a)xy+5=0   b)x/y+5=0    c)xy-5=0......');
-INSERT INTO PreguntasGA VALUES (136,53,'Hallar la ecuación del lugar geométrico que describe un punto P(x,y) que se mueve de tal forma que su distancia al origen es igual a 3:   a)x+y-3=0     b)x^2+y^2-9=0....   c)x^2+y^2-3=0');
+INSERT INTO PreguntasGA VALUES (136,51,'Hallar la ecuación del lugar geométrico de todos los puntos del plano P(x,y) tales que la suma de su ordenada con la abscisa es siempre constante e igual a 3:   a)3x+3y+2=0   b)6x-3y+1/3=0   c)3x+1/6y+3=0');
+INSERT INTO PreguntasGA VALUES (136,52,'Hallar la ecuación del lugar geométrico de todos los puntos del plano P(x,y) tales que el producto de su ordenada y la abscisa es siempre igual a 5:     a)xy+5=0   b)x/y+5=0    c)xy-5=0');
+INSERT INTO PreguntasGA VALUES (136,53,'Hallar la ecuación del lugar geométrico que describe un punto P(x,y) que se mueve de tal forma que su distancia al origen es igual a 3:   a)x+y-3=0     b)x^2+y^2-9=0   c)x^2+y^2-3=0');
 INSERT INTO PreguntasGA VALUES (136,54,'Hallar la ecuación del lugar de todos los puntos del pnao XY tales que la suma de su distancia a los ejes coordenados es igual al producto de sus distancias a los ejes coordenados:  a)x+xy-y+1=0    b)x-xy+y=0....     c)x^2+2xy+y^2=0');
-INSERT INTO PreguntasGA VALUES (136,55,'Determinar la ecuación del lugar geométrico de un punto que se mueve de tal manera que su distancia al punto A(1,-2) es tres veces du distancia al punto B(5,4):    a)x^2-y^2-22x-17y-102=0      b)2x^2+2y^2-22x-17y+91=0....     c)x^2-2y^2-44x-34y+91=0');
-INSERT INTO PreguntasGA VALUES (136,56,'Los vertices de un triángulo son A(3,7), B(1,5) y C(x,y). Determinar la ecuación del lugar geométrico que describe C de tal manera que el área del triángulo sea 20u^2:  a)x-y-16=0......    b)x+y+4=0    c)x^2-y^2-16=0');
-INSERT INTO PreguntasGA VALUES (136,57,'Los vértices de un triángulo son puntos P(x,y), M(0,1) y N(1,1). Hallar la ecuación del lugar geométrico que describe P de tal manera que la suma de las pendientes de los lados PM y PN sea igual a 3:  a)x^2-x+3xy+y-3=0     b)3x^2-x+3xy+y-3=0     c)3x^2-x+2xy+y-1=0......');
-INSERT INTO PreguntasGA VALUES (136,58,'Determinar la ecuación del lugar geométrico que describen todos los puntos P(x,y) de tal manera que la pendiente con el origen es igual al cuadrado de su distancia con el origen:     a)x^3´xy^2-y=0......       b)x^2+2xy-y^2=0     c)x^3+3xy-y^3=0');
-INSERT INTO PreguntasGA VALUES (136,59,'Hallar la ecuación del lugar geométrico de un punto P(x,y) que se mueve en el plano de manera que el cuadrado de su distancia al punto A(4,1) es siempre igual a su distancia al eje Y:    a)x^2-3x+y^2-2y+34=0    b)x^2-3x+y^2-4y+24=0    c)x^2-9x+y^2-2y+17=0......');
-INSERT INTO PreguntasGA VALUES (136,60,'Hallar la ecuación del lugar geométrico de un punto P(x,y) que se mueve en el plano de manera que la suma de los cuadrados de sus distancias a los puntos A(0,0) y B(2,4) es igual a 20:     a)x^2-2x-4y+y^2...... b) c)');
+INSERT INTO PreguntasGA VALUES (136,55,'Determinar la ecuación del lugar geométrico de un punto que se mueve de tal manera que su distancia al punto A(1,-2) es tres veces du distancia al punto B(5,4):    a)x^2-y^2-22x-17y-102=0      b)2x^2+2y^2-22x-17y+91=0     c)x^2-2y^2-44x-34y+91=0');
+INSERT INTO PreguntasGA VALUES (136,56,'Los vertices de un triángulo son A(3,7), B(1,5) y C(x,y). Determinar la ecuación del lugar geométrico que describe C de tal manera que el área del triángulo sea 20u^2:  a)x-y-16=0    b)x+y+4=0    c)x^2-y^2-16=0');
+INSERT INTO PreguntasGA VALUES (136,57,'Los vértices de un triángulo son puntos P(x,y), M(0,1) y N(1,1). Hallar la ecuación del lugar geométrico que describe P de tal manera que la suma de las pendientes de los lados PM y PN sea igual a 3:  a)x^2-x+3xy+y-3=0     b)3x^2-x+3xy+y-3=0     c)3x^2-x+2xy+y-1=0');
+INSERT INTO PreguntasGA VALUES (136,58,'Determinar la ecuación del lugar geométrico que describen todos los puntos P(x,y) de tal manera que la pendiente con el origen es igual al cuadrado de su distancia con el origen:     a)x^3´xy^2-y=0       b)x^2+2xy-y^2=0     c)x^3+3xy-y^3=0');
+INSERT INTO PreguntasGA VALUES (136,59,'Hallar la ecuación del lugar geométrico de un punto P(x,y) que se mueve en el plano de manera que el cuadrado de su distancia al punto A(4,1) es siempre igual a su distancia al eje Y:    a)x^2-3x+y^2-2y+34=0    b)x^2-3x+y^2-4y+24=0    c)x^2-9x+y^2-2y+17=0');
+INSERT INTO PreguntasGA VALUES (136,60,'Hallar la ecuación del lugar geométrico de un punto P(x,y) que se mueve en el plano de manera que la suma de los cuadrados de sus distancias a los puntos A(0,0) y B(2,4) es igual a 20:     a)x^2-2x-4y+y^2 b) c)');
 
 
 
@@ -156,101 +156,101 @@ INSERT INTO PreguntasGA VALUES (136,60,'Hallar la ecuación del lugar geométric
 --Preguntas Segundo Parcial Geometría Analítica
 
 --Temas 1 La línea Recta
-INSERT INTO PreguntasGA VALUES (231,61,'Encuentra la ecuación de la recta que pasa por el punto P(2,3) y tiene pendiente m=-1      a)y-3=-(x-2)......    b)y-2=-(x-3)      c)y+3=(x+2)');
-INSERT INTO PreguntasGA VALUES (231,62,'Encuentra la ecuación de la recta que pasa por el punto P(3,-7) y tiene pendiente m=4/7     a)y-7=14(x+3)         b)y-7=2/7(x-6)        c)y+7=4/7(x-3).......');
-INSERT INTO PreguntasGA VALUES (231,63,'Encuentra la ecuación de la recta que tiene pendiente m=0 y que corta al eje Y en el punto b=5    a)y=-5        b)y=5......      c)y=10');
-INSERT INTO PreguntasGA VALUES (231,64,'Determina la ecuación de la recta que tiene pendiente m=9/8 y que corta al eje Y en el punto b=16   a)y=16/5x-16        b)y=9/8x+16........     c)y=16x-9/8');
-INSERT INTO PreguntasGA VALUES (231,65,'Encuentra el ángulo de inclinación de la recta x-2y+3=0 con el eje X.    a)@=15.25°        b)@=26.57°.......        c)@=56.13° ');
-INSERT INTO PreguntasGA VALUES (231,66,'Encuentra el ángulo de inclinación de la recta 5x+6y-12=0 con el eje X.    a)@=140.19°......   b)@=236.15°       c)@=311.10°');
-INSERT INTO PreguntasGA VALUES (231,67,'Encuentra la ecuación de la recta horizontal que pasa por el punto P(-2,-4)  a)y+6=0   b)y-2=0    c)y+4=0.....');
-INSERT INTO PreguntasGA VALUES (231,68,'Una recta con pendiente -6/11 pasa por el punto P(-4,5). La abscisa del punto Q que está en esa recta es 3. Encuentra la ordenada de Q. a)y=-49/11.....    b)15/2   c)-7/4');
-INSERT INTO PreguntasGA VALUES (231,69,'Una recta con pendiente -2 pasa por el punto P(5,-1). La abscisa del punto Q que está en esa recta es 1. Encuentra la ordenada de Q    a)Q(10,7)       b)Q(2,5)         c)Q(1,7).......');
-INSERT INTO PreguntasGA VALUES (231,70,'37. Encuentra la ecuación de la recta que pasa por el punto P(3,2) y que corta al eje X en -8.      a)y=2/11x+16/11.......        b)y=11x-16/11    c)y=16/11x-2/11');
+INSERT INTO PreguntasGA VALUES (231,61,'Encuentra la ecuación de la recta que pasa por el punto P(2,3) y tiene pendiente m=-1      a)y-3=-(x-2)   b)y-2=-(x-3)      c)y+3=(x+2)');
+INSERT INTO PreguntasGA VALUES (231,62,'Encuentra la ecuación de la recta que pasa por el punto P(3,-7) y tiene pendiente m=4/7     a)y-7=14(x+3)         b)y-7=2/7(x-6)        c)y+7=4/7(x-3)');
+INSERT INTO PreguntasGA VALUES (231,63,'Encuentra la ecuación de la recta que tiene pendiente m=0 y que corta al eje Y en el punto b=5    a)y=-5        b)y=5      c)y=10');
+INSERT INTO PreguntasGA VALUES (231,64,'Determina la ecuación de la recta que tiene pendiente m=9/8 y que corta al eje Y en el punto b=16   a)y=16/5x-16        b)y=9/8x+16    c)y=16x-9/8');
+INSERT INTO PreguntasGA VALUES (231,65,'Encuentra el ángulo de inclinación de la recta x-2y+3=0 con el eje X.    a)@=15.25°        b)@=26.57°        c)@=56.13° ');
+INSERT INTO PreguntasGA VALUES (231,66,'Encuentra el ángulo de inclinación de la recta 5x+6y-12=0 con el eje X.    a)@=140.19°   b)@=236.15°       c)@=311.10°');
+INSERT INTO PreguntasGA VALUES (231,67,'Encuentra la ecuación de la recta horizontal que pasa por el punto P(-2,-4)  a)y+6=0   b)y-2=0    c)y+4=0');
+INSERT INTO PreguntasGA VALUES (231,68,'Una recta con pendiente -6/11 pasa por el punto P(-4,5). La abscisa del punto Q que está en esa recta es 3. Encuentra la ordenada de Q. a)y=-49/11    b)15/2   c)-7/4');
+INSERT INTO PreguntasGA VALUES (231,69,'Una recta con pendiente -2 pasa por el punto P(5,-1). La abscisa del punto Q que está en esa recta es 1. Encuentra la ordenada de Q    a)Q(10,7)       b)Q(2,5)         c)Q(1,7)');
+INSERT INTO PreguntasGA VALUES (231,70,'37. Encuentra la ecuación de la recta que pasa por el punto P(3,2) y que corta al eje X en -8.      a)y=2/11x+16/11        b)y=11x-16/11    c)y=16/11x-2/11');
 
 
 --Tema 2 Condición de Paralelismo y Perpendicularidad
-INSERT INTO PreguntasGA VALUES (232,71,'Encuentra la ecuación de la recta que pasa por el punto P(-3,1) y es perpendicular a la recta 5x+6y-13=0      a)y=6/5x+23/5.....     b)y=3/5x-2/5   c)y=6/5x-2/5');
-INSERT INTO PreguntasGA VALUES (232,72,'Encuentra la ecuación de la recta l1 que pasa por el punto P(5,5) y es paralela a la recta x=3 a)x=15    b)x=-5   c)x=5......');
-INSERT INTO PreguntasGA VALUES (232,73,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 4x+y-3=0 y 2x-5y+4=0      a)P(2,1),son perpendiculares    b)P(1/2,1), no son perpendiculares......    c)P(1,-1/2), son perpendiculares');
-INSERT INTO PreguntasGA VALUES (232,74,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 2x-y-3=0 y 8x-4y+3=0     a)Son la misma recta  b)Son paralelas......   c)P(1/2,1), son perpendiculares');
-INSERT INTO PreguntasGA VALUES (232,75,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 4x-y+6=0 y 2x-5y+12=0   a)Son la misma recta   b)P(-1,2), No son perpendicualres......   c)P(1,-2), son perpendicualres ');
-INSERT INTO PreguntasGA VALUES (232,76,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 5x-y-23=0 y 23x+5y+7=0  a)P(9/4,-47/4), No son perpendicualres.....      b)P(-1,2),son perpendicualres    c)P(9/4,-47/4), Son perpendicualres');
-INSERT INTO PreguntasGA VALUES (232,77,'Dado el cuadrilátero con vértices en A(0,0), B(6,0), C(1,2), D(5,4), prueba que las rectas que unen los puntos medios de los lados sucesivos del cuadrlátero forman un paralelogramo.        a)y=11/5x+12/5y=11/5x-6/5 son paralelas  y=-2/5+13/5; y=-2/5x+18/5 son paralelas         b)y=1/5x+12/7y=1/5x-2/5 son paralelas  y=12/5+21/5; y=12/5x+11/5 son paralelas          c)y=4/5x-12/5; y=4/5x+3/5 son paralelas.  y=-2/5+21/5; y=-2/5x+6/5 son paralelas......');
-INSERT INTO PreguntasGA VALUES (232,78,'Dado el paralelogramo con vértices A(-1,3), B(3,3), C(-3,-2), D(1,-2), prueba que sus diagonales se cortan en el punto medio. a)5x-6y+3=0, 5x+2y-1=0. P(0,1/2).....         b)6x-5y+2=0, 6x+1/2y-2=0. P(0,-2)       c)13x-5y+3=0, 13x+5y-10=0. P(-1,1/2)');
-INSERT INTO PreguntasGA VALUES (232,79,'Dados los puntos A(-2,3), B(8,8), C(2,2), D(4,3), E(0,-2), F(6,1), encuentra las ecuaciones de las rectas que pasan por A y B, C y D, E y F:           a)y=1/2x+8, y=1/2x-3, y=1/2x-4        b)y=2x-4, y=2x-1/3, y=2x+2        c)y=1/2x+4, y=1/2x+1, y=1/2x-2.......');
-INSERT INTO PreguntasGA VALUES (232,80,'Dados los puntos A(-2,3), B(8,8), C(2,2), D(4,3), E(0,-2), F(6,1), encuentra las ecuaciones de las rectas que pasan por A y E, B y F. Encuentra las coordenadas del punto P, en que se cortan las dos rectas:      a)Las rectas son y=-5/2x-2, y=7/2x-20, se cortan en P(3,-19/2).....        b)Las rectas son y=-3/2x+2, y=5/2x+15, se cortan en P(2,19/2)      c) Las rectas son y=5/2x+2, y=7/2x+10, se cortan en P(3,17/2)');
+INSERT INTO PreguntasGA VALUES (232,71,'Encuentra la ecuación de la recta que pasa por el punto P(-3,1) y es perpendicular a la recta 5x+6y-13=0      a)y=6/5x+23/5    b)y=3/5x-2/5   c)y=6/5x-2/5');
+INSERT INTO PreguntasGA VALUES (232,72,'Encuentra la ecuación de la recta l1 que pasa por el punto P(5,5) y es paralela a la recta x=3 a)x=15    b)x=-5   c)x=5');
+INSERT INTO PreguntasGA VALUES (232,73,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 4x+y-3=0 y 2x-5y+4=0      a)P(2,1),son perpendiculares    b)P(1/2,1), no son perpendiculares    c)P(1,-1/2), son perpendiculares');
+INSERT INTO PreguntasGA VALUES (232,74,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 2x-y-3=0 y 8x-4y+3=0     a)Son la misma recta  b)Son paralelas   c)P(1/2,1), son perpendiculares');
+INSERT INTO PreguntasGA VALUES (232,75,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 4x-y+6=0 y 2x-5y+12=0   a)Son la misma recta   b)P(-1,2), No son perpendicualres   c)P(1,-2), son perpendicualres ');
+INSERT INTO PreguntasGA VALUES (232,76,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 5x-y-23=0 y 23x+5y+7=0  a)P(9/4,-47/4), No son perpendicualres      b)P(-1,2),son perpendicualres    c)P(9/4,-47/4), Son perpendicualres');
+INSERT INTO PreguntasGA VALUES (232,77,'Dado el cuadrilátero con vértices en A(0,0), B(6,0), C(1,2), D(5,4), prueba que las rectas que unen los puntos medios de los lados sucesivos del cuadrlátero forman un paralelogramo.        a)y=11/5x+12/5y=11/5x-6/5 son paralelas  y=-2/5+13/5; y=-2/5x+18/5 son paralelas         b)y=1/5x+12/7y=1/5x-2/5 son paralelas  y=12/5+21/5; y=12/5x+11/5 son paralelas          c)y=4/5x-12/5; y=4/5x+3/5 son paralelas.  y=-2/5+21/5; y=-2/5x+6/5 son paralelas');
+INSERT INTO PreguntasGA VALUES (232,78,'Dado el paralelogramo con vértices A(-1,3), B(3,3), C(-3,-2), D(1,-2), prueba que sus diagonales se cortan en el punto medio. a)5x-6y+3=0, 5x+2y-1=0. P(0,1/2)         b)6x-5y+2=0, 6x+1/2y-2=0. P(0,-2)       c)13x-5y+3=0, 13x+5y-10=0. P(-1,1/2)');
+INSERT INTO PreguntasGA VALUES (232,79,'Dados los puntos A(-2,3), B(8,8), C(2,2), D(4,3), E(0,-2), F(6,1), encuentra las ecuaciones de las rectas que pasan por A y B, C y D, E y F:           a)y=1/2x+8, y=1/2x-3, y=1/2x-4        b)y=2x-4, y=2x-1/3, y=2x+2        c)y=1/2x+4, y=1/2x+1, y=1/2x-2');
+INSERT INTO PreguntasGA VALUES (232,80,'Dados los puntos A(-2,3), B(8,8), C(2,2), D(4,3), E(0,-2), F(6,1), encuentra las ecuaciones de las rectas que pasan por A y E, B y F. Encuentra las coordenadas del punto P, en que se cortan las dos rectas:      a)Las rectas son y=-5/2x-2, y=7/2x-20, se cortan en P(3,-19/2)        b)Las rectas son y=-3/2x+2, y=5/2x+15, se cortan en P(2,19/2)      c) Las rectas son y=5/2x+2, y=7/2x+10, se cortan en P(3,17/2)');
 
 --Tema 3 Ecuación normal de la recta
-INSERT INTO PreguntasGA VALUES (233,81,'Encuentra la ecuación de la recta que pasa por el punto P(-5,0) y tiene pendiente m=3/2. Escribela en la forma normal    a)3x-2y+15=0......       b)5x-y+10=0      c)3x+5y-15=0');
-INSERT INTO PreguntasGA VALUES (233,82,'Encuentra la ecuación de la recta que pasa por el punto P(6,3) y tiene pendiente m=-1. Escribela en la forma normal    a)x+y-3=0       b)2x+y+9=0       c)x+y-9=0.....');
-INSERT INTO PreguntasGA VALUES (233,83,'Encuentra la ecuación de la recta que pasa por el punto P(-sqrt(2),sqrt(2)) y tiene pendiente m=-1/6. Escribela en la forma normal    a)x-3y-5*sqrt(6)=0        b)x+6y-5*sqrt(2)=0.....       c)x-3y+5*sqrt(2)=0');
-INSERT INTO PreguntasGA VALUES (233,84,'Determina la ecuación de la recta que pasa por los puntos P(2,-3) Q(6,-1), Escribela en la forma normal    a)2x+y+8=0     b)x-2y-8=0......       c)2x-y+4=0');
-INSERT INTO PreguntasGA VALUES (233,85,'Determina la ecuación de la recta que pasa por los puntos P(0,4) Q(2,0), Escribela en la forma normal  a)x-4y-2=0       b)2x+y-4=0......        c)2x-2y+4=0');
-INSERT INTO PreguntasGA VALUES (233,86,'Encuentra la forma general de la ecuación de la recta que pasa por el punto P(3,5) y cuyo angulo de inlcinación es @=120°     a)(2+sqrt(3))*x-y-1-3*sqrt(3)=0.....        b)(sqrt(3))*x-2y-3-2*sqrt(3)=0       c)(2+sqrt(3))*x-2y-1+2*sqrt(5)=0');
-INSERT INTO PreguntasGA VALUES (233,87,'Encuentra la forma general de la ecuación de la recta que pasa por el punto P(-1,-5) y cuyo angulo de inlcinación es @=60°    a)sqrt(2)*x+3y+sqrt(3)+5=0       b)sqrt(5)*x-y-sqrt(3)+15=0          c)sqrt(3)*x-y+sqrt(3)-5=0.....');
-INSERT INTO PreguntasGA VALUES (233,88,'');
-INSERT INTO PreguntasGA VALUES (233,89,'Determina si la recta dada es o no vértical 5y=0     a)Ninguna de las anteriores       b)Es vertical c)No es vertical......');
-INSERT INTO PreguntasGA VALUES (233,90,'Determina si la recta dada es o no vértical x-32=3y      a)No es vertical.....     b)Es vertical    c)Ninguna de las anteriores');
+INSERT INTO PreguntasGA VALUES (233,81,'Encuentra la ecuación de la recta que pasa por el punto P(-5,0) y tiene pendiente m=3/2. Escribela en la forma normal    a)3x-2y+15=0       b)5x-y+10=0      c)3x+5y-15=0');
+INSERT INTO PreguntasGA VALUES (233,82,'Encuentra la ecuación de la recta que pasa por el punto P(6,3) y tiene pendiente m=-1. Escribela en la forma normal    a)x+y-3=0       b)2x+y+9=0       c)x+y-9=0');
+INSERT INTO PreguntasGA VALUES (233,83,'Encuentra la ecuación de la recta que pasa por el punto P(-√2,√2) y tiene pendiente m=-1/6. Escribela en la forma normal    a)x-3y-5√6=0        b)x+6y-5√2=0       c)x-3y+5√2=0');
+INSERT INTO PreguntasGA VALUES (233,84,'Determina la ecuación de la recta que pasa por los puntos P(2,-3) Q(6,-1), Escribela en la forma normal    a)2x+y+8=0     b)x-2y-8=0       c)2x-y+4=0');
+INSERT INTO PreguntasGA VALUES (233,85,'Determina la ecuación de la recta que pasa por los puntos P(0,4) Q(2,0), Escribela en la forma normal  a)x-4y-2=0       b)2x+y-4=0       c)2x-2y+4=0');
+INSERT INTO PreguntasGA VALUES (233,86,'Encuentra la forma general de la ecuación de la recta que pasa por el punto P(3,5) y cuyo angulo de inlcinación es @=120°     a)2√3*x-y-1-3√3=0        b)√3x-2y-3-2√3=0       c)2+√3x-2y-1+2√5=0');
+INSERT INTO PreguntasGA VALUES (233,87,'Encuentra la forma general de la ecuación de la recta que pasa por el punto P(-1,-5) y cuyo angulo de inlcinación es @=60°    a)√2x+3y+√3+5=0       b)√5x-y-√3+15=0          c)√3x-y+√3-5=0');
+INSERT INTO PreguntasGA VALUES (233,88,'Escribe en la forma normal la ecuación de la recta que pasa por los puntos A(1,2) y B(-2,5)      a)x+y-3=0      b)x-y+5=0     c)y=-x-3');
+INSERT INTO PreguntasGA VALUES (233,89,'Determina si la recta dada es o no vértical 5y=0     a)Ninguna de las anteriores       b)Es vertical c)No es vertical');
+INSERT INTO PreguntasGA VALUES (233,90,'Determina si la recta dada es o no vértical x-32=3y      a)No es vertical     b)Es vertical    c)Ninguna de las anteriores');
 
 --Tema 4 Distancia de un punto a una recta
-INSERT INTO PreguntasGA VALUES (234,91,'Encuentra la distancia entre la recta y=1/2x+5 y el punto P(-1,2)    a)sqrt(5).....    b)10    c)sqrt(10)');
-INSERT INTO PreguntasGA VALUES (234,92,'Encuentra la distancia entre la recta x/4+y/-5=1 y el punto P(1,5)   a)9/sqrt(2)      b)30/29        c)35/sqrt(34).......');
-INSERT INTO PreguntasGA VALUES (234,93,'Encuentra la distancia entre la recta 3x+5y-8=0 y el punto P(6,2)    a)20/sqrt(2)      b)20/sqrt(34).....    c)20/34');
-INSERT INTO PreguntasGA VALUES (234,94,'Determina la distancia entre las dos rectas 6x+9y-9=0 y 2x+3y+7=0   a)10/sqrt(2)       b)10/sqrt(13)........    c)2/sqrt(13)');
-INSERT INTO PreguntasGA VALUES (234,95,'Determina la distancia entre las dos rectas -2x+4y-3=0 y -8x+16y-2=0   a)5/2*sqrt(2)       b)5/4*sqrt(5).......    c)1/4*sqrt(5)');
-INSERT INTO PreguntasGA VALUES (234,96,'Determina la distancia entre las dos rectas 5x+6y=20 y 5x+6y=15        a)5/sqrt(61).......      b)3/sqrt(61)   c)5/sqrt(19)');
-INSERT INTO PreguntasGA VALUES (234,97,'Determina la distancia entre las dos rectas -x+3y-5=0 y 5x-15y+8=0     a)17/10        b)11/5*sqrt(5)          c)17/5*sqrt(10).......');
-INSERT INTO PreguntasGA VALUES (234,98,'Considera los puntos A(-1,3), B(2,6), C(4,1). Calcula la distancia del punto A a la recta que pasa por B y C:    a)La distancia de A a l es 21/sqrt(29)......        b)La distancia de A a l es 15/2      c)La distancia de A a l es 21/29');
-INSERT INTO PreguntasGA VALUES (234,99,'Un punto P(x,y) equidista de los puntos A(3,7) y B(6,6). La distancia de P a la recta que pasa por A y tiene pendiente 2 es de 4/sqrt(5). Encuentra las coordenadas de P.    a)P(12,29), P(7,8)        b)P(19,13), P(5,6)        c)P(12,29), P(4,5)......');
-INSERT INTO PreguntasGA VALUES (234,100,'Encuentra la distancia entre la recta x-2=0 y el punto P(7,1)       a)5......    b)10/sqrt(5)     c)15');
+INSERT INTO PreguntasGA VALUES (234,91,'Encuentra la distancia entre la recta y=1/2x+5 y el punto P(-1,2)    a)√5    b)10    c)√10');
+INSERT INTO PreguntasGA VALUES (234,92,'Encuentra la distancia entre la recta x/4+y/-5=1 y el punto P(1,5)   a)9/√2      b)30/29        c)35/√34');
+INSERT INTO PreguntasGA VALUES (234,93,'Encuentra la distancia entre la recta 3x+5y-8=0 y el punto P(6,2)    a)20/√2      b)20/√34    c)20/34');
+INSERT INTO PreguntasGA VALUES (234,94,'Determina la distancia entre las dos rectas 6x+9y-9=0 y 2x+3y+7=0   a)10/√2       b)10/√13    c)2/√13');
+INSERT INTO PreguntasGA VALUES (234,95,'Determina la distancia entre las dos rectas -2x+4y-3=0 y -8x+16y-2=0   a)5/2√2       b)5/4√5    c)1/4√5');
+INSERT INTO PreguntasGA VALUES (234,96,'Determina la distancia entre las dos rectas 5x+6y=20 y 5x+6y=15        a)5/√61     b)3/√61   c)5/√19');
+INSERT INTO PreguntasGA VALUES (234,97,'Determina la distancia entre las dos rectas -x+3y-5=0 y 5x-15y+8=0     a)17/10        b)11/5√5          c)17/5√10');
+INSERT INTO PreguntasGA VALUES (234,98,'Considera los puntos A(-1,3), B(2,6), C(4,1). Calcula la distancia del punto A a la recta que pasa por B y C:    a)La distancia de A a l es 21/√29       b)La distancia de A a l es 15/2      c)La distancia de A a l es 21/29');
+INSERT INTO PreguntasGA VALUES (234,99,'Un punto P(x,y) equidista de los puntos A(3,7) y B(6,6). La distancia de P a la recta que pasa por A y tiene pendiente 2 es de 4/√5. Encuentra las coordenadas de P.    a)P(12,29), P(7,8)        b)P(19,13), P(5,6)        c)P(12,29), P(4,5)');
+INSERT INTO PreguntasGA VALUES (234,100,'Encuentra la distancia entre la recta x-2=0 y el punto P(7,1)       a)5    b)10/√5     c)15');
 
 --Tema 5 Ángulo entre dos rectas
-INSERT INTO PreguntasGA VALUES (235,101,'Encuentra el ángulo de la primera recta a la segunda: x+3y=0 y x-y+5=0       a)63.43°.... b)13.73° c)35.45°');
-INSERT INTO PreguntasGA VALUES (235,102,'Encuentra el ángulo de la primera recta a la segunda: x-2y-1=0 y x-y+1=0     a)63.43°  b)39.68°  c)18.43°......');
-INSERT INTO PreguntasGA VALUES (235,103,'Encuentra el ángulo de la primera recta a la segunda: x-2y+5=0 y 3x-y+10=0   a)63.43° b)45°.... c)30°');
-INSERT INTO PreguntasGA VALUES (235,104,'Encuentra el ángulo de la primera recta a la segunda: y+3=0 y 2x+y+5=0       a)123.43°   b)116.57°....   c)178.10°');
-INSERT INTO PreguntasGA VALUES (235,105,'Encuentra el ángulo de la primera recta a la segunda: 5x+6y-7=0 y 4x-3y-11=0    a)67.15°        b)87.064°....    c)110.34°');
-INSERT INTO PreguntasGA VALUES (235,106,'Encuentra el ángulo de la primera recta a la segunda: 4x+y-7=0 y x-6y+8=0       a)85.42°....   b)77.13°    c)80.10°');
-INSERT INTO PreguntasGA VALUES (235,107,'Encuentra el ángulo de la primera recta a la segunda: 2x+y-1=0 y 3x-y+10=0      a)167.13°    b)145.15°    c)135°....');
-INSERT INTO PreguntasGA VALUES (235,108,'Un cuadrilátero tiene vértices A(2,3), B(3,2), C(2,1) y D(1,2). Encuentra las pendientes  de los lados y los ángulos interiores del cuadrilátero.    a)mAB=mCD=-1, mAD=mCB=1. Los ángulos interiores miden 90°.....        b)mAB=mCD=-3, mAD=mCB=2. Los ángulos interiores miden 55°        c)mAB=mCD=2, mAD=mCB=-2. Los ángulos interiores miden 90°');
-INSERT INTO PreguntasGA VALUES (235,109,'Una recta l1 tiene pendiente 2. El ángulo que se forma, al ir de esta recta a l2 es de 135°. Encuentra la pendiente de la recta l2.         a)m2=14    b)m2=10    c)m2=7......');
-INSERT INTO PreguntasGA VALUES (235,110,'Los lados de un triángulo se encuentran sobre las rectas 4x+3y-19=0, 3x-4y+17=0 y 2x-11y+3=0. Encuentra los ángulos interiores del triángulo y di que tipo de triángulo es:a)Los ángulos son 63.43°, 90° y 26.57°. El triángulo es rectángulo.....     b)Los ángulos son 89.43°, 45° y 16.67°. El triángulo es isóceles      c)Los ángulos son 13.43°, 90° y 88.57°. El triángulo es rectángulo');
+INSERT INTO PreguntasGA VALUES (235,101,'Encuentra el ángulo de la primera recta a la segunda: x+3y=0 y x-y+5=0       a)63.43° b)13.73° c)35.45°');
+INSERT INTO PreguntasGA VALUES (235,102,'Encuentra el ángulo de la primera recta a la segunda: x-2y-1=0 y x-y+1=0     a)63.43°  b)39.68°  c)18.43°');
+INSERT INTO PreguntasGA VALUES (235,103,'Encuentra el ángulo de la primera recta a la segunda: x-2y+5=0 y 3x-y+10=0   a)63.43° b)45° c)30°');
+INSERT INTO PreguntasGA VALUES (235,104,'Encuentra el ángulo de la primera recta a la segunda: y+3=0 y 2x+y+5=0       a)123.43°   b)116.57°  c)178.10°');
+INSERT INTO PreguntasGA VALUES (235,105,'Encuentra el ángulo de la primera recta a la segunda: 5x+6y-7=0 y 4x-3y-11=0    a)67.15°        b)87.064°   c)110.34°');
+INSERT INTO PreguntasGA VALUES (235,106,'Encuentra el ángulo de la primera recta a la segunda: 4x+y-7=0 y x-6y+8=0       a)85.42°   b)77.13°    c)80.10°');
+INSERT INTO PreguntasGA VALUES (235,107,'Encuentra el ángulo de la primera recta a la segunda: 2x+y-1=0 y 3x-y+10=0      a)167.13°    b)145.15°    c)135°');
+INSERT INTO PreguntasGA VALUES (235,108,'Un cuadrilátero tiene vértices A(2,3), B(3,2), C(2,1) y D(1,2). Encuentra las pendientes  de los lados y los ángulos interiores del cuadrilátero.    a)mAB=mCD=-1, mAD=mCB=1. Los ángulos interiores miden 90°        b)mAB=mCD=-3, mAD=mCB=2. Los ángulos interiores miden 55°        c)mAB=mCD=2, mAD=mCB=-2. Los ángulos interiores miden 90°');
+INSERT INTO PreguntasGA VALUES (235,109,'Una recta l1 tiene pendiente 2. El ángulo que se forma, al ir de esta recta a l2 es de 135°. Encuentra la pendiente de la recta l2.         a)m2=14    b)m2=10    c)m2=7');
+INSERT INTO PreguntasGA VALUES (235,110,'Los lados de un triángulo se encuentran sobre las rectas 4x+3y-19=0, 3x-4y+17=0 y 2x-11y+3=0. Encuentra los ángulos interiores del triángulo y di que tipo de triángulo es:a)Los ángulos son 63.43°, 90° y 26.57°. El triángulo es rectángulo    b)Los ángulos son 89.43°, 45° y 16.67°. El triángulo es isóceles      c)Los ángulos son 13.43°, 90° y 88.57°. El triángulo es rectángulo');
 
 --Tema 6 Circunfernecia
-INSERT INTO PreguntasGA VALUES (236,111,'Encuentra la ecuación del círculo con centro en el origen y el radio r=8     a)x^2+y^2=64..... b)x+y=64   c)x^2-y^2=8');
-INSERT INTO PreguntasGA VALUES (236,112,'Encuentra la ecuación del círculo con centro en el origen y el radio r=3/7 a)x^2+y^2=3/7    b)x+y=9/49    c)x^2+y^2=9/49.....');
-INSERT INTO PreguntasGA VALUES (236,113,'Encuentra el radio del círculo x^2+y^2-7=0      a)7   b)r=sqrt(7).....   c)49');
-INSERT INTO PreguntasGA VALUES (236,114,'Encuentra el radio del círculo x^2+y^2=121     a)r=11     b)r=11.....    c)r=sqrt(11)');
-INSERT INTO PreguntasGA VALUES (236,115,'Encuentra el radio del círculo x^2+y^2=15      a)225     b)sqrt(15).....     c)15');
-INSERT INTO PreguntasGA VALUES (236,116,'Encuentra la ecuación del círculo cuyo diámetro es AB, donde A(-2,-6) y B(2,6)      a)x^2+y^2=5.....    b)x^2+y^2=sqrt(5)    c)x+y=25');
-INSERT INTO PreguntasGA VALUES (236,117,'Encuentra la ecuación del círculo cuyo diámetro es AB, donde A(-3/4,-3/4) y B(3/4,3/4)    a)x^2+y^2=118     b)x^2+y^2=sqrt(9/8)      c)x^2+y^2=9/8.....');
-INSERT INTO PreguntasGA VALUES (236,118,'Encuentra la ecuación del círculo que pasa por los puntos P(-3,4), Q(0,-5) y cuyo centro se encuentra sobre la recta x-5y=0      a)x^2+y^2=25.....     b)x^2+y^2=5     c)x^2+y^2=sqrt(5) ');
-INSERT INTO PreguntasGA VALUES (236,119,'Encuentra la ecuación del círculo que pasa por los puntos P(-2,16/3), Q(3,2) y cuyo centro se encuentra sobre la recta 3x-2y+1=0      a)x^2+y^2=5     b)x^2+y^2=25      c)No existe ningún círculo.....');
-INSERT INTO PreguntasGA VALUES (236,120,'El punto (-1,3) divide en partes iguales a una cuerda del círculo x^2+y^2=20. Encuenntra la ecuación de la recta que contiene a la cuerda y la longitud de ésta. a)La recta que contiene a la cuerda es y=1/3x+10/3 y la longitud de la cuerda es 2*sqrt(10)......       b)La recta que contiene a la cuerda es y=-1/3x-10/7 y la longitud de la cuerda es 10      c)La recta que contiene a la cuerda es y=1/7x-10/7 y la longitud de la cuerda es 3*sqrt(10)');
+INSERT INTO PreguntasGA VALUES (236,111,'Encuentra la ecuación del círculo con centro en el origen y el radio r=8     a)x^2+y^2=64 b)x+y=64   c)x^2-y^2=8');
+INSERT INTO PreguntasGA VALUES (236,112,'Encuentra la ecuación del círculo con centro en el origen y el radio r=3/7 a)x^2+y^2=3/7    b)x+y=9/49    c)x^2+y^2=9/49');
+INSERT INTO PreguntasGA VALUES (236,113,'Encuentra el radio del círculo x^2+y^2-7=0      a)7   b)r=√7  c)49');
+INSERT INTO PreguntasGA VALUES (236,114,'Encuentra el radio del círculo x^2+y^2=121     a)r=11     b)r=11    c)r=√11');
+INSERT INTO PreguntasGA VALUES (236,115,'Encuentra el radio del círculo x^2+y^2=15      a)225     b)√15    c)15');
+INSERT INTO PreguntasGA VALUES (236,116,'Encuentra la ecuación del círculo cuyo diámetro es AB, donde A(-2,-6) y B(2,6)      a)x^2+y^2=5    b)x^2+y^2=√5   c)x+y=25');
+INSERT INTO PreguntasGA VALUES (236,117,'Encuentra la ecuación del círculo cuyo diámetro es AB, donde A(-3/4,-3/4) y B(3/4,3/4)    a)x^2+y^2=118     b)x^2+y^2=√9/8      c)x^2+y^2=9/8');
+INSERT INTO PreguntasGA VALUES (236,118,'Encuentra la ecuación del círculo que pasa por los puntos P(-3,4), Q(0,-5) y cuyo centro se encuentra sobre la recta x-5y=0      a)x^2+y^2=25     b)x^2+y^2=5     c)x^2+y^2=√5 ');
+INSERT INTO PreguntasGA VALUES (236,119,'Encuentra la ecuación del círculo que pasa por los puntos P(-2,16/3), Q(3,2) y cuyo centro se encuentra sobre la recta 3x-2y+1=0      a)x^2+y^2=5     b)x^2+y^2=25      c)No existe ningún círculo');
+INSERT INTO PreguntasGA VALUES (236,120,'El punto (-1,3) divide en partes iguales a una cuerda del círculo x^2+y^2=20. Encuenntra la ecuación de la recta que contiene a la cuerda y la longitud de ésta. a)La recta que contiene a la cuerda es y=1/3x+10/3 y la longitud de la cuerda es 2√10       b)La recta que contiene a la cuerda es y=-1/3x-10/7 y la longitud de la cuerda es 10      c)La recta que contiene a la cuerda es y=1/7x-10/7 y la longitud de la cuerda es 3√10');
 
 --Tema 7 Recta tangente a una circunferencia
-INSERT INTO PreguntasGA VALUES (237,121,'Encuentra la intersección de la recta 3x-y-4=0 y el círculo x^2+y^2-16x+24=0       a)Se cortan en (2,2).....    b)Se cortan en (2,0)    c)No se cortan');
-INSERT INTO PreguntasGA VALUES (237,122,'Encuentra la intersección de la recta x+y=0 y el círculo con centro C(-4,-2) y radio r=4       a)Se cortan en (-4,4) b)Se cortan en (2,4) c)No se cortan......');
-INSERT INTO PreguntasGA VALUES (237,123,'Encuentra la intersección de la recta 2x-5 y el círculo x^2+y^2+8x+12y+3=0       a)No se cortan     b)Se cortan en (-4,-13)......    c)Se cortan en (3,13)');
-INSERT INTO PreguntasGA VALUES (237,124,'Encuentra la ecuación de la recta tangente al círculo x^2+y^2-10x-2y-3=0 dado en el punto P(0,3)       a)3x-4y+12=0     b)5x-2y+6=0......     c)15x-2y+36=0');
-INSERT INTO PreguntasGA VALUES (237,125,'Encuentra la ecuación de la recta tangente al círculo 4x^2+4y^2+20x+24y+41=0 dado en el punto P(-1/2,-2)     a)3x-4y+18=0     b)2x+y+3=0.....     c)6x-2y+3=0');
-INSERT INTO PreguntasGA VALUES (237,126,'Hallar la ecuación de la tangente a la circunferencia x^2+y^2-2x-6y-3=0   a)2x-3y+20=0.....   b)4x+2y+10=0     c)x-6y+30=0');
-INSERT INTO PreguntasGA VALUES (237,127,'La ecuación de la recta tangente a la circunferencia de ecuación x^2+y^2=5 en el punto (1,-2) es:  a)2x-y-6=0    b)2x-3y+5=0     c)x-2y-5=0.....');
-INSERT INTO PreguntasGA VALUES (237,128,'Determina la ecuacion de la recta tangente a la circunferencia (x-4)^2 + (y+3)^2=5 en el punto P(2,-4)     a)2x+y=0......    b)x-2y-8=0    c)2x+3y-6=0');
-INSERT INTO PreguntasGA VALUES (237,129,'Determina la ecuacion de la recta tangente a la circunferencia x^2+y^2=25 en el punto P(-3,4)      a)5x-2y-25=0      b)x-2y+5=0      c)3x-4y+25=0......');
-INSERT INTO PreguntasGA VALUES (237,130,'Determina la ecuacion de la recta tangente a la circunferencia x^2+y^2=5 en el punto P(1,2)       a)x+2y-5=0.....    b)x^2+2y^2-5=0      c)x-2y+25=0');
+INSERT INTO PreguntasGA VALUES (237,121,'Encuentra la intersección de la recta 3x-y-4=0 y el círculo x^2+y^2-16x+24=0       a)Se cortan en (2,2)    b)Se cortan en (2,0)    c)No se cortan');
+INSERT INTO PreguntasGA VALUES (237,122,'Encuentra la intersección de la recta x+y=0 y el círculo con centro C(-4,-2) y radio r=4       a)Se cortan en (-4,4) b)Se cortan en (2,4) c)No se cortan');
+INSERT INTO PreguntasGA VALUES (237,123,'Encuentra la intersección de la recta 2x-5 y el círculo x^2+y^2+8x+12y+3=0       a)No se cortan     b)Se cortan en (-4,-13)   c)Se cortan en (3,13)');
+INSERT INTO PreguntasGA VALUES (237,124,'Encuentra la ecuación de la recta tangente al círculo x^2+y^2-10x-2y-3=0 dado en el punto P(0,3)       a)3x-4y+12=0     b)5x-2y+6=0     c)15x-2y+36=0');
+INSERT INTO PreguntasGA VALUES (237,125,'Encuentra la ecuación de la recta tangente al círculo 4x^2+4y^2+20x+24y+41=0 dado en el punto P(-1/2,-2)     a)3x-4y+18=0     b)2x+y+3=0     c)6x-2y+3=0');
+INSERT INTO PreguntasGA VALUES (237,126,'Hallar la ecuación de la tangente a la circunferencia x^2+y^2-2x-6y-3=0   a)2x-3y+20=0  b)4x+2y+10=0     c)x-6y+30=0');
+INSERT INTO PreguntasGA VALUES (237,127,'La ecuación de la recta tangente a la circunferencia de ecuación x^2+y^2=5 en el punto (1,-2) es:  a)2x-y-6=0    b)2x-3y+5=0     c)x-2y-5=0');
+INSERT INTO PreguntasGA VALUES (237,128,'Determina la ecuacion de la recta tangente a la circunferencia (x-4)^2 + (y+3)^2=5 en el punto P(2,-4)     a)2x+y=0    b)x-2y-8=0    c)2x+3y-6=0');
+INSERT INTO PreguntasGA VALUES (237,129,'Determina la ecuacion de la recta tangente a la circunferencia x^2+y^2=25 en el punto P(-3,4)      a)5x-2y-25=0      b)x-2y+5=0      c)3x-4y+25=0');
+INSERT INTO PreguntasGA VALUES (237,130,'Determina la ecuacion de la recta tangente a la circunferencia x^2+y^2=5 en el punto P(1,2)       a)x+2y-5=0    b)x^2+2y^2-5=0      c)x-2y+25=0');
 
 --Tema 8 Circunferencia dada tres condiciones
-INSERT INTO PreguntasGA VALUES (238,131,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(4,4), B(-6,-6), C(0,-4)      a)(x+6)^2+(y-4)^2=100.......    b)(x+10)^2+(y-5)^2=25      c)(x+6)^2+(y+3)^2=90');
-INSERT INTO PreguntasGA VALUES (238,132,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(8,8), B(-1,5), C(9,-3)       a)(x+8)^2+(y-4)^2=64     b)(x+6)^2+(y-4)^2=100     c)(x-4)^2+(y-5)^2=25.....');
-INSERT INTO PreguntasGA VALUES (238,133,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(2*sqrt(2),2*sqrt(2)) B(-4,0), C(0,-4)    a)2x^2+y^2=100     b)x^2+y^2=16....      c)x^2+y^2=64');
-INSERT INTO PreguntasGA VALUES (238,134,'Encuentra el círculo de los nueve puntos del triángulo cuyos vértices son A(5,8), B(-4,8) y C(5,-2)(Utiliza los puntos medios de los lados)     a)(x-14/4)^2+(y-14/2)^2=41/16       b)(x-11/4)^2+(y-11/2)^2=181/16 .....       c)(x-4)^2+(y-11)^2=100');
-INSERT INTO PreguntasGA VALUES (238,135,'Considera el triángulo cuyos vértices son A(-1,0), B(1,0) y C(0,sqrt(3)). Encuentra los puntos medios de los lados, los pies de las alturas y los puntos medios de los segmentos que unen el ortocentro con cada uno de los vértices. Encuentra la ecuación del círculo que pasa por todos ellos.  a)x^4+(y-1/3)^2=3     b)x^2+(y-1/sqrt(3))^2=1/3.....     c)x^6-(y-1/3)^2=sqrt(3)');
-INSERT INTO PreguntasGA VALUES (238,136,'Determinar la ecuación de la circunferencia que pasa por los puntos A(3,4), B(2,-1), C(0,-3)       a)2x^2+2y^2+15x-11y-51=0.....      b)2x^2+y^2+13x-12y-74=0       c)x^2+y^2+10x-10y-81=0');
-INSERT INTO PreguntasGA VALUES (238,137,'Determinar la ecuación de la circunferencia que pasa por los puntos A(-2,1), B(6,2), C(4,-2)       a)x^2+y^2+10x-10y-81=0      b)x^2+y^2+5x-11y-71=0         c)x^2+y^2-4x-3y-10=0.....');
-INSERT INTO PreguntasGA VALUES (238,138,'Determinar la ecuación de la circunferencia que pasa por los puntos A(5,3), B(6,2), C(3,-1)        a)x^2+y^2-8x-2y+12=0....... b)x^2+y^2-4x-3y-10=0      c)x^2+y^2+10x-10y-81=0      ');
-INSERT INTO PreguntasGA VALUES (238,139,'Determinar la ecuación de la circunferencia que pasa por los puntos A(4,-1), B(2,3), C(-1,-6)      a)2x^2+y^2+13x-12y-74=0         b)2x^2+y^2=100           c)x^2+y^2+2x+2y-23=0........');
-INSERT INTO PreguntasGA VALUES (238,140,'Determinar la ecuación de la circunferencia que pasa por los puntos A(4,3), B(-2,-5), C(5,2)       a)x^2+y^2-2x+2y-23=0.....       b)2x^2+y^2-23=0        c)2x^2+y^2=100 ');
+INSERT INTO PreguntasGA VALUES (238,131,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(4,4), B(-6,-6), C(0,-4)      a)(x+6)^2+(y-4)^2=100    b)(x+10)^2+(y-5)^2=25      c)(x+6)^2+(y+3)^2=90');
+INSERT INTO PreguntasGA VALUES (238,132,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(8,8), B(-1,5), C(9,-3)       a)(x+8)^2+(y-4)^2=64     b)(x+6)^2+(y-4)^2=100     c)(x-4)^2+(y-5)^2=25');
+INSERT INTO PreguntasGA VALUES (238,133,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(2√2,2√2) B(-4,0), C(0,-4)    a)2x^2+y^2=100     b)x^2+y^2=16      c)x^2+y^2=64');
+INSERT INTO PreguntasGA VALUES (238,134,'Encuentra el círculo de los nueve puntos del triángulo cuyos vértices son A(5,8), B(-4,8) y C(5,-2)(Utiliza los puntos medios de los lados)     a)(x-14/4)^2+(y-14/2)^2=41/16       b)(x-11/4)^2+(y-11/2)^2=181/16       c)(x-4)^2+(y-11)^2=100');
+INSERT INTO PreguntasGA VALUES (238,135,'Considera el triángulo cuyos vértices son A(-1,0), B(1,0) y C(0,sqrt(3)). Encuentra los puntos medios de los lados, los pies de las alturas y los puntos medios de los segmentos que unen el ortocentro con cada uno de los vértices. Encuentra la ecuación del círculo que pasa por todos ellos.  a)x^4+(y-1/3)^2=3     b)x^2+(y-1/√3)^2=1/3     c)x^6-(y-1/3)^2=√3');
+INSERT INTO PreguntasGA VALUES (238,136,'Determinar la ecuación de la circunferencia que pasa por los puntos A(3,4), B(2,-1), C(0,-3)       a)2x^2+2y^2+15x-11y-51=0      b)2x^2+y^2+13x-12y-74=0       c)x^2+y^2+10x-10y-81=0');
+INSERT INTO PreguntasGA VALUES (238,137,'Determinar la ecuación de la circunferencia que pasa por los puntos A(-2,1), B(6,2), C(4,-2)       a)x^2+y^2+10x-10y-81=0      b)x^2+y^2+5x-11y-71=0         c)x^2+y^2-4x-3y-10=0');
+INSERT INTO PreguntasGA VALUES (238,138,'Determinar la ecuación de la circunferencia que pasa por los puntos A(5,3), B(6,2), C(3,-1)        a)x^2+y^2-8x-2y+12=0 b)x^2+y^2-4x-3y-10=0      c)x^2+y^2+10x-10y-81=0      ');
+INSERT INTO PreguntasGA VALUES (238,139,'Determinar la ecuación de la circunferencia que pasa por los puntos A(4,-1), B(2,3), C(-1,-6)      a)2x^2+y^2+13x-12y-74=0         b)2x^2+y^2=100           c)x^2+y^2+2x+2y-23=0');
+INSERT INTO PreguntasGA VALUES (238,140,'Determinar la ecuación de la circunferencia que pasa por los puntos A(4,3), B(-2,-5), C(5,2)       a)x^2+y^2-2x+2y-23=0       b)2x^2+y^2-23=0        c)2x^2+y^2=100 ');
 
 
 
@@ -358,7 +358,7 @@ CREATE TABLE RespuestasGA(
 
 --Tema 1 Distancia entre dos puntos en el plano cartesiano.
 INSERT INTO RespuestasGA VALUES (01,010,'a'),
-INSERT INTO RespuestasGA VALUES (02,020,'c'),
+INSERT INTO RespuestasGA VALUES (02,020,'b'),
 INSERT INTO RespuestasGA VALUES (03,030,'b'),
 INSERT INTO RespuestasGA VALUES (04,040,'b'),
 INSERT INTO RespuestasGA VALUES (05,050,'b'),
