@@ -7,6 +7,8 @@ package Vista;
 import Modelos.Hash;
 import Modelos.SqlUsuarios;
 import Modelos.Usuarios;
+import java.awt.Color;
+import static java.awt.Color.black;
 
 import java.awt.Image;
 import java.sql.SQLException;
@@ -57,11 +59,14 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         bg.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtUsuario.setBackground(new java.awt.Color(245, 231, 255));
-        txtUsuario.setForeground(new java.awt.Color(204, 204, 204));
-        txtUsuario.setText("Ingresar su nombre de usuario");
         txtUsuario.setBorder(null);
         txtUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         txtUsuario.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+        txtUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                txtUsuarioMousePressed(evt);
+            }
+        });
         txtUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtUsuarioActionPerformed(evt);
@@ -70,17 +75,18 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         bg.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 360, 260, 20));
 
         txtPassword.setBackground(new java.awt.Color(245, 231, 255));
-        txtPassword.setForeground(new java.awt.Color(204, 204, 204));
         txtPassword.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        txtPassword.setText("jPasswordField1");
         txtPassword.setBorder(null);
         txtPassword.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+        txtPassword.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtPasswordActionPerformed(evt);
+            }
+        });
         bg.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 250, 20));
 
         txtBoleta.setBackground(new java.awt.Color(245, 231, 255));
-        txtBoleta.setForeground(new java.awt.Color(204, 204, 204));
         txtBoleta.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        txtBoleta.setText("20");
         txtBoleta.setBorder(null);
         txtBoleta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,8 +108,6 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 610, -1, -1));
 
         txtConfirmarPassword.setBackground(new java.awt.Color(245, 231, 255));
-        txtConfirmarPassword.setForeground(new java.awt.Color(204, 204, 204));
-        txtConfirmarPassword.setText("jPasswordField1");
         txtConfirmarPassword.setBorder(null);
         bg.add(txtConfirmarPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 570, 250, 20));
 
@@ -211,6 +215,14 @@ try {
     private void txtBoletaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtBoletaActionPerformed
 
     }//GEN-LAST:event_txtBoletaActionPerformed
+
+    private void txtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasswordActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtPasswordActionPerformed
+
+    private void txtUsuarioMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtUsuarioMousePressed
+        
+    }//GEN-LAST:event_txtUsuarioMousePressed
 
     public void limpiar() {
         txtUsuario.setText("");
