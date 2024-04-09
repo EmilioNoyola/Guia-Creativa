@@ -100,7 +100,7 @@ public class SqlUsuarios extends Conexion {
 
         Connection con = getConexion();
 
-        String sql = "SELECT id,usuario,boleta,Password FROM usuarios WHERE usuario";
+        String sql = "SELECT id,usuario,boleta,Password FROM usuarios WHERE usuario = ?";
 
         try {
             ps = con.prepareStatement(sql);

@@ -15,7 +15,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 public class Pantalla_Inicio extends javax.swing.JFrame {
 
-   Pantalla_Registro frmReg;
+   public static Pantalla_Registro frmReg;
+   public static Pantalla_Login frmLog;
     public Pantalla_Inicio() {
         initComponents();
         //maximizar ventana
@@ -38,7 +39,7 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         btnConocenos = new javax.swing.JButton();
         P1_fondo = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
         bg.setBackground(new java.awt.Color(255, 255, 255));
@@ -99,7 +100,11 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
-        //todos
+        
+        if(frmLog == null){
+            frmLog = new Pantalla_Login();
+            frmLog.setVisible(true);
+        }
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
