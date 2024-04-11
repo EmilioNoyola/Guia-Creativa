@@ -1,15 +1,15 @@
+USE Guia_Creativa;
+-- Segundo Semestre - Geometría Analítica
 
---Segundo Semestre - Geometría Analítica
-
---Temas Primer Parcial Geometría Analítica
+-- Temas Primer Parcial Geometría Analítica
 INSERT INTO Temas VALUES (130,131,'Distancia entre dos puntos en el plano cartesiano.'); 
 INSERT INTO Temas VALUES (130,132,'Área de un polígono dados sus vértices.'); 
 INSERT INTO Temas VALUES (130,133,'División de un segmento en una razón dada.'); 
 INSERT INTO Temas VALUES (130,134,'Pendiente y Ángulo de inclinación de una recta.');  
-INSERT INTO Temas VALUES (130,135,'Primer Problema fundamental de la Geometría Analítica');
-INSERT INTO Temas VALUES (130,136,'Segundo Problema fundamental de la Geometía Analítica');   
+INSERT INTO Temas VALUES (130,135,'Primer Problema fundamental');
+INSERT INTO Temas VALUES (130,136,'Segundo Problema fundamental');   
 
---Temas Segundo Parcial Geometría Analítica
+-- Temas Segundo Parcial Geometría Analítica
 INSERT INTO Temas VALUES (230,231,'La línea Recta'); 
 INSERT INTO Temas VALUES (230,232,'Condición de Paralelismo y Perpendicularidad'); 
 INSERT INTO Temas VALUES (230,233,'Ecuación normal de la recta'); 
@@ -19,7 +19,7 @@ INSERT INTO Temas VALUES (230,236,'Circunfernecia');
 INSERT INTO Temas VALUES (230,237,'Recta tangente a una circunferencia'); 
 INSERT INTO Temas VALUES (230,238,'Circunferencia dada tres condiciones'); 
 
---Temas Tercer Parcial Geometría Analítica
+-- Temas Tercer Parcial Geometría Analítica
 INSERT INTO Temas VALUES (330,331,'Parábola'); 
 INSERT INTO Temas VALUES (330,332,'Aplicaciones de la Parábola'); 
 INSERT INTO Temas VALUES (330,333,'Parábola dada tres condiciones');
@@ -27,19 +27,19 @@ INSERT INTO Temas VALUES (330,334,'Elipse');
 INSERT INTO Temas VALUES (330,335,'Aplicaciones de la Elipse'); 
 INSERT INTO Temas VALUES (330,336,'Hipérbola'); 
 
----Creación de Tabla para las Preguntas Geometría Analítica
+-- Creación de Tabla para las Preguntas Geometría Analítica
 CREATE TABLE PreguntasGA( 
 		ID_Tema INTEGER NOT NULL,
 		ID_PreguntaGA INTEGER NOT NULL,
-		Preguntas VARCHAR(500) NOT NULL,
+		Preguntas VARCHAR(800) NOT NULL,
 		PRIMARY KEY(ID_PreguntaGA),
 		FOREIGN KEY(ID_Tema)
 		REFERENCES Temas(ID_Tema)
 		);
 
---Preguntas Primer Parcial Geometría Analítica
+-- Preguntas Primer Parcial Geometría Analítica
 
---Tema 1 Distancia entre dos puntos en el plano cartesiano.
+-- Tema 1 Distancia entre dos puntos en el plano cartesiano.
 INSERT INTO PreguntasGA VALUES (131,01,' Encuentra la distancia entre los puntos P(0,1) y Q(2,2): a)√5 b)√4 c)√6');
 INSERT INTO PreguntasGA VALUES (131,02,' Encuentra la distancia entre los puntos P(2,4) y Q(-2,4): a)2 b)4 c)5');
 INSERT INTO PreguntasGA VALUES (131,03,' Encuentra la distancia entre los puntos P(-6,0) y Q(0,6): a)-4    b)√72    c)√5');
@@ -51,7 +51,7 @@ INSERT INTO PreguntasGA VALUES (131,08,' Prueba que el triángulo con vértices 
 INSERT INTO PreguntasGA VALUES (131,09,' Encuentra el punto P(x,y) que equidista del los puntos dados: A(0,-2), B(4,0), C(4,4)         a)El punto P(18,1) equidista de A, B y C     b)El punto P(15,3) equidista de A, B y C      c)El punto P(1/2,2) equidista de A, B y C');
 INSERT INTO PreguntasGA VALUES (131,10,' Encuentra el punto P(x,y) que equidista del los puntos dados: A(-4,-5), B(2,4), C(6,-3)       a)El punto P(1/2,-3/2) equidista de A, B y C     b)El punto P(12,2) equidista de A, B y C      c)El punto P(-3/2,1/2) equidista de A, B y C');
 
---Tema 2 Área de un polígono dados sus vértices.
+-- Tema 2 Área de un polígono dados sus vértices.
 INSERT INTO PreguntasGA VALUES (132,11,' Determinar el área del siguiente polígono dado sus vértices (-5,-2), (0,-5), (1,6), (-4,3), (5,-2), (7,4):   a)AP=86u^2    b)AP=63u^2       c)AP=15u^2    ');
 INSERT INTO PreguntasGA VALUES (132,12,' Determinar el área del siguiente polígono dado sus vértices (5,-2), (-4,5), (2,7), (6,4), (2,-4):    a)AP=81u^2     b)AP=12u^2     c)AP=63u^2');
 INSERT INTO PreguntasGA VALUES (132,13,' Determinar el área del siguiente polígono dado sus vértices (6,1), (1,5), (-3,-5), (-6,0), (-5,4), (3,-4):       a)AP=56u^2     b)AP=83u^2 c)AP=32u^2');
@@ -64,7 +64,7 @@ INSERT INTO PreguntasGA VALUES (132,19,' Los vértices de un cuadrilátero de á
 INSERT INTO PreguntasGA VALUES (132,20,' Los vértices de un cuadrilátero de área 69u^2 son los puntos A(4,3), B(3,-3), C(x,y) y D(-4,5).Determinar las coordenadas del vértice C si se encuentra en el tercer cuadrante y su ordenada y abscisa son iguales.     a)C(-17/3,-17/3)     b)(-7,-7)      c)(-18/7,-18/7)');
 
 
---Tema 3 División de un segmento en una razón dada.
+-- Tema 3 División de un segmento en una razón dada.
 INSERT INTO PreguntasGA VALUES (133,21,'Encuentra el punto medio del segmento que une los pares de puntos dados (-1,-2) y (2,2):       a)(1/2,0)    b)(2,1)    c)(0,1/2)');
 INSERT INTO PreguntasGA VALUES (133,22,'Encuentra el punto medio del segmento que une los pares de puntos dados (-4,2) y (2,6):        a)(-1,6)       b)(-2,2)     c)(-1,4)');
 INSERT INTO PreguntasGA VALUES (133,23,'Encuentra el punto medio del segmento que une los pares de puntos dados (1/6,3) y (-2,3/4):    a)(-11/3,16/3)     b)(-11/12,15/8)      c)(10/7,-15/7)');
@@ -77,7 +77,7 @@ INSERT INTO PreguntasGA VALUES (133,29,'Si el extremo de un segmento es el punto
 INSERT INTO PreguntasGA VALUES (133,30,'Encuentra las coordenadas del punto R que divide en la razon 7/4 el segmento dirigido PQ con extremos P(0,1/2) y Q(2,5)      a)R(14/11,37/11)     b)R(1/2,9/2)     c)R(1,3)');
 
 
---Tema 4 Pendiente y Ángulo de inclinación de una recta.
+-- Tema 4 Pendiente y Ángulo de inclinación de una recta.
 INSERT INTO PreguntasGA VALUES (134,31,'Encuentra la pendiente de la recta que pasa por los puntos dados P(-9,0), Q(0,3)     a)m=1/3   b)m=3   c)m=6');
 INSERT INTO PreguntasGA VALUES (134,32,'Encuentra la pendiente de la recta que pasa por los puntos dados P(5,7), Q(-1,4)     a)m=4    b)m=2    c)m=1/2');
 INSERT INTO PreguntasGA VALUES (134,33,'Encuentra la pendiente de la recta que pasa por los puntos dados P(1/4,1/2), Q(3,5/2) a)m=5   b)m=8/11   c)m=11');
@@ -90,7 +90,7 @@ INSERT INTO PreguntasGA VALUES (134,39,'Encuentra la pendiente de la recta que p
 INSERT INTO PreguntasGA VALUES (134,40,'Los vértices de un triángulo son A(1,8), B(-7,4) y C(4,-3). Encuentra la pendiente de cada lado del triángulo     a)m(AB)=1/2, m(CA)=-11/3, m(BC)=-7/11     b)m(AB)=1/5, m(CA)=-5, m(BC)=8/11     c)m(AB)=2, m(CA)=-3/7, m(BC)=1');
 
 
---Tema 5 Primer Problema fundamental de la Geometría Analítica
+-- Tema 5 Primer Problema fundamental de la Geometría Analítica
 INSERT INTO PreguntasGA VALUES (135,41,'Dada la ecuacion 5x+y-20=0, encontrar: Interseptos con los ejes coordenados, Campo de variacion de "x" y "y":  
 a)Interseptos: Ix(4,0) Iy(0,20), Campo de variacion: sobre "x" y "y":Todos los Reales    
 b)Intersecciones: Ix(4,2) Iy(1,10), Campo de variacion: sobre "x":0, "y":Todos los Reales        
@@ -133,7 +133,7 @@ b)Interseptos: X(2,0) Y(0,1),     Simetrías: X:No hay  Y:Si hay   Origen:No hay
 c)Interseptos: X(1,1) Y(2,3),     Simetrías: X:Si hay  Y:No hay   Origen:No hay,  Asíntotas: X=2 Y=4,  Extensiones: CUX:XER-{3}  CUY:YER-{0}');
 
 
---Tema 6 Segundo Problema fundamental de la Geometía Analítica
+-- Tema 6 Segundo Problema fundamental de la Geometía Analítica
 INSERT INTO PreguntasGA VALUES (136,51,'Hallar la ecuación del lugar geométrico de todos los puntos del plano P(x,y) tales que la suma de su ordenada con la abscisa es siempre constante e igual a 3:   a)3x+3y+2=0   b)6x-3y+1/3=0   c)3x+1/6y+3=0');
 INSERT INTO PreguntasGA VALUES (136,52,'Hallar la ecuación del lugar geométrico de todos los puntos del plano P(x,y) tales que el producto de su ordenada y la abscisa es siempre igual a 5:     a)xy+5=0   b)x/y+5=0    c)xy-5=0');
 INSERT INTO PreguntasGA VALUES (136,53,'Hallar la ecuación del lugar geométrico que describe un punto P(x,y) que se mueve de tal forma que su distancia al origen es igual a 3:   a)x+y-3=0     b)x^2+y^2-9=0   c)x^2+y^2-3=0');
@@ -147,15 +147,9 @@ INSERT INTO PreguntasGA VALUES (136,60,'Hallar la ecuación del lugar geométric
 
 
 
+-- Preguntas Segundo Parcial Geometría Analítica
 
-
-
-
-
-
---Preguntas Segundo Parcial Geometría Analítica
-
---Temas 1 La línea Recta
+-- Temas 1 La línea Recta
 INSERT INTO PreguntasGA VALUES (231,61,'Encuentra la ecuación de la recta que pasa por el punto P(2,3) y tiene pendiente m=-1      a)y-3=-(x-2)   b)y-2=-(x-3)      c)y+3=(x+2)');
 INSERT INTO PreguntasGA VALUES (231,62,'Encuentra la ecuación de la recta que pasa por el punto P(3,-7) y tiene pendiente m=4/7     a)y-7=14(x+3)         b)y-7=2/7(x-6)        c)y+7=4/7(x-3)');
 INSERT INTO PreguntasGA VALUES (231,63,'Encuentra la ecuación de la recta que tiene pendiente m=0 y que corta al eje Y en el punto b=5    a)y=-5        b)y=5      c)y=10');
@@ -168,7 +162,7 @@ INSERT INTO PreguntasGA VALUES (231,69,'Una recta con pendiente -2 pasa por el p
 INSERT INTO PreguntasGA VALUES (231,70,'37. Encuentra la ecuación de la recta que pasa por el punto P(3,2) y que corta al eje X en -8.      a)y=2/11x+16/11        b)y=11x-16/11    c)y=16/11x-2/11');
 
 
---Tema 2 Condición de Paralelismo y Perpendicularidad
+-- Tema 2 Condición de Paralelismo y Perpendicularidad
 INSERT INTO PreguntasGA VALUES (232,71,'Encuentra la ecuación de la recta que pasa por el punto P(-3,1) y es perpendicular a la recta 5x+6y-13=0      a)y=6/5x+23/5    b)y=3/5x-2/5   c)y=6/5x-2/5');
 INSERT INTO PreguntasGA VALUES (232,72,'Encuentra la ecuación de la recta l1 que pasa por el punto P(5,5) y es paralela a la recta x=3 a)x=15    b)x=-5   c)x=5');
 INSERT INTO PreguntasGA VALUES (232,73,'Determina si las siguientes rectas se cortan en un punto, son paralelas o son la misma recta. En caso de que se corten en un punto, analiza si son perpendiculares: 4x+y-3=0 y 2x-5y+4=0      a)P(2,1),son perpendiculares    b)P(1/2,1), no son perpendiculares    c)P(1,-1/2), son perpendiculares');
@@ -180,7 +174,7 @@ INSERT INTO PreguntasGA VALUES (232,78,'Dado el paralelogramo con vértices A(-1
 INSERT INTO PreguntasGA VALUES (232,79,'Dados los puntos A(-2,3), B(8,8), C(2,2), D(4,3), E(0,-2), F(6,1), encuentra las ecuaciones de las rectas que pasan por A y B, C y D, E y F:           a)y=1/2x+8, y=1/2x-3, y=1/2x-4        b)y=2x-4, y=2x-1/3, y=2x+2        c)y=1/2x+4, y=1/2x+1, y=1/2x-2');
 INSERT INTO PreguntasGA VALUES (232,80,'Dados los puntos A(-2,3), B(8,8), C(2,2), D(4,3), E(0,-2), F(6,1), encuentra las ecuaciones de las rectas que pasan por A y E, B y F. Encuentra las coordenadas del punto P, en que se cortan las dos rectas:      a)Las rectas son y=-5/2x-2, y=7/2x-20, se cortan en P(3,-19/2)        b)Las rectas son y=-3/2x+2, y=5/2x+15, se cortan en P(2,19/2)      c) Las rectas son y=5/2x+2, y=7/2x+10, se cortan en P(3,17/2)');
 
---Tema 3 Ecuación normal de la recta
+-- Tema 3 Ecuación normal de la recta
 INSERT INTO PreguntasGA VALUES (233,81,'Encuentra la ecuación de la recta que pasa por el punto P(-5,0) y tiene pendiente m=3/2. Escribela en la forma normal    a)3x-2y+15=0       b)5x-y+10=0      c)3x+5y-15=0');
 INSERT INTO PreguntasGA VALUES (233,82,'Encuentra la ecuación de la recta que pasa por el punto P(6,3) y tiene pendiente m=-1. Escribela en la forma normal    a)x+y-3=0       b)2x+y+9=0       c)x+y-9=0');
 INSERT INTO PreguntasGA VALUES (233,83,'Encuentra la ecuación de la recta que pasa por el punto P(-√2,√2) y tiene pendiente m=-1/6. Escribela en la forma normal    a)x-3y-5√6=0        b)x+6y-5√2=0       c)x-3y+5√2=0');
@@ -192,7 +186,7 @@ INSERT INTO PreguntasGA VALUES (233,88,'Escribe en la forma normal la ecuación 
 INSERT INTO PreguntasGA VALUES (233,89,'Determina si la recta dada es o no vértical 5y=0     a)Ninguna de las anteriores       b)Es vertical c)No es vertical');
 INSERT INTO PreguntasGA VALUES (233,90,'Determina si la recta dada es o no vértical x-32=3y      a)No es vertical     b)Es vertical    c)Ninguna de las anteriores');
 
---Tema 4 Distancia de un punto a una recta
+-- Tema 4 Distancia de un punto a una recta
 INSERT INTO PreguntasGA VALUES (234,91,'Encuentra la distancia entre la recta y=1/2x+5 y el punto P(-1,2)    a)√5    b)10    c)√10');
 INSERT INTO PreguntasGA VALUES (234,92,'Encuentra la distancia entre la recta x/4+y/-5=1 y el punto P(1,5)   a)9/√2      b)30/29        c)35/√34');
 INSERT INTO PreguntasGA VALUES (234,93,'Encuentra la distancia entre la recta 3x+5y-8=0 y el punto P(6,2)    a)20/√2      b)20/√34    c)20/34');
@@ -204,7 +198,7 @@ INSERT INTO PreguntasGA VALUES (234,98,'Considera los puntos A(-1,3), B(2,6), C(
 INSERT INTO PreguntasGA VALUES (234,99,'Un punto P(x,y) equidista de los puntos A(3,7) y B(6,6). La distancia de P a la recta que pasa por A y tiene pendiente 2 es de 4/√5. Encuentra las coordenadas de P.    a)P(12,29), P(7,8)        b)P(19,13), P(5,6)        c)P(12,29), P(4,5)');
 INSERT INTO PreguntasGA VALUES (234,100,'Encuentra la distancia entre la recta x-2=0 y el punto P(7,1)       a)5    b)10/√5     c)15');
 
---Tema 5 Ángulo entre dos rectas
+-- Tema 5 Ángulo entre dos rectas
 INSERT INTO PreguntasGA VALUES (235,101,'Encuentra el ángulo de la primera recta a la segunda: x+3y=0 y x-y+5=0       a)63.43° b)13.73° c)35.45°');
 INSERT INTO PreguntasGA VALUES (235,102,'Encuentra el ángulo de la primera recta a la segunda: x-2y-1=0 y x-y+1=0     a)63.43°  b)39.68°  c)18.43°');
 INSERT INTO PreguntasGA VALUES (235,103,'Encuentra el ángulo de la primera recta a la segunda: x-2y+5=0 y 3x-y+10=0   a)63.43° b)45° c)30°');
@@ -216,7 +210,7 @@ INSERT INTO PreguntasGA VALUES (235,108,'Un cuadrilátero tiene vértices A(2,3)
 INSERT INTO PreguntasGA VALUES (235,109,'Una recta l1 tiene pendiente 2. El ángulo que se forma, al ir de esta recta a l2 es de 135°. Encuentra la pendiente de la recta l2.         a)m2=14    b)m2=10    c)m2=7');
 INSERT INTO PreguntasGA VALUES (235,110,'Los lados de un triángulo se encuentran sobre las rectas 4x+3y-19=0, 3x-4y+17=0 y 2x-11y+3=0. Encuentra los ángulos interiores del triángulo y di que tipo de triángulo es:a)Los ángulos son 63.43°, 90° y 26.57°. El triángulo es rectángulo    b)Los ángulos son 89.43°, 45° y 16.67°. El triángulo es isóceles      c)Los ángulos son 13.43°, 90° y 88.57°. El triángulo es rectángulo');
 
---Tema 6 Circunfernecia
+-- Tema 6 Circunfernecia
 INSERT INTO PreguntasGA VALUES (236,111,'Encuentra la ecuación del círculo con centro en el origen y el radio r=8     a)x^2+y^2=64 b)x+y=64   c)x^2-y^2=8');
 INSERT INTO PreguntasGA VALUES (236,112,'Encuentra la ecuación del círculo con centro en el origen y el radio r=3/7 a)x^2+y^2=3/7    b)x+y=9/49    c)x^2+y^2=9/49');
 INSERT INTO PreguntasGA VALUES (236,113,'Encuentra el radio del círculo x^2+y^2-7=0      a)7   b)r=√7  c)49');
@@ -228,7 +222,7 @@ INSERT INTO PreguntasGA VALUES (236,118,'Encuentra la ecuación del círculo que
 INSERT INTO PreguntasGA VALUES (236,119,'Encuentra la ecuación del círculo que pasa por los puntos P(-2,16/3), Q(3,2) y cuyo centro se encuentra sobre la recta 3x-2y+1=0      a)x^2+y^2=5     b)x^2+y^2=25      c)No existe ningún círculo');
 INSERT INTO PreguntasGA VALUES (236,120,'El punto (-1,3) divide en partes iguales a una cuerda del círculo x^2+y^2=20. Encuenntra la ecuación de la recta que contiene a la cuerda y la longitud de ésta. a)La recta que contiene a la cuerda es y=1/3x+10/3 y la longitud de la cuerda es 2√10       b)La recta que contiene a la cuerda es y=-1/3x-10/7 y la longitud de la cuerda es 10      c)La recta que contiene a la cuerda es y=1/7x-10/7 y la longitud de la cuerda es 3√10');
 
---Tema 7 Recta tangente a una circunferencia
+-- Tema 7 Recta tangente a una circunferencia
 INSERT INTO PreguntasGA VALUES (237,121,'Encuentra la intersección de la recta 3x-y-4=0 y el círculo x^2+y^2-16x+24=0       a)Se cortan en (2,2)    b)Se cortan en (2,0)    c)No se cortan');
 INSERT INTO PreguntasGA VALUES (237,122,'Encuentra la intersección de la recta x+y=0 y el círculo con centro C(-4,-2) y radio r=4       a)Se cortan en (-4,4) b)Se cortan en (2,4) c)No se cortan');
 INSERT INTO PreguntasGA VALUES (237,123,'Encuentra la intersección de la recta 2x-5 y el círculo x^2+y^2+8x+12y+3=0       a)No se cortan     b)Se cortan en (-4,-13)   c)Se cortan en (3,13)');
@@ -240,7 +234,7 @@ INSERT INTO PreguntasGA VALUES (237,128,'Determina la ecuacion de la recta tange
 INSERT INTO PreguntasGA VALUES (237,129,'Determina la ecuacion de la recta tangente a la circunferencia x^2+y^2=25 en el punto P(-3,4)      a)5x-2y-25=0      b)x-2y+5=0      c)3x-4y+25=0');
 INSERT INTO PreguntasGA VALUES (237,130,'Determina la ecuacion de la recta tangente a la circunferencia x^2+y^2=5 en el punto P(1,2)       a)x+2y-5=0    b)x^2+2y^2-5=0      c)x-2y+25=0');
 
---Tema 8 Circunferencia dada tres condiciones
+-- Tema 8 Circunferencia dada tres condiciones
 INSERT INTO PreguntasGA VALUES (238,131,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(4,4), B(-6,-6), C(0,-4)      a)(x+6)^2+(y-4)^2=100    b)(x+10)^2+(y-5)^2=25      c)(x+6)^2+(y+3)^2=90');
 INSERT INTO PreguntasGA VALUES (238,132,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(8,8), B(-1,5), C(9,-3)       a)(x+8)^2+(y-4)^2=64     b)(x+6)^2+(y-4)^2=100     c)(x-4)^2+(y-5)^2=25');
 INSERT INTO PreguntasGA VALUES (238,133,'Encuentra la ecuación del círculo que pasa por los tres puntos dados: A(2√2,2√2) B(-4,0), C(0,-4)    a)2x^2+y^2=100     b)x^2+y^2=16      c)x^2+y^2=64');
@@ -261,9 +255,9 @@ INSERT INTO PreguntasGA VALUES (238,140,'Determinar la ecuación de la circunfer
 
 
 
---Preguntas Tercer Parcial Analítica
+-- Preguntas Tercer Parcial Analítica
 
---Tema 1 Parábola
+-- Tema 1 Parábola
 INSERT INTO PreguntasGA VALUES (331,141,'Encuentra la ecuación de la parábola con vértice en el origen si el foco está sobre el eje Y y la parábola pasa por el punto P(2,3). a)x^2=4/3y b)y^2=4/3x c)x^2=3/4y');
 INSERT INTO PreguntasGA VALUES (331,142,'Encuentra la ecuación de la parábola con vértice en V(3,3/5) y directriz Y=2. a)(x-4)^2=-2/3(y-5/3) b)(y-3)^2=-4/3(x-5/3) c)(x-3)^2=-4/3(y-5/3)');
 INSERT INTO PreguntasGA VALUES (331,143,'Da la ecuación de la parábola cuyo foco es F(-3,5), p=5/6 y eje paralelo al eje X. a)(y-5)^2=10/3(x+23/6) b)(x-5)^2=10/3(y+23/6) c)(y-5)^2=3/10(x+23/6)');
@@ -275,7 +269,7 @@ INSERT INTO PreguntasGA VALUES (331,148,'Encuentra la intersección de la recta 
 INSERT INTO PreguntasGA VALUES (331,149,'Encuentra la intersección de la recta 4x-7y+38=0 y la parábola y^2-2x-4=0. a)No hay intersección b)(-3/5,2);Q(4,2) c)(3/5,2);Q(-4,2)');
 INSERT INTO PreguntasGA VALUES (331,150,'Una parábola tiene ecuación y^2+2x+Ey+F=0 y su vértice es V(1/2,-3/2), encuentra los valores de E y F. a)E=-1/2, F=-15/4 b)E=-15/4, F=-1/2 c)E=1/2, F=-15/4');
 
---Tema 2 Aplicaciones de la Parábola
+-- Tema 2 Aplicaciones de la Parábola
 INSERT INTO PreguntasGA VALUES (332,151,'Un puente tiene una longitud de 160 metros. El cable que lo soporta tiene la forma de una parábola. Si el puntal ubicado en cada uno de los extremos tiene una altira de 25 metros, ¿Cuál es la ecuación de la parábola? a)x^2-256y=0 b)y^2-256x=0 c)x^2+256y=0');
 INSERT INTO PreguntasGA VALUES (332,152,'En un puente colgante, la distancia entre sus torres es de 300 metros y la altura de las torres es de 100 metros. Encuentra la altura del puntal que se encuentra a 50 metros del centro del puente. a)y=14.14m b)y=13.13m c)y=11.11m');
 INSERT INTO PreguntasGA VALUES (332,153,'El cable de un puente colgante está dado por la ecuación x^2=400y. Si los postes del puente tienen una altura de 50 metros, Determina la longitud del puntal que se encuentra a 100 metros del cetntro del puente. a)y=5m b)y=25m c)y^2=25m');
@@ -288,9 +282,9 @@ INSERT INTO PreguntasGA VALUES (332,159,'Un proyectil es lanzado desde el nivel 
 INSERT INTO PreguntasGA VALUES (332,160,'Un artillero atina a un objetivo que está a 500 metros de su cañón. El cañón está en el orgien de coordenadas. Encuentra la ecuación de la parábola que describió su disparo si éste alcanzó una altura máxima de 100 metros. a)y^2-500y-625x=0 b)x^2+500x-625y=0 c)x^2-500x+625y=0');
 
 
---Tema 3 Parábola dada tres condiciones
+-- Tema 3 Parábola dada tres condiciones
 INSERT INTO PreguntasGA VALUES (333,161,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por los puntos P(6,12), Q(2/3,8) y R(1/6,5). a)(y+6)^2=-4(3/2)x b)(y-6)^2=4(3/2)x c)(x-6)^2=4(3/2)y');
-INSERT INTO PreguntasGA VALUES (333,162,'Encuentra la ecuación de la parábola que pasa por los puntos P(-1,1), Q(1,9) y R(-2,0). a)x=y^2-4x-4 b)y=x^2-4x+4 c)y=x^2+4x+4')
+INSERT INTO PreguntasGA VALUES (333,162,'Encuentra la ecuación de la parábola que pasa por los puntos P(-1,1), Q(1,9) y R(-2,0). a)x=y^2-4x-4 b)y=x^2-4x+4 c)y=x^2+4x+4');
 INSERT INTO PreguntasGA VALUES (333,163,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje Y y que pasa por los puntos P(-1,4), Q(3,-38) y R(-4,4). a)(x+5/2)^2=-4(1/6)(y-59/8) b)(y-5/2)^2=-4(1/6)(x+59/8) c)(x-5/2)^2=-4(1/6)(y+59/8)');
 INSERT INTO PreguntasGA VALUES (333,164,'Encuentra la ecuación de la parábola que pasa por los puntos P(0,-1), Q(1,-3) y R(-1,-3). a)y=2x^2-1 b)y=-2x^2-1 c)y=-2x^2+1');
 INSERT INTO PreguntasGA VALUES (333,165,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X, que pasa por el centro del círculo x^2+y^2-6x-8y=0 y por los puntos donde se corta dicho círculo con la parabola (y-4)^2=4(x+4) y que no tienen abscisa 2. a)(y-4)^2=-4(4/3)(x-3) b)(y+4)^2=-4(4/3)(x-3) c)(y-4)^2=-4(4/3)(x+3)');
@@ -300,7 +294,7 @@ INSERT INTO PreguntasGA VALUES (333,168,'Encuentra la ecuación de la parábola 
 INSERT INTO PreguntasGA VALUES (333,169,'Encuentra la ecuación de la parábola cuyo eje es paralelo al eje X y que pasa por los puntos P(3/4,9), Q(-5/4,1) y R(0,11). a)y^2-16x-14y+33=0 b)y^2+16x+14y+33=0 c)y^2+16x-14y+33=0');
 INSERT INTO PreguntasGA VALUES (333,170,'Hallar la ecuación de la parábola de eje vertical y que pasa por los puntos P(6,1), Q(-2,3) y R(16,6). a)x^2−10x+24y−48=0 b)x^2+10x+24y+48=0 c)x^2−10x-24y+48=0');
 
---Tema 4 Elipse
+-- Tema 4 Elipse
 INSERT INTO PreguntasGA VALUES (334,171,'Encuentra las coordenadas de los vértices y de los focos de la elipse 4x^2+25y^2-100=0. a)V(5,0),V´(-5,0);F(√21,0),F´(-√21,0) b)V(4,0),V´(-4,0);F(√21,0),F´(-√21,0) c)V(4,0),V´(-4,0);F(-√22,0),F´(√22,0)');
 INSERT INTO PreguntasGA VALUES (334,172,'Encuentra las coordenadas de los vértices y de los focos de la elipse x^2+64y^2=64. a)V(8,0),V´(8,0);F(-3√7,0),F´(3√7,0) b)V(8,0),V´(-8,0);F(3√7,0),F´(-3√7,0) c)V(8,0),V´(-8,0);F(-3√7,0),F´(-3√7,0)');
 INSERT INTO PreguntasGA VALUES (334,173,'Halla la ecuación de la elipse que pasa por el punto P(-3,-2)y cuyos vértices son V(5,0), V´(-5,0). a)x^2/25-y^2/25/4=1 b)x^2/25+y^2/25/-4=1 c)x^2/25+y^2/25/4=1');
@@ -312,7 +306,7 @@ INSERT INTO PreguntasGA VALUES (334,178,'Encuentra la forma simétrica de la eli
 INSERT INTO PreguntasGA VALUES (334,179,'Dada la elipse 4x^2+9y^2-32x+54y+109=0, encuentra la ecuación del círculo cuyo radio es el semieje menor de dicha elipse y cuyo centro es el mismo que el de ésta. a)(x-4)^2+(y+3)^2=4 b)(x+4)^2-(y+3)^2=4 c)(x+4)^2+(y-3)^2=4');
 INSERT INTO PreguntasGA VALUES (334,180,'Da los puntos de intersección de la elipse x^2+8y^2+12x-64y+148=0 y el círculo x^2+y^2+12x-8y+43=0. a)P(6+2√2,3),Q(6+2√2,5),R(6-2√2,5),S(6-2√2,3) b)P(-6+2√2,3),Q(-6+2√2,5),R(-6-2√2,5),S(-6-2√2,3) c)P(6+2√2,3),Q(6+2√2,5),R(-6-2√2,5),S(-6-2√2,3)');
 
---Tema 5 Aplicaciones de la Elipse
+-- Tema 5 Aplicaciones de la Elipse
 INSERT INTO PreguntasGA VALUES (335,181,'Un arco de 80m de luz tiene forma semielíptica. Sabiendo que su altura es 30m, calcular la altura del arco en un punto situado a 15m del centro. a)15√55/4 b)12√55 c)9√55/5');
 INSERT INTO PreguntasGA VALUES (335,182,'El techo de 14u de altura es el centro de un pasillo de 10u de ancho, tiene la forma de una semielipse , las paredes laterales tiene una altura de 10u, encontrar la altura del techo a 2u de cualquier pared. a)13 b)13,1 c)13,2');
 INSERT INTO PreguntasGA VALUES (335,183,'Un arco en forma de media elipse tiene 40 pies de ancho y 16 pies de altura en el centro. Encuentre la altura del arco de 10 pies del extremo derecho. a)8√3 b)2√5 c)3√3');
@@ -326,7 +320,7 @@ INSERT INTO PreguntasGA VALUES (335,188,'Una compañía de construcción está d
 INSERT INTO PreguntasGA VALUES (335,189,'Un astrónomo está estudiando la órbita de un cometa alrededor del sol, que se modela como una elipse. La distancia entre los dos focos de la elipse es de 20 unidades astronómicas (UA), y el eje mayor tiene una longitud de 30 UA. La excentricidad de la órbita del cometa, aproximada a dos decimales, es: a)0.33 b)0.66 c)0.75');
 INSERT INTO PreguntasGA VALUES (335,190,'Una empresa de producción agrícola quiere cercar un terreno para plantar árboles frutales en forma de una elipse. La longitud del eje mayor es de 60 metros y la longitud del eje menor es de 40 metros. El perímetro de la elipse, aproximado al metro más cercano, es: a)200 metros b)150 metros c)180 metros a) b) c)');
 
---Tema 6 Hipérbola
+-- Tema 6 Hipérbola
 INSERT INTO PreguntasGA VALUES (336,191,'Encuentra la coordenada de los vértices y de los focos de la hipérbola 2x^2-3y^2=12. a)V(√6,0),V´(-√6,0),F(√10,0),F´(-√10,0) b)V(-√6,0),V´(-√6,0),F(√10,0),F´(-√10,0) c)V(√6,0),V´(0,-√6),F(√10,0),F´(-√10,0)');
 INSERT INTO PreguntasGA VALUES (336,192,'Encuentra la coordenada de los vértices y de los focos de la hipérbola x^2-9y^2-81=0. a)V(0,9),V´(-9,0),F(3√10,0),F´(-3√10,0) b)V(0,9),V´(-9,0),F(0,3√10),F´(-3√10,0) c)V(9,0),V´(-9,0),F(3√10,0),F´(-3√10,0)');
 INSERT INTO PreguntasGA VALUES (336,193,'Encuentra la ecuación de la hipérbola con focos F´(-5,0) F(5,0) la distancia entre sus vértices es 4. a)x^2/4-y^2/21=1 b)x^2/4+y^2/22=1 c)x^2/4-y^2/20=1');
@@ -338,37 +332,31 @@ INSERT INTO PreguntasGA VALUES (336,198,'Encuentra la ecuación de la hipérbola
 INSERT INTO PreguntasGA VALUES (336,199,'Encuentra la ecuación de la hipérbola con vértices en V(2,7), V´(2,-7) que pasa por el punto P(4,7√2). a)y^2/49+(x+2)^2/4=1 b)y^2/49+(x-2)^2/4=1 c)y^2/49-(x-2)^2/4=1');
 INSERT INTO PreguntasGA VALUES (336,200,'Da la ecuación de la hipérbola vertical que tiene el mismo centro que la hipérbola x^2-3y^2+16x+36y-53=0, la misma longitud del eje focal y la misma distancia entre su vértices. a)(y-6)^2/9+(x-8)^2/3=1 b)(y-6)^2/9-(x+8)^2/3=1 c)(y+6)^2/9+(x+8)^2/3=1');
 
-
-
-
-
-
-
---Creación de Tabla para las Preguntas Analítica
+-- Creación de Tabla para las Preguntas Analítica
 CREATE TABLE RespuestasGA(
 		ID_PreguntaGA INTEGER NOT NULL,
 		ID_RespuestaGA INTEGER NOT NULL,
 		Respuestas VARCHAR(5) NOT NULL,
 		PRIMARY KEY(ID_RespuestaGA),
 		FOREIGN KEY(ID_PreguntaGA)
-		REFERENCES PreguntasA(ID_PreguntaGA)
+		REFERENCES PreguntasGA(ID_PreguntaGA)
 		);		
 
---Respuestas Primer Parcial Analítica
+-- Respuestas Primer Parcial Analítica
 
---Tema 1 Distancia entre dos puntos en el plano cartesiano.
-INSERT INTO RespuestasGA VALUES (01,010,'a'),
-INSERT INTO RespuestasGA VALUES (02,020,'b'),
-INSERT INTO RespuestasGA VALUES (03,030,'b'),
-INSERT INTO RespuestasGA VALUES (04,040,'b'),
-INSERT INTO RespuestasGA VALUES (05,050,'b'),
+-- Tema 1 Distancia entre dos puntos en el plano cartesiano.
+INSERT INTO RespuestasGA VALUES (01,010,'a');
+INSERT INTO RespuestasGA VALUES (02,020,'b');
+INSERT INTO RespuestasGA VALUES (03,030,'b');
+INSERT INTO RespuestasGA VALUES (04,040,'b');
+INSERT INTO RespuestasGA VALUES (05,050,'b');
 INSERT INTO RespuestasGA VALUES (06,060,'a'); 
 INSERT INTO RespuestasGA VALUES (07,070,'c'); 
 INSERT INTO RespuestasGA VALUES (08,080,'a');
 INSERT INTO RespuestasGA VALUES (09,090,'c');
 INSERT INTO RespuestasGA VALUES (10,100,'a');
 
---Tema 2 Área de un polígono dados sus vértices.
+-- Tema 2 Área de un polígono dados sus vértices.
 INSERT INTO RespuestasGA VALUES (11,110,'a');
 INSERT INTO RespuestasGA VALUES (12,120,'c');
 INSERT INTO RespuestasGA VALUES (13,130,'b');
@@ -381,7 +369,7 @@ INSERT INTO RespuestasGA VALUES (19,190,'c');
 INSERT INTO RespuestasGA VALUES (20,200,'a');
 
 
---Tema 3 División de un segmento en una razón dada.
+-- Tema 3 División de un segmento en una razón dada.
 INSERT INTO RespuestasGA VALUES (21,210,'a');
 INSERT INTO RespuestasGA VALUES (22,220,'c');
 INSERT INTO RespuestasGA VALUES (23,230,'b');
@@ -393,7 +381,7 @@ INSERT INTO RespuestasGA VALUES (28,280,'a');
 INSERT INTO RespuestasGA VALUES (29,290,'c');
 INSERT INTO RespuestasGA VALUES (30,300,'a');
 
---Tema 4 Pendiente y Ángulo de inclinación de una recta.
+-- Tema 4 Pendiente y Ángulo de inclinación de una recta.
 INSERT INTO RespuestasGA VALUES (31,310,'a');
 INSERT INTO RespuestasGA VALUES (32,320,'c');
 INSERT INTO RespuestasGA VALUES (33,330,'b');
@@ -406,7 +394,7 @@ INSERT INTO RespuestasGA VALUES (39,390,'c');
 INSERT INTO RespuestasGA VALUES (40,400,'a');
 
 
---Tema 5 Primer Problema fundamental de la Geometría Analítica
+-- Tema 5 Primer Problema fundamental de la Geometría Analítica
 INSERT INTO RespuestasGA VALUES (41,410,'a');
 INSERT INTO RespuestasGA VALUES (42,420,'c');
 INSERT INTO RespuestasGA VALUES (43,430,'b');
@@ -418,7 +406,7 @@ INSERT INTO RespuestasGA VALUES (48,480,'a');
 INSERT INTO RespuestasGA VALUES (49,490,'c');
 INSERT INTO RespuestasGA VALUES (50,500,'a');
 
---Tema 6 Segundo Problema fundamental de la Geometía Analítica
+-- Tema 6 Segundo Problema fundamental de la Geometía Analítica
 INSERT INTO RespuestasGA VALUES (51,510,'a');
 INSERT INTO RespuestasGA VALUES (52,520,'c');
 INSERT INTO RespuestasGA VALUES (53,530,'b');
@@ -439,9 +427,9 @@ INSERT INTO RespuestasGA VALUES (60,600,'a');
 
 
 
---Respuestas Segundo Parcial Geometría Analítica
+-- Respuestas Segundo Parcial Geometría Analítica
 
---Tema 1 La línea Recta
+-- Tema 1 La línea Recta
 INSERT INTO RespuestasGA VALUES (61,610,'a');
 INSERT INTO RespuestasGA VALUES (62,620,'c');
 INSERT INTO RespuestasGA VALUES (63,630,'b');
@@ -453,7 +441,7 @@ INSERT INTO RespuestasGA VALUES (68,680,'a');
 INSERT INTO RespuestasGA VALUES (69,690,'c');
 INSERT INTO RespuestasGA VALUES (70,700,'a');
 
---Tema 2 Condición de Paralelismo y Perpendicularidad
+-- Tema 2 Condición de Paralelismo y Perpendicularidad
 INSERT INTO RespuestasGA VALUES (71,710,'a');
 INSERT INTO RespuestasGA VALUES (72,720,'c');
 INSERT INTO RespuestasGA VALUES (73,730,'b');
@@ -465,7 +453,7 @@ INSERT INTO RespuestasGA VALUES (78,780,'a');
 INSERT INTO RespuestasGA VALUES (79,790,'c');
 INSERT INTO RespuestasGA VALUES (80,800,'a');
 
---Tema 3 Ecuación normal de la recta
+-- Tema 3 Ecuación normal de la recta
 INSERT INTO RespuestasGA VALUES (81,810,'a');
 INSERT INTO RespuestasGA VALUES (82,820,'c');
 INSERT INTO RespuestasGA VALUES (83,830,'b');
@@ -477,7 +465,7 @@ INSERT INTO RespuestasGA VALUES (88,880,'a');
 INSERT INTO RespuestasGA VALUES (89,890,'c');
 INSERT INTO RespuestasGA VALUES (90,900,'a');
 
---Tema 4 Distancia de un punto a una recta
+-- Tema 4 Distancia de un punto a una recta
 INSERT INTO RespuestasGA VALUES (91,910,'a');
 INSERT INTO RespuestasGA VALUES (92,920,'c');
 INSERT INTO RespuestasGA VALUES (93,930,'b');
@@ -489,7 +477,7 @@ INSERT INTO RespuestasGA VALUES (98,980,'a');
 INSERT INTO RespuestasGA VALUES (99,990,'c');
 INSERT INTO RespuestasGA VALUES (100,1000,'a');
 
---Tema 5 Ángulo entre dos rectas
+-- Tema 5 Ángulo entre dos rectas
 INSERT INTO RespuestasGA VALUES (101,1010,'a');
 INSERT INTO RespuestasGA VALUES (102,1020,'c');
 INSERT INTO RespuestasGA VALUES (103,1030,'b');
@@ -501,7 +489,7 @@ INSERT INTO RespuestasGA VALUES (108,1080,'a');
 INSERT INTO RespuestasGA VALUES (109,1090,'c');
 INSERT INTO RespuestasGA VALUES (110,1100,'a');
 
---Tema 6 Circunfernecia
+-- Tema 6 Circunfernecia
 INSERT INTO RespuestasGA VALUES (111,1110,'a');
 INSERT INTO RespuestasGA VALUES (112,1120,'c');
 INSERT INTO RespuestasGA VALUES (113,1130,'b');
@@ -513,7 +501,7 @@ INSERT INTO RespuestasGA VALUES (118,1180,'a');
 INSERT INTO RespuestasGA VALUES (119,1190,'c');
 INSERT INTO RespuestasGA VALUES (120,1200,'a');
 
---Tema 7 Recta tangente a una circunferencia
+-- Tema 7 Recta tangente a una circunferencia
 INSERT INTO RespuestasGA VALUES (121,1210,'a');
 INSERT INTO RespuestasGA VALUES (122,1220,'c');
 INSERT INTO RespuestasGA VALUES (123,1230,'b');
@@ -525,7 +513,7 @@ INSERT INTO RespuestasGA VALUES (128,1280,'a');
 INSERT INTO RespuestasGA VALUES (129,1290,'c');
 INSERT INTO RespuestasGA VALUES (130,1300,'a');
 
---Tema 8 Circunferencia dada tres condiciones
+-- Tema 8 Circunferencia dada tres condiciones
 INSERT INTO RespuestasGA VALUES (131,1310,'a');
 INSERT INTO RespuestasGA VALUES (132,1320,'c');
 INSERT INTO RespuestasGA VALUES (133,1330,'b');
@@ -540,16 +528,9 @@ INSERT INTO RespuestasGA VALUES (140,1400,'a');
 
 
 
+-- Respuestas Tercer Parcial Geometría Analítica
 
-
-
-
-
-
-
---Respuestas Tercer Parcial Geometría Analítica
-
---Tema 1 Parábola
+-- Tema 1 Parábola
 INSERT INTO RespuestasGA VALUES (141,1410,'a');
 INSERT INTO RespuestasGA VALUES (142,1420,'c');
 INSERT INTO RespuestasGA VALUES (143,1430,'a');
@@ -561,7 +542,7 @@ INSERT INTO RespuestasGA VALUES (148,1480,'c');
 INSERT INTO RespuestasGA VALUES (149,1490,'a');
 INSERT INTO RespuestasGA VALUES (150,1500,'a');
 
---Tema 2 Aplicaciones de la Parábola
+-- Tema 2 Aplicaciones de la Parábola
 INSERT INTO RespuestasGA VALUES (151,1510,'a');
 INSERT INTO RespuestasGA VALUES (152,1520,'c');
 INSERT INTO RespuestasGA VALUES (153,1530,'b');
@@ -573,7 +554,7 @@ INSERT INTO RespuestasGA VALUES (158,1580,'a');
 INSERT INTO RespuestasGA VALUES (159,1590,'b');
 INSERT INTO RespuestasGA VALUES (160,1600,'c');
 
---Tema 3 Parábola dada tres condiciones
+-- Tema 3 Parábola dada tres condiciones
 INSERT INTO RespuestasGA VALUES (161,1610,'b');
 INSERT INTO RespuestasGA VALUES (162,1620,'c');
 INSERT INTO RespuestasGA VALUES (163,1630,'a');
@@ -585,7 +566,7 @@ INSERT INTO RespuestasGA VALUES (168,1680,'a');
 INSERT INTO RespuestasGA VALUES (169,1690,'c');
 INSERT INTO RespuestasGA VALUES (170,1700,'a');
 
---Tema 4 Elipse
+-- Tema 4 Elipse
 INSERT INTO RespuestasGA VALUES (171,1710,'a');
 INSERT INTO RespuestasGA VALUES (172,1720,'b');
 INSERT INTO RespuestasGA VALUES (173,1730,'c');
@@ -597,7 +578,7 @@ INSERT INTO RespuestasGA VALUES (178,1780,'b');
 INSERT INTO RespuestasGA VALUES (179,1790,'a');
 INSERT INTO RespuestasGA VALUES (180,1800,'b');
  
---Tema 5 Aplicaciones de la Elipse
+-- Tema 5 Aplicaciones de la Elipse
 INSERT INTO RespuestasGA VALUES (181,1810,'a');
 INSERT INTO RespuestasGA VALUES (182,1820,'c');
 INSERT INTO RespuestasGA VALUES (183,1830,'a');
@@ -609,7 +590,7 @@ INSERT INTO RespuestasGA VALUES (188,1880,'b');
 INSERT INTO RespuestasGA VALUES (189,1890,'a');
 INSERT INTO RespuestasGA VALUES (190,1900,'b');
 
---Tema 6 Hipérbola
+-- Tema 6 Hipérbola
 INSERT INTO RespuestasGA VALUES (191,1910,'a');
 INSERT INTO RespuestasGA VALUES (192,1920,'c');
 INSERT INTO RespuestasGA VALUES (193,1930,'a');

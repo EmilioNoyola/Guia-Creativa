@@ -1,34 +1,34 @@
---Cuarto semestre - Quimica 2
+-- Cuarto semestre - Quimica 2
 
---Temas Pimer Parcial Quimica 2
+-- Temas Pimer Parcial Quimica 2
 INSERT INTO Temas VALUES (180,181,'Nomenclatura Inorgánica');
 INSERT INTO Temas VALUES (180,182,'Reacciones Químicas Inorgánicas');
 INSERT INTO Temas VALUES (180,183,'Balanceo de Ecuaciones Químicas');
 
---Temas Segundo Parcial Quimica 2
+-- Temas Segundo Parcial Quimica 2
 INSERT INTO Temas VALUES (280,281,'Estequiometria');
 INSERT INTO Temas VALUES (280,282,'Estructura de reacciones orgánicas');
 
---Temas Tercer Parcial Quimica 2
+-- Temas Tercer Parcial Quimica 2
 INSERT INTO Temas VALUES (380,381,'Nomenclatura de compuestos orgánicos');
 INSERT INTO Temas VALUES (380,382,'Aplicación de compuestos organicos');
 
 
 
 
---Creación de Tabla para las Preguntas Quimica 2
+-- Creación de Tabla para las Preguntas Quimica 2
 CREATE TABLE PreguntasQ2( 
 		ID_Tema INTEGER NOT NULL,
 		ID_PreguntaQ2 INTEGER NOT NULL,
-		Preguntas VARCHAR(300) NOT NULL,
+		Preguntas VARCHAR(700) NOT NULL,
 		PRIMARY KEY(ID_PreguntaQ2),
 		FOREIGN KEY(ID_Tema)
 		REFERENCES Temas(ID_Tema)
 		);
 		
---Preguntas Primer Parcial Quimica 2
+-- Preguntas Primer Parcial Quimica 2
 
---Tema 1 Nomenclatura organica
+-- Tema 1 Nomenclatura organica
 INSERT INTO PreguntasQ2 VALUES (181,01,'¿Cuál es el nombre del compuesto químico I₂O₇? a) Dióxido de yodo b) Pentóxido de yodo c) Yoduro de dioxígeno d) Anhídrido peryódico');
 INSERT INTO PreguntasQ2 VALUES (181,02,'¿Cuál es el nombre del compuesto químico RbBr? a) Rubidio bromuro b) Bromuro de rubidio c) Rubidio bromanuro d) Bromuro de rutenio');
 INSERT INTO PreguntasQ2 VALUES (181,03,'¿Cuál es el nombre del compuesto químico Mg₃(PO₄)₂? a) Fosfato de magnesio b) Magnesio fosfato c) Fosfuro de magnesio d) Difosfato de magnesio');
@@ -80,7 +80,7 @@ INSERT INTO PreguntasQ2 VALUES (181,48,'¿Cómo se denomina el compuesto químic
 INSERT INTO PreguntasQ2 VALUES (181,49,'¿Cuál es el nombre del compuesto químico Ba(OH)₂? a) Hidróxido de bario b) Hidróxido de bismuto c) Oxobario d) Hidróxido de berilio');
 INSERT INTO PreguntasQ2 VALUES (181,50,'¿Cómo se llama el compuesto químico MgSO₄? a) Sulfato de magnesio b) Sulfito de magnesio c) Sulfuro de magnesio d) Monosulfato de magnesio');
 
---Tema 2 Reacciones quimicas inorganicas
+-- Tema 2 Reacciones quimicas inorganicas
 INSERT INTO PreguntasQ2 VALUES (182,51,'Para eliminar el dolor de cabeza es común ingerir una pequeña cantidad de paracetamol, lo anterior indica que al interior de nuestro organismo ocurre un(a): a) Fenómeno físico b) Perdida de masa c) Cambio de estado d) Reacción química');
 INSERT INTO PreguntasQ2 VALUES (182,52,'¿Cuáles son los números de oxidación del yodo en (IO₄)⁻¹, NAI, y KIO₃, ¿respectivamente? a) +1,+3,+5 b) -7,+5,-5 c) +7,-1,+5 d) +4,-1,+3');
 INSERT INTO PreguntasQ2 VALUES (182,53,'En la ecuación Mg + Cl₂ → MgCl₂, ¿por qué el cloro es el agente oxidante? a) Es la especie química que tiene perdida de electrones b) No se altera el número de oxidación de ningún elemento c) Provoca que el magnesio pierda electrones d) En el proceso cambia -2 a +2');
@@ -132,7 +132,7 @@ INSERT INTO PreguntasQ2 VALUES (182,98,'¿Cuál es el reactivo limitante en la r
 INSERT INTO PreguntasQ2 VALUES (182,99,'¿Qué se forma cuando el ácido sulfúrico reacciona con el hidróxido de potasio? a) KHSO₄ + H₂O b) K₂SO₄ + H₂O c) KHSO₃ + H₂O d) K₂SO₃ + H₂O');
 INSERT INTO PreguntasQ2 VALUES (182,100,'¿Cuál es el producto de la reacción entre el cloruro de sodio y el ácido nítrico? a) NaNO₃ + HCl b) NaCl + HNO₃ c) NaNO₂ + HCl d) NaClO₃ + HNO₂');
 
---Tema 3 Balanceo de ecuaciones quimicas
+-- Tema 3 Balanceo de ecuaciones quimicas
 INSERT INTO PreguntasQ2 VALUES (183,101,'La ecuación química: 2FeCl₂ + Cl₂ → 2FeCl₃ , se dice que está balanceada debido a que: a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.');
 INSERT INTO PreguntasQ2 VALUES (183,102,'¿Cómo se clasificaría la siguiente ecuación química: Fe + O₂ → Fe₂O₃? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
 INSERT INTO PreguntasQ2 VALUES (183,103,'¿Cómo se clasificaría la siguiente ecuación química: NaOH + HCl → NaCl + H₂O? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
@@ -176,9 +176,9 @@ INSERT INTO PreguntasQ2 VALUES (183,140,'¿Cómo se clasificaría la siguiente e
 
 
 
---Preguntas segundo parcial Quimica 2
+-- Preguntas segundo parcial Quimica 2
 
---Tema 1 Estequiometria
+-- Tema 1 Estequiometria
 INSERT INTO PreguntasQ2 VALUES (281, 141, 'La bauxita y el corindón son los minerales que contienen a la alúmina Al₂O₃, principal materia prima para la producción de aluminio; la cantidad de gramos/mol de aluminio obtenidas por cada kilogramo de óxido de aluminio, es determinada al aplicar la:');
 INSERT INTO PreguntasQ2 VALUES (281, 142, 'La cantidad de partículas contenidas en un mol de nitrato de plata es igual a:');
 INSERT INTO PreguntasQ2 VALUES (281, 143, 'Una forma de obtener el tetracloruro de carbono haciendo reaccionar bismuto de carbono en cloro gaseoso las proporciones que se requieres para su obtención son estudiadas por la:');
@@ -252,7 +252,7 @@ INSERT INTO PreguntasQ2 VALUES (281, 210, '¿Cuál de las siguientes afirmacione
 
 
 
---Tema 2 Estructura de compuestos orgánicos
+-- Tema 2 Estructura de compuestos orgánicos
 INSERT INTO PreguntasQ2 VALUES (282, 211, '¿Cuál es el número total de carbonos primarios, secundarios, terciarios o cuaternarios en la siguiente fórmula semidesarrollada: CH₃-CH₂-CH(CH₃)-CH₂-CH₃?
 a) 2 primarios, 2 secundarios, 1 terciario, 0 cuaternarios
 b) 3 primarios, 2 secundarios, 1 terciario, 0 cuaternarios
@@ -558,9 +558,9 @@ d) Octaédrica');
 
 
 
---Preguntas tercer parcial Quimica 2
+-- Preguntas tercer parcial Quimica 2
 
---Tema 1 Ejercicios de nomenclatura y aplicación de compuestos orgánicos
+-- Tema 1 Ejercicios de nomenclatura y aplicación de compuestos orgánicos
 INSERT INTO PreguntasQ2 VALUES (381, 261, 'El nombre sistemático del compuesto es:
 a) 4-etil-2,4,5-trimetil-6—isopropil nonano
 b) 6-etil-4-propil-5,6,8-trimetilnonano 
@@ -743,7 +743,7 @@ d) Acido etílico');
 
 
 
---Tema 2 Teoría sobre nomenclatura y aplicación de compuestos orgánicos
+-- Tema 2 Teoría sobre nomenclatura y aplicación de compuestos orgánicos
 INSERT INTO PreguntasQ2 VALUES (382, 291, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-CH2-CH3?
 a) Propano
 b) Butano
@@ -1347,7 +1347,7 @@ d) Butanal');
 
 
 
---Creación de Tabla para las Respuestas Quimica 2
+-- Creación de Tabla para las Respuestas Quimica 2
 
 CREATE TABLE RespuestasQ2(
 		ID_PreguntaQ2 INTEGER NOT NULL,
@@ -1355,12 +1355,12 @@ CREATE TABLE RespuestasQ2(
 		Respuestas VARCHAR(5) NOT NULL,
 		PRIMARY KEY(ID_RespuestaQ2),
 		FOREIGN KEY(ID_PreguntaQ2)
-		REFERENCES Preguntas(ID_PreguntaQ2)
+		REFERENCES PreguntasQ2(ID_PreguntaQ2)
 		);		
 
---Respuestas Primer Parcial Quimica 2
+-- Respuestas Primer Parcial Quimica 2
 
---Tema 1 Nomenclatura organica
+-- Tema 1 Nomenclatura organica
 INSERT INTO RespuestasQ2 VALUES 
 (01, 010, 'd'),
 (02, 020, 'a'),
@@ -1413,7 +1413,7 @@ INSERT INTO RespuestasQ2 VALUES
 (49, 490, 'a'),
 (50, 500, 'a');
 
---Tema 2 Reacciones quimicas inorganicas
+-- Tema 2 Reacciones quimicas inorganicas
 INSERT INTO RespuestasQ2 VALUES 
 (51, 510, 'd'),
 (52, 520, 'c'),
@@ -1466,7 +1466,7 @@ INSERT INTO RespuestasQ2 VALUES
 (99, 990, 'b'),
 (100, 1000, 'b');
 
---Tema 3 Balanceo de ecuaciones quimicas
+-- Tema 3 Balanceo de ecuaciones quimicas
 INSERT INTO RespuestasQ2 VALUES 
 (101, 1010, 'b'),
 (102, 1020, 'a'),
@@ -1510,9 +1510,9 @@ INSERT INTO RespuestasQ2 VALUES
 (140, 1400, 'd');
 
 
---Respuestas Segundo Parcial Quimica 2
+-- Respuestas Segundo Parcial Quimica 2
 
---Tema 1 Estequiometria
+-- Tema 1 Estequiometria
 INSERT INTO RespuestasQ2 VALUES 
 (141, 1410, 'c'),
 (142, 1420, 'b'),
@@ -1585,7 +1585,7 @@ INSERT INTO RespuestasQ2 VALUES
 (209, 2090, 'a'),
 (210, 2100, 'c');
 
---Tema 2 Estructura de compuestos orgánicos
+-- Tema 2 Estructura de compuestos orgánicos
 INSERT INTO RespuestasQ2 VALUES 
 (211, 2110, 'b'),
 (212, 2120, 'a'),
@@ -1640,9 +1640,9 @@ INSERT INTO RespuestasQ2 VALUES
 
 
 
---Respuestas Tercer Parcial Quimica 2
+-- Respuestas Tercer Parcial Quimica 2
 
---Tema 1 Ejercicios de nomenclatura y aplicación de compuestos orgánicos
+-- Tema 1 Ejercicios de nomenclatura y aplicación de compuestos orgánicos
 INSERT INTO RespuestasQ2 VALUES 
 (261, 2610, 'a'),
 (262, 2620, 'a'),
@@ -1675,7 +1675,7 @@ INSERT INTO RespuestasQ2 VALUES
 (289, 2890, 'b'),
 (290, 2900, 'd');
 
---Tema 2 Teoría sobre nomenclatura y aplicación de compuestos orgánicos
+-- Tema 2 Teoría sobre nomenclatura y aplicación de compuestos orgánicos
 INSERT INTO RespuestasQ2 VALUES 
 (291, 2910, 'b'),
 (292, 2920, 'c'),

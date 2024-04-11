@@ -1,8 +1,8 @@
---Hecho por Hernandez Barrios Samuel Rodrigo 18/03/2024
+-- Hecho por Hernandez Barrios Samuel Rodrigo 18/03/2024
 
---Cuarto Semestre - Calulo diferencial
+-- Cuarto Semestre - Calulo diferencial
 
---Temas Primer Calculo diferencial.
+-- Temas Primer Calculo diferencial.
 INSERT INTO Temas VALUES (160,161,'Inecuaciones lineales');
 INSERT INTO Temas VALUES (160,162,'Inecuaciones de valor absoluto');
 INSERT INTO Temas VALUES (160,163,'Inecuaciones no lineales');
@@ -11,27 +11,27 @@ INSERT INTO Temas VALUES (160,165,'Evaluar funciones');
 INSERT INTO Temas VALUES (160,166,'Domingo y rango');
 
 
---Temas Segundo Parcial Calculo Diferencial.
-INSERT INTO Temas VALUES (260,261,'Limites'); --10
-INSERT INTO Temas VALUES (260,262,'Derivadas'); --10
+-- Temas Segundo Parcial Calculo Diferencial.
+INSERT INTO Temas VALUES (260,261,'Limites'); -- 10
+INSERT INTO Temas VALUES (260,262,'Derivadas'); -- 10
 
 
---Temas Tercer Parcial Calculo Diferencial.
-INSERT INTO Temas VALUES (360,361,'Aplicaciones de la derivada'); --10
+-- Temas Tercer Parcial Calculo Diferencial.
+INSERT INTO Temas VALUES (360,361,'Aplicaciones de la derivada'); -- 10
 
---Creación de Tabla para las Preguntas Calculo.
+-- Creación de Tabla para las Preguntas Cálculo.
 CREATE TABLE PreguntasCD(
 		ID_Tema INTEGER NOT NULL,
 		ID_PreguntaCD INTEGER NOT NULL,
-		Preguntas VARCHAR(500) NOT NULL,
+		Preguntas VARCHAR(600) NOT NULL,
 		PRIMARY KEY(ID_PreguntaCD),
 		FOREIGN KEY(ID_Tema)
 		REFERENCES Temas(ID_Tema)
 		);
 
---Preguntas Primer Parcial Calculo diferencial.
+-- Preguntas Primer Parcial Calculo diferencial.
 
---Tema 1 Inecuaciones lineales
+-- Tema 1 Inecuaciones lineales
 INSERT INTO PreguntasCD VALUES (161,01,'¿Cuál es la solución de la desigualdad: 6(x²+1) - (2x-4)(3x+2) < 3(5x+21)?; Respuesta: 
 a) x > −7. Notación de intervalos:(−7, ∞)
 b) x < −7. Notación de intervalos:(−∞, −7)
@@ -93,7 +93,7 @@ c) x ≤ 4 o x ≥ 5. Notación de intervalos: (-∞,4] ∪ [5, ∞)
 d) x ≥ 4 y x ≤ 5. Notación de intervalos: [4, 5]
 ');
 
---Tema 2 Inecuaciones de valor absoluto
+-- Tema 2 Inecuaciones de valor absoluto
 INSERT INTO PreguntasCD VALUES (162,11,'¿Cuál es la solución de la desigualdad | x²-2 | ≤ 2?; Respuesta:
 a) −1 ≤ x ≤ 1. Notación de intervalos: [-1,1]
 b) −2 ≤ x ≤ 2. Notación de intervalos: [-2,2]
@@ -157,7 +157,7 @@ d) x < 4 o x > 15/4. Notación de intervalos: (-∞,4) ∪ (15/4, ∞)
 ');
 
 
---Tema 3 Inecuaciones no lineales
+-- Tema 3 Inecuaciones no lineales
 INSERT INTO PreguntasCD VALUES (163,21,'¿Cuál es la solución de la desigualdad 1 < 6x²-x?; Respuesta:
 a) x < −1/3 o x > 1/2. Notación de intervalos: (−∞, −1/3) ∪ (1/2, ∞)
 b) x < 1/3 o x > 1/6. Notación de intervalos: (−∞, 1/3) ∪ (1/6, ∞)
@@ -231,7 +231,7 @@ c) x > -3. Notación de intervalos: (-3, ∞)
 d) x > -4. Notación de intervalos: (-4, ∞)
 ');
 
---Tema 4 Inecuaciones racionales
+-- Tema 4 Inecuaciones racionales
 INSERT INTO PreguntasCD VALUES (164,33,'¿Cuál es la solución de la desigualdad |(x+1) / (2)| ≥ 1?; Respuesta:
 a) x ≤ −3 ∪ x ≥ 1. Notación de intervalos:(−∞, −3] ∪ [1, ∞)
 b) x ≤ −1 ∪ x ≥ 3. Notación de intervalos:(−∞, −1] ∪ [3, ∞)
@@ -293,7 +293,7 @@ c) -5 < x < -1/4 o x > 4. Notación de intervalos:(-5,-1/4) ∪ (4, ∞)
 d) -6 < x < -1/5 o x > 5. Notación de intervalos:(-6,-1/5) ∪ (5, ∞)
 ');
 
---Tema 5 Evaluar funciones
+-- Tema 5 Evaluar funciones
 INSERT INTO PreguntasCD VALUES (165,43,'f(x) = 3x-2; a) f (0)		b) f(5)		c) f(b) 		d) f(x-1)
 A)a) -2 		b) 13 		c) 3b-2 	d) 3x-5
 B)a) -1 		b) 14 		c) 6b-1 	d) 3x+3
@@ -376,7 +376,7 @@ C)
 D)
 ');
 
---Tema 6 Dominio y rango
+-- Tema 6 Dominio y rango
 
 INSERT INTO PreguntasCD VALUES (166, 56,'Calcula el dominio y rango de la funcion: f(x) = (4-x²) / (x² +1); Respuesta:a
 a) Dominio: (-∞, ∞) | Rango: (1, 4]
@@ -455,9 +455,9 @@ c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, ∞)| Rango: (0,2]
 ');
 
---Preguntas Segundo Parcial Calculo diferencial.
+-- Preguntas Segundo Parcial Calculo diferencial.
 
---Tema 1 Limites 
+-- Tema 1 Limites 
 INSERT INTO PreguntasCD VALUES (261, 66,'lim┬(x→4)⁡(∛((x²-3x+4)/(2x²-x-1)))³; Respuesta:
 a)1/3
 b)3
@@ -627,7 +627,7 @@ b)-1
 c)-3/2
 d)0
 ');
---Tema 2 Derivadas
+-- Tema 2 Derivadas
 INSERT INTO PreguntasCD VALUES (262, 94,'Deriva por definición la función: f(t)= b/(t-b); Respuesta:
 a)t+b/(t−b)^2
 b)b/(t+b)^2
@@ -826,10 +826,10 @@ b)senθ
 c)tanθ
 d)cosθ
 ');
-INSERT INTO PreguntasCD VALUES (262, 127,'Si f'(x)= g'(x), entonces f(x)=g(x); Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 127, "Si f'(x)= g'(x), entonces f(x)=g(x); Respuesta:
 a)Verdadero
 b)Falso
-');
+");
 INSERT INTO PreguntasCD VALUES (262, 128,'Si y=π², entonces dy/dx=2π ; Respuesta:
 a)Verdadero
 b)Falso
@@ -883,130 +883,130 @@ c)1-senx
 d)1/1+cosx
 ');
 
---Preguntas Tercer Parcial Calculo diferencial.
+-- Preguntas Tercer Parcial Calculo diferencial.
 
-INSERT INTO PreguntasA VALUES (360,137,'Cada lado de un cuadrado mide 5 unidades de longitud.Hallar la longitud de cada lado del cuadrado de máxima área que puede circunscribirse al cuadrado dado;Respuesta:
+INSERT INTO PreguntasCD VALUES (361,137,'Cada lado de un cuadrado mide 5 unidades de longitud.Hallar la longitud de cada lado del cuadrado de máxima área que puede circunscribirse al cuadrado dado;Respuesta:
 a)(5√2)/2
 b)(5√2)
 c)(5√3)/3
 d)(2√3)/2
 ');
-INSERT INTO PreguntasA VALUES (360,138,'Un rectángulo tiene 2 de sus lados sobre los ejes coordenados positivos y su vértice opuesto al origen M(x,y) está sobre la curva de ecuación x=(1/2)^-y.En este vértice la ordenada aumenta a razón d 1/3 cm/s,¿Cuál es la variación del área del rectángulo cuando y=1cm?  ;Respuesta:
+INSERT INTO PreguntasCD VALUES (361,138,'Un rectángulo tiene 2 de sus lados sobre los ejes coordenados positivos y su vértice opuesto al origen M(x,y) está sobre la curva de ecuación x=(1/2)^-y.En este vértice la ordenada aumenta a razón d 1/3 cm/s,¿Cuál es la variación del área del rectángulo cuando y=1cm?  ;Respuesta:
 a)La variación es aproximadamente de 1.1287 cm²/s
 b)La variación es aproximadamente de 0.5757 cm²/s
 c)La variación es aproximadamente de 0.2124 cm²/s
 d)La variación es aproximadamente de 1.7787 cm²/s
 ');
-INSERT INTO PreguntasCD VALUES (360, 139,'Sean las funciones f(x)=k arctan(x) y g(x)=-1/2senx ¿ Cuál es el valor de la constante k para que el ángulo se intersección de ambas curvas sea de 90 grados en el origen?  ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 139,'Sean las funciones f(x)=k arctan(x) y g(x)=-1/2senx ¿ Cuál es el valor de la constante k para que el ángulo se intersección de ambas curvas sea de 90 grados en el origen?  ; Respuesta:
 a)k=1.5
 b)k=2
 c)k=1
 d)k=3
 ');
-INSERT INTO PreguntasCD VALUES (360, 140,'Sea la función f(x)=-x(e^x/3).Determinar los puntos de inflexión y los intervalos de sentido de concavidad.   ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 140,'Sea la función f(x)=-x(e^x/3).Determinar los puntos de inflexión y los intervalos de sentido de concavidad.   ; Respuesta:
 a)Punto de inflexión: (3,-3/e²), de(∞,3),la función es concava y de (3,∞), la función es convexa 
 b)Punto de inflexión: (-6,6/e²), de(-∞,-6),la función es concava y de (-6,∞), la función es convexa 
 c)Punto de inflexión: (-3,3/e²), de(-∞,-3),la función es concava y de (-3,∞), la función es convexa 
 d)Punto de inflexión: (6,-6/e²), de(∞,6),la función es concava y de (6,∞), la función es convexa 
 ');
-INSERT INTO PreguntasCD VALUES (360, 141,'Hallar un punto sobre la curva y-x=ln(y) donde la recta tangente tiene como pendiente 20/19, aproximar el resultado  ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 141,'Hallar un punto sobre la curva y-x=ln(y) donde la recta tangente tiene como pendiente 20/19, aproximar el resultado  ; Respuesta:
 a)P(20-ln2,20)
 b)P(210-10ln20,20)
 c)P(20-ln20,20)
 d)P(20-2ln20,20)
 ');
-INSERT INTO PreguntasCD VALUES (360, 142,'Obtener las ecuaciones de la recta tengente y normal de la curva (∛xy)-14x=y en el punto (2,-32)  ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 142,'Obtener las ecuaciones de la recta tengente y normal de la curva (∛xy)-14x=y en el punto (2,-32)  ; Respuesta:
 a)Ec tangente: (361/23)x+ y + 32/21=0, ec normal:y-(20/350)x + 5655/176
 b)Ec tangente: (36/27)x+ y + 26/23=0, ec normal:y+(23/35)x + 555/16
 c)Ec tangente: (36/323)x+ y + 30/23=0, ec normal:y+(23/352)x - 655/176
 d)Ec tangente: (362/23)x+ y + 32/23=0, ec normal:y-(23/352)x + 5655/176
 ');
-INSERT INTO PreguntasCD VALUES (360, 143,'Determinar el ángulo agudo formado al intersectarse las curvas y=x²-4x+5 y y=-x²+4x-1 en unos de sus puntos de intersección  ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 143,'Determinar el ángulo agudo formado al intersectarse las curvas y=x²-4x+5 y y=-x²+4x-1 en unos de sus puntos de intersección  ; Respuesta:
 a)53.1301
 b)43.1301
 c)34.2356
 d)54.2356
 ');
-INSERT INTO PreguntasCD VALUES (360, 144,'Un envase tiene un volumen de 10m³, consta de un cilindro de base plana y una tapa semiesférica.¿Cuál es el radio de la base del envase para que tenga la menor área superficial posible?, la superfecie esférica es de 4πr²  ;Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 144,'Un envase tiene un volumen de 10m³, consta de un cilindro de base plana y una tapa semiesférica.¿Cuál es el radio de la base del envase para que tenga la menor área superficial posible?, la superfecie esférica es de 4πr²  ;Respuesta:
 a)r=0.88m
 b)r=0.80m
 c)r=1.88m
 d)r=1.80m
 ');
-INSERT INTO PreguntasCD VALUES (360, 145,'Un depósito de agua de forma cilíndrica de 4 pies de radio, la profundidad de agua disminuye a razón de 3ft/2min ¿Con qué rápidez disminuye el volumen de agua? ;Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 145,'Un depósito de agua de forma cilíndrica de 4 pies de radio, la profundidad de agua disminuye a razón de 3ft/2min ¿Con qué rápidez disminuye el volumen de agua? ;Respuesta:
 a)(24πft³)/min
 b)(22πft³)/min
 c)(20πft³)/min
 d)(26πft³)/min
 ');
-INSERT INTO PreguntasCD VALUES (360, 146,'Sea f(x)=x³-3x², hallar los máximos y mínimos ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 146,'Sea f(x)=x³-3x², hallar los máximos y mínimos ; Respuesta:
 a)Máximo: (0,0), mínimo(2,-2)
 b)Máximo: (0,1), mínimo(2,-6)
 c)Máximo: (0,0), mínimo(2,-4)
 d)Máximo: (1,0), mínimo(-2,4)
 ');
-INSERT INTO PreguntasCD VALUES (360, 147,'Sea f(x)=x²+2x-3, hallar los máximos y mínimos ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 147,'Sea f(x)=x²+2x-3, hallar los máximos y mínimos ; Respuesta:
 a)Máximo:(0,0), mínimo: no hay
 b)Máximo:No hay, mínimo(1,-3)
 c)Máximo:No hay, mínimo(-1,-4)
 d)Máximo:(1,1), mínimo: no hay
 ');
-INSERT INTO PreguntasCD VALUES (360, 148,'Sea f(x)=2x²-x^4, hallar los máximos y mínimos ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 148,'Sea f(x)=2x²-x^4, hallar los máximos y mínimos ; Respuesta:
 a)Máximo: (1,1), máximo(-1,-1), mínimo(0,0)
 b)Máximo: (-1,1), máximo(1,1), mínimo(0,0)
 c)Máximo: (-1,0), máximo(2,-2), mínimo(0,1)
 d)Máximo: (1,-1), máximo(1,-1), mínimo(1,0)
 ');
-INSERT INTO PreguntasCD VALUES (360, 149,'Sea f(x)=x³-6x²+9x-8, hallar los máximos y mínimos ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 149,'Sea f(x)=x³-6x²+9x-8, hallar los máximos y mínimos ; Respuesta:
 a)Máximo: (1,-4), mínimo(3,-8)
 b)Máximo: (2,-4), mínimo(1,-6)
 c)Máximo: (1,-4), mínimo(1,-4)
 d)Máximo: (2,-4), mínimo(-6,3)
 ');
-INSERT INTO PreguntasCD VALUES (360, 150,'De una puerta cuadrada de lámina de lado de 12cm, se desea construir una caja abierta por arriba del mayor volumen posible, cortando de las esquinas cuadradas iguales y doblando hacia arriba para formar las caras laterales ¿Cuál debe ser la longitud del lado de los cuadrados iguales? ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 150,'De una puerta cuadrada de lámina de lado de 12cm, se desea construir una caja abierta por arriba del mayor volumen posible, cortando de las esquinas cuadradas iguales y doblando hacia arriba para formar las caras laterales ¿Cuál debe ser la longitud del lado de los cuadrados iguales? ; Respuesta:
 a)2.5cm
 b)1.5cm
 c)6cm
 d)2cm
 ');
-INSERT INTO PreguntasCD VALUES (360, 151,'Se dispone de una barra de hierro de 10m para construir una portería de manera que la portería tenga la máxima superficie interior posible ¿Cúal debe ser la longitud de los postes y el área interior?  ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 151,'Se dispone de una barra de hierro de 10m para construir una portería de manera que la portería tenga la máxima superficie interior posible ¿Cúal debe ser la longitud de los postes y el área interior?  ; Respuesta:
 a)Postes:1.5m, travesaño:7m, área interior:10.5m²
 b)Postes:3m, travesaño:4m, área interior:12m²
 c)Postes:2.5m, travesaño:5m, área interior:12.5m²
 d)Postes:2m, travesaño:6m, área interior:12m²
 ');
-INSERT INTO PreguntasCD VALUES (360, 152,'Calcule el área máxima que puede tener un triángulo rectángulo de tal manera que la suma de sus catetos sea igual a 4cm ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 152,'Calcule el área máxima que puede tener un triángulo rectángulo de tal manera que la suma de sus catetos sea igual a 4cm ; Respuesta:
 a)4.5m²
 b)6m²
 c)2m²
 d)4m²
 ');
-INSERT INTO PreguntasCD VALUES (360, 153,'Se desea sembrar en un jardín rectangular utilizando un lado de su casa como muro del jardín y colocando una cerca de alambre en los tres lados restantes.¿Cuáles son las dimensiones del jardín que maximiza eñ área utilizando una malla de 40m?  ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 153,'Se desea sembrar en un jardín rectangular utilizando un lado de su casa como muro del jardín y colocando una cerca de alambre en los tres lados restantes.¿Cuáles son las dimensiones del jardín que maximiza eñ área utilizando una malla de 40m?  ; Respuesta:
 a)x=10m, y=30m, A=300m²
 b)x=25m, y=20m, A=500m²
 c)x=10m, y=20m, A=200m²
 d)x=10m, y=25m, A=250m²
 ');
-INSERT INTO PreguntasCD VALUES (360, 154,'Se requiere construir un marco rectangular para un cuadro de área de 8m², el precio del marco lateral es de 4$/m y el del marco superior e inferior es de 2$/m. Calcular las dimensiones del marco para que su costo sea mínimo ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 154,'Se requiere construir un marco rectangular para un cuadro de área de 8m², el precio del marco lateral es de 4$/m y el del marco superior e inferior es de 2$/m. Calcular las dimensiones del marco para que su costo sea mínimo ; Respuesta:
 a)Marco superior e inferior: 4$/m, cada marco lateral: 2$/m
 b)Marco superior e inferior: 5$/m, cada marco lateral: 1$/m
 c)Marco superior e inferior: 2$/m, cada marco lateral: 4$/m
 d)Marco superior e inferior: 1$/m, cada marco lateral: 5$/m
 ');
-INSERT INTO PreguntasCD VALUES (360, 155,'Se requiere construir una piscina en forma de paralepípedo recto de base cuadrada.Disponemos de 192m² de baldosas para recubrir las paredes y el fondo de la piscina. Hallar ñas dimensiones de la piscina para que el volumen sea máximo; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 155,'Se requiere construir una piscina en forma de paralepípedo recto de base cuadrada.Disponemos de 192m² de baldosas para recubrir las paredes y el fondo de la piscina. Hallar ñas dimensiones de la piscina para que el volumen sea máximo; Respuesta:
 a)Alto: 4m, largo: 8m, ancho:8m 
 b)Alto: 4m, largo: 4m, ancho:12m 
 c)Alto: 2m, largo: 6m, ancho:8m 
 d)Alto: 6m, largo: 7m, ancho:7m 
 ');
-INSERT INTO PreguntasCD VALUES (360, 156,'Un reactor químico en forma de cilindro circular será construido usando exactamente 100m² de material y se requiere que tenga el mayor volumen posible ¿Cuál debe ser el valor de su radio? ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 156,'Un reactor químico en forma de cilindro circular será construido usando exactamente 100m² de material y se requiere que tenga el mayor volumen posible ¿Cuál debe ser el valor de su radio? ; Respuesta:
 a)2
 b)1.30
 c)2.30
 d)1
 ');
 
---Creación de Tabla para las Respuestas Calculo diferencial
+-- Creación de Tabla para las Respuestas Calculo diferencial
 CREATE TABLE RespuestasCD(
 		ID_PreguntaCD INTEGER NOT NULL,
 		ID_RespuestaCD INTEGER NOT NULL,
@@ -1016,8 +1016,8 @@ CREATE TABLE RespuestasCD(
 		REFERENCES PreguntasCD(ID_PreguntaCD)
 		);		
 
---Respuestas Primer Parcial Cálculo diferencial
---Respuestas Tema 1
+-- Respuestas Primer Parcial Cálculo diferencial
+-- Respuestas Tema 1
 INSERT INTO RespuestasCD VALUES (01,010,'a');
 INSERT INTO RespuestasCD VALUES (02,020,'a');
 INSERT INTO RespuestasCD VALUES (03,030,'a');
@@ -1028,7 +1028,7 @@ INSERT INTO RespuestasCD VALUES (07,070,'a');
 INSERT INTO RespuestasCD VALUES (08,080,'a');
 INSERT INTO RespuestasCD VALUES (09,090,'a');
 INSERT INTO RespuestasCD VALUES (10,100,'a');
---Respuestas Tema 2
+-- Respuestas Tema 2
 INSERT INTO RespuestasCD VALUES (11,110,'b');
 INSERT INTO RespuestasCD VALUES (12,120,'b');
 INSERT INTO RespuestasCD VALUES (13,130,'b');
@@ -1039,7 +1039,7 @@ INSERT INTO RespuestasCD VALUES (17,170,'a');
 INSERT INTO RespuestasCD VALUES (18,180,'a');
 INSERT INTO RespuestasCD VALUES (19,190,'a');
 INSERT INTO RespuestasCD VALUES (20,200,'a');
---Respuestas Tema 3
+-- Respuestas Tema 3
 INSERT INTO RespuestasCD VALUES (21,210,'a');
 INSERT INTO RespuestasCD VALUES (22,220,'a');
 INSERT INTO RespuestasCD VALUES (23,230,'a');
@@ -1052,7 +1052,7 @@ INSERT INTO RespuestasCD VALUES (29,290,'a');
 INSERT INTO RespuestasCD VALUES (30,300,'a');
 INSERT INTO RespuestasCD VALUES (31,310,'a');
 INSERT INTO RespuestasCD VALUES (32,320,'a');
---Respuestas Tema 4
+-- Respuestas Tema 4
 INSERT INTO RespuestasCD VALUES (33,330,'a');
 INSERT INTO RespuestasCD VALUES (34,340,'a');
 INSERT INTO RespuestasCD VALUES (35,350,'a');
@@ -1063,7 +1063,7 @@ INSERT INTO RespuestasCD VALUES (39,390,'a');
 INSERT INTO RespuestasCD VALUES (40,400,'a');
 INSERT INTO RespuestasCD VALUES (41,410,'a');
 INSERT INTO RespuestasCD VALUES (42,420,'a');
---Respuestas Tema 5
+-- Respuestas Tema 5
 INSERT INTO RespuestasCD VALUES (43,430,'A');
 INSERT INTO RespuestasCD VALUES (44,440,'a');
 INSERT INTO RespuestasCD VALUES (45,450,'b');
@@ -1077,7 +1077,7 @@ INSERT INTO RespuestasCD VALUES (52,520,'A');
 INSERT INTO RespuestasCD VALUES (53,530,'C');
 INSERT INTO RespuestasCD VALUES (54,540,'D');
 INSERT INTO RespuestasCD VALUES (55,550,'B');
---Respuestas Tema 6
+-- Respuestas Tema 6
 INSERT INTO RespuestasCD VALUES (56,560,'a');
 INSERT INTO RespuestasCD VALUES (57,570,'a');
 INSERT INTO RespuestasCD VALUES (58,580,'b');
@@ -1089,8 +1089,8 @@ INSERT INTO RespuestasCD VALUES (63,630,'C');
 INSERT INTO RespuestasCD VALUES (64,640,'b');
 INSERT INTO RespuestasCD VALUES (65,650,'d');
 
---Respuestas Segundo Parcial Cálculo diferencial
---Tema 1
+-- Respuestas Segundo Parcial Cálculo diferencial
+-- Tema 1
 INSERT INTO RespuestasCD VALUES (66,660,'c');
 INSERT INTO RespuestasCD VALUES (67,670,'c');
 INSERT INTO RespuestasCD VALUES (68,680,'a');
@@ -1120,7 +1120,7 @@ INSERT INTO RespuestasCD VALUES (91,910,'d');
 INSERT INTO RespuestasCD VALUES (92,920,'a');
 INSERT INTO RespuestasCD VALUES (93,930,'c');
 
---Tema 2
+-- Tema 2
 INSERT INTO RespuestasCD VALUES (94,940,'c');
 INSERT INTO RespuestasCD VALUES (95,950,'a');
 INSERT INTO RespuestasCD VALUES (96,960,'d');
@@ -1165,7 +1165,7 @@ INSERT INTO RespuestasCD VALUES (134,1340,'d');
 INSERT INTO RespuestasCD VALUES (135,1350,'c');
 INSERT INTO RespuestasCD VALUES (136,1360,'b');
 
---Respuestas 3er parcial Cálculo diferencial 
+-- Respuestas 3er parcial Cálculo diferencial 
 INSERT INTO RespuestasCD VALUES (137,1370,'a');
 INSERT INTO RespuestasCD VALUES (138,1380,'a');
 INSERT INTO RespuestasCD VALUES (139,1390,'b');

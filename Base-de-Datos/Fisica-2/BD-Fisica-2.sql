@@ -1,42 +1,41 @@
 -- 2do semestre-Fisica II
---Temas Primer Parcial Física II.
+-- Temas Primer Parcial Física II.
 
 INSERT INTO Temas VALUES (170,171,'Leyes de Newton sin Fricción ');
 INSERT INTO Temas VALUES (170,172,'Leyes de Newton con Fricción '); 
 INSERT INTO Temas VALUES (170,173,'Movimiento Circular Horizontal'); 
 INSERT INTO Temas VALUES (170,174,'Movimiento Circular Vertical'); 
 
---Temas Segundo Parcial Física II.
+-- Temas Segundo Parcial Física II.
 INSERT INTO Temas VALUES (270,271,'Ley de la Gravitación Universal'); 
 INSERT INTO Temas VALUES (270,272,'Trabajo y Energía Mecánica'); 
 INSERT INTO Temas VALUES (270,273,' Potencia Mecánica'); 
 INSERT INTO Temas VALUES (270,274,' Teorema Trabajo y Eneergía'); 
-INSERT INTO Temas VALUES (270,375,'Ley de la Conservación de la Energía Mecanica');
+INSERT INTO Temas VALUES (270,275,'Ley de la Conservación de la Energía Mecanica');
 
---Temas Tercer Parcial Física II.
+-- Temas Tercer Parcial Física II.
 
-INSERT INTO Temas VALUES (370,372,'COLISIONES UNIDIMENSIONALES'); 
+INSERT INTO Temas VALUES (370,371,'COLISIONES UNIDIMENSIONALES'); 
 INSERT INTO Temas VALUES (370,372,'Elasticidad'); 
 INSERT INTO Temas VALUES (370,373,'Presión y Principio de Pascal');
 INSERT INTO Temas VALUES (370,374,'Principio de Arquímedes'); 
 
---Creación de Tabla para las Preguntas de Física II.
+
+-- Creación de Tabla para las Preguntas de Física II.
 CREATE TABLE PreguntasF2( 
 		ID_Tema INTEGER NOT NULL,
 		ID_PreguntaF2 INTEGER NOT NULL,
-		Preguntas VARCHAR(500) NOT NULL,
+		Preguntas VARCHAR(800) NOT NULL,
 		PRIMARY KEY(ID_PreguntaF2),
 		FOREIGN KEY(ID_Tema)
 		REFERENCES Temas(ID_Tema) );
 
 
-
-
---Preguntas Primer Parcial Física II:
+-- Preguntas Primer Parcial Física II:
 
 
 
---Tema 1: Leyes de Newton sin Fricción
+-- Tema 1: Leyes de Newton sin Fricción
 
 INSERT INTO PreguntasF2 VALUES (171,01,'El enunciado de la 1era Ley de Newton refiere a:
 a) La inercia de un cuerpo 
@@ -130,14 +129,14 @@ INSERT INTO PreguntasF2 VALUES (171,23,'Dos bloques de masas m y 2m están soste
 a)T1= 5mg cos(35.9-θ)    T2=mg cos(70-θ)       
 b)T1= 3mg cos(90-θ)    T2=2mg cos(90-θ)    
 c)T1= 2mg cos(80-θ)    T2=6mg cos(90-θ)');
-INSERT INTO PreguntasA VALUES (171,24,'Una esfera uniforme sólida de 45.0 kg, cuyo diámetro es de 32.0 cm, se apoya contra una pared vertical sin fricción, usando un alambre delgado de 30.0 cm con masa despreciable, como se muestra en la figura. A) Elabore el diagrama de cuerpo libre para la esfera yúselo para determinar la tensión en el alambre. B) ¿Qué tan fuerte empuja la esfera a la pared?
+INSERT INTO PreguntasF2 VALUES (171,24,'Una esfera uniforme sólida de 45.0 kg, cuyo diámetro es de 32.0 cm, se apoya contra una pared vertical sin fricción, usando un alambre delgado de 30.0 cm con masa despreciable, como se muestra en la figura. A) Elabore el diagrama de cuerpo libre para la esfera yúselo para determinar la tensión en el alambre. B) ¿Qué tan fuerte empuja la esfera a la pared?
 a)T=470.88 N    N=163.81N       
 b)T=499.68 N    N=63.88N       
 c)T=590.75 N    N=163.81N');
 
 
 
---Tema 2: Leyes de Newton con Fricción
+-- Tema 2: Leyes de Newton con Fricción
 
 INSERT INTO PreguntasF2 VALUES (172,25,'Hace referencia al concepto de Dinámica: 
 a) El estudio de los movimientos sin considerar las causas. 
@@ -490,18 +489,9 @@ b)w=2.045 rad/s   V=6.8971m/s
 c)w=1.004 rad/s   V=5.1932m/s');
 
 
+-- Preguntas Segundo Parcial Física II.
 
-
-
-
-
-
-
-
---Preguntas Segundo Parcial Física II.
-
-
---Tema 1 Ley de la Gravitación Universal
+-- Tema 1 Ley de la Gravitación Universal
 
 INSERT INTO PreguntasF2 VALUES (271,110,'¿Quién formuló la Ley de la Gravitación Universal? 
 a) Isaac Newton 
@@ -670,7 +660,7 @@ b)R1=259.575x10^6m  R2=1.4974x10^11m
 c)R1=213.678x10^6m  R2=1.8172x10^11m');
 
 
---Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
+-- Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
 
 INSERT INTO PreguntasF2 VALUES (272,151,'¿Cuál es la unidad SI del trabajo? a) Newton b) Julio c) Vatio');
 INSERT INTO PreguntasF2 VALUES (272,152,'¿Cómo se define el trabajo en física? a) La cantidad de energía almacenada en un objeto. b) La cantidad de fuerza aplicada a un objeto. c) La transferencia de energía que ocurre cuando una fuerza actúa sobre un objeto y lo desplaza en la dirección de la fuerza.');
@@ -684,14 +674,14 @@ INSERT INTO PreguntasF2 VALUES (272,159,'¿Cómo se relaciona el trabajo y la en
 INSERT INTO PreguntasF2 VALUES (272,160,'¿Qué tipo de energía se adquiere cuando se realiza trabajo sobre un objeto en movimiento? a) Energía cinética b) Energía potencial c) Energía térmica');
 INSERT INTO PreguntasF2 VALUES (272,161,'¿Cómo se calcula el trabajo neto realizado sobre un objeto? a) Sumando todas las fuerzas aplicadas. b) Sumando los trabajos individuales realizados por cada fuerza. c) Restando los trabajos individuales realizados por cada fuerza.');
 INSERT INTO PreguntasF2 VALUES (272,162,'¿Qué tipo de trabajo se realiza cuando se levanta un objeto verticalmente? a) Trabajo positivo b) Trabajo negativo c) Trabajo cero');
-INSERT INTO PreguntasF2 VALUES (272,163'¿Cuál es la magnitud del trabajo realizado si una fuerza de 50 N se aplica a lo largo de una distancia de 10 m? a) 500 N b) 50 J c) 500 J');
+INSERT INTO PreguntasF2 VALUES (272,163,'¿Cuál es la magnitud del trabajo realizado si una fuerza de 50 N se aplica a lo largo de una distancia de 10 m? a) 500 N b) 50 J c) 500 J');
 INSERT INTO PreguntasF2 VALUES (272,164,'¿Qué sucede con el trabajo si el ángulo entre la fuerza aplicada y el desplazamiento es de 90 grados? a) El trabajo es máximo. b) El trabajo es mínimo. c) El trabajo es cero.');
 INSERT INTO PreguntasF2 VALUES (272,165,'¿Cuál es la relación entre el trabajo y la velocidad de un objeto? a) Directamente proporcional b) Inversamente proporcional c) No hay relación');
 INSERT INTO PreguntasF2 VALUES (272,166,'¿Qué indica un trabajo nulo realizado por una fuerza sobre un objeto? a) La fuerza aplicada es cero. b) El objeto no se desplaza. c) El objeto se mueve en la dirección opuesta.');
 INSERT INTO PreguntasF2 VALUES (272,167,'¿Cuál es la expresión matemática para calcular el trabajo si se conoce la magnitud de la fuerza, el ángulo entre la fuerza y el desplazamiento, y la distancia? a)W=F*d  b)W=F×d×cos(θ)  c)W=F/d');
 INSERT INTO PreguntasF2 VALUES (272,168,'¿Qué tipo de energía potencial se asocia con la altura de un objeto en el campo gravitatorio de la Tierra? a) Energía cinética  b) Energía elástica  c) Energía gravitacional');
 INSERT INTO PreguntasF2 VALUES (272,169,'¿Qué indica un trabajo negativo en el contexto de un objeto que se mueve en la dirección opuesta a la fuerza aplicada? a) La fuerza aplicada es nula. b) La dirección del movimiento es la misma que la dirección de la fuerza. c) La dirección del movimiento es opuesta a la dirección de la fuerza.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (272,170,'Un bloque de 2.50 kg de masa se empuja 2.20 m a lo largo de una mesa horizontal sin fricción por una fuerza constante de 16.0 N dirigida 25.0° debajo de la horizontal.Determine el trabajo realizado sobre el bloque por a) la fuerza aplicada, b) la fuerza normal que ejerce la mesa y c) la fuerza gravitacional. d) Determine el trabajo neto invertido en el bloque.
 a)             b)              c)          ');
 INSERT INTO PreguntasF2 VALUES (272,171,'Una fuerza F= (6i - 2j) N actúa en una partícula que experimenta un desplazamiento r= (3i + j) m. Hallar a) el trabajo invertido por la fuerza en la partícula y b) el ángulo entre F y r
@@ -718,7 +708,7 @@ INSERT INTO PreguntasF2 VALUES (272,185,'');
 INSERT INTO PreguntasF2 VALUES (272,186,'');
 
 
---Tema 3 POTENCIA MECÁNICA
+-- Tema 3 POTENCIA MECÁNICA
 
 INSERT INTO PreguntasF2 VALUES (273, 187, '¿Cuál es la definición de potencia mecánica? a) La cantidad total de energía en un sistema. b) La tasa de transferencia de energía o la cantidad de trabajo realizado por unidad de tiempo. c) La cantidad de trabajo total realizado sobre un objeto.');
 INSERT INTO PreguntasF2 VALUES (273, 188, '¿Cuál es la unidad SI de la potencia mecánica? a) Julio. b) Vatio. c) Newton.');
@@ -737,7 +727,7 @@ INSERT INTO PreguntasF2 VALUES (273, 200, '¿Cuál es la potencia necesaria para
 INSERT INTO PreguntasF2 VALUES (273, 201, '¿Cuál es la potencia necesaria para realizar un trabajo de 100 J en 5 segundos? a) 20 W. b) 50 W. c) 200 W.');
 INSERT INTO PreguntasF2 VALUES (273, 202, '¿Cuál de las siguientes fórmulas se usa para calcular la potencia si se conoce la fuerza aplicada y la velocidad del objeto? a) Potencia = Fuerza × Velocidad. b) Potencia = Fuerza / Velocidad. c) Potencia = Fuerza × Distancia.');
 INSERT INTO PreguntasF2 VALUES (273, 203, '¿Cuál es la potencia requerida para levantar un objeto de 100 N a una altura de 2 metros en 5 segundos? a) 10 W. b) 20 W. c) 40 W.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (273, 204, 'Una masa de 40 kg se eleva hasta una distancia de 20 m en un lapso de 3 s. ¿Qué potencia promedio se ha utilizado?
 a)            b)             c)');
 INSERT INTO PreguntasF2 VALUES (273, 205, 'Un motor de 90 kW se utiliza para elevar una carga de 1200 kg. ¿Cuál es la velocidad promedio durante el ascenso? 
@@ -762,7 +752,7 @@ INSERT INTO PreguntasF2 VALUES (273, 218,'');
 INSERT INTO PreguntasF2 VALUES (273, 219,'');
 
 
---Tema 4 TEOREMA TRABAJO- ENERGÍA
+-- Tema 4 TEOREMA TRABAJO- ENERGÍA
 
 INSERT INTO PreguntasF2 VALUES (274, 220, '¿Cuál es el enunciado del teorema trabajo-energía? a) El trabajo realizado sobre un objeto es igual a la diferencia en su energía cinética. b) La energía cinética de un objeto es igual al trabajo realizado sobre él. c) La fuerza aplicada sobre un objeto es directamente proporcional a su energía cinética.');
 INSERT INTO PreguntasF2 VALUES (274, 221, '¿Qué relación establece el teorema trabajo-energía entre el trabajo realizado sobre un objeto y los cambios en su energía cinética? a) El trabajo es igual al doble de la energía cinética. b) El trabajo es igual a la energía cinética. c) El trabajo es igual a la diferencia en la energía cinética.');
@@ -776,7 +766,7 @@ INSERT INTO PreguntasF2 VALUES (274, 228, '¿Cómo se relaciona el trabajo neto 
 INSERT INTO PreguntasF2 VALUES (274, 229, '¿Cuál es la expresión matemática del teorema trabajo-energía para un objeto que se mueve en línea recta? a) W = ΔE_pot b) W = ΔE_cin c) W = ΔK');
 INSERT INTO PreguntasF2 VALUES (274, 230, '¿Qué significa un valor de trabajo neto igual a cero según el teorema trabajo-energía? a) El objeto ha detenido su movimiento. b) No se ha realizado trabajo neto sobre el objeto. c) El objeto ha aumentado su energía potencial.');
 INSERT INTO PreguntasF2 VALUES (274, 231, '¿Cómo se calcula el trabajo neto si se conocen las fuerzas que actúan sobre un objeto y las distancias sobre las cuales actúan? a) Multiplicando la fuerza por la distancia. b) Dividiendo la fuerza entre la distancia. c) Sumando la fuerza y la distancia.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (274, 232, 'Calcule las energías cinéticas de los siguientes objetos que se mueven a las siguientes velocidades: a) un jugador de fútbol americano de 110 kg que corre a 8.1 m/s; b) una bala de 4.2 g a 950 m/s.
 a) b) c)');
 INSERT INTO PreguntasF2 VALUES (274, 233, 'Una sandía de 4.80 kg se deja caer (rapidez inicial cero) desde la azotea de un edificio de 25.0 m y no sufre resistencia del aire apreciable. a) Calcule el trabajo realizado por la gravedad sobre la sandía durante su desplazamiento desde la azotea hasta el suelo. b) Justo antes de estrellarse contra el suelo, ¿cuáles son i) la energía cinética y ii) la rapidez de la sandía?
@@ -803,7 +793,7 @@ INSERT INTO PreguntasF2 VALUES (274, 243, 'Un bloque de 0.500 kg de masa se empu
 a) b) c)');
 
 
---Tema 5 LEY DE LA CONSERVACIÓN DE LA ENERGÍA MECÁNICA
+-- Tema 5 LEY DE LA CONSERVACIÓN DE LA ENERGÍA MECÁNICA
 
 INSERT INTO PreguntasF2 VALUES (275, 244,'¿Qué afirma la ley de conservación de la energía mecánica? a) La energía mecánica de un sistema siempre aumenta. b) La energía mecánica de un sistema siempre se conserva. c) La energía mecánica de un sistema se convierte completamente en calor.');
 INSERT INTO PreguntasF2 VALUES (275, 245,'¿Qué componentes forman parte de la energía mecánica de un objeto en movimiento? a) Energía potencial y cinética. b) Energía térmica y cinética. c) Energía potencial y eléctrica.');
@@ -824,7 +814,7 @@ INSERT INTO PreguntasF2 VALUES (275, 259,'¿Qué sucede con la energía mecánic
 INSERT INTO PreguntasF2 VALUES (275, 260,'¿Qué tipo de energía tiene un objeto en reposo en la parte superior de una montaña? a) Energía cinética. b) Energía térmica. c) Energía potencial gravitatoria.');
 INSERT INTO PreguntasF2 VALUES (275, 261,'¿Cómo se relaciona la velocidad de un objeto con su energía cinética? a) A mayor velocidad, mayor energía cinética. b) A menor velocidad, mayor energía cinética. c) No hay relación entre velocidad y energía cinética.');
 INSERT INTO PreguntasF2 VALUES (275, 262,'¿Qué sucede con la energía mecánica total de un sistema si solo se ejerce una fuerza no conservativa sobre él? a) Aumenta. b) Disminuye. c) Permanece constante.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (275, 263,'- Se lanza una pelota de 0.5 kg hacia arriba con una rapidez inicial de 16 m/s. Suponiendo que su energía potencial inicial es cero, determine su energía cinética, su energía potencial y la energía mecánica total a) en su posición inicial, b)cuando su altura es 5 m y c) cuando alcanza la posición más alta de su vuelo. d) Determine su altura máxima utilizando la ley de la conservación de la energía mecánica.
 a) b) c)');
 INSERT INTO PreguntasF2 VALUES (275, 264,'Se lanza una pelota de 0.4 kg en el aire y alcanza una altura máxima de 20 m. Tomando su posición inicial en el punto donde su energía potencial vale cero y utilizando los metodos de la energía, encuentre: a) su rapidez inicial, b) su energía mecánica total y c) la razón entre su energía cinética y su energía potencial cuandon su altitud es de 10 m.
@@ -854,16 +844,9 @@ a) b) c)');
 
 
 
+-- Preguntas Tercer Parcial Física II.
 
-
-
-
-
-
-
---Preguntas Tercer Parcial Física II.
-
---Tema 1 COLISIONES UNIDIMENSIONALES
+-- Tema 1 COLISIONES UNIDIMENSIONALES
 INSERT INTO PreguntasF2 VALUES (371, 275,'¿Qué es una colisión unidimensional? a) Una colisión en la que participan solo dos objetos. b) Una colisión en la que los objetos se mueven en la misma dirección. c) Una colisión en la que los objetos se mueven en direcciones opuestas.');
 INSERT INTO PreguntasF2 VALUES (371, 276,'¿Qué tipo de energía se conserva durante una colisión unidimensional en un sistema aislado? a) Energía cinética. b) Energía potencial. c) Energía térmica.');
 INSERT INTO PreguntasF2 VALUES (371, 277,'¿Qué representa la ley de conservación de la cantidad de movimiento en una colisión unidimensional? a) La suma de las cantidades de movimiento antes y después de la colisión es igual. b) La suma de las energías cinéticas antes y después de la colisión es igual. c) La suma de las masas de los objetos antes y después de la colisión es igual.');
@@ -878,7 +861,7 @@ INSERT INTO PreguntasF2 VALUES (371, 285,'¿Qué sucede con la energía cinétic
 INSERT INTO PreguntasF2 VALUES (371, 286,'¿Qué se conserva durante una colisión elástica en un sistema aislado? a) Energía cinética total. b) Cantidad de movimiento total. c) Energía potencial total.');
 INSERT INTO PreguntasF2 VALUES (371, 287,'¿Qué sucede con la cantidad de movimiento total de un sistema después de una colisión elástica? a) Aumenta. b) Se conserva. c) Disminuye.');
 INSERT INTO PreguntasF2 VALUES (371, 288,'¿Qué se conserva durante una colisión inelástica en un sistema aislado? a) Energía cinética total. b) Cantidad de movimiento total. c) Energía potencial total.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (371, 289,'Una bola de 325 g a una velocidad v de 6.22 m/s golpea una pared con un ángulo de 33.0° y luego rebota con la misma velocidad y ángulo como se muestra en la figura. Está en contacto con la pared durante 10.4 ms. A) ¿Qué impulso experimentó la bola? B) ¿Cuál fue la fuerza promedio ejercida por la bola contra la pared?
 a) b) c)');
 INSERT INTO PreguntasF2 VALUES (371, 290,'Los bloques de la figura se deslizan sin fricción. A)¿Cuál es la velocidad v del bloque de 1.6 kg después de la colisión? B)¿Es colisión elástica?
@@ -909,7 +892,7 @@ INSERT INTO PreguntasF2 VALUES (371, 302,'Un bloque de masa m1=2 kg comienza des
 a) b) c)');
 
 
---Tema 2 ELASTICIDAD
+-- Tema 2 ELASTICIDAD
 
 INSERT INTO PreguntasF2 VALUES (372, 303,'¿Qué es la elasticidad en física? a) La capacidad de un material para deformarse permanentemente bajo carga. b) La capacidad de un material para recuperar su forma original después de ser deformado. c) La capacidad de un material para cambiar de estado de agregación.');
 INSERT INTO PreguntasF2 VALUES (372, 304,'¿Qué ley describe el comportamiento de los materiales elásticos bajo tensión? a) Ley de Newton. b) Ley de Hooke. c) Ley de Gravitación Universal.');
@@ -927,7 +910,7 @@ INSERT INTO PreguntasF2 VALUES (372, 315,'¿Qué es la constante elástica en la
 INSERT INTO PreguntasF2 VALUES (372, 316,'¿Cuál es la relación matemática entre el esfuerzo y la deformación en un material elástico según la ley de Hooke?  a)σ=E⋅ϵ b)σ=F/A c)F=k⋅x');
 INSERT INTO PreguntasF2 VALUES (372, 317,'¿Qué tipo de material tiene un módulo de elasticidad bajo? a) Material rígido. b) Material frágil. c) Material flexible.');
 INSERT INTO PreguntasF2 VALUES (372, 318,'¿Qué representa el área bajo la curva en un diagrama de esfuerzo-deformación? a) La resistencia máxima del material. b) La energía absorbida por el material durante la deformación. c) La deformación permanente del material.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (372, 319,'Una masa de 2 kg se encuentra colgando de un alambre de cobre de 4 m de longitud y 4 mm de diámetro. Determine: a) el esfuerzo en el alambre y b) la elongación del alambre. El módulo de Young del cobre es 110 Gpa.
 a) b) c)');
 INSERT INTO PreguntasF2 VALUES (372, 320,'Un alambre de acero tiene 10 m de longitud y un área de sección trasversal de 0.2 cm2. ¿Bajo qué carga aumentará su longitud en 0.1 cm? Considere el Yacero = 2.00 x 1011 N/m2
@@ -964,7 +947,7 @@ INSERT INTO PreguntasF2 VALUES (372, 335,'Un cubo de latón de 6.0 cm por lado s
 a) b) c)');
 
 
---Tema 3 PRESIÓN Y PRINCIPIO DE PASCAL 
+-- Tema 3 PRESIÓN Y PRINCIPIO DE PASCAL 
 INSERT INTO PreguntasF2 VALUES (373, 336,'¿Qué es la presión en física? a) La fuerza aplicada sobre un área. b) La cantidad de masa por unidad de volumen. c) La velocidad de un objeto en movimiento.');
 INSERT INTO PreguntasF2 VALUES (373, 337,'¿Cuál es la unidad SI de presión? a) Newton (N). b) Pascal (Pa). c) Metro (m).');
 INSERT INTO PreguntasF2 VALUES (373, 338,'¿Cuál es la fórmula matemática para calcular la presión? a) P=F/A b)=MG c)P=V/t');
@@ -983,7 +966,7 @@ INSERT INTO PreguntasF2 VALUES (373, 350,'¿Qué ocurre con la presión en un l�
 INSERT INTO PreguntasF2 VALUES (373, 351,'¿Cuál es la relación entre la fuerza aplicada y la fuerza resultante en una prensa hidráulica según el principio de Pascal? a) Son inversamente proporcionales. b) Son directamente proporcionales. c) No hay relación.');
 INSERT INTO PreguntasF2 VALUES (373, 352,'¿Cómo se llama el instrumento utilizado para medir la presión atmosférica? a) Barómetro. b) Termómetro. c) Higrómetro.');
 INSERT INTO PreguntasF2 VALUES (373, 353,'¿Qué ocurre con la presión en un líquido si se cambia la aceleración debida a la gravedad? a) La presión disminuye. b) La presión aumenta. c) La presión permanece constante.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (373, 354,'Si un buzo se sumerge 10 m en un lago, a) ¿qué presión experimenta debida únicamente al agua? b) Calcule la presión total o absoluta a esa profundidad.
 a) b) c)');
 INSERT INTO PreguntasF2 VALUES (373, 355,'El pistón de salida de una prensa hidráulica tiene un área transversal de 0.25 m2. a) ¿Qué presión se requiere en el pistón de entrada para que la prensa genere una fuerza de 1.5 X 106 N? b) ¿Qué fuerza se aplica al pistón de entrada si tiene un diámetro de 5.0 cm?
@@ -999,7 +982,7 @@ INSERT INTO PreguntasF2 VALUES (373, 361,'');
 
 
 
---Tema 4 PRINCIPIO DE ARQUIMEDES
+-- Tema 4 PRINCIPIO DE ARQUIMEDES
 INSERT INTO PreguntasF2 VALUES (374, 362,'¿Qué establece el principio de Arquímedes? a) Un cuerpo sumergido en un fluido experimenta una fuerza hacia abajo igual al peso del fluido desplazado. b) Un cuerpo sumergido en un fluido experimenta una fuerza hacia arriba igual al peso del fluido desplazado. c) Un cuerpo sumergido en un fluido no experimenta ninguna fuerza.');
 INSERT INTO PreguntasF2 VALUES (374, 363,'¿Qué tipo de fuerza experimenta un objeto sumergido en un fluido según el principio de Arquímedes? a) Una fuerza de gravedad. b) Una fuerza de empuje hacia abajo. c) Una fuerza de empuje hacia arriba.');
 INSERT INTO PreguntasF2 VALUES (374, 364,'¿Cuál es la fórmula para calcular la fuerza de empuje experimentada por un objeto sumergido en un fluido? a)Fe=mg  b)Fe=pVg  c)Fe=PA');
@@ -1019,7 +1002,7 @@ INSERT INTO PreguntasF2 VALUES (374, 377,'¿Qué es la fuerza de flotación seg�
 INSERT INTO PreguntasF2 VALUES (374, 378,'¿Qué ocurre con la fuerza de empuje cuando un objeto se sumerge más profundamente en un fluido? a) La fuerza de empuje aumenta. b) La fuerza de empuje disminuye. c) La fuerza de empuje permanece constante.');
 INSERT INTO PreguntasF2 VALUES (374, 379,'¿Cuál es el nombre del instrumento utilizado para medir la densidad de un líquido? a) Barómetro. b) Termómetro. c) Hidrómetro.');
 INSERT INTO PreguntasF2 VALUES (374, 380,'¿Qué ocurre con el peso aparente de un objeto sumergido en un fluido según el principio de Arquímedes? a) Aumenta.  b) Disminuye.  c) Permanece constante.');
---faltan incisos
+-- faltan incisos
 INSERT INTO PreguntasF2 VALUES (374, 381,'Un lingote de aluminio sólido pesa 89 N en el aire. A) ¿Qué volumen tiene? B) El lingote se cuelga de una cuerda y se sumerge por completo en agua. ¿Qué tensión hay en la cuerda (el peso aparente del lingote en agua)? La densidad del aluminio es de 2700 kg/m3
 a) b) c)');
 INSERT INTO PreguntasF2 VALUES (374, 382,'Calcule la presión absoluta a una profundidad oceánica de 1200 m. Suponga que la densidad del agua marina es de 1024 kg/m3 y que el aire sobre ella ejerce una presión de 101.3 kPa. A esta profundidad, ¿qué fuerza debe ejercer el marco alrededor de una claraboya circular que tiene un diámetro de 350 mm para contrabalancear la fuerza ejercida por el agua?
@@ -1040,19 +1023,19 @@ a) b) c)');
 
 
 
---Creación de Tabla para las Preguntas Física II
+-- Creación de Tabla para las Preguntas Física II
 CREATE TABLE RespuestasF2(
 		ID_PreguntaF2 INTEGER NOT NULL,
 		ID_RespuestaF2 INTEGER NOT NULL,
 		Respuestas VARCHAR(5) NOT NULL,
 		PRIMARY KEY(ID_RespuestaF2),
 		FOREIGN KEY(ID_PreguntaF2)
-		REFERENCES PreguntasA(ID_PreguntaF2)
+		REFERENCES PreguntasF2(ID_PreguntaF2)
 		);		
 
---Respuestas Primer Parcial Física II
+-- Respuestas Primer Parcial Física II
 
---Tema 1: Leyes de Newton sin Fricción
+-- Tema 1: Leyes de Newton sin Fricción
 INSERT INTO RespuestasF2 VALUES (01,010,'a');
 INSERT INTO RespuestasF2 VALUES (02,020,'a');
 INSERT INTO RespuestasF2 VALUES (03,030,'b');
@@ -1076,17 +1059,17 @@ INSERT INTO RespuestasF2 VALUES (20,200,'a');
 INSERT INTO RespuestasF2 VALUES (21,210,'b');
 INSERT INTO RespuestasF2 VALUES (22,220,'c');
 INSERT INTO RespuestasF2 VALUES (23,230,'b');
-INSERT INTO RespuestasF2 VALUES (24,230,'a');
+INSERT INTO RespuestasF2 VALUES (24,240,'a');
 
---Tema 1: Leyes de Newton con Fricción
-INSERT INTO RespuestasF2 VALUES (25,240,'b');
-INSERT INTO RespuestasF2 VALUES (26,250,'b');
-INSERT INTO RespuestasF2 VALUES (27,260,'a');
-INSERT INTO RespuestasF2 VALUES (28,270,'a');
-INSERT INTO RespuestasF2 VALUES (29,280,'b');
-INSERT INTO RespuestasF2 VALUES (30,290,'b');
-INSERT INTO RespuestasF2 VALUES (31,300,'c');
-INSERT INTO RespuestasF2 VALUES (32,310,'b');
+-- Tema 1: Leyes de Newton con Fricción
+INSERT INTO RespuestasF2 VALUES (25,250,'b');
+INSERT INTO RespuestasF2 VALUES (26,260,'b');
+INSERT INTO RespuestasF2 VALUES (27,270,'a');
+INSERT INTO RespuestasF2 VALUES (28,280,'a');
+INSERT INTO RespuestasF2 VALUES (29,290,'b');
+INSERT INTO RespuestasF2 VALUES (30,300,'b');
+INSERT INTO RespuestasF2 VALUES (31,310,'c');
+INSERT INTO RespuestasF2 VALUES (32,320,'b');
 INSERT INTO RespuestasF2 VALUES (33,320,'b');
 INSERT INTO RespuestasF2 VALUES (34,330,'b');
 INSERT INTO RespuestasF2 VALUES (35,340,'b');
@@ -1174,9 +1157,9 @@ INSERT INTO RespuestasF2 VALUES (109,1090,'c');
 
 
 
---Respuestas Segundo Parcial Física II.
+-- Respuestas Segundo Parcial Física II.
 
---Tema 1 Ley de la Gravitación Universal
+-- Tema 1 Ley de la Gravitación Universal
 INSERT INTO RespuestasF2 VALUES (110,1100,'a');
 INSERT INTO RespuestasF2 VALUES (111,1110,'a');
 INSERT INTO RespuestasF2 VALUES (112,1120,'a');
@@ -1219,7 +1202,7 @@ INSERT INTO RespuestasF2 VALUES (148,1480,'c');
 INSERT INTO RespuestasF2 VALUES (149,1490,'a');
 INSERT INTO RespuestasF2 VALUES (150,1500,'b');
 
---Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
+-- Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
 INSERT INTO RespuestasF2 VALUES (151,1510,'b');
 INSERT INTO RespuestasF2 VALUES (152,1520,'c');
 INSERT INTO RespuestasF2 VALUES (153,1530,'a');
@@ -1257,7 +1240,7 @@ INSERT INTO RespuestasF2 VALUES (184,1840,'');
 INSERT INTO RespuestasF2 VALUES (185,1850,'');
 INSERT INTO RespuestasF2 VALUES (186,1860,'');
 
---Tema 3 POTENCIA MECÁNICA
+-- Tema 3 POTENCIA MECÁNICA
 INSERT INTO RespuestasF2 VALUES (187,1870,'b');
 INSERT INTO RespuestasF2 VALUES (188,1880,'b');
 INSERT INTO RespuestasF2 VALUES (189,1890,'b');
@@ -1292,7 +1275,7 @@ INSERT INTO RespuestasF2 VALUES (217,2170,'');
 INSERT INTO RespuestasF2 VALUES (218,2180,'');
 INSERT INTO RespuestasF2 VALUES (219,2190,'');
 
---Tema 4 TEOREMA TRABAJO- ENERGÍA
+-- Tema 4 TEOREMA TRABAJO- ENERGÍA
 INSERT INTO RespuestasF2 VALUES (220,2200,'a');
 INSERT INTO RespuestasF2 VALUES (221,2210,'c');
 INSERT INTO RespuestasF2 VALUES (222,2220,'a');
@@ -1318,7 +1301,7 @@ INSERT INTO RespuestasF2 VALUES (241,2410,'');
 INSERT INTO RespuestasF2 VALUES (242,2420,'');
 INSERT INTO RespuestasF2 VALUES (243,2430,'');
 
---Tema 5 LEY DE LA CONSERVACIÓN DE LA ENERGÍA MECÁNICA
+-- Tema 5 LEY DE LA CONSERVACIÓN DE LA ENERGÍA MECÁNICA
 INSERT INTO RespuestasF2 VALUES (244,2440,'b');
 INSERT INTO RespuestasF2 VALUES (245,2450,'a');
 INSERT INTO RespuestasF2 VALUES (246,2460,'a');
@@ -1352,16 +1335,9 @@ INSERT INTO RespuestasF2 VALUES (273,2730,'');
 INSERT INTO RespuestasF2 VALUES (274,2740,'');
 
 
+-- Respuestas Tercer Parcial Física II.
 
-
-
-
-
-
-
---Respuestas Tercer Parcial Física II.
-
---Tema 1 COLISIONES UNIDIMENSIONALES
+-- Tema 1 COLISIONES UNIDIMENSIONALES
 INSERT INTO RespuestasF2 VALUES (275,2750,'a');
 INSERT INTO RespuestasF2 VALUES (276,2760,'a');
 INSERT INTO RespuestasF2 VALUES (277,2770,'a');
@@ -1391,7 +1367,7 @@ INSERT INTO RespuestasF2 VALUES (300,3000,'');
 INSERT INTO RespuestasF2 VALUES (301,3010,'');
 INSERT INTO RespuestasF2 VALUES (302,3020,'');
 
---Tema 2 ELASTICIDAD
+-- Tema 2 ELASTICIDAD
 INSERT INTO RespuestasF2 VALUES (303,3030,'b');
 INSERT INTO RespuestasF2 VALUES (304,3040,'b');
 INSERT INTO RespuestasF2 VALUES (305,3050,'a');
@@ -1426,7 +1402,7 @@ INSERT INTO RespuestasF2 VALUES (333,3330,'');
 INSERT INTO RespuestasF2 VALUES (334,3340,'');
 INSERT INTO RespuestasF2 VALUES (335,3350,'');
 
---Tema 3 PRESIÓN Y PRINCIPIO DE PASCAL 
+-- Tema 3 PRESIÓN Y PRINCIPIO DE PASCAL 
 INSERT INTO RespuestasF2 VALUES (336,3360,'a');
 INSERT INTO RespuestasF2 VALUES (337,3370,'b');
 INSERT INTO RespuestasF2 VALUES (338,3380,'a');
@@ -1454,7 +1430,7 @@ INSERT INTO RespuestasF2 VALUES (359,3590,'');
 INSERT INTO RespuestasF2 VALUES (360,3600,'');
 INSERT INTO RespuestasF2 VALUES (361,3610,'');
 
---Tema 4 PRINCIPIO DE ARQUIMEDES
+-- Tema 4 PRINCIPIO DE ARQUIMEDES
 INSERT INTO RespuestasF2 VALUES (362,3620,'b');
 INSERT INTO RespuestasF2 VALUES (363,3630,'c');
 INSERT INTO RespuestasF2 VALUES (364,3640,'b');

@@ -27,7 +27,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="bg" pref="1366" max="32767" attributes="0"/>
+              <Component id="bg" max="32767" attributes="0"/>
               <EmptySpace min="0" pref="1238" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -35,8 +35,8 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="bg" pref="768" max="32767" attributes="0"/>
-              <EmptySpace min="0" pref="645" max="32767" attributes="0"/>
+              <Component id="bg" pref="774" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="639" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -75,9 +75,6 @@
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/Imagenes/Fondo4.png"/>
-            </Property>
-            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-              <Dimension value="[1366, 768]"/>
             </Property>
           </Properties>
         </Component>

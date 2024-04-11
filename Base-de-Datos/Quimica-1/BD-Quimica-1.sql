@@ -1,15 +1,17 @@
---Hecho por Cayetano Verduzco Alejandro
+USE Guia_Creativa;
 
---Tercer Semestre - Química 1.
+-- Hecho por Cayetano Verduzco Alejandro
 
---Temas Primer Parcial Química 1.
+-- Tercer Semestre - Química 1.
+
+-- Temas Primer Parcial Química 1.
 INSERT INTO Temas VALUES (150,151,'Materia y Energía'); 
 INSERT INTO Temas VALUES (150,152,'Propiedades de la Materia'); 
 INSERT INTO Temas VALUES (150,153,'Fenómemos Físicos y Químicos'); 
 INSERT INTO Temas VALUES (150,154,'Elemento, Compuesto y Mezcla');  
 INSERT INTO Temas VALUES (150,155,'Métodos de Separación de Mezclas'); 
 
---Temas Segundo Parcial Química 1.
+-- Temas Segundo Parcial Química 1.
 INSERT INTO Temas VALUES (250,251,'El Átomo'); 
 INSERT INTO Temas VALUES (250,252,'Números Cuánticos'); 
 INSERT INTO Temas VALUES (250,253,'Tabulación de los Números Cuánticos'); 
@@ -19,7 +21,7 @@ INSERT INTO Temas VALUES (250,256,'Construcción de la Tabla Periódica');
 INSERT INTO Temas VALUES (250,257,'Propiedades Periódicas'); 
 INSERT INTO Temas VALUES (250,258,'Propiedades de los Elementos de Transición'); 
 
---Temas Tercer Parcial Química 1.
+-- Temas Tercer Parcial Química 1.
 INSERT INTO Temas VALUES (350,351,'Enlace Químico'); 
 INSERT INTO Temas VALUES (350,352,'Nomenclatura Química Inorgánica'); 
 INSERT INTO Temas VALUES (350,353,'Hidruros Metálicos');
@@ -27,19 +29,19 @@ INSERT INTO Temas VALUES (350,354,'Hidruros no Metálicos – Ácidos');
 INSERT INTO Temas VALUES (350,355,'Sales Binarias');
 INSERT INTO Temas VALUES (350,356,'Hidróxidos');
 
----Creación de Tabla para las Preguntas de Química 1.
+-- Creación de Tabla para las Preguntas de Química 1.
 CREATE TABLE PreguntasQ1( 
 		ID_Tema INTEGER NOT NULL,
 		ID_PreguntaQ1 INTEGER NOT NULL,
-		Preguntas VARCHAR(400) NOT NULL,
+		Preguntas VARCHAR(700) NOT NULL,
 		PRIMARY KEY(ID_PreguntaQ1),
 		FOREIGN KEY(ID_Tema)
 		REFERENCES Temas(ID_Tema)
 		);
 
---Preguntas Primer Parcial Química 1.
+-- Preguntas Primer Parcial Química 1.
 
---Tema 1 Materia y Energía
+-- Tema 1 Materia y Energía
 INSERT INTO PreguntasQ1 VALUES (151,01,'¿Qué entiendes por materia? a) Todo lo que ocupa un lugar en el espacio y tiene masa b) La cantidad de materia contenida en un objeto c) La energía asociada con un objeto en movimiento'),
 (151,02,'¿Cuáles son las propiedades fundamentales de la materia? a) Masa y energía. b) Masa, volumen y temperatura. c) Masa, energía y espacio.'),
 (151,03,'¿Qué es masa? a) La cantidad de materia contenida en un objeto. b) La fuerza con la que un objeto es atraído hacia la Tierra. c) La capacidad de un objeto para hacer trabajo.'),
@@ -51,7 +53,7 @@ INSERT INTO PreguntasQ1 VALUES (151,01,'¿Qué entiendes por materia? a) Todo lo
 (151,09,'¿Cuál es el concepto de energía potencial química? a) La energía asociada con la posición de un objeto en un campo gravitacional. b) La energía almacenada en los enlaces químicos de una sustancia. c) La energía asociada con la velocidad de un objeto en movimiento.'),
 (151,10,'¿Cuál es el concepto de energía cinética? a) La energía asociada con la posición de un objeto en un campo gravitacional. b) La energía asociada con la velocidad de un objeto en movimiento. c) La energía almacenada en los enlaces químicos de una sustancia.');
 
---Tema 2 Propiedades de la Materia
+-- Tema 2 Propiedades de la Materia
 INSERT INTO PreguntasQ1 VALUES (152,11,'¿Qué es propiedad general o común? a) Una característica que depende de la cantidad de materia presente. b) Una característica que no depende de la cantidad de materia presente. c) Una propiedad que solo se observa en ciertos tipos de sustancias.'),
 (152,12,'¿Cuál es el concepto de peso? a) La masa de un objeto. b) La fuerza con la que un objeto es atraído hacia la Tierra. c) La cantidad de espacio que ocupa un objeto.'),
 (152,13,'¿Cuál es el concepto de volumen? a) La masa de un objeto. b) La fuerza con la que un objeto es atraído hacia la Tierra. c) La cantidad de espacio que ocupa un objeto.'),
@@ -78,7 +80,7 @@ INSERT INTO PreguntasQ1 VALUES (152,11,'¿Qué es propiedad general o común? a)
 (152,34,'Tipo de transformación de energía cuando cargas un celular. a) Eléctrica a mecánica b) Eléctrica a química c) Química a calorífica d) Solar a química'),
 (152,35,'Tipo de transformación de energía en una licuadora en funcionamiento. a) Eléctrica a mecánica b) Eléctrica a química c) Química a calorífica d) Solar a química');
 
---Tema 3 Fenómemos Físicos y Químicos
+-- Tema 3 Fenómemos Físicos y Químicos
 INSERT INTO PreguntasQ1 VALUES (153,36,'¿Qué es un fenómeno? a) Un evento natural observable b) Un concepto abstracto c) Una teoría científica'),
 (153,37,'¿Cuántos tipos de fenómenos hay y cuáles son? a) Dos: físicos y químicos b) Tres: naturales, artificiales y sociales c) Cuatro: mecánicos, eléctricos, magnéticos y térmicos'),
 (153,38,'¿Qué es un fenómeno físico? a) Un cambio en la composición de la materia b) Una transformación irreversible c) Una alteración en las propiedades de la materia sin cambiar su composición'),
@@ -105,7 +107,7 @@ INSERT INTO PreguntasQ1 VALUES (153,36,'¿Qué es un fenómeno? a) Un evento nat
 (153,59,'El cambio de estado de la parafina de una vela al estar encendida es: a) Condensación b) Fusión c) Evaporación d) Solidificación'),
 (153,60,'El cambio de estado de la “Desaparición” del desodorante ambiental sólido es: a) Condensación b) Sublimación c) Evaporación d) Solidificación');
 
---Tema 4 Elemento, Compuesto y Mezcla
+-- Tema 4 Elemento, Compuesto y Mezcla
 INSERT INTO PreguntasQ1 VALUES (154,61,'¿Cómo se clasifican las sustancias puras? a) Elementos y compuestos b) Metálicas y no metálicas c) Orgánicas e inorgánicas'),
 (154,62,'¿Cuál es el concepto de elemento químico? a) Una sustancia formada por la combinación de átomos de diferentes elementos. b) Una sustancia que no puede descomponerse en sustancias más simples mediante una reacción química. c) Una sustancia compuesta por átomos de un solo tipo.'),
 (154,63,'¿Cuál es el concepto de compuesto? a) Una sustancia formada por la combinación de átomos de diferentes elementos. b) Una sustancia que no puede descomponerse en sustancias más simples mediante una reacción química. c) Una sustancia compuesta por átomos de un solo tipo.'),
@@ -132,7 +134,7 @@ INSERT INTO PreguntasQ1 VALUES (154,61,'¿Cómo se clasifican las sustancias pur
 (154,84,'Un anillo de rodio puro es un(a): a) Elemento b) Compuesto c) Mezcla'),
 (154,85,'El cereal con leche es una mezcla: a) Homogénea b) Heterogénea');
 
---Tema 5 Métodos de Separación de Mezclas
+-- Tema 5 Métodos de Separación de Mezclas
 INSERT INTO PreguntasQ1 VALUES (155,86,'¿En qué consiste la decantación? a) Es el proceso de separación de líquidos miscibles mediante la diferencia de densidades. b) Es el proceso de separación de sólidos insolubles en un líquido mediante la sedimentación. c) Es el proceso de separación de sólidos por tamaño de partícula.'),
 (155,87,'¿En qué consiste la filtración? a) Es el proceso de separación de líquidos miscibles mediante la diferencia de densidades. b) Es el proceso de separación de sólidos insolubles en un líquido mediante un medio poroso. c) Es el proceso de separación de componentes de una mezcla basado en sus diferentes puntos de ebullición.'),
 (155,88,'¿En qué consiste la centrifugación? a) Es el proceso de separación de líquidos miscibles mediante la diferencia de densidades. b) Es el proceso de separación de sólidos insolubles en un líquido mediante la sedimentación. c) Es el proceso de separación de componentes de una mezcla mediante la fuerza centrífuga.'),
@@ -160,9 +162,9 @@ INSERT INTO PreguntasQ1 VALUES (155,86,'¿En qué consiste la decantación? a) E
 (155,110,'Se dispone de una mezcla de cloruro de sodio (sal común) y ácido benzoico. ¿Cuál sería el método más apropiado para separar los componentes de esta mezcla? a) Filtración b) Destilación fraccionada c) Sublimación');
 
 
---Preguntas Segundo Parcial Química 1.
+-- Preguntas Segundo Parcial Química 1.
 
---Tema 1 El Átomo
+-- Tema 1 El Átomo
 INSERT INTO PreguntasQ1 VALUES (251,111,'¿Qué es el átomo? a) La unidad básica de la materia que forma todos los elementos químicos. b) Una partícula subatómica con carga positiva. c) Una partícula subatómica con carga negativa.'),
 (251,112,'¿Qué es el electrón? a) Una partícula subatómica con carga positiva. b) Una partícula subatómica con carga negativa. c) La unidad básica de la materia que forma todos los elementos químicos.'),
 (251,113,'¿Cuáles son dos características del electrón? a) Tiene una masa aproximadamente igual a la del protón y reside en el núcleo del átomo. b) Tiene una masa muy pequeña y orbita alrededor del núcleo en regiones llamadas niveles de energía. c) Es una partícula neutra y no participa en las reacciones químicas.'),
@@ -189,7 +191,7 @@ INSERT INTO PreguntasQ1 VALUES (251,111,'¿Qué es el átomo? a) La unidad bási
 (251,134,'¿Cuántos electrones, protones y neutrones contiene respectivamente un átomo cuyo número de masa es 60 y número atómico 28? a) Electrones: 28, Protones: 60, Neutrones: 28. b) Electrones: 28, Protones: 28, Neutrones: 32. c) Electrones: 60, Protones: 60, Neutrones: 32.'),
 (251,135,'¿Cuántos electrones, protones y neutrones contiene respectivamente un átomo cuyo número de masa es 207 y número atómico 82? a) Electrones: 125, Protones: 207, Neutrones: 82. b) Electrones: 82, Protones: 125, Neutrones: 207. c) Electrones: 82, Protones: 82, Neutrones: 207.');
 
---Tema 2 Números Cuánticos
+-- Tema 2 Números Cuánticos
 INSERT INTO PreguntasQ1 VALUES (252,136,'¿Qué plantea el Principio de Incertidumbre de Heisenberg? a) La imposibilidad de conocer con precisión la posición y la cantidad de movimiento de una partícula al mismo tiempo. b) La relación entre la energía y la frecuencia de una partícula. c) La estructura discreta de los niveles de energía en un átomo.'),
 (252,137,'¿Qué es lo que permiten conocer las diferentes soluciones de la ecuación de onda planteada por Schrödinger? a) La forma de la trayectoria de una partícula en un campo eléctrico. b) La distribución de la densidad de probabilidad de encontrar una partícula en un determinado espacio. c) La velocidad de una partícula en un campo magnético.'),
 (252,138,'¿Cuáles son los números cuánticos que se obtuvieron de la ecuación de onda? a) Principal (n) y secundario (ℓ). b) Azimutal (ℓ) y magnético (m). c) Principal (n), secundario (ℓ), magnético (m) y de espín (ms).'),
@@ -216,7 +218,7 @@ INSERT INTO PreguntasQ1 VALUES (252,136,'¿Qué plantea el Principio de Incertid
 (252,159,'En un átomo hay un nivel de energía para el cual n=4. ¿Cuáles son los valores de "ℓ"? a) 0, 1, 2, 3 b) 0, 1, 2 c) 0, 1, 2, 3'),
 (252,160,'¿Cuántos subniveles hay en el segundo y cuarto nivel energético, respectivamente? a) 2 y 4 b) 3 y 8 c) 4 y 16');
 
---Tema 3 Tabulación de los Números Cuánticos
+-- Tema 3 Tabulación de los Números Cuánticos
 INSERT INTO PreguntasQ1 VALUES (253,161,'¿Cuántos subniveles existen en el nivel 1? a) 2 b) 4 c)1 d) 3'),
 (253,162,'¿Cuántos subniveles existen en el nivel 2? a) 2 b) 4 c)1 d) 3'),
 (253,163,'¿Cuántos subniveles existen en el nivel 3? a) 2 b) 4 c)1 d) 3'),
@@ -242,13 +244,13 @@ INSERT INTO PreguntasQ1 VALUES (253,161,'¿Cuántos subniveles existen en el niv
 (253,183,'¿Cuál es la fórmula para calcular los electrones totales por nivel? a) n2 b) 2(2ℓ+1) c) 2n2'),
 (253,184,'¿Cuál es la fórmula para calcular los electrones por subnivel? a) n2 b) 2(2ℓ+1) c) 2n2');
 
---Tema 4 Principio de Construcción o Aufbauv
+-- Tema 4 Principio de Construcción o Aufbauv
 INSERT INTO PreguntasQ1 VALUES (254,185,'¿Qué es el estado basal del átomo? a) El estado con el mayor número de electrones. b) El estado de menor energía de un átomo con todos los electrones en los orbitales de menor energía. c) El estado con la mayor cantidad de energía.'),
 (254,186,'¿Qué no dice el enunciado del principio de exclusión de Pauli? a) Dos electrones en un átomo no pueden tener los mismos valores de los cuatro números cuánticos. b) Solo puede haber un electrón por orbital en un átomo. c) Los electrones en un átomo tienden a ocupar los orbitales de menor energía primero.'),
 (254,187,'¿Qué no dice el principio de edificación progresiva o regla de Aufbau? a) Los electrones llenan los orbitales comenzando por los de menor energía hasta alcanzar los de mayor energía. b) Dos electrones en un átomo no pueden tener los mismos valores de los cuatro números cuánticos. c) Cada orbital puede contener un máximo de dos electrones con espines opuestos.'),
 (254,188,'¿Qué no dice el concepto de traslape energético? a) La superposición de orbitales atómicos que resulta en la formación de orbitales moleculares en enlaces químicos. b) Los electrones en un átomo tienden a ocupar los orbitales de menor energía primero. c) La tendencia de los electrones a ocupar orbitales de igual energía antes de emparejarse.');
 
---Tema 5 Configuración Electrónica
+-- Tema 5 Configuración Electrónica
 INSERT INTO PreguntasQ1 VALUES (255,189,'¿Cuál es el principio de máxima multiplicidad o regla de Hund? a) Los electrones llenan los orbitales comenzando por los de menor energía hasta alcanzar los de mayor energía. b) Los electrones en un átomo tienden a ocupar orbitales de igual energía antes de emparejarse y con espines paralelos. c) Dos electrones en un átomo no pueden tener los mismos valores de los cuatro números cuánticos.'),
 (255,190,'¿Qué es la configuración electrónica? a) La representación gráfica de la distribución de los electrones en los orbitales atómicos de un átomo. b) La combinación de los números cuánticos para describir el estado de un electrón en un átomo. c) El número total de electrones en un átomo.'),
 (255,191,'¿Qué es el electrón diferencial? a) El último electrón que ingresa a una distribución electrónica. b) El electrón con mayor energía en un átomo. c) El primer electrón que ingresa a una distribución.'),
@@ -263,7 +265,7 @@ INSERT INTO PreguntasQ1 VALUES (255,189,'¿Cuál es el principio de máxima mult
 (255,200,'¿Cuántos electrones tiene el elemento con números cuánticos “n=4, ℓ=2, m=+2, ms=-1/2”? a) 46 b) 47 c) 48'),
 (255,201,'¿Cuántos electrones tiene el elemento con números cuánticos “n=3, ℓ=0, m=0, ms=+1/2”? a) 11 b) 13 c) 12');
 
---Tema 6 Construcción de la Tabla Periódica
+-- Tema 6 Construcción de la Tabla Periódica
 INSERT INTO PreguntasQ1 VALUES (256,202,'¿Qué es un período en la tabla periódica? a) Una fila horizontal que indica el número de capas de electrones. b) Una columna vertical que indica el número de electrones en un átomo. c) Una fila vertical que indica la ubicación de un elemento específico.'),
 (256,203,'¿Cómo se determina el período en que se localiza un elemento dado, a partir de su configuración electrónica? a) Contando el número de electrones en la capa más externa. b) Contando el número de electrones en la capa más interna. c) Contando el número de electrones en todas las capas del átomo.'),
 (256,204,'¿Qué es una clase o bloque en la tabla periódica? a) Una columna vertical que indica la ubicación de un elemento específico. b) Un grupo de elementos que tienen propiedades químicas similares. c) Una fila horizontal que indica el número de capas de electrones.'),
@@ -278,7 +280,7 @@ INSERT INTO PreguntasQ1 VALUES (256,202,'¿Qué es un período en la tabla peri�
 (256,213,'¿Cuál es el bloque “d” de la tabla periódica? a) Representativo b) Transición c) Transición interna'),
 (256,214,'¿Cuál es el bloque “f” de la tabla periódica? a) Representativo b) Transición c) Transición interna');
 
---Tema 7 Propiedades Periódicas
+-- Tema 7 Propiedades Periódicas
 INSERT INTO PreguntasQ1 VALUES (257,215,'¿Cuál es la Ley Periódica de Mendeleiev? a) Los elementos están ordenados según su número atómico. b) Los elementos están ordenados según su masa atómica. c) Los elementos están ordenados según sus propiedades químicas, en función de su número atómico.'),
 (257,216,'¿Cuál es la Ley Periódica de Moseley? a) Los elementos están ordenados según su número atómico. b) Los elementos están ordenados según su masa atómica. c) Los elementos están ordenados según sus propiedades químicas, en función de su número de electrones.'),
 (257,217,'¿Qué es el radio atómico? a) La distancia entre el núcleo del átomo y su capa de valencia. b) La distancia entre el núcleo del átomo y su electrón más externo. c) La distancia entre dos átomos adyacentes en una molécula.'),
@@ -293,16 +295,16 @@ INSERT INTO PreguntasQ1 VALUES (257,215,'¿Cuál es la Ley Periódica de Mendele
 (257,226,'¿Cuáles son algunas características de los elementos de transición? a) Tienen configuraciones electrónicas completas. b) Tienen una gran variedad de estados de oxidación. c) Tienen una baja densidad y punto de fusión.'),
 (257,227,'¿Cómo se saben los electrones de valencia de los elementos representativos? a) Observando su número atómico. b) Observando su posición en la tabla periódica. c) Observando su configuración electrónica.');
 
---Tema 8 Propiedades de los Elementos de Transición
+-- Tema 8 Propiedades de los Elementos de Transición
 INSERT INTO PreguntasQ1 VALUES (258,228,'¿Qué son los iones coloridos? a) Iones que presentan una carga eléctrica nula. b) Iones que absorben y emiten luz visible. c) Iones que son neutros en condiciones estándar.'),
 (258,229,'¿Qué son los iones complejos? a) Iones que presentan una carga eléctrica nula. b) Iones que consisten en un átomo central rodeado por moléculas o iones llamados ligandos. c) Iones que tienen una alta afinidad por los electrones.'),
 (258,230,'¿Qué es la actividad catalítica? a) La tendencia de un elemento a ganar electrones. b) La capacidad de un catalizador para acelerar una reacción química sin ser consumido en ella. c) La tendencia de un elemento a perder electrones.'),
 (258,231,'¿Qué es el magnetismo y paramagnetismo? a) La capacidad de un material para ser atraído por un imán. b) La tendencia de un material a no ser afectado por un campo magnético. c) La capacidad de un material para generar un campo magnético propio cuando se coloca en un campo magnético externo.'),
 (258,232,'¿A qué se debe la variabilidad de los números de oxidación en los elementos de transición? a) A su capacidad para ganar electrones. b) A su configuración electrónica parcialmente llena en diferentes orbitales. c) A su tendencia a formar enlaces iónicos.');
 
---Preguntas Tercer Parcial Química.
+-- Preguntas Tercer Parcial Química.
 
---Tema 1 Enlace Químico
+-- Tema 1 Enlace Químico
 INSERT INTO PreguntasQ1 VALUES (351,233,'¿Qué es el enlace químico? a) La atracción entre dos átomos que comparten electrones. b) La unión entre dos o más átomos mediante la transferencia o compartición de electrones. c) La repulsión entre dos átomos cargados positivamente.'),
 (351,234,'¿Qué es una molécula? a) Una partícula cargada eléctricamente. b) La unidad más pequeña de un compuesto que conserva sus propiedades químicas. c) Una combinación de átomos de diferentes elementos.'),
 (351,235,'¿Cuáles son los tipos de enlace químico que existen? a) Enlace iónico, enlace covalente y enlace metálico. b) Enlace primario, enlace secundario y enlace terciario. c) Enlace intramolecular, enlace intermolecular y enlace covalente.'),
@@ -368,7 +370,7 @@ INSERT INTO PreguntasQ1 VALUES (351,233,'¿Qué es el enlace químico? a) La atr
 (351,295,'La molécula CCl4 es: a) Polar b) No polar'),
 (351,296,'La molécula SF6 es: a) Polar b) No polar');
 
---Tema 2 Nomenclatura Química Inorgánica
+-- Tema 2 Nomenclatura Química Inorgánica
 INSERT INTO PreguntasQ1 VALUES (352,297,'¿Qué es la nomenclatura química? a) Es el estudio de los nombres de los compuestos químicos. b) Es el estudio de la composición de los elementos químicos. c) Es el estudio de las propiedades químicas de los compuestos.'),
 (352,298,'¿Cuáles son los tres tipos de nomenclatura que vemos en la academia? a) Nomenclatura binaria, nomenclatura orgánica y nomenclatura inorgánica. b) Nomenclatura sistemática, nomenclatura tradicional y nomenclatura Stock. c) Nomenclatura Stock, nomenclatura composicional y nomenclatura orgánica.'),
 (352,299,'¿Cuáles son las características de la nomenclatura Tradicional? a) Utiliza prefijos numéricos para indicar la cantidad de átomos presentes. b) Utiliza el nombre del catión seguido por el del anión. c) Utiliza nombres comunes para los compuestos químicos.'),
@@ -392,7 +394,7 @@ INSERT INTO PreguntasQ1 VALUES (352,297,'¿Qué es la nomenclatura química? a) 
 (352,317,'¿Cuáles son los posibles números de oxidación del cobalto? a) +2, +3 b) +2, +4 c) +3, +4'),
 (352,318,'¿Cuáles son los posibles números de oxidación del níquel? a) +2, +4 b) +2, +3 c) +3, +4');
 
---Tema 3 Hidruro Metálicos
+-- Tema 3 Hidruro Metálicos
 INSERT INTO PreguntasQ1 VALUES (353,319,'¿Cómo está conformado un Hidruro Metálico? a) H+X- b)M+X- c) M+H- d) M+(OH)-'),
 (353,320,'¿Cuál es el nombre del compuesto AlH3 en nomenclatura tradicional? a) Hidruro de aluminio b) Aluminio hidruro c) Trihidruro de aluminio'),
 (353,321,'¿Cuál es el nombre del compuesto CuH2 en nomenclatura tradicional? a) Hidruro cuproso (I) b) Hidruro de cobre (II) c) Hidruro cúprico'),
@@ -410,7 +412,7 @@ INSERT INTO PreguntasQ1 VALUES (353,319,'¿Cómo está conformado un Hidruro Met
 (353,333,'¿Cuál es la fórmula del Dihidruro de calcio? a) CaH b) CaH2 c) CaH3'),
 (353,334,'¿Cuál es la fórmula del Hidruro auroso? a) AuH b) AuH2 c) AuH3');
 
---Tema 4 Hidruros no Metálicos - Ácidos
+-- Tema 4 Hidruros no Metálicos - Ácidos
 INSERT INTO PreguntasQ1 VALUES (354,335,'¿Cómo está conformado un ácido? a) H+X- b)M+X- c) M+H- d) M+(OH)-'),
 (354,336,'¿Cuál es la fórmula correcta del ácido clorhídrico? a) HCl b) HCl2 c) H2Cl'),
 (354,337,'¿Cuál es la fórmula correcta del ácido bromhídrico? a) HBr2 b) HBr c) H2Br'),
@@ -425,7 +427,7 @@ INSERT INTO PreguntasQ1 VALUES (354,335,'¿Cómo está conformado un ácido? a) 
 (354,346,'¿Cuál es el nombre correcto para el compuesto H2Se? a) Ácido selenhídrico b) Seleniuro de hidrógeno c) Hidruro de selenio'),
 (354,347,'¿Cuál es el nombre correcto para el compuesto H2Te? a) Ácido telurhídrico b) Telururo de hidrógeno c) Hidruro de telurio');
 
---Tema 5 Sales Binarias 
+-- Tema 5 Sales Binarias 
 INSERT INTO PreguntasQ1 VALUES (355,348,'¿Cómo está conformada una sal binaria? a) H+X- b)M+X- c) M+H- d) M+(OH)-'),
 (355,349,'¿Cuál es la fórmula correcta para el cloruro de sodio? a) NaCl b) Na2Cl c) NaCl2'),
 (355,350,'¿Cuál es la fórmula correcta para el bromuro de potasio? a) K2Br b) KBr c) KBr2'),
@@ -443,7 +445,7 @@ INSERT INTO PreguntasQ1 VALUES (355,348,'¿Cómo está conformada una sal binari
 (355,362,'¿Cuál es la nomenclatura correcta para la fórmula Ca3N2? a) Nitruro de calcio b) Trinitruro de calcio c) Nitruro cálcico'),
 (355,363,'¿Cuál es la nomenclatura correcta para la fórmula HgCl2? a) Cloruro de mercurio (I) b) Cloruro de mercurio (II) c) Cloruro de mercurioso');
 
---Tema 6 Hidróxidos
+-- Tema 6 Hidróxidos
 INSERT INTO PreguntasQ1 VALUES (356,364,'¿Cómo está conformado un hidróxido? a) H+X- b)M+X- c) M+H- d) M+(OH)-'),
 (356,365,'¿Cuál es la fórmula correcta para el hidróxido de sodio? a) NaOH b) Na2OH c) Na(OH)2'),
 (356,366,'¿Cuál es la fórmula correcta para el hidróxido de calcio? a) CaOH b) Ca(OH)2 c) Ca2OH'),
@@ -462,7 +464,7 @@ INSERT INTO PreguntasQ1 VALUES (356,364,'¿Cómo está conformado un hidróxido?
 (356,379,'¿Cuál es la nomenclatura correcta para la fórmula Zn(OH)2? a) Hidróxido de zinc b) Oxihidróxido de zinc c) Hidróxido di-zincoso'),
 (356,380,'¿Cuál es la nomenclatura correcta para la fórmula KOH? a) Hidróxido de potasio b) Oxihidróxido de potasio c) Hidróxido monopotásico');
 
---Creación de Tabla para las Respuetas de Química 1
+-- Creación de Tabla para las Respuetas de Química 1
 CREATE TABLE RespuestasQ1(
 		ID_PreguntaQ1 INTEGER NOT NULL,
 		ID_RespuestaQ1 INTEGER NOT NULL,
@@ -472,9 +474,9 @@ CREATE TABLE RespuestasQ1(
 		REFERENCES PreguntasQ1(ID_PreguntaQ1)
 		);		
 
---Respuestas Primer Parcial Química 1
+-- Respuestas Primer Parcial Química 1
 
---Tema 1 Materia y Energía
+-- Tema 1 Materia y Energía
 INSERT INTO RespuestasQ1 VALUES (01,010,'a'),
 (02,020,'b'),
 (03,030,'a'),
@@ -486,7 +488,7 @@ INSERT INTO RespuestasQ1 VALUES (01,010,'a'),
 (09,090,'b'),
 (10,100,'b');
 
---Tema 2 Propiedades de la Materia
+-- Tema 2 Propiedades de la Materia
 INSERT INTO RespuestasQ1 VALUES (11,110,'b'),
 (12,120,'b'),
 (13,130,'c'),
@@ -513,7 +515,7 @@ INSERT INTO RespuestasQ1 VALUES (11,110,'b'),
 (34,340,'b'),
 (35,350,'a');
 
---Tema 3 Fenómemos Físicos y Químicos
+-- Tema 3 Fenómemos Físicos y Químicos
 INSERT INTO RespuestasQ1 VALUES (36,360,'a'),
 (37,370,'a'),
 (38,380,'c'),
@@ -540,7 +542,7 @@ INSERT INTO RespuestasQ1 VALUES (36,360,'a'),
 (59,590,'b'),
 (60,600,'b');
 
---Tema 4 Elemento, Compuesto y Mezcla
+-- Tema 4 Elemento, Compuesto y Mezcla
 INSERT INTO RespuestasQ1 VALUES (61,610,'a'),
 (62,620,'c'),
 (63,630,'a'),
@@ -567,7 +569,7 @@ INSERT INTO RespuestasQ1 VALUES (61,610,'a'),
 (84,840,'a'),
 (85,850,'b');
 
---Tema 5 Métodos de Separación de Mezclas
+-- Tema 5 Métodos de Separación de Mezclas
 INSERT INTO RespuestasQ1 VALUES (86,860,'b'),
 (87,870,'b'),
 (88,880,'c'),
@@ -594,9 +596,9 @@ INSERT INTO RespuestasQ1 VALUES (86,860,'b'),
 (109,1090,'b'),
 (110,1100,'c');
 
---Respuestas Segundo Parcial Química 1
+-- Respuestas Segundo Parcial Química 1
 
---Tema 1 El Átomo
+-- Tema 1 El Átomo
 INSERT INTO RespuestasQ1 VALUES (111,1110,'a'),
 (112,1120,'b'),
 (113,1130,'b'),
@@ -623,7 +625,7 @@ INSERT INTO RespuestasQ1 VALUES (111,1110,'a'),
 (134,1340,'b'),
 (135,1350,'b');
 
---Tema 2 Números Cuánticos
+-- Tema 2 Números Cuánticos
 INSERT INTO RespuestasQ1 VALUES (136,1360,'a'),
 (137,1370,'b'),
 (138,1380,'c'),
@@ -650,7 +652,7 @@ INSERT INTO RespuestasQ1 VALUES (136,1360,'a'),
 (159,1590,'c'),
 (160,1600,'a');
 
---Tema 3 Tabulación de los Números Cuánticos
+-- Tema 3 Tabulación de los Números Cuánticos
 INSERT INTO RespuestasQ1 VALUES (161,1610,'c'),
 (162,1620,'a'),
 (163,1630,'d'),
@@ -676,13 +678,13 @@ INSERT INTO RespuestasQ1 VALUES (161,1610,'c'),
 (183,1830,'c'),
 (184,1840,'b');
 
---Tema 4 Principio de Construcción o Aufbau
+-- Tema 4 Principio de Construcción o Aufbau
 INSERT INTO RespuestasQ1 VALUES (185,1850,'b'),
 (186,1860,'c'),
 (187,1870,'b'),
 (188,1880,'c');
 
---Tema 5 Configuración Electrónica
+-- Tema 5 Configuración Electrónica
 INSERT INTO RespuestasQ1 VALUES (189,1890,'b'),
 (190,1900,'a'),
 (191,1910,'a'),
@@ -697,7 +699,7 @@ INSERT INTO RespuestasQ1 VALUES (189,1890,'b'),
 (200,2000,'c'),
 (201,2010,'a');
 
---Tema 6 Construcción de la Tabla Periódica
+-- Tema 6 Construcción de la Tabla Periódica
 INSERT INTO RespuestasQ1 VALUES (202,2020,'a'),
 (203,2030,'a'),
 (204,2040,'b'),
@@ -712,7 +714,7 @@ INSERT INTO RespuestasQ1 VALUES (202,2020,'a'),
 (213,2130,'b'),
 (214,2140,'c');
 
---Tema 7 Propiedades Periódicas
+-- Tema 7 Propiedades Periódicas
 INSERT INTO RespuestasQ1 VALUES (215,2150,'c'),
 (216,2160,'a'),
 (217,2170,'a'),
@@ -727,16 +729,16 @@ INSERT INTO RespuestasQ1 VALUES (215,2150,'c'),
 (226,2260,'b'),
 (227,2270,'c');
 
---Tema 8 Propiedades de los Elementos de Transición
+-- Tema 8 Propiedades de los Elementos de Transición
 INSERT INTO RespuestasQ1 VALUES (228,2280,'b'),
 (229,2290,'b'),
 (230,2300,'b'),
 (231,2310,'c'),
 (232,2320,'b');
 
---Respuestas Tercer Parcial Química 1
+-- Respuestas Tercer Parcial Química 1
 
---Tema 1 Enlace Químico 
+-- Tema 1 Enlace Químico 
 INSERT INTO RespuestasQ1 VALUES (233,2330,'b'),
 (234,2340,'b'),
 (235,2350,'a'),
@@ -802,7 +804,7 @@ INSERT INTO RespuestasQ1 VALUES (233,2330,'b'),
 (295,2950,'b'),
 (296,2960,'b');
 
---Tema 2 Nomenclatura Química Inorgánica
+-- Tema 2 Nomenclatura Química Inorgánica
 INSERT INTO RespuestasQ1 VALUES (297,2970,'a'),
 (298,2980,'b'),
 (299,2990,'c'),
@@ -826,7 +828,7 @@ INSERT INTO RespuestasQ1 VALUES (297,2970,'a'),
 (317,3170,'a'),
 (318,3180,'b');
 
---Tema 3 Hidruros Metálicos
+-- Tema 3 Hidruros Metálicos
 INSERT INTO RespuestasQ1 VALUES (319,3190,'c'),
 (320,3200,'a'),
 (321,3210,'c'),
@@ -844,7 +846,7 @@ INSERT INTO RespuestasQ1 VALUES (319,3190,'c'),
 (333,3330,'b'),
 (334,3340,'a');
 
---Tema 4 Hidruros no Metálicos – Ácidos
+-- Tema 4 Hidruros no Metálicos – Ácidos
 INSERT INTO RespuestasQ1 VALUES (335,3350,'a'),
 (336,3360,'a'),
 (337,3370,'b'),
@@ -859,7 +861,7 @@ INSERT INTO RespuestasQ1 VALUES (335,3350,'a'),
 (346,3460,'a'),
 (347,3470,'a');
 
---Tema 5 Sales Binarias
+-- Tema 5 Sales Binarias
 INSERT INTO RespuestasQ1 VALUES (348,3480,'b'),
 (349,3490,'a'),
 (350,3500,'b'),
@@ -877,7 +879,7 @@ INSERT INTO RespuestasQ1 VALUES (348,3480,'b'),
 (362,3620,'a'),
 (363,3630,'b');
 
---Tema 6 Hidróxidos
+-- Tema 6 Hidróxidos
 INSERT INTO RespuestasQ1 VALUES (364,3640,'d'),
 (365,3650,'a'),
 (366,3660,'b'),

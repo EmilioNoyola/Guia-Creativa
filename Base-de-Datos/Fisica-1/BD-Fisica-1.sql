@@ -1,114 +1,40 @@
-CREATE DATABASE Guia_Creativa;
-
 USE Guia_Creativa;
 
-CREATE TABLE Semestre( 
-		ID_Semestre INTEGER NOT NULL,
-		Nombre_Semestre VARCHAR(18) NOT NULL,
-		PRIMARY KEY(ID_Semestre)
-		);
-		
-INSERT INTO Semestre VALUES (1,'Primer_Semestre');
-INSERT INTO Semestre VALUES (2,'Segundo_Semestre');
-INSERT INTO Semestre VALUES (3,'Tercer_Semestre');
-INSERT INTO Semestre VALUES (4,'Cuarto_Semestre');
+-- Tercer Semestre - Fisica_1
 
-CREATE TABLE UnidadDeAprendizaje( 
-		ID_Semestre INTEGER NOT NULL,
-		ID_UnidadDeAprendizaje INTEGER NOT NULL,
-		Nombre_UnidadDeAprendizaje VARCHAR(20) NOT NULL,
-		PRIMARY KEY(ID_UnidadDeAprendizaje),
-		FOREIGN KEY(ID_Semestre)
-		REFERENCES Semestre(ID_Semestre)
-		);
-		
-INSERT INTO UnidadDeAprendizaje VALUES (1,10,'Álgebra');
-INSERT INTO UnidadDeAprendizaje VALUES (2,20,'GyT');
-INSERT INTO UnidadDeAprendizaje VALUES (3,30,'Geometría_A');
-INSERT INTO UnidadDeAprendizaje VALUES (3,40,'Física_1');
-INSERT INTO UnidadDeAprendizaje VALUES (3,50,'Química_1');
-INSERT INTO UnidadDeAprendizaje VALUES (4,60,'Cálculo_Diferencial');
-INSERT INTO UnidadDeAprendizaje VALUES (4,70,'Física_2');
-INSERT INTO UnidadDeAprendizaje VALUES (4,80,'Química_2');
-
-CREATE TABLE PeriodoEscolar(
-		ID_UnidadDeAprendizaje INTEGER NOT NULL,
-		ID_PeriodoEscolar INTEGER NOT NULL,
-		Nombre_PeriodoEscolar VARCHAR(15) NOT NULL,
-		PRIMARY KEY(ID_PeriodoEscolar),
-		FOREIGN KEY(ID_UnidadDeAprendizaje)
-		REFERENCES UnidadDeAprendizaje(ID_UnidadDeAprendizaje)
-		);
-
-INSERT INTO PeriodoEscolar VALUES (10,110,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (10,210,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (10,310,'Tercer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (20,120,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (20,220,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (20,320,'Tercer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (30,130,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (30,230,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (30,330,'Tercer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (40,140,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (40,240,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (40,340,'Tercer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (50,150,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (50,250,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (50,350,'Tercer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (60,160,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (60,260,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (60,360,'Tercer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (70,170,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (70,270,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (70,370,'Tercer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (80,180,'Primer_Parcial');
-INSERT INTO PeriodoEscolar VALUES (80,280,'Segundo_Parcial');
-INSERT INTO PeriodoEscolar VALUES (80,380,'Tercer_Parcial');
-
-CREATE TABLE Temas(
-		ID_PeriodoEscolar INTEGER NOT NULL,
-		ID_Tema INTEGER NOT NULL,
-		Nombre_Tema VARCHAR(50) NOT NULL,
-		PRIMARY KEY(ID_Tema),
-		FOREIGN KEY(ID_PeriodoEscolar)
-		REFERENCES PeriodoEscolar(ID_PeriodoEscolar)
-		);
-
---Tercer Semestre - Fisica_1
-
---Temas Primer Parcial Fisica_1
+-- Temas Primer Parcial Fisica_1
 
 INSERT INTO Temas VALUES(140,141,"Algebra Vectorial");
 INSERT INTO Temas VALUES(140,142,"Sistemas de unidades");
 INSERT INTO Temas VALUES(140,143,"Generalidades de Fisica");
 
---Temas Segundo Parcial Fisica_1
+-- Temas Segundo Parcial Fisica_1
 
 INSERT INTO Temas VALUES(240,241,"Primer condicion de equilibrio");
 INSERT INTO Temas VALUES(240,242,"Segunda condicion de equilibrio");
 INSERT INTO Temas VALUES(240,243,"Producto Escalar");
 
---Temas Tercer Parcial Fisica_1
+-- Temas Tercer Parcial Fisica_1
 
 INSERT INTO Temas VALUES(340,341,"MRU");
 INSERT INTO Temas VALUES(340,342,"MRUV");
 INSERT INTO Temas VALUES(340,343,"Tiro parabólico");
 INSERT INTO Temas VALUES(340,344,"Tiro Vertical");
 
---Creacion de la tabla para las preguntas Fisica_1
+-- Creacion de la tabla para las preguntas Fisica_1
 
 CREATE TABLE PreguntasF1( 
 		ID_Tema INTEGER NOT NULL,
 		ID_PreguntaF1 INTEGER NOT NULL,
-		Preguntas VARCHAR(500) NOT NULL,
+		Preguntas VARCHAR(700) NOT NULL,
 		PRIMARY KEY(ID_PreguntaF1),
 		FOREIGN KEY(ID_Tema)
 		REFERENCES Temas(ID_Tema)
 		);
 		
---Preguntas primer parcial fisica 1
+-- Preguntas primer parcial fisica 1
 
---Tema  Algebra Vectoriales
+-- Tema  Algebra Vectoriales
 INSERT INTO PreguntasF1 VALUES(141,01,"¿Que es un Vector?
 A)Un vector es una estructura de datos que almacena una colección ordenada de elementos del mismo tipo.
 B) Un vector es un tipo de gráfico utilizado para representar datos numéricos.
@@ -206,10 +132,10 @@ B) 3.4, θ= 225°
 C) 4.808, θ= 135°
 D) 3.4, θ= 45°
 ");
-INSERT INTO PreguntasF1 VALUES(141,15,"¿Cuál es la fórmula para calcular la magnitud de un vector en el espacio tridimensional?
+INSERT INTO PreguntasF1 VALUES(141,15, "¿Cuál es la fórmula para calcular la magnitud de un vector en el espacio tridimensional?
 A) |A| = √(Ax^2 + Ay^2)
 B) |A| = √(Ax^2 + Ay^2 + Az^2)
---C) |A| = √(Ax^2 + Ay^2 + Az^2)")
+C) |A| = √(Ax^2 + Ay^2 + Az^2)"
 );
 
 INSERT INTO PreguntasF1 VALUES(141,16,"¿Cuál es la fórmula para calcular el ángulo entre dos vectores A y B utilizando el producto escalar?
@@ -275,9 +201,9 @@ B) El resultado es cero.
 D) El resultado es un vector perpendicular a uno de los vectores originales."
 );
 
---Tema 2:Sistemas de unidades primer parcial
+-- Tema 2:Sistemas de unidades primer parcial
 
---Tema 2:Sistemas de unidades primer parcial
+-- Tema 2:Sistemas de unidades primer parcial
 
 INSERT INTO PreguntasF1 VALUES(142,25," ¿Qué es medir?
 --A) Es la acción de comparar un objeto o cosa con un patrón de medida previamente establecido y validado.
@@ -510,7 +436,7 @@ C) H^2
 ");
 
 
---tema 3 : Generalidades de Fisica primer parcial
+-- Tema 3 : Generalidades de Fisica primer parcial
 
 INSERT INTO PreguntasF1 VALUES(143,50,"Explica lo que es la Física
 A) Es el estudio de las fuerzas sobrenaturales.
@@ -541,13 +467,13 @@ D) Matemática
 
 ");
 
---Tema 1: Primer condicion de equilibrio parcial 2
+-- Tema 1: Primer condicion de equilibrio parcial 2
 
-INSERT INTO PreguntasF1 VALUES(241,53,"¿Cuál es el enunciado del principio de transmisibilidad de las fuerzas?",
-"--A) Un cuerpo rígido permanecerá sin cambio si una fuerza F que actúa en un punto del cuerpo rígido se sustituye por una fuerza F^1 de la misma magnitud y la misma dirección.",
-"B) Una fuerza F aplicada a un cuerpo puede cambiar su forma y tamaño.",
-"C) La suma de las fuerzas aplicadas a un cuerpo rígido es igual a la aceleración del cuerpo.",
-"D) La fuerza aplicada a un cuerpo es directamente proporcional a su masa."
+INSERT INTO PreguntasF1 VALUES(241,53,"¿Cuál es el enunciado del principio de transmisibilidad de las fuerzas?
+--A) Un cuerpo rígido permanecerá sin cambio si una fuerza F que actúa en un punto del cuerpo rígido se sustituye por una fuerza F^1 de la misma magnitud y la misma dirección.
+B) Una fuerza F aplicada a un cuerpo puede cambiar su forma y tamaño.
+C) La suma de las fuerzas aplicadas a un cuerpo rígido es igual a la aceleración del cuerpo.
+D) La fuerza aplicada a un cuerpo es directamente proporcional a su masa."
 );
 
 
@@ -726,7 +652,7 @@ INSERT INTO PreguntasF1 VALUES(241,75,"¿Qué relación existe entre la primera 
 "D) La primera condición de equilibrio indica que el cuerpo se mueve con aceleración constante."
 );
 
---tema 2: Segunda condicion de equilibrio, parcial 2
+-- Tema 2: Segunda condicion de equilibrio, parcial 2
 
 INSERT INTO PreguntasF1 VALUES(242,76,"¿Cuál es la condición necesaria para que un cuerpo esté en equilibrio rotacional?",
 "A) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea igual a cero.",
@@ -807,7 +733,7 @@ INSERT INTO PreguntasF1 VALUES(242,85,"¿Qué es un momento de fuerza (o torque)
 "--D) La medida de la tendencia de una fuerza para hacer que un objeto gire alrededor de un punto o un eje."
 );
 
---Tema 3: Producto escalar, parcial 2
+-- Tema 3: Producto escalar, parcial 2
 
 INSERT INTO PreguntasF1 VALUES(243,86,"¿Cuál es la definición del producto escalar de dos vectores A y B?",
 "A) La suma de los productos de las componentes de los vectores A y B.",
@@ -863,10 +789,7 @@ INSERT INTO PreguntasF1 VALUES(243,92,"¿Cuál es la relación entre el producto
 "D) El producto escalar es igual al producto del módulo de los vectores A y B y el seno del ángulo entre ellos."
 );
 
-
-
-
---Tabla Respuestas de F1
+-- Tabla Respuestas de F1
 CREATE TABLE RespuestasF1(
 	ID_PreguntaF1 INTEGER NOT NULL,
 	ID_RespuestasF1 INTEGER NOT NULL,
