@@ -366,14 +366,16 @@ B)a) 3y^2 + 5y - 2  b) 4y^2 - 3y + 1    c) 2y^2 + 4y + 3                d) 5y - 
 C)a) 6z^2 + 2z - 3  b) 3z^2 - 4z + 5    c) 2z^2 + 3z + 1                d) 4z - 2z^2 - 3
 D)a) 2a^2+3a-1		b) 2a^2-3a-1		c) 2a^2+4ah+2h^2+3a+3h-1	    d) 4a+2h+3	
 ');
-INSERT INTO PreguntasCD VALUES (165,55,'Si una astronauta pesa 130 libras en la superficie de la Tierra, entonces... (la pregunta sigue)
-A)
+INSERT INTO PreguntasCD VALUES (165,55,'Si una astronauta pesa 130 libras en la superficie de la Tierra, entonces cuando esté a h millas sobre la Tierra suu peso está dado por la función w(h)= 130(3960/3960+h)², a)	Cual es el peso del astronauta a 100 millas sobre la Tierra?, b)Encuentre el cambio de peso neto en el peso del astronauta desde el nivel del suelo hasta una altura de 500mi 
+A)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 114lb
+	b) El peso de la astronauta disminuye aproximadamente 18lb 
 B)	a) Entonces a una altura de 100 millas ella pesa aproximadamente 124lb
-	b) La tabla indica que cuanto mas alto se encuentre la astronauta, menor su peso
-	c) El peso de la astronauta disminuye aproximadamente 28lb
+	b) El peso de la astronauta disminuye aproximadamente 28lb 
 
-C)
-D)
+C)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 147lb
+	b) El peso de la astronauta disminuye aproximadamente 32lb 
+D)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 94lb
+	b) El peso de la astronauta disminuye aproximadamente 18lb 
 ');
 
 -- Tema 6 Dominio y rango
