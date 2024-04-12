@@ -467,327 +467,92 @@ D) Matemática
 
 ");
 
--- Tema 1: Primer condicion de equilibrio parcial 2
+-- Tema 1: Primer condición de equilibrio parcial 2
 
-INSERT INTO PreguntasF1 VALUES(241,53,"¿Cuál es el enunciado del principio de transmisibilidad de las fuerzas?
---A) Un cuerpo rígido permanecerá sin cambio si una fuerza F que actúa en un punto del cuerpo rígido se sustituye por una fuerza F^1 de la misma magnitud y la misma dirección.
-B) Una fuerza F aplicada a un cuerpo puede cambiar su forma y tamaño.
-C) La suma de las fuerzas aplicadas a un cuerpo rígido es igual a la aceleración del cuerpo.
-D) La fuerza aplicada a un cuerpo es directamente proporcional a su masa."
-);
+INSERT INTO PreguntasF1 VALUES(241,53,'¿Cuál es el enunciado del principio de transmisibilidad de las fuerzas? --A) Un cuerpo rígido permanecerá sin cambio si una fuerza F que actúa en un punto del cuerpo rígido se sustituye por una fuerza F^1 de la misma magnitud y la misma dirección. B) Una fuerza F aplicada a un cuerpo puede cambiar su forma y tamaño. C) La suma de las fuerzas aplicadas a un cuerpo rígido es igual a la aceleración del cuerpo. D) La fuerza aplicada a un cuerpo es directamente proporcional a su masa.');
 
+INSERT INTO PreguntasF1 VALUES(241,54,'¿Qué es un diagrama de cuerpo libre? A) Es un dibujo que muestra la partícula junto con todas las fuerzas y sus ángulos que actúan sobre ella. --B) Es una representación gráfica de un cuerpo en movimiento. C) Es un modelo tridimensional de un objeto físico. D) Es una imagen que muestra únicamente la forma externa de un objeto.');
 
-INSERT INTO PreguntasF1 VALUES(241,54,"¿Qué es un diagrama de cuerpo libre?",
-"A) Es un dibujo que muestra la partícula junto con todas las fuerzas y sus ángulos que actúan sobre ella.",
-"--B) Es una representación gráfica de un cuerpo en movimiento.",
-"C) Es un modelo tridimensional de un objeto físico.",
-"D) Es una imagen que muestra únicamente la forma externa de un objeto."
-);
+INSERT INTO PreguntasF1 VALUES(241,55,'¿Cuál es el enunciado del Primer condicion de equilibrio? --A) A partir de una partícula la sumatoria de todas las fuerzas tiene que ser 0 para cumplir el equilibrio. B) La velocidad de un objeto permanece constante a menos que actúe sobre él una fuerza neta. C) La suma de las fuerzas aplicadas a un cuerpo es igual a la masa del cuerpo multiplicada por su aceleración. D) La energía de un sistema aislado permanece constante en el tiempo.');
 
+INSERT INTO PreguntasF1 VALUES(241,56,'¿Qué es un brazo de palanca? --A) Es la distancia perpendicular r que hay de la línea de acción de la fuerza de rotación. B) Es la fuerza que se requiere para levantar un objeto. C) Es la distancia que recorre un objeto en un intervalo de tiempo dado. D) Es la fuerza resultante de varias fuerzas aplicadas a un objeto.');
 
-INSERT INTO PreguntasF1 VALUES(241,55,"¿Cuál es el enunciado del Primer condicion de equilibrio?",
-"--A) A partir de una partícula la sumatoria de todas las fuerzas tiene que ser 0 para cumplir el equilibrio.",
-"B) La velocidad de un objeto permanece constante a menos que actúe sobre él una fuerza neta.",
-"C) La suma de las fuerzas aplicadas a un cuerpo es igual a la masa del cuerpo multiplicada por su aceleración.",
-"D) La energía de un sistema aislado permanece constante en el tiempo."
-);
+INSERT INTO PreguntasF1 VALUES(241,57,'¿Qué es la estática? A) Es la ciencia que estudia el equilibrio de los objetos en reposo o en constante movimiento. B) Es la rama de la física que se ocupa de los fenómenos eléctricos. C) Es la rama de la física que se ocupa de los fenómenos magnéticos. --D) Es la rama de la física que estudia la interacción entre partículas subatómicas.');
 
+INSERT INTO PreguntasF1 VALUES(241,58,'Para que dos fuerzas equilibren una masa puntual m, se requiere que sean: --A) Paralelas, de igual magnitud y sentido opuesto. B) Perpendiculares, de igual magnitud y sentido opuesto. C) Concurrentes, de diferente magnitud y sentido opuesto. D) Paralelas, de diferente magnitud y sentido opuesto.');
 
-INSERT INTO PreguntasF1 VALUES(241,56,"¿Qué es un brazo de palanca?",
-"--A) Es la distancia perpendicular r que hay de la línea de acción de la fuerza de rotación.",
-"B) Es la fuerza que se requiere para levantar un objeto.",
-"C) Es la distancia que recorre un objeto en un intervalo de tiempo dado.",
-"D) Es la fuerza resultante de varias fuerzas aplicadas a un objeto."
-);
+INSERT INTO PreguntasF1 VALUES(241,59,'Una esfera de 600N está suspendida por una cuerda como se muestra en la figura, la cuerda forma un ángulo de 30° con la pared, la tensión en la cuerda es: A) 400N B) 500N C) 600N --D) 690N');
 
+INSERT INTO PreguntasF1 VALUES(241,60,'Si un cuerpo cumple con la 1° condición de equilibrio estático, esto garantiza que el objeto se encuentra en equilibrio: --A) Traslacional B) Rotacional C) Dinámico D) Estático');
 
-INSERT INTO PreguntasF1 VALUES(241,57,"¿Qué es la estática?",
-"A) Es la ciencia que estudia el equilibrio de los objetos en reposo o en constante movimiento.",
-"B) Es la rama de la física que se ocupa de los fenómenos eléctricos.",
-"C) Es la rama de la física que se ocupa de los fenómenos magnéticos.",
-"--D) Es la rama de la física que estudia la interacción entre partículas subatómicas."
-);
+INSERT INTO PreguntasF1 VALUES(241,61,'Para que un cuerpo esté en equilibrio de traslación debe cumplirse: --A) ∑ F=0 B) ∑ τ=0 C) ∑ F≠0 D) ∑ τ≠0');
 
+INSERT INTO PreguntasF1 VALUES(241,62,'Si una fuerza es paralela al eje +y, y otra fuerza es paralela al eje +x, entonces su fuerza equilibrante estará en: A) En el primer cuadrante B) En el segundo cuadrante C) En el cuarto cuadrante --D) En el tercer cuadrante');
 
-INSERT INTO PreguntasF1 VALUES(241,58,"Para que dos fuerzas equilibren una masa puntual m, se requiere que sean:",
-"--A) Paralelas, de igual magnitud y sentido opuesto.",
-"B) Perpendiculares, de igual magnitud y sentido opuesto.",
-"C) Concurrentes, de diferente magnitud y sentido opuesto.",
-"D) Paralelas, de diferente magnitud y sentido opuesto."
-);
+INSERT INTO PreguntasF1 VALUES(241,63,'En estático a un conjunto muy grande de partículas cuya posición relativa se mantiene constante se le llama: A) Masa inercial B) Carga eléctrica --C) Cuerpo rígido D) Volumen de control');
 
+INSERT INTO PreguntasF1 VALUES(241,64,'El “PAR” de fuerzas, es un sistema de fuerzas de la misma magnitud y además: A) Concurrentes y de igual dirección --B) Paralelas y de sentido opuesto C) Concurrentes y de sentido opuesto D) Perpendiculares y de sentido opuesto');
 
-INSERT INTO PreguntasF1 VALUES(241,59,"Una esfera de 600N está suspendida por una cuerda como se muestra en la figura, la cuerda forma un ángulo de 30° con la pared, la tensión en la cuerda es:",
-"A) 400N",
-"B) 500N",
-"C) 600N",
-"--D) 690N"
-);
+INSERT INTO PreguntasF1 VALUES(241,65,'Altura sobre la base del centro de masa de una placa triangular (Triángulo oblicuángulo): A) h B) h/2 --C) 2h /3 D) 3h /4');
 
+INSERT INTO PreguntasF1 VALUES(241,66,'¿Cuál es la condición necesaria para que un cuerpo esté en equilibrio traslacional? A) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea igual a cero. B) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea diferente de cero. --C) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea igual a la masa del cuerpo multiplicada por su aceleración. D) Que la suma de todos los momentos (o torques) alrededor de cualquier punto sea igual a cero.');
 
-INSERT INTO PreguntasF1 VALUES(241,60,"Si un cuerpo cumple con la 1° condición de equilibrio estático, esto garantiza que el objeto se encuentra en equilibrio:",
-"--A) Traslacional",
-"B) Rotacional",
-"C) Dinámico",
-"D) Estático"
-);
+INSERT INTO PreguntasF1 VALUES(241,67,'¿Qué representa la primera condición de equilibrio en términos matemáticos? --A) ΣF = 0 B) Στ = 0 C) ΣF ≠ 0 D) Στ ≠ 0');
 
+INSERT INTO PreguntasF1 VALUES(241,68,'¿Cuál es el principio fundamental de la primera condición de equilibrio? A) La suma de todos los momentos (o torques) alrededor de cualquier punto debe ser igual a cero. --B) La suma vectorial de todas las fuerzas que actúan sobre un cuerpo debe ser igual a cero. C) La velocidad de un objeto permanece constante a menos que actúe sobre él una fuerza neta. D) La energía de un sistema aislado permanece constante en el tiempo.');
 
-INSERT INTO PreguntasF1 VALUES(241,61,"Para que un cuerpo esté en equilibrio de traslación debe cumplirse:",
-"--A) ∑ F=0",
-"B) ∑ τ=0",
-"C) ∑ F≠0",
-"D) ∑ τ≠0"
-);
+INSERT INTO PreguntasF1 VALUES(241,69,'¿Qué representa la letra Σ en la primera condición de equilibrio? A) Suma de todas las fuerzas aplicadas al cuerpo. B) Suma de todas las masas del cuerpo. C) Suma de todas las velocidades del cuerpo. --D) Sumatoria, indica que se deben considerar todas las fuerzas que actúan sobre el cuerpo.');
 
+INSERT INTO PreguntasF1 VALUES(241,70,'¿Qué se entiende por equilibrio estático? A) Un estado en el que un objeto está en movimiento uniforme. B) Un estado en el que la velocidad de un objeto permanece constante. C) Un estado en el que un objeto está acelerando. --D) Un estado en el que un objeto está en reposo o en movimiento con velocidad constante.');
 
-INSERT INTO PreguntasF1 VALUES(241,62,"Si una fuerza es paralela al eje +y, y otra fuerza es paralela al eje +x, entonces su fuerza equilibrante estará en:",
-"A) En el primer cuadrante",
-"B) En el segundo cuadrante",
-"C) En el cuarto cuadrante",
-"--D) En el tercer cuadrante"
-);
+INSERT INTO PreguntasF1 VALUES(241,71,'¿Qué es la resultante de fuerzas en un sistema en equilibrio? A) Una fuerza neta no nula. B) La suma de todas las fuerzas aplicadas al cuerpo. C) Una fuerza que no tiene ningún efecto sobre el movimiento del cuerpo. --D) Una fuerza neta igual a cero.');
 
+INSERT INTO PreguntasF1 VALUES(241,72,'¿Cuál es el resultado de aplicar la primera condición de equilibrio a un cuerpo? --A) Las fuerzas que actúan sobre el cuerpo se compensan mutuamente. B) El cuerpo se desplaza con una velocidad constante. C) El cuerpo adquiere aceleración. D) Las fuerzas que actúan sobre el cuerpo se suman vectorialmente.');
 
-INSERT INTO PreguntasF1 VALUES(241,63,"En estático a un conjunto muy grande de partículas cuya posición relativa se mantiene constante se le llama:",
-"A) Masa inercial",
-"B) Carga eléctrica",
-"--C) Cuerpo rígido",
-"D) Volumen de control"
-);
+INSERT INTO PreguntasF1 VALUES(241,73,'¿Qué significa que la suma de fuerzas sea igual a cero en un sistema en equilibrio? A) Que todas las fuerzas son nulas. B) Que la resultante de fuerzas es diferente de cero. --C) Que el sistema está en equilibrio traslacional. D) Que el sistema está en movimiento constante.');
 
+INSERT INTO PreguntasF1 VALUES(241,74,'¿Cuál es la importancia de la primera condición de equilibrio en la estática? --A) Permite determinar si un cuerpo está en equilibrio traslacional. B) Permite determinar si un cuerpo está en equilibrio rotacional. C) Permite calcular la aceleración de un cuerpo. D) Permite calcular la energía potencial de un cuerpo.');
 
-INSERT INTO PreguntasF1 VALUES(241,64,"El “PAR” de fuerzas, es un sistema de fuerzas de la misma magnitud y además:",
-"A) Concurrentes y de igual dirección",
-"--B) Paralelas y de sentido opuesto",
-"C) Concurrentes y de sentido opuesto",
-"D) Perpendiculares y de sentido opuesto"
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,65,"Altura sobre la base del centro de masa de una placa triangular (Triángulo oblicuángulo):",
-"A) h",
-"B) h/2",
-"--C) 2h /3",
-"D) 3h /4"
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,66,"¿Cuál es la condición necesaria para que un cuerpo esté en equilibrio traslacional?",
-"A) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea igual a cero.",
-"B) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea diferente de cero.",
-"--C) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea igual a la masa del cuerpo multiplicada por su aceleración.",
-"D) Que la suma de todos los momentos (o torques) alrededor de cualquier punto sea igual a cero."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,67,"¿Qué representa la primera condición de equilibrio en términos matemáticos?",
-"--A) ΣF = 0",
-"B) Στ = 0",
-"C) ΣF ≠ 0",
-"D) Στ ≠ 0"
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,68,"¿Cuál es el principio fundamental de la primera condición de equilibrio?",
-"A) La suma de todos los momentos (o torques) alrededor de cualquier punto debe ser igual a cero.",
-"--B) La suma vectorial de todas las fuerzas que actúan sobre un cuerpo debe ser igual a cero.",
-"C) La velocidad de un objeto permanece constante a menos que actúe sobre él una fuerza neta.",
-"D) La energía de un sistema aislado permanece constante en el tiempo."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,69,"¿Qué representa la letra Σ en la primera condición de equilibrio?",
-"A) Suma de todas las fuerzas aplicadas al cuerpo.",
-"B) Suma de todas las masas del cuerpo.",
-"C) Suma de todas las velocidades del cuerpo.",
-"--D) Sumatoria, indica que se deben considerar todas las fuerzas que actúan sobre el cuerpo."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,70,"¿Qué se entiende por 'equilibrio estático'?",
-"A) Un estado en el que un objeto está en movimiento uniforme.",
-"B) Un estado en el que la velocidad de un objeto permanece constante.",
-"C) Un estado en el que un objeto está acelerando.",
-"--D) Un estado en el que un objeto está en reposo o en movimiento con velocidad constante."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,71,"¿Qué es la resultante de fuerzas en un sistema en equilibrio?",
-"A) Una fuerza neta no nula.",
-"B) La suma de todas las fuerzas aplicadas al cuerpo.",
-"C) Una fuerza que no tiene ningún efecto sobre el movimiento del cuerpo.",
-"--D) Una fuerza neta igual a cero."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,72,"¿Cuál es el resultado de aplicar la primera condición de equilibrio a un cuerpo?",
-"--A) Las fuerzas que actúan sobre el cuerpo se compensan mutuamente.",
-"B) El cuerpo se desplaza con una velocidad constante.",
-"C) El cuerpo adquiere aceleración.",
-"D) Las fuerzas que actúan sobre el cuerpo se suman vectorialmente."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,73,"¿Qué significa que la suma de fuerzas sea igual a cero en un sistema en equilibrio?",
-"A) Que todas las fuerzas son nulas.",
-"B) Que la resultante de fuerzas es diferente de cero.",
-"--C) Que el sistema está en equilibrio traslacional.",
-"D) Que el sistema está en movimiento constante."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,74,"¿Cuál es la importancia de la primera condición de equilibrio en la estática?",
-"--A) Permite determinar si un cuerpo está en equilibrio traslacional.",
-"B) Permite determinar si un cuerpo está en equilibrio rotacional.",
-"C) Permite calcular la aceleración de un cuerpo.",
-"D) Permite calcular la energía potencial de un cuerpo."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(241,75,"¿Qué relación existe entre la primera condición de equilibrio y el movimiento de un cuerpo?",
-"A) No hay relación entre la primera condición de equilibrio y el movimiento de un cuerpo.",
-"B) La primera condición de equilibrio indica que el cuerpo se mueve con velocidad constante.",
-"--C) La primera condición de equilibrio asegura que el cuerpo no cambie su estado de movimiento.",
-"D) La primera condición de equilibrio indica que el cuerpo se mueve con aceleración constante."
-);
+INSERT INTO PreguntasF1 VALUES(241,75,'¿Qué relación existe entre la primera condición de equilibrio y el movimiento de un cuerpo? A) No hay relación entre la primera condición de equilibrio y el movimiento de un cuerpo. B) La primera condición de equilibrio indica que el cuerpo se mueve con velocidad constante. --C) La primera condición de equilibrio asegura que el cuerpo no cambie su estado de movimiento. D) La primera condición de equilibrio indica que el cuerpo se mueve con aceleración constante.');
 
 -- Tema 2: Segunda condicion de equilibrio, parcial 2
 
-INSERT INTO PreguntasF1 VALUES(242,76,"¿Cuál es la condición necesaria para que un cuerpo esté en equilibrio rotacional?",
-"A) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea igual a cero.",
-"B) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea diferente de cero.",
-"--C) Que la suma de todos los momentos (o torques) alrededor de cualquier punto sea igual a cero.",
-"D) Que la velocidad de rotación del cuerpo sea constante."
-);
+INSERT INTO PreguntasF1 VALUES(242,76,'¿Cuál es la condición necesaria para que un cuerpo esté en equilibrio rotacional? A) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea igual a cero. B) Que la suma de todas las fuerzas que actúan sobre el cuerpo sea diferente de cero. --C) Que la suma de todos los momentos (o torques) alrededor de cualquier punto sea igual a cero. D) Que la velocidad de rotación del cuerpo sea constante.');
 
+INSERT INTO PreguntasF1 VALUES(242,77,'¿Qué representa la segunda condición de equilibrio en términos matemáticos? A) ΣF = 0 --B) Στ = 0 C) ΣF ≠ 0 D) Στ ≠ 0');
 
-INSERT INTO PreguntasF1 VALUES(242,77,"¿Qué representa la segunda condición de equilibrio en términos matemáticos?",
-"A) ΣF = 0",
-"--B) Στ = 0",
-"C) ΣF ≠ 0",
-"D) Στ ≠ 0"
-);
+INSERT INTO PreguntasF1 VALUES(242,78,'¿Cuál es el principio fundamental de la segunda condición de equilibrio? A) La suma de todos los momentos (o torques) alrededor de cualquier punto debe ser igual a cero. --B) La suma vectorial de todas las fuerzas que actúan sobre un cuerpo debe ser igual a cero. C) La velocidad de un objeto permanece constante a menos que actúe sobre él una fuerza neta. D) La energía de un sistema aislado permanece constante en el tiempo.');
 
+INSERT INTO PreguntasF1 VALUES(242,79,'¿Qué representa la letra Σ en la segunda condición de equilibrio? A) Suma de todas las fuerzas aplicadas al cuerpo. B) Suma de todas las masas del cuerpo. C) Suma de todas las velocidades del cuerpo. --D) Sumatoria, indica que se deben considerar todos los momentos (o torques) que actúan sobre el cuerpo.');
 
-INSERT INTO PreguntasF1 VALUES(242,78,"¿Cuál es el principio fundamental de la segunda condición de equilibrio?",
-"A) La suma de todos los momentos (o torques) alrededor de cualquier punto debe ser igual a cero.",
-"--B) La suma vectorial de todas las fuerzas que actúan sobre un cuerpo debe ser igual a cero.",
-"C) La velocidad de un objeto permanece constante a menos que actúe sobre él una fuerza neta.",
-"D) La energía de un sistema aislado permanece constante en el tiempo."
-);
+INSERT INTO PreguntasF1 VALUES(242,80,'¿Qué se entiende por equilibrio rotacional ? A) Un estado en el que un objeto está en movimiento uniforme. B) Un estado en el que la velocidad de rotación de un objeto permanece constante. C) Un estado en el que un objeto está acelerando en su rotación. --D) Un estado en el que la suma de todos los momentos (o torques) alrededor de cualquier punto es igual a cero.');
 
+INSERT INTO PreguntasF1 VALUES(242,81,'¿Qué es el resultado de aplicar la segunda condición de equilibrio a un cuerpo? A) Las fuerzas que actúan sobre el cuerpo se compensan mutuamente. B) El cuerpo se desplaza con una velocidad constante. --C) Los momentos (o torques) que actúan sobre el cuerpo se cancelan unos a otros. D) Las fuerzas que actúan sobre el cuerpo se suman vectorialmente.');
 
-INSERT INTO PreguntasF1 VALUES(242,79,"¿Qué representa la letra Σ en la segunda condición de equilibrio?",
-"A) Suma de todas las fuerzas aplicadas al cuerpo.",
-"B) Suma de todas las masas del cuerpo.",
-"C) Suma de todas las velocidades del cuerpo.",
-"--D) Sumatoria, indica que se deben considerar todos los momentos (o torques) que actúan sobre el cuerpo."
-);
+INSERT INTO PreguntasF1 VALUES(242,82,'¿Qué significa que la suma de momentos (o torques) sea igual a cero en un sistema en equilibrio? A) Que todos los momentos son nulos. B) Que la resultante de momentos es diferente de cero. C) Que el sistema está en equilibrio traslacional. --D) Que el sistema está en equilibrio rotacional.');
 
+INSERT INTO PreguntasF1 VALUES(242,83,'¿Cuál es la importancia de la segunda condición de equilibrio en la estática? A) Permite determinar si un cuerpo está en equilibrio traslacional. --B) Permite determinar si un cuerpo está en equilibrio rotacional. C) Permite calcular la aceleración de un cuerpo. D) Permite calcular la energía potencial de un cuerpo.');
 
-INSERT INTO PreguntasF1 VALUES(242,80,"¿Qué se entiende por 'equilibrio rotacional'?",
-"A) Un estado en el que un objeto está en movimiento uniforme.",
-"B) Un estado en el que la velocidad de rotación de un objeto permanece constante.",
-"C) Un estado en el que un objeto está acelerando en su rotación.",
-"--D) Un estado en el que la suma de todos los momentos (o torques) alrededor de cualquier punto es igual a cero."
-);
+INSERT INTO PreguntasF1 VALUES(242,84,'¿Qué relación existe entre la segunda condición de equilibrio y el movimiento de rotación de un cuerpo? A) No hay relación entre la segunda condición de equilibrio y el movimiento de rotación de un cuerpo. B) La segunda condición de equilibrio indica que el cuerpo se mueve con velocidad angular constante. --C) La segunda condición de equilibrio asegura que el cuerpo no cambie su estado de rotación. D) La segunda condición de equilibrio indica que el cuerpo se mueve con aceleración angular constante.');
 
-
-INSERT INTO PreguntasF1 VALUES(242,81,"¿Qué es el resultado de aplicar la segunda condición de equilibrio a un cuerpo?",
-"A) Las fuerzas que actúan sobre el cuerpo se compensan mutuamente.",
-"B) El cuerpo se desplaza con una velocidad constante.",
-"--C) Los momentos (o torques) que actúan sobre el cuerpo se cancelan unos a otros.",
-"D) Las fuerzas que actúan sobre el cuerpo se suman vectorialmente."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(242,82,"¿Qué significa que la suma de momentos (o torques) sea igual a cero en un sistema en equilibrio?",
-"A) Que todos los momentos son nulos.",
-"B) Que la resultante de momentos es diferente de cero.",
-"C) Que el sistema está en equilibrio traslacional.",
-"--D) Que el sistema está en equilibrio rotacional."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(242,83,"¿Cuál es la importancia de la segunda condición de equilibrio en la estática?",
-"A) Permite determinar si un cuerpo está en equilibrio traslacional.",
-"--B) Permite determinar si un cuerpo está en equilibrio rotacional.",
-"C) Permite calcular la aceleración de un cuerpo.",
-"D) Permite calcular la energía potencial de un cuerpo."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(242,84,"¿Qué relación existe entre la segunda condición de equilibrio y el movimiento de rotación de un cuerpo?",
-"A) No hay relación entre la segunda condición de equilibrio y el movimiento de rotación de un cuerpo.",
-"B) La segunda condición de equilibrio indica que el cuerpo se mueve con velocidad angular constante.",
-"--C) La segunda condición de equilibrio asegura que el cuerpo no cambie su estado de rotación.",
-"D) La segunda condición de equilibrio indica que el cuerpo se mueve con aceleración angular constante."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(242,85,"¿Qué es un momento de fuerza (o torque)?",
-"A) La fuerza resultante de varias fuerzas aplicadas a un objeto.",
-"B) La cantidad de movimiento que un objeto tiene debido a su masa y velocidad angular.",
-"C) La cantidad de fuerza que actúa sobre un objeto.",
-"--D) La medida de la tendencia de una fuerza para hacer que un objeto gire alrededor de un punto o un eje."
-);
+INSERT INTO PreguntasF1 VALUES(242,85,'¿Qué es un momento de fuerza (o torque)? A) La fuerza resultante de varias fuerzas aplicadas a un objeto. B) La cantidad de movimiento que un objeto tiene debido a su masa y velocidad angular. C) La cantidad de fuerza que actúa sobre un objeto. --D) La medida de la tendencia de una fuerza para hacer que un objeto gire alrededor de un punto o un eje.');
 
 -- Tema 3: Producto escalar, parcial 2
 
-INSERT INTO PreguntasF1 VALUES(243,86,"¿Cuál es la definición del producto escalar de dos vectores A y B?",
-"A) La suma de los productos de las componentes de los vectores A y B.",
-"--B) El producto del módulo de los vectores A y B y el coseno del ángulo entre ellos.",
-"C) La resta de los productos de las componentes de los vectores A y B.",
-"D) El producto del módulo de los vectores A y B y el seno del ángulo entre ellos."
-);
+INSERT INTO PreguntasF1 VALUES(243,86,'¿Cuál es la definición del producto escalar de dos vectores A y B? A) La suma de los productos de las componentes de los vectores A y B. --B) El producto del módulo de los vectores A y B y el coseno del ángulo entre ellos. C) La resta de los productos de las componentes de los vectores A y B. D) El producto del módulo de los vectores A y B y el seno del ángulo entre ellos.');
 
+INSERT INTO PreguntasF1 VALUES(243,87,'¿Qué representa geométricamente el producto escalar de dos vectores? A) Representa la proyección de un vector sobre el otro. B) Representa la suma de las componentes de los vectores A y B. --C) Representa el producto del módulo de los vectores A y B y el coseno del ángulo entre ellos. D) Representa la magnitud del ángulo entre los dos vectores.');
 
-INSERT INTO PreguntasF1 VALUES(243,87,"¿Qué representa geométricamente el producto escalar de dos vectores?",
-"A) Representa la proyección de un vector sobre el otro.",
-"B) Representa la suma de las componentes de los vectores A y B.",
-"--C) Representa el producto del módulo de los vectores A y B y el coseno del ángulo entre ellos.",
-"D) Representa la magnitud del ángulo entre los dos vectores."
-);
+INSERT INTO PreguntasF1 VALUES(243,88,'¿Cuál es la propiedad del producto escalar que permite calcular el ángulo entre dos vectores? A) Conmutativa. B) Asociativa. C) Distributiva. --D) Propiedad trigonométrica del coseno.');
 
-INSERT INTO PreguntasF1 VALUES(243,88,"¿Cuál es la propiedad del producto escalar que permite calcular el ángulo entre dos vectores?",
-"A) Conmutativa.",
-"B) Asociativa.",
-"C) Distributiva.",
-"--D) Propiedad trigonométrica del coseno."
-);
+INSERT INTO PreguntasF1 VALUES(243,89,'¿Cómo se calcula el producto escalar de dos vectores si se conocen sus componentes? A) Multiplicando las componentes de los vectores y sumándolas todas. --B) Multiplicando cada componente correspondiente de los vectores y sumando los productos resultantes. C) Sumando las componentes de los vectores y luego multiplicándolas. D) Sumando los módulos de los vectores y luego multiplicándolos.');
 
+INSERT INTO PreguntasF1 VALUES(243,90,'¿Cuál es la unidad de medida del producto escalar en el sistema internacional? A) Radianes. B) Newtons. C) Metros por segundo. --D) No tiene unidad, es un valor escalar.');
 
-INSERT INTO PreguntasF1 VALUES(243,89,"¿Cómo se calcula el producto escalar de dos vectores si se conocen sus componentes?",
-"A) Multiplicando las componentes de los vectores y sumándolas todas.",
-"--B) Multiplicando cada componente correspondiente de los vectores y sumando los productos resultantes.",
-"C) Sumando las componentes de los vectores y luego multiplicándolas.",
-"D) Sumando los módulos de los vectores y luego multiplicándolos."
-);
+INSERT INTO PreguntasF1 VALUES(243,91,'¿Qué valor puede tomar el producto escalar de dos vectores unitarios perpendiculares entre sí? A) 1. B) 0. C) -1. --D) Puede tomar cualquier valor.');
 
+INSERT INTO PreguntasF1 VALUES(243,92,'¿Cuál es la relación entre el producto escalar y el ángulo entre dos vectores A y B? A) El producto escalar es directamente proporcional al ángulo entre los vectores. B) El producto escalar es inversamente proporcional al ángulo entre los vectores. --C) El producto escalar es igual al producto del módulo de los vectores A y B y el coseno del ángulo entre ellos. D) El producto escalar es igual al producto del módulo de los vectores A y B y el seno del ángulo entre ellos.');
 
-INSERT INTO PreguntasF1 VALUES(243,90,"¿Cuál es la unidad de medida del producto escalar en el sistema internacional?",
-"A) Radianes.",
-"B) Newtons.",
-"C) Metros por segundo.",
-"--D) No tiene unidad, es un valor escalar."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(243,91,"¿Qué valor puede tomar el producto escalar de dos vectores unitarios perpendiculares entre sí?",
-"A) 1.",
-"B) 0.",
-"C) -1.",
-"--D) Puede tomar cualquier valor."
-);
-
-
-INSERT INTO PreguntasF1 VALUES(243,92,"¿Cuál es la relación entre el producto escalar y el ángulo entre dos vectores A y B?",
-"A) El producto escalar es directamente proporcional al ángulo entre los vectores.",
-"B) El producto escalar es inversamente proporcional al ángulo entre los vectores.",
-"--C) El producto escalar es igual al producto del módulo de los vectores A y B y el coseno del ángulo entre ellos.",
-"D) El producto escalar es igual al producto del módulo de los vectores A y B y el seno del ángulo entre ellos."
-);
 
 -- Tabla Respuestas de F1
 CREATE TABLE RespuestasF1(
