@@ -666,59 +666,43 @@ d) Tetraheptacosano');
 INSERT INTO PreguntasQ2 VALUES (381, 279, '¿Con cual de los siguientes compuestos se podrá formar el terbutilo, al eliminar un hidrogeno?
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-19.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 280, 'El nombre correcto del siguiente compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 280, 'El nombre correcto del siguiente compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-20.png?raw=true
 a) 2—etil—4—metil—1-hexeno
 b) 5—etil—2—metil-hexeno
 c) 2,4,dietil—1-penteno
 d) 5—etil—2—metil—5-hexeno');
 
 INSERT INTO PreguntasQ2 VALUES (381, 281, 'La fórmula semidesarrollada del 8-etil-3-metil-4-isopropil-5-decano:
-a)  
-b)  
-c)  
-d)  ');
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-21.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 282, 'El isómero funcional del siguiente compuesto es: 
-a)  
-b)  
-c)  
-d)  ');
+INSERT INTO PreguntasQ2 VALUES (381, 282, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-22.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 283, 'El nombre del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 283, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-23.png?raw=true
 a) 2,3—dimetil,5,propil—6-octino
 b) 4—butil—6—isopropil-heptino
 c) 4-butil-6-isopropil-2-heptino
 d) 4-butil-6,7-dimetil-2-Octino');
 
 INSERT INTO PreguntasQ2 VALUES (381, 284, 'La fórmula semidesarrollada del 3-sectbutil-5etil-1-héptino, es:
-a)  
-b)  
-c)  
-d)  ');
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-24.png?raw=true');
 
 INSERT INTO PreguntasQ2 VALUES (381, 285, 'La formula semidesarrollada del compuesto 2,3,4-trimetil-2-etoxi-hexano es:
-a)  
-b)  
-c)  
-d)  ');
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-25.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 286, 'El nombre sistemático del compuesto es:
+INSERT INTO PreguntasQ2 VALUES (381, 286, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-26.png?raw=true
 a) 3,5—dimetil—3,7—diisopropil—5--nonanol
 b) 3,7—dietil—2,3,5,8—tetrametil—5--nonanol
 c) 3—etil—2,5,7—trimetil—5--nonanol
 d) 3,7—dietil—2,5,7,8—tetrametil—5--nonanol');
 
-INSERT INTO PreguntasQ2 VALUES (381, 287, 'El nombre sistemático del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 287, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-27.png?raw=true
 a) 3—etil—3,5—dimetil--heptanol
 b) 5—etil—5,4—dimetil—hoctanol 
 c) 2—etil—3,4—dimetil--heptanol
 d) 4—etil—2,5—dimetil--hoctanol');
 
 INSERT INTO PreguntasQ2 VALUES (381, 288, 'Cuál es la fórmula semidesarrollada del Etil-isopentil-cetona
-a)  
-b)   
-c)  
-d)  ');
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-28.png?raw=true');
 
 INSERT INTO PreguntasQ2 VALUES (381, 289, 'Cuál es la fórmula semidesarrollada del ácido fórmico
 a) OHCOH
@@ -726,7 +710,7 @@ b) HCOOH
 c) CHOOH
 d) COHHO');
 
-INSERT INTO PreguntasQ2 VALUES (381, 290, 'El nombre sistemático del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 290, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-30.png?raw=true
 a) Acido formico metilico
 b) Metilformiato
 c) Ester metanoico etilico
