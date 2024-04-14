@@ -561,119 +561,110 @@ d) Octaédrica');
 -- Preguntas tercer parcial Quimica 2
 
 -- Tema 1 Ejercicios de nomenclatura y aplicación de compuestos orgánicos
-INSERT INTO PreguntasQ2 VALUES (381, 261, 'El nombre sistemático del compuesto es:
+INSERT INTO PreguntasQ2 VALUES (381, 261, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-1.png?raw=true
 a) 4-etil-2,4,5-trimetil-6—isopropil nonano
 b) 6-etil-4-propil-5,6,8-trimetilnonano 
 c) 4-isopropil-5,6,8-trimetil-t-etilnonano 
 d) 2,4,5-trimetil-6-isopropil-4-etilnonano');
 
-INSERT INTO PreguntasQ2 VALUES (381, 262, 'El nombre sistemático del compuesto es:
+INSERT INTO PreguntasQ2 VALUES (381, 262, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-2.png?raw=true
 a) 5,6,7-trimetil-3-propil-3-isopropil-1-octeno
 b) 6-etil-5,6-dimetil-3-propil-3-isopropil-2-hepteno
 c) 5-metil-3,3,6-triisopropil-1-hepteno
 d) 5-metil-3,3,6-tripropil-1-hepteno');
 
-INSERT INTO PreguntasQ2 VALUES (381, 263, 'El nombre del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 263, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-3.png?raw=true
 a) 3,6,6,7,8 — pentametil — 5 — propil — 7- isopropil nonino
 b) 7 — etil — — pentemetil — 5- propil — 2- decino
 c) 7 — etil — — pentametil — 5- propil — 2- nonino
 d) 1 — hexametil — 5 — propil — 7- isopropil octino');
 
-INSERT INTO PreguntasQ2 VALUES (381, 264, 'El nombre del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 264, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-4.png?raw=true
 a) 1 — metil —4 — etii cicloheptano
 b) 1 — metil — 5 — etil cicloheptano
 c) 1 etil —4 — metil cicloheptano
 d) 1--etil—5--metil cicloheptano');
 
-INSERT INTO PreguntasQ2 VALUES (381, 265, 'El nombre del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 265, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-5.png?raw=true
 a) 3,4 — dimetil ciclopenteno
 b) 3 metil — 4 — etil ciclopenteno
 c) 1,2 — dimetil — 3- ciclcpenteno
 d) 1,2 — dimetil — 4- ciclopenteno');
 
-INSERT INTO PreguntasQ2 VALUES (381, 266, 'El nombre trivial del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 266, 'El nombre trivial del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-6.png?raw=true
 a) Alcohol terpropílico
 b) Alcohol isobutílico
 c) Alchol terbutílico
 d) Alcohol isopropílico');
 
-INSERT INTO PreguntasQ2 VALUES (381, 267, 'El nombre trivial del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 267, 'El nombre trivial del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-7.png?raw=true
 a) Ácido acético
 b) Ácido valerico
 c) Ácido fórmico
 d) Ácido butírico');
 
-INSERT INTO PreguntasQ2 VALUES (381, 268, 'El nombre trivial del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 268, 'El nombre trivial del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-8.png?raw=true
 a) Butiraldehido
 b) Propinoaldehido
 c) Valeraldehido
 d) Acetaldehido');
 
-INSERT INTO PreguntasQ2 VALUES (381, 269, 'La función química del siguiente compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 269, 'La función química del siguiente compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-9.png?raw=true
 a) Ácido carboxilico
 b) COOH
 c) Ester
 d) COO');
 
-INSERT INTO PreguntasQ2 VALUES (381, 270, 'El nombre del compuesto es:
+INSERT INTO PreguntasQ2 VALUES (381, 270, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-10.png?raw=true
 a) 8 -- etil — 2, 3,4 — trimetil — 3 — aminodecano
 b) 6--etil — 2 — (metilisopropilamino)octano
 c) 3 — eti — 7 — (metilsopropilamida)octano
 d) 6 — etil — 2 — amino — 2 — metilisopropiloctano');
 
-INSERT INTO PreguntasQ2 VALUES (381, 271, 'El nombre del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 271, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-11.png?raw=true
 a) 3,3,6--trimetil — 5 — terpentil — heptanona
 b) 2,5,5--trimetil — 3 — terpentilheptanona
 c) 3,3,6—trimetil—5--terpentoxiheptano
 d) 2,5,5—trimetil—3--terpentoxiheptano');
 
 INSERT INTO PreguntasQ2 VALUES (381, 272, 'Cuál es la fórmula semidesarrollada del: 4-metil-2-aminohexano
-a) CH₃CH₂CH₂CH(NH₂)CH₂CH₃
-b) CH₃CH(NH₂)CH₂CH₂CH₂CH₃
-c) CH₃CH₂CH₂CH₂CH(NH₂)CH₃
-d) CH₃CH₂CH(NH₂)CH₂CH₂CH₃');
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-12.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 273, 'El nombre sistemático del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 273, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-13.png?raw=true
 a) 4—etil pentamina
 b) 2—etil pentanoamina
 c) 6,6,2—etil pentanoamina
 d) 4-etil pentanoamina');
 
-INSERT INTO PreguntasQ2 VALUES (381, 274, 'El nombre sistemático del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 274, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-14.png?raw=true
 a) 4—propil pentanato de estaño II
 b) 2—propil pentantato de estaño
 c) 2—propil pentanato de estaño II
 d) 4—propil pentanato de estaño');
 
-INSERT INTO PreguntasQ2 VALUES (381, 275, 'El nombre sistemático del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 275, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-15.png?raw=true
 a) 2,2—dimetil—4—acido heptanico
 b) 4,4—dimetil—2—acido pentanoico
 c) Acido 4,4—dimetil—2—propil pentanoico
 d) Acido 2,2—dimetil—2—propil heptanico');
 
-INSERT INTO PreguntasQ2 VALUES (381, 276, 'El nombre sistemático del compuesto es: 
+INSERT INTO PreguntasQ2 VALUES (381, 276, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-16.png?raw=true
 a) 6—etil—6—metil—8—prupil—8-octil-octanol
 b) 3,6,6,8—etil—4—isopropil-octanol
 c) 4—etil—8—tetrametil—4—propil—octanol 
 d) 3,4,4,8—tetrametil—6—isopropil—tridecanal');
 
 INSERT INTO PreguntasQ2 VALUES (381, 277, '¿Cuál de los siguientes ejemplos corresponde a un hidrocarburo?
-a)  
-b)  
-c)  
-d)  ');
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-17.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 278, '¿Cuál es el nombre del siguiente compuesto? 
+INSERT INTO PreguntasQ2 VALUES (381, 278, '¿Cuál es el nombre del siguiente compuesto? https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-18.png?raw=true
 a) Tetrapentacosano
 b) Heptatetracontano
 c) Pentatetracontano
 d) Tetraheptacosano');
 
 INSERT INTO PreguntasQ2 VALUES (381, 279, '¿Con cual de los siguientes compuestos se podrá formar el terbutilo, al eliminar un hidrogeno?
-a)  
-b)  
-c)  
-d)  ');
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-19.png?raw=true');
 
 INSERT INTO PreguntasQ2 VALUES (381, 280, 'El nombre correcto del siguiente compuesto es: 
 a) 2—etil—4—metil—1-hexeno
