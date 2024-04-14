@@ -741,32 +741,32 @@ d)120°');
 --Preguntas Tercer Parcial Geometría y Trigometría.
 
 --Tema 1 Reslucion de triangulos rectangulos
-INSERT INTO PreguntasGyT VALUES (321,121,'
+INSERT INTO PreguntasGyT VALUES (321,121,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-1-1.png?raw=true
 a)c=12.04, A=44°
 b)c=21.67, A=82°
 c)c=36.2, A=95°
 d)c=37.7, A=14°');
-INSERT INTO PreguntasGyT VALUES (321,122,'
+INSERT INTO PreguntasGyT VALUES (321,122,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-1-2.png?raw=true
 a)a=9.25, c=12.95
 b)a=2.11, c=3.39
 c)a=1.83, c=9.53
 d)a=9.35, c=6.59 ');
-INSERT INTO PreguntasGyT VALUES (321,123,'
+INSERT INTO PreguntasGyT VALUES (321,123,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-1-3.png?raw=true
 a)c=7.92, b=6.43
 b)c=2.93, b=2.56
 c)c=5.23, b=7.24
 d)c=9.62, b=9.35');
-INSERT INTO PreguntasGyT VALUES (321,124,'
+INSERT INTO PreguntasGyT VALUES (321,124,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-1-4.png?raw=true
 a)b=67.93
 b)b=23.46
 c)b=73.73
 d)b=52.55');
-INSERT INTO PreguntasGyT VALUES (321,125,'
+INSERT INTO PreguntasGyT VALUES (321,125,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-1-5.png?raw=true
 a)c=13 b=18.38
 b)c=17 b=12.68
 c)c=12 b=22.59
 d)c=22 b=29.30');
-INSERT INTO PreguntasGyT VALUES (321,126,'
+INSERT INTO PreguntasGyT VALUES (321,126,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-1-6.png?raw=true
 a)a=9.87, c=75.23
 b)a=13.28, c=18.28
 c)a=16.98, C=23.75
@@ -793,52 +793,52 @@ c)12° y 87°
 d)18° t 67°');
 
 --Tema 2 Valor numerico de ecpresiones trigonometricas
-INSERT INTO PreguntasGyT VALUES (322,131,'
+INSERT INTO PreguntasGyT VALUES (322,131,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-1.png?raw=true
 a)3/2
 b)4/7
 c)3/6
 d)9/5');
-INSERT INTO PreguntasGyT VALUES (322,132,'
+INSERT INTO PreguntasGyT VALUES (322,132,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-2.png?raw=true
 a)6
 b)0
 c)3
 d)7');
-INSERT INTO PreguntasGyT VALUES (322,133,'
+INSERT INTO PreguntasGyT VALUES (322,133,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-3.png?raw=true
 a)3
 b)2/5
 c)1/8
 d)9/5');
-INSERT INTO PreguntasGyT VALUES (322,134,'
+INSERT INTO PreguntasGyT VALUES (322,134,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-4.png?raw=true
 a)2
 b)6
 c)8
 d)1');
-INSERT INTO PreguntasGyT VALUES (322,135,'
+INSERT INTO PreguntasGyT VALUES (322,135,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-5.png?raw=true
 a)0.43
 b)3.87
 c)0.75
 d)1.84');
-INSERT INTO PreguntasGyT VALUES (322,136,'
+INSERT INTO PreguntasGyT VALUES (322,136,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-6.png?raw=true
 a)7
 b)2
 c)5
 d)9');
-INSERT INTO PreguntasGyT VALUES (322,137,'
+INSERT INTO PreguntasGyT VALUES (322,137,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-7.png?raw=true
 a)5
 b)13
 c)1
 d)8');
-INSERT INTO PreguntasGyT VALUES (322,138,'
+INSERT INTO PreguntasGyT VALUES (322,138,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-8.png?raw=true
 a)-4
 b)-10
 c)-7
 d)-1');
-INSERT INTO PreguntasGyT VALUES (322,139,'
+INSERT INTO PreguntasGyT VALUES (322,139,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-9.png?raw=true
 a)0
 b)4
 c)12
 d)5');
-INSERT INTO PreguntasGyT VALUES (322,140,'
+INSERT INTO PreguntasGyT VALUES (322,140,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-2-10.png?raw=true
 a)6
 b)2
 c)3
@@ -897,64 +897,64 @@ c)-tan53°
 d)tan53°');
 
 --Tema 4 Identidades trigonometricas
-INSERT INTO PreguntasGyT VALUES (324,151,'');
-INSERT INTO PreguntasGyT VALUES (324,152,'');
-INSERT INTO PreguntasGyT VALUES (324,153,'');
-INSERT INTO PreguntasGyT VALUES (324,154,'');
-INSERT INTO PreguntasGyT VALUES (324,155,'');
-INSERT INTO PreguntasGyT VALUES (324,156,'');
-INSERT INTO PreguntasGyT VALUES (324,157,'');
-INSERT INTO PreguntasGyT VALUES (324,158,'');
-INSERT INTO PreguntasGyT VALUES (324,159,'');
-INSERT INTO PreguntasGyT VALUES (324,160,'');
+INSERT INTO PreguntasGyT VALUES (324,151,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-1.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,152,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-2.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,153,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-3.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,154,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-4.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,155,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-5.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,156,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-6.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,157,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-7.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,158,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-8.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,159,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-9.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (324,160,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20parcial%203/Img-4-10.png?raw=true');
 
 --Tema 5 Ecuaciones trigonometricas
-INSERT INTO PreguntasGyT VALUES (325,161,'senx cos2x = senx
+INSERT INTO PreguntasGyT VALUES (325,161,'Encuentra el valor de x: senx cos2x = senx
 a)0,𝝅rad
 b)1/2𝝅rad,0
 c)no hay solucion
 d)1/2𝝅rad,𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,162,'4 sen2x — 3 = 0
+INSERT INTO PreguntasGyT VALUES (325,162,'Encuentra el valor de x: 4 sen2x — 3 = 0
 a)no hay solucion
 b)1/3𝝅rad,2/3𝝅rad,4/3𝝅rad,5/3𝝅rad
 c)4/3𝝅rad,5/3𝝅rad
 d)1/3𝝅rad,2/3𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,163,'2 sen3x = senx
+INSERT INTO PreguntasGyT VALUES (325,163,'Encuentra el valor de x: 2 sen3x = senx
 a)0,1/4𝝅rad,1/2𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 b)no hay solucion
 c)0,1/4𝝅rad,3/4𝝅rad,𝝅rad,5/4𝝅rad,7/4𝝅rad
 d)1/3𝝅rad,2/3𝝅rad,4/3𝝅rad,5/3𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,164,'cot2x + 2 cotx + 1 = 0
+INSERT INTO PreguntasGyT VALUES (325,164,'Encuentra el valor de x: cot2x + 2 cotx + 1 = 0
 a)0,𝝅rad
 b)3/4𝝅rad,𝝅rad
 c)no hay solucion
 d)3/4𝝅rad, 7/4𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,165,'sec2x = 2 sen2x + tan2x
+INSERT INTO PreguntasGyT VALUES (325,165,'Encuentra el valor de x: sec2x = 2 sen2x + tan2x
 a)1/4𝝅rad,3/4𝝅rad,𝝅rad,5/4𝝅rad,7/4𝝅rad
 b)no hay solucion
 c)0,1/4𝝅rad,1/2𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 d)𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,166,'tan2x — 1 = 0
+INSERT INTO PreguntasGyT VALUES (325,166,'Encuentra el valor de x: tan2x — 1 = 0
 a)no hay solucion
 b)1/4𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 c)𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 d)5/4𝝅rad,7/4𝝅rad,1/2𝝅rad,𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,167,'cos2x — 4cosx + 4 = 0
+INSERT INTO PreguntasGyT VALUES (325,167,'Encuentra el valor de x: cos2x — 4cosx + 4 = 0
 a)1/4𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 b)𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 c)no hay solucion
 d)5/4𝝅rad,7/4𝝅rad,1/2𝝅rad,𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,168,'tanx + secx = 3
+INSERT INTO PreguntasGyT VALUES (325,168,'Encuentra el valor de x: tanx + secx = 3
 a)0.61
 b)no hay solucion
 c)0.23
 d)0.93');
-INSERT INTO PreguntasGyT VALUES (325,169,'tan2x — cos2x = sen2x
+INSERT INTO PreguntasGyT VALUES (325,169,'Encuentra el valor de x: tan2x — cos2x = sen2x
 a)1/4𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 b)5/4𝝅rad,7/4𝝅rad,1/2𝝅rad,𝝅rad
 c)no hay solucion
 d)𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad');
-INSERT INTO PreguntasGyT VALUES (325,170,'2 sen3x — senx = 0
+INSERT INTO PreguntasGyT VALUES (325,170,'Encuentra el valor de x: 2 sen3x — senx = 0
 a)3/4𝝅rad,𝝅rad,5/4𝝅rad,7/4𝝅rad
 b)0,1/4𝝅rad,1/2𝝅rad,3/4𝝅rad,5/4𝝅rad,7/4𝝅rad
 c)no hay solucion
