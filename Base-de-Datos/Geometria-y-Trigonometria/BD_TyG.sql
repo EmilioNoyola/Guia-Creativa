@@ -635,27 +635,27 @@ d)LLL');
 
 
 --Tema 7 Problemas de aplicacion de triangulos
-INSERT INTO PreguntasGyT VALUES (227,101,'
+INSERT INTO PreguntasGyT VALUES (227,101,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-7-1.png?raw=true
 a)14.6m
 b)18.9m
 c)9.4m
 d)5.2m');
-INSERT INTO PreguntasGyT VALUES (227,102,'
+INSERT INTO PreguntasGyT VALUES (227,102,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-7-2.png?raw=true
 a)14.6m
 b)18.9m
 c)9.4m
 d)5.65m');
-INSERT INTO PreguntasGyT VALUES (227,103,'
+INSERT INTO PreguntasGyT VALUES (227,103,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-7-3.png?raw=true
 a)17.82m
 b)15.3m
 c)20.7m
 d)2.3m');
-INSERT INTO PreguntasGyT VALUES (227,104,'
+INSERT INTO PreguntasGyT VALUES (227,104,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-7-4.png?raw=true
 a)23m
 b)11m
 c)9m
 d)16m');
-INSERT INTO PreguntasGyT VALUES (227,105,'
+INSERT INTO PreguntasGyT VALUES (227,105,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-7-5.png?raw=true
 a)9m
 b)6m
 c)14m
@@ -688,52 +688,52 @@ d)16.5m');
 
 
 --Tema 8 Angulos en una circunferencia
-INSERT INTO PreguntasGyT VALUES (228,111,'
+INSERT INTO PreguntasGyT VALUES (228,111,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-1.png?raw=true
 a)21°
 b)80°
 c)40°
 d)36°');
-INSERT INTO PreguntasGyT VALUES (228,112,'
+INSERT INTO PreguntasGyT VALUES (228,112,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-2.png?raw=true
 a)120°
 b)160°
 c)100°
 d)40°');
-INSERT INTO PreguntasGyT VALUES (228,113,'
+INSERT INTO PreguntasGyT VALUES (228,113,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-3.png?raw=true
 a)80°
 b)60°
 c)20°
 d)50°');
-INSERT INTO PreguntasGyT VALUES (228,114,'
+INSERT INTO PreguntasGyT VALUES (228,114,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-4.png?raw=true
 a)22°
 b)87°
 c)31°
 d)40°');
-INSERT INTO PreguntasGyT VALUES (228,115,'
+INSERT INTO PreguntasGyT VALUES (228,115,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-5.png?raw=true
 a)70°
 b)60°
 c)40°
 d)80°');
-INSERT INTO PreguntasGyT VALUES (228,116,'
+INSERT INTO PreguntasGyT VALUES (228,116,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-6.png?raw=true
 a)60°
 b)90°
 c)70°
 d)120°');
-INSERT INTO PreguntasGyT VALUES (228,117,'
+INSERT INTO PreguntasGyT VALUES (228,117,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-7.png?raw=true
 a)25°
 b)100°
 c)55°
 d)35°');
-INSERT INTO PreguntasGyT VALUES (228,118,'
+INSERT INTO PreguntasGyT VALUES (228,118,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-8.png?raw=true
 a)70°
 b)80°
 c)30°
 d)50°');
-INSERT INTO PreguntasGyT VALUES (228,119,'
+INSERT INTO PreguntasGyT VALUES (228,119,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-9.png?raw=true
 a)20°
 b)30°
 c)45°
 d)10°');
-INSERT INTO PreguntasGyT VALUES (228,120,'
+INSERT INTO PreguntasGyT VALUES (228,120,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20parcial%202%20-%20tema%206)/Img-8-10.png?raw=true
 a)20°
 b)170°
 c)40°
