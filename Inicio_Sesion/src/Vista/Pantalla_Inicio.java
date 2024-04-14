@@ -9,13 +9,15 @@ package Vista;
  *
  * @author user
  */
+import java.awt.Color;
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 public class Pantalla_Inicio extends javax.swing.JFrame {
 
-   Pantalla_Registro frmReg;
+   public static Pantalla_Registro frmReg;
+   public static Pantalla_Login frmLog;
     public Pantalla_Inicio() {
         initComponents();
         //maximizar ventana
@@ -38,7 +40,7 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         btnConocenos = new javax.swing.JButton();
         P1_fondo = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
         bg.setBackground(new java.awt.Color(255, 255, 255));
@@ -51,6 +53,7 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnLogin.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnLogin.setPreferredSize(new java.awt.Dimension(262, 49));
+        btnLogin.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Iniciar_sesion_oscuro.png"))); // NOI18N
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
@@ -58,10 +61,20 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         });
         bg.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 50, 261, 48));
 
-        btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Registro.png"))); // NOI18N
+        btnRegistro.setForeground(new java.awt.Color(255, 255, 255));
+        btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton-Registro_1.png"))); // NOI18N
         btnRegistro.setBorder(null);
         btnRegistro.setContentAreaFilled(false);
         btnRegistro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistro.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Registro_Oscuro.png"))); // NOI18N
+        btnRegistro.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnRegistroMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnRegistroMouseExited(evt);
+            }
+        });
         btnRegistro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegistroActionPerformed(evt);
@@ -99,7 +112,11 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
-        //todos
+        
+        if(frmLog == null){
+            frmLog = new Pantalla_Login();
+            frmLog.setVisible(true);
+        }
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
@@ -108,6 +125,14 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         frmReg.setVisible(true);
         
     }//GEN-LAST:event_btnRegistroActionPerformed
+
+    private void btnRegistroMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRegistroMouseEntered
+    
+    }//GEN-LAST:event_btnRegistroMouseEntered
+
+    private void btnRegistroMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRegistroMouseExited
+   
+    }//GEN-LAST:event_btnRegistroMouseExited
 
     /**
      * @param args the command line arguments

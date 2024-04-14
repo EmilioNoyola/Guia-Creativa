@@ -1,15 +1,18 @@
---Hecho por Noyola Gómez Emilio Damian 18/03/2024
+-- Hecho por Noyola Gómez Emilio Damian 18/03/2024
 
---Primer Semestre - Álgebra
+-- Primer Semestre - Álgebra
 
---Temas Primer Parcial Álgebra.
+-- Temas Primer Parcial Álgebra.
+
+USE Guia_Creativa;
+
 INSERT INTO Temas VALUES (110,111,'Operaciones con Fracciones'); 
 INSERT INTO Temas VALUES (110,112,'Razones y Proporciones'); 
 INSERT INTO Temas VALUES (110,113,'Leyes de los Exponentes'); 
 INSERT INTO Temas VALUES (110,114,'Suma y Resta con Polinomios');  
 INSERT INTO Temas VALUES (110,115,'Valor numérico de Expresiones Algebráicas'); 
 
---Temas Segundo Parcial Álgebra.
+-- Temas Segundo Parcial Álgebra.
 INSERT INTO Temas VALUES (210,211,'Multiplicación y División de Polinomios'); 
 INSERT INTO Temas VALUES (210,212,'Productos Notables'); 
 INSERT INTO Temas VALUES (210,213,'Factorización'); 
@@ -19,14 +22,14 @@ INSERT INTO Temas VALUES (210,216,'Problemas sobre ecuaciones lineales');
 INSERT INTO Temas VALUES (210,217,'Sistemas de Ecuaciones Lineales 2x2'); 
 INSERT INTO Temas VALUES (210,218,'Problemas sobre Ecuaciones Lineales 2x2'); 
 
---Temas Tercer Parcial Álgebra.
+-- Temas Tercer Parcial Álgebra.
 INSERT INTO Temas VALUES (310,311,'Sistemas de Ecuaciones Lineales 3x3'); 
 INSERT INTO Temas VALUES (310,312,'Problemas sobre Ecuaciones Lineales 3x3'); 
 INSERT INTO Temas VALUES (310,313,'Ecuaciones Cuadráticas');
 INSERT INTO Temas VALUES (310,314,'Problemas sobre Ecuaciones Cuadráticas'); 
 INSERT INTO Temas VALUES (310,315,'Problemas sobre Funciones Cuadráticas'); 
 
----Creación de Tabla para las Preguntas Álgebra.
+-- Creación de Tabla para las Preguntas Álgebra.
 CREATE TABLE PreguntasA( 
 		ID_Tema INTEGER NOT NULL,
 		ID_PreguntaA INTEGER NOT NULL,
@@ -36,12 +39,12 @@ CREATE TABLE PreguntasA(
 		REFERENCES Temas(ID_Tema)
 		);
 
---Preguntas Primer Parcial Álgebra.
+-- Preguntas Primer Parcial Álgebra.
 
---Tema 1 Operaciones con Fracciones
+-- Tema 1 Operaciones con Fracciones
 INSERT INTO PreguntasA VALUES (111,01,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base%20de%20Datos/%C3%81lgebra/111-01.png?raw=true');
 INSERT INTO PreguntasA VALUES (111,02,'aqui va a ir otra imagen a) b) c)');
-INSERT INTO PreguntasA VALUES (111,03,' a) b) c)');
+INSERT INTO PreguntasA VALUES (111,03,'agrego una imagen a) b) c)');
 INSERT INTO PreguntasA VALUES (111,04,' a) b) c)');
 INSERT INTO PreguntasA VALUES (111,05,' a) b) c)');
 INSERT INTO PreguntasA VALUES (111,06,' a) b) c)');
@@ -50,7 +53,7 @@ INSERT INTO PreguntasA VALUES (111,08,' a) b) c)');
 INSERT INTO PreguntasA VALUES (111,09,' a) b) c)');
 INSERT INTO PreguntasA VALUES (111,10,' a) b) c)');
 
---Tema 2 Razones y Proporciones
+-- Tema 2 Razones y Proporciones
 INSERT INTO PreguntasA VALUES (112,11,' a) b) c)');
 INSERT INTO PreguntasA VALUES (112,12,' a) b) c)');
 INSERT INTO PreguntasA VALUES (112,13,' a) b) c)');
@@ -72,7 +75,7 @@ INSERT INTO PreguntasA VALUES (112,28,' a) b) c)');
 INSERT INTO PreguntasA VALUES (112,29,' a) b) c)');
 INSERT INTO PreguntasA VALUES (112,30,' a) b) c)');
 
---Tema 3 Leyes de los Exponentes
+-- Tema 3 Leyes de los Exponentes
 INSERT INTO PreguntasA VALUES (113,31,' a) b) c)');
 INSERT INTO PreguntasA VALUES (113,32,' a) b) c)');
 INSERT INTO PreguntasA VALUES (113,33,' a) b) c)');
@@ -94,7 +97,7 @@ INSERT INTO PreguntasA VALUES (113,48,' a) b) c)');
 INSERT INTO PreguntasA VALUES (113,49,' a) b) c)');
 INSERT INTO PreguntasA VALUES (113,50,' a) b) c)');
 
---Tema 4 Suma y Resta de Polinomios
+-- Tema 4 Suma y Resta de Polinomios
 INSERT INTO PreguntasA VALUES (114,51,' a) b) c)');
 INSERT INTO PreguntasA VALUES (114,52,' a) b) c)');
 INSERT INTO PreguntasA VALUES (114,53,' a) b) c)');
@@ -106,7 +109,7 @@ INSERT INTO PreguntasA VALUES (114,58,' a) b) c)');
 INSERT INTO PreguntasA VALUES (114,59,' a) b) c)');
 INSERT INTO PreguntasA VALUES (114,60,' a) b) c)');
 
---Tema 5 Valor numérico de Expresiones Algebráicas
+-- Tema 5 Valor numérico de Expresiones Algebráicas
 INSERT INTO PreguntasA VALUES (115,61,' a) b) c)');
 INSERT INTO PreguntasA VALUES (115,62,' a) b) c)');
 INSERT INTO PreguntasA VALUES (115,63,' a) b) c)');
@@ -119,9 +122,9 @@ INSERT INTO PreguntasA VALUES (115,69,' a) b) c)');
 INSERT INTO PreguntasA VALUES (115,70,' a) b) c)');
 
 
---Preguntas Segundo Parcial Álgebra.
+-- Preguntas Segundo Parcial Álgebra.
 
---Tema 1 Multiplicación y División de Polinomios
+-- Tema 1 Multiplicación y División de Polinomios
 INSERT INTO PreguntasA VALUES (211,71,' a) b) c)');
 INSERT INTO PreguntasA VALUES (211,72,' a) b) c)');
 INSERT INTO PreguntasA VALUES (211,73,' a) b) c)');
@@ -133,7 +136,7 @@ INSERT INTO PreguntasA VALUES (211,78,' a) b) c)');
 INSERT INTO PreguntasA VALUES (211,79,' a) b) c)');
 INSERT INTO PreguntasA VALUES (211,80,' a) b) c)');
 
---Tema 2 Productos Notables
+-- Tema 2 Productos Notables
 INSERT INTO PreguntasA VALUES (212,81,' a) b) c)');
 INSERT INTO PreguntasA VALUES (212,82,' a) b) c)');
 INSERT INTO PreguntasA VALUES (212,83,' a) b) c)');
@@ -145,7 +148,7 @@ INSERT INTO PreguntasA VALUES (212,88,' a) b) c)');
 INSERT INTO PreguntasA VALUES (212,89,' a) b) c)');
 INSERT INTO PreguntasA VALUES (212,90,' a) b) c)');
 
---Tema 3 Factorización
+-- Tema 3 Factorización
 INSERT INTO PreguntasA VALUES (213,91,' a) b) c)');
 INSERT INTO PreguntasA VALUES (213,92,' a) b) c)');
 INSERT INTO PreguntasA VALUES (213,93,' a) b) c)');
@@ -167,7 +170,7 @@ INSERT INTO PreguntasA VALUES (213,108,' a) b) c)');
 INSERT INTO PreguntasA VALUES (213,109,' a) b) c)');
 INSERT INTO PreguntasA VALUES (213,110,' a) b) c)');
 
---Tema 4 Despejes
+-- Tema 4 Despejes
 INSERT INTO PreguntasA VALUES (214,111,' a) b) c)');
 INSERT INTO PreguntasA VALUES (214,112,' a) b) c)');
 INSERT INTO PreguntasA VALUES (214,113,' a) b) c)');
@@ -179,7 +182,7 @@ INSERT INTO PreguntasA VALUES (214,118,' a) b) c)');
 INSERT INTO PreguntasA VALUES (214,119,' a) b) c)');
 INSERT INTO PreguntasA VALUES (214,120,' a) b) c)');
 
---Tema 5 Ecuaciones Lineales
+-- Tema 5 Ecuaciones Lineales
 INSERT INTO PreguntasA VALUES (215,121,' a) b) c)');
 INSERT INTO PreguntasA VALUES (215,122,' a) b) c)');
 INSERT INTO PreguntasA VALUES (215,123,' a) b) c)');
@@ -191,7 +194,7 @@ INSERT INTO PreguntasA VALUES (215,128,' a) b) c)');
 INSERT INTO PreguntasA VALUES (215,129,' a) b) c)');
 INSERT INTO PreguntasA VALUES (215,130,' a) b) c)');
 
---Tema 6 Problemas sobre Ecuaciones Lineales
+-- Tema 6 Problemas sobre Ecuaciones Lineales
 INSERT INTO PreguntasA VALUES (216,131,' a) b) c)');
 INSERT INTO PreguntasA VALUES (216,132,' a) b) c)');
 INSERT INTO PreguntasA VALUES (216,133,' a) b) c)');
@@ -203,7 +206,7 @@ INSERT INTO PreguntasA VALUES (216,138,' a) b) c)');
 INSERT INTO PreguntasA VALUES (216,139,' a) b) c)');
 INSERT INTO PreguntasA VALUES (216,140,' a) b) c)');
 
---Tema 7 Sistemas de Ecuaciones Lineales 2x2
+-- Tema 7 Sistemas de Ecuaciones Lineales 2x2
 INSERT INTO PreguntasA VALUES (217,141,' a) b) c)');
 INSERT INTO PreguntasA VALUES (217,142,' a) b) c)');
 INSERT INTO PreguntasA VALUES (217,143,' a) b) c)');
@@ -215,7 +218,7 @@ INSERT INTO PreguntasA VALUES (217,148,' a) b) c)');
 INSERT INTO PreguntasA VALUES (217,149,' a) b) c)');
 INSERT INTO PreguntasA VALUES (217,150,' a) b) c)');
 
---Tema 8 Problemas sobre Sistemas de Ecuaciones Lineales 2x2
+-- Tema 8 Problemas sobre Sistemas de Ecuaciones Lineales 2x2
 INSERT INTO PreguntasA VALUES (218,151,' a) b) c)');
 INSERT INTO PreguntasA VALUES (218,152,' a) b) c)');
 INSERT INTO PreguntasA VALUES (218,153,' a) b) c)');
@@ -227,9 +230,9 @@ INSERT INTO PreguntasA VALUES (218,158,' a) b) c)');
 INSERT INTO PreguntasA VALUES (218,159,' a) b) c)');
 INSERT INTO PreguntasA VALUES (218,160,' a) b) c)');
 
---Preguntas Tercer Parcial Álgebra.
+-- Preguntas Tercer Parcial Álgebra.
 
---Tema 1 Sistemas de Ecuaciones Lineales 3x3
+-- Tema 1 Sistemas de Ecuaciones Lineales 3x3
 INSERT INTO PreguntasA VALUES (311,161,'Resuelve el siguiente sistema de ecuaciones por el método de determinantes:  a) b) c)');
 INSERT INTO PreguntasA VALUES (311,162,'Resuelve el siguiente sistema de ecuaciones por el método de determinantes:  a) b) c)');
 INSERT INTO PreguntasA VALUES (311,163,'Resuelve el siguiente sistema de ecuaciones por el método de determinantes:  a) b) c)');
@@ -241,7 +244,7 @@ INSERT INTO PreguntasA VALUES (311,168,'Resuelve el siguiente sistema de ecuacio
 INSERT INTO PreguntasA VALUES (311,169,'Resuelve el siguiente sistema de ecuaciones por el método de determinantes:  a) b) c)');
 INSERT INTO PreguntasA VALUES (311,170,'Resuelve el siguiente sistema de ecuaciones por el método de determinantes:  a) b) c)');
 
---Tema 2 Problemas sobre Ecuaciones Lineales 3x3
+-- Tema 2 Problemas sobre Ecuaciones Lineales 3x3
 INSERT INTO PreguntasA VALUES (312,171,'La suma de los tres ángulos de un triángulo es 180°. La suma del mayor y el mediano es 135°. La suma del mediano y el menor es 110°. Hallar los ángulos. a)70°, 65° y 45° b)70°, 60° y 45° c)65°, 45° y 75°');
 INSERT INTO PreguntasA VALUES (312,172,'La suma de los tres ángulos de un triángulo es 180°. El mayor excede al menor en 35° y el menor excede en 20° a la diferencia entre el mayor y el mediano. Hallar los ángulos. a)45°, 75° y 55° b)45°, 50° y 80° c)80°, 55° y 45°');
 INSERT INTO PreguntasA VALUES (312,173,'Un ganadero tiene 110 animales entre vacas, caballos y terneros. 1/8 del número de vacas más 1/9 del número de caballos más 1/5 del número de terneros es 15. La suma del número de terneros con el de vacas es 65. ¿Cuántos animales de cada clase tiene? a)25 vacas, 45 caballos, 40 terneros b)40 vacas, 45 caballos, 25 terneros c) 45 vacas, 40 caballos, 25 terneros');
@@ -253,7 +256,7 @@ INSERT INTO PreguntasA VALUES (312,178,'Hallar tres números tales que la suma d
 INSERT INTO PreguntasA VALUES (312,179,'El ángulo más pequeño de un triángulo mide la tercera parte del ángulo más grande, y el ángulo de tamaño medio es 30° menor que el ángulo más grande. Encontrar la medida de los ángulos. a)3/2, 1/2 y 2/3 b)1/3, 1/2 y 4/3 c)2/3, 1/2 y 1/3');
 INSERT INTO PreguntasA VALUES (312,180,'En el auditorio de la escuela se realizó un concierto navideño. Al concierto asistieron 357 personas entre padres, alumnos y maestros; por cada 16 alumnos había 3 maestros, y por cada 5 maestros había 8 padres de familia. ¿Cuál fue la cantidad de padres de familia, alumnos y maestros que asistieron al concierto? a)Padres de familia: 72, alumnos: 240, maestros: 45 b)Padres de familia: 240, alumnos: 72, maestros: 45 c)Padres de familia: 72, alumnos: 45, maestros: 240');
 
---Tema 3 Ecuaciones Cuadráticas
+-- Tema 3 Ecuaciones Cuadráticas
 INSERT INTO PreguntasA VALUES (313,181,'Resuelve la siguiente ecuación por el método de completar trinomio cuadrado perfecto:  a) b) c)');
 INSERT INTO PreguntasA VALUES (313,182,'Resuelve la siguiente ecuación por el método de factorización: a) b) c)');
 INSERT INTO PreguntasA VALUES (313,183,'Resuelve la siguiente ecuación por el método de completar trinomio cuadrado perfecto:  a) b) c)');
@@ -276,7 +279,7 @@ INSERT INTO PreguntasA VALUES (313,198,'Resuelve la siguiente ecuación por el m
 INSERT INTO PreguntasA VALUES (313,199,'Resuelve la siguiente ecuación por el método de completar trinomio cuadrado perfecto: a) b) c)');
 INSERT INTO PreguntasA VALUES (313,200,'Resuelve la siguiente ecuación por el método de factorización:  a) b) c)');
 
---Tema 4 Problemas sobre Ecuaciones Cuadráticas
+-- Tema 4 Problemas sobre Ecuaciones Cuadráticas
 INSERT INTO PreguntasA VALUES (314,201,'La edad de un niño hace 6 años era la raíz cuadrada de la edad que tendrá dentro de 6 años. ¿Cuál es la edad actual del niño? a)10 b)5 c)15');
 INSERT INTO PreguntasA VALUES (314,202,'A es dos años mayor que B y la suma de los cuadrados de ambas edades es 130 años. Hallar ambas edades. a)A tiene 8 años; B tiene 9 años b)A tiene 7 años; B tiene 9 años c)A tiene 9 años; B tiene 7 años ');
 INSERT INTO PreguntasA VALUES (314,203,'El largo de una sala rectangular excede a su ancho en 4m. Si cada dimensión se aumentara 4m, su área sería el doble. Hallar las dimensiones originales de la sala. a)11 y 8 metros b)8 y 12 metros c)12 y 11 metros');
@@ -288,7 +291,7 @@ INSERT INTO PreguntasA VALUES (314,208,'Encontrar tres números enteros consecut
 INSERT INTO PreguntasA VALUES (314,209,'Un número natural es el triple de otro y la diferencia de sus cuadrados es 1800. Hallar los números a)10 y 30 b)20 y 60 c)15 y 45');
 INSERT INTO PreguntasA VALUES (314,210,'Un número natural es 3/5 de otro y el producto entre ellos es 2160. Hallar los números. a)36 y 60 b)34 y 63 c)33 y 64');
 
---Tema 5 Problemas sobre Funciones Cuadráticas
+-- Tema 5 Problemas sobre Funciones Cuadráticas
 INSERT INTO PreguntasA VALUES (315,211,' a) b) c)');
 INSERT INTO PreguntasA VALUES (315,212,' a) b) c)');
 INSERT INTO PreguntasA VALUES (315,213,' a) b) c)');
@@ -300,7 +303,7 @@ INSERT INTO PreguntasA VALUES (315,218,' a) b) c)');
 INSERT INTO PreguntasA VALUES (315,219,' a) b) c)');
 INSERT INTO PreguntasA VALUES (315,220,' a) b) c)');
 
---Creación de Tabla para las Preguntas Álgebra
+-- Creación de Tabla para las Preguntas Álgebra
 CREATE TABLE RespuestasA(
 		ID_PreguntaA INTEGER NOT NULL,
 		ID_RespuestaA INTEGER NOT NULL,
@@ -310,9 +313,9 @@ CREATE TABLE RespuestasA(
 		REFERENCES PreguntasA(ID_PreguntaA)
 		);		
 
---Respuestas Primer Parcial Álgebra
+-- Respuestas Primer Parcial Álgebra
 
---Tema 1 Operaciones con Fracciones
+-- Tema 1 Operaciones con Fracciones
 INSERT INTO RespuestasA VALUES (01,010,'a');
 INSERT INTO RespuestasA VALUES (02,020,'C');
 INSERT INTO RespuestasA VALUES (03,030,'b');
@@ -324,7 +327,7 @@ INSERT INTO RespuestasA VALUES (08,080,'a');
 INSERT INTO RespuestasA VALUES (09,090,'c');
 INSERT INTO RespuestasA VALUES (10,100,'a');
 
---Tema 2 Razones y Proporciones
+-- Tema 2 Razones y Proporciones
 INSERT INTO RespuestasA VALUES (11,110,'a');
 INSERT INTO RespuestasA VALUES (12,120,'C');
 INSERT INTO RespuestasA VALUES (13,130,'b');
@@ -346,7 +349,7 @@ INSERT INTO RespuestasA VALUES (28,280,'a');
 INSERT INTO RespuestasA VALUES (29,290,'c');
 INSERT INTO RespuestasA VALUES (30,300,'a');
 
---Tema 3 Leyes de los Exponentes
+-- Tema 3 Leyes de los Exponentes
 INSERT INTO RespuestasA VALUES (31,310,'a');
 INSERT INTO RespuestasA VALUES (32,320,'C');
 INSERT INTO RespuestasA VALUES (33,330,'b');
@@ -368,7 +371,7 @@ INSERT INTO RespuestasA VALUES (48,480,'a');
 INSERT INTO RespuestasA VALUES (49,490,'c');
 INSERT INTO RespuestasA VALUES (50,500,'a');
 
---Tema 4 Suma y Resta con Polinomios
+-- Tema 4 Suma y Resta con Polinomios
 INSERT INTO RespuestasA VALUES (51,510,'a');
 INSERT INTO RespuestasA VALUES (52,520,'C');
 INSERT INTO RespuestasA VALUES (53,530,'b');
@@ -380,7 +383,7 @@ INSERT INTO RespuestasA VALUES (58,580,'a');
 INSERT INTO RespuestasA VALUES (59,590,'c');
 INSERT INTO RespuestasA VALUES (60,600,'a');
 
---Tema 5 Valor numérico de Expresiones Algebráicas
+-- Tema 5 Valor numérico de Expresiones Algebráicas
 INSERT INTO RespuestasA VALUES (61,610,'a');
 INSERT INTO RespuestasA VALUES (62,620,'C');
 INSERT INTO RespuestasA VALUES (63,630,'b');
@@ -392,9 +395,9 @@ INSERT INTO RespuestasA VALUES (68,680,'a');
 INSERT INTO RespuestasA VALUES (69,690,'c');
 INSERT INTO RespuestasA VALUES (70,700,'a');
 
---Respuestas Segundo Parcial Álgebra
+-- Respuestas Segundo Parcial Álgebra
 
---Tema 1 Multiplicación y División de Polinomios
+-- Tema 1 Multiplicación y División de Polinomios
 INSERT INTO RespuestasA VALUES (71,710,'a');
 INSERT INTO RespuestasA VALUES (72,720,'C');
 INSERT INTO RespuestasA VALUES (73,730,'b');
@@ -406,7 +409,7 @@ INSERT INTO RespuestasA VALUES (78,780,'a');
 INSERT INTO RespuestasA VALUES (79,790,'c');
 INSERT INTO RespuestasA VALUES (80,800,'a');
 
---Tema 2 Productos Notables
+-- Tema 2 Productos Notables
 INSERT INTO RespuestasA VALUES (81,810,'a');
 INSERT INTO RespuestasA VALUES (82,820,'C');
 INSERT INTO RespuestasA VALUES (83,830,'b');
@@ -418,7 +421,7 @@ INSERT INTO RespuestasA VALUES (88,880,'a');
 INSERT INTO RespuestasA VALUES (89,890,'c');
 INSERT INTO RespuestasA VALUES (90,900,'a');
 
---Tema 3 Factorización
+-- Tema 3 Factorización
 INSERT INTO RespuestasA VALUES (91,910,'a');
 INSERT INTO RespuestasA VALUES (92,920,'C');
 INSERT INTO RespuestasA VALUES (93,930,'b');
@@ -440,7 +443,7 @@ INSERT INTO RespuestasA VALUES (108,1080,'a');
 INSERT INTO RespuestasA VALUES (109,1090,'c');
 INSERT INTO RespuestasA VALUES (110,1100,'a');
 
---Tema 4 Despejes
+-- Tema 4 Despejes
 INSERT INTO RespuestasA VALUES (111,1110,'a');
 INSERT INTO RespuestasA VALUES (112,1120,'C');
 INSERT INTO RespuestasA VALUES (113,1130,'b');
@@ -452,7 +455,7 @@ INSERT INTO RespuestasA VALUES (118,1180,'a');
 INSERT INTO RespuestasA VALUES (119,1190,'c');
 INSERT INTO RespuestasA VALUES (120,1200,'a');
 
---Tema 5 Ecuaciones Lineales
+-- Tema 5 Ecuaciones Lineales
 INSERT INTO RespuestasA VALUES (121,1210,'a');
 INSERT INTO RespuestasA VALUES (122,1220,'C');
 INSERT INTO RespuestasA VALUES (123,1230,'b');
@@ -464,7 +467,7 @@ INSERT INTO RespuestasA VALUES (128,1280,'a');
 INSERT INTO RespuestasA VALUES (129,1290,'c');
 INSERT INTO RespuestasA VALUES (130,1300,'a');
 
---Tema 6 Problemas sobre Ecuaciones Lineales
+-- Tema 6 Problemas sobre Ecuaciones Lineales
 INSERT INTO RespuestasA VALUES (131,1310,'a');
 INSERT INTO RespuestasA VALUES (132,1320,'C');
 INSERT INTO RespuestasA VALUES (133,1330,'b');
@@ -476,7 +479,7 @@ INSERT INTO RespuestasA VALUES (138,1380,'a');
 INSERT INTO RespuestasA VALUES (139,1390,'c');
 INSERT INTO RespuestasA VALUES (140,1400,'a');
 
---Tema 7 Sistemas de Ecuaciones Lineales 2x2
+-- Tema 7 Sistemas de Ecuaciones Lineales 2x2
 INSERT INTO RespuestasA VALUES (141,1410,'a');
 INSERT INTO RespuestasA VALUES (142,1420,'C');
 INSERT INTO RespuestasA VALUES (143,1430,'b');
@@ -488,7 +491,7 @@ INSERT INTO RespuestasA VALUES (148,1480,'a');
 INSERT INTO RespuestasA VALUES (149,1490,'c');
 INSERT INTO RespuestasA VALUES (150,1500,'a');
 
---Tema 8 Problemas sobre Ecuaciones Lineales 2x2
+-- Tema 8 Problemas sobre Ecuaciones Lineales 2x2
 INSERT INTO RespuestasA VALUES (151,1510,'a');
 INSERT INTO RespuestasA VALUES (152,1520,'C');
 INSERT INTO RespuestasA VALUES (153,1530,'b');
@@ -500,9 +503,9 @@ INSERT INTO RespuestasA VALUES (158,1580,'a');
 INSERT INTO RespuestasA VALUES (159,1590,'c');
 INSERT INTO RespuestasA VALUES (160,1600,'a');
 
---Respuestas Tercer Parcial Álgebra
+-- Respuestas Tercer Parcial Álgebra
 
---Tema 1 Sistemas de Ecuaciones Lineales 3x3
+-- Tema 1 Sistemas de Ecuaciones Lineales 3x3
 INSERT INTO RespuestasA VALUES (161,1610,'a');
 INSERT INTO RespuestasA VALUES (162,1620,'C');
 INSERT INTO RespuestasA VALUES (163,1630,'b');
@@ -514,7 +517,7 @@ INSERT INTO RespuestasA VALUES (168,1680,'a');
 INSERT INTO RespuestasA VALUES (169,1690,'c');
 INSERT INTO RespuestasA VALUES (170,1700,'a');
 
---Tema 2 Problemas sobre Sistemas de Ecuaciones Lineales 3x3
+-- Tema 2 Problemas sobre Sistemas de Ecuaciones Lineales 3x3
 INSERT INTO RespuestasA VALUES (171,1710,'a');
 INSERT INTO RespuestasA VALUES (172,1720,'C');
 INSERT INTO RespuestasA VALUES (173,1730,'b');
@@ -526,7 +529,7 @@ INSERT INTO RespuestasA VALUES (178,1780,'a');
 INSERT INTO RespuestasA VALUES (179,1790,'c');
 INSERT INTO RespuestasA VALUES (180,1800,'a');
 
---Tema 3 Ecuaciones Cuadráticas
+-- Tema 3 Ecuaciones Cuadráticas
 INSERT INTO RespuestasA VALUES (181,1810,'a');
 INSERT INTO RespuestasA VALUES (182,1820,'C');
 INSERT INTO RespuestasA VALUES (183,1830,'b');
@@ -549,7 +552,7 @@ INSERT INTO RespuestasA VALUES (198,1980,'a');
 INSERT INTO RespuestasA VALUES (199,1990,'c');
 INSERT INTO RespuestasA VALUES (200,2000,'a');
 
---Tema 4 Problemas sobre Ecuaciones Cuadráticas
+-- Tema 4 Problemas sobre Ecuaciones Cuadráticas
 INSERT INTO RespuestasA VALUES (201,2010,'a');
 INSERT INTO RespuestasA VALUES (202,2020,'C');
 INSERT INTO RespuestasA VALUES (203,2030,'b');
@@ -561,7 +564,7 @@ INSERT INTO RespuestasA VALUES (208,2080,'a');
 INSERT INTO RespuestasA VALUES (209,2090,'c');
 INSERT INTO RespuestasA VALUES (210,2100,'a');
 
---Tema 5 Problemas sobre Funciones Cuadráticas
+-- Tema 5 Problemas sobre Funciones Cuadráticas
 INSERT INTO RespuestasA VALUES (211,2110,'a');
 INSERT INTO RespuestasA VALUES (212,2120,'C');
 INSERT INTO RespuestasA VALUES (213,2130,'b');
