@@ -672,47 +672,113 @@ c)R1=213.678x10^6m  R2=1.8172x10^11m');
 
 --Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
 
-INSERT INTO PreguntasF2 VALUES (272,151,'¿Cuál es la unidad SI del trabajo? a) Newton b) Julio c) Vatio');
-INSERT INTO PreguntasF2 VALUES (272,152,'¿Cómo se define el trabajo en física? a) La cantidad de energía almacenada en un objeto. b) La cantidad de fuerza aplicada a un objeto. c) La transferencia de energía que ocurre cuando una fuerza actúa sobre un objeto y lo desplaza en la dirección de la fuerza.');
-INSERT INTO PreguntasF2 VALUES (272,153,'¿Cuál es la fórmula para calcular el trabajo realizado por una fuerza constante? a)W=F*d b)W=F+d c)W=F/d');
-INSERT INTO PreguntasF2 VALUES (272,154,'¿Qué magnitud física se mide en metros en la fórmula del trabajo? a) Masa b) Fuerza c) Distancia');
-INSERT INTO PreguntasF2 VALUES (272,155,'Si una fuerza se aplica en la misma dirección que el desplazamiento de un objeto, ¿cuál es el trabajo realizado? a) Positivo  b) Negativo c) Cero');
-INSERT INTO PreguntasF2 VALUES (272,156,'¿Qué indica un trabajo negativo en el contexto de la fuerza aplicada y el desplazamiento? a) La fuerza y el desplazamiento están en la misma dirección. b) La fuerza y el desplazamiento están en direcciones opuestas. c) El objeto está en reposo.');
-INSERT INTO PreguntasF2 VALUES (272,157,'¿Cuál es la relación entre la fuerza aplicada y el ángulo entre la fuerza y el desplazamiento en la fórmula del trabajo? a) La fuerza y el desplazamiento son perpendiculares entre sí. b) La fuerza y el desplazamiento están en la misma dirección. c) La fuerza y el desplazamiento forman un ángulo θ.');
-INSERT INTO PreguntasF2 VALUES (272,158,'¿Qué sucede con el trabajo total realizado por varias fuerzas sobre un objeto? a) Se suman algebraicamente. b) Se restan algebraicamente. c) Se multiplican.');
-INSERT INTO PreguntasF2 VALUES (272,159,'¿Cómo se relaciona el trabajo y la energía en física? a) El trabajo es una forma de energía. b) La energía es una forma de trabajo. c) No hay relación entre trabajo y energía.');
-INSERT INTO PreguntasF2 VALUES (272,160,'¿Qué tipo de energía se adquiere cuando se realiza trabajo sobre un objeto en movimiento? a) Energía cinética b) Energía potencial c) Energía térmica');
-INSERT INTO PreguntasF2 VALUES (272,161,'¿Cómo se calcula el trabajo neto realizado sobre un objeto? a) Sumando todas las fuerzas aplicadas. b) Sumando los trabajos individuales realizados por cada fuerza. c) Restando los trabajos individuales realizados por cada fuerza.');
-INSERT INTO PreguntasF2 VALUES (272,162,'¿Qué tipo de trabajo se realiza cuando se levanta un objeto verticalmente? a) Trabajo positivo b) Trabajo negativo c) Trabajo cero');
-INSERT INTO PreguntasF2 VALUES (272,163'¿Cuál es la magnitud del trabajo realizado si una fuerza de 50 N se aplica a lo largo de una distancia de 10 m? a) 500 N b) 50 J c) 500 J');
-INSERT INTO PreguntasF2 VALUES (272,164,'¿Qué sucede con el trabajo si el ángulo entre la fuerza aplicada y el desplazamiento es de 90 grados? a) El trabajo es máximo. b) El trabajo es mínimo. c) El trabajo es cero.');
-INSERT INTO PreguntasF2 VALUES (272,165,'¿Cuál es la relación entre el trabajo y la velocidad de un objeto? a) Directamente proporcional b) Inversamente proporcional c) No hay relación');
-INSERT INTO PreguntasF2 VALUES (272,166,'¿Qué indica un trabajo nulo realizado por una fuerza sobre un objeto? a) La fuerza aplicada es cero. b) El objeto no se desplaza. c) El objeto se mueve en la dirección opuesta.');
-INSERT INTO PreguntasF2 VALUES (272,167,'¿Cuál es la expresión matemática para calcular el trabajo si se conoce la magnitud de la fuerza, el ángulo entre la fuerza y el desplazamiento, y la distancia? a)W=F*d  b)W=F×d×cos(θ)  c)W=F/d');
-INSERT INTO PreguntasF2 VALUES (272,168,'¿Qué tipo de energía potencial se asocia con la altura de un objeto en el campo gravitatorio de la Tierra? a) Energía cinética  b) Energía elástica  c) Energía gravitacional');
-INSERT INTO PreguntasF2 VALUES (272,169,'¿Qué indica un trabajo negativo en el contexto de un objeto que se mueve en la dirección opuesta a la fuerza aplicada? a) La fuerza aplicada es nula. b) La dirección del movimiento es la misma que la dirección de la fuerza. c) La dirección del movimiento es opuesta a la dirección de la fuerza.');
+INSERT INTO PreguntasF2 VALUES (272,151,'¿Cuál es la unidad SI del trabajo?
+a) Newton
+b) Julio 
+c) Vatio');
+INSERT INTO PreguntasF2 VALUES (272,152,'¿Cómo se define el trabajo en física? 
+a) La cantidad de energía almacenada en un objeto. 
+b) La cantidad de fuerza aplicada a un objeto. 
+c) La transferencia de energía que ocurre cuando una fuerza actúa sobre un objeto y lo desplaza en la dirección de la fuerza.');
+INSERT INTO PreguntasF2 VALUES (272,153,'¿Cuál es la fórmula para calcular el trabajo realizado por una fuerza constante? 
+a)W=F*d 
+b)W=F+d 
+c)W=F/d');
+INSERT INTO PreguntasF2 VALUES (272,154,'¿Qué magnitud física se mide en metros en la fórmula del trabajo? 
+a) Masa 
+b) Fuerza 
+c) Distancia');
+INSERT INTO PreguntasF2 VALUES (272,155,'Si una fuerza se aplica en la misma dirección que el desplazamiento de un objeto, ¿cuál es el trabajo realizado? 
+a) Positivo  
+b) Negativo 
+c) Cero');
+INSERT INTO PreguntasF2 VALUES (272,156,'¿Qué indica un trabajo negativo en el contexto de la fuerza aplicada y el desplazamiento? 
+a) La fuerza y el desplazamiento están en la misma dirección. 
+b) La fuerza y el desplazamiento están en direcciones opuestas. 
+c) El objeto está en reposo.');
+INSERT INTO PreguntasF2 VALUES (272,157,'¿Cuál es la relación entre la fuerza aplicada y el ángulo entre la fuerza y el desplazamiento en la fórmula del trabajo? 
+a) La fuerza y el desplazamiento son perpendiculares entre sí. 
+b) La fuerza y el desplazamiento están en la misma dirección. 
+c) La fuerza y el desplazamiento forman un ángulo θ.');
+INSERT INTO PreguntasF2 VALUES (272,158,'¿Qué sucede con el trabajo total realizado por varias fuerzas sobre un objeto? 
+a) Se suman algebraicamente. 
+b) Se restan algebraicamente. 
+c) Se multiplican.');
+INSERT INTO PreguntasF2 VALUES (272,159,'¿Cómo se relaciona el trabajo y la energía en física? 
+a) El trabajo es una forma de energía. 
+b) La energía es una forma de trabajo. 
+c) No hay relación entre trabajo y energía.');
+INSERT INTO PreguntasF2 VALUES (272,160,'¿Qué tipo de energía se adquiere cuando se realiza trabajo sobre un objeto en movimiento? 
+a) Energía cinética 
+b) Energía potencial 
+c) Energía térmica');
+INSERT INTO PreguntasF2 VALUES (272,161,'¿Cómo se calcula el trabajo neto realizado sobre un objeto? 
+a) Sumando todas las fuerzas aplicadas. 
+b) Sumando los trabajos individuales realizados por cada fuerza. 
+c) Restando los trabajos individuales realizados por cada fuerza.');
+INSERT INTO PreguntasF2 VALUES (272,162,'¿Qué tipo de trabajo se realiza cuando se levanta un objeto verticalmente? 
+a) Trabajo positivo 
+b) Trabajo negativo 
+c) Trabajo cero');
+INSERT INTO PreguntasF2 VALUES (272,163'¿Cuál es la magnitud del trabajo realizado si una fuerza de 50 N se aplica a lo largo de una distancia de 10 m? 
+a) 500 N 
+b) 50 J 
+c) 500 J');
+INSERT INTO PreguntasF2 VALUES (272,164,'¿Qué sucede con el trabajo si el ángulo entre la fuerza aplicada y el desplazamiento es de 90 grados? 
+a) El trabajo es máximo. 
+b) El trabajo es mínimo. 
+c) El trabajo es cero.');
+INSERT INTO PreguntasF2 VALUES (272,165,'¿Cuál es la relación entre el trabajo y la velocidad de un objeto? 
+a) Directamente proporcional 
+b) Inversamente proporcional 
+c) No hay relación');
+INSERT INTO PreguntasF2 VALUES (272,166,'¿Qué indica un trabajo nulo realizado por una fuerza sobre un objeto? 
+a) La fuerza aplicada es cero. 
+b) El objeto no se desplaza. 
+c) El objeto se mueve en la dirección opuesta.');
+INSERT INTO PreguntasF2 VALUES (272,167,'¿Cuál es la expresión matemática para calcular el trabajo si se conoce la magnitud de la fuerza, el ángulo entre la fuerza y el desplazamiento, y la distancia? 
+a)W=F*d  
+b)W=F×d×cos(θ)  
+c)W=F/d');
+INSERT INTO PreguntasF2 VALUES (272,168,'¿Qué tipo de energía potencial se asocia con la altura de un objeto en el campo gravitatorio de la Tierra? 
+a) Energía cinética  
+b) Energía elástica  
+c) Energía gravitacional');
+INSERT INTO PreguntasF2 VALUES (272,169,'¿Qué indica un trabajo negativo en el contexto de un objeto que se mueve en la dirección opuesta a la fuerza aplicada? 
+a) La fuerza aplicada es nula. 
+b) La dirección del movimiento es la misma que la dirección de la fuerza. 
+c) La dirección del movimiento es opuesta a la dirección de la fuerza.');
 --faltan incisos
 INSERT INTO PreguntasF2 VALUES (272,170,'Un bloque de 2.50 kg de masa se empuja 2.20 m a lo largo de una mesa horizontal sin fricción por una fuerza constante de 16.0 N dirigida 25.0° debajo de la horizontal.Determine el trabajo realizado sobre el bloque por a) la fuerza aplicada, b) la fuerza normal que ejerce la mesa y c) la fuerza gravitacional. d) Determine el trabajo neto invertido en el bloque.
-a)             b)              c)          ');
+a) a.32J b.31.26N c.0 d.32J.....            b)a.45J b.81.14N c.1 d.46J               c) a.8J b.31.26N c.0 d.16J ');
 INSERT INTO PreguntasF2 VALUES (272,171,'Una fuerza F= (6i - 2j) N actúa en una partícula que experimenta un desplazamiento r= (3i + j) m. Hallar a) el trabajo invertido por la fuerza en la partícula y b) el ángulo entre F y r
-a)             b)              c)          ');
-INSERT INTO PreguntasF2 VALUES (272,172,'Un obrero empuja un bloque de m = 26.6 kg una distancia de 9.54 m a lo largo del suelo con una velocidad constante y una fuerza dirigida a 32.0° abajo de la horizontal. El coeficiente de fricción cinética es de 0.21 ¿Qué tanto trabajo efectuó el obrero sobre el bloque?
-a)             b)              c)          ');
+a) θ=83.15°  W=32J         b) θ=36.75°  W=16J......          c) θ=233.76°  W=52J   ');
+INSERT INTO PreguntasF2 VALUES (272,172,'Un obrero empuja horizontalmente una caja de 30kg una distancia de 4,5 m en un piso plano, con velocidad constante. El coeﬁciente de fricción cinética entre el piso y la caja es de 0.25. a)¿Qué magnitud de fuerza debe aplicar el obrero? b) ¿Cuánto trabajo efectúa dicha fuerza sobre la caja? c) ¿Cuánto trabajo efectúa la fricción sobre la caja? d) ¿Cuánto trabajo realiza la fuerza normal sobre la caja?  ¿Y la gravedad? e) ¿Qué trabajo total se efectúa sobre la caja?
+a)a.73.5N  b.0J  c.400J   d.400J  e.WT=800J              b) a.73.5N  b.370.75J  c.370.75J   d.1J  e.WT=751.5J                c)  a.73.5N  b.370.75J  c.-370.75J   d.0J  e.WT=0J....        ');
 INSERT INTO PreguntasF2 VALUES (272,173,'Para empujar una caja de 25 kg por un plano inclinado a 27°, un obrero ejerce una fuerza de 120 N, paralela al plano. Cuando la caja se ha deslizado 3.6 m, ¿cuánto trabajo se efectuó sobre la caja por a) el obrero, b) la fuerza de gravedad, y c) la fuerza normal del plano inclinado?
-a)             b)              c)          ');
-INSERT INTO PreguntasF2 VALUES (272,174,'Un hombre empuja un bloque de 270 N recorriendo 9.1 m a lo largo de un piso horizontal, con rapidez constante y con una fuerza inclinada a 45° por debajo de la horizontal. Si el coeficiente de fricción cinética entre el bloque y el piso es 0.2. ¿Calcular el trabajo efectuado por la fuerza de fricción y por la fuerza inclinada?
-a)             b)              c)          ');
-INSERT INTO PreguntasF2 VALUES (272,175,'- Un baúl de 52.3 kg se empuja hacia arriba 5.95 m a una velocidad constante por un plano inclinado a 28.0°; actúa sobre él una fuerza horizontal constante. El coeficiente de fricción cinética entre el baúl y el plano inclinado es de 0.19 Calcule el trabajo efectuado por a) la fuerza aplicada y b) la fuerza de gravedad.
-a)             b)              c)          ');
+a) Wo=432J  Ww=-400J  WN=0J.....           b)Wo=432J  Ww=-432J  WN=1J              c)Wo=543J  Ww=-500J  WN=0J');
+INSERT INTO PreguntasF2 VALUES (272,174,'Un hombre empuja un bloque de 270 N recorriendo 9.1 m a lo largo de un piso horizontal, con rapidez constante y con una fuerza inclinada a 45° por debajo de la horizontal. Si el coeficiente de fricción cinética entre el bloque y el piso es 0.2. Calcular la magnitud de la fuerza externa aplicada por el hombre al bloque y el trabajo efectuado por el hombre sobre el bloque.
+a) a. F=95.46N  b.W=614.3J....          b) a. F=45.28N  b.W=318.89J              c)F=24.18N  b.W=190.89J');
+INSERT INTO PreguntasF2 VALUES (272,175,' Un hombre empuja una caja de 30 kg como se muestra en la figura, si la desplaza 15m y el coeficiente de fricción entre la caja y el suelo es de 0.25, calcular: a) ¿Cuánto trabajo realiza la persona? (Fuerza de la persona) b) ¿Cuál es el trabajo realizado por la fuerza de fricción?c) ¿Cuánto trabajo realiza la fuerza Normal? d) ¿Cuál es el trabajo neto realizado?
+a)WT=300J            b) WT=219.718J....           c) WT=156.35J         ');
 INSERT INTO PreguntasF2 VALUES (272,176,'Un bloque de hielo de 47.2 kg se desliza hacia abajo por un plano inclinado de 1.62 m de longitud y 0.902 m de altura. Un obrero lo empuja paralelo al plano inclinado de modo que se deslice hacia abajo a velocidad constante. El coeficiente de fricción cinética entre el hielo y el plano inclinado es de 0.110 Halle a) la fuerza ejercida por el obrero, b) el trabajo efectuado por el obrero sobre el bloque de hielo.
-a)             b)              c)          ');
-INSERT INTO PreguntasF2 VALUES (272,177,'');
-INSERT INTO PreguntasF2 VALUES (272,178,'');
-INSERT INTO PreguntasF2 VALUES (272,179,'');
-INSERT INTO PreguntasF2 VALUES (272,180,'');
-INSERT INTO PreguntasF2 VALUES (272,181,'');
-INSERT INTO PreguntasF2 VALUES (272,182,'');
-INSERT INTO PreguntasF2 VALUES (272,183,'');
+a) F=165.50N Wo=417.65J            b) F=384.63N  Wo=500J             c) F=215.50N Wo=-417.65J.....        ');
+INSERT INTO PreguntasF2 VALUES (272,177,'Un cuerpo es sometido a una fuerza de F=30Ni -40Nj, generando un desplazamiento de S=-9mi -3mj ; determinar el trabajo realizado por la fuerza sobre el cuerpo.
+a)WT=-150J....    b)WT=150J    c)W=T=-300J     ');
+INSERT INTO PreguntasF2 VALUES (272,178,'Dos remolcadores tiran de un buque. Cada uno ejerce una fuerza constante de 1.8x10 6 N.Una de ellas con una dirección de 14° al oeste del norte y la otra 14° al este del norte; en conjunto desplazan el buque 0.75 km al norte. Despreciando las fuerzas de arrastre del agua, ¿Cuál es el trabajo realizado por las fuerzas sobre el buque?
+a)WT=3.12x10^-9J     b)WT=2.62x10^9J....    c)WT=1.82x10^-10J');
+INSERT INTO PreguntasF2 VALUES (272,179,'En una mudanza se sube un mueble utilizando una rampa de 4m aplicando una fuerza de 400N como se muestra en la figura. Si su masa es de 60 kg y el coeficiente de fricción cinético entre el mueble y la superficie es de 0.10:calcular el trabajo neto.
+a)432.04J     b)WT=308.02J   c)WT=216.02J....');
+INSERT INTO PreguntasF2 VALUES (272,180,'Un Helicóptero levanta a una astronauta de 72kg, 15m verticalmente desde el océano mediante un cable. La aceleración de la astronauta es de g/10. ¿Cuánto trabajo efectúa la astronauta dada a) la fuerza que ejerce el helicóptero y b) la gravitación en ella.
+a) a.Wo=11655J b.F=777N c.Ww=-10594.8J.....     b)a.Wo=1288J b.F=71N c.Ww=534.4J     c)a.Wo=-13655J b.F=861N c.Ww=-12424.7J ');
+INSERT INTO PreguntasF2 VALUES (272,181,'Para empujar una caja de 52kg por el suelo, una persona ejerce una fuerza de 190 N, dirigida 22° debajo de la horizontal. Cuando la caja se ha movido 3.3 m. Cuanto trabajo ha realizado a) La fuerza de la persona b) La fuerza de gravedad c) La fuerza Normal del piso
+a)Wo=456J  Wmg=-456J  WN=0J  b)Wo=581.34J  Wmg=0J  WN=0J.....   c)Wo=156.13J  Wmg=-1J  WN=1J ');
+INSERT INTO PreguntasF2 VALUES (272,182,'Se usa una cuerda para bajar verticalmente un bloque de masa M a una distancia  "d" con una aceleración constante hacia abajo de g/4. a) Hallar el trabajo efectuado por la cuerda (Tensión) sobre el bloque. b) Halle el trabajo realizado por la fuerza de gravedad (Peso).
+a)WT=(-3Mg)/4d  Ww=gd/M   b)WT=(4Mgd)/3  Ww=Md/g     c)WT=(-3Mgd)/4  Ww=Mgd.....');
+INSERT INTO PreguntasF2 VALUES (272,183,'Una fuerza F de 80N mueve un bloque de 5kg de masa hacia arriba por un plano inclinado de
+30°. El coeficiente de fricción cinético es de 0.25 y la longitud del plano inclinado es de 20m.
+a) Calcular el trabajo que realiza cada una de las fuerzas.
+b) Calcular el trabajo neto del sistema.');
 INSERT INTO PreguntasF2 VALUES (272,184,'');
 INSERT INTO PreguntasF2 VALUES (272,185,'');
 INSERT INTO PreguntasF2 VALUES (272,186,'');
@@ -1230,7 +1296,7 @@ INSERT INTO RespuestasF2 VALUES (157,1570,'c');
 INSERT INTO RespuestasF2 VALUES (158,1580,'a');
 INSERT INTO RespuestasF2 VALUES (159,1590,'a');
 INSERT INTO RespuestasF2 VALUES (160,1600,'a');
-INSERT INTO RespuestasF2 VALUES (161,1610,'c');
+INSERT INTO RespuestasF2 VALUES (161,1610,'b');
 INSERT INTO RespuestasF2 VALUES (162,1620,'a');
 INSERT INTO RespuestasF2 VALUES (163,1630,'c');
 INSERT INTO RespuestasF2 VALUES (164,1640,'c');
@@ -1239,6 +1305,7 @@ INSERT INTO RespuestasF2 VALUES (166,1660,'b');
 INSERT INTO RespuestasF2 VALUES (167,1670,'b');
 INSERT INTO RespuestasF2 VALUES (168,1680,'c');
 INSERT INTO RespuestasF2 VALUES (169,1690,'c');
+
 INSERT INTO RespuestasF2 VALUES (170,1700,'');
 INSERT INTO RespuestasF2 VALUES (171,1710,'');
 INSERT INTO RespuestasF2 VALUES (172,1720,'');
