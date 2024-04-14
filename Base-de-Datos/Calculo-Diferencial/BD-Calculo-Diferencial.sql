@@ -380,43 +380,43 @@ D)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 94lb
 
 -- Tema 6 Dominio y rango
 
-INSERT INTO PreguntasCD VALUES (166, 56,'Calcula el dominio y rango de la funcion: f(x) = (4-x²) / (x² +1); Respuesta:a
+INSERT INTO PreguntasCD VALUES (166, 56,'Calcula el dominio y rango de la funcion: f(x) = (4-x²) / (x² +1); Respuesta:
 a) Dominio: (-∞, ∞) | Rango: (1, 4]
 b) Dominio: (-∞, -1) ∪ (-1, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, ∞) | Rango: (-∞,1]
 d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 57,'Calcula el dominio y rango de la funcion: f(x) = 4(√(x+4) ^ (-1)); Respuesta:a
+INSERT INTO PreguntasCD VALUES (166, 57,'Calcula el dominio y rango de la funcion: f(x) = 4(√(x+4) ^ (-1)); Respuesta:
 a) Dominio: (-4, ∞) | Rango: (0, ∞)
 b) Dominio: (-∞, -4) ∪ (-4, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, ∞) | Rango: (1, 4]
 d) Dominio: (-∞,0) ∪ (0, ∞) | Rango: (-∞, ∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 58,'Calcula el dominio y rango de la funcion: f(x) = -1/ (√ (x²)-9); Respuesta: b
+INSERT INTO PreguntasCD VALUES (166, 58,'Calcula el dominio y rango de la funcion: f(x) = -1/ (√ (x²)-9); Respuesta: 
 a) Dominio: (-∞,0) ∪ (0, 3) ∪ (3, ∞) | Rango: (-∞,0)
 b) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞, ∞)
 d) Dominio: (-∞, ∞) | Rango: (-∞,1)
 ');
-INSERT INTO PreguntasCD VALUES (166, 59,'Calcula el dominio y rango de la funcion: f(x) = (√(1-x)) /x; Respuesta: c
+INSERT INTO PreguntasCD VALUES (166, 59,'Calcula el dominio y rango de la funcion: f(x) = (√(1-x)) /x; Respuesta: 
 a) Dominio: (-∞, ∞) | Rango: (-∞,0)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0) ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 60,'Calcula el dominio y rango de la funcion: f(x) = √(1-x); Respuesta: b
+INSERT INTO PreguntasCD VALUES (166, 60,'Calcula el dominio y rango de la funcion: f(x) = √(1-x); Respuesta: 
 a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, 1] | Rango: [0,∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 61,'Calcula el dominio y rango de la funcion: f(x) = 1/8x²+5/4x+9/8; Respuesta:a
+INSERT INTO PreguntasCD VALUES (166, 61,'Calcula el dominio y rango de la funcion: f(x) = 1/8x²+5/4x+9/8; Respuesta:
 a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, 1] | Rango: [0,∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 62,'f(x) = 2X+1, x < 0 & 2x+2, x ≥ 0  (a) f(-1)	(b) f(0)		(c) f(2)		(d) f (t^ 2+1) ; Respuesta:A
+INSERT INTO PreguntasCD VALUES (166, 62,'f(x) = 2X+1, x < 0 & 2x+2, x ≥ 0  (a) f(-1)	(b) f(0)		(c) f(2)		(d) f (t^ 2+1) ; Respuesta:
 A)(a) -1 		(b) 2		(c) 6		(d) 2t^2+4
 Dominio: (-∞, ∞)
 Rango: (-∞,1) ∪ [2, ∞)
@@ -430,7 +430,7 @@ D)(a) -2		(b) 5		(c) 8		(d) t^2
 Dominio: (-∞, 0)
 Rango: (-1,1) ∪ [2, 5)
 ');
-INSERT INTO PreguntasCD VALUES (166, 63,'f(x) = |x|+1, x<1 & -x+1, x≥1  (a) f(-3)	(b) f(1)		(c) f(3)		(d) f (b^ 2+1) ; Respuesta: C
+INSERT INTO PreguntasCD VALUES (166, 63,'f(x) = |x|+1, x<1 & -x+1, x≥1  (a) f(-3)	(b) f(1)		(c) f(3)		(d) f (b^ 2+1) ; Respuesta: 
 A)(a) 0 		(b) 0		(c) -4		(d) -b
 Dominio: (-∞, 5)
 Rango: (0,∞) ∪ [2, ∞)
@@ -444,13 +444,13 @@ D)(a) 0 		(b) 0		(c) -4		(d) -b
 Dominio: (-∞, 5)
 Rango: (0,∞) ∪ [2, ∞)
 '); 
-INSERT INTO PreguntasCD VALUES (166, 64,'Calcula el dominio y rango de la funcion: f(x) = 1/ (√x-3); Respuesta:b
+INSERT INTO PreguntasCD VALUES (166, 64,'Calcula el dominio y rango de la funcion: f(x) = 1/ (√x-3); Respuesta:
 a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
 b) Dominio: (3, ∞)| Rango: (0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, 1] | Rango: [0,∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 65,'Calcula el dominio y rango de la funcion: f(x) = 8/x² +4; Respuesta:d
+INSERT INTO PreguntasCD VALUES (166, 65,'Calcula el dominio y rango de la funcion: f(x) = 8/x² +4; Respuesta:
 a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
@@ -460,49 +460,49 @@ d) Dominio: (-∞, ∞)| Rango: (0,2]
 -- Preguntas Segundo Parcial Calculo diferencial.
 
 -- Tema 1 Limites 
-INSERT INTO PreguntasCD VALUES (261, 66,'lim┬(x→4)⁡(∛((x²-3x+4)/(2x²-x-1)))³; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 66,'lim┬(x→4)⁡(∛((x²-3x+4)/(2x²-x-1))); Respuesta:
 a)1/3
 b)3
 c)2/3
 d)1
 ');
-INSERT INTO PreguntasCD VALUES (261, 67,'lim┬(x→3)⁡((x³-5x+4)/(x²-2))^2; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 67,'lim┬(x→3)⁡((x³-5x+4)/(x²-2)); Respuesta:
 a)6/3
 b)8/2
 c)16/7
 d)5/7
 ');
-INSERT INTO PreguntasCD VALUES (261, 68,'lim┬(x→3)⁡((x²-1)/(2-x-x²))²; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 68,'lim┬(x→3)⁡((x²-1)/(2-x-x²)); Respuesta:
 a)-4/5
 b)4/10
 c)-4/10
 d)-1/5
 ');
-INSERT INTO PreguntasCD VALUES (261, 69,'lim┬(x→1/4)⁡((√(1-x) + √x)/(√x))^2; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 69,'lim┬(x→1/4)⁡((√(1-x) + √x)/(√x)); Respuesta:
 a)√4-2
 b)√3
 c)√3-3
 d)√3 +1	
 ');
-INSERT INTO PreguntasCD VALUES (261, 70,'lim┬(x→π/2)⁡(sen(x))^2; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 70,'lim┬(x→π/2)⁡(sen(x)); Respuesta:
 a)0
 b)1
 c)3
 d)1/3
 ');
-INSERT INTO PreguntasCD VALUES (261, 71,'lim┬(x→0)⁡(sec(2x))^2; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 71,'lim┬(x→0)⁡(sec(2x)); Respuesta:
 a)0
 b)1
 c)2
 d)3
 ');
-INSERT INTO PreguntasCD VALUES (261, 72,'lim┬(x→5π/6)⁡(sen(x))^2; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 72,'lim┬(x→5π/6)⁡(sen(x)); Respuesta:
 a)1/3
 b)1
 c)1/4
 d)1/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 73,'lim┬(x→3)⁡(tanπx/4); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 73,'lim┬(x→3)⁡(tan πx)/4; Respuesta:
 a)1
 b)0
 c)-1
@@ -515,7 +515,7 @@ b)3/2
 c)2
 d)4
 ');
-INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(x→∞)⁡(t+t²/2t-t²); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(x→∞)⁡(t+t²)/(2t-t²); Respuesta:
 a)-1
 b)1
 c)0
@@ -542,7 +542,7 @@ d)3
 INSERT INTO PreguntasCD VALUES (261, 79,'lim┬(x→0)⁡((1/3x²)^5x/2x-3); Respuesta:
 a)1
 b)0
-c)-1/2
+c)-1/3
 d)1/2
 ');
 INSERT INTO PreguntasCD VALUES (261, 80,'lim┬(x→∞)⁡((1/3x²)^5x/2x-3); Respuesta:
@@ -587,10 +587,10 @@ b)√6/3
 c)√4/2
 d)√2/4
 ');
-INSERT INTO PreguntasCD VALUES (261, 87,'lim┬(x→∞)⁡(x²√x²+x+1); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 87,'lim┬(x→∞)⁡(x²(√x²+x+1)); Respuesta:
 a)3
 b)0
-c)1
+c)∞
 d)-1
 ');
 INSERT INTO PreguntasCD VALUES (261, 88,'lim┬(x→∞)⁡((ln (x+1)/lnx)^lnx); Respuesta:
@@ -617,7 +617,7 @@ b)1/3
 c)1
 d)3/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 92,'lim┬(x→∞)⁡(√(x²+x+1)-√(x²-x+1) ); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 92,'lim┬(x→∞)⁡(√(x²+x+1))-√(x²-x+1) ); Respuesta:
 a)1
 b)1/2
 c)2
@@ -637,16 +637,16 @@ c)-b/(t−b)^2
 d)t-b/(t−b)^2
 ');
 INSERT INTO PreguntasCD VALUES (262, 95,'Deriva por definición la función: y= ∛(x+3); Respuesta:
-a)1/3∛(x+3)^2
-b)1/3∛(x+3)
-c)1/3∛(x-3)^2
-d)1/3∛(x-3)^2
+a)1/3 (∛(x+3)^2)
+b)1/3 (∛(x+3))
+c)1/3 (∛(x-3)^2)
+d)1/3 (∛(x-3)^2)
 ');
 INSERT INTO PreguntasCD VALUES (262, 96,'Deriva por definición la función: y=(√a²+x²)/x ; Respuesta:
 a)a/(x(a²+x²))
 b)-a²/(x(a²+x))
 c)a²/(x(a²+x²))
-d)-a²/(x²(a²+x²))
+d)-a²/(x²(√(a²+x²)))
 ');
 INSERT INTO PreguntasCD VALUES (262, 97,'Deriva por definición la función: y=x²(√3-4x) ; Respuesta:
 a)6x-10x²/(√3-2x)
@@ -679,7 +679,7 @@ c)b/2(∛bx+b)²
 d)b/6(√bx+a)
 ');
 INSERT INTO PreguntasCD VALUES (262, 102,'Deriva y simplifica al máximo la siguiente función: y=x(√(a+x/a-x)) ; Respuesta:
-+a)a²-x²-x/ (√(a²-x²)) (a+x)
+a)a²-x²-x/ (√(a²-x²)) (a+x)
 b)a²-x²+ax/ (√(a²-x²)) (a-x)
 c)x²-a²+ax/ (√(x²-a²)) (x-a)
 d)a²+x²+x/ (√(a²+x²)) (a-x)
@@ -774,13 +774,13 @@ b)(nsen)^n-1 xsen(n+1)x
 c)(ncos)^n-2 xcos(n+1)x
 d)(narcsen)^n-2 xsen(n+1)x
 ');
-INSERT INTO PreguntasCD VALUES (262, 118,'Deriva y=arc sec1/x; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 118,'Deriva y=arc sec 1/x; Respuesta:
 a)-1/(√1-x²)
 b)1/(√1/x²)
 c)-1/(√1-x)
 d)-x/(√1-x)
 ');
-INSERT INTO PreguntasCD VALUES (262, 119,'Deriva y=arcsen2x; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 119,'Deriva y=xarcsen2x; Respuesta:
 a)arcsen2x+ 2x/(√1-4x²)
 b)arccos4x+ 2x/(√1+4x²)
 c)arccos2x+ x/(√1+4x)
@@ -816,7 +816,7 @@ b)1/√(x-3) / (x-3)
 c)1/√(x-3) (x-3)
 d)1/√(x-3)/ (x+3)
 ');
-INSERT INTO PreguntasCD VALUES (262, 125,'Deriva la función f(t)=ln³t/3 + a(^t²-c²); Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 125,'Deriva la función f(t)=lnt³/3 + a^(t²-c²); Respuesta:
 a)(ln(t)²+2(a^t+c) t(ln(a)))/t
 b)(ln(t)²+2(a^t²-c)/t²(ln(a)))/t
 c)(ln(t)+2(a^t²-c) t(ln(a)))/t
@@ -849,10 +849,10 @@ c)y=2x²-3x+1
 d)y=4x²+3x+5
 ');
 INSERT INTO PreguntasCD VALUES (262, 131,'Encuentre la derivada de f(x)=(2x³+5x)(x-3)(x+2) ; Respuesta:
-a)x^4-8x³-21x²-10x-30
-b)x^4-8x-26x²-7x+56
-c)x^6-4x³+13x²-5x+67
-d)x^6-4x³-13x²-4-67
+a)10x^4-8x³-21x²-10x-30
+b)5x^4-8x-26x²-7x+56
+c)4x^6-4x³+13x²-5x+67
+d)7x^6-4x³-13x²-4-67
 ');
 INSERT INTO PreguntasCD VALUES (262, 132,'Encuentre la derivada de y=-cscx-senx ; Respuesta:
 a)cosx cot²x
@@ -866,7 +866,7 @@ b)(x²-8x+1)(x-2)
 c)(x²-8x+1)(x-2)²
 d)(2x²+8x-1)/(x+2)²
 ');
-INSERT INTO PreguntasCD VALUES (262, 134,'Encuentre la derivada de f(x)=(x²-x-3)/(x²+1) (x²+x+1) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 134,'Encuentre la derivada de f(x)=((x²-x-3)/(x²+1))  (x²+x+1) ; Respuesta:
 a)(x²-8x+1)(x-2)²
 b)(2x+x³+x²+9)/(x²+1)
 c)(2x+x³+x²+9)(x²+1)
@@ -875,8 +875,8 @@ d)(2x^5+4x³+4x²-4)/(x²+1)²
 INSERT INTO PreguntasCD VALUES (262, 135,'Encuentre la derivada de g(θ)=θ/1-senθ ; Respuesta:
 a)(senθ²)+cosθ (1-senθ)²
 b)(1+2senθ)+θcosθ/ (1+arcsenθ)
-c)(1-senθ)+cosθ/ (1-senθ)²
-d)(1+senθ)-θarccosθ/ (1+senθ)²
+c)(1-senθ)+θcosθ/ (1-senθ)²
+d)(1+senθ)-θarccosθq/ (1+senθ)²
 ');
 INSERT INTO PreguntasCD VALUES (262, 136,'Encuentre la derivada de f(x)= cosx/1-senx ; Respuesta:
 a)1/2+senx
@@ -1106,7 +1106,7 @@ INSERT INTO RespuestasCD VALUES (75,750,'a');
 INSERT INTO RespuestasCD VALUES (76,760,'d');
 INSERT INTO RespuestasCD VALUES (77,770,'d');
 INSERT INTO RespuestasCD VALUES (78,780,'b');
-INSERT INTO RespuestasCD VALUES (79,790,'a');
+INSERT INTO RespuestasCD VALUES (79,790,'c');
 INSERT INTO RespuestasCD VALUES (80,800,'a');
 INSERT INTO RespuestasCD VALUES (81,810,'c');
 INSERT INTO RespuestasCD VALUES (82,820,'d');
