@@ -1322,6 +1322,108 @@ d) Butanal');
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Creacion de Tablal para los incisos Quimica 2
+
+CREATE TABLE Incisos_Q2( 
+		ID_PreguntaQ2 INTEGER NOT NULL,
+		ID_Incisos_Q2 INTEGER NOT NULL,
+		Inciso_A VARCHAR(300) NOT NULL,
+		Inciso_B VARCHAR(300) NOT NULL,
+		Inciso_C VARCHAR(300) NOT NULL,
+		Inciso_D VARCHAR(300) NOT NULL,
+		PRIMARY KEY(ID_Incisos_Q2),
+		FOREIGN KEY(ID_PreguntaQ2)
+		REFERENCES PreguntasQ2(ID_PreguntaQ2)
+		);
+		
+INSERT INTO Incisos_Q2 VALUES 
+
+--Incicos Parcial 1
+
+--Incisos Tema 1
+(01, 11, "a) Dióxido de yodo", "b) Pentóxido de yodo", "c) Yoduro de dioxígeno", "d) Anhídrido peryódico"),
+(02, 12, "a) Rubidio bromuro", "b) Bromuro de rubidio", "c) Rubidio bromanuro", "d) Bromuro de rutenio"),
+(03, 13, "a) Fosfato de magnesio", "b) Magnesio fosfato", "c) Fosfuro de magnesio", "d) Difosfato de magnesio"),
+(04, 14, "a) Hidróxido de escandio", "b) Escandio hidróxido", "c) Hidroxoscandio", "d) Escandiuro de hidrógeno"),
+(05, 15, "a) Ácido telúrico", "b) Telurito de hidrógeno", "c) Hidróxido de telurio", "d) Telururo de hidrógeno"),
+(06, 16, "a) Óxido de ytrio", "b) Trióxido de itrio", "c) Óxido de yodo", "d) Oxígeno de ytrio"),
+(07, 17, "a) Sulfato de indio", "b) Sulfito de indio", "c) Trióxido de indio", "d) Sulfuroso de indio"),
+(08, 18, "a) Bicarbonato de níquel", "b) Carbonato de níquel", "c) Hidróxido de níquel", "d) Hidrogenoníquel carbonoso"),
+(09, 19, "a) Fluoruro de hidrógeno", "b) Ácido fluorhídrico", "c) Hidruro de flúor", "d) Fluorato de hidrógeno"),
+(10, 20, "a) Dihidruro de mercurio", "b) Mercurio dihidruroso", "c) Hidrógeno de mercurio", "d) Hidruro de mercurio"),
+(11, 21, 'a) I₂O₇ b) IO₃ c) H₂O d) O₃'),
+(12, 22, 'a) Mg(PO₄)₂ b) Mg₃(PO₄)₂ c) Mg₂(PO₄)₃ d) Mg₃(PO₄)₃'),
+(13, 23, 'a) H₂TeO₄ b) HTeO₃ c) H₂Te d) H₂TeO₃'),
+(14, 24, 'a) In₂SO₃ b) InSO₃ c) In₂(SO₃)₃ d) In(SO₃)₃'),
+(15, 25, 'a) HF b) H₂F c) H₃F d) H₄F₂'),
+(16, 26, 'a) RbBr b) Rb₂Br c) Rb₃Br₂ d) Rb₂Br₃'),
+(17, 27, 'a) Sc(OH)₃ b) ScH₃O c) ScOH d) ScO₂H₃'),
+(18, 28, 'a) YO₃ b) Y₂O₃ c) YO d) Y₃O₃'),
+(19, 29, 'a) Ni(HCO₃)₃ b) NiHCO₃ c) Ni(HCO₃)₂ d) Ni₂(HCO₃)₃'),
+(20, 30, 'a) HgH b) Hg₂H c) HgH₂ d) Hg₂H₂'),
+(21, 31, 'a) Cloruro de cobre (II) b) Cloruro de cobre (I) c) Cloruro cuproso d) Cloruro de cobalto'),
+(22, 32, 'a) Óxido de calcio b) Monóxido de calcio c) Oxígeno de calcio d) Carbonato de calcio'),
+(23, 33, 'a) NaCl b) Na₂Cl c) NaCl₂ d) Na₂Cl₃'),
+(24, 34, 'a) Ácido clórico b) Ácido hipocloroso c) Ácido cloroso d) Ácido perclórico'),
+(25, 35, 'a) Óxido de fósforo (III) b) Óxido de fósforo (IV) c) Óxido fosfórico d) Pentóxido de fósforo'),
+(26, 36, 'a) Ácido nítrico b) Ácido nitroso c) Óxido de nitrógeno (V) d) Óxido de nitrógeno (III)'),
+(27, 37, 'a) Hidróxido de bario b) Oxobario c) Hidróxido bárico d) BaO₂H'),
+(28, 38, 'a) CaSO₄ b) Ca₂SO₄ c) Ca(SO₄)₂ d) CaSO₃'),
+(29, 39, 'a) Cloruro de amonio b) Nitrato de amonio c) Cloruro de nitroso d) Nitrito de amonio'),
+(30, 40, 'a) Óxido de hierro (II) b) Óxido ferroso c) Trióxido de dihierro d) Óxido de hierro (III)'),
+(31, 41, 'a) Sulfato de bario b) Sulfuro de bario c) Sulfato de boro d) Sulfito de bario'),
+(32, 42, 'a) Bromuro de litio b) Bromato de litio c) Bromuro de litio (I) d) Bromuro de litio (II)'),
+(33, 43, 'a) Sulfuro de hidrógeno b) Ácido sulfhídrico c) Hidruro de azufre d) Dihidruro de azufre'),
+(34, 44, 'a) Carbonato de sodio b) Dióxido de carbono c) Bicarbonato de sodio d) Carbono sódico'),
+(35, 45, 'a) Hidróxido de magnesio b) Hidroximagnesio c) Óxido de magnesio d) Magnesio hidratado'),
+(36, 46, 'a) Nitrato de aluminio b) Aluminato de nitrógeno c) Nitrito de aluminio d) Aluminio nitrato'),
+(37, 47, 'a) Cloruro de plomo (II) b) Cloruro de plomo (I) c) Plumburo de dicloro d) Cloruro plúmbico'),
+(38, 48, 'a) Cromato de potasio b) Dicromato de potasio c) Cromito de potasio d) Cromo dicromato'),
+(39, 49, 'a) Nitrato de calcio b) Nitrito de calcio c) Carbonato de calcio d) Nitruro de calcio'),
+(40, 50, 'a) Amoniaco b) Nitrito de amonio c) Amina de hidrógeno d) Nitruro de hidrógeno'),
+(41, 51, 'a) Cloruro de hierro (III) b) Cloruro de hierro (II) c) Tricloruro de hierro d) Cloruro ferroso'),
+(42, 52, 'a) Carbonato de zinc b) Cianuro de zinc c) Carbonito de zinc d) Zinc carbonoso'),
+(43, 53, 'a) Clorato de sodio b) Perclorato de sodio c) Hipoclorito de sodio d) Cloruro de sodio'),
+(44, 54, 'a) Bromato de potasio b) Perbromato de potasio c) Bromuro de potasio d) Hipobromito de potasio'),
+(45, 55, 'a) Nitrato de cobre (II) b) Nitrato de cobre (I) c) Nitrito de cobre (II) d) Nitrito de cobre (I)'),
+(46, 56, 'a) Ácido hipocloroso b) Ácido clórico c) Ácido cloroso d) Ácido perclórico'),
+(47, 57, 'a) Hidróxido de hierro (III) b) Hidróxido ferroso c) Hidróxido de hierro (II) d) Óxido de hierro (III) hidratado'),
+(48, 58, 'a) Nitrato de amonio b) Nitrito de amonio c) Amoniuro de nitrógeno d) Amonio nitrato'),
+(49, 59, 'a) Hidróxido de bario b) Hidróxido de bismuto c) Oxobario d) Hidróxido de berilio'),
+(50, 60, 'a) Sulfato de magnesio b) Sulfito de magnesio c) Sulfuro de magnesio d) Monosulfato de magnesio');
+
+--Incisos Tema 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Creación de Tabla para las Respuestas Quimica 2
 
 CREATE TABLE RespuestasQ2(
