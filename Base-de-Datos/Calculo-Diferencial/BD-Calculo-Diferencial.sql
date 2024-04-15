@@ -398,7 +398,7 @@ b) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞, ∞)
 d) Dominio: (-∞, ∞) | Rango: (-∞,1)
 ');
-INSERT INTO PreguntasCD VALUES (166, 59,'Calcula el dominio y rango de la funcion: f(x) = (√(1-x)) /x; Respuesta: 
+INSERT INTO PreguntasCD VALUES (166, 59,'Calcula el dominio y rango de la funcion: f(x) = (√(1-x)) / x; Respuesta: 
 a) Dominio: (-∞, ∞) | Rango: (-∞,0)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0) ∪ (0,1] | Rango: (-∞, ∞)
@@ -460,25 +460,25 @@ d) Dominio: (-∞, ∞)| Rango: (0,2]
 -- Preguntas Segundo Parcial Calculo diferencial.
 
 -- Tema 1 Limites 
-INSERT INTO PreguntasCD VALUES (261, 66,'lim┬(x→4)⁡(∛((x²-3x+4)/(2x²-x-1))); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 66,'
 a)1/3
 b)3
 c)2/3
 d)1
 ');
-INSERT INTO PreguntasCD VALUES (261, 67,'lim┬(x→3)⁡((x³-5x+4)/(x²-2)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 67,'
 a)6/3
 b)8/2
 c)16/7
 d)5/7
 ');
-INSERT INTO PreguntasCD VALUES (261, 68,'lim┬(x→3)⁡((x²-1)/(2-x-x²)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 68,'
 a)-4/5
 b)4/10
 c)-4/10
 d)-1/5
 ');
-INSERT INTO PreguntasCD VALUES (261, 69,'lim┬(x→1/4)⁡((√(1-x) + √x)/(√x)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 69,'
 a)√4-2
 b)√3
 c)√3-3
@@ -533,79 +533,79 @@ b)5
 c)3
 d)∞
 ');
-INSERT INTO PreguntasCD VALUES (261, 78,'lim┬(x→∞)⁡((√x²+x+2)-(x-5)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 78,'
 a)5/10
-b)11/2
+b)0
 c)6/4
 d)3
 ');
-INSERT INTO PreguntasCD VALUES (261, 79,'lim┬(x→0)⁡((1/3x²)^5x/2x-3); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 79,'
 a)1
 b)0
-c)-1/3
+c)∞
 d)1/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 80,'lim┬(x→∞)⁡((1/3x²)^5x/2x-3); Respuesta:
-a)0
+INSERT INTO PreguntasCD VALUES (261, 80,'
+a)∞
 b)1
 c)-1
 d)2
 ');
-INSERT INTO PreguntasCD VALUES (261, 81,'lim┬(x→6)⁡((2-(√x-2))/x²-36); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 81,'
 a)1/36
 b)-1/36
 c)-1/48
 d)1/48
 ');
-INSERT INTO PreguntasCD VALUES (261, 82,'lim┬(x→∞)⁡((x²+1/3x²+2)^x²); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 82,'
 a)1/2
 b)-1
 c)1
 d)0
 ');
-INSERT INTO PreguntasCD VALUES (261, 83,'lim┬(x→∞)⁡(((e^-x)-1)x²); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 83,'
 a)-∞
 b)∞
 c)0
 d)1/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 84,'lim┬(x→∞)⁡(∛x³+x² - ∛x³-x²); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 84,'
 a)4/8
 b)2/3
 c)4/6
 d)-4/6
 ');
-INSERT INTO PreguntasCD VALUES (261, 85,'lim┬(x→∞)⁡((25x³+4x-1)^(1/ln(x²+7x-5))); Respuesta:
-a)3/2
+INSERT INTO PreguntasCD VALUES (261, 85,'
+a)1/3
 b)8/3
 c)9/4
 d)-8/3
 ');
-INSERT INTO PreguntasCD VALUES (261, 86,'lim┬(x→∞)⁡(√x+√(x²-1)/3x); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 86,'
 a)√8/2
 b)√6/3
 c)√4/2
 d)√2/4
 ');
-INSERT INTO PreguntasCD VALUES (261, 87,'lim┬(x→∞)⁡(x²(√x²+x+1)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 87,'
 a)3
 b)0
 c)∞
 d)-1
 ');
-INSERT INTO PreguntasCD VALUES (261, 88,'lim┬(x→∞)⁡((ln (x+1)/lnx)^lnx); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 88,'
 a)1/3
 b)2
-c)1
+c)∞
 d)3
 ');
-INSERT INTO PreguntasCD VALUES (261, 89,'lim┬(x→∞)⁡(xln(√(1+1/x)/(1-1/x))); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 89,'lim┬(x→∞)⁡ ((4x²+1) / (2x²+5) ); Respuesta:
 a)6
 b)4
-c)1
+c)2
 d)3
 ');
-INSERT INTO PreguntasCD VALUES (261, 90,'lim┬(x→∞)⁡((2+3x^4)^(1/1+2lnx)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 90,'
 a)e^-2
 b)1/2e
 c)e
@@ -642,7 +642,7 @@ b)1/3 (∛(x+3))
 c)1/3 (∛(x-3)^2)
 d)1/3 (∛(x-3)^2)
 ');
-INSERT INTO PreguntasCD VALUES (262, 96,'Deriva por definición la función: y=(√a²+x²)/x ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 96,'
 a)a/(x(a²+x²))
 b)-a²/(x(a²+x))
 c)a²/(x(a²+x²))
@@ -678,7 +678,7 @@ b)b/6(∛ba+x)²
 c)b/2(∛bx+b)²
 d)b/6(√bx+a)
 ');
-INSERT INTO PreguntasCD VALUES (262, 102,'Deriva y simplifica al máximo la siguiente función: y=x(√(a+x/a-x)) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 102,'
 a)a²-x²-x/ (√(a²-x²)) (a+x)
 b)a²-x²+ax/ (√(a²-x²)) (a-x)
 c)x²-a²+ax/ (√(x²-a²)) (x-a)
@@ -762,13 +762,13 @@ b)-2tgx/(√cscx)
 c)-2tgx/(√secx)
 d)2tgx/(√secx)
 ');
-INSERT INTO PreguntasCD VALUES (262, 116,'Deriva y=e^ax senbx; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 116,'Deriva y=e^ax senbx ; Respuesta:
 a)e^a (acosbx-bsenbx)
 b)e^a (asenbx+bcosbx)
 c)e^ax (asenbx+bcosbx)
 d)e^a (asenbx-bcosbx)
 ');
-INSERT INTO PreguntasCD VALUES (262, 117,'Deriva y=sen nx sen^n x; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 117,'Deriva y=sen nx sen^n x ; Respuesta:
 a)(narccos)^n-1 xcos(n+1)x
 b)(nsen)^n-1 xsen(n+1)x
 c)(ncos)^n-2 xcos(n+1)x
@@ -786,7 +786,7 @@ b)arccos4x+ 2x/(√1+4x²)
 c)arccos2x+ x/(√1+4x)
 d)arcsenx+ 2x/(√1+4x)
 ');
-INSERT INTO PreguntasCD VALUES (262, 120,'Deriva y=1/3x³arctgx+1/6ln(x²+1)-1/6x²; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 120,'Deriva y=1/3x³arctgx+ 1/6ln(x²+1)- 1/6x²; Respuesta:
 a)xarctgx²
 b)x²arctgx
 c)2xarctgx²
@@ -876,7 +876,7 @@ INSERT INTO PreguntasCD VALUES (262, 135,'Encuentre la derivada de g(θ)=θ/1-se
 a)(senθ²)+cosθ (1-senθ)²
 b)(1+2senθ)+θcosθ/ (1+arcsenθ)
 c)(1-senθ)+θcosθ/ (1-senθ)²
-d)(1+senθ)-θarccosθq/ (1+senθ)²
+d)(1+senθ)-θarccosθ/ (1+senθ)²
 ');
 INSERT INTO PreguntasCD VALUES (262, 136,'Encuentre la derivada de f(x)= cosx/1-senx ; Respuesta:
 a)1/2+senx

@@ -111,13 +111,13 @@ b)1/3 log(x) + 1/3 log(y) + 1/3 log(z)
 c)1/12 log(x) + 2/6 log(y) + 1/3 log(z)
 d)1/6 log(x) + 1/9 log(y) + 1/4 log(z)
 ');
-INSERT INTO PreguntasGyT VALUES (122, 14,' ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (122, 14,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2014.png?raw=true 
 a)8/15 log₁₀2
 b)15 log₂10
 c)15/8 log₁₀2
 d)5 log₂10
 ');
-INSERT INTO PreguntasGyT VALUES (122, 15,' ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (122, 15,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2015.png?raw=true 
 a)log₂(a-b)-log₂(a+b)-log₂a+log₂b
 b)log₂(a-b)+log₂(a+b)-log₂a+log₂b
 c)log₂(a+b)+log₂(a-b)-log₂a-log₂b
@@ -129,19 +129,19 @@ b)3+3log₃(x)+2log₃(x)
 c)2+3log₃(y)+5log₃(y)
 d)3+2log₃(x)+5log₃(y)
 ');
-INSERT INTO PreguntasGyT VALUES (122, 17,' ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (122, 17,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2017.png?raw=true 
 a)3/4
 b)4/3
 c)8/5
 d)5/8
 ');
-INSERT INTO PreguntasGyT VALUES (122, 18,' ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (122, 18,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2018.png?raw=true 
 a)log₂(a^-1)
 b)log₂(a^2)
 c)log₂(a^-2)
 d)log₂(a)
 ');
-INSERT INTO PreguntasGyT VALUES (122, 19,' ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (122, 19,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2019.png?raw=true 
 a)log (x/dy)
 b)log (c/xy)
 c)log (x/cy)
@@ -177,13 +177,13 @@ b)x=3
 c)x=5
 d)x=3/5
 ');
-INSERT INTO PreguntasGyT VALUES (123, 25,'  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (123, 25,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2025.png?raw=true  
 a)y=4
 b)y=3
 c)y=14
 d)y=7
 ');
-INSERT INTO PreguntasGyT VALUES (123, 26,'  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (123, 26,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2026.png?raw=true  
 a)x1=43 ; x2=-2.36
 b)x1=-43 ; x2=2.36
 c)x1=97 ; x2=1.99
@@ -201,13 +201,13 @@ b)x=11
 c)x=7
 d)x=3
 ');
-INSERT INTO PreguntasGyT VALUES (123, 29,'  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (123, 29,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2029.png?raw=true  
 a)x=4
 b)x=2
 c)x=6
 d)x=8
 ');
-INSERT INTO PreguntasGyT VALUES (123, 30,'  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (123, 30,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2030.png?raw=true  
 a)x1=√5 ; x2=5
 b)x1=√3 ; x2=3
 c)x1=√7 ; x2=7
@@ -279,19 +279,19 @@ b)43.9444 años
 c)53.9314 años
 d)50.6798 años
 ');
-INSERT INTO PreguntasGyT VALUES (221, 41,'; Respuesta:
+INSERT INTO PreguntasGyT VALUES (221, 41,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2041.png?raw=true 
 a)35 
 b)25
 c)30
 d)15
 ');
-INSERT INTO PreguntasGyT VALUES (221, 42,'; Respuesta:
+INSERT INTO PreguntasGyT VALUES (221, 42,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2042.png?raw=true
 a)53
 b)44
 c)47
 d)57
 ');
-INSERT INTO PreguntasGyT VALUES (221, 43,'; Respuesta:
+INSERT INTO PreguntasGyT VALUES (221, 43,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2043.png?raw=true
 a)139
 b)127
 c)113
@@ -321,139 +321,139 @@ b)68° 56\'
 c)65° 08\'  
 d)70° 67\'
 ');
-INSERT INTO PreguntasGyT VALUES (221, 48, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (221, 48, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2048.png?raw=true  
 a)73
 b)34  
 c)48
 d)67
 ');
-INSERT INTO PreguntasGyT VALUES (221, 49, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (221, 49, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2049.png?raw=true  
 a)73
 b)34  
 c)71
 d)67
 ');
-INSERT INTO PreguntasGyT VALUES (221, 50	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (221, 50	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2050.png?raw=true  
 a)73
 b)34  
 c)50
 d)67
 ');
-INSERT INTO PreguntasGyT VALUES (222, 51	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 51	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2051.png?raw=true  
 a)73
 b)34  
 c)50
 d)75
 ');
-INSERT INTO PreguntasGyT VALUES (222, 52	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 52	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2052.png?raw=true  
 a)173
 b)134  
 c)150
 d)135
 ')
-INSERT INTO PreguntasGyT VALUES (222, 53	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 53	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2053.png?raw=true  
 a)70° 22\' 37\'\' 
 b)87° 34\' 45\'\' 
 c)13° 67\' 23\'\' 
 d)11° 25\' 43\'\' 
 ');
-INSERT INTO PreguntasGyT VALUES (222, 54	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 54	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2054.png?raw=true  
 a)18° 22\' 7\'\' 
 b)23° 34\' 5\'\' 
 c)11° 67\' 3\'\' 
 d)21° 49\' 6\'\' 
 ');
-INSERT INTO PreguntasGyT VALUES (222, 55	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 55	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2055.png?raw=true  
 a)33
 b)34  
 c)35
 d)30
 ');
-INSERT INTO PreguntasGyT VALUES (222, 56	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 56	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2056.png?raw=true  
 a)53
 b)54  
 c)55
 d)50
 ');
-INSERT INTO PreguntasGyT VALUES (222, 57	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 57	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2057.png?raw=true  
 a)30° 22\' 
 b)27° 34\' 
 c)23° 67\' 
 d)20° 50\'
 ');
-INSERT INTO PreguntasGyT VALUES (222, 58	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 58	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2058.png?raw=true  
 a)30° 22\' 
 b)27° 34\' 
 c)23° 67\' 
 d)21° 40\'
 ');
-INSERT INTO PreguntasGyT VALUES (222, 59	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 59	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2059.png?raw=true  
 a)50° 22\' 
 b)57° 34\' 
 c)53° 67\' 
 d)50° 40\'
 ');
-INSERT INTO PreguntasGyT VALUES (222, 60	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (222, 60	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2060.png?raw=true 
 a)18° 22\' 72'\' 
 b)23° 34\' 53'\' 
 c)11° 67\' 35\'\' 
 d)13° 19\' 59\'\' 
 ');
-INSERT INTO PreguntasGyT VALUES (223, 61	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 61	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2061.png?raw=true  
 a)33
 b)24  
 c)20
 d)30
 ');
-INSERT INTO PreguntasGyT VALUES (223, 62	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 62	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2062.png?raw=true  
 a)33
 b)31  
 c)42
 d)32
 ');
-INSERT INTO PreguntasGyT VALUES (223, 63	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 63	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2063.png?raw=true  
 a)33
 b)31  
 c)50
 d)52
 ');
-INSERT INTO PreguntasGyT VALUES (223, 64	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 64	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2064.png?raw=true  
 a)33
 b)31  
 c)35
 d)22
 ');
-INSERT INTO PreguntasGyT VALUES (223, 65	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 65	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2065.png?raw=true  
 a)43
 b)41  
 c)40
 d)32
 ');
-INSERT INTO PreguntasGyT VALUES (223, 66	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 66	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2066.png?raw=true  
 a)143
 b)141  
 c)110
 d)132
 ');
-INSERT INTO PreguntasGyT VALUES (223, 67	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 67	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2067.png?raw=true  
 a)143
 b)141  
 c)120
 d)132
 ');
-INSERT INTO PreguntasGyT VALUES (223, 68	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 68	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2068.png?raw=true  
 a)45
 b)95  
 c)90
 d)112
 ');
-INSERT INTO PreguntasGyT VALUES (223, 69	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 69	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2069.png?raw=true  
 a)25
 b)35  
 c)24
 d)32
 ');
-INSERT INTO PreguntasGyT VALUES (223, 70	, '  ; Respuesta:
+INSERT INTO PreguntasGyT VALUES (223, 70	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2070.png?raw=true  
 a)17
 b)15  
 c)14
@@ -520,31 +520,31 @@ c)Octágono
 d)Heptágono
 ');
 
-INSERT INTO PreguntasGyT VALUES (225, 81   ,  '; Respuesta:
+INSERT INTO PreguntasGyT VALUES (225, 81   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2081.png?raw=true
 a)h=3.2m
 b)h=4.8m
 c)h=5.2m
 d)h=3.9m
 ');
-INSERT INTO PreguntasGyT VALUES (225, 82   ,  '; Respuesta:
+INSERT INTO PreguntasGyT VALUES (225, 82   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2082.png?raw=true
 a)n=1.3m, h=3.8m
 b)n=1.6m, h=1.2m
 c)n=2.3m, h=2.3m
 d)n=2.8m, h=6.5m
 ');
-INSERT INTO PreguntasGyT VALUES (225, 83   ,  '; Respuesta:
+INSERT INTO PreguntasGyT VALUES (225, 83   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2083.png?raw=true
 a)5
 b)9
 c)7
 d)8
 ');
-INSERT INTO PreguntasGyT VALUES (225, 84   ,  '; Respuesta:
+INSERT INTO PreguntasGyT VALUES (225, 84   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2084.png?raw=true
 a)(√450)
 b)(√500)
 c)(√300)
 d)(√4050)
 ');
-INSERT INTO PreguntasGyT VALUES (225, 85  ,  '; Respuesta:
+INSERT INTO PreguntasGyT VALUES (225, 85  ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2085.png?raw=true
 a)3
 b)12
 c)16
