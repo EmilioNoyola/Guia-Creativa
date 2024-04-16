@@ -29,108 +29,108 @@ CREATE TABLE PreguntasQ2(
 -- Preguntas Primer Parcial Quimica 2
 
 -- Tema 1 Nomenclatura organica
-INSERT INTO PreguntasQ2 VALUES (181,01,'¿Cuál es el nombre del compuesto químico I₂O₇? a) Dióxido de yodo b) Pentóxido de yodo c) Yoduro de dioxígeno d) Anhídrido peryódico');
-INSERT INTO PreguntasQ2 VALUES (181,02,'¿Cuál es el nombre del compuesto químico RbBr? a) Rubidio bromuro b) Bromuro de rubidio c) Rubidio bromanuro d) Bromuro de rutenio');
-INSERT INTO PreguntasQ2 VALUES (181,03,'¿Cuál es el nombre del compuesto químico Mg₃(PO₄)₂? a) Fosfato de magnesio b) Magnesio fosfato c) Fosfuro de magnesio d) Difosfato de magnesio');
-INSERT INTO PreguntasQ2 VALUES (181,04,'¿Cuál es el nombre del compuesto químico Sc(OH)₃? a) Hidróxido de escandio b) Escandio hidróxido c) Hidroxoscandio d) Escandiuro de hidrógeno');
-INSERT INTO PreguntasQ2 VALUES (181,05,'¿Cuál es el nombre del compuesto químico H₂TeO₄? a) Ácido telúrico b) Telurito de hidrógeno c) Hidróxido de telurio d) Telururo de hidrógeno');
-INSERT INTO PreguntasQ2 VALUES (181,06,'¿Cuál es el nombre del compuesto químico Y₂O₃? a) Óxido de ytrio b) Trióxido de itrio c) Óxido de yodo d) Oxígeno de ytrio');
-INSERT INTO PreguntasQ2 VALUES (181,07,'¿Cuál es el nombre del compuesto químico In₂(SO₃)₃? a) Sulfato de indio b) Sulfito de indio c) Trióxido de indio d) Sulfuroso de indio');
-INSERT INTO PreguntasQ2 VALUES (181,08,'¿Cuál es el nombre del compuesto químico Ni(HCO₃)₃? a) Bicarbonato de níquel b) Carbonato de níquel c) Hidróxido de níquel d) Hidrogenoníquel carbonoso');
-INSERT INTO PreguntasQ2 VALUES (181,09,'¿Cuál es el nombre del compuesto químico HF? a) Fluoruro de hidrógeno b) Ácido fluorhídrico c) Hidruro de flúor d) Fluorato de hidrógeno');
-INSERT INTO PreguntasQ2 VALUES (181,10,'¿Cuál es el nombre del compuesto químico Hg₂H₂? a) Dihidruro de mercurio b) Mercurio dihidruroso c) Hidrógeno de mercurio d) Hidruro de mercurio');
-INSERT INTO PreguntasQ2 VALUES (181,11,'¿Cuál es la fórmula del anhídrido peryódico? a) I₂O₇ b) IO₃ c) H₂O d) O₃');
-INSERT INTO PreguntasQ2 VALUES (181,12,'¿Cuál es la fórmula del fosfato de magnesio? a) Mg(PO₄)₂ b) Mg₃(PO₄)₂ c) Mg₂(PO₄)₃ d) Mg₃(PO₄)₃');
-INSERT INTO PreguntasQ2 VALUES (181,13,'¿Cuál es la fórmula del ácido telúrico? a) H₂TeO₄ b) HTeO₃ c) H₂Te d) H₂TeO₃');
-INSERT INTO PreguntasQ2 VALUES (181,14,'¿Cuál es la fórmula del sulfito de indio? a) In₂SO₃ b) InSO₃ c) In₂(SO₃)₃ d) In(SO₃)₃');
-INSERT INTO PreguntasQ2 VALUES (181,15,'¿Cuál es la fórmula del ácido fluorhídrico? a) HF b) H₂F c) H₃F d) H₄F₂');
-INSERT INTO PreguntasQ2 VALUES (181,16,'¿Cuál es la fórmula del bromuro de rubidio? a) RbBr b) Rb₂Br c) Rb₃Br₂ d) Rb₂Br₃');
-INSERT INTO PreguntasQ2 VALUES (181,17,'¿Cuál es la fórmula del hidróxido de escandio? a) Sc(OH)₃ b) ScH₃O c) ScOH d) ScO₂H₃');
-INSERT INTO PreguntasQ2 VALUES (181,18,'¿Cuál es la fórmula del óxido de itrio (III)? a) YO₃ b) Y₂O₃ c) YO d) Y₃O₃');
-INSERT INTO PreguntasQ2 VALUES (181,19,'¿Cuál es la fórmula del bicarbonato de níquel? a) Ni(HCO₃)₃ b) NiHCO₃ c) Ni(HCO₃)₂ d) Ni₂(HCO₃)₃');
-INSERT INTO PreguntasQ2 VALUES (181,20,'¿Cuál es la fórmula del hidruro de mercurio? a) HgH b) Hg₂H c) HgH₂ d) Hg₂H₂');
-INSERT INTO PreguntasQ2 VALUES (181,21,'¿Cuál es el nombre del compuesto químico CuCl₂? a) Cloruro de cobre (II) b) Cloruro de cobre (I) c) Cloruro cuproso d) Cloruro de cobalto');
-INSERT INTO PreguntasQ2 VALUES (181,22,'¿Cómo se llama el compuesto químico CaO? a) Óxido de calcio b) Monóxido de calcio c) Oxígeno de calcio d) Carbonato de calcio');
-INSERT INTO PreguntasQ2 VALUES (181,23,'¿Cuál es la fórmula química del cloruro de sodio? a) NaCl b) Na₂Cl c) NaCl₂ d) Na₂Cl₃');
-INSERT INTO PreguntasQ2 VALUES (181,24,'¿Cómo se llama el compuesto químico HClO₄? a) Ácido clórico b) Ácido hipocloroso c) Ácido cloroso d) Ácido perclórico');
-INSERT INTO PreguntasQ2 VALUES (181,25,'¿Cuál es el nombre del compuesto químico P₂O₅? a) Óxido de fósforo (III) b) Óxido de fósforo (IV) c) Óxido fosfórico d) Pentóxido de fósforo');
-INSERT INTO PreguntasQ2 VALUES (181,26,'¿Cuál es el nombre del compuesto químico HNO₃? a) Ácido nítrico b) Ácido nitroso c) Óxido de nitrógeno (V) d) Óxido de nitrógeno (III)');
-INSERT INTO PreguntasQ2 VALUES (181,27,'¿Cómo se llama el compuesto químico Ba(OH)₂? a) Hidróxido de bario b) Oxobario c) Hidróxido bárico d) BaO₂H');
-INSERT INTO PreguntasQ2 VALUES (181,28,'¿Cuál es la fórmula química del sulfato de calcio? a) CaSO₄ b) Ca₂SO₄ c) Ca(SO₄)₂ d) CaSO₃');
-INSERT INTO PreguntasQ2 VALUES (181,29,'¿Cómo se denomina el compuesto químico NH₄Cl? a) Cloruro de amonio b) Nitrato de amonio c) Cloruro de nitroso d) Nitrito de amonio');
-INSERT INTO PreguntasQ2 VALUES (181,30,'¿Cuál es el nombre del compuesto químico Fe₂O₃? a) Óxido de hierro (II) b) Óxido ferroso c) Trióxido de dihierro d) Óxido de hierro (III)');
-INSERT INTO PreguntasQ2 VALUES (181,31,'¿Cuál es el nombre del compuesto BaSO₄? a) Sulfato de bario b) Sulfuro de bario c) Sulfato de boro d) Sulfito de bario');
-INSERT INTO PreguntasQ2 VALUES (181,32,'¿Cómo se llama el compuesto químico LiBr? a) Bromuro de litio b) Bromato de litio c) Bromuro de litio (I) d) Bromuro de litio (II)');
-INSERT INTO PreguntasQ2 VALUES (181,33,'¿Cuál es el nombre del compuesto H₂S? a) Sulfuro de hidrógeno b) Ácido sulfhídrico c) Hidruro de azufre d) Dihidruro de azufre');
-INSERT INTO PreguntasQ2 VALUES (181,34,'¿Cómo se denomina el compuesto químico Na₂CO₃? a) Carbonato de sodio b) Dióxido de carbono c) Bicarbonato de sodio d) Carbono sódico');
-INSERT INTO PreguntasQ2 VALUES (181,35,'¿Cuál es el nombre del compuesto químico Mg(OH)₂? a) Hidróxido de magnesio b) Hidroximagnesio c) Óxido de magnesio d) Magnesio hidratado');
-INSERT INTO PreguntasQ2 VALUES (181,36,'¿Cómo se llama el compuesto químico Al(NO₃)₃? a) Nitrato de aluminio b) Aluminato de nitrógeno c) Nitrito de aluminio d) Aluminio nitrato');
-INSERT INTO PreguntasQ2 VALUES (181,37,'¿Cuál es el nombre del compuesto PbCl₂? a) Cloruro de plomo (II) b) Cloruro de plomo (I) c) Plumburo de dicloro d) Cloruro plúmbico');
-INSERT INTO PreguntasQ2 VALUES (181,38,'¿Cómo se denomina el compuesto químico K₂CrO₄? a) Cromato de potasio b) Dicromato de potasio c) Cromito de potasio d) Cromo dicromato');
-INSERT INTO PreguntasQ2 VALUES (181,39,'¿Cuál es el nombre del compuesto químico Ca(NO₃)₂? a) Nitrato de calcio b) Nitrito de calcio c) Carbonato de calcio d) Nitruro de calcio');
-INSERT INTO PreguntasQ2 VALUES (181,40,'¿Cómo se llama el compuesto químico NH₃? a) Amoniaco b) Nitrito de amonio c) Amina de hidrógeno d) Nitruro de hidrógeno');
-INSERT INTO PreguntasQ2 VALUES (181,41,'¿Cuál es el nombre del compuesto químico FeCl₃? a) Cloruro de hierro (III) b) Cloruro de hierro (II) c) Tricloruro de hierro d) Cloruro ferroso');
-INSERT INTO PreguntasQ2 VALUES (181,42,'¿Cómo se llama el compuesto químico ZnCO₃? a) Carbonato de zinc b) Cianuro de zinc c) Carbonito de zinc d) Zinc carbonoso');
-INSERT INTO PreguntasQ2 VALUES (181,43,'¿Cuál es el nombre del compuesto químico NaClO₃? a) Clorato de sodio b) Perclorato de sodio c) Hipoclorito de sodio d) Cloruro de sodio');
-INSERT INTO PreguntasQ2 VALUES (181,44,'¿Cómo se denomina el compuesto químico KBrO₄? a) Bromato de potasio b) Perbromato de potasio c) Bromuro de potasio d) Hipobromito de potasio');
-INSERT INTO PreguntasQ2 VALUES (181,45,'¿Cuál es el nombre del compuesto químico Cu(NO₃)₂? a) Nitrato de cobre (II) b) Nitrato de cobre (I) c) Nitrito de cobre (II) d) Nitrito de cobre (I)');
-INSERT INTO PreguntasQ2 VALUES (181,46,'¿Cómo se llama el compuesto químico HClO₃? a) Ácido hipocloroso b) Ácido clórico c) Ácido cloroso d) Ácido perclórico');
-INSERT INTO PreguntasQ2 VALUES (181,47,'¿Cuál es el nombre del compuesto químico Fe(OH)₃? a) Hidróxido de hierro (III) b) Hidróxido ferroso c) Hidróxido de hierro (II) d) Óxido de hierro (III) hidratado');
-INSERT INTO PreguntasQ2 VALUES (181,48,'¿Cómo se denomina el compuesto químico NH₄NO₃? a) Nitrato de amonio b) Nitrito de amonio c) Amoniuro de nitrógeno d) Amonio nitrato');
-INSERT INTO PreguntasQ2 VALUES (181,49,'¿Cuál es el nombre del compuesto químico Ba(OH)₂? a) Hidróxido de bario b) Hidróxido de bismuto c) Oxobario d) Hidróxido de berilio');
-INSERT INTO PreguntasQ2 VALUES (181,50,'¿Cómo se llama el compuesto químico MgSO₄? a) Sulfato de magnesio b) Sulfito de magnesio c) Sulfuro de magnesio d) Monosulfato de magnesio');
+INSERT INTO PreguntasQ2 VALUES (181,01,'¿Cuál es el nombre del compuesto químico I₂O₇? ');
+INSERT INTO PreguntasQ2 VALUES (181,02,'¿Cuál es el nombre del compuesto químico RbBr? ');
+INSERT INTO PreguntasQ2 VALUES (181,03,'¿Cuál es el nombre del compuesto químico Mg₃(PO₄)₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,04,'¿Cuál es el nombre del compuesto químico Sc(OH)₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,05,'¿Cuál es el nombre del compuesto químico H₂TeO₄? ');
+INSERT INTO PreguntasQ2 VALUES (181,06,'¿Cuál es el nombre del compuesto químico Y₂O₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,07,'¿Cuál es el nombre del compuesto químico In₂(SO₃)₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,08,'¿Cuál es el nombre del compuesto químico Ni(HCO₃)₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,09,'¿Cuál es el nombre del compuesto químico HF? ');
+INSERT INTO PreguntasQ2 VALUES (181,10,'¿Cuál es el nombre del compuesto químico Hg₂H₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,11,'¿Cuál es la fórmula del anhídrido peryódico? ');
+INSERT INTO PreguntasQ2 VALUES (181,12,'¿Cuál es la fórmula del fosfato de magnesio? ');
+INSERT INTO PreguntasQ2 VALUES (181,13,'¿Cuál es la fórmula del ácido telúrico?');
+INSERT INTO PreguntasQ2 VALUES (181,14,'¿Cuál es la fórmula del sulfito de indio? ');
+INSERT INTO PreguntasQ2 VALUES (181,15,'¿Cuál es la fórmula del ácido fluorhídrico? ');
+INSERT INTO PreguntasQ2 VALUES (181,16,'¿Cuál es la fórmula del bromuro de rubidio? ');
+INSERT INTO PreguntasQ2 VALUES (181,17,'¿Cuál es la fórmula del hidróxido de escandio? ');
+INSERT INTO PreguntasQ2 VALUES (181,18,'¿Cuál es la fórmula del óxido de itrio (III)? ');
+INSERT INTO PreguntasQ2 VALUES (181,19,'¿Cuál es la fórmula del bicarbonato de níquel? ');
+INSERT INTO PreguntasQ2 VALUES (181,20,'¿Cuál es la fórmula del hidruro de mercurio?');
+INSERT INTO PreguntasQ2 VALUES (181,21,'¿Cuál es el nombre del compuesto químico CuCl₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,22,'¿Cómo se llama el compuesto químico CaO? ');
+INSERT INTO PreguntasQ2 VALUES (181,23,'¿Cuál es la fórmula química del cloruro de sodio? ');
+INSERT INTO PreguntasQ2 VALUES (181,24,'¿Cómo se llama el compuesto químico HClO₄?');
+INSERT INTO PreguntasQ2 VALUES (181,25,'¿Cuál es el nombre del compuesto químico P₂O₅? ');
+INSERT INTO PreguntasQ2 VALUES (181,26,'¿Cuál es el nombre del compuesto químico HNO₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,27,'¿Cómo se llama el compuesto químico Ba(OH)₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,28,'¿Cuál es la fórmula química del sulfato de calcio? ');
+INSERT INTO PreguntasQ2 VALUES (181,29,'¿Cómo se denomina el compuesto químico NH₄Cl?');
+INSERT INTO PreguntasQ2 VALUES (181,30,'¿Cuál es el nombre del compuesto químico Fe₂O₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,31,'¿Cuál es el nombre del compuesto BaSO₄? ');
+INSERT INTO PreguntasQ2 VALUES (181,32,'¿Cómo se llama el compuesto químico LiBr? ');
+INSERT INTO PreguntasQ2 VALUES (181,33,'¿Cuál es el nombre del compuesto H₂S?');
+INSERT INTO PreguntasQ2 VALUES (181,34,'¿Cómo se denomina el compuesto químico Na₂CO₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,35,'¿Cuál es el nombre del compuesto químico Mg(OH)₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,36,'¿Cómo se llama el compuesto químico Al(NO₃)₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,37,'¿Cuál es el nombre del compuesto PbCl₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,38,'¿Cómo se denomina el compuesto químico K₂CrO₄? ');
+INSERT INTO PreguntasQ2 VALUES (181,39,'¿Cuál es el nombre del compuesto químico Ca(NO₃)₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,40,'¿Cómo se llama el compuesto químico NH₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,41,'¿Cuál es el nombre del compuesto químico FeCl₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,42,'¿Cómo se llama el compuesto químico ZnCO₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,43,'¿Cuál es el nombre del compuesto químico NaClO₃?');
+INSERT INTO PreguntasQ2 VALUES (181,44,'¿Cómo se denomina el compuesto químico KBrO₄? ');
+INSERT INTO PreguntasQ2 VALUES (181,45,'¿Cuál es el nombre del compuesto químico Cu(NO₃)₂?');
+INSERT INTO PreguntasQ2 VALUES (181,46,'¿Cómo se llama el compuesto químico HClO₃?');
+INSERT INTO PreguntasQ2 VALUES (181,47,'¿Cuál es el nombre del compuesto químico Fe(OH)₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,48,'¿Cómo se denomina el compuesto químico NH₄NO₃? ');
+INSERT INTO PreguntasQ2 VALUES (181,49,'¿Cuál es el nombre del compuesto químico Ba(OH)₂? ');
+INSERT INTO PreguntasQ2 VALUES (181,50,'¿Cómo se llama el compuesto químico MgSO₄? ');
 
 -- Tema 2 Reacciones quimicas inorganicas
-INSERT INTO PreguntasQ2 VALUES (182,51,'Para eliminar el dolor de cabeza es común ingerir una pequeña cantidad de paracetamol, lo anterior indica que al interior de nuestro organismo ocurre un(a): a) Fenómeno físico b) Perdida de masa c) Cambio de estado d) Reacción química');
-INSERT INTO PreguntasQ2 VALUES (182,52,'¿Cuáles son los números de oxidación del yodo en (IO₄)⁻¹, NAI, y KIO₃, ¿respectivamente? a) +1,+3,+5 b) -7,+5,-5 c) +7,-1,+5 d) +4,-1,+3');
-INSERT INTO PreguntasQ2 VALUES (182,53,'En la ecuación Mg + Cl₂ → MgCl₂, ¿por qué el cloro es el agente oxidante? a) Es la especie química que tiene perdida de electrones b) No se altera el número de oxidación de ningún elemento c) Provoca que el magnesio pierda electrones d) En el proceso cambia -2 a +2');
-INSERT INTO PreguntasQ2 VALUES (182,54,'El cesio en contacto con el agua da como productos: a) CsOH + H₂O b) CsO + H₂ c) Cs₂O + H₂O d) Cs₂ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,55,'El anhídrido carbónico se obtiene al hacer reaccionar a: a) CO₂ + HCl b) CO + H₂O c) CO₂ + NaOH d) CO₂ + H₂');
-INSERT INTO PreguntasQ2 VALUES (182,56,'La sal de sulfuro de estroncio e hidrógeno, son los productos que se obtienen cuando reacciona: a) SrS + H₂O b) Sr(OH)₂ + H₂S c) SrS + HCl d) SrSO₄ + H₂');
-INSERT INTO PreguntasQ2 VALUES (182,57,'Cuando se disuelve en agua para formar ácido fosfórico, el pentóxido de difósforo libera energía y produce vapores, todo lo anterior indica que ha ocurrido un(a): a) Fenómeno natural b) Reacción química c) Fenómeno físico d) Perdida de materia');
-INSERT INTO PreguntasQ2 VALUES (182,58,'La reacción entre un óxido metálico y el agua, se clasifica como de: a) Síntesis b) Simple sustitución c) Doble sustitución d) Análisis');
-INSERT INTO PreguntasQ2 VALUES (182,59,'¿Cuál de las siguientes ecuaciones representa una reacción de análisis? a) Cu(OH)₂ + H₂TeO₃ → CuTeO₃ + H₂O b) Ca + 2HI → CaI₂ + H₂ c) Mg + H₂O → Mg(OH)₂ + H₂ d) H₂O → H₂ + O₂');
-INSERT INTO PreguntasQ2 VALUES (182,60,'La ecuación: H₂SeO₄ + Ba(OH)₂ → BaSeO₄ + H₂O, se clasifica como de: a) Síntesis b) Doble sustitución c) Análisis d) Simple desplazamiento');
-INSERT INTO PreguntasQ2 VALUES (182,61,'Para obtener anhídrido arsenioso como producto, los reactivos deben ser: a) As(I) + O₂ b) H₂ + As(III) c) O₂ + As(III) d) As(V) + H₂');
-INSERT INTO PreguntasQ2 VALUES (182,62,'En una reacción, los reactivos son: hidróxido de calcio y ácido fosfórico, por lo que los productos son: a) Ca₂(PO₃)₂ + H₂O b) H₂O + Ca₃(PO₄)₂ c) CaO + H₃PO₃ d) Ca₃(PO₄)₂ + Ca(OH)₂');
-INSERT INTO PreguntasQ2 VALUES (182,63,'Cuando los productos de una reacción son hidróxido de cesio e hidrógeno. ¿Los reactantes son? a) CsOH + H₂ b) Cs + H₂O c) Cs + H₂SO₄ d) Cs + HCl');
-INSERT INTO PreguntasQ2 VALUES (182,64,'La sal que se obtiene como producto de la reacción entre el hierro (II) y el nitrógeno es: a) FeN b) Fe(NO₃)₂ c) Fe₂N d) Fe₃N₂');
-INSERT INTO PreguntasQ2 VALUES (182,65,'¿Cuál es la ecuación de la reacción para la obtención del anhídrido hipobromoso? a) 2HBr + O₂ → Br₂O b) H₂ + Br₂O → HBrO c) 2HBrO → Br₂O + H₂O d) 2Br₂ + 2O₂ → 2Br₂O');
-INSERT INTO PreguntasQ2 VALUES (182,66,'¿Qué tipo de proceso químico implica la ingesta de paracetamol para aliviar el dolor de cabeza? a) Fenómeno físico b) Pérdida de masa c) Cambio de estado d) Reacción química');
-INSERT INTO PreguntasQ2 VALUES (182,67,'¿Cuáles son los números de oxidación del azufre en SO₃, Na₂S₂O₃, y H₂SO₄, respectivamente? a) +6, -2, +6 b) +4, -2, +6 c) +4, -2, +4 d) +6, -2, +4');
-INSERT INTO PreguntasQ2 VALUES (182,68,'En la reacción N₂ + 3H₂ → 2NH₃, ¿cuál es el agente reductor? a) N₂ b) H₂ c) NH₃ d) Ninguna de las anteriores');
-INSERT INTO PreguntasQ2 VALUES (182,69,'¿Cuál es el producto de la reacción entre hidróxido de potasio y ácido clorhídrico? a) KCl b) KOH c) KClO₃ d) H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,70,'¿Qué compuesto se forma cuando el cloruro de sodio reacciona con ácido sulfúrico? a) NaClO₄ b) Na₂SO₄ c) NaHSO₄ d) Na₂S');
-INSERT INTO PreguntasQ2 VALUES (182,71,'La descomposición del peróxido de hidrógeno en agua y oxígeno es un ejemplo de: a) Fenómeno físico b) Pérdida de masa c) Cambio de estado d) Reacción química');
-INSERT INTO PreguntasQ2 VALUES (182,72,'¿Qué tipo de reacción química se produce cuando se mezcla hidróxido de calcio con ácido clorhídrico? a) Síntesis b) Descomposición c) Doble sustitución d) Simple sustitución');
-INSERT INTO PreguntasQ2 VALUES (182,73,'¿Cuál es el reactivo limitante en la reacción: 2H₂ + O₂ → 2H₂O? a) H₂ b) O₂ c) H₂O d) Ninguno, no hay reactivo limitante');
-INSERT INTO PreguntasQ2 VALUES (182,74,'¿Qué tipo de reacción química ocurre cuando se calienta el carbonato de calcio para producir óxido de calcio y dióxido de carbono? a) Síntesis b) Descomposición c) Doble sustitución d) Simple sustitución');
-INSERT INTO PreguntasQ2 VALUES (182,75,'¿Qué se forma cuando el hidróxido de aluminio reacciona con ácido clorhídrico? a) AlCl₃ b) Al(OH)₃ c) AlCl₃ + H₂O d) Al₂O₃ + HCl');
-INSERT INTO PreguntasQ2 VALUES (182,76,'¿Cuál es la ecuación de la reacción entre el ácido nítrico y el hidróxido de sodio? a) HNO₃ + NaOH → NaNO₃ + H₂O b) HNO₃ + NaOH → NaNO₂ + H₂O c) HNO₂ + NaOH → NaNO₃ + H₂O d) HNO₂ + NaOH → NaNO₂ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,77,'¿Cuál es el producto de la reacción entre ácido sulfúrico y carbonato de sodio? a) NaHSO₄ + CO₂ + H₂O b) Na₂SO₄ + CO₂ + H₂O c) NaHSO₄ + CO₃ + H₂O d) Na₂SO₄ + CO₃ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,78,'¿Qué se forma cuando el sulfuro de zinc reacciona con ácido clorhídrico? a) ZnCl₂ + H₂ b) ZnS + HCl c) ZnCl₄ + H₂S d) ZnCl₂ + H₂S');
-INSERT INTO PreguntasQ2 VALUES (182,79,'¿Cuál es el producto de la reacción entre el ácido clorhídrico y el carbonato de calcio? a) CaCl₂ + CO₂ + H₂O b) CaCl₂ + CO₃ + H₂O c) CaCl₂ + CO₂ + H₂SO₄ d) CaCl₃ + CO₂ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,80,'¿Cuál es el reactivo en exceso en la reacción: 2H₂ + O₂ → 2H₂O? a) H₂ b) O₂ c) H₂O d) Ninguno, no hay reactivo en exceso');
-INSERT INTO PreguntasQ2 VALUES (182,81,'¿Qué se forma cuando el ácido sulfúrico reacciona con el hidróxido de potasio? a) KHSO₄ + H₂O b) K₂SO₄ + H₂O c) KHSO₃ + H₂O d) K₂SO₃ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,82,'¿Cuál es el producto de la reacción entre el cloruro de sodio y el ácido nítrico? a) NaNO₃ + HCl b) NaCl + HNO₃ c) NaNO₂ + HCl d) NaClO₃ + HNO₂');
-INSERT INTO PreguntasQ2 VALUES (182,83,'¿Qué tipo de reacción química es la combustión del propano? a) Síntesis b) Descomposición c) Doble sustitución d) Combustión');
-INSERT INTO PreguntasQ2 VALUES (182,84,'¿Cuál es el reactivo limitante en la reacción: Fe + 2HCl → FeCl₂ + H₂? a) Fe b) HCl c) FeCl₂ d) H₂');
-INSERT INTO PreguntasQ2 VALUES (182,85,'¿Qué se forma cuando el hidróxido de calcio reacciona con el ácido nítrico? a) Ca(NO₃)₂ + H₂O b) Ca(NO₃)₂ + HCl c) Ca(NO₂)₂ + H₂O d) Ca(NO₃)₂ + HNO₃');
-INSERT INTO PreguntasQ2 VALUES (182,86,'¿Cuál es el producto de la reacción entre el ácido sulfúrico y el carbonato de calcio? a) CaSO₄ + CO₂ + H₂O b) CaSO₃ + CO₂ + H₂O c) CaSO₄ + CO₃ + H₂O d) CaSO₃ + CO₃ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,87,'¿Qué se forma cuando el hidróxido de sodio reacciona con el ácido clorhídrico? a) NaCl + H₂O b) NaOH + HCl c) NaClO + H₂ d) NaCl₂ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,88,'¿Cuál es el reactivo en exceso en la reacción: 2Na + Cl₂ → 2NaCl? a) Na b) Cl₂ c) NaCl d) Ninguno, no hay reactivo en exceso');
-INSERT INTO PreguntasQ2 VALUES (182,89,'¿Qué tipo de reacción química es la formación de ácido clorhídrico a partir de cloro y agua? a) Síntesis b) Descomposición c) Doble sustitución d) Simple sustitución');
-INSERT INTO PreguntasQ2 VALUES (182,90,'¿Cuál es el reactivo limitante en la reacción: 2H₂ + O₂ → 2H₂O? a) H₂ b) O₂ c) H₂O d) Ninguno, no hay reactivo limitante');
-INSERT INTO PreguntasQ2 VALUES (182,91,'¿Qué se forma cuando el hidróxido de calcio reacciona con el ácido sulfúrico? a) CaSO₄ + H₂O b) CaSO₃ + H₂O c) CaSO₄ + H₂SO₄ d) CaSO₃ + H₂SO₄');
-INSERT INTO PreguntasQ2 VALUES (182,92,'¿Cuál es el producto de la reacción entre el ácido clorhídrico y el carbonato de sodio? a) NaCl + CO₂ + H₂O b) NaClO₃ + CO₂ + H₂O c) NaClO₂ + CO₂ + H₂O d) NaCl + CO₃ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,93,'¿Qué se forma cuando el sulfuro de zinc reacciona con ácido sulfúrico? a) ZnSO₄ + H₂S b) ZnS + H₂SO₄ c) ZnSO₄ + HCl d) ZnS + HCl');
-INSERT INTO PreguntasQ2 VALUES (182,94,'¿Cuál es el producto de la reacción entre el ácido clorhídrico y el hidróxido de potasio? a) KCl + H₂O b) KClO₃ + H₂O c) KCl + H₂SO₄ d) KClO₃ + HCl');
-INSERT INTO PreguntasQ2 VALUES (182,95,'¿Qué se forma cuando el hidróxido de aluminio reacciona con ácido sulfúrico? a) Al₂(SO₄)₃ + H₂O b) Al(OH)₃ + H₂SO₄ c) Al₂(SO₃)₃ + H₂O d) Al(OH)₃ + H₂SO₃');
-INSERT INTO PreguntasQ2 VALUES (182,96,'¿Cuál es el reactivo en exceso en la reacción: 2H₂ + O₂ → 2H₂O? a) H₂ b) O₂ c) H₂O d) Ninguno, no hay reactivo en exceso');
-INSERT INTO PreguntasQ2 VALUES (182,97,'¿Qué tipo de reacción química es la formación de amoniaco a partir de nitrógeno e hidrógeno? a) Síntesis b) Descomposición c) Doble sustitución d) Simple sustitución');
-INSERT INTO PreguntasQ2 VALUES (182,98,'¿Cuál es el reactivo limitante en la reacción: 2H₂ + O₂ → 2H₂O? a) H₂ b) O₂ c) H₂O d) Ninguno, no hay reactivo limitante');
-INSERT INTO PreguntasQ2 VALUES (182,99,'¿Qué se forma cuando el ácido sulfúrico reacciona con el hidróxido de potasio? a) KHSO₄ + H₂O b) K₂SO₄ + H₂O c) KHSO₃ + H₂O d) K₂SO₃ + H₂O');
-INSERT INTO PreguntasQ2 VALUES (182,100,'¿Cuál es el producto de la reacción entre el cloruro de sodio y el ácido nítrico? a) NaNO₃ + HCl b) NaCl + HNO₃ c) NaNO₂ + HCl d) NaClO₃ + HNO₂');
+INSERT INTO PreguntasQ2 VALUES (182,51,'Para eliminar el dolor de cabeza es común ingerir una pequeña cantidad de paracetamol, lo anterior indica que al interior de nuestro organismo ocurre un(a): ');
+INSERT INTO PreguntasQ2 VALUES (182,52,'¿Cuáles son los números de oxidación del yodo en (IO₄)⁻¹, NAI, y KIO₃, ¿respectivamente? ');
+INSERT INTO PreguntasQ2 VALUES (182,53,'En la ecuación Mg + Cl₂ → MgCl₂, ¿por qué el cloro es el agente oxidante? ');
+INSERT INTO PreguntasQ2 VALUES (182,54,'El cesio en contacto con el agua da como productos:');
+INSERT INTO PreguntasQ2 VALUES (182,55,'El anhídrido carbónico se obtiene al hacer reaccionar ');
+INSERT INTO PreguntasQ2 VALUES (182,56,'La sal de sulfuro de estroncio e hidrógeno, son los productos que se obtienen cuando reacciona: ');
+INSERT INTO PreguntasQ2 VALUES (182,57,'Cuando se disuelve en agua para formar ácido fosfórico, el pentóxido de difósforo libera energía y produce vapores, todo lo anterior indica que ha ocurrido un(a): ');
+INSERT INTO PreguntasQ2 VALUES (182,58,'La reacción entre un óxido metálico y el agua, se clasifica como de: ');
+INSERT INTO PreguntasQ2 VALUES (182,59,'¿Cuál de las siguientes ecuaciones representa una reacción de análisis? ');
+INSERT INTO PreguntasQ2 VALUES (182,60,'La ecuación: H₂SeO₄ + Ba(OH)₂ → BaSeO₄ + H₂O, se clasifica como de: ');
+INSERT INTO PreguntasQ2 VALUES (182,61,'Para obtener anhídrido arsenioso como producto, los reactivos deben ser:');
+INSERT INTO PreguntasQ2 VALUES (182,62,'En una reacción, los reactivos son: hidróxido de calcio y ácido fosfórico, por lo que los productos son: ');
+INSERT INTO PreguntasQ2 VALUES (182,63,'Cuando los productos de una reacción son hidróxido de cesio e hidrógeno. ¿Los reactantes son? ');
+INSERT INTO PreguntasQ2 VALUES (182,64,'La sal que se obtiene como producto de la reacción entre el hierro (II) y el nitrógeno es: ');
+INSERT INTO PreguntasQ2 VALUES (182,65,'¿Cuál es la ecuación de la reacción para la obtención del anhídrido hipobromoso?');
+INSERT INTO PreguntasQ2 VALUES (182,66,'¿Qué tipo de proceso químico implica la ingesta de paracetamol para aliviar el dolor de cabeza? ');
+INSERT INTO PreguntasQ2 VALUES (182,67,'¿Cuáles son los números de oxidación del azufre en SO₃, Na₂S₂O₃, y H₂SO₄, respectivamente? ');
+INSERT INTO PreguntasQ2 VALUES (182,68,'En la reacción N₂ + 3H₂ → 2NH₃, ¿cuál es el agente reductor? ');
+INSERT INTO PreguntasQ2 VALUES (182,69,'¿Cuál es el producto de la reacción entre hidróxido de potasio y ácido clorhídrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,70,'¿Qué compuesto se forma cuando el cloruro de sodio reacciona con ácido sulfúrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,71,'La descomposición del peróxido de hidrógeno en agua y oxígeno es un ejemplo de: ');
+INSERT INTO PreguntasQ2 VALUES (182,72,'¿Qué tipo de reacción química se produce cuando se mezcla hidróxido de calcio con ácido clorhídrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,73,'¿Cuál es el reactivo limitante en la reacción: 2H₂ + O₂ → 2H₂O? ');
+INSERT INTO PreguntasQ2 VALUES (182,74,'¿Qué tipo de reacción química ocurre cuando se calienta el carbonato de calcio para producir óxido de calcio y dióxido de carbono? ');
+INSERT INTO PreguntasQ2 VALUES (182,75,'¿Qué se forma cuando el hidróxido de aluminio reacciona con ácido clorhídrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,76,'¿Cuál es la ecuación de la reacción entre el ácido nítrico y el hidróxido de sodio? ');
+INSERT INTO PreguntasQ2 VALUES (182,77,'¿Cuál es el producto de la reacción entre ácido sulfúrico y carbonato de sodio? ');
+INSERT INTO PreguntasQ2 VALUES (182,78,'¿Qué se forma cuando el sulfuro de zinc reacciona con ácido clorhídrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,79,'¿Cuál es el producto de la reacción entre el ácido clorhídrico y el carbonato de calcio? ');
+INSERT INTO PreguntasQ2 VALUES (182,80,'¿Cuál es el reactivo en exceso en la reacción: 2H₂ + O₂ → 2H₂O? ');
+INSERT INTO PreguntasQ2 VALUES (182,81,'¿Qué se forma cuando el ácido sulfúrico reacciona con el hidróxido de potasio? ');
+INSERT INTO PreguntasQ2 VALUES (182,82,'¿Cuál es el producto de la reacción entre el cloruro de sodio y el ácido nítrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,83,'¿Qué tipo de reacción química es la combustión del propano?');
+INSERT INTO PreguntasQ2 VALUES (182,84,'¿Cuál es el reactivo limitante en la reacción: Fe + 2HCl → FeCl₂ + H₂? ');
+INSERT INTO PreguntasQ2 VALUES (182,85,'¿Qué se forma cuando el hidróxido de calcio reacciona con el ácido nítrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,86,'¿Cuál es el producto de la reacción entre el ácido sulfúrico y el carbonato de calcio? ');
+INSERT INTO PreguntasQ2 VALUES (182,87,'¿Qué se forma cuando el hidróxido de sodio reacciona con el ácido clorhídrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,88,'¿Cuál es el reactivo en exceso en la reacción: 2Na + Cl₂ → 2NaCl? ');
+INSERT INTO PreguntasQ2 VALUES (182,89,'¿Qué tipo de reacción química es la formación de ácido clorhídrico a partir de cloro y agua? ');
+INSERT INTO PreguntasQ2 VALUES (182,90,'¿Cuál es el reactivo limitante en la reacción: 2H₂ + O₂ → 2H₂O? ');
+INSERT INTO PreguntasQ2 VALUES (182,91,'¿Qué se forma cuando el hidróxido de calcio reacciona con el ácido sulfúrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,92,'¿Cuál es el producto de la reacción entre el ácido clorhídrico y el carbonato de sodio? ');
+INSERT INTO PreguntasQ2 VALUES (182,93,'¿Qué se forma cuando el sulfuro de zinc reacciona con ácido sulfúrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,94,'¿Cuál es el producto de la reacción entre el ácido clorhídrico y el hidróxido de potasio? ');
+INSERT INTO PreguntasQ2 VALUES (182,95,'¿Qué se forma cuando el hidróxido de aluminio reacciona con ácido sulfúrico? ');
+INSERT INTO PreguntasQ2 VALUES (182,96,'¿Cuál es el reactivo en exceso en la reacción: 2H₂ + O₂ → 2H₂O? ');
+INSERT INTO PreguntasQ2 VALUES (182,97,'¿Qué tipo de reacción química es la formación de amoniaco a partir de nitrógeno e hidrógeno? ');
+INSERT INTO PreguntasQ2 VALUES (182,98,'¿Cuál es el reactivo limitante en la reacción: 2H₂ + O₂ → 2H₂O? ');
+INSERT INTO PreguntasQ2 VALUES (182,99,'¿Qué se forma cuando el ácido sulfúrico reacciona con el hidróxido de potasio? ');
+INSERT INTO PreguntasQ2 VALUES (182,100,'¿Cuál es el producto de la reacción entre el cloruro de sodio y el ácido nítrico? ');
 
 -- Tema 3 Balanceo de ecuaciones quimicas
 INSERT INTO PreguntasQ2 VALUES (183,101,'La ecuación química: 2FeCl₂ + Cl₂ → 2FeCl₃ , se dice que está balanceada debido a que: a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.');
@@ -561,67 +561,67 @@ d) Octaédrica');
 -- Preguntas tercer parcial Quimica 2
 
 -- Tema 1 Ejercicios de nomenclatura y aplicación de compuestos orgánicos
-INSERT INTO PreguntasQ2 VALUES (381, 261, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-1.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 261, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-1.png?raw=true
 a) 4-etil-2,4,5-trimetil-6—isopropil nonano
 b) 6-etil-4-propil-5,6,8-trimetilnonano 
 c) 4-isopropil-5,6,8-trimetil-t-etilnonano 
 d) 2,4,5-trimetil-6-isopropil-4-etilnonano');
 
-INSERT INTO PreguntasQ2 VALUES (381, 262, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-2.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 262, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-2.png?raw=true
 a) 5,6,7-trimetil-3-propil-3-isopropil-1-octeno
 b) 6-etil-5,6-dimetil-3-propil-3-isopropil-2-hepteno
 c) 5-metil-3,3,6-triisopropil-1-hepteno
 d) 5-metil-3,3,6-tripropil-1-hepteno');
 
-INSERT INTO PreguntasQ2 VALUES (381, 263, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-3.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 263, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-3.png?raw=true
 a) 3,6,6,7,8 — pentametil — 5 — propil — 7- isopropil nonino
 b) 7 — etil — — pentemetil — 5- propil — 2- decino
 c) 7 — etil — — pentametil — 5- propil — 2- nonino
 d) 1 — hexametil — 5 — propil — 7- isopropil octino');
 
-INSERT INTO PreguntasQ2 VALUES (381, 264, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-4.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 264, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-4.png?raw=true
 a) 1 — metil —4 — etii cicloheptano
 b) 1 — metil — 5 — etil cicloheptano
 c) 1 etil —4 — metil cicloheptano
 d) 1--etil—5--metil cicloheptano');
 
-INSERT INTO PreguntasQ2 VALUES (381, 265, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-5.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 265, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-5.png?raw=true
 a) 3,4 — dimetil ciclopenteno
 b) 3 metil — 4 — etil ciclopenteno
 c) 1,2 — dimetil — 3- ciclcpenteno
 d) 1,2 — dimetil — 4- ciclopenteno');
 
-INSERT INTO PreguntasQ2 VALUES (381, 266, 'El nombre trivial del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-6.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 266, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-6.png?raw=true
 a) Alcohol terpropílico
 b) Alcohol isobutílico
 c) Alchol terbutílico
 d) Alcohol isopropílico');
 
-INSERT INTO PreguntasQ2 VALUES (381, 267, 'El nombre trivial del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-7.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 267, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-7.png?raw=true
 a) Ácido acético
 b) Ácido valerico
 c) Ácido fórmico
 d) Ácido butírico');
 
-INSERT INTO PreguntasQ2 VALUES (381, 268, 'El nombre trivial del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-8.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 268, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-8.png?raw=true
 a) Butiraldehido
 b) Propinoaldehido
 c) Valeraldehido
 d) Acetaldehido');
 
-INSERT INTO PreguntasQ2 VALUES (381, 269, 'La función química del siguiente compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-9.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 269, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-9.png?raw=true
 a) Ácido carboxilico
 b) COOH
 c) Ester
 d) COO');
 
-INSERT INTO PreguntasQ2 VALUES (381, 270, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-10.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 270, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-10.png?raw=true
 a) 8 -- etil — 2, 3,4 — trimetil — 3 — aminodecano
 b) 6--etil — 2 — (metilisopropilamino)octano
 c) 3 — eti — 7 — (metilsopropilamida)octano
 d) 6 — etil — 2 — amino — 2 — metilisopropiloctano');
 
-INSERT INTO PreguntasQ2 VALUES (381, 271, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-11.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 271, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-11.png?raw=true
 a) 3,3,6--trimetil — 5 — terpentil — heptanona
 b) 2,5,5--trimetil — 3 — terpentilheptanona
 c) 3,3,6—trimetil—5--terpentoxiheptano
@@ -630,25 +630,25 @@ d) 2,5,5—trimetil—3--terpentoxiheptano');
 INSERT INTO PreguntasQ2 VALUES (381, 272, 'Cuál es la fórmula semidesarrollada del: 4-metil-2-aminohexano
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-12.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 273, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-13.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 273, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-13.png?raw=true
 a) 4—etil pentamina
 b) 2—etil pentanoamina
 c) 6,6,2—etil pentanoamina
 d) 4-etil pentanoamina');
 
-INSERT INTO PreguntasQ2 VALUES (381, 274, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-14.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 274, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-14.png?raw=true
 a) 4—propil pentanato de estaño II
 b) 2—propil pentantato de estaño
 c) 2—propil pentanato de estaño II
 d) 4—propil pentanato de estaño');
 
-INSERT INTO PreguntasQ2 VALUES (381, 275, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-15.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 275, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-15.png?raw=true
 a) 2,2—dimetil—4—acido heptanico
 b) 4,4—dimetil—2—acido pentanoico
 c) Acido 4,4—dimetil—2—propil pentanoico
 d) Acido 2,2—dimetil—2—propil heptanico');
 
-INSERT INTO PreguntasQ2 VALUES (381, 276, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-16.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 276, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-16.png?raw=true
 a) 6—etil—6—metil—8—prupil—8-octil-octanol
 b) 3,6,6,8—etil—4—isopropil-octanol
 c) 4—etil—8—tetrametil—4—propil—octanol 
@@ -657,7 +657,7 @@ d) 3,4,4,8—tetrametil—6—isopropil—tridecanal');
 INSERT INTO PreguntasQ2 VALUES (381, 277, '¿Cuál de los siguientes ejemplos corresponde a un hidrocarburo?
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-17.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 278, '¿Cuál es el nombre del siguiente compuesto? https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-18.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 278, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-18.png?raw=true
 a) Tetrapentacosano
 b) Heptatetracontano
 c) Pentatetracontano
@@ -666,7 +666,7 @@ d) Tetraheptacosano');
 INSERT INTO PreguntasQ2 VALUES (381, 279, '¿Con cual de los siguientes compuestos se podrá formar el terbutilo, al eliminar un hidrogeno?
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-19.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 280, 'El nombre correcto del siguiente compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-20.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 280, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-20.png?raw=true
 a) 2—etil—4—metil—1-hexeno
 b) 5—etil—2—metil-hexeno
 c) 2,4,dietil—1-penteno
@@ -675,9 +675,9 @@ d) 5—etil—2—metil—5-hexeno');
 INSERT INTO PreguntasQ2 VALUES (381, 281, 'La fórmula semidesarrollada del 8-etil-3-metil-4-isopropil-5-decano:
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-21.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 282, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-22.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 282, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-22.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 283, 'El nombre del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-23.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 283, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-23.png?raw=true
 a) 2,3—dimetil,5,propil—6-octino
 b) 4—butil—6—isopropil-heptino
 c) 4-butil-6-isopropil-2-heptino
@@ -689,13 +689,13 @@ https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/
 INSERT INTO PreguntasQ2 VALUES (381, 285, 'La formula semidesarrollada del compuesto 2,3,4-trimetil-2-etoxi-hexano es:
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-25.png?raw=true');
 
-INSERT INTO PreguntasQ2 VALUES (381, 286, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-26.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 286, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-26.png?raw=true
 a) 3,5—dimetil—3,7—diisopropil—5--nonanol
 b) 3,7—dietil—2,3,5,8—tetrametil—5--nonanol
 c) 3—etil—2,5,7—trimetil—5--nonanol
 d) 3,7—dietil—2,5,7,8—tetrametil—5--nonanol');
 
-INSERT INTO PreguntasQ2 VALUES (381, 287, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-27.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 287, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-27.png?raw=true
 a) 3—etil—3,5—dimetil--heptanol
 b) 5—etil—5,4—dimetil—hoctanol 
 c) 2—etil—3,4—dimetil--heptanol
@@ -710,7 +710,7 @@ b) HCOOH
 c) CHOOH
 d) COHHO');
 
-INSERT INTO PreguntasQ2 VALUES (381, 290, 'El nombre sistemático del compuesto es: https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-30.png?raw=true
+INSERT INTO PreguntasQ2 VALUES (381, 290, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-30.png?raw=true
 a) Acido formico metilico
 b) Metilformiato
 c) Ester metanoico etilico
@@ -1318,6 +1318,165 @@ a) Propanona
 b) Butanona
 c) Propanal
 d) Butanal');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Creacion de Tablal para los incisos Quimica 2
+
+CREATE TABLE Incisos_Q2( 
+		ID_PreguntaQ2 INTEGER NOT NULL,
+		ID_Incisos_Q2 INTEGER NOT NULL,
+		Inciso_A VARCHAR(300) NOT NULL,
+		Inciso_B VARCHAR(300) NOT NULL,
+		Inciso_C VARCHAR(300) NOT NULL,
+		Inciso_D VARCHAR(300) NOT NULL,
+		PRIMARY KEY(ID_Incisos_Q2),
+		FOREIGN KEY(ID_PreguntaQ2)
+		REFERENCES PreguntasQ2(ID_PreguntaQ2)
+		);
+		
+INSERT INTO Incisos_Q2 VALUES 
+
+--Incicos Parcial 1
+
+--Incisos Tema 1
+(01, 11, "a) Dióxido de yodo", "b) Pentóxido de yodo", "c) Yoduro de dioxígeno", "d) Anhídrido peryódico"),
+(02, 12, "a) Rubidio bromuro", "b) Bromuro de rubidio", "c) Rubidio bromanuro", "d) Bromuro de rutenio"),
+(03, 13, "a) Fosfato de magnesio", "b) Magnesio fosfato", "c) Fosfuro de magnesio", "d) Difosfato de magnesio"),
+(04, 14, "a) Hidróxido de escandio", "b) Escandio hidróxido", "c) Hidroxoscandio", "d) Escandiuro de hidrógeno"),
+(05, 15, "a) Ácido telúrico", "b) Telurito de hidrógeno", "c) Hidróxido de telurio", "d) Telururo de hidrógeno"),
+(06, 16, "a) Óxido de ytrio", "b) Trióxido de itrio", "c) Óxido de yodo", "d) Oxígeno de ytrio"),
+(07, 17, "a) Sulfato de indio", "b) Sulfito de indio", "c) Trióxido de indio", "d) Sulfuroso de indio"),
+(08, 18, "a) Bicarbonato de níquel", "b) Carbonato de níquel", "c) Hidróxido de níquel", "d) Hidrogenoníquel carbonoso"),
+(09, 19, "a) Fluoruro de hidrógeno", "b) Ácido fluorhídrico", "c) Hidruro de flúor", "d) Fluorato de hidrógeno"),
+(10, 20, "a) Dihidruro de mercurio", "b) Mercurio dihidruroso", "c) Hidrógeno de mercurio", "d) Hidruro de mercurio"),
+(11, 21, 'a) I₂O₇ b) IO₃ c) H₂O d) O₃'),
+(12, 22, 'a) Mg(PO₄)₂ b) Mg₃(PO₄)₂ c) Mg₂(PO₄)₃ d) Mg₃(PO₄)₃'),
+(13, 23, 'a) H₂TeO₄ b) HTeO₃ c) H₂Te d) H₂TeO₃'),
+(14, 24, 'a) In₂SO₃ b) InSO₃ c) In₂(SO₃)₃ d) In(SO₃)₃'),
+(15, 25, 'a) HF b) H₂F c) H₃F d) H₄F₂'),
+(16, 26, 'a) RbBr b) Rb₂Br c) Rb₃Br₂ d) Rb₂Br₃'),
+(17, 27, 'a) Sc(OH)₃ b) ScH₃O c) ScOH d) ScO₂H₃'),
+(18, 28, 'a) YO₃ b) Y₂O₃ c) YO d) Y₃O₃'),
+(19, 29, 'a) Ni(HCO₃)₃ b) NiHCO₃ c) Ni(HCO₃)₂ d) Ni₂(HCO₃)₃'),
+(20, 30, 'a) HgH b) Hg₂H c) HgH₂ d) Hg₂H₂'),
+(21, 31, 'a) Cloruro de cobre (II) b) Cloruro de cobre (I) c) Cloruro cuproso d) Cloruro de cobalto'),
+(22, 32, 'a) Óxido de calcio b) Monóxido de calcio c) Oxígeno de calcio d) Carbonato de calcio'),
+(23, 33, 'a) NaCl b) Na₂Cl c) NaCl₂ d) Na₂Cl₃'),
+(24, 34, 'a) Ácido clórico b) Ácido hipocloroso c) Ácido cloroso d) Ácido perclórico'),
+(25, 35, 'a) Óxido de fósforo (III) b) Óxido de fósforo (IV) c) Óxido fosfórico d) Pentóxido de fósforo'),
+(26, 36, 'a) Ácido nítrico b) Ácido nitroso c) Óxido de nitrógeno (V) d) Óxido de nitrógeno (III)'),
+(27, 37, 'a) Hidróxido de bario b) Oxobario c) Hidróxido bárico d) BaO₂H'),
+(28, 38, 'a) CaSO₄ b) Ca₂SO₄ c) Ca(SO₄)₂ d) CaSO₃'),
+(29, 39, 'a) Cloruro de amonio b) Nitrato de amonio c) Cloruro de nitroso d) Nitrito de amonio'),
+(30, 40, 'a) Óxido de hierro (II) b) Óxido ferroso c) Trióxido de dihierro d) Óxido de hierro (III)'),
+(31, 41, 'a) Sulfato de bario b) Sulfuro de bario c) Sulfato de boro d) Sulfito de bario'),
+(32, 42, 'a) Bromuro de litio b) Bromato de litio c) Bromuro de litio (I) d) Bromuro de litio (II)'),
+(33, 43, 'a) Sulfuro de hidrógeno b) Ácido sulfhídrico c) Hidruro de azufre d) Dihidruro de azufre'),
+(34, 44, 'a) Carbonato de sodio b) Dióxido de carbono c) Bicarbonato de sodio d) Carbono sódico'),
+(35, 45, 'a) Hidróxido de magnesio b) Hidroximagnesio c) Óxido de magnesio d) Magnesio hidratado'),
+(36, 46, 'a) Nitrato de aluminio b) Aluminato de nitrógeno c) Nitrito de aluminio d) Aluminio nitrato'),
+(37, 47, 'a) Cloruro de plomo (II) b) Cloruro de plomo (I) c) Plumburo de dicloro d) Cloruro plúmbico'),
+(38, 48, 'a) Cromato de potasio b) Dicromato de potasio c) Cromito de potasio d) Cromo dicromato'),
+(39, 49, 'a) Nitrato de calcio b) Nitrito de calcio c) Carbonato de calcio d) Nitruro de calcio'),
+(40, 50, 'a) Amoniaco b) Nitrito de amonio c) Amina de hidrógeno d) Nitruro de hidrógeno'),
+(41, 51, 'a) Cloruro de hierro (III) b) Cloruro de hierro (II) c) Tricloruro de hierro d) Cloruro ferroso'),
+(42, 52, 'a) Carbonato de zinc b) Cianuro de zinc c) Carbonito de zinc d) Zinc carbonoso'),
+(43, 53, 'a) Clorato de sodio b) Perclorato de sodio c) Hipoclorito de sodio d) Cloruro de sodio'),
+(44, 54, 'a) Bromato de potasio b) Perbromato de potasio c) Bromuro de potasio d) Hipobromito de potasio'),
+(45, 55, 'a) Nitrato de cobre (II) b) Nitrato de cobre (I) c) Nitrito de cobre (II) d) Nitrito de cobre (I)'),
+(46, 56, 'a) Ácido hipocloroso b) Ácido clórico c) Ácido cloroso d) Ácido perclórico'),
+(47, 57, 'a) Hidróxido de hierro (III) b) Hidróxido ferroso c) Hidróxido de hierro (II) d) Óxido de hierro (III) hidratado'),
+(48, 58, 'a) Nitrato de amonio b) Nitrito de amonio c) Amoniuro de nitrógeno d) Amonio nitrato'),
+(49, 59, 'a) Hidróxido de bario b) Hidróxido de bismuto c) Oxobario d) Hidróxido de berilio'),
+(50, 60, 'a) Sulfato de magnesio b) Sulfito de magnesio c) Sulfuro de magnesio d) Monosulfato de magnesio'),
+
+--Incisos Tema 2
+
+(51, 61, 'a) Fenómeno físico, b) Pérdida de masa, c) Cambio de estado, d) Reacción química'),
+(52, 62, 'a) +1,+3,+5, b) -7,+5,-5, c) +7,-1,+5, d) +4,-1,+3'),
+(53, 63, 'a) Es la especie química que tiene perdida de electrones, b) No se altera el número de oxidación de ningún elemento, c) Provoca que el magnesio pierda electrones, d) En el proceso cambia -2 a +2'),
+(54, 64, 'a) CsOH + H₂O, b) CsO + H₂, c) Cs₂O + H₂O, d) Cs₂ + H₂O'),
+(55, 65, 'a) CO₂ + HCl, b) CO + H₂O, c) CO₂ + NaOH, d) CO₂ + H₂'),
+(56, 66, 'a) SrS + H₂O, b) Sr(OH)₂ + H₂S, c) SrS + HCl, d) SrSO₄ + H₂'),
+(57, 67, 'a) Fenómeno natural, b) Reacción química, c) Fenómeno físico, d) Perdida de materia'),
+(58, 68, 'a) Síntesis, b) Simple sustitución, c) Doble sustitución, d) Análisis'),
+(59, 69, 'a) Cu(OH)₂ + H₂TeO₃ → CuTeO₃ + H₂O, b) Ca + 2HI → CaI₂ + H₂, c) Mg + H₂O → Mg(OH)₂ + H₂, d) H₂O → H₂ + O₂'),
+(60, 70, 'a) Síntesis, b) Doble sustitución, c) Análisis, d) Simple desplazamiento'),
+(61, 71, 'a) As(I) + O₂, b) H₂ + As(III), c) O₂ + As(III), d) As(V) + H₂'),
+(62, 72, 'a) Ca₂(PO₃)₂ + H₂O, b) H₂O + Ca₃(PO₄)₂, c) CaO + H₃PO₃, d) Ca₃(PO₄)₂ + Ca(OH)₂'),
+(63, 73, 'a) CsOH + H₂, b) Cs + H₂O, c) Cs + H₂SO₄, d) Cs + HCl'),
+(64, 74, 'a) FeN, b) Fe(NO₃)₂, c) Fe₂N, d) Fe₃N₂'),
+(65, 75, 'a) 2HBr + O₂ → Br₂O, b) H₂ + Br₂O → HBrO, c) 2HBrO → Br₂O + H₂O, d) 2Br₂ + 2O₂ → 2Br₂O'),
+(66, 76, 'a) Fenómeno físico, b) Pérdida de masa, c) Cambio de estado, d) Reacción química'),
+(67, 77, 'a) +6, -2, +6, b) +4, -2, +6, c) +4, -2, +4, d) +6, -2, +4'),
+(68, 78, 'a) N₂, b) H₂, c) NH₃, d) Ninguna de las anteriores'),
+(69, 79, 'a) KCl, b) KOH, c) KClO₃, d) H₂O'),
+(70, 80, 'a) NaClO₄, b) Na₂SO₄, c) NaHSO₄, d) Na₂S'),
+(71, 81, 'a) Fenómeno físico, b) Pérdida de masa, c) Cambio de estado, d) Reacción química'),
+(72, 82, 'a) Síntesis, b) Descomposición, c) Doble sustitución, d) Simple sustitución'),
+(73, 83, 'a) H₂, b) O₂, c) H₂O, d) Ninguno, no hay reactivo limitante'),
+(74, 84, 'a) Síntesis, b) Descomposición, c) Doble sustitución, d) Simple sustitución'),
+(75, 85, 'a) AlCl₃, b) Al(OH)₃, c) AlCl₃ + H₂O, d) Al₂O₃ + HCl'),
+(76, 86, 'a) HNO₃ + NaOH → NaNO₃ + H₂O, b) HNO₃ + NaOH → NaNO₂ + H₂O, c) HNO₂ + NaOH → NaNO₃ + H₂O, d) HNO₂ + NaOH → NaNO₂ + H₂O'),
+(77, 87, 'a) NaHSO₄ + CO₂ + H₂O, b) Na₂SO₄ + CO₂ + H₂O, c) NaHSO₄ + CO₃ + H₂O, d) Na₂SO₄ + CO₃ + H₂O'),
+(78, 88, 'a) ZnCl₂ + H₂, b) ZnS + HCl, c) ZnCl₄ + H₂S, d) ZnCl₂ + H₂S'),
+(79, 89, 'a) CaCl₂ + CO₂ + H₂O, b) CaCl₂ + CO₃ + H₂O, c) CaCl₂ + CO₂ + H₂SO₄, d) CaCl₃ + CO₂ + H₂O'),
+(80, 90, 'a) H₂, b) O₂, c) H₂O, d) Ninguno, no hay reactivo en exceso'),
+(81, 91, 'a) KHSO₄ + H₂O, b) K₂SO₄ + H₂O, c) KHSO₃ + H₂O, d) K₂SO₃ + H₂O'),
+(82, 92, 'a) NaNO₃ + HCl, b) NaCl + HNO₃, c) NaNO₂ + HCl, d) NaClO₃ + HNO₂'),
+(83, 93, 'a) Síntesis, b) Descomposición, c) Doble sustitución, d) Combustión'),
+(84, 94, 'a) Fe, b) HCl, c) FeCl₂, d) H₂'),
+(85, 95, 'a) Ca(NO₃)₂ + H₂O, b) Ca(NO₃)₂ + HCl, c) Ca(NO₂)₂ + H₂O, d) Ca(NO₃)₂ + HNO₃'),
+(86, 96, 'a) CaSO₄ + CO₂ + H₂O, b) CaSO₃ + CO₂ + H₂O, c) CaSO₄ + CO₃ + H₂O, d) CaSO₃ + CO₃ + H₂O'),
+(87, 97, 'a) NaCl + H₂O, b) NaOH + HCl, c) NaClO + H₂, d) NaCl₂ + H₂O'),
+(88, 98, 'a) Na, b) Cl₂, c) NaCl, d) Ninguno, no hay reactivo en exceso'),
+(89, 99, 'a) Síntesis, b) Descomposición, c) Doble sustitución, d) Simple sustitución'),
+(90, 100, 'a) H₂, b) O₂, c) H₂O, d) Ninguno, no hay reactivo limitante'),
+(91, 101, 'a) CaSO₄ + H₂O, b) CaSO₃ + H₂O, c) CaSO₄ + H₂SO₄, d) CaSO₃ + H₂SO₄'),
+(92, 102, 'a) NaCl + CO₂ + H₂O, b) NaClO₃ + CO₂ + H₂O, c) NaClO₂ + CO₂ + H₂O, d) NaCl + CO₃ + H₂O'),
+(93, 103, 'a) ZnSO₄ + H₂S, b) ZnS + H₂SO₄, c) ZnSO₄ + HCl, d) ZnS + HCl'),
+(94, 104, 'a) KCl + H₂O, b) KClO₃ + H₂O, c) KCl + H₂SO₄, d) KClO₃ + HCl'),
+(95, 105, 'a) Al₂(SO₄)₃ + H₂O, b) Al(OH)₃ + H₂SO₄, c) Al₂(SO₃)₃ + H₂O, d) Al(OH)₃ + H₂SO₃'),
+(96, 106, 'a) H₂, b) O₂, c) H₂O, d) Ninguno, no hay reactivo en exceso'),
+(97, 107, 'a) Síntesis, b) Descomposición, c) Doble sustitución, d) Simple sustitución'),
+(98, 108, 'a) H₂, b) O₂, c) H₂O, d) Ninguno, no hay reactivo limitante'),
+(99, 109, 'a) KHSO₄ + H₂O, b) K₂SO₄ + H₂O, c) KHSO₃ + H₂O, d) K₂SO₃ + H₂O'),
+(100, 110, 'a) NaNO₃ + HCl, b) NaCl + HNO₃, c) NaNO₂ + HCl, d) NaClO₃ + HNO₂'),
+
+--Incisos Tema 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
