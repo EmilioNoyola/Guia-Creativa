@@ -78,7 +78,15 @@ public class Pantalla_Login extends javax.swing.JFrame {
         bg.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 450, 290, 30));
 
         btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton-Registrate.png"))); // NOI18N
-        btnRegistro.setPreferredSize(new java.awt.Dimension(147, 38));
+        btnRegistro.setBorder(null);
+        btnRegistro.setContentAreaFilled(false);
+        btnRegistro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistro.setPreferredSize(new java.awt.Dimension(175, 47));
+        btnRegistro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegistroActionPerformed(evt);
+            }
+        });
         bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 40, -1, -1));
 
         Fondo_Login.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Fondo-3.png"))); // NOI18N
@@ -145,6 +153,13 @@ public class Pantalla_Login extends javax.swing.JFrame {
     private void txtContraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContraseñaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtContraseñaActionPerformed
+
+    private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
+        Pantalla_Registro frmReg = new Pantalla_Registro();
+        frmReg.setVisible(true);
+        
+        this.setVisible(false);
+    }//GEN-LAST:event_btnRegistroActionPerformed
 
     /**
      * @param args the command line arguments

@@ -127,6 +127,8 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         frmReg = new Pantalla_Registro();
         frmReg.setVisible(true);
         
+        this.dispose();
+        
     }//GEN-LAST:event_btnRegistroActionPerformed
 
     private void btnRegistroMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRegistroMouseEntered
