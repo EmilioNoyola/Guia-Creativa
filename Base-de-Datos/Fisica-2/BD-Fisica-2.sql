@@ -337,6 +337,7 @@ INSERT INTO PreguntasF2 VALUES (173,71,'¿Qué representa la velocidad angular e
 a) La velocidad del cuerpo en dirección radial. 
 b) La velocidad del cuerpo en dirección tangencial. 
 c) La velocidad del cuerpo en dirección perpendicular al radio.');
+
 INSERT INTO PreguntasF2 VALUES (173,72,'- El bloque de 4.00 kg de la figura está unido a una varilla vertical con dos cordones. Cuando el sistema gira en torno al eje de la varilla, los dos cordones se extienden como se indica en el diagrama y la tensión en el cordón superior es de 80.0 N. a) ¿Qué tensión hay en el cordón inferior? b) ¿Cuál es la velocidad del sistema? 
 a)T2=31N V=3.53m/s
 b)T2=31N V=2.15m/s       
