@@ -37,6 +37,7 @@ public class Pantalla_Login extends javax.swing.JFrame {
         btnLogin = new javax.swing.JButton();
         txtUsuario = new javax.swing.JTextField();
         txtContraseña = new javax.swing.JPasswordField();
+        btnRegistro = new javax.swing.JButton();
         Fondo_Login = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -76,6 +77,10 @@ public class Pantalla_Login extends javax.swing.JFrame {
         });
         bg.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 450, 290, 30));
 
+        btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton-Registrate.png"))); // NOI18N
+        btnRegistro.setPreferredSize(new java.awt.Dimension(147, 38));
+        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 40, -1, -1));
+
         Fondo_Login.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Fondo-3.png"))); // NOI18N
         bg.add(Fondo_Login, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, -1, -1));
 
@@ -83,7 +88,7 @@ public class Pantalla_Login extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(bg, javax.swing.GroupLayout.DEFAULT_SIZE, 1280, Short.MAX_VALUE)
+            .addComponent(bg, javax.swing.GroupLayout.DEFAULT_SIZE, 1287, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -181,6 +186,7 @@ public class Pantalla_Login extends javax.swing.JFrame {
     private javax.swing.JLabel Fondo_Login;
     private javax.swing.JPanel bg;
     private javax.swing.JButton btnLogin;
+    private javax.swing.JButton btnRegistro;
     private javax.swing.JPasswordField txtContraseña;
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables

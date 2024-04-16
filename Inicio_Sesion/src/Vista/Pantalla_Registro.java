@@ -49,7 +49,7 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         txtBoleta = new javax.swing.JTextField();
         btnRegistro = new javax.swing.JButton();
         txtConfirmarPassword = new javax.swing.JPasswordField();
-        jButton1 = new javax.swing.JButton();
+        btnlogin = new javax.swing.JButton();
         pantalla_Registro = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -112,15 +112,20 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         txtConfirmarPassword.setBorder(null);
         bg.add(txtConfirmarPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 570, 250, 20));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inicio-Sesion.png"))); // NOI18N
-        jButton1.setHideActionText(true);
-        jButton1.setPreferredSize(new java.awt.Dimension(261, 48));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnlogin.setBackground(new java.awt.Color(137, 96, 191));
+        btnlogin.setForeground(new java.awt.Color(137, 96, 191));
+        btnlogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton-Inicio-Sesion.png"))); // NOI18N
+        btnlogin.setBorder(null);
+        btnlogin.setContentAreaFilled(false);
+        btnlogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnlogin.setHideActionText(true);
+        btnlogin.setPreferredSize(new java.awt.Dimension(175, 48));
+        btnlogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnloginActionPerformed(evt);
             }
         });
-        bg.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 40, -1, 50));
+        bg.add(btnlogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 40, -1, 50));
 
         pantalla_Registro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Fondo2.png"))); // NOI18N
         bg.add(pantalla_Registro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -235,9 +240,16 @@ try {
         
     }//GEN-LAST:event_txtUsuarioMousePressed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void btnloginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnloginActionPerformed
+        Pantalla_Login frmLog = new Pantalla_Login();
+        
+        frmLog.setVisible(true);
+        
+        this.setVisible(false);
+        
+        
+        
+    }//GEN-LAST:event_btnloginActionPerformed
 
     public void limpiar() {
         txtUsuario.setText("");
@@ -296,7 +308,7 @@ try {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bg;
     private javax.swing.JButton btnRegistro;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnlogin;
     private javax.swing.JLabel pantalla_Registro;
     private javax.swing.JTextField txtBoleta;
     private javax.swing.JPasswordField txtConfirmarPassword;
