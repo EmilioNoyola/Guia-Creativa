@@ -49,6 +49,7 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         txtBoleta = new javax.swing.JTextField();
         btnRegistro = new javax.swing.JButton();
         txtConfirmarPassword = new javax.swing.JPasswordField();
+        jButton1 = new javax.swing.JButton();
         pantalla_Registro = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -111,6 +112,16 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         txtConfirmarPassword.setBorder(null);
         bg.add(txtConfirmarPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 570, 250, 20));
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inicio-Sesion.png"))); // NOI18N
+        jButton1.setHideActionText(true);
+        jButton1.setPreferredSize(new java.awt.Dimension(261, 48));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        bg.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 40, -1, 50));
+
         pantalla_Registro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Fondo2.png"))); // NOI18N
         bg.add(pantalla_Registro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
@@ -118,7 +129,7 @@ public class Pantalla_Registro extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(bg, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(bg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -224,6 +235,10 @@ try {
         
     }//GEN-LAST:event_txtUsuarioMousePressed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     public void limpiar() {
         txtUsuario.setText("");
         txtBoleta.setText("");
@@ -281,6 +296,7 @@ try {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bg;
     private javax.swing.JButton btnRegistro;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel pantalla_Registro;
     private javax.swing.JTextField txtBoleta;
     private javax.swing.JPasswordField txtConfirmarPassword;
