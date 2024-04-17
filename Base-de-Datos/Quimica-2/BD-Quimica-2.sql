@@ -133,12 +133,12 @@ INSERT INTO PreguntasQ2 VALUES (182,99,'¿Qué se forma cuando el ácido sulfúr
 INSERT INTO PreguntasQ2 VALUES (182,100,'¿Cuál es el producto de la reacción entre el cloruro de sodio y el ácido nítrico? ');
 
 -- Tema 3 Balanceo de ecuaciones quimicas
-INSERT INTO PreguntasQ2 VALUES (183,101,'La ecuación química: 2FeCl₂ + Cl₂ → 2FeCl₃ , se dice que está balanceada debido a que: a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.');
-INSERT INTO PreguntasQ2 VALUES (183,102,'¿Cómo se clasificaría la siguiente ecuación química: Fe + O₂ → Fe₂O₃? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,103,'¿Cómo se clasificaría la siguiente ecuación química: NaOH + HCl → NaCl + H₂O? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,104,'¿Cómo se clasificaría la siguiente ecuación química: KNO₃ → KNO₂ + O₂? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,105,'¿Cómo se clasificaría la siguiente ecuación química: CaCO₃ → CaO + CO₂? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,106,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: H₂ + Cl₂ → 2HCl? a) Coeficiente estequiométrico b) Reactivo limitante c) Producto principal d) Energía de activación');
+INSERT INTO PreguntasQ2 VALUES (183,101,'La ecuación química: 2FeCl₂ + Cl₂ → 2FeCl₃ , se dice que está balanceada debido a que:');
+INSERT INTO PreguntasQ2 VALUES (183,102,'¿Cómo se clasificaría la siguiente ecuación química: Fe + O₂ → Fe₂O₃?');
+INSERT INTO PreguntasQ2 VALUES (183,103,'¿Cómo se clasificaría la siguiente ecuación química: NaOH + HCl → NaCl + H₂O?');
+INSERT INTO PreguntasQ2 VALUES (183,104,'¿Cómo se clasificaría la siguiente ecuación química: KNO₃ → KNO₂ + O₂?');
+INSERT INTO PreguntasQ2 VALUES (183,105,'¿Cómo se clasificaría la siguiente ecuación química: CaCO₃ → CaO + CO₂?');
+INSERT INTO PreguntasQ2 VALUES (183,106,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: H₂ + Cl₂ → 2HCl?');
 INSERT INTO PreguntasQ2 VALUES (183,107,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: KBr + AgNO₃ → AgBr + KNO₃? a) Coeficiente estequiométrico b) Reactivo limitante c) Producto principal d) Energía de activación');
 INSERT INTO PreguntasQ2 VALUES (183,108,'Balancea por el método de tanteo la siguiente ecuación química: Fe + HCl → FeCl₃ + H₂. a) 1, 3, 1, 1 b) 1, 2, 2, 3 c) 1, 1, 3, 2 d) 1, 2, 1, 3');
 INSERT INTO PreguntasQ2 VALUES (183,109,'Ajusta por el método de Óxido-Reducción la siguiente ecuación química: Cu + HNO₃ → Cu(NO₃)₂ + NO₂ + H₂O. a) Cu: 2, HNO₃: 4, Cu(NO₃)₂: 2, NO₂: 2, H₂O: 2 b) Cu: 1, HNO₃: 4, Cu(NO₃)₂: 1, NO₂: 3, H₂O: 2 c) Cu: 2, HNO₃: 2, Cu(NO₃)₂: 2, NO₂: 4, H₂O: 2 d) Cu: 2, HNO₃: 2, Cu(NO₃)₂: 1, NO₂: 2, H₂O: 4');
@@ -1461,6 +1461,28 @@ INSERT INTO Incisos_Q2 VALUES
 (100, 110, 'a) NaNO₃ + HCl, b) NaCl + HNO₃, c) NaNO₂ + HCl, d) NaClO₃ + HNO₂'),
 
 --Incisos Tema 3
+
+(101,111, 'a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.'),
+(102,112, 'a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble'),
+(103,113, 'a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble'),
+(104,114, 'a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble'),
+(105,115, 'a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble'),
+(106,116, 'a) Coeficiente estequiométrico b) Reactivo limitante c) Producto principal d) Energía de activación'),
+(107,117, ''),
+(108,118, ''),
+(109,119, ''),
+(110,120, ''),
+(111,121, ''),
+(112,122, ''),
+(113,123, ''),
+(114,124, ''),
+(115,125, ''),
+(116,126, ''),
+(117,127, ''),
+(118,128, ''),
+(119,129, ''),
+(120,130, ''),
+
 
 
 
