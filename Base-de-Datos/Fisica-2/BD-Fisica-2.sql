@@ -337,7 +337,6 @@ INSERT INTO PreguntasF2 VALUES (173,71,'¿Qué representa la velocidad angular e
 a) La velocidad del cuerpo en dirección radial. 
 b) La velocidad del cuerpo en dirección tangencial. 
 c) La velocidad del cuerpo en dirección perpendicular al radio.');
-
 INSERT INTO PreguntasF2 VALUES (173,72,'- El bloque de 4.00 kg de la figura está unido a una varilla vertical con dos cordones. Cuando el sistema gira en torno al eje de la varilla, los dos cordones se extienden como se indica en el diagrama y la tensión en el cordón superior es de 80.0 N. a) ¿Qué tensión hay en el cordón inferior? b) ¿Cuál es la velocidad del sistema? 
 a)T2=31N V=3.53m/s
 b)T2=31N V=2.15m/s       
@@ -605,6 +604,7 @@ INSERT INTO PreguntasF2 VALUES (271,132,'¿Cómo se relaciona la fuerza gravitac
 a) Es inversamente proporcional a la distancia al cuadrado 
 b) Es directamente proporcional a la distancia 
 c) Es inversamente proporcional a la distancia');
+
 INSERT INTO PreguntasF2 VALUES (271,133,'Dos masas una de m1=500kg y la otra de m2=200kg se encuentran separadas por una distancia de r=0.4m ¿En qué posición entre ellas, debe colocarse una tercera masa m3 para que la fuerza total sobre ella sea de cero??
 a)r1=0.2450m    
 b)1.4035m           
