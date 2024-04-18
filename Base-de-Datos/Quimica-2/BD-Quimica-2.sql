@@ -139,419 +139,171 @@ INSERT INTO PreguntasQ2 VALUES (183,103,'¿Cómo se clasificaría la siguiente e
 INSERT INTO PreguntasQ2 VALUES (183,104,'¿Cómo se clasificaría la siguiente ecuación química: KNO₃ → KNO₂ + O₂?');
 INSERT INTO PreguntasQ2 VALUES (183,105,'¿Cómo se clasificaría la siguiente ecuación química: CaCO₃ → CaO + CO₂?');
 INSERT INTO PreguntasQ2 VALUES (183,106,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: H₂ + Cl₂ → 2HCl?');
-INSERT INTO PreguntasQ2 VALUES (183,107,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: KBr + AgNO₃ → AgBr + KNO₃? a) Coeficiente estequiométrico b) Reactivo limitante c) Producto principal d) Energía de activación');
-INSERT INTO PreguntasQ2 VALUES (183,108,'Balancea por el método de tanteo la siguiente ecuación química: Fe + HCl → FeCl₃ + H₂. a) 1, 3, 1, 1 b) 1, 2, 2, 3 c) 1, 1, 3, 2 d) 1, 2, 1, 3');
-INSERT INTO PreguntasQ2 VALUES (183,109,'Ajusta por el método de Óxido-Reducción la siguiente ecuación química: Cu + HNO₃ → Cu(NO₃)₂ + NO₂ + H₂O. a) Cu: 2, HNO₃: 4, Cu(NO₃)₂: 2, NO₂: 2, H₂O: 2 b) Cu: 1, HNO₃: 4, Cu(NO₃)₂: 1, NO₂: 3, H₂O: 2 c) Cu: 2, HNO₃: 2, Cu(NO₃)₂: 2, NO₂: 4, H₂O: 2 d) Cu: 2, HNO₃: 2, Cu(NO₃)₂: 1, NO₂: 2, H₂O: 4');
-INSERT INTO PreguntasQ2 VALUES (183,110,'De la siguiente ecuación química: Zn + HCl → ZnCl₂ + H₂, ¿cuál es el elemento que se oxida? a) Zn     b) H     c) Cl   d) ZnCl₂');
-INSERT INTO PreguntasQ2 VALUES (183,111,'De la siguiente ecuación química: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂, ¿cuál es el agente oxidante? a) Cl₂     b) Br⁻     c) Cl⁻     d) Br₂');
-INSERT INTO PreguntasQ2 VALUES (183,112,'De la siguiente ecuación química: Cr → Cr³⁺ + 3e⁻, ¿cuáles son los electrones perdidos? a) 1     b) 3      c) 2     d) 0');
-INSERT INTO PreguntasQ2 VALUES (183,113,'De la siguiente ecuación química: Al + Fe₂O₃ → Al₂O₃ + Fe, ¿cuáles son los coeficientes en el Al y Fe₂O₃, respectivamente? a) Al: 2, Fe₂O₃: 1 b) Al: 1, Fe₂O₃: 2 c) Al: 2, Fe₂O₃: 2 d) Al: 1, Fe₂O₃: 1');
-INSERT INTO PreguntasQ2 VALUES (183,114,'¿Cuál de los siguientes modelos matemáticos representa la siguiente ecuación química: H₂ + O₂ → H₂O? a) 2H₂ + O₂ → 2H₂O b) H₂ + O₂ → H₂O c) H₂O → H₂ + O₂ d) 2H₂O → 2H₂ + O₂');
-INSERT INTO PreguntasQ2 VALUES (183,115,'La siguiente ecuación química: 2Na + Cl₂ → 2NaCl, está balanceada debido a que: a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.');
-INSERT INTO PreguntasQ2 VALUES (183,116,'Al balancear por tanteo la ecuación química: NH₃ + O₂ → NO + H₂O, los coeficientes más sencillos de los reactivos son: a) 2, 5, 2, 3 b) 1, 5, 1, 3 c) 3, 5, 3, 3 d) 1, 2, 2, 3');
-INSERT INTO PreguntasQ2 VALUES (183,117,'¿En cuál, de los siguientes compuestos, el azufre presenta el mayor número de oxidación? (SO₂, H₂SO₄, K₂SO₄, Na₂SO₄ a) SO₂ b) H₂SO₄ c) K₂SO₄ d) Na₂SO₄');
-INSERT INTO PreguntasQ2 VALUES (183,118,'Con base en la siguiente ecuación química: Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag, ¿cuál es el elemento que se reduce? a) Cu b) Ag c) NO₃ d) N₂');
-INSERT INTO PreguntasQ2 VALUES (183,119,'Con base en la siguiente ecuación química: Fe + HCl → FeCl₃ + H₂, ¿cuál es el agente oxidante? a) Fe b) HCl c) FeCl₃ d) H₂');
-INSERT INTO PreguntasQ2 VALUES (183,120,'Con base en la siguiente ecuación química: Mg + 2HCl → MgCl₂ + H₂, ¿cuántos electrones perdidos hay (por átomo)? a) 0 b) 1 c) 2 d) 3');
-INSERT INTO PreguntasQ2 VALUES (183,121,'Con base en la siguiente ecuación química: 2KClO₃ → 2KCl + 3O₂, ¿cuál es el coeficiente del KCl? a) 1 b) 2 c) 3 d) 4');
-INSERT INTO PreguntasQ2 VALUES (183,122,'Con base en la siguiente ecuación química: Na + Cl₂ → NaCl, ¿cuál es el coeficiente del NaCl? a) 1 b) 2 c) 3 d) 4');
-INSERT INTO PreguntasQ2 VALUES (183,123,'¿Cómo se clasificaría la siguiente ecuación química: FeS₂ + O₂ → Fe₂O₃ + SO₂? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,124,'¿Cómo se clasificaría la siguiente ecuación química: KMnO₄ + H₂SO₄ + HCl → KCl + MnCl₂ + H₂O + Cl₂? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,125,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: Ca + H₂O → Ca(OH)₂ + H₂? a) Coeficiente estequiométrico b) Reactivo limitante c) Producto principal d) Energía de activación');
-INSERT INTO PreguntasQ2 VALUES (183,126,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: FeCl₃ + NaOH → Fe(OH)₃ + NaCl? a) Coeficiente estequiométrico b) Reactivo limitante c) Producto principal d) Energía de activación');
-INSERT INTO PreguntasQ2 VALUES (183,127,'Balancea por el método de tanteo la siguiente ecuación química: Al + HCl → AlCl₃ + H₂. a) 2, 6, 2, 3 b) 2, 3, 2, 3 c) 2, 2, 2, 3 d) 1, 3, 1, 2');
-INSERT INTO PreguntasQ2 VALUES (183,128,'Ajusta por el método de Óxido-Reducción la siguiente ecuación química: Fe + HNO₃ → Fe(NO₃)₃ + NO + H₂O. a) Fe: 2, HNO₃: 6, Fe(NO₃)₃: 2, NO: 2, H₂O: 4 b) Fe: 1, HNO₃: 3, Fe(NO₃)₃: 1, NO: 2, H₂O: 2 c) Fe: 2, HNO₃: 4, Fe(NO₃)₃: 1, NO: 2, H₂O: 2 d) Fe: 1, HNO₃: 4, Fe(NO₃)₃: 1, NO: 3, H₂O: 2');
-INSERT INTO PreguntasQ2 VALUES (183,129,'De la siguiente ecuación química: Cu + AgNO₃ → Cu(NO₃)₂ + Ag, ¿cuál es el elemento que se oxida? a) Cu         b) Ag          c) NO₃        d) N₂');
-INSERT INTO PreguntasQ2 VALUES (183,130,'De la siguiente ecuación química: Cl₂ + 2I⁻ → 2Cl⁻ + I₂, ¿cuál es el agente oxidante? a) Cl₂       b) I⁻      c) Cl⁻      d) I₂');
-INSERT INTO PreguntasQ2 VALUES (183,131,'De la siguiente ecuación química: Zn → Zn²⁺ + 2e⁻, ¿cuántos electrones perdidos hay (por átomo)? a) 0      b) 1      c) 2       d) 3');
-INSERT INTO PreguntasQ2 VALUES (183,132,'De la siguiente ecuación química: NH₃ + O₂ → NO + H₂O, ¿cuáles son los coeficientes en el NH₃ y O₂, respectivamente? a) NH₃: 1, O₂: 3 b) NH₃: 2, O₂: 1 c) NH₃: 3, O₂: 1 d) NH₃: 1, O₂: 2');
-INSERT INTO PreguntasQ2 VALUES (183,133,'¿Cuál de los siguientes modelos matemáticos representa la siguiente ecuación química: H₂ + F₂ → 2HF? a) 2H₂ + F₂ → 2HF b) H₂ + F₂ → HF c) 2HF → H₂ + F₂ d) H₂F₂ → 2HF');
-INSERT INTO PreguntasQ2 VALUES (183,134,'La siguiente ecuación química: 2H₂ + O₂ → 2H₂O, está balanceada debido a que: a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.');
-INSERT INTO PreguntasQ2 VALUES (183,135,'Al balancear por tanteo la ecuación química: N₂ + H₂ → NH₃, los coeficientes más sencillos de los reactivos son: a) 1, 3, 2 b) 1, 2, 2 c) 3, 2, 2 d) 2, 2, 3');
-INSERT INTO PreguntasQ2 VALUES (183,136,'¿En cuál, de los siguientes compuestos, el oxígeno presenta el menor número de oxidación? (O₂, H₂O, H₂O₂, HClO₄) a) O₂         b) H₂O         c) H₂O₂         d) HClO₄');
-INSERT INTO PreguntasQ2 VALUES (183,137,'La ecuación química: 2H₂ + Cl₂ → 2HCl, se dice que está balanceada debido a que: a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.');
-INSERT INTO PreguntasQ2 VALUES (183,138,'¿Cómo se clasificaría la siguiente ecuación química: CH₄ + 2O₂ → CO₂ + 2H₂O? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,139,'¿Cómo se clasificaría la siguiente ecuación química: 2KClO₃ → 2KCl + 3O₂? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
-INSERT INTO PreguntasQ2 VALUES (183,140,'¿Cómo se clasificaría la siguiente ecuación química: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O? a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble');
+INSERT INTO PreguntasQ2 VALUES (183,107,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: KBr + AgNO₃ → AgBr + KNO₃?');
+INSERT INTO PreguntasQ2 VALUES (183,108,'Balancea por el método de tanteo la siguiente ecuación química: Fe + HCl → FeCl₃ + H₂.');
+INSERT INTO PreguntasQ2 VALUES (183,109,'Ajusta por el método de Óxido-Reducción la siguiente ecuación química: Cu + HNO₃ → Cu(NO₃)₂ + NO₂ + H₂O.');
+INSERT INTO PreguntasQ2 VALUES (183,110,'De la siguiente ecuación química: Zn + HCl → ZnCl₂ + H₂, ¿cuál es el elemento que se oxida?');
+INSERT INTO PreguntasQ2 VALUES (183,111,'De la siguiente ecuación química: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂, ¿cuál es el agente oxidante?');
+INSERT INTO PreguntasQ2 VALUES (183,112,'De la siguiente ecuación química: Cr → Cr³⁺ + 3e⁻, ¿cuáles son los electrones perdidos?');
+INSERT INTO PreguntasQ2 VALUES (183,113,'De la siguiente ecuación química: Al + Fe₂O₃ → Al₂O₃ + Fe, ¿cuáles son los coeficientes en el Al y Fe₂O₃, respectivamente?');
+INSERT INTO PreguntasQ2 VALUES (183,114,'¿Cuál de los siguientes modelos matemáticos representa la siguiente ecuación química: H₂ + O₂ → H₂O?');
+INSERT INTO PreguntasQ2 VALUES (183,115,'La siguiente ecuación química: 2Na + Cl₂ → 2NaCl, está balanceada debido a que:');
+INSERT INTO PreguntasQ2 VALUES (183,116,'Al balancear por tanteo la ecuación química: NH₃ + O₂ → NO + H₂O, los coeficientes más sencillos de los reactivos son:');
+INSERT INTO PreguntasQ2 VALUES (183,117,'¿En cuál, de los siguientes compuestos, el azufre presenta el mayor número de oxidación?');
+INSERT INTO PreguntasQ2 VALUES (183,118,'Con base en la siguiente ecuación química: Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag, ¿cuál es el elemento que se reduce?');
+INSERT INTO PreguntasQ2 VALUES (183,119,'Con base en la siguiente ecuación química: Fe + HCl → FeCl₃ + H₂, ¿cuál es el agente oxidante?');
+INSERT INTO PreguntasQ2 VALUES (183,120,'Con base en la siguiente ecuación química: Mg + 2HCl → MgCl₂ + H₂, ¿cuántos electrones perdidos hay (por átomo)?');
+INSERT INTO PreguntasQ2 VALUES (183,121,'Con base en la siguiente ecuación química: 2KClO₃ → 2KCl + 3O₂, ¿cuál es el coeficiente del KCl?');
+INSERT INTO PreguntasQ2 VALUES (183,122,'Con base en la siguiente ecuación química: Na + Cl₂ → NaCl, ¿cuál es el coeficiente del NaCl?');
+INSERT INTO PreguntasQ2 VALUES (183,123,'¿Cómo se clasificaría la siguiente ecuación química: FeS₂ + O₂ → Fe₂O₃ + SO₂?');
+INSERT INTO PreguntasQ2 VALUES (183,124,'¿Cómo se clasificaría la siguiente ecuación química: KMnO₄ + H₂SO₄ + HCl → KCl + MnCl₂ + H₂O + Cl₂?');
+INSERT INTO PreguntasQ2 VALUES (183,125,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: Ca + H₂O → Ca(OH)₂ + H₂?');
+INSERT INTO PreguntasQ2 VALUES (183,126,'¿Qué representa el signo auxiliar señalado en la siguiente ecuación química: FeCl₃ + NaOH → Fe(OH)₃ + NaCl?');
+INSERT INTO PreguntasQ2 VALUES (183,127,'Balancea por el método de tanteo la siguiente ecuación química: Al + HCl → AlCl₃ + H₂.');
+INSERT INTO PreguntasQ2 VALUES (183,128,'Ajusta por el método de Óxido-Reducción la siguiente ecuación química: Fe + HNO₃ → Fe(NO₃)₃ + NO + H₂O.');
+INSERT INTO PreguntasQ2 VALUES (183,129,'De la siguiente ecuación química: Cu + AgNO₃ → Cu(NO₃)₂ + Ag, ¿cuál es el elemento que se oxida?');
+INSERT INTO PreguntasQ2 VALUES (183,130,'De la siguiente ecuación química: Cl₂ + 2I⁻ → 2Cl⁻ + I₂, ¿cuál es el agente oxidante?');
+INSERT INTO PreguntasQ2 VALUES (183,131,'De la siguiente ecuación química: Zn → Zn²⁺ + 2e⁻, ¿cuántos electrones perdidos hay (por átomo)?');
+INSERT INTO PreguntasQ2 VALUES (183,132,'De la siguiente ecuación química: NH₃ + O₂ → NO + H₂O, ¿cuáles son los coeficientes en el NH₃ y O₂, respectivamente?');
+INSERT INTO PreguntasQ2 VALUES (183,133,'¿Cuál de los siguientes modelos matemáticos representa la siguiente ecuación química: H₂ + F₂ → 2HF?');
+INSERT INTO PreguntasQ2 VALUES (183,134,'La siguiente ecuación química: 2H₂ + O₂ → 2H₂O, está balanceada debido a que:');
+INSERT INTO PreguntasQ2 VALUES (183,135,'Al balancear por tanteo la ecuación química: N₂ + H₂ → NH₃, los coeficientes más sencillos de los reactivos son:');
+INSERT INTO PreguntasQ2 VALUES (183,136,'¿En cuál, de los siguientes compuestos, el oxígeno presenta el menor número de oxidación?');
+INSERT INTO PreguntasQ2 VALUES (183,137,'La ecuación química: 2H₂ + Cl₂ → 2HCl, se dice que está balanceada debido a que:');
+INSERT INTO PreguntasQ2 VALUES (183,138,'¿Cómo se clasificaría la siguiente ecuación química: CH₄ + 2O₂ → CO₂ + 2H₂O?');
+INSERT INTO PreguntasQ2 VALUES (183,139,'¿Cómo se clasificaría la siguiente ecuación química: 2KClO₃ → 2KCl + 3O₂?');
+INSERT INTO PreguntasQ2 VALUES (183,140,'¿Cómo se clasificaría la siguiente ecuación química: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O?');
+
 
 
 
 -- Preguntas segundo parcial Quimica 2
 
 -- Tema 1 Estequiometria
-INSERT INTO PreguntasQ2 VALUES (281, 141, 'La bauxita y el corindón son los minerales que contienen a la alúmina Al₂O₃, principal materia prima para la producción de aluminio; la cantidad de gramos/mol de aluminio obtenidas por cada kilogramo de óxido de aluminio, es determinada al aplicar la:');
+INSERT INTO PreguntasQ2 VALUES (281, 141, 'La bauxita y el corindón son los minerales que contienen a la alúmina Al₂O₃, principal materia prima para la producción de aluminio; la cantidad de gramos/mol de aluminio obtenidas por cada kilogramo de óxido de aluminio, es determinada al aplicar la: ');
 INSERT INTO PreguntasQ2 VALUES (281, 142, 'La cantidad de partículas contenidas en un mol de nitrato de plata es igual a:');
-INSERT INTO PreguntasQ2 VALUES (281, 143, 'Una forma de obtener el tetracloruro de carbono haciendo reaccionar bismuto de carbono en cloro gaseoso las proporciones que se requieres para su obtención son estudiadas por la:');
+INSERT INTO PreguntasQ2 VALUES (281, 143, 'Una forma de obtener el tetracloruro de carbono haciendo reaccionar bismuto de carbono en cloro gaseoso las proporciones que se requieres para su obtención son estudiadas por la: ');
 INSERT INTO PreguntasQ2 VALUES (281, 144, 'La masa en libras de 325g de una muestra de cobre es:');
-INSERT INTO PreguntasQ2 VALUES (281, 145, '¿Cuántos átomos-gramo están contenidos en 50 gramos de aluminio, y 69 gramos de sodio respectivamente?');
-INSERT INTO PreguntasQ2 VALUES (281, 146, 'La masa en gramos de 602x10²⁵ moléculas de Fe₂(PO₄)₂, recibe el nombre de:');
-INSERT INTO PreguntasQ2 VALUES (281, 147, 'De las siguientes muestras gaseosas, ¿cuál ocupará un volumen de 22.4 litros, en condiciones normales de presión y temperatura?');
-INSERT INTO PreguntasQ2 VALUES (281, 148, 'Una muestra de cobre pesa 250 gramos dicha masa en miligramos es:');
-INSERT INTO PreguntasQ2 VALUES (281, 149, '¿Qué por ciento de nitrógeno está contenido en un mol de NH₄NO₂?');
-INSERT INTO PreguntasQ2 VALUES (281, 150, 'En la ecuación: KNO₃+H₂SO₄ → KHSO₄+HNO₃ reaccionan 13.22 gramos de ácido sulfúrico con 12.08 gramos de nitrato de potasio; cuál de las siguientes opciones expresadas en gramos, cumple con la ley de la conservación de la masa para el bisulfato de potasio y el ácido nítrico:');
-INSERT INTO PreguntasQ2 VALUES (281, 151, '¿Cuál es la fórmula mínima de un compuesto cuya composición centesimal es: azufre 18.39%, oxígeno 36.78%, potasio 44.82%?');
-INSERT INTO PreguntasQ2 VALUES (281, 152, 'El análisis de un compuesto demostró que la fórmula empírica del compuesto orgánico del clorado es C₂H₄Cl. Si su masa molecular es 127, ¿cuál es su fórmula molecular?');
-INSERT INTO PreguntasQ2 VALUES (281, 153, '¿Cuántos gramos de fosfato de calcio pueden producirse si se tiene una muestra de 45 gramos de hidróxido de calcio la cual reacciona con otra muestra de 45 gramos de ácido fosfórico, de acuerdo con la siguiente ecuación: 3Ca(OH)₂ + 2H₃PO₄ → Ca₃(PO₄)₂ + 6H₂O');
-INSERT INTO PreguntasQ2 VALUES (281, 154, 'Cuántos gramos de óxido férrico puro se requieren para obtener 112 gramos de hierro, si el rendimiento de la reacción es de 70%: 2Fe₂O₃ + 3C → 4Fe +3CO₂');
-INSERT INTO PreguntasQ2 VALUES (281, 155, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántos gramos de nitruro de magnesio se requieren, para producir 5.5 litros de amoniaco en CNTP?');
-INSERT INTO PreguntasQ2 VALUES (281, 156, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Con 30 mol de nitruro de magnesio, cuántas moléculas de hidróxido de magnesio se producen?');
-INSERT INTO PreguntasQ2 VALUES (281, 157, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , Con 5.42×10²⁴ moléculas de agua, cuántos gramos de hidróxido de magnesio se obtienen?');
-INSERT INTO PreguntasQ2 VALUES (281, 158, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántas moléculas de agua deben reaccionar, para producir 125 litros de amoniaco?');
-INSERT INTO PreguntasQ2 VALUES (281, 159, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántos gramos de nitruro de magnesio, se requieren para obtener 225 gramos de hidróxido de magnesio?');
-INSERT INTO PreguntasQ2 VALUES (281, 160, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántos gramos de nitruro de magnesio de 78% de pureza se requieren, para producir 18.5 gramos de amoniaco?');
-INSERT INTO PreguntasQ2 VALUES (281, 161, 'A partir de la ecuación: 3H₂S + 8HNO₃ → 3H₂SO₄ + 8NO + 4H₂O, ¿cuántas moles de ácido sulfúrico se producen a partir de 180g de ácido nítrico?');
+INSERT INTO PreguntasQ2 VALUES (281, 145, '¿Cuántos átomos-gramo están contenidos en 50 gramos de aluminio, y 69 gramos de sodio respectivamente? ');
+INSERT INTO PreguntasQ2 VALUES (281, 146, 'La masa en gramos de 602x10²⁵ moléculas de Fe₂(PO₄)₂, recibe el nombre de: ');
+INSERT INTO PreguntasQ2 VALUES (281, 147, 'De las siguientes muestras gaseosas, ¿cuál ocupará un volumen de 22.4 litros, en condiciones normales de presión y temperatura? ');
+INSERT INTO PreguntasQ2 VALUES (281, 148, 'Una muestra de cobre pesa 250 gramos dicha masa en miligramos es: ');
+INSERT INTO PreguntasQ2 VALUES (281, 149, '¿Qué por ciento de nitrógeno está contenido en un mol de NH₄NO₂? ');
+INSERT INTO PreguntasQ2 VALUES (281, 150, 'En la ecuación: KNO₃+H₂SO₄ → KHSO₄+HNO₃ reaccionan 13.22 gramos de ácido sulfúrico con 12.08 gramos de nitrato de potasio; cuál de las siguientes opciones expresadas en gramos, cumple con la ley de la conservación de la masa para el bisulfato de potasio y el ácido nítrico: ');
+INSERT INTO PreguntasQ2 VALUES (281, 151, '¿Cuál es la fórmula mínima de un compuesto cuya composición centesimal es: azufre 18.39%, oxígeno 36.78%, potasio 44.82%? ');
+INSERT INTO PreguntasQ2 VALUES (281, 152, 'El análisis de un compuesto demostró que la fórmula empírica del compuesto orgánico del clorado es C₂H₄Cl. Si su masa molecular es 127, ¿cuál es su fórmula molecular? ');
+INSERT INTO PreguntasQ2 VALUES (281, 153, '¿Cuántos gramos de fosfato de calcio pueden producirse si se tiene una muestra de 45 gramos de hidróxido de calcio la cual reacciona con otra muestra de 45 gramos de ácido fosfórico, de acuerdo con la siguiente ecuación: 3Ca(OH)₂ + 2H₃PO₄ → Ca₃(PO₄)₂ + 6H₂O ');
+INSERT INTO PreguntasQ2 VALUES (281, 154, 'Cuántos gramos de óxido férrico puro se requieren para obtener 112 gramos de hierro, si el rendimiento de la reacción es de 70%: 2Fe₂O₃ + 3C → 4Fe +3CO₂ ');
+INSERT INTO PreguntasQ2 VALUES (281, 155, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántos gramos de nitruro de magnesio se requieren, para producir 5.5 litros de amoniaco en CNTP? ');
+INSERT INTO PreguntasQ2 VALUES (281, 156, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Con 30 mol de nitruro de magnesio, cuántas moléculas de hidróxido de magnesio se producen? ');
+INSERT INTO PreguntasQ2 VALUES (281, 157, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , Con 5.42×10²⁴ moléculas de agua, cuántos gramos de hidróxido de magnesio se obtienen? ');
+INSERT INTO PreguntasQ2 VALUES (281, 158, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántas moléculas de agua deben reaccionar, para producir 125 litros de amoniaco? ');
+INSERT INTO PreguntasQ2 VALUES (281, 159, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántos gramos de nitruro de magnesio, se requieren para obtener 225 gramos de hidróxido de magnesio? ');
+INSERT INTO PreguntasQ2 VALUES (281, 160, 'A partir de la siguiente ecuación: Mg₃N₂(s) + 6H₂O(l) → 3Mg(OH)₂(ac) + 2NH₃(g) , ¿Cuántos gramos de nitruro de magnesio de 78% de pureza se requieren, para producir 18.5 gramos de amoniaco? ');
+INSERT INTO PreguntasQ2 VALUES (281, 161, 'A partir de la ecuación: 3H₂S + 8HNO₃ → 3H₂SO₄ + 8NO + 4H₂O, ¿cuántas moles de ácido sulfúrico se producen a partir de 180g de ácido nítrico? ');
 INSERT INTO PreguntasQ2 VALUES (281, 162, 'A partir de la ecuación: 3H₂S + 8HNO₃ → 3H₂SO₄ + 8NO + 4H₂O, ¿cuántos litros de NO en CNPT se obtienen si se introducen 300g de H₂S y la reacción tiene una eficiencia del 80%?');
-INSERT INTO PreguntasQ2 VALUES (281, 163, 'A partir de la ecuación: 3H₂S + 8HNO₃ → 3H₂SO₄ + 8NO + 4H₂O, ¿qué cantidad de ácido nítrico impuro se necesita si se producen 440g de H₂SO₄? Considera que el HNO₃ tiene una pureza del 70%.');
-INSERT INTO PreguntasQ2 VALUES (281, 164, 'A partir de la ecuación: 3H₂S + 8HNO₃ → 3H₂SO₄ + 8NO + 4H₂O, ¿cuántas moles de agua se obtienen al reaccionar 50g de H₂S con 4 mol de HNO₃?');
-INSERT INTO PreguntasQ2 VALUES (281, 165, 'Una forma de obtener el tetracloruro de carbono haciendo reaccionar bismuto de carbono en cloro gaseoso las proporciones que se requieren para su obtención son estudiadas por la:');
-INSERT INTO PreguntasQ2 VALUES (281, 166, 'La masa en libras de 325g de una muestra de cobre es:');
-INSERT INTO PreguntasQ2 VALUES (281, 167, 'La reacción cuantitativa que guardan las sustancias de la siguiente ecuación química respectivamente es:');
-INSERT INTO PreguntasQ2 VALUES (281, 168, 'El porcentaje de cromo que hay en K₂Cr₂O₇ es:');
-INSERT INTO PreguntasQ2 VALUES (281, 169, 'La fórmula mínima de un compuesto construido 31.54% de calcio, 24.38% de fosfato y 44.08% de oxígeno es:');
-INSERT INTO PreguntasQ2 VALUES (281, 170, '¿Cuál es la fórmula verdadera de un compuesto que tiene como fórmula empírica CH y peso molecular de 78g?');
-INSERT INTO PreguntasQ2 VALUES (281, 171, 'La masa en gramos de 6.022×10²³ moléculas de H₂PC₄ recibe el nombre de:');
-INSERT INTO PreguntasQ2 VALUES (281, 172, '¿Cuántos átomos gramos están contenidos en 5 gramos de aluminio y 69 gramos de sodio respectivamente?');
-INSERT INTO PreguntasQ2 VALUES (281, 173, 'De las siguientes muestras gaseosas expresadas en gramos, ¿cuál ocupa un volumen de 22.2 litros en condiciones normales de presión y temperatura?');
-INSERT INTO PreguntasQ2 VALUES (281, 174, 'El oro es uno de los metales cuyo brillo perdura con el paso del tiempo, no se oxida fácilmente. Si un anillo contiene 0.125 gramos de oro, ¿cuántos átomos gramo existen en el anillo?');
-INSERT INTO PreguntasQ2 VALUES (281, 175, 'La masa molecular del fosfato de bario en u.m.a es:');
-INSERT INTO PreguntasQ2 VALUES (281, 176, '¿Cuántas moléculas gramos hay en 347 gramos de perclorato de magnesio? a) 6.022×10²³ moléculas gramo b) 1.204×10²⁴ moléculas gramo c) 3.613×10²⁴ moléculas gramo d) 2.408×10²⁴ moléculas gramo');
-INSERT INTO PreguntasQ2 VALUES (281, 177, 'Las moles de bióxido de carbono contenidas en 6.9×10¹⁶ moléculas son: a) 1.15×10⁻⁷ moles b) 1.15×10⁻⁶ moles c) 1.15×10⁻⁵ moles d) 1.15×10⁻⁴ moles');
-INSERT INTO PreguntasQ2 VALUES (281, 178, '¿Cuál de los siguientes compuestos contiene más moléculas? a) 5 moles de H₂O b) 5 moles de CO₂ c) 5 moles de N₂ d) 5 moles de CH₄');
-INSERT INTO PreguntasQ2 VALUES (281, 179, 'La estequiometría es una rama de la química que estudia las relaciones cuantitativas entre los reactivos y productos en una reacción química, su aplicación es crucial en diversos campos como la síntesis de compuestos y la industria. ¿Cuál de las siguientes afirmaciones describe mejor el ámbito de estudio de la estequiometría? a) Estudia la estructura tridimensional de las moléculas. b) Analiza la transferencia de energía durante una reacción química. c) Se enfoca en la determinación de la composición y propiedades de los compuestos. d) Investigación de la velocidad de las reacciones químicas.');
-INSERT INTO PreguntasQ2 VALUES (281, 180, '¿Cuál es el objetivo principal de la ley de conservación de la masa en la estequiometría? a) Determinar la cantidad de energía liberada o absorbida durante una reacción química. b) Establecer la relación entre las presiones parciales de los gases en equilibrio. c) Garantizar que la masa total de los reactivos sea igual a la masa total de los productos. d) Cuantificar la cantidad de sustancia presente en una muestra de compuesto químico.');
-INSERT INTO PreguntasQ2 VALUES (281, 181, '¿Cuál de las siguientes opciones describe mejor el concepto de reactivo limitante en una reacción química? a) Es el reactivo que está en exceso y no se consume completamente en la reacción. b) Es el reactivo que está presente en menor cantidad y determina la cantidad máxima de producto formado. c) Es el reactivo que reacciona más rápidamente, afectando la velocidad de la reacción. d) Es el reactivo que se consume primero en la reacción, limitando la cantidad de producto formado.');
-INSERT INTO PreguntasQ2 VALUES (281, 182, 'La ley de los gases ideales es una aproximación que describe el comportamiento de los gases bajo ciertas condiciones. ¿Cuál de las siguientes afirmaciones sobre esta ley es correcta? a) Los gases reales siempre se comportan de acuerdo con la ley de los gases ideales. b) La ley establece que la presión y el volumen de un gas son inversamente proporcionales a temperatura constante. c) La ley establece que la energía cinética promedio de las moléculas de un gas es inversamente proporcional a la temperatura absoluta. d) La ley establece que el producto de la presión y el volumen de un gas es directamente proporcional a la temperatura absoluta.');
-INSERT INTO PreguntasQ2 VALUES (281, 183, 'En la estequiometría, la relación molar entre los reactivos y productos de una reacción química es esencial para determinar la cantidad de producto formado. ¿Cuál de las siguientes opciones describe mejor esta relación? a) Coeficientes estequiométricos. b) Índice de reacción. c) Constante de equilibrio. d) Factor de conversión.');
-INSERT INTO PreguntasQ2 VALUES (281, 184, '¿Qué ley de la estequiometría establece que los elementos se combinan en proporciones de masa fija para formar compuestos químicos? a) Ley de Lavoisier. b) Ley de las proporciones definidas. c) Ley de las proporciones múltiples. d) Ley de Proust.');
-INSERT INTO PreguntasQ2 VALUES (281, 185, '¿Cuál de las siguientes ecuaciones químicas representa una relación estequiométrica entre los reactivos y productos? a) H₂ + Cl₂ → 2HCl b) NaOH + HCl → NaCl + H₂O c) 2H₂ + O₂ → 2H₂O d) CaCO₃ → CaO + CO₂');
-INSERT INTO PreguntasQ2 VALUES (281, 186, 'La molaridad es una medida de concentración que expresa el número de moles de soluto presentes en un litro de disolución. ¿Cuál de las siguientes afirmaciones sobre la molaridad es correcta? a) La molaridad es independiente de la temperatura y la presión. b) La molaridad se expresa en gramos por litro. c) La molaridad se representa con la letra M. d) La molaridad es una medida de la cantidad de soluto en una disolución.');
-INSERT INTO PreguntasQ2 VALUES (281, 187, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de rendimiento de una reacción química? a) Es la relación entre la cantidad de producto obtenido experimentalmente y la cantidad teórica máxima que se puede obtener. b) Es la cantidad de energía liberada o absorbida durante una reacción química. c) Es la cantidad de reactivo que se consume completamente en una reacción. d) Es la cantidad de producto formado en una reacción química a temperatura y presión constantes.');
-INSERT INTO PreguntasQ2 VALUES (281, 188, 'En la estequiometría, ¿cuál es la función principal de los cálculos estequiométricos? a) Determinar la velocidad de una reacción química. b) Calcular la cantidad de reactivo necesario para obtener una cantidad específica de producto. c) Establecer la composición química de una sustancia. d) Cuantificar la cantidad de energía liberada o absorbida durante una reacción química.');
-INSERT INTO PreguntasQ2 VALUES (281, 189, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de pureza en la estequiometría? a) Es la cantidad de soluto presente en una disolución. b) Es la cantidad de solvente presente en una disolución. c) Es la relación entre la masa del componente principal y la masa total de una muestra. d) Es la ausencia de impurezas en un compuesto químico.');
-INSERT INTO PreguntasQ2 VALUES (281, 190, 'La titulación es una técnica utilizada en química analítica para determinar la concentración de una sustancia en una muestra. ¿Cuál de las siguientes afirmaciones sobre la titulación es correcta? a) La titulación se basa en la observación de un cambio de color indicativo de la neutralización de la muestra. b) En la titulación ácido-base, se utiliza una solución ácida como indicador. c) La titulación solo se puede realizar en disoluciones acuosas. d) En la titulación, la cantidad de reactivo añadido se mide con un espectrofotómetro.');
-INSERT INTO PreguntasQ2 VALUES (281, 191, '¿Cuál de las siguientes afirmaciones sobre la relación estequiométrica entre reactivos y productos en una reacción química es correcta? a) La relación estequiométrica entre los reactivos y productos es siempre 1:1. b) La relación estequiométrica entre los reactivos y productos se determina a partir de los coeficientes estequiométricos de la ecuación química balanceada. c) La relación estequiométrica entre los reactivos y productos no afecta la cantidad de producto formado. d) La relación estequiométrica entre los reactivos y productos se basa en la teoría de las colisiones.');
-INSERT INTO PreguntasQ2 VALUES (281, 192, '¿Cuál de las siguientes ecuaciones químicas representa una reacción de descomposición? a) 2H₂ + O₂ → 2H₂O b) CaCO₃ → CaO + CO₂ c) 2Na + Cl₂ → 2NaCl d) HCl + NaOH → NaCl + H₂O');
-INSERT INTO PreguntasQ2 VALUES (281, 193, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de masa molar en la estequiometría? a) Es la masa de un mol de átomos de un elemento o moléculas de un compuesto. b) Es la masa total de una sustancia en una disolución. c) Es la relación entre la masa de un componente principal y la masa total de una muestra. d) Es la cantidad de materia presente en una sustancia.');
-INSERT INTO PreguntasQ2 VALUES (281, 194, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de mol en la estequiometría? a) Es la cantidad de soluto presente en una disolución. b) Es una unidad de masa utilizada para expresar la concentración de una solución. c) Es la cantidad de átomos en un mol de una sustancia. d) Es la cantidad de energía liberada o absorbida durante una reacción química.');
-INSERT INTO PreguntasQ2 VALUES (281, 195, '¿Cuál de las siguientes afirmaciones sobre la estequiometría en la vida cotidiana es correcta? a) La estequiometría se aplica únicamente en el laboratorio. b) La estequiometría es útil para calcular las cantidades de ingredientes necesarios para cocinar. c) La estequiometría no tiene aplicaciones prácticas fuera del ámbito científico. d) La estequiometría no es relevante en la producción industrial.');
-INSERT INTO PreguntasQ2 VALUES (281, 196, '¿Cuál de los siguientes factores afecta la velocidad de una reacción química? a) La masa de los reactivos. b) La temperatura. c) La presión atmosférica. d) El color de los reactivos.');
-INSERT INTO PreguntasQ2 VALUES (281, 197, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de reactivo en exceso en una reacción química? a) Es el reactivo que se consume completamente en la reacción. b) Es el reactivo que determina la cantidad máxima de producto formado. c) Es el reactivo que está presente en menor cantidad y limita la cantidad de producto formado. d) Es el reactivo que queda sin reaccionar al final de la reacción porque hay más de él que lo necesario para reaccionar completamente con el otro reactivo.');
-INSERT INTO PreguntasQ2 VALUES (281, 198, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de rendimiento teórico en una reacción química? a) Es la cantidad de producto que se obtiene experimentalmente. b) Es la cantidad máxima de producto que se puede obtener según los cálculos estequiométricos. c) Es la cantidad de reactivo que se consume completamente en la reacción. d) Es la cantidad de reactivo que se añade en exceso en la reacción.');
-INSERT INTO PreguntasQ2 VALUES (281, 199, '¿Cuál de las siguientes afirmaciones sobre los coeficientes estequiométricos en una ecuación química es correcta? a) Los coeficientes estequiométricos representan la cantidad de energía liberada o absorbida durante la reacción. b) Los coeficientes estequiométricos son cantidades proporcionales de reactivos y productos en una ecuación química balanceada. c) Los coeficientes estequiométricos indican la velocidad a la que se lleva a cabo una reacción química. d) Los coeficientes estequiométricos son números que se utilizan para ajustar la temperatura y la presión de una reacción química.');
-INSERT INTO PreguntasQ2 VALUES (281, 200, '¿Cuál de las siguientes afirmaciones sobre la estequiometría en la industria es correcta? a) La estequiometría no tiene aplicaciones en la industria. b) La estequiometría se utiliza para calcular la cantidad de reactivo necesaria para producir una cantidad específica de producto. c) La estequiometría solo se aplica en la investigación científica, no en la producción industrial. d) La estequiometría se utiliza únicamente para calcular la masa de los productos en una reacción química.');
-INSERT INTO PreguntasQ2 VALUES (281, 201, '¿Cuál de los siguientes conceptos está relacionado con la ley de conservación de la masa en la estequiometría? a) La ley de Boyle. b) La ley de los gases ideales. c) La ley de Lavoisier. d) La ley de Avogadro.');
-INSERT INTO PreguntasQ2 VALUES (281, 202, '¿Cuál de las siguientes afirmaciones sobre la cantidad de sustancia es correcta? a) La cantidad de sustancia se mide en litros. b) La cantidad de sustancia se mide en gramos. c) La cantidad de sustancia se mide en moles. d) La cantidad de sustancia se mide en kilogramos.');
-INSERT INTO PreguntasQ2 VALUES (281, 203, '¿Cuál de las siguientes afirmaciones sobre la masa molar es correcta? a) La masa molar es la masa de un átomo de un elemento. b) La masa molar es la masa de un mol de átomos de un elemento o moléculas de un compuesto. c) La masa molar es la masa total de una muestra en gramos. d) La masa molar es la masa de un átomo de un elemento en kilogramos.');
-INSERT INTO PreguntasQ2 VALUES (281, 204, '¿Qué ley de la estequiometría establece que la masa de los reactivos es igual a la masa de los productos en una reacción química? a) Ley de las proporciones múltiples. b) Ley de Proust. c) Ley de Lavoisier. d) Ley de Boyle.');
-INSERT INTO PreguntasQ2 VALUES (281, 205, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de volumen molar en la estequiometría? a) Es la cantidad de volumen ocupado por un mol de átomos o moléculas en condiciones estándar de presión y temperatura. b) Es la cantidad de volumen que se produce en una reacción química. c) Es la relación entre el volumen de un reactivo y el volumen de un producto en una ecuación química. d) Es la cantidad de volumen necesario para disolver un mol de soluto en un litro de solvente.');
-INSERT INTO PreguntasQ2 VALUES (281, 206, '¿Cuál de las siguientes afirmaciones sobre la estequiometría en la vida cotidiana es correcta? a) La estequiometría no tiene aplicaciones prácticas en la vida cotidiana. b) La estequiometría se utiliza para calcular las cantidades de ingredientes necesarios en recetas de cocina. c) La estequiometría solo se aplica en entornos científicos y académicos. d) La estequiometría se utiliza únicamente en la industria química.');
-INSERT INTO PreguntasQ2 VALUES (281, 207, '¿Qué tipo de reacción química implica la combinación de dos o más sustancias para formar un nuevo compuesto? a) Reacción de descomposición. b) Reacción de síntesis. c) Reacción de sustitución. d) Reacción de oxidación.');
-INSERT INTO PreguntasQ2 VALUES (281, 208, '¿Cuál es el coeficiente estequiométrico para el oxígeno en la siguiente ecuación química no balanceada: C₆H₁₂O₆ + O₂ → CO₂ + H₂O? a) 1 b) 2 c) 6 d) 12');
-INSERT INTO PreguntasQ2 VALUES (281, 209, '¿Cuál es la ley estequiométrica que establece que los elementos se combinan en proporciones fijas y simples para formar compuestos químicos? a) Ley de Boyle. b) Ley de Lavoisier. c) Ley de las proporciones múltiples. d) Ley de Avogadro.');
-INSERT INTO PreguntasQ2 VALUES (281, 210, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de rendimiento real en una reacción química? a) Es la cantidad máxima de producto que se puede obtener según los cálculos estequiométricos. b) Es la cantidad de producto que se obtiene experimentalmente en una reacción química. c) Es la cantidad de reactivo que se consume completamente en la reacción. d) Es la cantidad de reactivo que se añade en exceso en la reacción.');
+INSERT INTO PreguntasQ2 VALUES (281, 163, 'A partir de la ecuación: 3H₂S + 8HNO₃ → 3H₂SO₄ + 8NO + 4H₂O, ¿qué cantidad de ácido nítrico impuro se necesita si se producen 440g de H₂SO₄? Considera que el HNO₃ tiene una pureza del 70%. ');
+INSERT INTO PreguntasQ2 VALUES (281, 164, 'A partir de la ecuación: 3H₂S + 8HNO₃ → 3H₂SO₄ + 8NO + 4H₂O, ¿cuántas moles de agua se obtienen al reaccionar 50g de H₂S con 4 mol de HNO₃? ');
+INSERT INTO PreguntasQ2 VALUES (281, 165, 'Una forma de obtener el tetracloruro de carbono haciendo reaccionar bismuto de carbono en cloro gaseoso las proporciones que se requieren para su obtención son estudiadas por la: ');
+INSERT INTO PreguntasQ2 VALUES (281, 166, 'La masa en libras de 325g de una muestra de cobre es: ');
+INSERT INTO PreguntasQ2 VALUES (281, 167, 'La reacción cuantitativa que guardan las sustancias de la siguiente ecuación química respectivamente es: ');
+INSERT INTO PreguntasQ2 VALUES (281, 168, 'El porcentaje de cromo que hay en K₂Cr₂O₇ es: ');
+INSERT INTO PreguntasQ2 VALUES (281, 169, 'La fórmula mínima de un compuesto construido 31.54% de calcio, 24.38% de fosfato y 44.08% de oxígeno es: ');
+INSERT INTO PreguntasQ2 VALUES (281, 170, '¿Cuál es la fórmula verdadera de un compuesto que tiene como fórmula empírica CH y peso molecular de 78g? ');
+INSERT INTO PreguntasQ2 VALUES (281, 171, 'La masa en gramos de 6.022×10²³ moléculas de H₂PC₄ recibe el nombre de: ');
+INSERT INTO PreguntasQ2 VALUES (281, 172, '¿Cuántos átomos gramos están contenidos en 5 gramos de aluminio y 69 gramos de sodio respectivamente? ');
+INSERT INTO PreguntasQ2 VALUES (281, 173, 'De las siguientes muestras gaseosas expresadas en gramos, ¿cuál ocupa un volumen de 22.2 litros en condiciones normales de presión y temperatura? ');
+INSERT INTO PreguntasQ2 VALUES (281, 174, 'El oro es uno de los metales cuyo brillo perdura con el paso del tiempo, no se oxida fácilmente. Si un anillo contiene 0.125 gramos de oro, ¿cuántos átomos gramo existen en el anillo? ');
+INSERT INTO PreguntasQ2 VALUES (281, 175, 'La masa molecular del fosfato de bario en u.m.a es: ');
+INSERT INTO PreguntasQ2 VALUES (281, 176, '¿Cuántas moléculas gramos hay en 347 gramos de perclorato de magnesio? ');
+INSERT INTO PreguntasQ2 VALUES (281, 177, 'Las moles de bióxido de carbono contenidas en 6.9×10¹⁶ moléculas son: ');
+INSERT INTO PreguntasQ2 VALUES (281, 178, '¿Cuál de los siguientes compuestos contiene más moléculas? ');
+INSERT INTO PreguntasQ2 VALUES (281, 179, 'La estequiometría es una rama de la química que estudia las relaciones cuantitativas entre los reactivos y productos en una reacción química, su aplicación es crucial en diversos campos como la síntesis de compuestos y la industria. ¿Cuál de las siguientes afirmaciones describe mejor el ámbito de estudio de la estequiometría? ');
+INSERT INTO PreguntasQ2 VALUES (281, 180, '¿Cuál es el objetivo principal de la ley de conservación de la masa en la estequiometría? ');
+INSERT INTO PreguntasQ2 VALUES (281, 181, '¿Cuál de las siguientes opciones describe mejor el concepto de reactivo limitante en una reacción química? ');
+INSERT INTO PreguntasQ2 VALUES (281, 182, 'La ley de los gases ideales es una aproximación que describe el comportamiento de los gases bajo ciertas condiciones. ¿Cuál de las siguientes afirmaciones sobre esta ley es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 183, 'En la estequiometría, la relación molar entre los reactivos y productos de una reacción química es esencial para determinar la cantidad de producto formado. ¿Cuál de las siguientes opciones describe mejor esta relación? ');
+INSERT INTO PreguntasQ2 VALUES (281, 184, '¿Qué ley de la estequiometría establece que los elementos se combinan en proporciones de masa fija para formar compuestos químicos? ');
+INSERT INTO PreguntasQ2 VALUES (281, 185, '¿Cuál de las siguientes ecuaciones químicas representa una relación estequiométrica entre los reactivos y productos? ');
+INSERT INTO PreguntasQ2 VALUES (281, 186, 'La molaridad es una medida de concentración que expresa el número de moles de soluto presentes en un litro de disolución. ¿Cuál de las siguientes afirmaciones sobre la molaridad es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 187, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de rendimiento de una reacción química? ');
+INSERT INTO PreguntasQ2 VALUES (281, 188, 'En la estequiometría, ¿cuál es la función principal de los cálculos estequiométricos? ');
+INSERT INTO PreguntasQ2 VALUES (281, 189, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de pureza en la estequiometría? ');
+INSERT INTO PreguntasQ2 VALUES (281, 190, 'La titulación es una técnica utilizada en química analítica para determinar la concentración de una sustancia en una muestra. ¿Cuál de las siguientes afirmaciones sobre la titulación es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 191, '¿Cuál de las siguientes afirmaciones sobre la relación estequiométrica entre reactivos y productos en una reacción química es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 192, '¿Cuál de las siguientes ecuaciones químicas representa una reacción de descomposición? ');
+INSERT INTO PreguntasQ2 VALUES (281, 193, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de masa molar en la estequiometría? ');
+INSERT INTO PreguntasQ2 VALUES (281, 194, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de mol en la estequiometría? ');
+INSERT INTO PreguntasQ2 VALUES (281, 195, '¿Cuál de las siguientes afirmaciones sobre la estequiometría en la vida cotidiana es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 196, '¿Cuál de los siguientes factores afecta la velocidad de una reacción química? ');
+INSERT INTO PreguntasQ2 VALUES (281, 197, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de reactivo en exceso en una reacción química? ');
+INSERT INTO PreguntasQ2 VALUES (281, 198, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de rendimiento teórico en una reacción química? ');
+INSERT INTO PreguntasQ2 VALUES (281, 199, '¿Cuál de las siguientes afirmaciones sobre los coeficientes estequiométricos en una ecuación química es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 200, '¿Cuál de las siguientes afirmaciones sobre la estequiometría en la industria es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 201, '¿Cuál de los siguientes conceptos está relacionado con la ley de conservación de la masa en la estequiometría? ');
+INSERT INTO PreguntasQ2 VALUES (281, 202, '¿Cuál de las siguientes afirmaciones sobre la cantidad de sustancia es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 203, '¿Cuál de las siguientes afirmaciones sobre la masa molar es correcta? .');
+INSERT INTO PreguntasQ2 VALUES (281, 204, '¿Qué ley de la estequiometría establece que la masa de los reactivos es igual a la masa de los productos en una reacción química? ');
+INSERT INTO PreguntasQ2 VALUES (281, 205, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de volumen molar en la estequiometría? ');
+INSERT INTO PreguntasQ2 VALUES (281, 206, '¿Cuál de las siguientes afirmaciones sobre la estequiometría en la vida cotidiana es correcta? ');
+INSERT INTO PreguntasQ2 VALUES (281, 207, '¿Qué tipo de reacción química implica la combinación de dos o más sustancias para formar un nuevo compuesto? ');
+INSERT INTO PreguntasQ2 VALUES (281, 208, '¿Cuál es el coeficiente estequiométrico para el oxígeno en la siguiente ecuación química no balanceada: C₆H₁₂O₆ + O₂ → CO₂ + H₂O? ');
+INSERT INTO PreguntasQ2 VALUES (281, 209, '¿Cuál es la ley estequiométrica que establece que los elementos se combinan en proporciones fijas y simples para formar compuestos químicos? ');
+INSERT INTO PreguntasQ2 VALUES (281, 210, '¿Cuál de las siguientes afirmaciones describe mejor el concepto de rendimiento real en una reacción química? ');
 
 
 
 -- Tema 2 Estructura de compuestos orgánicos
-INSERT INTO PreguntasQ2 VALUES (282, 211, '¿Cuál es el número total de carbonos primarios, secundarios, terciarios o cuaternarios en la siguiente fórmula semidesarrollada: CH₃-CH₂-CH(CH₃)-CH₂-CH₃?
-a) 2 primarios, 2 secundarios, 1 terciario, 0 cuaternarios
-b) 3 primarios, 2 secundarios, 1 terciario, 0 cuaternarios
-c) 2 primarios, 3 secundarios, 0 terciarios, 1 cuaternario
-d) 3 primarios, 3 secundarios, 0 terciarios, 0 cuaternarios');
-
-INSERT INTO PreguntasQ2 VALUES (282, 212, '¿Cuál de los siguientes compuestos contiene los cuatro elementos que intervienen frecuentemente en la química orgánica?
-a) CH₃-CH₂-CH₂CONH₂
-b) CH₃-CH₂-O-CH₂-CH₃
-c) CH₃-CH₂-CH₂-COOLi
-d) CH₃-CH₂-CH₂-CHO');
-
-INSERT INTO PreguntasQ2 VALUES (282, 213, '¿Cuál de los siguientes procesos no predominan en el campo de estudio de la química orgánica?
-a) Síntesis de polímeros
-b) Obtención de ácido sulfúrico
-c) Síntesis de medicamentos
-d) Preparación de detergentes');
-
-INSERT INTO PreguntasQ2 VALUES (282, 214, '¿Cuál de las siguientes opciones muestra una fórmula molecular y una semidesarrollada respectivamente?
-a) C₆H₁₂, CH₃-CH₂-CH₂-CH₂-CH₂-CH₃
-b) C₃H₆O, CH₃-CH(OH)-CH₃
-c) C₄H₁₀, CH₃-CH₂-CH₂-CH₃
-d) C₂H₄O₂, CH₃COOH');
-
-INSERT INTO PreguntasQ2 VALUES (282, 215, 'En el siguiente compuesto, los carbonos señalados con la flecha se clasifican como:
-→ CH₃─CH₂─CH─CH₂─CH₃
-a) Primarios
-b) Secundarios
-c) Terciarios
-d) Cuaternarios');
-
-INSERT INTO PreguntasQ2 VALUES (282, 216, '¿En cuál de los siguientes compuestos se presentan solamente enlaces sigma?
-a) CH₄
-b) C₂H₂
-c) C₂H₄
-d) C₂H₆');
-
-INSERT INTO PreguntasQ2 VALUES (282, 217, '¿En cuál de las siguientes moléculas se presentan solamente orbitales moleculares tipo sigma?
-a) O₂
-b) N₂
-c) H₂
-d) HCl');
-
-INSERT INTO PreguntasQ2 VALUES (282, 218, '¿Cuál de los siguientes procesos corresponde al campo de estudio de la química orgánica?
-a) Obtención de ácido clorhídrico
-b) Preparación de ácido sulfúrico
-c) Síntesis de proteínas
-d) Extracción de metales de sus minerales');
-
-INSERT INTO PreguntasQ2 VALUES (282, 219, '¿Cuál de las siguientes afirmaciones es verdadera respecto a los alcanos?
-a) Tienen al menos un doble enlace carbono-carbono.
-b) Son altamente reactivos debido a la presencia de grupos funcionales.
-c) Siguen la fórmula general CₙH₂ₙ₊₂.
-d) Son solubles en agua debido a su polaridad');
-
-INSERT INTO PreguntasQ2 VALUES (282, 220, '¿Qué tipo de enlace se encuentra predominantemente en los hidrocarburos saturados?
-a) Enlace simple
-b) Enlace doble
-c) Enlace triple
-d) Enlace coordinado');
-
-INSERT INTO PreguntasQ2 VALUES (282, 221, '¿Cuál de las siguientes afirmaciones describe mejor a los alquenos?
-a) Son hidrocarburos saturados con un enlace doble carbono-carbono.
-b) Son hidrocarburos saturados con un enlace triple carbono-carbono.
-c) Son hidrocarburos insaturados con un enlace doble carbono-carbono.
-d) Son hidrocarburos insaturados con un enlace triple carbono-carbono');
-
-INSERT INTO PreguntasQ2 VALUES (282, 222, '¿Qué tipo de reacción química se lleva a cabo cuando un alcano reacciona con oxígeno en presencia de una fuente de calor?
-a) Hidrogenación
-b) Halogenación
-c) Combustión
-d) Sustitución');
-
-INSERT INTO PreguntasQ2 VALUES (282, 223, '¿Qué caracteriza a los compuestos alifáticos?
-a) Contienen anillos aromáticos.
-b) Tienen una cadena lineal o ramificada.
-c) Presentan alta reactividad debido a sus múltiples dobles enlaces.
-d) Son altamente insolubles en disolventes orgánicos');
-
-INSERT INTO PreguntasQ2 VALUES (282, 224, '¿Cuál es la principal función de los alcoholes en química orgánica?
-a) Actúan como ácidos fuertes en solución acuosa.
-b) Son precursores importantes en la fabricación de plásticos.
-c) Se utilizan como conservantes de alimentos.
-d) Actúan como agentes oxidantes en reacciones de combustión');
-
-INSERT INTO PreguntasQ2 VALUES (282, 225, '¿Cuál de las siguientes afirmaciones sobre los éteres es correcta?
-a) Tienen un oxígeno unido a dos átomos de carbono por enlaces simples.
-b) Son altamente polares debido a la electronegatividad del oxígeno.
-c) Son solubles en agua debido a la presencia de un grupo hidroxilo.
-d) Se utilizan principalmente como solventes en reacciones orgánicas');
-
-INSERT INTO PreguntasQ2 VALUES (282, 226, '¿Cuál de los siguientes compuestos pertenece a la familia de los aldehídos?
-a) CH₃COOH
-b) CH₃CH₂OH
-c) CH₃CHO
-d) CH₃COCH₃');
-
-INSERT INTO PreguntasQ2 VALUES (282, 227, '¿Qué característica distingue a los compuestos cetónicos?
-a) Tienen un grupo funcional -OH.
-b) Presentan un doble enlace carbono-carbono.
-c) Contienen un grupo carbonilo en el carbono terminal de la cadena.
-d) Poseen un grupo carbonilo en el carbono central de la cadena');
-
-INSERT INTO PreguntasQ2 VALUES (282, 228, '¿Cuál de los siguientes compuestos es un derivado de la benzaldehído?
-a) Metanol
-b) Tolueno
-c) Acetona
-d) Ácido benzoico');
-
-INSERT INTO PreguntasQ2 VALUES (282, 229, '¿Qué propiedad química caracteriza a los ácidos carboxílicos?
-a) Su capacidad para formar puentes de hidrógeno con el agua.
-b) Su reactividad como bases fuertes en solución acuosa.
-c) Su tendencia a formar enlaces dobles con otros compuestos orgánicos.
-d) Su incapacidad para reaccionar con metales alcalinos');
-
-INSERT INTO PreguntasQ2 VALUES (282, 230, '¿Cuál es la hibridación del carbono en un enlace doble de un alqueno?
-a) sp
-b) sp²
-c) sp³
-d) sp³d');
-
-INSERT INTO PreguntasQ2 VALUES (282, 231, '¿Qué tipo de enlace presenta un alcohol primario?
-a) Enlace sigma
-b) Enlace pi
-c) Enlace metálico
-d) Enlace covalente polar');
-
-INSERT INTO PreguntasQ2 VALUES (282, 232, '¿Cuál es el nombre común del compuesto CH₃COOH?
-a) Ácido acético
-b) Ácido fórmico
-c) Ácido butanoico
-d) Ácido propiónico');
-
-INSERT INTO PreguntasQ2 VALUES (282, 233, '¿Cuál es la fórmula general de un éster?
-a) RCOOH
-b) RCOOR
-c) ROH
-d) RCHO');
-
-INSERT INTO PreguntasQ2 VALUES (282, 234, '¿Cuál de los siguientes compuestos contiene un grupo funcional aldehído?
-a) CH₃COOH
-b) CH₃CHO
-c) CH₃CH₂OH
-d) CH₃CH₂COOH');
-
-INSERT INTO PreguntasQ2 VALUES (282, 235, '¿Cuál es el nombre del compuesto CH₃-CH₂-CH(Cl)-CH₃?
-a) 2-cloropropano
-b) 1-cloropropano
-c) 2-cloroetano
-d) 1-cloroetano');
-INSERT INTO PreguntasQ2 VALUES (282, 236, '¿Cuál es la geometría molecular del metano (CH₄)?
-a) Lineal
-b) Trigonal plana
-c) Tetraédrica
-d) Octaédrica');
-
-INSERT INTO PreguntasQ2 VALUES (282, 237, '¿Cuál es la hibridación del carbono en un alcano saturado?
-a) sp
-b) sp²
-c) sp³
-d) sp³d');
-
-INSERT INTO PreguntasQ2 VALUES (282, 238, '¿Cuál es la estructura tridimensional de un átomo de carbono con hibridación sp³?
-a) Lineal
-b) Trigonal plana
-c) Tetraédrica
-d) Octaédrica');
-
-INSERT INTO PreguntasQ2 VALUES (282, 239, '¿Cuál es el nombre común del compuesto CH₃CH₂OH?
-a) Etanol
-b) Metanol
-c) Propanol
-d) Butanol');
-
-INSERT INTO PreguntasQ2 VALUES (282, 240, '¿Cuál es el grupo funcional presente en un alcohol?
-a) -COOH
-b) -CHO
-c) -OH
-d) -NH₂');
-
-INSERT INTO PreguntasQ2 VALUES (282, 241, '¿Cuál de los siguientes compuestos es un éter?
-a) CH₃CH₂CHO
-b) CH₃CH₂CH₂OH
-c) CH₃OCH₃
-d) CH₃COOH');
-
-INSERT INTO PreguntasQ2 VALUES (282, 242, '¿Qué caracteriza a los compuestos alifáticos?
-a) Contienen anillos aromáticos.
-b) Tienen una cadena lineal o ramificada.
-c) Presentan alta reactividad debido a sus múltiples dobles enlaces.
-d) Son altamente insolubles en disolventes orgánicos.');
-
-INSERT INTO PreguntasQ2 VALUES (282, 243, '¿Cuál de los siguientes compuestos es un halogenuro de alquilo?
-a) CH₃CH₂CH₂OH
-b) CH₃CH₂Br
-c) CH₃CH₂COOH
-d) CH₃CH₂NH₂');
-
-INSERT INTO PreguntasQ2 VALUES (282, 244, '¿Cuál es la fórmula general de un alcano?
-a) CₙH₂ₙ₊₂
-b) CₙH₂ₙ
-c) CₙHₙ
-d) CₙHₙO');
-
-INSERT INTO PreguntasQ2 VALUES (282, 245, '¿Qué tipo de enlace se encuentra en un halogenuro de alquilo?
-a) Enlace sigma
-b) Enlace pi
-c) Enlace metálico
-d) Enlace covalente coordinado');
-
-INSERT INTO PreguntasQ2 VALUES (282, 246, '¿Cuál es el nombre del compuesto CH₃COCH₃?
-a) Propano
-b) Propanal
-c) Propanona
-d) Propanol');
-
-INSERT INTO PreguntasQ2 VALUES (282, 247, '¿Qué tipo de compuesto es un aldehído?
-a) Contiene un grupo funcional -OH
-b) Contiene un doble enlace carbono-carbono
-c) Contiene un grupo carbonilo en el carbono terminal de la cadena
-d) Contiene un grupo carbonilo en el carbono central de la cadena');
-
-INSERT INTO PreguntasQ2 VALUES (282, 248, '¿Cuál es la fórmula general de un ácido carboxílico?
-a) RCOOH
-b) RCOOR
-c) ROH
-d) RCHO');
-
-INSERT INTO PreguntasQ2 VALUES (282, 249, '¿Qué característica distingue a los ácidos carboxílicos?
-a) Su capacidad para formar puentes de hidrógeno con el agua
-b) Su reactividad como bases fuertes en solución acuosa
-c) Su tendencia a formar enlaces dobles con otros compuestos orgánicos
-d) Su incapacidad para reaccionar con metales alcalinos');
-
-INSERT INTO PreguntasQ2 VALUES (282, 250, '¿Cuál es el nombre común del compuesto CH₃CH₂COOH?
-a) Ácido acético
-b) Ácido fórmico
-c) Ácido butanoico
-d) Ácido propiónico');
-
-INSERT INTO PreguntasQ2 VALUES (282, 251, '¿Qué tipo de enlace se encuentra en un éster?
-a) Enlace sigma
-b) Enlace pi
-c) Enlace metálico
-d) Enlace covalente polar');
-
-INSERT INTO PreguntasQ2 VALUES (282, 252, '¿Cuál de las siguientes opciones muestra un grupo funcional amida?
-a) -COOH
-b) -CHO
-c) -OH
-d) -CONH₂');
-
-INSERT INTO PreguntasQ2 VALUES (282, 253, '¿Cuál es el grupo funcional presente en una amina?
-a) -COOH
-b) -CHO
-c) -OH
-d) -NH₂');
-
-INSERT INTO PreguntasQ2 VALUES (282, 254, '¿Cuál es la hibridación del nitrógeno en una amina?
-a) sp
-b) sp²
-c) sp³
-d) sp³d');
-
-INSERT INTO PreguntasQ2 VALUES (282, 255, '¿Qué característica distingue a los compuestos amida?
-a) Tienen un grupo funcional -OH
-b) Presentan un doble enlace carbono-carbono
-c) Contienen un grupo carbonilo en el carbono terminal de la cadena
-d) Poseen un grupo carbamilo en la cadena');
-
-INSERT INTO PreguntasQ2 VALUES (282, 256, '¿Cuál de los siguientes compuestos es un derivado del ácido benzoico?
-a) Metanol
-b) Tolueno
-c) Acetona
-d) Benzamida');
-
-INSERT INTO PreguntasQ2 VALUES (282, 257, '¿Qué propiedad química caracteriza a los ésteres?
-a) Su capacidad para formar puentes de hidrógeno con el agua
-b) Su reactividad como bases fuertes en solución acuosa
-c) Su tendencia a formar enlaces dobles con otros compuestos orgánicos
-d) Su aroma característico');
-
-INSERT INTO PreguntasQ2 VALUES (282, 258, '¿Cuál de los siguientes compuestos es un derivado del ácido acético?
-a) Acetona
-b) Metanol
-c) Etanol
-d) Ácido fórmico');
-
-INSERT INTO PreguntasQ2 VALUES (282, 259, '¿Qué tipo de enlace presenta un éter?
-a) Enlace sigma
-b) Enlace pi
-c) Enlace metálico
-d) Enlace covalente polar');
-
-INSERT INTO PreguntasQ2 VALUES (282, 260, '¿Cuál es la geometría molecular del agua (H₂O)?
-a) Lineal
-b) Trigonal plana
-c) Tetraédrica
-d) Octaédrica');
+INSERT INTO PreguntasQ2 VALUES (282, 211, '¿Cuál es el número total de carbonos primarios, secundarios, terciarios o cuaternarios en la siguiente fórmula semidesarrollada: CH₃-CH₂-CH(CH₃)-CH₂-CH₃?');
+INSERT INTO PreguntasQ2 VALUES (282, 212, '¿Cuál de los siguientes compuestos contiene los cuatro elementos que intervienen frecuentemente en la química orgánica?');
+INSERT INTO PreguntasQ2 VALUES (282, 213, '¿Cuál de los siguientes procesos no predominan en el campo de estudio de la química orgánica?');
+INSERT INTO PreguntasQ2 VALUES (282, 214, '¿Cuál de las siguientes opciones muestra una fórmula molecular y una semidesarrollada respectivamente?');
+INSERT INTO PreguntasQ2 VALUES (282, 215, 'En el siguiente compuesto, los carbonos señalados con la flecha se clasifican como: → CH₃─CH₂─CH─CH₂─CH₃');
+INSERT INTO PreguntasQ2 VALUES (282, 216, '¿En cuál de los siguientes compuestos se presentan solamente enlaces sigma?');
+INSERT INTO PreguntasQ2 VALUES (282, 217, '¿En cuál de las siguientes moléculas se presentan solamente orbitales moleculares tipo sigma?');
+INSERT INTO PreguntasQ2 VALUES (282, 218, '¿Cuál de los siguientes procesos corresponde al campo de estudio de la química orgánica?');
+INSERT INTO PreguntasQ2 VALUES (282, 219, '¿Cuál de las siguientes afirmaciones es verdadera respecto a los alcanos?');
+INSERT INTO PreguntasQ2 VALUES (282, 220, '¿Qué tipo de enlace se encuentra predominantemente en los hidrocarburos saturados?');
+INSERT INTO PreguntasQ2 VALUES (282, 221, '¿Cuál de las siguientes afirmaciones describe mejor a los alquenos?');
+INSERT INTO PreguntasQ2 VALUES (282, 222, '¿Qué tipo de reacción química se lleva a cabo cuando un alcano reacciona con oxígeno en presencia de una fuente de calor?');
+INSERT INTO PreguntasQ2 VALUES (282, 223, '¿Qué caracteriza a los compuestos alifáticos?');
+INSERT INTO PreguntasQ2 VALUES (282, 224, '¿Cuál es la principal función de los alcoholes en química orgánica?');
+INSERT INTO PreguntasQ2 VALUES (282, 225, '¿Cuál de las siguientes afirmaciones sobre los éteres es correcta?');
+INSERT INTO PreguntasQ2 VALUES (282, 226, '¿Cuál de los siguientes compuestos pertenece a la familia de los aldehídos?');
+INSERT INTO PreguntasQ2 VALUES (282, 227, '¿Qué característica distingue a los compuestos cetónicos?');
+INSERT INTO PreguntasQ2 VALUES (282, 228, '¿Cuál de los siguientes compuestos es un derivado de la benzaldehído?');
+INSERT INTO PreguntasQ2 VALUES (282, 229, '¿Qué propiedad química caracteriza a los ácidos carboxílicos?');
+INSERT INTO PreguntasQ2 VALUES (282, 230, '¿Cuál es la hibridación del carbono en un enlace doble de un alqueno?');
+INSERT INTO PreguntasQ2 VALUES (282, 231, '¿Qué tipo de enlace presenta un alcohol primario?');
+INSERT INTO PreguntasQ2 VALUES (282, 232, '¿Cuál es el nombre común del compuesto CH₃COOH?');
+INSERT INTO PreguntasQ2 VALUES (282, 233, '¿Cuál es la fórmula general de un éster?');
+INSERT INTO PreguntasQ2 VALUES (282, 234, '¿Cuál de los siguientes compuestos contiene un grupo funcional aldehído?');
+INSERT INTO PreguntasQ2 VALUES (282, 235, '¿Cuál es el nombre del compuesto CH₃-CH₂-CH(Cl)-CH₃?');
+INSERT INTO PreguntasQ2 VALUES (282, 236, '¿Cuál es la geometría molecular del metano (CH₄)?');
+INSERT INTO PreguntasQ2 VALUES (282, 237, '¿Cuál es la hibridación del carbono en un alcano saturado?');
+INSERT INTO PreguntasQ2 VALUES (282, 238, '¿Cuál es la estructura tridimensional de un átomo de carbono con hibridación sp³?');
+INSERT INTO PreguntasQ2 VALUES (282, 239, '¿Cuál es el nombre común del compuesto CH₃CH₂OH?');
+INSERT INTO PreguntasQ2 VALUES (282, 240, '¿Cuál es el grupo funcional presente en un alcohol?');
+INSERT INTO PreguntasQ2 VALUES (282, 241, '¿Cuál de los siguientes compuestos es un éter?');
+INSERT INTO PreguntasQ2 VALUES (282, 242, '¿Qué caracteriza a los compuestos alifáticos?');
+INSERT INTO PreguntasQ2 VALUES (282, 243, '¿Cuál de los siguientes compuestos es un halogenuro de alquilo?');
+INSERT INTO PreguntasQ2 VALUES (282, 244, '¿Cuál es la fórmula general de un alcano?');
+INSERT INTO PreguntasQ2 VALUES (282, 245, '¿Qué tipo de enlace se encuentra en un halogenuro de alquilo?');
+INSERT INTO PreguntasQ2 VALUES (282, 246, '¿Cuál es el nombre del compuesto CH₃COCH₃?');
+INSERT INTO PreguntasQ2 VALUES (282, 247, '¿Qué tipo de compuesto es un aldehído?');
+INSERT INTO PreguntasQ2 VALUES (282, 248, '¿Cuál es la fórmula general de un ácido carboxílico?');
+INSERT INTO PreguntasQ2 VALUES (282, 249, '¿Qué característica distingue a los ácidos carboxílicos?');
+INSERT INTO PreguntasQ2 VALUES (282, 250, '¿Cuál es el nombre común del compuesto CH₃CH₂COOH?');
+INSERT INTO PreguntasQ2 VALUES (282, 251, '¿Qué tipo de enlace se encuentra en un éster?');
+INSERT INTO PreguntasQ2 VALUES (282, 252, '¿Cuál de las siguientes opciones muestra un grupo funcional amida?');
+INSERT INTO PreguntasQ2 VALUES (282, 253, '¿Cuál es el grupo funcional presente en una amina?');
+INSERT INTO PreguntasQ2 VALUES (282, 254, '¿Cuál es la hibridación del nitrógeno en una amina?');
+INSERT INTO PreguntasQ2 VALUES (282, 255, '¿Qué característica distingue a los compuestos amida?');
+INSERT INTO PreguntasQ2 VALUES (282, 256, '¿Cuál de los siguientes compuestos es un derivado del ácido benzoico?');
+INSERT INTO PreguntasQ2 VALUES (282, 257, '¿Qué propiedad química caracteriza a los ésteres?');
+INSERT INTO PreguntasQ2 VALUES (282, 258, '¿Cuál de los siguientes compuestos es un derivado del ácido acético?');
+INSERT INTO PreguntasQ2 VALUES (282, 259, '¿Qué tipo de enlace presenta un éter?');
+INSERT INTO PreguntasQ2 VALUES (282, 260, '¿Cuál es la geometría molecular del agua (H₂O)?');
 
 
 
@@ -1507,128 +1259,128 @@ INSERT INTO Incisos_Q2 VALUES
 --Incisos parcial 2
 
 --Tema 1
-(141,151, ''),
-(142,152, ''),
-(143,153, ''),
-(144,154, ''),
-(145,155, ''),
-(146,156, ''),
-(147,157, ''),
-(148,158, ''),
-(149,159, ''),
-(150,160, ''),
-(151,161, ''),
-(152,162, ''),
-(153,163, ''),
-(154,164, ''),
-(155,165, ''),
-(156,166, ''),
-(157,167, ''),
-(158,168, ''),
-(159,169, ''),
-(160,170, ''),
-(161,171, ''),
-(162,172, ''),
-(163,173, ''),
-(164,174, ''),
-(165,175, ''),
-(166,176, ''),
-(167,177, ''),
-(168,178, ''),
-(169,179, ''),
-(170,180, ''),
-(171, 181, ''),
-(172, 182, ''),
-(173, 183, ''),
-(174, 184, ''),
-(175, 185, ''),
-(176, 186, ''),
-(177, 187, ''),
-(178, 188, ''),
-(179, 189, ''),
-(180, 190, ''),
-(181, 191, ''),
-(182, 192, ''),
-(183, 193, ''),
-(184, 194, ''),
-(185, 195, ''),
-(186, 196, ''),
-(187, 197, ''),
-(188, 198, ''),
-(189, 199, ''),
-(190, 200, ''),
-(191, 201, ''),
-(192, 202, ''),
-(193, 203, ''),
-(194, 204, ''),
-(195, 205, ''),
-(196, 206, ''),
-(197, 207, ''),
-(198, 208, ''),
-(199, 209, ''),
-(200, 210, ''),
-(201, 211, ''),
-(202, 212, ''),
-(203, 213, ''),
-(204, 214, ''),
-(205, 215, ''),
-(206, 216, ''),
-(207, 217, ''),
-(208, 218, ''),
-(209, 219, ''),
-(210, 220, ''),
+(141,151, 'a) electroquímica b) gravimetría c) estequiometría d) estereoquímica'),
+(142,152, 'a) 82x10⁻² b) 6.02x10²³ c) 2.22x10²⁴ d) 224x10⁻²'),
+(143,153, 'a) electroquímica b) gravimetría c) estequiometría d) estereoquímica'),
+(144,154, 'a) 715.0 b) 147.4 c) 0,715 d) 0.147'),
+(145,155, 'a) 1.85 y 3.0 b) 0.185 y 135 c) 23 y 27 d) 27 y 23'),
+(146,156, 'a) volumen molar b) molécula gramo c) peso molecular d) equivalente gramo'),
+(147,157, 'a) 38g de C₂H₂ b) 28g de CO c) 80g de Br₂ d) 24g de SO₂'),
+(148,158, 'a) 2.50x10³ b) 2.50x10⁻³ c) 2.50x10⁴ d) 2.50x10⁶'),
+(149,159, 'a) 62.50 b) 50.00 c) 43.75 d) 6.24'),
+(150,160, 'a) 24.30 y 5.02 b) 12.03 y 12.27 c) 10.20 y 13.22 d) 8.45 y 16.85'),
+(151,161, 'a) K₂SO₂ b) K₂SO₃ c) K₂SO₄ d) KSO'),
+(152,162, 'a) C₂H₂Cl₂ b) C₃H₆Cl₂ c) C₃H₈Cl₄ d) C₄H₈Cl₂'),
+(153,163, 'a) 62.83 b) 71.17 c) 142.34 d) 188.51'),
+(154,164, 'a) 320.00 b) 228.57 c) 160.00 d) 114.28'),
+(155,165, 'a) 261.02 b) 78.65 c) 12.27 d) 16.74'),
+(156,166, 'a) 129.31 b) 90.00 c) 54.41 d) 33.49'),
+(157,167, 'a) 261.02 b) 14.14 c) 78.65 d) 252.56'),
+(158,168, 'a) 13.98 b) 128.76 c) 19.00 d) 16.74'),
+(159,169, 'a) 197.92 b) 123.32 c) 110.00 d) 129.31'),
+(160,170, 'a) 69.75 b) 87.53 c) 42.44 d) 90.00'),
+(161,171, 'a) 2 moles b) 3 moles c) 4 moles d) 5 moles'),
+(162,172, 'a) 2.24 L b) 3.20 L c) 4.48 L d) 5.60 L'),
+(163,173, 'a) 640 g b) 660 g c) 700 g d) 720 g'),
+(164,174, 'a) 4 moles b) 5 moles c) 6 moles d) 7 moles'),
+(165,175, 'a) electroquímica b) gravimetría c) estequiometría d) estereoquímica'),
+(166,176, 'a) 0.72 lb b) 0.64 lb c) 0.88 lb d) 0.56 lb'),
+(167,177, 'a) Proporcional b) Estequiométrica c) Equilibrada d) Reversible'),
+(168,178, 'a) 52.94% b) 44.94% c) 49.94% d) 56.94%'),
+(169,179, 'a) CaPO₄ b) Ca₃(PO₄)₂ c) Ca₂PO₄ d) Ca(PO₄)₂'),
+(170,180, 'a) C₄H₄ b) C₆H₆ c) C₄H₆ d) C₆H₄'),
+(171, 181, 'a) 98 g b) 196 g c) 49 g d) 294 g'),
+(172, 182, 'a) 3.01×10²³ átomos gramos de Al y 1.12×10²⁴ átomos gramos de Na b) 1.01×10²³ átomos gramos de Al y 2.68×10²⁴ átomos gramos de Na c) 6.02×10²³ átomos gramos de Al y 3.35×10²³ átomos gramos de Na d) 2.01×10²³ átomos gramos de Al y 4.47×10²⁴ átomos gramos de Na'),
+(173, 183, 'a) 2.00 g de CO b) 4.00 g de N₂ c) 5.00 g de O₂ d) 3.00 g de He'),
+(174, 184, 'a) 1.204×10²¹ átomos gramo b) 4.820×10²¹ átomos gramo c) 2.408×10²¹ átomos gramo d) 6.020×10²¹ átomos gramo'),
+(175, 185, 'a) 261.34 u.m.a. b) 223.32 u.m.a. c) 233.32 u.m.a. d) 214.45 u.m.a.'),
+(176, 186, 'a) 6.022×10²³ moléculas gramo b) 1.204×10²⁴ moléculas gramo c) 3.613×10²⁴ moléculas gramo d) 2.408×10²⁴ moléculas gramo'),
+(177, 187, 'a) 1.15×10⁻⁷ moles b) 1.15×10⁻⁶ moles c) 1.15×10⁻⁵ moles d) 1.15×10⁻⁴ moles'),
+(178, 188, 'a) 5 moles de H₂O b) 5 moles de CO₂ c) 5 moles de N₂ d) 5 moles de CH₄'),
+(179, 189, 'a) Estudia la estructura tridimensional de las moléculas. b) Analiza la transferencia de energía durante una reacción química. c) Se enfoca en la determinación de la composición y propiedades de los compuestos. d) Investigación de la velocidad de las reacciones químicas.'),
+(180, 190, 'a) Determinar la cantidad de energía liberada o absorbida durante una reacción química. b) Establecer la relación entre las presiones parciales de los gases en equilibrio. c) Garantizar que la masa total de los reactivos sea igual a la masa total de los productos. d) Cuantificar la cantidad de sustancia presente en una muestra de compuesto químico.'),
+(181, 191, 'a) Es el reactivo que está en exceso y no se consume completamente en la reacción. b) Es el reactivo que está presente en menor cantidad y determina la cantidad máxima de producto formado. c) Es el reactivo que reacciona más rápidamente, afectando la velocidad de la reacción. d) Es el reactivo que se consume primero en la reacción, limitando la cantidad de producto formado.'),
+(182, 192, 'a) Los gases reales siempre se comportan de acuerdo con la ley de los gases ideales. b) La ley establece que la presión y el volumen de un gas son inversamente proporcionales a temperatura constante. c) La ley establece que la energía cinética promedio de las moléculas de un gas es inversamente proporcional a la temperatura absoluta. d) La ley establece que el producto de la presión y el volumen de un gas es directamente proporcional a la temperatura absoluta.'),
+(183, 193, 'a) Coeficientes estequiométricos. b) Índice de reacción. c) Constante de equilibrio. d) Factor de conversión.'),
+(184, 194, 'a) Ley de Lavoisier. b) Ley de las proporciones definidas. c) Ley de las proporciones múltiples. d) Ley de Proust.'),
+(185, 195, 'a) H₂ + Cl₂ → 2HCl b) NaOH + HCl → NaCl + H₂O c) 2H₂ + O₂ → 2H₂O d) CaCO₃ → CaO + CO₂'),
+(186, 196, 'a) La molaridad es independiente de la temperatura y la presión. b) La molaridad se expresa en gramos por litro. c) La molaridad se representa con la letra M. d) La molaridad es una medida de la cantidad de soluto en una disolución.'),
+(187, 197, 'a) Es la relación entre la cantidad de producto obtenido experimentalmente y la cantidad teórica máxima que se puede obtener. b) Es la cantidad de energía liberada o absorbida durante una reacción química. c) Es la cantidad de reactivo que se consume completamente en una reacción. d) Es la cantidad de producto formado en una reacción química a temperatura y presión constantes.'),
+(188, 198, 'a) Determinar la velocidad de una reacción química. b) Calcular la cantidad de reactivo necesario para obtener una cantidad específica de producto. c) Establecer la composición química de una sustancia. d) Cuantificar la cantidad de energía liberada o absorbida durante una reacción química.'),
+(189, 199, 'a) Es la cantidad de soluto presente en una disolución. b) Es la cantidad de solvente presente en una disolución. c) Es la relación entre la masa del componente principal y la masa total de una muestra. d) Es la ausencia de impurezas en un compuesto químico.'),
+(190, 200, 'a) La titulación se basa en la observación de un cambio de color indicativo de la neutralización de la muestra. b) En la titulación ácido-base, se utiliza una solución ácida como indicador. c) La titulación solo se puede realizar en disoluciones acuosas. d) En la titulación, la cantidad de reactivo añadido se mide con un espectrofotómetro.'),
+(191, 201, 'a) La relación estequiométrica entre los reactivos y productos es siempre 1:1. b) La relación estequiométrica entre los reactivos y productos se determina a partir de los coeficientes estequiométricos de la ecuación química balanceada. c) La relación estequiométrica entre los reactivos y productos no afecta la cantidad de producto formado. d) La relación estequiométrica entre los reactivos y productos se basa en la teoría de las colisiones.'),
+(192, 202, 'a) 2H₂ + O₂ → 2H₂O b) CaCO₃ → CaO + CO₂ c) 2Na + Cl₂ → 2NaCl d) HCl + NaOH → NaCl + H₂O'),
+(193, 203, 'a) Es la masa de un mol de átomos de un elemento o moléculas de un compuesto. b) Es la masa total de una sustancia en una disolución. c) Es la relación entre la masa de un componente principal y la masa total de una muestra. d) Es la cantidad de materia presente en una sustancia.'),
+(194, 204, 'a) Es la cantidad de soluto presente en una disolución. b) Es una unidad de masa utilizada para expresar la concentración de una solución. c) Es la cantidad de átomos en un mol de una sustancia. d) Es la cantidad de energía liberada o absorbida durante una reacción química.'),
+(195, 205, 'a) La estequiometría se aplica únicamente en el laboratorio. b) La estequiometría es útil para calcular las cantidades de ingredientes necesarios para cocinar. c) La estequiometría no tiene aplicaciones prácticas fuera del ámbito científico. d) La estequiometría no es relevante en la producción industrial.'),
+(196, 206, 'a) La masa de los reactivos. b) La temperatura. c) La presión atmosférica. d) El color de los reactivos.'),
+(197, 207, 'a) Es el reactivo que se consume completamente en la reacción. b) Es el reactivo que determina la cantidad máxima de producto formado. c) Es el reactivo que está presente en menor cantidad y limita la cantidad de producto formado. d) Es el reactivo que queda sin reaccionar al final de la reacción porque hay más de él que lo necesario para reaccionar completamente con el otro reactivo.'),
+(198, 208, 'a) Es la cantidad de producto que se obtiene experimentalmente. b) Es la cantidad máxima de producto que se puede obtener según los cálculos estequiométricos. c) Es la cantidad de reactivo que se consume completamente en la reacción. d) Es la cantidad de reactivo que se añade en exceso en la reacción.'),
+(199, 209, 'a) Los coeficientes estequiométricos representan la cantidad de energía liberada o absorbida durante la reacción. b) Los coeficientes estequiométricos son cantidades proporcionales de reactivos y productos en una ecuación química balanceada. c) Los coeficientes estequiométricos indican la velocidad a la que se lleva a cabo una reacción química. d) Los coeficientes estequiométricos son números que se utilizan para ajustar la temperatura y la presión de una reacción química.'),
+(200, 210, 'a) La estequiometría no tiene aplicaciones en la industria. b) La estequiometría se utiliza para calcular la cantidad de reactivo necesaria para producir una cantidad específica de producto. c) La estequiometría solo se aplica en la investigación científica, no en la producción industrial. d) La estequiometría se utiliza únicamente para calcular la masa de los productos en una reacción química.'),
+(201, 211, 'a) La ley de Boyle. b) La ley de los gases ideales. c) La ley de Lavoisier. d) La ley de Avogadro.'),
+(202, 212, 'a) La cantidad de sustancia se mide en litros. b) La cantidad de sustancia se mide en gramos. c) La cantidad de sustancia se mide en moles. d) La cantidad de sustancia se mide en kilogramos.'),
+(203, 213, 'a) La masa molar es la masa de un átomo de un elemento. b) La masa molar es la masa de un mol de átomos de un elemento o moléculas de un compuesto. c) La masa molar es la masa total de una muestra en gramos. d) La masa molar es la masa de un átomo de un elemento en kilogramos'),
+(204, 214, 'a) Ley de las proporciones múltiples. b) Ley de Proust. c) Ley de Lavoisier. d) Ley de Boyle.'),
+(205, 215, 'a) Es la cantidad de volumen ocupado por un mol de átomos o moléculas en condiciones estándar de presión y temperatura. b) Es la cantidad de volumen que se produce en una reacción química. c) Es la relación entre el volumen de un reactivo y el volumen de un producto en una ecuación química. d) Es la cantidad de volumen necesario para disolver un mol de soluto en un litro de solvente.'),
+(206, 216, 'a) La estequiometría no tiene aplicaciones prácticas en la vida cotidiana. b) La estequiometría se utiliza para calcular las cantidades de ingredientes necesarios en recetas de cocina. c) La estequiometría solo se aplica en entornos científicos y académicos. d) La estequiometría se utiliza únicamente en la industria química.'),
+(207, 217, 'a) Reacción de descomposición. b) Reacción de síntesis. c) Reacción de sustitución. d) Reacción de oxidación.'),
+(208, 218, 'a) 1 b) 2 c) 6 d) 12'),
+(209, 219, 'a) Ley de Boyle. b) Ley de Lavoisier. c) Ley de las proporciones múltiples. d) Ley de Avogadro.'),
+(210, 220, 'a) Es la cantidad máxima de producto que se puede obtener según los cálculos estequiométricos. b) Es la cantidad de producto que se obtiene experimentalmente en una reacción química. c) Es la cantidad de reactivo que se consume completamente en la reacción. d) Es la cantidad de reactivo que se añade en exceso en la reacción.'),
 
 --Tema 2
-(211, 221, ''),
-(212, 222, ''),
-(213, 223, ''),
-(214, 224, ''),
-(215, 225, ''),
-(216, 226, ''),
-(217, 227, ''),
-(218, 228, ''),
-(219, 229, ''),
-(220, 230, ''),
-(221, 231, ''),
-(222, 232, ''),
-(223, 233, ''),
-(224, 234, ''),
-(225, 235, ''),
-(226, 236, ''),
-(227, 237, ''),
-(228, 238, ''),
-(229, 239, ''),
-(230, 240, ''),
-(231, 241, ''),
-(232, 242, ''),
-(233, 243, ''),
-(234, 244, ''),
-(235, 245, ''),
-(236, 246, ''),
-(237, 247, ''),
-(238, 248, ''),
-(239, 249, ''),
-(240, 250, ''),
-(241, 251, ''),
-(242, 252, ''),
-(243, 253, ''),
-(244, 254, ''),
-(245, 255, ''),
-(246, 256, ''),
-(247, 257, ''),
-(248, 258, ''),
-(249, 259, ''),
-(250, 260, ''),
-(251, 261, ''),
-(252, 262, ''),
-(253, 263, ''),
-(254, 264, ''),
-(255, 265, ''),
-(256, 266, ''),
-(257, 267, ''),
-(258, 268, ''),
-(259, 269, ''),
-(260, 270, ''),
+(211, 221, 'a) 2 primarios, 2 secundarios, 1 terciario, 0 cuaternarios b) 3 primarios, 2 secundarios, 1 terciario, 0 cuaternarios c) 2 primarios, 3 secundarios, 0 terciarios, 1 cuaternario d) 3 primarios, 3 secundarios, 0 terciarios, 0 cuaternarios'),
+(212, 222, 'a) CH₃-CH₂-CH₂CONH₂ b) CH₃-CH₂-O-CH₂-CH₃ c) CH₃-CH₂-CH₂-COOLi d) CH₃-CH₂-CH₂-CHO'),
+(213, 223, 'a) Síntesis de polímeros b) Obtención de ácido sulfúrico c) Síntesis de medicamentos d) Preparación de detergentes'),
+(214, 224, 'a) C₆H₁₂, CH₃-CH₂-CH₂-CH₂-CH₂-CH₃ b) C₃H₆O, CH₃-CH(OH)-CH₃ c) C₄H₁₀, CH₃-CH₂-CH₂-CH₃ d) C₂H₄O₂, CH₃COOH'),
+(215, 225, 'a) Primarios b) Secundarios c) Terciarios d) Cuaternarios'),
+(216, 226, 'a) CH₄ b) C₂H₂ c) C₂H₄ d) C₂H₆'),
+(217, 227, 'a) O₂ b) N₂ c) H₂ d) HCl'),
+(218, 228, 'a) Obtención de ácido clorhídrico b) Preparación de ácido sulfúrico c) Síntesis de proteínas d) Extracción de metales de sus minerales'),
+(219, 229, 'a) Tienen al menos un doble enlace carbono-carbono. b) Son altamente reactivos debido a la presencia de grupos funcionales. c) Siguen la fórmula general CₙH₂ₙ₊₂. d) Son solubles en agua debido a su polaridad'),
+(220, 230, 'a) Enlace simple b) Enlace doble c) Enlace triple d) Enlace coordinado'),
+(221, 231, 'a) Son hidrocarburos saturados con un enlace doble carbono-carbono. b) Son hidrocarburos saturados con un enlace triple carbono-carbono. c) Son hidrocarburos insaturados con un enlace doble carbono-carbono. d) Son hidrocarburos insaturados con un enlace triple carbono-carbono'),
+(222, 232, 'a) Hidrogenación b) Halogenación c) Combustión d) Sustitución'),
+(223, 233, 'a) Contienen anillos aromáticos. b) Tienen una cadena lineal o ramificada. c) Presentan alta reactividad debido a sus múltiples dobles enlaces. d) Son altamente insolubles en disolventes orgánicos'),
+(224, 234, 'a) Actúan como ácidos fuertes en solución acuosa. b) Son precursores importantes en la fabricación de plásticos. c) Se utilizan como conservantes de alimentos. d) Actúan como agentes oxidantes en reacciones de combustión'),
+(225, 235, 'a) Tienen un oxígeno unido a dos átomos de carbono por enlaces simples. b) Son altamente polares debido a la electronegatividad del oxígeno. c) Son solubles en agua debido a la presencia de un grupo hidroxilo. d) Se utilizan principalmente como solventes en reacciones orgánicas'),
+(226, 236, 'a) CH₃COOH b) CH₃CH₂OH c) CH₃CHO d) CH₃COCH₃'),
+(227, 237, 'a) Tienen un grupo funcional -OH. b) Presentan un doble enlace carbono-carbono. c) Contienen un grupo carbonilo en el carbono terminal de la cadena. d) Poseen un grupo carbonilo en el carbono central de la cadena'),
+(228, 238, 'a) Metanol b) Tolueno c) Acetona d) Ácido benzoico'),
+(229, 239, 'a) Su capacidad para formar puentes de hidrógeno con el agua. b) Su reactividad como bases fuertes en solución acuosa. c) Su tendencia a formar enlaces dobles con otros compuestos orgánicos. d) Su incapacidad para reaccionar con metales alcalinos'),
+(230, 240, 'a) sp b) sp² c) sp³ d) sp³d'),
+(231, 241, 'a) Enlace sigma b) Enlace pi c) Enlace metálico d) Enlace covalente polar'),
+(232, 242, 'a) Ácido acético b) Ácido fórmico c) Ácido butanoico d) Ácido propiónico'),
+(233, 243, 'a) RCOOH b) RCOOR c) ROH d) RCHO'),
+(234, 244, 'a) CH₃COOH b) CH₃CHO c) CH₃CH₂OH d) CH₃CH₂COOH'),
+(235, 245, 'a) 2-cloropropano b) 1-cloropropano c) 2-cloroetano d) 1-cloroetano'),
+(236, 246, 'a) Lineal b) Trigonal plana c) Tetraédrica d) Octaédrica'),
+(237, 247, 'a) sp b) sp² c) sp³ d) sp³d'),
+(238, 248, 'a) Lineal b) Trigonal plana c) Tetraédrica d) Octaédrica'),
+(239, 249, 'a) Etanol b) Metanol c) Propanol d) Butanol'),
+(240, 250, 'a) -COOH b) -CHO c) -OH d) -NH₂'),
+(241, 251, 'a) CH₃CH₂CHO b) CH₃CH₂CH₂OH c) CH₃OCH₃ d) CH₃COOH'),
+(242, 252, 'a) Contienen anillos aromáticos. b) Tienen una cadena lineal o ramificada. c) Presentan alta reactividad debido a sus múltiples dobles enlaces. d) Son altamente insolubles en disolventes orgánicos.'),
+(243, 253, 'a) CH₃CH₂CH₂OH b) CH₃CH₂Br c) CH₃CH₂COOH d) CH₃CH₂NH₂'),
+(244, 254, 'a) CₙH₂ₙ₊₂ b) CₙH₂ₙ c) CₙHₙ d) CₙHₙO'),
+(245, 255, 'a) Enlace sigma b) Enlace pi c) Enlace metálico d) Enlace covalente coordinado'),
+(246, 256, 'a) Propano b) Propanal c) Propanona d) Propanol'),
+(247, 257, 'a) Contiene un grupo funcional -OH b) Contiene un doble enlace carbono-carbono c) Contiene un grupo carbonilo en el carbono terminal de la cadena d) Contiene un grupo carbonilo en el carbono central de la cadena'),
+(248, 258, 'a) RCOOH b) RCOOR c) ROH d) RCHO'),
+(249, 259, 'a) Su capacidad para formar puentes de hidrógeno con el agua b) Su reactividad como bases fuertes en solución acuosa c) Su tendencia a formar enlaces dobles con otros compuestos orgánicos d) Su incapacidad para reaccionar con metales alcalinos'),
+(250, 260, 'a) Ácido acético b) Ácido fórmico c) Ácido butanoico d) Ácido propiónico'),
+(251, 261, 'a) Enlace sigma b) Enlace pi c) Enlace metálico d) Enlace covalente polar'),
+(252, 262, 'a) -COOH b) -CHO c) -OH d) -CONH₂'),
+(253, 263, 'a) -COOH b) -CHO c) -OH d) -NH₂'),
+(254, 264, 'a) sp b) sp² c) sp³ d) sp³d'),
+(255, 265, 'a) Tienen un grupo funcional -OH b) Presentan un doble enlace carbono-carbono c) Contienen un grupo carbonilo en el carbono terminal de la cadena d) Poseen un grupo carbamilo en la cadena'),
+(256, 266, 'a) Metanol b) Tolueno c) Acetona d) Benzamida'),
+(257, 267, 'a) Su capacidad para formar puentes de hidrógeno con el agua b) Su reactividad como bases fuertes en solución acuosa c) Su tendencia a formar enlaces dobles con otros compuestos orgánicos d) Su aroma característico'),
+(258, 268, 'a) Acetona b) Metanol c) Etanol d) Ácido fórmico'),
+(259, 269, 'a) Enlace sigma b) Enlace pi c) Enlace metálico d) Enlace covalente polar'),
+(260, 270, 'a) Lineal b) Trigonal plana c) Tetraédrica d) Octaédrica'),
 
 
 
@@ -2238,4 +1990,3 @@ INSERT INTO RespuestasQ2 VALUES
 (388, 3880, 'a'),
 (389, 3890, 'd'),
 (390, 3900, 'a');
-
