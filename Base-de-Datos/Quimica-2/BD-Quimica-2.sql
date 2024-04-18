@@ -313,422 +313,91 @@ INSERT INTO PreguntasQ2 VALUES (282, 260, '¿Cuál es la geometría molecular de
 -- Preguntas tercer parcial Quimica 2
 
 -- Tema 1 Ejercicios de nomenclatura y aplicación de compuestos orgánicos
-INSERT INTO PreguntasQ2 VALUES (381, 261, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-1.png?raw=true
-a) 4-etil-2,4,5-trimetil-6—isopropil nonano
-b) 6-etil-4-propil-5,6,8-trimetilnonano 
-c) 4-isopropil-5,6,8-trimetil-t-etilnonano 
-d) 2,4,5-trimetil-6-isopropil-4-etilnonano');
-
-INSERT INTO PreguntasQ2 VALUES (381, 262, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-2.png?raw=true
-a) 5,6,7-trimetil-3-propil-3-isopropil-1-octeno
-b) 6-etil-5,6-dimetil-3-propil-3-isopropil-2-hepteno
-c) 5-metil-3,3,6-triisopropil-1-hepteno
-d) 5-metil-3,3,6-tripropil-1-hepteno');
-
-INSERT INTO PreguntasQ2 VALUES (381, 263, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-3.png?raw=true
-a) 3,6,6,7,8 — pentametil — 5 — propil — 7- isopropil nonino
-b) 7 — etil — — pentemetil — 5- propil — 2- decino
-c) 7 — etil — — pentametil — 5- propil — 2- nonino
-d) 1 — hexametil — 5 — propil — 7- isopropil octino');
-
-INSERT INTO PreguntasQ2 VALUES (381, 264, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-4.png?raw=true
-a) 1 — metil —4 — etii cicloheptano
-b) 1 — metil — 5 — etil cicloheptano
-c) 1 etil —4 — metil cicloheptano
-d) 1--etil—5--metil cicloheptano');
-
-INSERT INTO PreguntasQ2 VALUES (381, 265, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-5.png?raw=true
-a) 3,4 — dimetil ciclopenteno
-b) 3 metil — 4 — etil ciclopenteno
-c) 1,2 — dimetil — 3- ciclcpenteno
-d) 1,2 — dimetil — 4- ciclopenteno');
-
-INSERT INTO PreguntasQ2 VALUES (381, 266, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-6.png?raw=true
-a) Alcohol terpropílico
-b) Alcohol isobutílico
-c) Alchol terbutílico
-d) Alcohol isopropílico');
-
-INSERT INTO PreguntasQ2 VALUES (381, 267, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-7.png?raw=true
-a) Ácido acético
-b) Ácido valerico
-c) Ácido fórmico
-d) Ácido butírico');
-
-INSERT INTO PreguntasQ2 VALUES (381, 268, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-8.png?raw=true
-a) Butiraldehido
-b) Propinoaldehido
-c) Valeraldehido
-d) Acetaldehido');
-
-INSERT INTO PreguntasQ2 VALUES (381, 269, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-9.png?raw=true
-a) Ácido carboxilico
-b) COOH
-c) Ester
-d) COO');
-
-INSERT INTO PreguntasQ2 VALUES (381, 270, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-10.png?raw=true
-a) 8 -- etil — 2, 3,4 — trimetil — 3 — aminodecano
-b) 6--etil — 2 — (metilisopropilamino)octano
-c) 3 — eti — 7 — (metilsopropilamida)octano
-d) 6 — etil — 2 — amino — 2 — metilisopropiloctano');
-
-INSERT INTO PreguntasQ2 VALUES (381, 271, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-11.png?raw=true
-a) 3,3,6--trimetil — 5 — terpentil — heptanona
-b) 2,5,5--trimetil — 3 — terpentilheptanona
-c) 3,3,6—trimetil—5--terpentoxiheptano
-d) 2,5,5—trimetil—3--terpentoxiheptano');
-
+INSERT INTO PreguntasQ2 VALUES (381, 261, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-1.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 262, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-2.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 263, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-3.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 264, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-4.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 265, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-5.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 266, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-6.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 267, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-7.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 268, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-8.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 269, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-9.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 270, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-10.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 271, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-11.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 272, 'Cuál es la fórmula semidesarrollada del: 4-metil-2-aminohexano
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-12.png?raw=true');
-
-INSERT INTO PreguntasQ2 VALUES (381, 273, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-13.png?raw=true
-a) 4—etil pentamina
-b) 2—etil pentanoamina
-c) 6,6,2—etil pentanoamina
-d) 4-etil pentanoamina');
-
-INSERT INTO PreguntasQ2 VALUES (381, 274, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-14.png?raw=true
-a) 4—propil pentanato de estaño II
-b) 2—propil pentantato de estaño
-c) 2—propil pentanato de estaño II
-d) 4—propil pentanato de estaño');
-
-INSERT INTO PreguntasQ2 VALUES (381, 275, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-15.png?raw=true
-a) 2,2—dimetil—4—acido heptanico
-b) 4,4—dimetil—2—acido pentanoico
-c) Acido 4,4—dimetil—2—propil pentanoico
-d) Acido 2,2—dimetil—2—propil heptanico');
-
-INSERT INTO PreguntasQ2 VALUES (381, 276, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-16.png?raw=true
-a) 6—etil—6—metil—8—prupil—8-octil-octanol
-b) 3,6,6,8—etil—4—isopropil-octanol
-c) 4—etil—8—tetrametil—4—propil—octanol 
-d) 3,4,4,8—tetrametil—6—isopropil—tridecanal');
-
+INSERT INTO PreguntasQ2 VALUES (381, 273, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-13.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 274, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-14.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 275, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-15.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 276, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-16.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 277, '¿Cuál de los siguientes ejemplos corresponde a un hidrocarburo?
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-17.png?raw=true');
-
-INSERT INTO PreguntasQ2 VALUES (381, 278, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-18.png?raw=true
-a) Tetrapentacosano
-b) Heptatetracontano
-c) Pentatetracontano
-d) Tetraheptacosano');
-
+INSERT INTO PreguntasQ2 VALUES (381, 278, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-18.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 279, '¿Con cual de los siguientes compuestos se podrá formar el terbutilo, al eliminar un hidrogeno?
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-19.png?raw=true');
-
-INSERT INTO PreguntasQ2 VALUES (381, 280, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-20.png?raw=true
-a) 2—etil—4—metil—1-hexeno
-b) 5—etil—2—metil-hexeno
-c) 2,4,dietil—1-penteno
-d) 5—etil—2—metil—5-hexeno');
-
+INSERT INTO PreguntasQ2 VALUES (381, 280, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-20.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 281, 'La fórmula semidesarrollada del 8-etil-3-metil-4-isopropil-5-decano:
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-21.png?raw=true');
-
 INSERT INTO PreguntasQ2 VALUES (381, 282, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-22.png?raw=true');
-
-INSERT INTO PreguntasQ2 VALUES (381, 283, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-23.png?raw=true
-a) 2,3—dimetil,5,propil—6-octino
-b) 4—butil—6—isopropil-heptino
-c) 4-butil-6-isopropil-2-heptino
-d) 4-butil-6,7-dimetil-2-Octino');
-
+INSERT INTO PreguntasQ2 VALUES (381, 283, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-23.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 284, 'La fórmula semidesarrollada del 3-sectbutil-5etil-1-héptino, es:
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-24.png?raw=true');
 
 INSERT INTO PreguntasQ2 VALUES (381, 285, 'La formula semidesarrollada del compuesto 2,3,4-trimetil-2-etoxi-hexano es:
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-25.png?raw=true');
-
-INSERT INTO PreguntasQ2 VALUES (381, 286, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-26.png?raw=true
-a) 3,5—dimetil—3,7—diisopropil—5--nonanol
-b) 3,7—dietil—2,3,5,8—tetrametil—5--nonanol
-c) 3—etil—2,5,7—trimetil—5--nonanol
-d) 3,7—dietil—2,5,7,8—tetrametil—5--nonanol');
-
-INSERT INTO PreguntasQ2 VALUES (381, 287, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-27.png?raw=true
-a) 3—etil—3,5—dimetil--heptanol
-b) 5—etil—5,4—dimetil—hoctanol 
-c) 2—etil—3,4—dimetil--heptanol
-d) 4—etil—2,5—dimetil--hoctanol');
-
+INSERT INTO PreguntasQ2 VALUES (381, 286, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-26.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 287, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-27.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 288, 'Cuál es la fórmula semidesarrollada del Etil-isopentil-cetona
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-28.png?raw=true');
-
-INSERT INTO PreguntasQ2 VALUES (381, 289, 'Cuál es la fórmula semidesarrollada del ácido fórmico
-a) OHCOH
-b) HCOOH
-c) CHOOH
-d) COHHO');
-
-INSERT INTO PreguntasQ2 VALUES (381, 290, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-30.png?raw=true
-a) Acido formico metilico
-b) Metilformiato
-c) Ester metanoico etilico
-d) Acido etílico');
+INSERT INTO PreguntasQ2 VALUES (381, 289, 'Cuál es la fórmula semidesarrollada del ácido fórmico');
+INSERT INTO PreguntasQ2 VALUES (381, 290, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-30.png?raw=true');
 
 
 
 -- Tema 2 Teoría sobre nomenclatura y aplicación de compuestos orgánicos
-INSERT INTO PreguntasQ2 VALUES (382, 291, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-CH2-CH3?
-a) Propano
-b) Butano
-c) Metano
-d) Etano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 292, '¿Qué tipo de compuesto se forma cuando se reemplaza un átomo de hidrógeno en un alcano con un grupo funcional hidroxilo (-OH)?
-a) Alquino
-b) Alcohol
-c) Cetona
-d) Ácido carboxílico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 293, '¿Cuál es el nombre sistemático del siguiente compuesto: CH3-CH(CH3)-CH2-CH2-CH3?
-a) 3-Metilpentano
-b) 2,3-Dimetilbutano
-c) 2,2-Dimetilbutano
-d) 2,3-Dimetilpentano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 294, '¿Qué tipo de enlace químico predomina en los hidrocarburos saturados?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 295, '¿Cuál es la fórmula general de los alcanos lineales?
-a) CnH2n+2
-b) CnH2n
-c) CnH2n-2
-d) CnHn+2');
-
-INSERT INTO PreguntasQ2 VALUES (382, 296, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-CH2-CH2-CH2-CH3?
-a) Hexano
-b) Heptano
-c) Pentano
-d) Octano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 297, '¿Cuál de los siguientes compuestos es un alqueno?
-a) CH3CH2OH
-b) CH3CH2CH3
-c) CH2=CH2
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 298, '¿Cuál es la estructura molecular del etanol (alcohol etílico)?
-a) CH3CH2OH
-b) CH3COOH
-c) CH2=CH2
-d) CH3CHO');
-
-INSERT INTO PreguntasQ2 VALUES (382, 299, '¿Cuál es el nombre sistemático del compuesto C4H8?
-a) Buteno
-b) Butano
-c) Propano
-d) Propeno');
-
-INSERT INTO PreguntasQ2 VALUES (382, 300, '¿Qué tipo de compuesto orgánico es CH3COOH?
-a) Ácido carboxílico
-b) Éter
-c) Aldehído
-d) Éster');
-
-INSERT INTO PreguntasQ2 VALUES (382, 301, '¿Cuál es el nombre sistemático del compuesto CH3CH2CH2OH?
-a) Propanol
-b) Propano
-c) Butanol
-d) Butano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 302, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-CH2-CH=CH2?
-a) 1-Buteno
-b) 2-Buteno
-c) 1-Butino
-d) 2-Butino');
-
-INSERT INTO PreguntasQ2 VALUES (382, 303, '¿Cuál es la fórmula molecular del etano?
-a) C2H6
-b) C3H8
-c) C2H4
-d) C3H6');
-
-INSERT INTO PreguntasQ2 VALUES (382, 304, '¿Cuál es la nomenclatura sistemática del compuesto CH3CHO?
-a) Propanal
-b) Propanona
-c) Etanol
-d) Metanal');
-
-INSERT INTO PreguntasQ2 VALUES (382, 305, '¿Qué tipo de compuesto orgánico es CH3OCH3?
-a) Éter
-b) Alcohol
-c) Aldehído
-d) Ácido carboxílico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 306, '¿Cuál es la fórmula general de los alquinos?
-a) CnH2n
-b) CnH2n+2
-c) CnH2n-2
-d) CnHn+2');
-
-INSERT INTO PreguntasQ2 VALUES (382, 307, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-COOH?
-a) Ácido metanoico
-b) Ácido acético
-c) Ácido butanoico
-d) Ácido etanoico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 308, '¿Cuál es la fórmula molecular del metanol?
-a) CH3OH
-b) CH3COOH
-c) CH2O
-d) C2H5OH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 309, '¿Qué tipo de enlace químico predomina en los alcanos y alquenos?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 310, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH3?
-a) Propanona
-b) Propanal
-c) Butanona
-d) Butanal');
-
-INSERT INTO PreguntasQ2 VALUES (382, 311, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2OH?
-a) Butanol
-b) Butano
-c) Pentanol
-d) Propanol');
-
-INSERT INTO PreguntasQ2 VALUES (382, 312, '¿Cuál es la fórmula molecular del propano?
-a) C2H6
-b) C3H8
-c) C2H4
-d) C3H6');
-
-INSERT INTO PreguntasQ2 VALUES (382, 313, '¿Cuál es el nombre sistemático del compuesto CH3CH2CH3?
-a) Propano
-b) Butano
-c) Metano
-d) Etano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 314, '¿Qué tipo de enlace químico predomina en los alcoholes?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 315, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH2CH3?
-a) Propanona
-b) Butanona
-c) Propanal
-d) Butanal');
-
-INSERT INTO PreguntasQ2 VALUES (382, 316, '¿Cuál es la fórmula molecular del ácido etanoico?
-a) CH3COOH
-b) CH3OH
-c) C2H5OH
-d) CH3COCH3');
-
-INSERT INTO PreguntasQ2 VALUES (382, 317, '¿Cuál de los siguientes compuestos es un aldehído?
-a) CH3COCH3
-b) CH3CHO
-c) CH3OH
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 318, '¿Cuál es la estructura molecular del metanal?
-a) HCHO
-b) CH3OH
-c) CH3CHO
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 319, '¿Qué tipo de compuesto orgánico es CH3CH2OCH2CH3?
-a) Éter
-b) Alcohol
-c) Aldehído
-d) Éster');
-
-INSERT INTO PreguntasQ2 VALUES (382, 320, '¿Cuál es la fórmula molecular del acetileno (etino)?
-a) C2H2
-b) C2H4
-c) C3H6
-d) C3H8');
-
-INSERT INTO PreguntasQ2 VALUES (382, 321, '¿Cuál es el nombre sistemático del compuesto CH3CH2CH2CH2CH3?
-a) Pentano
-b) Butano
-c) Hexano
-d) Heptano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 322, '¿Cuál es la fórmula molecular del ácido propanoico?
-a) C2H4O2
-b) C3H6O2
-c) C2H5COOH
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 323, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2OH?
-a) Metanol
-b) Etileno
-c) Propanol
-d) Butanol');
-
-INSERT INTO PreguntasQ2 VALUES (382, 324, '¿Qué tipo de compuesto orgánico es CH3COCH3?
-a) Cetona
-b) Éter
-c) Aldehído
-d) Éster');
-
-INSERT INTO PreguntasQ2 VALUES (382, 325, '¿Cuál es la fórmula molecular del propanal?
-a) C2H5CHO
-b) C3H8O
-c) C3H6O
-d) C2H4O');
-
-INSERT INTO PreguntasQ2 VALUES (382, 326, '¿Cuál de las siguientes moléculas es un éster?
-a) CH3OH
-b) CH3COOH
-c) CH3COOCH3
-d) CH3CHO');
-
-INSERT INTO PreguntasQ2 VALUES (382, 327, '¿Cuál es la estructura molecular del etanol?
-a) CH3OH
-b) CH3COOH
-c) CH3CHO
-d) CH3CH2OH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 328, '¿Qué tipo de enlace químico predomina en los éteres?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 329, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOCH2CH3?
-a) Etil metanoato
-b) Etil etanoato
-c) Metil etanoato
-d) Etil propanoato');
-
-INSERT INTO PreguntasQ2 VALUES (382, 330, '¿Cuál es la fórmula molecular del ácido butanoico?
-a) C3H7COOH
-b) C4H9COOH
-c) C3H7OH
-d) C4H9OH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 331, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2CH2CH3?
-a) Hexano
-b) Heptano
-c) Octano
-d) Nonano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 332, '¿Cuál es la fórmula molecular del 1-butanol?
-a) C3H6O
-b) C3H8O
-c) C4H10O
-d) C4H9OH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 333, '¿Qué tipo de compuesto orgánico es CH3COCH2CH3?
-a) Cetona
-b) Éter
-c) Aldehído
-d) Ácido carboxílico');
-
+INSERT INTO PreguntasQ2 VALUES (382, 291, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-CH2-CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 292, '¿Qué tipo de compuesto se forma cuando se reemplaza un átomo de hidrógeno en un alcano con un grupo funcional hidroxilo (-OH)?');
+INSERT INTO PreguntasQ2 VALUES (382, 293, '¿Cuál es el nombre sistemático del siguiente compuesto: CH3-CH(CH3)-CH2-CH2-CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 294, '¿Qué tipo de enlace químico predomina en los hidrocarburos saturados?');
+INSERT INTO PreguntasQ2 VALUES (382, 295, '¿Cuál es la fórmula general de los alcanos lineales?');
+INSERT INTO PreguntasQ2 VALUES (382, 296, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-CH2-CH2-CH2-CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 297, '¿Cuál de los siguientes compuestos es un alqueno?');
+INSERT INTO PreguntasQ2 VALUES (382, 298, '¿Cuál es la estructura molecular del etanol (alcohol etílico)?');
+INSERT INTO PreguntasQ2 VALUES (382, 299, '¿Cuál es el nombre sistemático del compuesto C4H8?');
+INSERT INTO PreguntasQ2 VALUES (382, 300, '¿Qué tipo de compuesto orgánico es CH3COOH?');
+INSERT INTO PreguntasQ2 VALUES (382, 301, '¿Cuál es el nombre sistemático del compuesto CH3CH2CH2OH?');
+INSERT INTO PreguntasQ2 VALUES (382, 302, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-CH2-CH=CH2?');
+INSERT INTO PreguntasQ2 VALUES (382, 303, '¿Cuál es la fórmula molecular del etano?');
+INSERT INTO PreguntasQ2 VALUES (382, 304, '¿Cuál es la nomenclatura sistemática del compuesto CH3CHO?');
+INSERT INTO PreguntasQ2 VALUES (382, 305, '¿Qué tipo de compuesto orgánico es CH3OCH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 306, '¿Cuál es la fórmula general de los alquinos?');
+INSERT INTO PreguntasQ2 VALUES (382, 307, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3-CH2-COOH?');
+INSERT INTO PreguntasQ2 VALUES (382, 308, '¿Cuál es la fórmula molecular del metanol?');
+INSERT INTO PreguntasQ2 VALUES (382, 309, '¿Qué tipo de enlace químico predomina en los alcanos y alquenos?');
+INSERT INTO PreguntasQ2 VALUES (382, 310, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 311, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2OH?');
+INSERT INTO PreguntasQ2 VALUES (382, 312, '¿Cuál es la fórmula molecular del propano?');
+INSERT INTO PreguntasQ2 VALUES (382, 313, '¿Cuál es el nombre sistemático del compuesto CH3CH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 314, '¿Qué tipo de enlace químico predomina en los alcoholes?');
+INSERT INTO PreguntasQ2 VALUES (382, 315, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 316, '¿Cuál es la fórmula molecular del ácido etanoico?');
+INSERT INTO PreguntasQ2 VALUES (382, 317, '¿Cuál de los siguientes compuestos es un aldehído?');
+INSERT INTO PreguntasQ2 VALUES (382, 318, '¿Cuál es la estructura molecular del metanal?');
+INSERT INTO PreguntasQ2 VALUES (382, 319, '¿Qué tipo de compuesto orgánico es CH3CH2OCH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 320, '¿Cuál es la fórmula molecular del acetileno (etino)?');
+INSERT INTO PreguntasQ2 VALUES (382, 321, '¿Cuál es el nombre sistemático del compuesto CH3CH2CH2CH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 322, '¿Cuál es la fórmula molecular del ácido propanoico?');
+INSERT INTO PreguntasQ2 VALUES (382, 323, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2OH?');
+INSERT INTO PreguntasQ2 VALUES (382, 324, '¿Qué tipo de compuesto orgánico es CH3COCH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 325, '¿Cuál es la fórmula molecular del propanal?');
+INSERT INTO PreguntasQ2 VALUES (382, 326, '¿Cuál de las siguientes moléculas es un éster?');
+INSERT INTO PreguntasQ2 VALUES (382, 327, '¿Cuál es la estructura molecular del etanol?');
+INSERT INTO PreguntasQ2 VALUES (382, 328, '¿Qué tipo de enlace químico predomina en los éteres?');
+INSERT INTO PreguntasQ2 VALUES (382, 329, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOCH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 330, '¿Cuál es la fórmula molecular del ácido butanoico?');
+INSERT INTO PreguntasQ2 VALUES (382, 331, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2CH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 332, '¿Cuál es la fórmula molecular del 1-butanol?');
+INSERT INTO PreguntasQ2 VALUES (382, 333, '¿Qué tipo de compuesto orgánico es CH3COCH2CH3?');
 INSERT INTO PreguntasQ2 VALUES (382, 334, '¿Cuál es la fórmula molecular del ácido acético?
 a) C2H4O2
 b) CH3COOH
@@ -1388,81 +1057,81 @@ INSERT INTO Incisos_Q2 VALUES
 --Incisos Parcial 3
 
 --Tema 1
-(261, 271, ''),
-(262, 272, ''),
-(263, 273, ''),
-(264, 274, ''),
-(265, 275, ''),
-(266, 276, ''),
-(267, 277, ''),
-(268, 278, ''),
-(269, 279, ''),
-(270, 280, ''),
-(271, 281, ''),
+(261, 271, 'a) 4-etil-2,4,5-trimetil-6—isopropil nonano b) 6-etil-4-propil-5,6,8-trimetilnonano  c) 4-isopropil-5,6,8-trimetil-t-etilnonano  d) 2,4,5-trimetil-6-isopropil-4-etilnonano'),
+(262, 272, 'a) 5,6,7-trimetil-3-propil-3-isopropil-1-octeno b) 6-etil-5,6-dimetil-3-propil-3-isopropil-2-hepteno c) 5-metil-3,3,6-triisopropil-1-hepteno d) 5-metil-3,3,6-tripropil-1-hepteno'),
+(263, 273, 'a) 3,6,6,7,8 — pentametil — 5 — propil — 7- isopropil nonino b) 7 — etil — — pentemetil — 5- propil — 2- decino c) 7 — etil — — pentametil — 5- propil — 2- nonino d) 1 — hexametil — 5 — propil — 7- isopropil octino'),
+(264, 274, 'a) 1 — metil —4 — etii cicloheptano b) 1 — metil — 5 — etil cicloheptano c) 1 etil —4 — metil cicloheptano d) 1--etil—5--metil cicloheptano'),
+(265, 275, 'a) 3,4 — dimetil ciclopenteno b) 3 metil — 4 — etil ciclopenteno c) 1,2 — dimetil — 3- ciclcpenteno d) 1,2 — dimetil — 4- ciclopenteno'),
+(266, 276, 'a) Alcohol terpropílico b) Alcohol isobutílico c) Alchol terbutílico d) Alcohol isopropílico'),
+(267, 277, 'a) Ácido acético b) Ácido valerico c) Ácido fórmico d) Ácido butírico'),
+(268, 278, 'a) Butiraldehido b) Propinoaldehido c) Valeraldehido d) Acetaldehido'),
+(269, 279, 'a) Ácido carboxilico b) COOH c) Ester d) COO'),
+(270, 280, 'a) 8 -- etil — 2, 3,4 — trimetil — 3 — aminodecano b) 6--etil — 2 — (metilisopropilamino)octano c) 3 — eti — 7 — (metilsopropilamida)octano d) 6 — etil — 2 — amino — 2 — metilisopropiloctano'),
+(271, 281, 'a) 3,3,6--trimetil — 5 — terpentil — heptanona b) 2,5,5--trimetil — 3 — terpentilheptanona c) 3,3,6—trimetil—5--terpentoxiheptano d) 2,5,5—trimetil—3--terpentoxiheptano'),
 (272, 282, ''),
-(273, 283, ''),
-(274, 284, ''),
-(275, 285, ''),
-(276, 286, ''),
+(273, 283, 'a) 4—etil pentamina b) 2—etil pentanoamina c) 6,6,2—etil pentanoamina d) 4-etil pentanoamina'),
+(274, 284, 'a) 4—propil pentanato de estaño II b) 2—propil pentantato de estaño c) 2—propil pentanato de estaño II d) 4—propil pentanato de estaño'),
+(275, 285, 'a) 2,2—dimetil—4—acido heptanico b) 4,4—dimetil—2—acido pentanoico c) Acido 4,4—dimetil—2—propil pentanoico d) Acido 2,2—dimetil—2—propil heptanico'),
+(276, 286, 'a) 6—etil—6—metil—8—prupil—8-octil-octanol b) 3,6,6,8—etil—4—isopropil-octanol c) 4—etil—8—tetrametil—4—propil—octanol  d) 3,4,4,8—tetrametil—6—isopropil—tridecanal'),
 (277, 287, ''),
-(278, 288, ''),
+(278, 288, 'a) Tetrapentacosano b) Heptatetracontano c) Pentatetracontano d) Tetraheptacosano'),
 (279, 289, ''),
-(280, 290, ''),
+(280, 290, 'a) 2—etil—4—metil—1-hexeno b) 5—etil—2—metil-hexeno c) 2,4,dietil—1-penteno d) 5—etil—2—metil—5-hexeno'),
 (281, 291, ''),
 (282, 292, ''),
-(283, 293, ''),
+(283, 293, 'a) 2,3—dimetil,5,propil—6-octino b) 4—butil—6—isopropil-heptino c) 4-butil-6-isopropil-2-heptino d) 4-butil-6,7-dimetil-2-Octino'),
 (284, 294, ''),
 (285, 295, ''),
-(286, 296, ''),
-(287, 297, ''),
+(286, 296, 'a) 3,5—dimetil—3,7—diisopropil—5--nonanol b) 3,7—dietil—2,3,5,8—tetrametil—5--nonanol c) 3—etil—2,5,7—trimetil—5--nonanol d) 3,7—dietil—2,5,7,8—tetrametil—5--nonanol'),
+(287, 297, 'a) 3—etil—3,5—dimetil--heptanol b) 5—etil—5,4—dimetil—hoctanol  c) 2—etil—3,4—dimetil--heptanol d) 4—etil—2,5—dimetil--hoctanol'),
 (288, 298, ''),
-(289, 299, ''),
-(290, 300, '')
+(289, 299, 'a) OHCOH b) HCOOH c) CHOOH d) COHHO'),
+(290, 300, 'a) Acido formico metilico b) Metilformiato c) Ester metanoico etilico d) Acido etílico')
 
 --Tema 2
-(291, 301, ''),
-(292, 302, ''),
-(293, 303, ''),
-(294, 304, ''),
-(295, 305, ''),
-(296, 306, ''),
-(297, 307, ''),
-(298, 308, ''),
-(299, 309, ''),
-(300, 310, ''),
-(301, 311, ''),
-(302, 312, ''),
-(303, 313, ''),
-(304, 314, ''),
-(305, 315, ''),
-(306, 316, ''),
-(307, 317, ''),
-(308, 318, ''),
-(309, 319, ''),
-(310, 320, ''),
-(311, 321, ''),
-(312, 322, ''),
-(313, 323, ''),
-(314, 324, ''),
-(315, 325, ''),
-(316, 326, ''),
-(317, 327, ''),
-(318, 328, ''),
-(319, 329, ''),
-(320, 330, ''),
-(321, 331, ''),
-(322, 332, ''),
-(323, 333, ''),
-(324, 334, ''),
-(325, 335, ''),
-(326, 336, ''),
-(327, 337, ''),
-(328, 338, ''),
-(329, 339, ''),
-(330, 340, ''),
-(331, 341, ''),
-(332, 342, ''),
-(333, 343, ''),
+(291, 301, 'a) Propano b) Butano c) Metano d) Etano'),
+(292, 302, 'a) Alquino b) Alcohol c) Cetona d) Ácido carboxílico'),
+(293, 303, 'a) 3-Metilpentano b) 2,3-Dimetilbutano c) 2,2-Dimetilbutano d) 2,3-Dimetilpentano'),
+(294, 304, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(295, 305, 'a) CnH2n+2 b) CnH2n c) CnH2n-2 d) CnHn+2'),
+(296, 306, 'a) Hexano b) Heptano c) Pentano d) Octano'),
+(297, 307, 'a) CH3CH2OH b) CH3CH2CH3 c) CH2=CH2 d) CH3COOH'),
+(298, 308, 'a) CH3CH2OH b) CH3COOH c) CH2=CH2 d) CH3CHO'),
+(299, 309, 'a) Buteno b) Butano c) Propano d) Propeno'),
+(300, 310, 'a) Ácido carboxílico b) Éter c) Aldehído d) Éster'),
+(301, 311, 'a) Propanol b) Propano c) Butanol d) Butano'),
+(302, 312, 'a) 1-Buteno b) 2-Buteno c) 1-Butino d) 2-Butino'),
+(303, 313, 'a) C2H6 b) C3H8 c) C2H4 d) C3H6'),
+(304, 314, 'a) Propanal b) Propanona c) Etanol d) Metanal'),
+(305, 315, 'a) Éter b) Alcohol c) Aldehído d) Ácido carboxílico'),
+(306, 316, 'a) CnH2n b) CnH2n+2 c) CnH2n-2 d) CnHn+2'),
+(307, 317, 'a) Ácido metanoico b) Ácido acético c) Ácido butanoico d) Ácido etanoico'),
+(308, 318, 'a) CH3OH b) CH3COOH c) CH2O d) C2H5OH'),
+(309, 319, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(310, 320, 'a) Propanona b) Propanal c) Butanona d) Butanal'),
+(311, 321, 'a) Butanol b) Butano c) Pentanol d) Propanol'),
+(312, 322, 'a) C2H6 b) C3H8 c) C2H4 d) C3H6'),
+(313, 323, 'a) Propano b) Butano c) Metano d) Etano'),
+(314, 324, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(315, 325, 'a) Propanona b) Butanona c) Propanal d) Butanal'),
+(316, 326, 'a) CH3COOH b) CH3OH c) C2H5OH d) CH3COCH3'),
+(317, 327, 'a) CH3COCH3 b) CH3CHO c) CH3OH d) CH3COOH'),
+(318, 328, 'a) HCHO b) CH3OH c) CH3CHO d) CH3COOH'),
+(319, 329, 'a) Éter b) Alcohol c) Aldehído d) Éster'),
+(320, 330, 'a) C2H2 b) C2H4 c) C3H6 d) C3H8'),
+(321, 331, 'a) Pentano b) Butano c) Hexano d) Heptano'),
+(322, 332, 'a) C2H4O2 b) C3H6O2 c) C2H5COOH d) CH3COOH'),
+(323, 333, 'a) Metanol b) Etileno c) Propanol d) Butanol'),
+(324, 334, 'a) Cetona b) Éter c) Aldehído d) Éster'),
+(325, 335, 'a) C2H5CHO b) C3H8O c) C3H6O d) C2H4O'),
+(326, 336, 'a) CH3OH b) CH3COOH c) CH3COOCH3 d) CH3CHO'),
+(327, 337, 'a) CH3OH b) CH3COOH c) CH3CHO d) CH3CH2OH'),
+(328, 338, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(329, 339, 'a) Etil metanoato b) Etil etanoato c) Metil etanoato  d) Etil propanoato'),
+(330, 340, 'a) C3H7COOH b) C4H9COOH c) C3H7OH d) C4H9OH'),
+(331, 341, 'a) Hexano b) Heptano c) Octano d) Nonano'),
+(332, 342, 'a) C3H6O b) C3H8O c) C4H10O d) C4H9OH'),
+(333, 343, 'a) Cetona b) Éter c) Aldehído d) Ácido carboxílico'),
 (334, 344, ''),
 (335, 345, ''),
 (336, 346, ''),
