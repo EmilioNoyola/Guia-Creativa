@@ -553,7 +553,7 @@ INSERT INTO PreguntasF1 VALUES(243,91,'¿Qué valor puede tomar el producto esca
 
 INSERT INTO PreguntasF1 VALUES(243,92,'¿Cuál es la relación entre el producto escalar y el ángulo entre dos vectores A y B? A) El producto escalar es directamente proporcional al ángulo entre los vectores. B) El producto escalar es inversamente proporcional al ángulo entre los vectores. --C) El producto escalar es igual al producto del módulo de los vectores A y B y el coseno del ángulo entre ellos. D) El producto escalar es igual al producto del módulo de los vectores A y B y el seno del ángulo entre ellos.');
 
-
+INSERT INTO PreguntasF1 VALUES(243,93."HOLA");
 -- Tabla Respuestas de F1
 CREATE TABLE RespuestasF1(
 	ID_PreguntaF1 INTEGER NOT NULL,
