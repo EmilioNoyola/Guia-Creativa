@@ -398,347 +398,123 @@ INSERT INTO PreguntasQ2 VALUES (382, 330, '¿Cuál es la fórmula molecular del 
 INSERT INTO PreguntasQ2 VALUES (382, 331, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2CH2CH3?');
 INSERT INTO PreguntasQ2 VALUES (382, 332, '¿Cuál es la fórmula molecular del 1-butanol?');
 INSERT INTO PreguntasQ2 VALUES (382, 333, '¿Qué tipo de compuesto orgánico es CH3COCH2CH3?');
-INSERT INTO PreguntasQ2 VALUES (382, 334, '¿Cuál es la fórmula molecular del ácido acético?
-a) C2H4O2
-b) CH3COOH
-c) C2H5COOH
-d) CH3OH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 335, '¿Cuál de las siguientes moléculas es un alquino?
-a) CH3CH2OH
-b) CH3CH2CH3
-c) CH≡CH
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 336, '¿Cuál es la estructura molecular del ácido metanoico?
-a) HCOOH
-b) CH3OH
-c) CH3CHO
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 337, '¿Qué tipo de enlace químico predomina en los halogenuros de alquilo?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382, 338, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2OCH2CH3?
-a) Metoximetano
-b) Etoxietano
-c) Metoxietano
-d) Etoxipropano');
-
-INSERT INTO PreguntasQ2 VALUES (382, 339, '¿Cuál es la fórmula molecular del ácido benzoico?
-a) C6H6COOH
-b) C6H5COOH
-c) C7H8COOH
-d) C7H7COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382, 340, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOH?
-a) Ácido metanoico
-b) Ácido acético
-c) Ácido butanoico
-d) Ácido etanoico');
-
-INSERT INTO PreguntasQ2 VALUES (382,341,'¿Cuál es el nombre sistemático del siguiente compuesto: CH3-CH2-CH2-CH2OH?
-a) Metanol
-b) Butanol
-c) Propanol
-d) Etanol');
-
-INSERT INTO PreguntasQ2 VALUES (382,342,'¿Cuál es la fórmula molecular del propeno?
-a) C2H4
-b) C3H6
-c) C2H2
-d) C3H8');
-
-INSERT INTO PreguntasQ2 VALUES (382,343,'¿Qué tipo de compuesto orgánico es CH3CH2COCH2CH3?
-a) Ácido carboxílico
-b) Aldehído
-c) Éter
-d) Cetona');
-
-INSERT INTO PreguntasQ2 VALUES (382,344,'¿Cuál es la fórmula molecular del ácido propanoico?
-a) C2H4O2
-b) C3H6O2
-c) C2H5COOH
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382,345,'¿Cuál de las siguientes moléculas es un alquino?
-a) CH3CH2OH
-b) CH3CH2CH3
-c) CH≡CH
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382,346,'¿Cuál es la estructura molecular del ácido metanoico?
-a) HCHO
-b) CH3OH
-c) CH3CHO
-d) CH3COOH');
-
+INSERT INTO PreguntasQ2 VALUES (382, 334, '¿Cuál es la fórmula molecular del ácido acético?');
+INSERT INTO PreguntasQ2 VALUES (382, 335, '¿Cuál de las siguientes moléculas es un alquino?');
+INSERT INTO PreguntasQ2 VALUES (382, 336, '¿Cuál es la estructura molecular del ácido metanoico?');
+INSERT INTO PreguntasQ2 VALUES (382, 337, '¿Qué tipo de enlace químico predomina en los halogenuros de alquilo?');
+INSERT INTO PreguntasQ2 VALUES (382, 338, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2OCH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382, 339, '¿Cuál es la fórmula molecular del ácido benzoico?');
+INSERT INTO PreguntasQ2 VALUES (382, 340, '¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOH?');
+INSERT INTO PreguntasQ2 VALUES (382,341,'¿Cuál es el nombre sistemático del siguiente compuesto: CH3-CH2-CH2-CH2OH?');
+INSERT INTO PreguntasQ2 VALUES (382,342,'¿Cuál es la fórmula molecular del propeno?');
+INSERT INTO PreguntasQ2 VALUES (382,343,'¿Qué tipo de compuesto orgánico es CH3CH2COCH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382,344,'¿Cuál es la fórmula molecular del ácido propanoico?');
+INSERT INTO PreguntasQ2 VALUES (382,345,'¿Cuál de las siguientes moléculas es un alquino?');
+INSERT INTO PreguntasQ2 VALUES (382,346,'¿Cuál es la estructura molecular del ácido metanoico?');
 INSERT INTO PreguntasQ2 VALUES (382,347,'¿Qué tipo de enlace químico predomina en los halogenuros de alquilo?
 a) Enlace covalente polar
 b) Enlace iónico
 c) Enlace covalente no polar
 d) Enlace metálico');
-
 INSERT INTO PreguntasQ2 VALUES (382,348,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2OCH2CH3?
 a) Metoxipropano
 b) Etoxipropano
 c) Metoxietano
 d) Etoxietano');
-
 INSERT INTO PreguntasQ2 VALUES (382,349,'¿Cuál es la fórmula molecular del ácido benzoico?
 a) C6H6COOH
 b) C6H5COOH
 c) C7H8COOH
 d) C7H7COOH');
-
 INSERT INTO PreguntasQ2 VALUES (382,350,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOH?
 a) Ácido metanoico
 b) Ácido acético
 c) Ácido butanoico
 d) Ácido etanoico');
-
 INSERT INTO PreguntasQ2 VALUES (382,351,'¿Cuál es la fórmula molecular del 1-propanol?
 a) C3H8O
 b) C3H6O
 c) C4H10O
 d) C3H7OH');
-
 INSERT INTO PreguntasQ2 VALUES (382,352,'¿Qué tipo de compuesto orgánico es CH3COCH3?
 a) Éster
 b) Cetona
 c) Aldehído
 d) Éter');
-
 INSERT INTO PreguntasQ2 VALUES (382,353,'¿Cuál es la fórmula molecular del ácido metanoico?
 a) CH2O
 b) HCHO
 c) CH3COOH
 d) HCOOH');
-
 INSERT INTO PreguntasQ2 VALUES (382,354,'¿Cuál de las siguientes moléculas es un alqueno?
 a) CH3OH
 b) CH3CHO
 c) CH2=CH2
 d) CH3COOH');
-
 INSERT INTO PreguntasQ2 VALUES (382,355,'¿Cuál es la estructura molecular del etanol?
 a) CH3OH
 b) CH3CHO
 c) CH3COOH
 d) CH3CH2OH');
-
 INSERT INTO PreguntasQ2 VALUES (382,356,'¿Qué tipo de enlace químico predomina en los éteres?
 a) Enlace covalente polar
 b) Enlace iónico
 c) Enlace covalente no polar
 d) Enlace metálico');
-
 INSERT INTO PreguntasQ2 VALUES (382,357,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOCH2CH3?
 a) Etoxipropanoato
 b) Metoxietanoato
 c) Etil etanoato
 d) Metoxipropanoato');
-
 INSERT INTO PreguntasQ2 VALUES (382,358,'¿Cuál es la fórmula molecular del ácido butanoico?
 a) C3H7COOH
 b) C4H9COOH
 c) C3H7OH
 d) C4H9OH');
-
 INSERT INTO PreguntasQ2 VALUES (382,359,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2CH2CH3?
 a) Heptano
 b) Hexano
 c) Octano
 d) Nonano');
-
 INSERT INTO PreguntasQ2 VALUES (382,360,'¿Cuál es la fórmula molecular del ácido propanoico?
 a) C2H4O2
 b) C3H6O2
 c) C2H5COOH
 d) CH3COOH');
-
 INSERT INTO PreguntasQ2 VALUES (382,361,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH3?
 a) Metano
 b) Propano
 c) Butano
 d) Pentano');
-
-INSERT INTO PreguntasQ2 VALUES (382,362,'¿Cuál es la fórmula molecular del eteno?
-a) C2H2
-b) C3H6
-c) C2H4
-d) C3H8');
-
-INSERT INTO PreguntasQ2 VALUES (382,363,'¿Qué tipo de compuesto orgánico es CH3CH2CHO?
-a) Éster
-b) Cetona
-c) Aldehído
-d) Ácido carboxílico');
-
-INSERT INTO PreguntasQ2 VALUES (382,364,'¿Cuál es la fórmula molecular del ácido fórmico?
-a) HCOOH
-b) CH3COOH
-c) CH3OH
-d) HCHO');
-
-INSERT INTO PreguntasQ2 VALUES (382,365,'¿Cuál de las siguientes moléculas es un alcano?
-a) CH3CH2OH
-b) CH3CH2CH2CH2OH
-c) CH3COOH
-d) CH2=CH2');
-
-INSERT INTO PreguntasQ2 VALUES (382,366,'¿Cuál es la estructura molecular del propanal?
-a) CH3COOH
-b) CH3CHO
-c) CH3OH
-d) HCHO');
-
-INSERT INTO PreguntasQ2 VALUES (382,367,'¿Qué tipo de enlace químico predomina en los aldehídos?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382,368,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3OCH3?
-a) Dimetil éter
-b) Metoximetano
-c) Etoxietano
-d) Etoxipropano');
-
-INSERT INTO PreguntasQ2 VALUES (382,369,'¿Cuál es la fórmula molecular del ácido butanoico?
-a) C3H6O2
-b) C4H8O2
-c) C3H8O
-d) C4H9COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382,370,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH3?
-a) Propanona
-b) Butanona
-c) Propanal
-d) Butanal');
-
-INSERT INTO PreguntasQ2 VALUES (382,371,'¿Cuál es la fórmula molecular del 2-propanol?
-a) C3H8O
-b) C3H7OH
-c) C4H10O
-d) C3H6O');
-
-INSERT INTO PreguntasQ2 VALUES (382,372,'¿Qué tipo de compuesto orgánico es CH3COOH?
-a) Éster
-b) Aldehído
-c) Ácido carboxílico
-d) Cetona');
-
-INSERT INTO PreguntasQ2 VALUES (382,373,'¿Cuál es la fórmula molecular del ácido etanoico?
-a) C2H4O2
-b) C3H6O2
-c) C2H5COOH
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382,374,'¿Cuál de las siguientes moléculas es un alqueno?
-a) CH3OH
-b) CH3CHO
-c) CH2=CH2
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382,375,'¿Cuál es la estructura molecular del etanol?
-a) CH3OH
-b) CH3CHO
-c) CH3COOH
-d) CH3CH2OH');
-
-INSERT INTO PreguntasQ2 VALUES (382,376,'¿Qué tipo de enlace químico predomina en los ésteres?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382,377,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOCH3?
-a) Metoxipropanoato
-b) Metoxietanoato
-c) Etil metanoato
-d) Etil etanoato');
-
-INSERT INTO PreguntasQ2 VALUES (382,378,'¿Cuál es la fórmula molecular del ácido butanoico?
-a) C3H7COOH
-b) C4H9COOH
-c) C3H7OH
-d) C4H9OH');
-
-INSERT INTO PreguntasQ2 VALUES (382,379,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2CH2CH2CH3?
-a) Heptano
-b) Hexano
-c) Octano
-d) Nonano');
-
-INSERT INTO PreguntasQ2 VALUES (382,380,'¿Cuál es la fórmula molecular del ácido propanoico?
-a) C2H4O2
-b) C3H6O2
-c) C2H5COOH
-d) CH3COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382,381,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2OH?
-a) Metanol
-b) Etil alcohol
-c) Propanol
-d) Butanol');
-
-INSERT INTO PreguntasQ2 VALUES (382,382,'¿Cuál es la fórmula molecular del propino?
-a) C2H2
-b) C3H6
-c) C2H4
-d) C3H8');
-
-INSERT INTO PreguntasQ2 VALUES (382,383,'¿Qué tipo de compuesto orgánico es CH3CHO?
-a) Éster
-b) Aldehído
-c) Cetona
-d) Ácido carboxílico');
-
-INSERT INTO PreguntasQ2 VALUES (382,384,'¿Cuál es la fórmula molecular del ácido fórmico?
-a) HCOOH
-b) CH3COOH
-c) CH3OH
-d) HCHO');
-
-INSERT INTO PreguntasQ2 VALUES (382,385,'¿Cuál de las siguientes moléculas es un alcano?
-a) CH3CH2OH
-b) CH3CH2CH2CH2OH
-c) CH3COOH
-d) CH2=CH2');
-
-INSERT INTO PreguntasQ2 VALUES (382,386,'¿Cuál es la estructura molecular del propanal?
-a) CH3COOH
-b) CH3CHO
-c) CH3OH
-d) HCHO');
-
-INSERT INTO PreguntasQ2 VALUES (382,387,'¿Qué tipo de enlace químico predomina en los aldehídos?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-
-INSERT INTO PreguntasQ2 VALUES (382,388,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3OCH3?
-a) Dimetil éter
-b) Metoximetano
-c) Etoxietano
-d) Etoxipropano');
-
-INSERT INTO PreguntasQ2 VALUES (382,389,'¿Cuál es la fórmula molecular del ácido butanoico?
-a) C3H6O2
-b) C4H8O2
-c) C3H8O
-d) C4H9COOH');
-
-INSERT INTO PreguntasQ2 VALUES (382,390,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH3?
-a) Propanona
-b) Butanona
-c) Propanal
-d) Butanal');
+INSERT INTO PreguntasQ2 VALUES (382,362,'¿Cuál es la fórmula molecular del eteno?');
+INSERT INTO PreguntasQ2 VALUES (382,363,'¿Qué tipo de compuesto orgánico es CH3CH2CHO?');
+INSERT INTO PreguntasQ2 VALUES (382,364,'¿Cuál es la fórmula molecular del ácido fórmico?');
+INSERT INTO PreguntasQ2 VALUES (382,365,'¿Cuál de las siguientes moléculas es un alcano?');
+INSERT INTO PreguntasQ2 VALUES (382,366,'¿Cuál es la estructura molecular del propanal?');
+INSERT INTO PreguntasQ2 VALUES (382,367,'¿Qué tipo de enlace químico predomina en los aldehídos?');
+INSERT INTO PreguntasQ2 VALUES (382,368,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3OCH3?');
+INSERT INTO PreguntasQ2 VALUES (382,369,'¿Cuál es la fórmula molecular del ácido butanoico?');
+INSERT INTO PreguntasQ2 VALUES (382,370,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH3?');
+INSERT INTO PreguntasQ2 VALUES (382,371,'¿Cuál es la fórmula molecular del 2-propanol?');
+INSERT INTO PreguntasQ2 VALUES (382,372,'¿Qué tipo de compuesto orgánico es CH3COOH?');
+INSERT INTO PreguntasQ2 VALUES (382,373,'¿Cuál es la fórmula molecular del ácido etanoico?');
+INSERT INTO PreguntasQ2 VALUES (382,374,'¿Cuál de las siguientes moléculas es un alqueno?');
+INSERT INTO PreguntasQ2 VALUES (382,375,'¿Cuál es la estructura molecular del etanol?');
+INSERT INTO PreguntasQ2 VALUES (382,376,'¿Qué tipo de enlace químico predomina en los ésteres?');
+INSERT INTO PreguntasQ2 VALUES (382,377,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOCH3?');
+INSERT INTO PreguntasQ2 VALUES (382,378,'¿Cuál es la fórmula molecular del ácido butanoico?');
+INSERT INTO PreguntasQ2 VALUES (382,379,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2CH2CH2CH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382,380,'¿Cuál es la fórmula molecular del ácido propanoico?');
+INSERT INTO PreguntasQ2 VALUES (382,381,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2CH2OH?');
+INSERT INTO PreguntasQ2 VALUES (382,382,'¿Cuál es la fórmula molecular del propino?');
+INSERT INTO PreguntasQ2 VALUES (382,383,'¿Qué tipo de compuesto orgánico es CH3CHO?');
+INSERT INTO PreguntasQ2 VALUES (382,384,'¿Cuál es la fórmula molecular del ácido fórmico?');
+INSERT INTO PreguntasQ2 VALUES (382,385,'¿Cuál de las siguientes moléculas es un alcano?');
+INSERT INTO PreguntasQ2 VALUES (382,386,'¿Cuál es la estructura molecular del propanal?');
+INSERT INTO PreguntasQ2 VALUES (382,387,'¿Qué tipo de enlace químico predomina en los aldehídos?');
+INSERT INTO PreguntasQ2 VALUES (382,388,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3OCH3?');
+INSERT INTO PreguntasQ2 VALUES (382,389,'¿Cuál es la fórmula molecular del ácido butanoico?');
+INSERT INTO PreguntasQ2 VALUES (382,390,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COCH3?');
 
 
 
@@ -1132,19 +908,19 @@ INSERT INTO Incisos_Q2 VALUES
 (331, 341, 'a) Hexano b) Heptano c) Octano d) Nonano'),
 (332, 342, 'a) C3H6O b) C3H8O c) C4H10O d) C4H9OH'),
 (333, 343, 'a) Cetona b) Éter c) Aldehído d) Ácido carboxílico'),
-(334, 344, ''),
-(335, 345, ''),
-(336, 346, ''),
-(337, 347, ''),
-(338, 348, ''),
-(339, 349, ''),
-(340, 350, ''),
-(341, 351, ''),
-(342, 352, ''),
-(343, 353, ''),
-(344, 354, ''),
-(345, 355, ''),
-(346, 356, ''),
+(334, 344, 'a) C2H4O2 b) CH3COOH c) C2H5COOH d) CH3OH'),
+(335, 345, 'a) CH3CH2OH b) CH3CH2CH3 c) CH≡CH d) CH3COOH'),
+(336, 346, 'a) HCOOH b) CH3OH c) CH3CHO d) CH3COOH'),
+(337, 347, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(338, 348, 'a) Metoximetano b) Etoxietano c) Metoxietano d) Etoxipropano'),
+(339, 349, 'a) C6H6COOH b) C6H5COOH c) C7H8COOH d) C7H7COOH'),
+(340, 350, 'a) Ácido metanoico b) Ácido acético c) Ácido butanoico d) Ácido etanoico'),
+(341, 351, 'a) Metanol b) Butanol c) Propanol d) Etanol'),
+(342, 352, 'a) C2H4 b) C3H6 c) C2H2 d) C3H8'),
+(343, 353, 'a) Ácido carboxílico b) Aldehído c) Éter d) Cetona'),
+(344, 354, 'a) C2H4O2 b) C3H6O2 c) C2H5COOH d) CH3COOH'),
+(345, 355, 'a) CH3CH2OH b) CH3CH2CH3 c) CH≡CH d) CH3COOH'),
+(346, 356, 'a) HCHO b) CH3OH c) CH3CHO d) CH3COOH'),
 (347, 357, ''),
 (348, 358, ''),
 (349, 359, ''),
@@ -1160,35 +936,35 @@ INSERT INTO Incisos_Q2 VALUES
 (359, 369, ''),
 (360, 370, ''),
 (361, 371, ''),
-(362, 372, ''),
-(363, 373, ''),
-(364, 374, ''),
-(365, 375, ''),
-(366, 376, ''),
-(367, 377, ''),
-(368, 378, ''),
-(369, 379, ''),
-(370, 380, ''),
-(371, 381, ''),
-(372, 382, ''),
-(373, 383, ''),
-(374, 384, ''),
-(375, 385, ''),
-(376, 386, ''),
-(377, 387, ''),
-(378, 388, ''),
-(379, 389, ''),
-(380, 390, ''),
-(381, 391, ''),
-(382, 392, ''),
-(383, 393, ''),
-(384, 394, ''),
-(385, 395, ''),
-(386, 396, ''),
-(387, 397, ''),
-(388, 398, ''),
-(389, 399, ''),
-(390, 400, '');
+(362, 372, 'a) C2H2 b) C3H6 c) C2H4 d) C3H8'),
+(363, 373, 'a) Éster b) Cetona c) Aldehído d) Ácido carboxílico'),
+(364, 374, 'a) HCOOH b) CH3COOH c) CH3OH d) HCHO'),
+(365, 375, 'a) CH3CH2OH b) CH3CH2CH2CH2OH c) CH3COOH d) CH2=CH2'),
+(366, 376, 'a) CH3COOH b) CH3CHO c) CH3OH d) HCHO'),
+(367, 377, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(368, 378, 'a) Dimetil éter b) Metoximetano c) Etoxietano d) Etoxipropano'),
+(369, 379, 'a) C3H6O2 b) C4H8O2 c) C3H8O d) C4H9COOH'),
+(370, 380, 'a) Propanona b) Butanona c) Propanal d) Butanal'),
+(371, 381, 'a) C3H8O b) C3H7OH c) C4H10O d) C3H6O'),
+(372, 382, 'a) Éster b) Aldehído c) Ácido carboxílico d) Cetona'),
+(373, 383, 'a) C2H4O2 b) C3H6O2 c) C2H5COOH d) CH3COOH'),
+(374, 384, 'a) CH3OH b) CH3CHO c) CH2=CH2 d) CH3COOH'),
+(375, 385, 'a) CH3OH b) CH3CHO c) CH3COOH d) CH3CH2OH'),
+(376, 386, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(377, 387, 'a) Metoxipropanoato b) Metoxietanoato c) Etil metanoato d) Etil etanoato'),
+(378, 388, 'a) C3H7COOH b) C4H9COOH c) C3H7OH d) C4H9OH'),
+(379, 389, 'a) Heptano b) Hexano c) Octano d) Nonano'),
+(380, 390, 'a) C2H4O2 b) C3H6O2 c) C2H5COOH d) CH3COOH'),
+(381, 391, 'a) Metanol b) Etil alcohol c) Propanol d) Butanol'),
+(382, 392, 'a) C2H2 b) C3H6 c) C2H4 d) C3H8'),
+(383, 393, 'a) Éster b) Aldehído c) Cetona d) Ácido carboxílico'),
+(384, 394, 'a) HCOOH b) CH3COOH c) CH3OH d) HCHO'),
+(385, 395, 'a) CH3CH2OH b) CH3CH2CH2CH2OH c) CH3COOH d) CH2=CH2'),
+(386, 396, 'a) CH3COOH b) CH3CHO c) CH3OH d) HCHO'),
+(387, 397, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(388, 398, 'a) Dimetil éter b) Metoximetano c) Etoxietano d) Etoxipropano'),
+(389, 399, 'a) C3H6O2 b) C4H8O2 c) C3H8O d) C4H9COOH'),
+(390, 400, 'a) Propanona b) Butanona c) Propanal d) Butanal');
 
 
 
