@@ -256,14 +256,14 @@ b) 1/2 ≤ x < 2. Notación de intervalos: [1/2,2)
 c) 1/4 ≤ x < 3. Notación de intervalos: [1/4,3)
 d) 1/5 ≤ x < 4. Notación de intervalos: [1/5,4)
 ');
-INSERT INTO PreguntasCD VALUES (164,37,'¿Cuál es la solución de la desigualdad (x+3) /(2-x) ≥ x/(x+1)?; Respuesta:
+INSERT INTO PreguntasCD VALUES (164,37,'¿Cuál es la solución de la desigualdad (x+3) /(2-x) ≥ x /(x+1)?; Respuesta:
 a) -1 < x < 2. Notación de intervalos:(-1,2)
 b) -2 < x < 1. Notación de intervalos:(-2,1)
 c) -3 < x < 0. Notación de intervalos:(-3,0)
 d) -4 < x < -1. Notación de intervalos:(-4,-1)
 ');
 INSERT INTO PreguntasCD VALUES (164,38,'¿Cuál es la solución de la desigualdad 1/(x) ≤ (1/(x+1)) -(2/(x+2))?; Respuesta:
-a) x < -2 o -1/2 ≤ x < 0 o 1 < x ≤ 2. Notación de intervalos:(-∞, -2) ∪ [-1/2,0) ∪ (1,2)
+a) x < -2 o -1 < x < 0 o . Notación de intervalos:(-∞, -2) ∪ (-1,0)
 b) x < -1 o -1/3 ≤ x < 0 o 1/2 < x ≤ 3/2. Notación de intervalos:(-∞, -1) ∪ [-1/3,0) ∪ (1/2,3/2)
 c) x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)
 d) x < 0 o 1/3 ≤ x < 2/3 o 3/2 < x ≤ 2. Notación de intervalos
@@ -280,7 +280,7 @@ b)(-5+(√7)) /5 <x < -(-5-(√17))/6. Notacion de intervalos: -((-5+(√17)) /5
 c)-3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)
 d)x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)
 ');
-INSERT INTO PreguntasCD VALUES (164,41,'¿Cuál es la solución de la desigualdad 6 /x ≤ x-5?; Respuesta:
+INSERT INTO PreguntasCD VALUES (164,41,'¿Cuál es la solución de la desigualdad 6/x ≤ x-5?; Respuesta:
 a) -1 ≤ x < 0 o x ≥ 6. Notación de intervalos: [-1,0) ∪ [6, ∞)
 b) -2 ≤ x < -1 o x ≥ 5. Notación de intervalos: [-2,-1) ∪ [5, ∞)
 c) -3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)
@@ -386,19 +386,19 @@ b) Dominio: (-∞, -1) ∪ (-1, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, ∞) | Rango: (-∞,1]
 d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 57,'Calcula el dominio y rango de la funcion: f(x) = 4(√(x+4) ^ (-1)); Respuesta:
+INSERT INTO PreguntasCD VALUES (166, 57,'
 a) Dominio: (-4, ∞) | Rango: (0, ∞)
 b) Dominio: (-∞, -4) ∪ (-4, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, ∞) | Rango: (1, 4]
 d) Dominio: (-∞,0) ∪ (0, ∞) | Rango: (-∞, ∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 58,'Calcula el dominio y rango de la funcion: f(x) = -1/ (√ (x²)-9); Respuesta: 
+INSERT INTO PreguntasCD VALUES (166, 58,'
 a) Dominio: (-∞,0) ∪ (0, 3) ∪ (3, ∞) | Rango: (-∞,0)
 b) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞, ∞)
 d) Dominio: (-∞, ∞) | Rango: (-∞,1)
 ');
-INSERT INTO PreguntasCD VALUES (166, 59,'Calcula el dominio y rango de la funcion: f(x) = (√(1-x)) / x; Respuesta: 
+INSERT INTO PreguntasCD VALUES (166, 59,'
 a) Dominio: (-∞, ∞) | Rango: (-∞,0)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0) ∪ (0,1] | Rango: (-∞, ∞)
@@ -509,13 +509,13 @@ c)-1
 d)2
 ');
 
-INSERT INTO PreguntasCD VALUES (261, 74,'lim┬(x→∞)⁡(3z-3/2z+1); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 74,'lim┬(z→∞)⁡(3z-3/2z+1); Respuesta:
 a)8/4
 b)3/2
 c)2
 d)4
 ');
-INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(x→∞)⁡(t+t²)/(2t-t²); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(t→∞)⁡(t+t²)/(2t-t²); Respuesta:
 a)-1
 b)1
 c)0
@@ -637,10 +637,10 @@ c)-b/(t−b)^2
 d)t-b/(t−b)^2
 ');
 INSERT INTO PreguntasCD VALUES (262, 95,'Deriva por definición la función: y= ∛(x+3); Respuesta:
-a)1/3 (∛(x+3)^2)
-b)1/3 (∛(x+3))
-c)1/3 (∛(x-3)^2)
-d)1/3 (∛(x-3)^2)
+a)1/3 / (∛((x+3)^2))
+b)1/3 / (∛(x+3))
+c)1/3 / (∛(x-3)^2)
+d)1/3 / (∛(x-3)^2)
 ');
 INSERT INTO PreguntasCD VALUES (262, 96,'
 a)a/(x(a²+x²))
@@ -714,11 +714,11 @@ b)5
 c)2
 d)1/3
 ');
-INSERT INTO PreguntasCD VALUES (262, 108,'Encuentre la derivada de y=1/(3x)^-2 -5cosx ; Respuesta:
-a)10x+cosx
-b)10x-senx
-c)18x+senx
-d)-18-senx
+INSERT INTO PreguntasCD VALUES (262, 108,'
+a)10x+5cosx
+b)10x-10senx
+c)18x+5senx
+d)-18-10senx
 ');
 INSERT INTO PreguntasCD VALUES (262, 109,'Encuentre la derivada de f(x)=6√x + 5cosx; Respuesta:
 a)3/√x -2cosx
@@ -816,11 +816,8 @@ b)1/√(x-3) / (x-3)
 c)1/√(x-3) (x-3)
 d)1/√(x-3)/ (x+3)
 ');
-INSERT INTO PreguntasCD VALUES (262, 125,'Deriva la función f(t)=lnt³/3 + a^(t²-c²); Respuesta:
-a)(ln(t)²+2(a^t+c) t(ln(a)))/t
-b)(ln(t)²+2(a^t²-c)/t²(ln(a)))/t
-c)(ln(t)+2(a^t²-c) t(ln(a)))/t
-d)(ln(t)²+2(a^t²-c) t²(ln(a)))/t
+INSERT INTO PreguntasCD VALUES (262, 125,'
+	
 ');
 INSERT INTO PreguntasCD VALUES (262, 126,'Deriva y=arcsen(sen(senθ)); Respuesta:
 a)arccosθ
@@ -854,19 +851,19 @@ b)5x^4-8x-26x²-7x+56
 c)4x^6-4x³+13x²-5x+67
 d)7x^6-4x³-13x²-4-67
 ');
-INSERT INTO PreguntasCD VALUES (262, 132,'Encuentre la derivada de y=-cscx-senx ; Respuesta:
-a)cosx cot²x
+INSERT INTO PreguntasCD VALUES (262, 132,'
+a)2csc(3-2x)²
 b)cosx/cotx
 c)senx arccot²x
 d)senx/arccot²x
 ');
-INSERT INTO PreguntasCD VALUES (262, 133,'Encuentre la derivada de g(x)=((x+1)/(x+2)) (2x-5) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 133,'
 a)(2x²-8x+1)/(x-2)²
 b)(x²-8x+1)(x-2)
 c)(x²-8x+1)(x-2)²
 d)(2x²+8x-1)/(x+2)²
 ');
-INSERT INTO PreguntasCD VALUES (262, 134,'Encuentre la derivada de f(x)=((x²-x-3)/(x²+1))  (x²+x+1) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 134,'
 a)(x²-8x+1)(x-2)²
 b)(2x+x³+x²+9)/(x²+1)
 c)(2x+x³+x²+9)(x²+1)
