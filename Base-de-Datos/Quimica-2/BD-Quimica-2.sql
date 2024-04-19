@@ -324,32 +324,24 @@ INSERT INTO PreguntasQ2 VALUES (381, 268, ' https://github.com/EmilioNoyola/Guia
 INSERT INTO PreguntasQ2 VALUES (381, 269, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-9.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 270, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-10.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 271, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-11.png?raw=true');
-INSERT INTO PreguntasQ2 VALUES (381, 272, 'Cuál es la fórmula semidesarrollada del: 4-metil-2-aminohexano
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-12.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 272, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-12.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 273, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-13.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 274, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-14.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 275, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-15.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 276, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-16.png?raw=true');
-INSERT INTO PreguntasQ2 VALUES (381, 277, '¿Cuál de los siguientes ejemplos corresponde a un hidrocarburo?
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-17.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 277, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-17.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 278, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-18.png?raw=true');
-INSERT INTO PreguntasQ2 VALUES (381, 279, '¿Con cual de los siguientes compuestos se podrá formar el terbutilo, al eliminar un hidrogeno?
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-19.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 279, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-19.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 280, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-20.png?raw=true');
-INSERT INTO PreguntasQ2 VALUES (381, 281, 'La fórmula semidesarrollada del 8-etil-3-metil-4-isopropil-5-decano:
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-21.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 281, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-21.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 282, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-22.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 283, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-23.png?raw=true');
-INSERT INTO PreguntasQ2 VALUES (381, 284, 'La fórmula semidesarrollada del 3-sectbutil-5etil-1-héptino, es:
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-24.png?raw=true');
-
-INSERT INTO PreguntasQ2 VALUES (381, 285, 'La formula semidesarrollada del compuesto 2,3,4-trimetil-2-etoxi-hexano es:
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-25.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 284, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-24.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 285, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-25.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 286, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-26.png?raw=true');
 INSERT INTO PreguntasQ2 VALUES (381, 287, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-27.png?raw=true');
-INSERT INTO PreguntasQ2 VALUES (381, 288, 'Cuál es la fórmula semidesarrollada del Etil-isopentil-cetona
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-28.png?raw=true');
-INSERT INTO PreguntasQ2 VALUES (381, 289, 'Cuál es la fórmula semidesarrollada del ácido fórmico');
+INSERT INTO PreguntasQ2 VALUES (381, 288, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-28.png?raw=true');
+INSERT INTO PreguntasQ2 VALUES (381, 289, ' Cuál es la fórmula semidesarrollada del ácido fórmico');
 INSERT INTO PreguntasQ2 VALUES (381, 290, ' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Quimica-2/Imagenes%20(Parcial3)/Img-30.png?raw=true');
 
 
