@@ -411,36 +411,12 @@ INSERT INTO PreguntasQ2 VALUES (382,343,'¿Qué tipo de compuesto orgánico es C
 INSERT INTO PreguntasQ2 VALUES (382,344,'¿Cuál es la fórmula molecular del ácido propanoico?');
 INSERT INTO PreguntasQ2 VALUES (382,345,'¿Cuál de las siguientes moléculas es un alquino?');
 INSERT INTO PreguntasQ2 VALUES (382,346,'¿Cuál es la estructura molecular del ácido metanoico?');
-INSERT INTO PreguntasQ2 VALUES (382,347,'¿Qué tipo de enlace químico predomina en los halogenuros de alquilo?
-a) Enlace covalente polar
-b) Enlace iónico
-c) Enlace covalente no polar
-d) Enlace metálico');
-INSERT INTO PreguntasQ2 VALUES (382,348,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2OCH2CH3?
-a) Metoxipropano
-b) Etoxipropano
-c) Metoxietano
-d) Etoxietano');
-INSERT INTO PreguntasQ2 VALUES (382,349,'¿Cuál es la fórmula molecular del ácido benzoico?
-a) C6H6COOH
-b) C6H5COOH
-c) C7H8COOH
-d) C7H7COOH');
-INSERT INTO PreguntasQ2 VALUES (382,350,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOH?
-a) Ácido metanoico
-b) Ácido acético
-c) Ácido butanoico
-d) Ácido etanoico');
-INSERT INTO PreguntasQ2 VALUES (382,351,'¿Cuál es la fórmula molecular del 1-propanol?
-a) C3H8O
-b) C3H6O
-c) C4H10O
-d) C3H7OH');
-INSERT INTO PreguntasQ2 VALUES (382,352,'¿Qué tipo de compuesto orgánico es CH3COCH3?
-a) Éster
-b) Cetona
-c) Aldehído
-d) Éter');
+INSERT INTO PreguntasQ2 VALUES (382,347,'¿Qué tipo de enlace químico predomina en los halogenuros de alquilo?');
+INSERT INTO PreguntasQ2 VALUES (382,348,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2OCH2CH3?');
+INSERT INTO PreguntasQ2 VALUES (382,349,'¿Cuál es la fórmula molecular del ácido benzoico?');
+INSERT INTO PreguntasQ2 VALUES (382,350,'¿Cuál es el nombre IUPAC del siguiente compuesto: CH3CH2COOH?');
+INSERT INTO PreguntasQ2 VALUES (382,351,'¿Cuál es la fórmula molecular del 1-propanol?');
+INSERT INTO PreguntasQ2 VALUES (382,352,'¿Qué tipo de compuesto orgánico es CH3COCH3?');
 INSERT INTO PreguntasQ2 VALUES (382,353,'¿Cuál es la fórmula molecular del ácido metanoico?
 a) CH2O
 b) HCHO
@@ -550,9 +526,9 @@ CREATE TABLE Incisos_Q2(
 		
 INSERT INTO Incisos_Q2 VALUES 
 
---Incisos Parcial 1
+-- Incisos Parcial 1
 
---Incisos Tema 1
+-- Incisos Tema 1
 (01, 11, "a) Dióxido de yodo", "b) Pentóxido de yodo", "c) Yoduro de dioxígeno", "d) Anhídrido peryódico"),
 (02, 12, "a) Rubidio bromuro", "b) Bromuro de rubidio", "c) Rubidio bromanuro", "d) Bromuro de rutenio"),
 (03, 13, "a) Fosfato de magnesio", "b) Magnesio fosfato", "c) Fosfuro de magnesio", "d) Difosfato de magnesio"),
@@ -563,7 +539,7 @@ INSERT INTO Incisos_Q2 VALUES
 (08, 18, "a) Bicarbonato de níquel", "b) Carbonato de níquel", "c) Hidróxido de níquel", "d) Hidrogenoníquel carbonoso"),
 (09, 19, "a) Fluoruro de hidrógeno", "b) Ácido fluorhídrico", "c) Hidruro de flúor", "d) Fluorato de hidrógeno"),
 (10, 20, "a) Dihidruro de mercurio", "b) Mercurio dihidruroso", "c) Hidrógeno de mercurio", "d) Hidruro de mercurio"),
-(11, 21, 'a) I₂O₇ b) IO₃ c) H₂O d) O₃'),
+(11, 21, "a) I₂O₇", "b) IO₃", "c) H₂O", "d) O₃"),
 (12, 22, 'a) Mg(PO₄)₂ b) Mg₃(PO₄)₂ c) Mg₂(PO₄)₃ d) Mg₃(PO₄)₃'),
 (13, 23, 'a) H₂TeO₄ b) HTeO₃ c) H₂Te d) H₂TeO₃'),
 (14, 24, 'a) In₂SO₃ b) InSO₃ c) In₂(SO₃)₃ d) In(SO₃)₃'),
@@ -604,7 +580,7 @@ INSERT INTO Incisos_Q2 VALUES
 (49, 59, 'a) Hidróxido de bario b) Hidróxido de bismuto c) Oxobario d) Hidróxido de berilio'),
 (50, 60, 'a) Sulfato de magnesio b) Sulfito de magnesio c) Sulfuro de magnesio d) Monosulfato de magnesio'),
 
---Incisos Tema 2
+-- Incisos Tema 2
 (51, 61, 'a) Fenómeno físico, b) Pérdida de masa, c) Cambio de estado, d) Reacción química'),
 (52, 62, 'a) +1,+3,+5, b) -7,+5,-5, c) +7,-1,+5, d) +4,-1,+3'),
 (53, 63, 'a) Es la especie química que tiene perdida de electrones, b) No se altera el número de oxidación de ningún elemento, c) Provoca que el magnesio pierda electrones, d) En el proceso cambia -2 a +2'),
@@ -656,7 +632,7 @@ INSERT INTO Incisos_Q2 VALUES
 (99, 109, 'a) KHSO₄ + H₂O, b) K₂SO₄ + H₂O, c) KHSO₃ + H₂O, d) K₂SO₃ + H₂O'),
 (100, 110, 'a) NaNO₃ + HCl, b) NaCl + HNO₃, c) NaNO₂ + HCl, d) NaClO₃ + HNO₂'),
 
---Incisos Tema 3
+-- Incisos Tema 3
 (101,111, 'a) El número total de átomos en los reactivos es igual al número total de átomos en los productos. b) Se respeta la ley de la conservación de la masa. c) Los coeficientes estequiométricos están ajustados adecuadamente. d) No hay cambios en el tipo de átomos presentes en los productos y reactivos.'),
 (102,112, 'a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble'),
 (103,113, 'a) Síntesis b) Descomposición c) Reemplazo simple d) Reemplazo doble'),
@@ -830,9 +806,9 @@ INSERT INTO Incisos_Q2 VALUES
 
 
 
---Incisos Parcial 3
+-- Incisos Parcial 3
 
---Tema 1
+-- Tema 1
 (261, 271, 'a) 4-etil-2,4,5-trimetil-6—isopropil nonano b) 6-etil-4-propil-5,6,8-trimetilnonano  c) 4-isopropil-5,6,8-trimetil-t-etilnonano  d) 2,4,5-trimetil-6-isopropil-4-etilnonano'),
 (262, 272, 'a) 5,6,7-trimetil-3-propil-3-isopropil-1-octeno b) 6-etil-5,6-dimetil-3-propil-3-isopropil-2-hepteno c) 5-metil-3,3,6-triisopropil-1-hepteno d) 5-metil-3,3,6-tripropil-1-hepteno'),
 (263, 273, 'a) 3,6,6,7,8 — pentametil — 5 — propil — 7- isopropil nonino b) 7 — etil — — pentemetil — 5- propil — 2- decino c) 7 — etil — — pentametil — 5- propil — 2- nonino d) 1 — hexametil — 5 — propil — 7- isopropil octino'),
@@ -921,12 +897,24 @@ INSERT INTO Incisos_Q2 VALUES
 (344, 354, 'a) C2H4O2 b) C3H6O2 c) C2H5COOH d) CH3COOH'),
 (345, 355, 'a) CH3CH2OH b) CH3CH2CH3 c) CH≡CH d) CH3COOH'),
 (346, 356, 'a) HCHO b) CH3OH c) CH3CHO d) CH3COOH'),
-(347, 357, ''),
-(348, 358, ''),
-(349, 359, ''),
-(350, 360, ''),
-(351, 361, ''),
-(352, 362, ''),
+(347, 357, 'a) Enlace covalente polar b) Enlace iónico c) Enlace covalente no polar d) Enlace metálico'),
+(348, 358, 'a) Metoxipropano b) Etoxipropano c) Metoxietano d) Etoxietano'),
+(349, 359, 'a) C6H6COOH
+b) C6H5COOH
+c) C7H8COOH
+d) C7H7COOH'),
+(350, 360, 'a) Ácido metanoico
+b) Ácido acético
+c) Ácido butanoico
+d) Ácido etanoico'),
+(351, 361, 'a) C3H8O
+b) C3H6O
+c) C4H10O
+d) C3H7OH'),
+(352, 362, 'a) Éster
+b) Cetona
+c) Aldehído
+d) Éter'),
 (353, 363, ''),
 (354, 364, ''),
 (355, 365, ''),
