@@ -743,8 +743,8 @@ A) 4 m
 C) 12 m
 D) 16 m');
 
--- Tema3: 
--- Tabla Respuestas de F1
+-- Tema3: Tiro parabolico
+
 INSERT INTO PreguntasF1 VALUES(343, 124, 'Un proyectil se lanza con un ángulo de tiro de 35° por encima de la horizontal. En el punto más alto de la trayectoria, su velocidad es 30m/s. ¿La velocidad inicial tenía una componente horizontal de?
 A) 30 m/s
 B) 30 m/s sen 35°
@@ -774,6 +774,66 @@ INSERT INTO PreguntasF1 VALUES(343, 128, 'Se lanza un balón de fútbol en traye
 B) En el punto de lanzamiento.
 C) Al momento de impactar con el suelo.
 D) Durante todo el recorrido.');
+
+INSERT INTO PreguntasF1 VALUES(343, 129, '¿Cuál es la fórmula para calcular el tiempo total de vuelo de un proyectil lanzado en trayectoria parabólica?
+A) t = v0^2 / g
+B) t = v0 * sin(θ) / g
+--C) t = 2 * v0 * sin(θ) / g
+D) t = v0 * cos(θ) / g');
+
+INSERT INTO PreguntasF1 VALUES(343, 130, '¿Cuál es la fórmula para calcular la altura máxima de un proyectil lanzado en trayectoria parabólica?
+--A) h = (v0^2 * sin(θ)^2) / (2 * g)
+B) h = (v0^2 * cos(θ)^2) / (2 * g)
+C) h = (v0 * sin(θ)) / g
+D) h = v0^2 / (2 * g)');
+
+INSERT INTO PreguntasF1 VALUES(343, 131, '¿Cómo se calcula la velocidad de un proyectil en el punto más alto de su trayectoria?
+--A) Es igual a la componente horizontal de la velocidad inicial.
+B) Es igual a la componente vertical de la velocidad inicial.
+C) Es igual a la suma de la componente horizontal y vertical de la velocidad inicial.
+D) Es igual a cero.');
+
+INSERT INTO PreguntasF1 VALUES(343, 132, 'En una trayectoria parabólica, ¿cuál es la dirección de la aceleración en cualquier punto?
+A) En la misma dirección que la velocidad.
+B) En dirección horizontal.
+C) En dirección vertical y constante.
+--D) En dirección vertical y siempre hacia abajo.');
+
+INSERT INTO PreguntasF1 VALUES(343, 133, 'Un proyectil se lanza con una velocidad inicial de 20 m/s a un ángulo de 45°. ¿Cuál es la componente vertical de la velocidad inicial?
+A) 20 m/s
+--B) 20 * sin(45°) m/s
+C) 20 * cos(45°) m/s
+D) Ninguna');
+
+INSERT INTO PreguntasF1 VALUES(343, 134, 'Si un proyectil se lanza con una velocidad inicial de 50 m/s a un ángulo de 30°, ¿cuál es la componente horizontal de la velocidad inicial?
+--A) 50 * cos(30°)
+B) 50 * sin(30°)
+C) 50
+D) 50 * tan(30°)');
+
+INSERT INTO PreguntasF1 VALUES(343, 135, '¿Cuál es el alcance máximo de un proyectil lanzado a un ángulo de 45°?
+A) cero
+B) infinito
+--C) se maximiza
+D) no se maximiza');
+
+INSERT INTO PreguntasF1 VALUES(343, 136, 'Si un proyectil se lanza con una velocidad inicial de 40 m/s a un ángulo de 60°, ¿cuál es la componente vertical de la velocidad inicial?
+A) 40 * cos(60°)
+--B) 40 * sin(60°)
+C) 40
+D) 40 * tan(60°)');
+
+INSERT INTO PreguntasF1 VALUES(343, 137, '¿En qué punto de la trayectoria de un proyectil se alcanza la velocidad máxima?
+A) Al principio
+--B) Justo antes de impactar en el suelo
+C) En el punto más alto de la trayectoria
+D) En la mitad del recorrido');
+
+INSERT INTO PreguntasF1 VALUES(343, 138, '¿Qué sucede con la velocidad vertical de un proyectil en el punto más alto de su trayectoria?
+A) Aumenta
+B) Disminuye
+C) Se mantiene constante
+--D) Es cero');
 
 CREATE TABLE RespuestasF1(
 	ID_PreguntaF1 INTEGER NOT NULL,
