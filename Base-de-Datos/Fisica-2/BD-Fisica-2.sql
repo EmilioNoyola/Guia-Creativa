@@ -1188,7 +1188,6 @@ INSERT INTO Incisos_F2 VALUES
 (24,34,"a)T=470.88 N    N=163.81N", "b)T=499.68 N    N=63.88N", "c)T=590.75 N    N=163.81N"),
 ​
 
-
 -- Tema 2: Leyes de Newton con Fricción
 (25,35,"a) El estudio de los movimientos sin considerar las causas.", "b) El estudio de las fuerzas que causan los movimientos.", "c) El estudio de la relación entre la masa y el volumen de un objeto."),
 (26,36,"a) Es una fuerza que siempre actúa en la misma dirección del movimiento.", "b) Es una fuerza que se opone al movimiento relativo de dos superficies en contacto.", "c) Es una fuerza que aumenta la velocidad de un objeto en movimiento."),
@@ -1216,10 +1215,6 @@ INSERT INTO Incisos_F2 VALUES
 (48,58,"a) θ=55.15° N=167.49N","b) θ=35.45° N=148.41N","c) θ=61.27° N=201.71N"),
 (49,59,"a) aL=0.69m/s^2 aB=7.61m/s^2","b) aL=1.15m/s^2 aB=15.39m/s^2","c) aL=3.61m/s^2 aB=30.11m/s^2"),
 (50,60,"a) wc=5.21kg a=1.7 m/s^2","b) wc=15.19kg a=3.7 m/s^2","c) wc=10.04kg a=2.7 m/s^2"),
-
-
-
-
 
 
 -- Tema 3: Movimiento Circular Horizontal
@@ -1258,39 +1253,36 @@ INSERT INTO Incisos_F2 VALUES
       
 
 
-
-
-
-
-
 -- Tema 4: Movimiento Circular Vertical
-(83,93,''),
-(84,94,''),
-(85,95,''),
-(86,96,''),
-(87,97,''),
-(88,98,''),
-(89,99,''),
-(90,100,''),
-(91,101,''),
-(92,102,''),
-(93,103,''),
-(94,104,''),
-(95,105,''),
-(96,106,''),
-(97,107,''),
-(98,108,''),
-(99,109,''),
-(100,110,''),
-(101,111,''),
-(102,112,''),
-(103,113,''),
-(104,114,''),
-(105,115,''),
-(106,116,''),
-(107,117,''),
-(108,118,''),
-(109,119,'');
+
+(83,93,"a)Cuerpo de masa m atado a una cuerda de longitud R que realiza trayectorias circulares verticales.","b)Existen dos velocidades tangenciales para este tipo de movimiento, en la parte superior se tiene a V1 y en la parte inferior se tiene a V2.","c)Existen dos velocidades NO tangenciales para este tipo de movimiento, en la parte superior se tiene a V1 y en la parte inferior se tiene a V2."),
+(84,94,"a) Se dirigen al centro de la trayectoria.","b) La Fuerza Centrípeta se dirige hacia la Aceleración Centrípeta y viceversa","c) No se dirigen a ningún lado "),
+(85,95,"a)La tensión de la cuerda T1 en la parte superior.","b)La tensión de la cuerda T2 en la parte inferior.","c)Las dos tensiones (Fc=T1 en la parte superior y Fc=T2 en la parte inferior). "),
+(86,96,"a)Es constante","b)Aumenta","c)Es cero "),
+(87,97,"a)Son iguales","b) Son inversamente proporcionales","c) Son directamente proporcionales "),
+(88,98,"a) ac=V^2/r","b)ac=R*V2","c)ac=V/r "),
+(89,99,"a)Aumenta y se le denomina Velocidad centrípeta","b)Es constante y se denomina aceleración centrípeta","c)Es constante y se le denomina Velocidad angular "),
+(90,100,"a)La fuerza Centrípeta","b)Fuerza Normal","c)Fuerza de fricción "),
+(91,101,"a)varía dependiendo de la velocidad angular y la masa de un objeto","b)varía sin depender de otros factores","c)Varía dependiendo dependiendo de la aceleración centrípeta y la masa de un objeto"),
+(92,102,"a) v=w^2*r ","b)ω =2π/T","c)v=w*r"),
+(93,103,"a) T=wr","b)T=1/f","c)T=wr"),
+(94,104,"a) Aporta fuerza necesaria para mantener al objeto en su trayectoria circular","b)No toma ningún papel en el movimiento","c)Aporta velocidad al objeto para que el objeto siga su trayectoria"),
+(95,105,"a) Existe un único cambio en la velocidad angular","b)No existe ninguna diferencia entre ambos movimientos","c)radica en la dirección de la aceleración,la fuerza necesaria para mantener al objeto en movimiento circular y el efecto de la gravedad en el movimiento."),
+(96,106,"a) La fuerza que actúa perpendicularmente a la trayectoria de un objeto en movimiento circular.","b) La fuerza que mantiene un objeto en movimiento circular alrededor de un centro.","c) La fuerza que actúa en la misma dirección que el movimiento de un objeto en movimiento circular."),
+(97,107,"a) Es la masa de un objeto en movimiento circular.","b) Es la velocidad angular de un objeto en movimiento lineal.","c) Es la magnitud del producto vectorial de la posición y el momento lineal de un objeto."),
+(98,108,"a) Paralela a la velocidad tangencial.","b) Perpendicular a la velocidad tangencial y dirigida hacia el centro de la trayectoria.","c) Tangencial a la trayectoria de movimiento."),
+(99,109,"a) Ley de Gravitación Universal.","b) Segunda Ley de Newton.","c) Ley de Conservación del Momento Angular."),
+(100,110,"a) π rad/s","b) 2 rad/s","c) π/2 rad/s"),
+(101,111,"a) La fuerza centrípeta se mantiene constante.","b) La fuerza centrípeta se reduce a la mitad.","c) La fuerza centrípeta se duplica."),
+(102,112,"a) El periodo disminuye.","b) El periodo permanece constante.","c) El periodo aumenta."),
+(103,113,"a) Fuerza centrífuga.","b) Fuerza normal.","c) Fuerza centrípeta."),
+(104,114,"a) Paralela a la velocidad tangencial.","b) Perpendicular a la velocidad tangencial y dirigida hacia el centro de la trayectoria.","c) Tangencial a la trayectoria de movimiento."),
+(105,115,"a) Es la fuerza que mantiene al objeto en su trayectoria circular.","b) Es la fuerza que tiende a alejar al objeto del centro de la trayectoria. ","c) Es la fuerza que actúa en la dirección de la velocidad tangencial."),
+(106,116,"a) La masa combinada de una motocicleta y su conductor es de 210kg. Si el motociclista debe rizar la pista con 6m de radio;  a) ¿Cuál debe ser la velocidad mínima para que la motocicleta no se caiga de la parte más alta de la pista?  b) Si la velocidad es de 12m/s. ¿Qué fuerza normal se ejerce sobre la motocicleta por la pared de la esfera en el punto más bajo y más alto de la trayectoria? ","a)V=7.7m/s  N=2979.9N  N=7100.1N","b)V=9.5m/s  N=3678.1N  N=8319.2N","c)V=5.4m/s  N=1778.3N  N=5501.1N"),
+(107,117,"a)V=1.174m/s  T=42.86N  T=58.7N","b)V=2.971m/s  T=73.56N  T=97.1N","c)V=3.351m/s  T=113.66N  T=161.8N "),
+(108,118,"a) T=13.86N   T=13.86N","b)T=14.37N   T=14.37N","c)T=14.15N   T=15.17N "),
+(109,119,"a)w=1.967 rad/s   V=5.9879m/s","b)w=2.045 rad/s   V=6.8971m/s","c)w=1.004 rad/s   V=5.1932m/s");
+
 
 
 
