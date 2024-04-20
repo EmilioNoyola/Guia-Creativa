@@ -1145,6 +1145,176 @@ a) b) c)');
 
 
 
+-- Creacion de Tablal para los incisos Física 2
+
+CREATE TABLE Incisos_F2( 
+		ID_PreguntaF2 INTEGER NOT NULL,
+		ID_Incisos_Q2 INTEGER NOT NULL,
+		Inciso_A VARCHAR(300) NOT NULL,
+		Inciso_B VARCHAR(300) NOT NULL,
+		Inciso_C VARCHAR(300) NOT NULL,
+		PRIMARY KEY(ID_Incisos_F2),
+		FOREIGN KEY(ID_PreguntaF2)
+		REFERENCES PreguntasF2(ID_PreguntaF2)
+		);
+		
+INSERT INTO Incisos_F2 VALUES 
+
+-- Incisos Parcial 1
+--Tema 1 Leyes de Newton sin Fricción
+(01,11,"a) La inercia de un cuerpo", "b) La aceleración de un cuerpo", "c) La fuerza resultante sobre un cuerpo"),
+(02,12,"a) Por cada acción hay una reacción igual en magnitud pero opuesta en dirección", "b) La fuerza neta sobre un cuerpo es igual al producto de la masa por la aceleración", "c) La suma de todas las fuerzas que actúan sobre un cuerpo es igual a cero"),
+(03,13,"a) La inercia de un cuerpo es proporcional a la masa", "b) La fuerza resultante sobre un cuerpo es igual al producto de la masa por la aceleración", "c) La suma de todas las fuerzas que actúan sobre un cuerpo es igual a cero"),
+(04,14,"a) La Dinámica estudia las fuerzas que causan los movimientos, mientras que la Cinemática se enfoca en la descripción de los movimientos sin considerar las causas", "b) La Cinemática estudia las fuerzas que causan los movimientos, mientras que la Dinámica se enfoca en la descripción de los movimientos sin considerar las causas", "c) Ambas disciplinas son lo mismo"),
+(05,15,"a) Nodo", "b) Centro de gravedad", "c) Centro de masa"),
+(06,16,"a) Peso", "b) Masa", "c) Volumen"),
+(07,17,"a) Masa", "b) Peso", "c) Volumen"),
+(08,18,"a) Diagrama de cuerpo libre", "b) Diagrama de cuerpo pesado", "c) Diagrama de fuerza"),
+(09,19,"a) Cuando la fuerza neta sobre un cuerpo es distinta de cero", "b) Cuando la fuerza neta sobre un cuerpo es igual a cero", "c) Cuando la fuerza neta sobre un cuerpo es menor que cero"),
+(10,20,"a) Cuando un cuerpo se encuentra en equilibrio", "b) Cuando un cuerpo se encuentra en movimiento", "c) Cuando un cuerpo está en contacto con una superficie"),
+(11,21,"a) F = ma", "b) F = mg", "c) F = m/v^2"),
+(12,22,"a) Un cuerpo en reposo permanece en reposo y un cuerpo en movimiento continúa moviéndose a velocidad constante en línea recta, a menos que actúe sobre él una fuerza neta.", "b) La fuerza neta sobre un cuerpo es igual al producto de su masa por la aceleración.", "c) Por cada acción hay una reacción igual en magnitud pero opuesta en dirección."),
+(13,23,"a) Debe estar sujeto a una fuerza externa neta.", "b) Debe estar en equilibrio.", "c) Debe tener una masa muy grande."),
+(14,24,"a) Mantiene el cuerpo en equilibrio.", "b) No tiene ningún papel en ausencia de fricción.", "c) Contrarresta la fuerza de gravedad para mantener el cuerpo en reposo."),
+(15,25,"a) La representación gráfica de las fuerzas que actúan sobre el cuerpo.", "b) La distribución de la masa del cuerpo.", "c) La velocidad del cuerpo en movimiento."),
+(16,26,"a)T=3.275x10^-3N   F= 1.781x10^-3N", "b)T=7.530x10^-3N   F= 2.561x10^-4N", "c)T=1.378x10^-4N   F= 1.581x10^-3N"),
+(17,27,"a)a3=1.33  m/s^2", "b)a3=2.588 m/s^2", "c)a3=2.11  m/s^2"),
+(18,28,"a)Fe=1.021x10^-15N  W=8.93X10^-30N", "b)Fe=1.950x10^-14N  W=6.15X10^-28N", "c)Fe=2.051x10^-16N  W=9.63X10^-30N"),
+(19,29,"a)N= 664.785N     a=3.111m/s^2", "b)N= 550.755N     a=2.391m/s^2", "c)N= 664.785N     a=2.391m/s^2"),
+(20,30,"a)a=1.962 m/s^2   T=94.176N   V= 6.862m/s^2", "b)a=1.15  m/s^2   T=70.180N   V= 8.112m/s^2", "c)a=2.64  m/s^2   T=94.176N   V= 7.344m/s^2"),
+(21,31,"a)T=20.24N    a=1.1112m/s^2", "b)T=17.84N    a=0.2169m/s^2", "c)T=11.85N    a=0.9879m/s^2"),
+(22,32,"a)TA=53689.1 N    TB= 68123.80 N", "b)TA=24128.7 N    TB= 23713.75 N", "c)TA=33627.8 N    TB= 52376.72 N"),
+(23,33,"a)T1= 5mg cos(35.9-θ)    T2=mg cos(70-θ)", "b)T1= 3mg cos(90-θ)    T2=2mg cos(90-θ)", "c)T1= 2mg cos(80-θ)    T2=6mg cos(90-θ)"),
+(24,34,"a)T=470.88 N    N=163.81N", "b)T=499.68 N    N=63.88N", "c)T=590.75 N    N=163.81N"),
+​
+
+
+-- Tema 2: Leyes de Newton con Fricción
+(25,35,"a) El estudio de los movimientos sin considerar las causas.", "b) El estudio de las fuerzas que causan los movimientos.", "c) El estudio de la relación entre la masa y el volumen de un objeto."),
+(26,36,"a) Es una fuerza que siempre actúa en la misma dirección del movimiento.", "b) Es una fuerza que se opone al movimiento relativo de dos superficies en contacto.", "c) Es una fuerza que aumenta la velocidad de un objeto en movimiento."),
+(27,37,"a) Es mayor en el coeficiente de fricción estático.", "b) Es menor en el coeficiente de fricción estático.", "c) Es igual en ambos coeficientes."),
+(28,38,"a) Opuesto al desplazamiento.", "b) Paralelo al desplazamiento.", "c) Perpendicular al desplazamiento."),
+(29,39,"a) Cuando el objeto está en reposo.", "b) Cuando el objeto está en movimiento con velocidad constante.", "c) Cuando el objeto está en movimiento con aceleración constante."),
+(30,40,"a)Si el cuerpo no se mueve, se considera el coeficiente cinético", "b) Si el cuerpo se encuentra estático o se comienza a mover, se considera el coeficiente de fricción estático", "c) Ninguna de las anteriores"),
+(31,41,"a) Porque es una excepción de las Leyes de Newton", "b) Porque está en una superficie muy resbaladiza", "c) Porque existe una fuerza que se llama fuerza de rozamiento o fricción"),
+(32,42,"a) La Ley de la inercia", "b) El principio fundamental de la dinámica", "c) La Ley de Acción y Reacción"),
+(33,43,"a) Mayor masa", "b) Menor masa", "c)Es independiente de la masa"),
+(34,44,"a) Fuerza que afecta al movimiento de un objeto. Aumenta la velocidad de este.", "b) Fuerza resistente que se opone al movimiento de un objeto. Afecta a un objeto en movimiento disminuyendo su velocidad o impidiendo que se desplace.", "c) Fuerza resistente al movimiento de un objeto, no afecta en ningún sentido el movimiento del objeto"),
+(35,45,"a) Cuando la fuerza de fricción aumenta, la velocidad del objeto en movimiento aumenta.", "b) Cuando la fuerza de fricción aumenta, la velocidad de un objeto en movimiento disminuye.", "c) Ninguna de las anteriores"),
+(36,46,"a) Puede moverse sin fricción en un plano inclinado si las superficies en contacto están lubricadas o si el coeficiente de fricción es muy bajo", "b) No podrá moverse", "c) Podrá moverse aunque el coeficiente de fricción sea alto"),
+(37,47,"a) Es la fuerza de fricción que se opone al movimiento de un objeto en reposo.", "b) Es la fuerza de fricción que se opone al movimiento de un objeto en movimiento.", "c) Es la fuerza de fricción que actúa sobre un objeto independientemente de si está en reposo o en movimiento."),
+(38,48,"a) La velocidad del objeto.", "b) La masa del objeto.", "c) El coeficiente de fricción cinética entre las superficies en contacto."),
+(39,49,"a) La relación entre la masa y la aceleración de un objeto.", "b) La relación entre la fuerza de fricción y la fuerza normal cuando el objeto está en movimiento.", "c) La relación entre la fuerza de fricción máxima y la fuerza normal antes de que un objeto comience a moverse."),
+(40,50,"a) Aumenta la fuerza de fricción estática.", "b) Disminuye la fuerza de fricción estática.", "c) No afecta la fuerza de fricción estática."),
+(41,51,"a)T1=8.75N T2=30.75N",   "b)T1=6.90N T2=35.15N",         "c)T1=5.30N T2=30.75N"),
+(42,52,"a) F=215.54 N","b) F=70.13 N","c) F=180.27 N"),
+(43,53,"a) mc=15.40kg T1=30.17N T2=80.10N","b) mc=12.88kg T1=47.24N T2=100.67N","c) mc=10.35kg T1=25.10N T2=95.17N"),
+(44,54,"a) a=5.07m/s^2 T=10.37N","b) a=1.67m/s^2 T=3.15N","c) a=2.21m/s^2 T=2.28N"),
+(45,55,"a) T=25.898N a=5.4936m/s^2","b) T=35.154N a=3.9734m/s^2","c) T=10.864N a=2.4984m/s^2"),
+(46,56,"a) a=2.76 m/s^2 T=44.89N","b) a=1.29m/s^2 T=27.25N","c) a=3.97 m/s^2 T=37.15N"),
+(47,57,"a) wa=254.15kg","b) wa=377.79kg","c) wa=154.75kg"),
+(48,58,"a) θ=55.15° N=167.49N","b) θ=35.45° N=148.41N","c) θ=61.27° N=201.71N"),
+(49,59,"a) aL=0.69m/s^2 aB=7.61m/s^2","b) aL=1.15m/s^2 aB=15.39m/s^2","c) aL=3.61m/s^2 aB=30.11m/s^2"),
+(50,60,"a) wc=5.21kg a=1.7 m/s^2","b) wc=15.19kg a=3.7 m/s^2","c) wc=10.04kg a=2.7 m/s^2"),
+
+
+
+
+
+
+-- Tema 3: Movimiento Circular Horizontal
+(51,61,"a) Movimiento rectilíneo, velocidad constante y aceleración tangencial","b) Movimiento curvilíneo, aceleración centrípeta y velocidad variable","c) Movimiento circular, velocidad constante y aceleración centrípeta constante"),
+(52,62,"a) El cuerpo seguirá moviéndose en la misma dirección con la misma velocidad","b) El cuerpo saldrá del plano horizontal y seguirá en línea recta","c) El cuerpo dejará de moverse y se detendrá instantáneamente"),
+(53,63,"a) Constante","b) Variable","c) Nula"),
+(54,64,"a) El tiempo que tarda el cuerpo en recorrer una circunferencia completa","b) El tiempo que tarda el cuerpo en realizar medio ciclo","c) El tiempo que tarda el cuerpo en cambiar su velocidad"),
+(55,65,"a) Es proporcional a la velocidad","b) Es inversamente proporcional a la velocidad","c) No guarda relación con la velocidad"),
+(56,66,"a) Tienen la misma frecuencia","b) Tienen la misma amplitud","c) Tienen diferente radio de la trayectoria"),
+(57,67,"a) Recorrerá la mitad de la distancia","b) Recorrerá el doble de la distancia","c) Recorrerá la misma distancia"),
+(58,68,"a) Sólo cuando la velocidad es constante","b) Siempre, debido al cambio en la dirección de la velocidad","c) Nunca, ya que la velocidad es constante"),
+(59,69,"a)El radián es una unidad de medida de ángulos","b)Los grados sexagesimales se pueden transformar en radianes","c)El radián es una unidad de medida de longitudes de arcos"),
+(60,70,"a) Un movimiento en línea recta con velocidad constante","b) Un movimiento en el que la velocidad angular es constante","c) Un movimiento en el que la aceleración es variable"),
+(61,71,"a) Aceleración angular","b) Velocidad tangencial","c) Velocidad angular"),
+(62,72,"a) Son directamente proporcionales","b) Son inversamente proporcionales","c) Son independientes entre sí"),
+(63,73,"a) Perpendicular a la dirección de la velocidad","b) Perpendicular a la dirección de la velocidad","c) Opuesta a la dirección de la velocidad"),
+(64,74,"a) El tiempo necesario para que el cuerpo complete una vuelta completa","b) El tiempo necesario para que el cuerpo complete una vuelta completa","c) La rapidez angular del cuerpo en movimiento"),
+(65,75,"a) La aceleración que mantiene el cuerpo en movimiento en una trayectoria circular","b) La aceleración que mantiene el cuerpo en movimiento en una trayectoria circular","c) La aceleración que mantiene el cuerpo en movimiento en una trayectoria circular"),
+(66,76,"a) Es directamente proporcional a la masa del cuerpo","b) Es inversamente proporcional al radio de la trayectoria","c) Es directamente proporcional al cuadrado de la velocidad tangencial"),
+(67,77,"a) La frecuencia es el inverso del periodo","b) El periodo es el inverso de la frecuencia","c) El periodo y la frecuencia son lo mismo en un MCU"),
+(68,78,"a) Permanece constante","b) Aumenta linealmente con el tiempo","c) Disminuye cuadráticamente con el tiempo"),
+(69,79,"a) Aumenta si el radio aumenta","b) Disminuye si el radio aumenta","c) Permanece constante independientemente del radio"),
+(70,80,"a) Mantiene la dirección del movimiento del cuerpo","b) Asegura que el cuerpo se mueva con una velocidad constante","c) Es responsable de mantener al cuerpo en una trayectoria curvilínea"),
+(71,81,"a) La velocidad del cuerpo en dirección radial","b) La velocidad del cuerpo en dirección tangencial","c) La velocidad del cuerpo en dirección perpendicular al radio"),
+(72,82,"a) V=1.7885m/s T=14.025s","b) V=0.8942m/s ac=0.3998m/s2","c) V=2.6786m/s T=11.524s"),
+(73,83,"a) V=2.85m/s T=1.533N","b) V=3.15m/s T=2.723N","c) V=2.43m/s T=1.223N"),
+(74,84,"a) T1=1461.83N T2=9773.53N","b) T1=1409.83N T2=8375.23N","c) T1=1009.83N T2=7685.15N"),
+(75,85,"a) V=sqrt(RMg/m)","b) V=RM/m","c) V=sqrt(Rmg/M)"),
+(76,86,"a) R=2321.83m","b) R=3528.16m","c) R=2560.75m"),
+(77,87,"a) V=2.45m/s","b) V=5.58m/s","c) V=3.15m/s"),
+(78,88,"a) F=16.1N T=17.3N","b) F=14.3N T=15.28N","c) F=12.5N T=12.75N"),
+(79,89,"a) T=2.1529N ac=1.18m/s^2 V=0.667m/s","b) T=1.7340N ac=1.56m/s^2 V=1.68m/s","c) T=0.5284N ac=1.78m/s^2 V=0.667m/s"),
+(80,90,"a) N=715N","b) N=878N","c) N=901N"),
+(81,91,"a) ac=51.322m/s^2 f=1Hz T=Fc=359.3N T=1s","b) ac=43.372m/s^2 f=1Hz T=Fc=401.3N T=3s","c) ac=61.322m/s^2 f=3Hz T=Fc=337.8N T=1s"),
+(82,92,"a) V=1.7885m/s T=14.025s V=0.8942m/s ac=0.3998m/s2","b) V=2.6786m/s T=11.524s V=0.5932m  ac=1.5697m/s2", "c)V=1.3738m/s  T=10.369s   V=1.7531m/s ac=2.2345m/s2"),
+      
+
+
+
+
+
+
+
+-- Tema 4: Movimiento Circular Vertical
+(83,93,''),
+(84,94,''),
+(85,95,''),
+(86,96,''),
+(87,97,''),
+(88,98,''),
+(89,99,''),
+(90,100,''),
+(91,101,''),
+(92,102,''),
+(93,103,''),
+(94,104,''),
+(95,105,''),
+(96,106,''),
+(97,107,''),
+(98,108,''),
+(99,109,''),
+(100,110,''),
+(101,111,''),
+(102,112,''),
+(103,113,''),
+(104,114,''),
+(105,115,''),
+(106,116,''),
+(107,117,''),
+(108,118,''),
+(109,119,'');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Creación de Tabla para las Preguntas Física II
 CREATE TABLE RespuestasF2(
 		ID_PreguntaF2 INTEGER NOT NULL,
