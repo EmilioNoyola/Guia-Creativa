@@ -553,8 +553,288 @@ INSERT INTO PreguntasF1 VALUES(243,91,'¿Qué valor puede tomar el producto esca
 
 INSERT INTO PreguntasF1 VALUES(243,92,'¿Cuál es la relación entre el producto escalar y el ángulo entre dos vectores A y B? A) El producto escalar es directamente proporcional al ángulo entre los vectores. B) El producto escalar es inversamente proporcional al ángulo entre los vectores. --C) El producto escalar es igual al producto del módulo de los vectores A y B y el coseno del ángulo entre ellos. D) El producto escalar es igual al producto del módulo de los vectores A y B y el seno del ángulo entre ellos.');
 
+-- Parcial 3
+-- Tema 1: MRU
+INSERT INTO PreguntasF1 VALUES(341, 93, 'Elige el concepto de cinemática.
+A) Estudio de las fuerzas que actúan sobre los cuerpos en movimiento.
+B) Análisis de la energía asociada a los movimientos de los cuerpos.
+C) Estudio del espacio tridimensional y sus transformaciones.
+--D) Rama de la física que se encarga del estudio del movimiento de los cuerpos sin importar las causas que generan dicho movimiento.');
 
--- Tabla Respuestas de F1
+INSERT INTO PreguntasF1 VALUES(341, 94, 'Elija las características de la MRU.
+A) La trayectoria del móvil o partícula es siempre en línea recta sin retorno.
+--B) Se recorren distancias iguales en tiempos iguales.
+C) El movimiento puede ser acelerado o desacelerado.
+D) La dirección del movimiento varía a lo largo de la trayectoria.');
+
+INSERT INTO PreguntasF1 VALUES(341, 95, 'Si un cuerpo se mueve con rapidez constante V y describe una trayectoria circular cerrada, la distancia recorrida con respecto a su desplazamiento es:
+A) Desplazamiento = distancia recorrida al cuadrado.
+B) Distancia = 2 veces el radio de la trayectoria.
+C) La suma de vueltas es igual a la distancia.
+--D) Desplazamiento = 0, Distancia = suma de vueltas que da el cuerpo.');
+
+INSERT INTO PreguntasF1 VALUES(341, 96, '¿En qué condiciones de movimiento se dice que la distancia es la magnitud del desplazamiento?
+A) En el Movimiento Circular Uniforme.
+--B) En el Movimiento Rectilíneo Uniforme.
+C) En el Movimiento Armónico Simple.
+D) En el Movimiento Parabólico.');
+
+INSERT INTO PreguntasF1 VALUES(341, 97, 'La magnitud de la velocidad instantánea se llama:
+A) Velocidad Promedio.
+--B) Rapidez Instantánea.
+C) Rapidez Promedio.
+D) Aceleración Instantánea.');
+
+INSERT INTO PreguntasF1 VALUES(341, 98, 'En una trayectoria cerrada, la magnitud de desplazamiento es:
+A) Igual a la distancia recorrida.
+B) Menor a la distancia recorrida.
+C) Mayor a la distancia recorrida.
+--D) Cero.');
+
+INSERT INTO PreguntasF1 VALUES(341, 99, 'La pendiente de la recta tangente en un punto de la gráfica (X vs t), tiene la interpretación física de:
+A) Rapidez Promedio.
+--B) Velocidad Instantánea.
+C) Aceleración Instantánea.
+D) Desplazamiento.');
+
+INSERT INTO PreguntasF1 VALUES(341, 100, '¿Qué representa el área bajo la curva en una gráfica rapidez contra tiempo para un movimiento rectilíneo?
+A) Rapidez Promedio.
+B) Velocidad Instantánea.
+C) Distancia Recorrida.
+--D) Desplazamiento.');
+
+INSERT INTO PreguntasF1 VALUES(341, 101, '¿Qué representa la gráfica de posición contra tiempo en un MRU?
+A) Una parábola.
+B) Una hipérbola.
+--C) Una línea recta.
+D) Una curva exponencial.');
+
+INSERT INTO PreguntasF1 VALUES(341, 102, '¿Qué indica la pendiente de la gráfica de posición contra tiempo en un MRU?
+A) La aceleración del objeto.
+--B) La velocidad constante del objeto.
+C) La rapidez media del objeto.
+D) La distancia recorrida por el objeto.');
+
+INSERT INTO PreguntasF1 VALUES(341, 103, 'En un MRU, ¿cómo se calcula el desplazamiento total del objeto?
+A) Multiplicando la aceleración por el tiempo.
+B) Dividiendo la velocidad por el tiempo.
+--C) Multiplicando la velocidad por el tiempo.
+D) Restando la posición inicial de la posición final.');
+
+INSERT INTO PreguntasF1 VALUES(341, 104, '¿Cuál es la característica principal del MRU?
+A) Velocidad variable.
+B) Aceleración constante.
+--C) Velocidad constante.
+D) Aceleración variable.');
+
+INSERT INTO PreguntasF1 VALUES(341, 105, '¿Qué representa la gráfica de velocidad contra tiempo en un MRU?
+A) Una parábola.
+B) Una hipérbola.
+--C) Una línea recta.
+D) Una curva exponencial.');
+
+-- Tema 2 : MRUV
+
+INSERT INTO PreguntasF1 VALUES(342, 106, 'Si un objeto se mueve hacia el este y su velocidad va disminuyendo, ¿en qué dirección va la aceleración?
+A) Norte
+B) Sur
+--C) Oeste
+D) Este');
+
+INSERT INTO PreguntasF1 VALUES(342, 107, '¿Cuál de las siguientes situaciones es imposible en el M.R.U.V?
+A) Un cuerpo con velocidad variable y aceleración constante.
+B) Un cuerpo con velocidad constante y aceleración constante.
+--C) Un cuerpo con velocidad constante y aceleración variable.
+D) Un cuerpo con aceleración variable y velocidad variable.');
+
+INSERT INTO PreguntasF1 VALUES(342, 108, 'La caída libre es un ejemplo de movimiento:
+A) Movimiento Rectilíneo Uniforme.
+B) Movimiento Circular Uniforme.
+C) Movimiento Armónico Simple.
+--D) Movimiento Rectilíneo Uniformemente Acelerado.');
+
+INSERT INTO PreguntasF1 VALUES(342, 109, 'En el M.R.U.V la magnitud física diferente de cero que permanece constante es la:
+A) Velocidad.
+B) Distancia.
+C) Rapidez.
+--D) Aceleración.');
+
+INSERT INTO PreguntasF1 VALUES(342, 110, 'La distancia es una cantidad de naturaleza:
+A) Vectorial.
+--B) Escalar.
+C) Variable.
+D) Dimensional.');
+
+INSERT INTO PreguntasF1 VALUES(342, 111, 'Características del MRUV.
+A) Aceleración constante, Variación uniforme de la velocidad, Trayectoria rectilínea.
+B) Velocidad constante, Trayectoria curva, Aceleración variable.
+C) Velocidad variable, Aceleración variable, Trayectoria ondulante.
+--D) Aceleración constante, Variación uniforme de la velocidad, Trayectoria rectilínea.');
+
+INSERT INTO PreguntasF1 VALUES(342, 112, 'Si la magnitud del vector velocidad es constante, ¿dicha partícula puede estar acelerada?
+A) Sí, puede haber aceleración aunque la velocidad sea constante.
+B) Puede estar acelerada si su dirección cambia.
+--C) No hay aceleración, ya que aceleración es una medida del cambio de velocidad.
+D) Puede estar acelerada si hay una fuerza neta actuando sobre ella.');
+
+INSERT INTO PreguntasF1 VALUES(342, 113, 'Para un MRUA, la gráfica de velocidad contra tiempo, la pendiente de la línea recta representa:
+A) Distancia recorrida.
+B) Velocidad inicial.
+--C) Aceleración del cuerpo.
+D) Desplazamiento.');
+
+INSERT INTO PreguntasF1 VALUES(342, 114, '¿Cómo se calcula la velocidad final de un objeto en un MRUV?
+A) Suma de la velocidad inicial y el desplazamiento.
+B) Diferencia de la velocidad inicial y el desplazamiento.
+C) Suma de la velocidad inicial y la aceleración multiplicada por el tiempo.
+--D) Diferencia de la velocidad inicial y la aceleración multiplicada por el tiempo.');
+
+INSERT INTO PreguntasF1 VALUES(342, 115, 'En el MRUV, ¿qué relación existe entre la aceleración y el tiempo de movimiento?
+A) La aceleración es inversamente proporcional al tiempo de movimiento.
+--B) La aceleración es directamente proporcional al tiempo de movimiento.
+C) La aceleración es constante a lo largo del tiempo.
+D) La aceleración varía a lo largo del tiempo.');
+
+INSERT INTO PreguntasF1 VALUES(342, 116, '¿Cómo se calcula la distancia recorrida por un objeto en un MRUV?
+A) Multiplicando la velocidad inicial por el tiempo.
+B) Suma de la velocidad final y la aceleración.
+C) Dividiendo la aceleración por la velocidad.
+--D) Suma de la distancia inicial, la velocidad inicial multiplicada por el tiempo, y la aceleración por el tiempo al cuadrado.');
+
+INSERT INTO PreguntasF1 VALUES(342, 117, 'En el MRUV, si un objeto tiene una aceleración negativa, ¿qué sucede con su velocidad?
+--A) La velocidad disminuye.
+B) La velocidad aumenta.
+C) La velocidad permanece constante.
+D) La velocidad se vuelve cero.');
+
+INSERT INTO PreguntasF1 VALUES(342, 118, 'Si un objeto en MRUV tiene una velocidad inicial de 10 m/s, una aceleración de 2 m/s² y se mueve durante 5 segundos, ¿cuál es su velocidad final?
+A) 12 m/s
+B) 15 m/s
+C) 17 m/s
+--D) 20 m/s');
+
+INSERT INTO PreguntasF1 VALUES(342, 119, '¿Qué representa el área bajo la gráfica de velocidad contra tiempo en un MRUV?
+A) Velocidad inicial.
+B) Velocidad final.
+--C) Desplazamiento.
+D) Aceleración.');
+
+INSERT INTO PreguntasF1 VALUES(342, 120, 'En un MRUV, si un objeto tiene una aceleración constante y una velocidad inicial de 5 m/s, ¿qué sucede con su posición después de 3 segundos?
+A) La posición disminuye.
+B) La posición permanece constante.
+--C) La posición aumenta.
+D) La posición se vuelve cero.');
+
+INSERT INTO PreguntasF1 VALUES(342, 121, '¿Cómo se calcula el tiempo que toma un objeto en MRUV para llegar a una velocidad final específica?
+A) Dividiendo la velocidad inicial entre la aceleración.
+--B) Dividiendo la diferencia de velocidad entre la aceleración.
+C) Multiplicando la velocidad final por la aceleración.
+D) Multiplicando la velocidad inicial por la aceleración.');
+
+INSERT INTO PreguntasF1 VALUES(342, 122, '¿Qué sucede con la trayectoria de un objeto en MRUV si su aceleración es cero?
+A) El objeto se mueve en línea recta con velocidad constante.
+B) El objeto sigue una trayectoria curva.
+C) El objeto cambia de dirección constantemente.
+--D) El objeto permanece en reposo.');
+
+INSERT INTO PreguntasF1 VALUES(342, 123, 'Si un objeto se mueve en un MRUV con una velocidad inicial de 0 m/s y una aceleración constante de 4 m/s², ¿cuál es la posición del objeto después de 2 segundos?
+A) 4 m
+--B) 8 m
+C) 12 m
+D) 16 m');
+
+-- Tema3: Tiro parabolico
+
+INSERT INTO PreguntasF1 VALUES(343, 124, 'Un proyectil se lanza con un ángulo de tiro de 35° por encima de la horizontal. En el punto más alto de la trayectoria, su velocidad es 30m/s. ¿La velocidad inicial tenía una componente horizontal de?
+A) 30 m/s
+B) 30 m/s sen 35°
+--C) 30 m/s cos 35°
+D) 30 m/s tan 35°');
+
+INSERT INTO PreguntasF1 VALUES(343, 125, 'El alcance máximo en un tiro parabólico se obtiene cuando el ángulo de disparo es de:
+A) 30°
+B) 60°
+--C) 45°
+D) 90°');
+
+INSERT INTO PreguntasF1 VALUES(343, 126, 'El Movimiento parabólico puede interpretarse como la composición de dos movimientos, ¿cuáles son?
+A) M.R.U.V en el eje x, M.R.U en el eje y
+B) M.R.U en el eje x, M.R.U en el eje y
+C) M.R.U en el eje x, M.R.U.V en el eje z
+--D) M.R.U en el eje x, M.R.U.V en el eje y');
+
+INSERT INTO PreguntasF1 VALUES(343, 127, '¿En qué puntos de la trayectoria de un tiro parabólico, la velocidad de una partícula lanzada tendrá sus valores máximos y mínimos?
+--A) Máximo: al momento de impactar con el suelo, Mínimo: al momento de alcanzar su altura máxima.
+B) Máximo: al momento de alcanzar su altura máxima, Mínimo: al momento de impactar con el suelo.
+C) Mínimo: durante todo el recorrido, Máximo: al momento de impactar con el suelo.
+D) Máximo: en el punto medio de la trayectoria, Mínimo: en los extremos.');
+
+INSERT INTO PreguntasF1 VALUES(343, 128, 'Se lanza un balón de fútbol en trayectoria parabólica, ¿en qué punto la aceleración es perpendicular a la velocidad?
+--A) En el punto más alto de la trayectoria.
+B) En el punto de lanzamiento.
+C) Al momento de impactar con el suelo.
+D) Durante todo el recorrido.');
+
+INSERT INTO PreguntasF1 VALUES(343, 129, '¿Cuál es la fórmula para calcular el tiempo total de vuelo de un proyectil lanzado en trayectoria parabólica?
+A) t = v0^2 / g
+B) t = v0 * sin(θ) / g
+--C) t = 2 * v0 * sin(θ) / g
+D) t = v0 * cos(θ) / g');
+
+INSERT INTO PreguntasF1 VALUES(343, 130, '¿Cuál es la fórmula para calcular la altura máxima de un proyectil lanzado en trayectoria parabólica?
+--A) h = (v0^2 * sin(θ)^2) / (2 * g)
+B) h = (v0^2 * cos(θ)^2) / (2 * g)
+C) h = (v0 * sin(θ)) / g
+D) h = v0^2 / (2 * g)');
+
+INSERT INTO PreguntasF1 VALUES(343, 131, '¿Cómo se calcula la velocidad de un proyectil en el punto más alto de su trayectoria?
+--A) Es igual a la componente horizontal de la velocidad inicial.
+B) Es igual a la componente vertical de la velocidad inicial.
+C) Es igual a la suma de la componente horizontal y vertical de la velocidad inicial.
+D) Es igual a cero.');
+
+INSERT INTO PreguntasF1 VALUES(343, 132, 'En una trayectoria parabólica, ¿cuál es la dirección de la aceleración en cualquier punto?
+A) En la misma dirección que la velocidad.
+B) En dirección horizontal.
+C) En dirección vertical y constante.
+--D) En dirección vertical y siempre hacia abajo.');
+
+INSERT INTO PreguntasF1 VALUES(343, 133, 'Un proyectil se lanza con una velocidad inicial de 20 m/s a un ángulo de 45°. ¿Cuál es la componente vertical de la velocidad inicial?
+A) 20 m/s
+--B) 20 * sin(45°) m/s
+C) 20 * cos(45°) m/s
+D) Ninguna');
+
+INSERT INTO PreguntasF1 VALUES(343, 134, 'Si un proyectil se lanza con una velocidad inicial de 50 m/s a un ángulo de 30°, ¿cuál es la componente horizontal de la velocidad inicial?
+--A) 50 * cos(30°)
+B) 50 * sin(30°)
+C) 50
+D) 50 * tan(30°)');
+
+INSERT INTO PreguntasF1 VALUES(343, 135, '¿Cuál es el alcance máximo de un proyectil lanzado a un ángulo de 45°?
+A) cero
+B) infinito
+--C) se maximiza
+D) no se maximiza');
+
+INSERT INTO PreguntasF1 VALUES(343, 136, 'Si un proyectil se lanza con una velocidad inicial de 40 m/s a un ángulo de 60°, ¿cuál es la componente vertical de la velocidad inicial?
+A) 40 * cos(60°)
+--B) 40 * sin(60°)
+C) 40
+D) 40 * tan(60°)');
+
+INSERT INTO PreguntasF1 VALUES(343, 137, '¿En qué punto de la trayectoria de un proyectil se alcanza la velocidad máxima?
+A) Al principio
+--B) Justo antes de impactar en el suelo
+C) En el punto más alto de la trayectoria
+D) En la mitad del recorrido');
+
+INSERT INTO PreguntasF1 VALUES(343, 138, '¿Qué sucede con la velocidad vertical de un proyectil en el punto más alto de su trayectoria?
+A) Aumenta
+B) Disminuye
+C) Se mantiene constante
+--D) Es cero');
+
 CREATE TABLE RespuestasF1(
 	ID_PreguntaF1 INTEGER NOT NULL,
 	ID_RespuestasF1 INTEGER NOT NULL,

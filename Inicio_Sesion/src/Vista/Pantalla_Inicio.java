@@ -116,6 +116,9 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         if(frmLog == null){
             frmLog = new Pantalla_Login();
             frmLog.setVisible(true);
+           
+            this.dispose();
+            
         }
     }//GEN-LAST:event_btnLoginActionPerformed
 
@@ -123,6 +126,8 @@ public class Pantalla_Inicio extends javax.swing.JFrame {
         if(frmReg == null)
         frmReg = new Pantalla_Registro();
         frmReg.setVisible(true);
+        
+        this.dispose();
         
     }//GEN-LAST:event_btnRegistroActionPerformed
 

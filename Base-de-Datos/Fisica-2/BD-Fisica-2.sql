@@ -604,6 +604,7 @@ INSERT INTO PreguntasF2 VALUES (271,132,'¿Cómo se relaciona la fuerza gravitac
 a) Es inversamente proporcional a la distancia al cuadrado 
 b) Es directamente proporcional a la distancia 
 c) Es inversamente proporcional a la distancia');
+
 INSERT INTO PreguntasF2 VALUES (271,133,'Dos masas una de m1=500kg y la otra de m2=200kg se encuentran separadas por una distancia de r=0.4m ¿En qué posición entre ellas, debe colocarse una tercera masa m3 para que la fuerza total sobre ella sea de cero??
 a)r1=0.2450m    
 b)1.4035m           

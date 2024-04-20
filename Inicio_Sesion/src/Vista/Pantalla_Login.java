@@ -7,6 +7,7 @@ package Vista;
 import Modelos.Hash;
 import Modelos.SqlUsuarios;
 import Modelos.Usuarios;
+import static Vista.Pantalla_Inicio.frmLog;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -18,9 +19,7 @@ import javax.swing.JOptionPane;
  */
 public class Pantalla_Login extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Login
-     */
+    
     public Pantalla_Login() {
         initComponents();
     }
@@ -38,6 +37,7 @@ public class Pantalla_Login extends javax.swing.JFrame {
         btnLogin = new javax.swing.JButton();
         txtUsuario = new javax.swing.JTextField();
         txtContraseña = new javax.swing.JPasswordField();
+        btnRegistro = new javax.swing.JButton();
         Fondo_Login = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -50,7 +50,6 @@ public class Pantalla_Login extends javax.swing.JFrame {
         btnLogin.setBorder(null);
         btnLogin.setContentAreaFilled(false);
         btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnLogin.setPreferredSize(new java.awt.Dimension(281, 79));
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
@@ -60,8 +59,6 @@ public class Pantalla_Login extends javax.swing.JFrame {
 
         txtUsuario.setBackground(new java.awt.Color(255, 246, 254));
         txtUsuario.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        txtUsuario.setForeground(new java.awt.Color(204, 204, 204));
-        txtUsuario.setText("Ingresar su nombre usuario");
         txtUsuario.setBorder(null);
         txtUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,10 +69,25 @@ public class Pantalla_Login extends javax.swing.JFrame {
 
         txtContraseña.setBackground(new java.awt.Color(255, 246, 254));
         txtContraseña.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        txtContraseña.setForeground(new java.awt.Color(204, 204, 204));
-        txtContraseña.setText("jPasswordField1");
         txtContraseña.setBorder(null);
+        txtContraseña.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtContraseñaActionPerformed(evt);
+            }
+        });
         bg.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 450, 290, 30));
+
+        btnRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton-Registrate.png"))); // NOI18N
+        btnRegistro.setBorder(null);
+        btnRegistro.setContentAreaFilled(false);
+        btnRegistro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistro.setPreferredSize(new java.awt.Dimension(175, 47));
+        btnRegistro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegistroActionPerformed(evt);
+            }
+        });
+        bg.add(btnRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 40, -1, -1));
 
         Fondo_Login.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Fondo-3.png"))); // NOI18N
         bg.add(Fondo_Login, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, -1, -1));
@@ -84,7 +96,7 @@ public class Pantalla_Login extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(bg, javax.swing.GroupLayout.DEFAULT_SIZE, 1280, Short.MAX_VALUE)
+            .addComponent(bg, javax.swing.GroupLayout.DEFAULT_SIZE, 1287, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -92,6 +104,7 @@ public class Pantalla_Login extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
@@ -99,35 +112,54 @@ public class Pantalla_Login extends javax.swing.JFrame {
     }//GEN-LAST:event_txtUsuarioActionPerformed
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
+       
         SqlUsuarios modSql = new SqlUsuarios();
         Usuarios mod = new Usuarios();
 
         String pass = new String(txtContraseña.getPassword());
 
         if (!txtUsuario.getText().equals("") && !pass.equals("")) {
-            
+
             String nuevoPass = Hash.sha1(pass);
-            
+
             mod.setUsuario(txtUsuario.getText());
             mod.setPassword(nuevoPass);
 
             try {
-                if(modSql.login(mod)){
+                if (modSql.login(mod)) {
+                   
                     Pantalla_Inicio.frmLog = null;
+                    
                     this.dispose();
                     
                     
-                }else{
+                    
+                    Pantalla_Semestre frmSem = new Pantalla_Semestre();
+
+                    frmSem.setVisible(true);
+
+                } else {
                     JOptionPane.showMessageDialog(null, "Datos incorrectas");
                 }
-                
+
             } catch (SQLException ex) {
                 Logger.getLogger(Pantalla_Login.class.getName()).log(Level.SEVERE, null, ex);
             }
-        } else{
+        } else {
             JOptionPane.showMessageDialog(null, "Debe de ingresar sus datos");
         }
     }//GEN-LAST:event_btnLoginActionPerformed
+
+    private void txtContraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContraseñaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtContraseñaActionPerformed
+
+    private void btnRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroActionPerformed
+        Pantalla_Registro frmReg = new Pantalla_Registro();
+        frmReg.setVisible(true);
+        
+        this.setVisible(false);
+    }//GEN-LAST:event_btnRegistroActionPerformed
 
     /**
      * @param args the command line arguments
@@ -169,6 +201,7 @@ public class Pantalla_Login extends javax.swing.JFrame {
     private javax.swing.JLabel Fondo_Login;
     private javax.swing.JPanel bg;
     private javax.swing.JButton btnLogin;
+    private javax.swing.JButton btnRegistro;
     private javax.swing.JPasswordField txtContraseña;
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
