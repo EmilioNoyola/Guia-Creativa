@@ -325,7 +325,7 @@ c)9.8cm
 d)10.5cm
 ');
 INSERT INTO PreguntasCD VALUES (165,48,'x es inversamente proporcional al cuadrado de y. Cuando y=6, x=4. Hallar y cuando x=9
-a)-4 y 4
+a)-3 y 3
 b)3 y 4
 c)4 y 5
 d)4 y -4
@@ -348,7 +348,7 @@ b)3x^2 + 6x∆x + (∆x) ^4, ∆x ≠ 0
 c)5x^2 + 4x∆x + (∆x) ^3, ∆x ≠ 0
 d)x^2 + 5x∆x + (∆x) ^2, ∆x ≠ 0
 ');
-INSERT INTO PreguntasCD VALUES (165,52,'Sea f(x) = 3x²+x-5; a) f (-2)		b) f(0)		c) f (4) 		d) f (1/2)
+INSERT INTO PreguntasCD VALUES (165,52,'Sea f(x) = 3x²+x-5;Evalua en: a) f (-2)		b) f(0)		c) f (4) 		d) f (1/2)
 A) a) 5		b) -5 	c) 47 	d) -15/4
 B) a) 10	b) -3 	c) 47 	d) 15/4
 C) a) 5		b) -3 	c) 33 	d) -12/2
@@ -371,7 +371,6 @@ A)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 114lb
 	b) El peso de la astronauta disminuye aproximadamente 18lb 
 B)	a) Entonces a una altura de 100 millas ella pesa aproximadamente 124lb
 	b) El peso de la astronauta disminuye aproximadamente 28lb 
-
 C)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 147lb
 	b) El peso de la astronauta disminuye aproximadamente 32lb 
 D)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 94lb
@@ -386,19 +385,19 @@ b) Dominio: (-∞, -1) ∪ (-1, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, ∞) | Rango: (-∞,1]
 d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 57,'
+INSERT INTO PreguntasCD VALUES (166, 57,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2057.png?raw=true
 a) Dominio: (-4, ∞) | Rango: (0, ∞)
 b) Dominio: (-∞, -4) ∪ (-4, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, ∞) | Rango: (1, 4]
 d) Dominio: (-∞,0) ∪ (0, ∞) | Rango: (-∞, ∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 58,'
+INSERT INTO PreguntasCD VALUES (166, 58,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2058.png?raw=true
 a) Dominio: (-∞,0) ∪ (0, 3) ∪ (3, ∞) | Rango: (-∞,0)
 b) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞,0)
 c) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞, ∞)
 d) Dominio: (-∞, ∞) | Rango: (-∞,1)
 ');
-INSERT INTO PreguntasCD VALUES (166, 59,'
+INSERT INTO PreguntasCD VALUES (166, 59,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2059.png?raw=true
 a) Dominio: (-∞, ∞) | Rango: (-∞,0)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0) ∪ (0,1] | Rango: (-∞, ∞)
@@ -410,23 +409,23 @@ b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, 1] | Rango: [0,∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 61,'Calcula el dominio y rango de la funcion: f(x) = 1/8x²+5/4x+9/8; Respuesta:
+INSERT INTO PreguntasCD VALUES (166, 61,'Calcula el dominio y rango de la funcion: f(x) = 1/8x² + 5/4x + 9/8; Respuesta:
 a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, 1] | Rango: [0,∞)
 ');
 INSERT INTO PreguntasCD VALUES (166, 62,'f(x) = 2X+1, x < 0 & 2x+2, x ≥ 0  (a) f(-1)	(b) f(0)		(c) f(2)		(d) f (t^ 2+1) ; Respuesta:
-A)(a) -1 		(b) 2		(c) 6		(d) 2t^2+4
+A)(a) -1 		(b) 2		(c) 6		(d) 2t²+4
 Dominio: (-∞, ∞)
 Rango: (-∞,1) ∪ [2, ∞)
 B)(a) 0 		(b) 4		(c) 4		(d) 2t+4
 Dominio: (-∞, ∞)
 Rango: (-∞,2) ∪ [5, ∞)
-C)(a) -1 		(b) 2		(c) 1		(d) 2t^2+6
+C)(a) -1 		(b) 2		(c) 1		(d) 2t²+6
 Dominio: (-∞, ∞)
 Rango: (-∞,1) ∪ [1, ∞)
-D)(a) -2		(b) 5		(c) 8		(d) t^2
+D)(a) -2		(b) 5		(c) 8		(d) t²
 Dominio: (-∞, 0)
 Rango: (-1,1) ∪ [2, 5)
 ');
@@ -434,24 +433,24 @@ INSERT INTO PreguntasCD VALUES (166, 63,'f(x) = |x|+1, x<1 & -x+1, x≥1  (a) f(
 A)(a) 0 		(b) 0		(c) -4		(d) -b
 Dominio: (-∞, 5)
 Rango: (0,∞) ∪ [2, ∞)
-B)(a) 2 		(b) 1		(c) -5		(d) b^2
+B)(a) 2 		(b) 1		(c) -5		(d) b²
 Dominio: (-1, ∞)
 Rango: (-∞,1] ∪ [2, ∞)
-C)(a) 4 		(b) 0		(c) -2		(d) -b^2
+C)(a) 4 		(b) 0		(c) -2		(d) -b²
 Dominio: (-∞, ∞)
 Rango: (-∞,0] ∪ [1, ∞)
 D)(a) 0 		(b) 0		(c) -4		(d) -b
 Dominio: (-∞, 5)
 Rango: (0,∞) ∪ [2, ∞)
 '); 
-INSERT INTO PreguntasCD VALUES (166, 64,'Calcula el dominio y rango de la funcion: f(x) = 1/ (√x-3); Respuesta:
+INSERT INTO PreguntasCD VALUES (166, 64,'Calcula el dominio y rango de la funcion: f(x) = 1 / (√x-3); Respuesta:
 a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
 b) Dominio: (3, ∞)| Rango: (0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, 1] | Rango: [0,∞)
 ');
 INSERT INTO PreguntasCD VALUES (166, 65,'Calcula el dominio y rango de la funcion: f(x) = 8/x² +4; Respuesta:
-a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
+a) Dominio: (-∞, ∞)  Rango: [-2, ∞) 
 b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, ∞)| Rango: (0,2]
@@ -460,29 +459,29 @@ d) Dominio: (-∞, ∞)| Rango: (0,2]
 -- Preguntas Segundo Parcial Calculo diferencial.
 
 -- Tema 1 Limites 
-INSERT INTO PreguntasCD VALUES (261, 66,'
+INSERT INTO PreguntasCD VALUES (261, 66,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2066.png?raw=true
 a)1/3
 b)3
 c)2/3
 d)1
 ');
-INSERT INTO PreguntasCD VALUES (261, 67,'
+INSERT INTO PreguntasCD VALUES (261, 67,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2067.png?raw=true
 a)6/3
 b)8/2
 c)16/7
 d)5/7
 ');
-INSERT INTO PreguntasCD VALUES (261, 68,'
+INSERT INTO PreguntasCD VALUES (261, 68,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2068.png?raw=true
 a)-4/5
 b)4/10
 c)-4/10
 d)-1/5
 ');
-INSERT INTO PreguntasCD VALUES (261, 69,'
-a)√4-2
+INSERT INTO PreguntasCD VALUES (261, 69,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2069.png?raw=true
+a)√4 - 2
 b)√3
-c)√3-3
-d)√3 +1	
+c)√3 - 3
+d)√3 + 1	
 ');
 INSERT INTO PreguntasCD VALUES (261, 70,'lim┬(x→π/2)⁡(sen(x)); Respuesta:
 a)0
@@ -527,73 +526,73 @@ b)1/2
 c)-∞
 d)∞
 ');
-INSERT INTO PreguntasCD VALUES (261, 77,'lim┬(x→∞)⁡((x^4-3x³+2x-1)/x²-1); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 77,'lim┬(x→∞)⁡((x^4-3x³+2x-1) / (x²-1) ); Respuesta:
 a)2
 b)5
 c)3
 d)∞
 ');
-INSERT INTO PreguntasCD VALUES (261, 78,'
+INSERT INTO PreguntasCD VALUES (261, 78,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2078.png?raw=true
 a)5/10
 b)0
 c)6/4
 d)3
 ');
-INSERT INTO PreguntasCD VALUES (261, 79,'
+INSERT INTO PreguntasCD VALUES (261, 79,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2079.png?raw=true
 a)1
 b)0
 c)∞
 d)1/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 80,'
+INSERT INTO PreguntasCD VALUES (261, 80,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2080.png?raw=true
 a)∞
 b)1
 c)-1
 d)2
 ');
-INSERT INTO PreguntasCD VALUES (261, 81,'
+INSERT INTO PreguntasCD VALUES (261, 81,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2081.png?raw=true
 a)1/36
 b)-1/36
 c)-1/48
 d)1/48
 ');
-INSERT INTO PreguntasCD VALUES (261, 82,'
+INSERT INTO PreguntasCD VALUES (261, 82,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2082.png?raw=true
 a)1/2
 b)-1
 c)1
 d)0
 ');
-INSERT INTO PreguntasCD VALUES (261, 83,'
+INSERT INTO PreguntasCD VALUES (261, 83,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2083.png?raw=true
 a)-∞
 b)∞
 c)0
 d)1/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 84,'
+INSERT INTO PreguntasCD VALUES (261, 84,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2084.png?raw=true
 a)4/8
 b)2/3
 c)4/6
 d)-4/6
 ');
-INSERT INTO PreguntasCD VALUES (261, 85,'
+INSERT INTO PreguntasCD VALUES (261, 85,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2085.png?raw=true
 a)1/3
 b)8/3
 c)9/4
 d)-8/3
 ');
-INSERT INTO PreguntasCD VALUES (261, 86,'
+INSERT INTO PreguntasCD VALUES (261, 86,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2086.png?raw=true
 a)√8/2
 b)√6/3
 c)√4/2
 d)√2/4
 ');
-INSERT INTO PreguntasCD VALUES (261, 87,'
+INSERT INTO PreguntasCD VALUES (261, 87,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2087.png?raw=true
 a)3
 b)0
 c)∞
 d)-1
 ');
-INSERT INTO PreguntasCD VALUES (261, 88,'
+INSERT INTO PreguntasCD VALUES (261, 88,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2088.png?raw=true
 a)1/3
 b)2
 c)∞
@@ -605,7 +604,7 @@ b)4
 c)2
 d)3
 ');
-INSERT INTO PreguntasCD VALUES (261, 90,'
+INSERT INTO PreguntasCD VALUES (261, 90,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2090.png?raw=true
 a)e^-2
 b)1/2e
 c)e
@@ -642,19 +641,19 @@ b)1/3 / (∛(x+3))
 c)1/3 / (∛(x-3)^2)
 d)1/3 / (∛(x-3)^2)
 ');
-INSERT INTO PreguntasCD VALUES (262, 96,'
+INSERT INTO PreguntasCD VALUES (262, 96,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2096.png?raw=true
 a)a/(x(a²+x²))
 b)-a²/(x(a²+x))
 c)a²/(x(a²+x²))
 d)-a²/(x²(√(a²+x²)))
 ');
-INSERT INTO PreguntasCD VALUES (262, 97,'Deriva por definición la función: y=x²(√3-4x) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 97,'Deriva por definición la función: y= x²(√3-4x) ; Respuesta:
 a)6x-10x²/(√3-2x)
 b)6x+10x²/(√3+4x)
 c)6x+10x/(√3+4x)
 d)6x-10x²/(√3-4x)
 ');
-INSERT INTO PreguntasCD VALUES (262, 98,'Halle la primera derivada parcial con respecto a x de sea y=(ax^n -c/ax^n +c)^m; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 98,'Halle la primera derivada parcial con respecto a x de sea y=(ax^n -c / ax^n +c)^m; Respuesta:
 a)macn(x^n-1)(ac^x -c)^m / (a^xn +c)^n+1
 b)2acn(x^n-1)(ax-n)^m / (a^xn +c)^n+1
 c)2acmn(x^n-1)(ax^n -c)^m-1 / (ax^n +c)^m+1
@@ -678,7 +677,7 @@ b)b/6(∛ba+x)²
 c)b/2(∛bx+b)²
 d)b/6(√bx+a)
 ');
-INSERT INTO PreguntasCD VALUES (262, 102,'
+INSERT INTO PreguntasCD VALUES (262, 102,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20102.png?raw=true
 a)a²-x²-x/ (√(a²-x²)) (a+x)
 b)a²-x²+ax/ (√(a²-x²)) (a-x)
 c)x²-a²+ax/ (√(x²-a²)) (x-a)
@@ -714,7 +713,7 @@ b)5
 c)2
 d)1/3
 ');
-INSERT INTO PreguntasCD VALUES (262, 108,'
+INSERT INTO PreguntasCD VALUES (262, 108,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20108.png?raw=true
 a)10x+5cosx
 b)10x-10senx
 c)18x+5senx
@@ -756,7 +755,7 @@ b)k=1
 c)k=3
 d)k=1/3
 ');
-INSERT INTO PreguntasCD VALUES (262, 115,'Deriva y=4/(√secx); Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 115,'Deriva y= 4/(√secx); Respuesta:
 a)2tgx/(√cscx)
 b)-2tgx/(√cscx)
 c)-2tgx/(√secx)
@@ -774,11 +773,12 @@ b)(nsen)^n-1 xsen(n+1)x
 c)(ncos)^n-2 xcos(n+1)x
 d)(narcsen)^n-2 xsen(n+1)x
 ');
-INSERT INTO PreguntasCD VALUES (262, 118,'Deriva y=arc sec 1/x; Respuesta:
-a)-1/(√1-x²)
-b)1/(√1/x²)
-c)-1/(√1-x)
-d)-x/(√1-x)
+INSERT INTO PreguntasCD VALUES (262, 118,'Deriva y= arcsec 1/x; Respuesta:
+a)-1 / √(1-x²)
+b)1 / -√(1-x²)
+c)1 / √(1-x²)
+d)-1 / -√(1-x²)
+
 ');
 INSERT INTO PreguntasCD VALUES (262, 119,'Deriva y=xarcsen2x; Respuesta:
 a)arcsen2x+ 2x/(√1-4x²)
@@ -786,7 +786,7 @@ b)arccos4x+ 2x/(√1+4x²)
 c)arccos2x+ x/(√1+4x)
 d)arcsenx+ 2x/(√1+4x)
 ');
-INSERT INTO PreguntasCD VALUES (262, 120,'Deriva y=1/3x³arctgx+ 1/6ln(x²+1)- 1/6x²; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 120,'
 a)xarctgx²
 b)x²arctgx
 c)2xarctgx²
@@ -816,8 +816,11 @@ b)1/√(x-3) / (x-3)
 c)1/√(x-3) (x-3)
 d)1/√(x-3)/ (x+3)
 ');
-INSERT INTO PreguntasCD VALUES (262, 125,'
-	
+INSERT INTO PreguntasCD VALUES (262, 125,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20125.png?raw=true
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/a%20125.png?raw=true
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/b%20125.png?raw=true
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/c%20125.png?raw=true
+https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/d%20125.png?raw=true+
 ');
 INSERT INTO PreguntasCD VALUES (262, 126,'Deriva y=arcsen(sen(senθ)); Respuesta:
 a)arccosθ
@@ -851,19 +854,19 @@ b)5x^4-8x-26x²-7x+56
 c)4x^6-4x³+13x²-5x+67
 d)7x^6-4x³-13x²-4-67
 ');
-INSERT INTO PreguntasCD VALUES (262, 132,'
+INSERT INTO PreguntasCD VALUES (262, 132,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20132.png?raw=true
 a)2csc(3-2x)²
 b)cosx/cotx
 c)senx arccot²x
 d)senx/arccot²x
 ');
-INSERT INTO PreguntasCD VALUES (262, 133,'
+INSERT INTO PreguntasCD VALUES (262, 133,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20133.png?raw=true
 a)(2x²-8x+1)/(x-2)²
 b)(x²-8x+1)(x-2)
 c)(x²-8x+1)(x-2)²
 d)(2x²+8x-1)/(x+2)²
 ');
-INSERT INTO PreguntasCD VALUES (262, 134,'
+INSERT INTO PreguntasCD VALUES (262, 134,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20134.png?raw=true
 a)(x²-8x+1)(x-2)²
 b)(2x+x³+x²+9)/(x²+1)
 c)(2x+x³+x²+9)(x²+1)
