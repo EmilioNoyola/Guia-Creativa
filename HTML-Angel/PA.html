@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentacion Guia Creativa</title>
+
+    <style>
+        body {
+            background-image: url("Img/nose1.jpg");
+            background-repeat: no-repeat;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            filter: brightness(80%);
+            background-size: cover;
+           
+        }
+
+        header {
+            background-color: rgb(6, 27, 88);
+            color: whitesmoke;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 60px;
+            margin-right: 15px;
+        }
+
+        header nav {
+            flex-grow: 1;
+            text-align: right;
+        }
+
+        header a {
+            color: whitesmoke;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #3498db;
+            border: 2px solid #2980b9;
+            transition: all 0.3s ease;
+            font-size: 18px;
+        }
+
+        header a:hover {
+            background-color: #2980b9;
+            border-color: #1f6690;
+        }
+
+        div {
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .primero {
+            background-color: rgba(0, 0, 0, 0.856);
+            color: #fff;
+        }
+
+        .segundo {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .tercero {
+            background-color: #9b59b6;
+            color: #fff;
+        }
+
+        h2 {
+            margin: 0 0 20px 0;
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        p {
+            margin: 0 0 20px 0;
+            font-size: 22px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-left: 20px;
+            object-fit: cover; 
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            filter: brightness(100%);
+        }
+
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <img src="Img/logo.png" alt="Logo de Guía Creativa"> Guía Creativa
+        </h1>
+        <nav>
+            <a href="#problematica">Problemática</a>
+            <a href="#objetivos">Objetivos</a>
+            <a href="#propuesta">Propuesta Solución</a>
+        </nav>
+    </header>
+
+    <div class="parallax primero" style="background-image: url('Img/Objetivo.webp');">
+        <div class="content">
+            <h2>Problemática</h2>
+            <p>La desercion escolar y el alto indice de reprobacion es una clara problematica en el CecyT9, Segun nuestro estudio de mercado la mayoria de los alumnos no tienen los materiales suficientes para estudiar frente a un examen.</p>
+        </div>
+    </div>
+
+    <div id="objetivos" class="parallax segundo" style="background-image: url('Img/Problematica.webp');">
+        <div class="content">
+            <h2>Objetivos</h2>
+            <p>Mejorar el rendimiento académico de los estudiantes del CecyT9, nuestro programa garantiza un contenido relevante y de calidad ademas de que sera muy accesible para todos los alumnos. Implementando un sistema de seguimiento y retroalimentación.</p>
+        </div>
+    </div>
+
+    <div id="propuesta" class="parallax tercero" style="background-image: url('Img/Objetivos.webp');">
+        <div class="content">
+            <h2>Propuesta Solución</h2>
+            <p>Automatización de sesiones de estudio mediante examenes de simulacion diseñados al nivel de exigencia del CecyT9, con un seguimiento del progreso y retroalimentación. Y una amplia gama de recursos y actividades centradas en la práctica y la resolución de problemas.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Guía Creativa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        
+        // Obtener todos los enlaces del menú de navegación
+        const navLinks = document.querySelectorAll('header nav a');
+
+        // Manejar el clic en cada enlace
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                // Prevenir el comportamiento predeterminado del enlace
+                event.preventDefault();
+
+                // Obtener el ID de la sección a la que se desplazará
+                const targetId = this.getAttribute('href').substring(1);
+
+                // Obtener la posición de la sección de destino
+                const targetSection = document.getElementById(targetId);
+                const targetOffset = targetSection.offsetTop;
+
+                // Desplazamiento suave a la sección de destino
+                window.scrollTo({
+                    top: targetOffset,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+
+    <script>
+        // Obtener todos los enlaces del menú de navegación
+        const navLinks = document.querySelectorAll('header nav a');
+
+        // Manejar el clic en cada enlace
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                // Prevenir el comportamiento predeterminado del enlace
+                event.preventDefault();
+
+                // Obtener el ID de la sección a la que se desplazará
+                const targetId = this.getAttribute('href').substring(1);
+
+                // Obtener la posición de la sección de destino
+                const targetSection = document.getElementById(targetId);
+                const targetOffset = targetSection.offsetTop;
+
+                // Desplazamiento suave a la sección de destino
+                window.scrollTo({
+                    top: targetOffset,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

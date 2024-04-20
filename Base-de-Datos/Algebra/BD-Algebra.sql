@@ -38,6 +38,19 @@ CREATE TABLE PreguntasA(
 		FOREIGN KEY(ID_Tema)
 		REFERENCES Temas(ID_Tema)
 		);
+		
+-- Creación de Tabla para los incisos Álgebra.
+CREATE TABLE Incisos_A( 
+		ID_PreguntaA INTEGER NOT NULL,
+		ID_Incisos_A INTEGER NOT NULL,
+		Inciso_A VARCHAR(300) NOT NULL,
+		Inciso_B VARCHAR(300) NOT NULL,
+		Inciso_C VARCHAR(300) NOT NULL,
+		Inciso_D VARCHAR(300) NOT NULL,
+		PRIMARY KEY(ID_Incisos_A),
+		FOREIGN KEY(ID_PreguntaA)
+		REFERENCES PreguntasA(ID_PreguntaA)
+		);
 
 -- Preguntas Primer Parcial Álgebra.
 
@@ -54,26 +67,50 @@ INSERT INTO PreguntasA VALUES (111,09,' a) b) c)');
 INSERT INTO PreguntasA VALUES (111,10,' a) b) c)');
 
 -- Tema 2 Razones y Proporciones
-INSERT INTO PreguntasA VALUES (112,11,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,12,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,13,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,14,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,15,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,16,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,17,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,18,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,19,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,20,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,21,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,22,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,23,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,24,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,25,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,26,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,27,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,28,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,29,' a) b) c)');
-INSERT INTO PreguntasA VALUES (112,30,' a) b) c)');
+INSERT INTO PreguntasA VALUES 
+(112,11,'En una convención de ciencias, se determinó que la audiencia en una de las conferencias estaba constituida a razón de 5 matemáticos por cada 7 físicos y 2 matemáticos por cada químico. Si en la conferencia había 406 personas en total, ¿cuántos asistentes había de cada grupo?'),
+(112,12,'Tras coleccionar 770 tazos, tres niños se los repartieron de tal forma que las cantidades recibidas guardaran la misma proporción que sus edades; cada vez que Alfonso se quedaba con 4 Beto tomaba 3, y por cada 6 que recibía Alfonso, Coquito tomaba 7. ¿Cuántas tazos se quedó cada niño?'),
+(112,13,'Para alfombrar una biblioteca se usaron 15 rollos de alfombra de 1.2m de ancho por 40cm de largo. ¿Cuántos rollos se habrían usado si el rollo midiera 2m de ancho por 30cm de largo?'),
+(112,14,''),
+(112,15,''),
+(112,16,''),
+(112,17,''),
+(112,18,''),
+(112,19,''),
+(112,20,''),
+(112,21,''),
+(112,22,''),
+(112,23,''),
+(112,24,''),
+(112,25,''),
+(112,26,''),
+(112,27,''),
+(112,28,''),
+(112,29,''),
+(112,30,'');
+
+INSERT INTO Incisos_A VALUES 
+(11, 21, "a) 140 matemáticos, 196 físicos, 70 químicos", "b) 196 matemáticos, 70 físicos, 140 químicos.", "c) 70 matemáticos, 140 físicos, 196 químicos.", "d) 150 matemáticos, 196 físicos, 70 químicos."),
+(12, 22, "a) 308 tazos para Alfonso, 198 para Beto, 264 para Coquito", "b) 198 tazos para Alfonso, 308 para Beto, 264 para Coquito", "c) 264 tazos para Alfonso, 198 para Beto, 308 para Coquito", "d) 264 tazos para Alfonso, 308 para Beto, 198 para Coquito"),
+(13, 23, "a) Fosfato de magnesio", "b) Magnesio fosfato", "c) Fosfuro de magnesio", "d) Difosfato de magnesio"),
+(14, 24, "a) Hidróxido de escandio", "b) Escandio hidróxido", "c) Hidroxoscandio", "d) Escandiuro de hidrógeno"),
+(15, 25, "a) Ácido telúrico", "b) Telurito de hidrógeno", "c) Hidróxido de telurio", "d) Telururo de hidrógeno"),
+(16, 26, "a) Óxido de ytrio", "b) Trióxido de itrio", "c) Óxido de yodo", "d) Oxígeno de ytrio"),
+(17, 27, "a) Sulfato de indio", "b) Sulfito de indio", "c) Trióxido de indio", "d) Sulfuroso de indio"),
+(18, 28, "a) Bicarbonato de níquel", "b) Carbonato de níquel", "c) Hidróxido de níquel", "d) Hidrogenoníquel carbonoso"),
+(19, 29, "a) Fluoruro de hidrógeno", "b) Ácido fluorhídrico", "c) Hidruro de flúor", "d) Fluorato de hidrógeno"),
+(20, 30, "a) Dihidruro de mercurio", "b) Mercurio dihidruroso", "c) Hidrógeno de mercurio", "d) Hidruro de mercurio"),
+(21, 31, "a) Dióxido de yodo", "b) Pentóxido de yodo", "c) Yoduro de dioxígeno", "d) Anhídrido peryódico"),
+(22, 32, "a) Rubidio bromuro", "b) Bromuro de rubidio", "c) Rubidio bromanuro", "d) Bromuro de rutenio"),
+(23, 33, "a) Fosfato de magnesio", "b) Magnesio fosfato", "c) Fosfuro de magnesio", "d) Difosfato de magnesio"),
+(24, 34, "a) Hidróxido de escandio", "b) Escandio hidróxido", "c) Hidroxoscandio", "d) Escandiuro de hidrógeno"),
+(25, 35, "a) Ácido telúrico", "b) Telurito de hidrógeno", "c) Hidróxido de telurio", "d) Telururo de hidrógeno"),
+(26, 36, "a) Óxido de ytrio", "b) Trióxido de itrio", "c) Óxido de yodo", "d) Oxígeno de ytrio"),
+(27, 37, "a) Sulfato de indio", "b) Sulfito de indio", "c) Trióxido de indio", "d) Sulfuroso de indio"),
+(28, 38, "a) Bicarbonato de níquel", "b) Carbonato de níquel", "c) Hidróxido de níquel", "d) Hidrogenoníquel carbonoso"),
+(29, 39, "a) Fluoruro de hidrógeno", "b) Ácido fluorhídrico", "c) Hidruro de flúor", "d) Fluorato de hidrógeno"),
+(30, 40, "a) Dihidruro de mercurio", "b) Mercurio dihidruroso", "c) Hidrógeno de mercurio", "d) Hidruro de mercurio");
+
 
 -- Tema 3 Leyes de los Exponentes
 INSERT INTO PreguntasA VALUES (113,31,' a) b) c)');
@@ -328,26 +365,27 @@ INSERT INTO RespuestasA VALUES (09,090,'c');
 INSERT INTO RespuestasA VALUES (10,100,'a');
 
 -- Tema 2 Razones y Proporciones
-INSERT INTO RespuestasA VALUES (11,110,'a');
-INSERT INTO RespuestasA VALUES (12,120,'C');
-INSERT INTO RespuestasA VALUES (13,130,'b');
-INSERT INTO RespuestasA VALUES (14,140,'b'); 
-INSERT INTO RespuestasA VALUES (15,150,'b'); 
-INSERT INTO RespuestasA VALUES (16,160,'a'); 
-INSERT INTO RespuestasA VALUES (17,170,'c'); 
-INSERT INTO RespuestasA VALUES (18,180,'a');
-INSERT INTO RespuestasA VALUES (19,190,'c');
-INSERT INTO RespuestasA VALUES (20,200,'a');
-INSERT INTO RespuestasA VALUES (21,210,'a');
-INSERT INTO RespuestasA VALUES (22,220,'C');
-INSERT INTO RespuestasA VALUES (23,230,'b');
-INSERT INTO RespuestasA VALUES (24,240,'b'); 
-INSERT INTO RespuestasA VALUES (25,250,'b'); 
-INSERT INTO RespuestasA VALUES (26,260,'a'); 
-INSERT INTO RespuestasA VALUES (27,270,'c'); 
-INSERT INTO RespuestasA VALUES (28,280,'a');
-INSERT INTO RespuestasA VALUES (29,290,'c');
-INSERT INTO RespuestasA VALUES (30,300,'a');
+INSERT INTO RespuestasA VALUES 
+(11,110,'a'),
+(12,120,'C'),
+(13,130,'b'),
+(14,140,'b'),
+(15,150,'b'),
+(16,160,'a'),
+(17,170,'c'), 
+(18,180,'a'),
+(19,190,'c'),
+(20,200,'a'),
+(21,210,'a'),
+(22,220,'C'),
+(23,230,'b'),
+(24,240,'b'),
+(25,250,'b'),
+(26,260,'a'),
+(27,270,'c'), 
+(28,280,'a'),
+(29,290,'c'),
+(30,300,'a');
 
 -- Tema 3 Leyes de los Exponentes
 INSERT INTO RespuestasA VALUES (31,310,'a');
