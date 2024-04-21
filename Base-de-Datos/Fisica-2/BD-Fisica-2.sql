@@ -604,7 +604,6 @@ INSERT INTO PreguntasF2 VALUES (271,132,'¿Cómo se relaciona la fuerza gravitac
 a) Es inversamente proporcional a la distancia al cuadrado 
 b) Es directamente proporcional a la distancia 
 c) Es inversamente proporcional a la distancia');
-
 INSERT INTO PreguntasF2 VALUES (271,133,'Dos masas una de m1=500kg y la otra de m2=200kg se encuentran separadas por una distancia de r=0.4m ¿En qué posición entre ellas, debe colocarse una tercera masa m3 para que la fuerza total sobre ella sea de cero??
 a)r1=0.2450m    
 b)1.4035m           
@@ -1145,6 +1144,17 @@ a) b) c)');
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 -- Creacion de Tablal para los incisos Física 2
 
 CREATE TABLE Incisos_F2( 
@@ -1252,9 +1262,7 @@ INSERT INTO Incisos_F2 VALUES
 (82,92,"a) V=1.7885m/s T=14.025s V=0.8942m/s ac=0.3998m/s2","b) V=2.6786m/s T=11.524s V=0.5932m  ac=1.5697m/s2", "c)V=1.3738m/s  T=10.369s   V=1.7531m/s ac=2.2345m/s2"),
       
 
-
 -- Tema 4: Movimiento Circular Vertical
-
 (83,93,"a)Cuerpo de masa m atado a una cuerda de longitud R que realiza trayectorias circulares verticales.","b)Existen dos velocidades tangenciales para este tipo de movimiento, en la parte superior se tiene a V1 y en la parte inferior se tiene a V2.","c)Existen dos velocidades NO tangenciales para este tipo de movimiento, en la parte superior se tiene a V1 y en la parte inferior se tiene a V2."),
 (84,94,"a) Se dirigen al centro de la trayectoria.","b) La Fuerza Centrípeta se dirige hacia la Aceleración Centrípeta y viceversa","c) No se dirigen a ningún lado "),
 (85,95,"a)La tensión de la cuerda T1 en la parte superior.","b)La tensión de la cuerda T2 en la parte inferior.","c)Las dos tensiones (Fc=T1 en la parte superior y Fc=T2 en la parte inferior). "),
@@ -1282,6 +1290,88 @@ INSERT INTO Incisos_F2 VALUES
 (107,117,"a)V=1.174m/s  T=42.86N  T=58.7N","b)V=2.971m/s  T=73.56N  T=97.1N","c)V=3.351m/s  T=113.66N  T=161.8N "),
 (108,118,"a) T=13.86N   T=13.86N","b)T=14.37N   T=14.37N","c)T=14.15N   T=15.17N "),
 (109,119,"a)w=1.967 rad/s   V=5.9879m/s","b)w=2.045 rad/s   V=6.8971m/s","c)w=1.004 rad/s   V=5.1932m/s");
+
+
+
+
+
+
+-- Incisos Parcial 2
+-- Tema 1 Ley de la Gravitación Universal
+(110,120 "a) Isaac Newton", "b) Albert Einstein", "c) Galileo Galilei"),
+(111,121 "a) F=(Gm1m2)/r^2", "b) F=ma", "c) F=k((q1q2)/r^2))"),
+(112,122 "a) La constante gravitacional universal", "b) La aceleración debida a la gravedad", "c) La masa del objeto"),
+(113,123 "a) La velocidad del objeto", "b) La masa de un objeto puntual", "c) La distancia entre los objetos"),
+(114,124 "a) m/s^2", "b) Nm^2/kg^2", "c) kgm/s^2"),
+(115,125"a) La fuerza gravitacional se duplica.", "b) La fuerza gravitacional se reduce a la mitad.", "c) La fuerza gravitacional se cuadruplica."),
+(116,126 "a) La fuerza gravitacional disminuye.", "b) La fuerza gravitacional aumenta.", "c) La fuerza gravitacional permanece constante."),
+(117,127 "a) Es directamente proporcional a la distancia al cuadrado.", "b) Es inversamente proporcional a la distancia al cuadrado.", "c) No hay relación entre la fuerza gravitacional y la distancia."),
+(118,128 "a) La fuerza gravitacional aumenta.", "b) La fuerza gravitacional disminuye.", "c) La fuerza gravitacional permanece constante."),
+(119,129 "a) Es inversamente proporcional a la masa de un cuerpo.", "b) Es directamente proporcional a la masa de un cuerpo.", "c) No hay relación entre la fuerza gravitacional y la masa."),
+(120,130 "a) La fuerza gravitacional se duplica.", "b) La fuerza gravitacional se reduce a la mitad.", "c) La fuerza gravitacional se cuadruplica."),
+(121,131 "a) No afecta a la fuerza gravitacional.", "b) Cuanto mayor es la distancia, mayor es la fuerza gravitacional.", "c) Cuanto mayor es la distancia, menor es la fuerza gravitacional."),
+(122,132 "a) Únicamente en sistemas planetarios.", "b) En cualquier sistema donde haya interacción gravitacional entre dos masas.", "c) Solo en la Tierra."),
+(123,133 "a) La atracción electrostática entre los cuerpos.", "b) La fuerza que mantiene unidos los átomos de un cuerpo.", "c) La fuerza de atracción entre dos masas debida a su masa y la distancia entre ellas."),
+(124,134 "a) 9.81m/s^2", "b) 6.67x10^-11 m^2/kg^2", "c) 1.602×10^-19 C"),
+(125,135 "a) 1.334×10^-8N", "b) 1.334×10^-10N", "c) 1.334×10^-11N"),
+(126,136 "a) Se triplica.", "b) Se reduce a la tercera parte.", "c) Se reduce a un tercio."),
+(127,137 "a) Peso", "b) Masa", "c) Aceleración"),
+(128,138 "a) Primera ley de Newton", "b) Segunda ley de Newton", "c) Ley de la gravitación universal"),
+(129,139 "a) Seis veces mayor", "b) Se mantiene constante", "c) Se reduce a la tercera parte"),
+(130,140 "a) Se duplica", "b) Se cuadruplica", "c) Se reduce a la mitad"),
+(131,141 "a) La aumentaría", "b) La disminuiría", "c) No tendría efecto"),
+(132,142"a) Es inversamente proporcional a la distancia al cuadrado", "b) Es directamente proporcional a la distancia", "c) Es inversamente proporcional a la distancia"),
+(133,143 "a) r1=0.2450m", "b) 1.4035m", "c) 2.0015m"),
+(134,144 "a) m1=8kg, m2=6kg", "b) m1=3kg, m2=2kg", "c) m1=5kg, m2=1kg"),
+(135,145 "a) Fr=5.780x10^-9N @=25°", "b) Fr=3.560x10^-10N @=55°", "c) Fr=4.620x10^-8N @=30°"),
+(136,146 "a) Fr=7.4203x10^-9N @=58.6°", "b) Fr=9.783x10^-10N @=65.5°", "c) Fr=3.5006x10^-8N @=55.2°"),
+(137,147 "a) M=8.5158x10^12kg", "b) M=6.0153x10^24kg", "c) M=5.9853x10^22kg"),
+(138,148 "a) M=1.9019x10^27kg", "b) M=3.3817x10^21kg", "c) M=2.9019x10^12kg"),
+(139,149 "a) T=1.019155 años", "b) T=5.919155 años", "c) T=0.017144 años"),
+(140,150"a) g=G(R/M^2)", "b) g=M*(G/R^2)", "c) g=G*(M/R^2)"),
+(141,151 "a) Vluna=(GM/R)^2", "b) Vluna=sqrt(GM/R)", "c) Vluna=sqrt(GR/M)"),
+(142,152 "a) a1=0.64m/s^2, V1=0.8m/s, a2=0.828m/s^2, V2=1.037m/s", "b) a1=1.45m/s^2, V1=1.2m/s, a2=0.905m/s^2, V2=1.306m/s", "c) a1=1.94m/s^2, V1=0.15m/s, a2=2.728m/s^2, V2=2.048m/s"),
+(143,153 "a) g=1.8436x10^11 m/s^2", "b) g=2.3236x10^12 m/s^2", "c) g=1.3206x10^12 m/s^2"),
+(144,154 "a) FG =0.15x10^-6N, a=0.79x10-5 m/s^2", "b) FG =2.08x10^-11N, a=2.08x10-9 m/s^2", "c) FG =3.56x10^-12N, a=3.15x10-11 m/s^2"),
+(145,155 "a) FG=15.7937x10^-9N, 115°", "b) FG =3.5687x10^-11N, 51°", "c) FG =6.4377x10^-12N, 91°"),
+(146,156 "a) Fr=3.728x10^-6N, 288.42°", "b) Fr=5.892x10^-8 N, 336.62°", "c) Fr=2.712x10^-2 N, 156.74°"),
+(147,157 "a) Fr=2.7632x10^-7N, 195.43°", "b) Fr=1.0632x10-5N, 147.29°", "c) Fr=1.9532x10-4 N, 133.47°"),
+(148,158 "a) M=1.978X10^25 kg", "b) M=2.567X10^12kg", "c) M=1.223X10^32 kg"),
+(149,159 "a) g=0.33m/s^2", "b) g=21.02m/s^2", "c) g=13.05m/s^2"),
+(150,160 "a) M=1.21x10^30 kg", "b) M=1.93x10^21kg", "c) M=2.25x10^30 kg");
+
+
+-- Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
+
+(151,161),
+(152,162),
+(153,163),
+(154,164),
+(155,165),
+(156,166),
+(157,167),
+(158,168),
+(159,169),
+(160,170),
+(161,171),
+(162,172),
+(163,173),
+(164,174),
+(165,175),
+(166,176),
+(167,177),
+(168,178),
+(169,179),
+(170,180),
+(171,181),
+(172,182),
+(173,183),
+(174,184),
+(175,185),
+(176,186);
+
+
+-- Tema 3 POTENCIA MECÁNICA
 
 
 
@@ -1406,6 +1496,7 @@ INSERT INTO RespuestasF2 VALUES (79,790,'c');
 INSERT INTO RespuestasF2 VALUES (80,800,'b');
 INSERT INTO RespuestasF2 VALUES (81,810,'a');
 INSERT INTO RespuestasF2 VALUES (82,820,'a');
+
 -- Tema 3: Movimiento Circular Vertical
 INSERT INTO RespuestasF2 VALUES (83,830,'c');
 INSERT INTO RespuestasF2 VALUES (84,840,'a');
