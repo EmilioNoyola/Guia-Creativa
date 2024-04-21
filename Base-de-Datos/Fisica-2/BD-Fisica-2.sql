@@ -69,110 +69,32 @@ INSERT INTO PreguntasF2 VALUES (171,24,'Una esfera uniforme sólida de 45.0 kg, 
 
 -- Tema 2: Leyes de Newton con Fricción
 
-INSERT INTO PreguntasF2 VALUES (172,25,'Hace referencia al concepto de Dinámica: 
-a) El estudio de los movimientos sin considerar las causas. 
-b) El estudio de las fuerzas que causan los movimientos. 
-c) El estudio de la relación entre la masa y el volumen de un objeto.');
-INSERT INTO PreguntasF2 VALUES (172,26,'En qué consiste la Fuerza de Fricción: 
-a) Es una fuerza que siempre actúa en la misma dirección del movimiento. 
-b) Es una fuerza que se opone al movimiento relativo de dos superficies en contacto. 
-c) Es una fuerza que aumenta la velocidad de un objeto en movimiento.');
-INSERT INTO PreguntasF2 VALUES (172,27,'La razón del coeficiente de fricción estático respecto al cinético es: 
-a) Es mayor en el coeficiente de fricción estático. 
-b) Es menor en el coeficiente de fricción estático. 
-c) Es igual en ambos coeficientes.');
-INSERT INTO PreguntasF2 VALUES (172,28,'El sentido de la fuerza de fricción, con respecto al desplazamiento es: 
-a) Opuesto al desplazamiento. 
-b) Paralelo al desplazamiento. 
-c) Perpendicular al desplazamiento.');
-INSERT INTO PreguntasF2 VALUES (172,29,'En qué condiciones de movimiento se tiene coeficiente de fricción cinético: 
-a) Cuando el objeto está en reposo. 
-b) Cuando el objeto está en movimiento con velocidad constante. 
-c) Cuando el objeto está en movimiento con aceleración constante.');
-INSERT INTO PreguntasF2 VALUES (172,30,'En qué condiciones de fricción se tiene coeficiente  de fricción estático: a)
-Si el cuerpo no se mueve, se considera el coeficiente cinético 
-b) Si el cuerpo se encuentra estático o se comienza a mover, se considera el coeficiente de fricción estático 
-c) Ninguna de las anteriores');
-INSERT INTO PreguntasF2 VALUES (172,31,'¿Por qué se detiene un objeto que está en movimiento si aparentemente no existe ninguna fuerza sobre él? 
-a) Porque es una excepción de las Leyes de Newton 
-b) Porque está en una superficie muy resbaladiza 
-c) Porque existe una fuerza que se llama fuerza de rozamiento o fricción ');
-INSERT INTO PreguntasF2 VALUES (172,32,'¿Qué Ley afirma que un objeto sobre el que actúa una fuerza no equilibrada acelerará en la dirección de esa fuerza? 
-a) La Ley de la inercia 
-b) El principio fundamental de la dinámica 
-c) La Ley de Acción y Reacción');
-INSERT INTO PreguntasF2 VALUES (172,33,'Si aplicamos fuerzas iguales a dos objetos, uno con mayor masa que el otro, avanzará más lentamente el que tenga: 
-a) Mayor masa 
-b) Menor masa 
-c)Es independiente de la masa ');
-INSERT INTO PreguntasF2 VALUES (172,34,'¿Qué es la fricción y cómo afecta a un objeto en movimiento? 
-a) Fuerza que afecta al movimiento de un objeto. Aumenta la velocidad de este. 
-b)Fuerza resistente que se opone al movimiento de un objeto. Afecta a un objeto en movimiento disminuyendo su velocidad o impidiendo que se desplace. 
-c)Fuerza resistente al movimiento de un objeto, no afecta en ningún sentido el movimiento del objeto');
-INSERT INTO PreguntasF2 VALUES (172,35,'¿Qué sucede con la velocidad de un objeto en movimiento cuando la fuerza de fricción aumenta? 
-a) Cuando la fuerza de fricción aumenta, la velocidad del objeto en movimiento aumenta.  
-b)Cuando la fuerza de fricción aumenta, la velocidad de un objeto en movimiento disminuye. 
-c)Ninguna de las anteriores ');
-INSERT INTO PreguntasF2 VALUES (172,36,'¿Puede un objeto moverse sin fricción en un plano inclinado? 
-a) Puede moverse sin fricción en un plano inclinado si las superficies en contacto están lubricadas o si el coeficiente de fricción es muy bajo 
-b)No podrá moverse  
-c)Podrá moverse aunque coeficiente de fricción sea alto  ');
-INSERT INTO PreguntasF2 VALUES (172,37,'¿Cuál es la definición de la fuerza de fricción estática? 
-a) Es la fuerza de fricción que se opone al movimiento de un objeto en reposo. 
-b) Es la fuerza de fricción que se opone al movimiento de un objeto en movimiento. 
-c) Es la fuerza de fricción que actúa sobre un objeto independientemente de si está en reposo o en movimiento.');
-INSERT INTO PreguntasF2 VALUES (172,38,'¿Qué factor afecta principalmente la magnitud de la fuerza de fricción cinética? 
-a) La velocidad del objeto. 
-b) La masa del objeto. 
-c) El coeficiente de fricción cinética entre las superficies en contacto.');
-INSERT INTO PreguntasF2 VALUES (172,39,'¿Qué representa el coeficiente de fricción estático? 
-a) La relación entre la masa y la aceleración de un objeto. 
-b) La relación entre la fuerza de fricción y la fuerza normal cuando el objeto está en movimiento. 
-c) La relación entre la fuerza de fricción máxima y la fuerza normal antes de que un objeto comience a moverse.');
-INSERT INTO PreguntasF2 VALUES (172,40,'¿Cuál es el efecto de aumentar la masa de un objeto sobre la fuerza de fricción estática? 
-a) Aumenta la fuerza de fricción estática. 
-b) Disminuye la fuerza de fricción estática. 
-c) No afecta la fuerza de fricción estática.');
-INSERT INTO PreguntasF2 VALUES (172,41,'Los bloques A, B y C se colocan como en la figura y se conectan con cuerdas de masa despreciable;tanto A como B pesan 25N c/u y el coeficiente de fricción cinético entre cada bloque y las superficies es de 0.35. El bloque C va a descender a velocidad constante. a) Realizar los diagramas de cuerpo libre para cada bloque b) Calcule las tensiones de los cables T1 y T2
-a)T1=8.75N T2=30.75N  
-b)T1=6.90N T2=35.15N        
-c)T1=5.30N T2=30.75N');
-INSERT INTO PreguntasF2 VALUES (172,42,'Un bloque de hielo de 47.2 kg se desliza hacia abajo por un plano inclinado de 1.62 m de longitud y 0.902 m de altura. Un obrero lo empuja paralelo al plano inclinado de modo que se deslice hacia abajo a velocidad constante. El coeficiente de fricción cinética entre el hielo y el plano inclinado es de 0.110 Halle: a) la fuerza ejercida por el obrero.
-a)F=215.54 N     
-b)F=70.13 N      
-c)F=180.27 N ');
-INSERT INTO PreguntasF2 VALUES (172,43,'El bloque A de la figura tiene masa de 4.00 kg, y el bloque B, de 12.0 kg. El coeficiente de fricción cinética entre el bloque B y la superficie horizontal es de 0.25 a) ¿Qué masa tiene el bloque C si B se mueve a la derecha con aceleración de 2.00 m/s2? b) ¿Qué tensión hay en cada cuerda en tal situación?
-a)mc=15.40kg  T1=30.17N  T2=80.10N      
-b)mc=12.88kg  T1=47.24N  T2=100.67N     
-c)mc=10.35kg  T1=25.10N  T2=95.17N');
-INSERT INTO PreguntasF2 VALUES (172,44,'Dos bloques de masas de 4.00 kg y 8.00 kg están conectados por un cordón y bajan deslizándose por un plano inclinado a 30° como se muestra en la figura. El coeficiente de fricción cinética entre el bloque de 4.00 kg y el plano es de 0.25; y entre el bloque de 8.00 kg y el plano es de 0.35 a) Calcule la aceleración de cada bloque, b) calcule la tensión en el cordón.
-a)a=5.07m/s^2  T=10.37N     
-b)a=1.67m/s^2  T=3.15N     
-c)a=2.21m/s^2  T=2.28N');
-INSERT INTO PreguntasF2 VALUES (172,45,'¿Cuáles son la aceleración del sistema y la tensión en la cuerda de unión con la distribución que se muestra en la figura?; considerar que el coeficiente de fricción cinético entre m1 y la mesa es de uK=0.1
-a)T=25.898N  a=5.4936m/s^2     
-b)T=35.154N  a=3.9734m/s^2      
-c)T=10.864N  a=2.4984m/s^2');
-INSERT INTO PreguntasF2 VALUES (172,46,' Dos bloques unidos mediante una cuerda de masa despreciable se arrastran mediante una fuerza horizontal como se muestra en la figura. Suponga que F = 68.0 N, m1 = 12.0 kg, m2 = 18.0 kg y el coeficiente de fricción cinética entre cada bloque y la superficie es 0.100 a) Dibuje un diagrama de cuerpo libre para cada bloque. B) Determine la tensión T y la magnitud de la aceleración del sistema.
-a)a=2.76 m/s^2  T=44.89N      
-b)a=1.29m/s^2   T=27.25N      
-c)a=3.97 m/s^2  T=37.15N');
-INSERT INTO PreguntasF2 VALUES (172,47,'El bloque B de la figura pesa 712 N. El coeficiente de fricción estática entre el bloque B y la mesa es de 0.25. Halle el peso máximo del bloque A con el que el sistema se mantendrá en equilibrio
-a)wa=254.15kg   
-b)wa=377.79kg   
-c)wa=154.75kg');
-INSERT INTO PreguntasF2 VALUES (172,48,'Una mujer en un aeropuerto jala su maleta de 20.0 kg con rapidez constante al jalar de una correa en un ángulo θ sobre la horizontal como se muestra en la figura. Ella jala de la correa con una fuerza de 35.0 N. La fuerza de fricción sobre la maleta es de 20.0 N. Dibuje un diagrama de cuerpo libre de la maleta. a) ¿Qué ángulo forma la correa con la horizontal? B) ¿Qué fuerza normal ejerce el suelo sobre la maleta?
-a)θ=55.15°  N=167.49N     
-b)θ=35.45°  N=148.41N     
-c)θ=61.27°  N=201.71N');
-INSERT INTO PreguntasF2 VALUES (172,49,'Una losa de 42 kg descansa sobre un piso sin fricción. Un bloque de 9.7 kg descansa a su vez sobre la losa, como se muestra en la figura. El coeficiente de fricción estática entre el bloque y la losa es de 0.53 mientras que el coeficiente de fricción cinética es de 0.38 El bloque de 9.7 kg recibe la acción de una fuerza horizontal de 110 N. ¿Cuál es la aceleración de la losa?
-a)aL=0.69m/s^2   aB=7.61m/s^2    
-b)aL=1.15m/s^2   aB=15.39m/s^2     
-c)aL=3.61m/s^2   aB=30.11m/s^2');
-INSERT INTO PreguntasF2 VALUES (172,50,'En la figura, A es un bloque de 4.4 kg y B es un bloque de 2.6 kg. Los coeficientes de fricción estática y cinética entre A y la mesa son de 0.18 y 0.15 a) Determine la masa mínima del bloque C que debe colocarse sobre A para evitar que se deslice. B) El bloque C es levantado súbitamente de A. ¿Cuál es la aceleración del bloque A?
-a)wc=5.21kg  a=1.7 m/s^2      
-b)wc=15.19kg  a=3.7 m/s^2      
-c)wc=10.04kg  a=2.7 m/s^2');
+INSERT INTO PreguntasF2 VALUES (172,25,'Hace referencia al concepto de Dinámica: ');
+INSERT INTO PreguntasF2 VALUES (172,26,'En qué consiste la Fuerza de Fricción: ');
+INSERT INTO PreguntasF2 VALUES (172,27,'La razón del coeficiente de fricción estático respecto al cinético es: ');
+INSERT INTO PreguntasF2 VALUES (172,28,'El sentido de la fuerza de fricción, con respecto al desplazamiento es: ');
+INSERT INTO PreguntasF2 VALUES (172,29,'En qué condiciones de movimiento se tiene coeficiente de fricción cinético: ');
+INSERT INTO PreguntasF2 VALUES (172,30,'En qué condiciones de fricción se tiene coeficiente  de fricción estático: ');
+INSERT INTO PreguntasF2 VALUES (172,31,'¿Por qué se detiene un objeto que está en movimiento si aparentemente no existe ninguna fuerza sobre él?  ');
+INSERT INTO PreguntasF2 VALUES (172,32,'¿Qué Ley afirma que un objeto sobre el que actúa una fuerza no equilibrada acelerará en la dirección de esa fuerza? ');
+INSERT INTO PreguntasF2 VALUES (172,33,'Si aplicamos fuerzas iguales a dos objetos, uno con mayor masa que el otro, avanzará más lentamente el que tenga: ');
+INSERT INTO PreguntasF2 VALUES (172,34,'¿Qué es la fricción y cómo afecta a un objeto en movimiento? ');
+INSERT INTO PreguntasF2 VALUES (172,35,'¿Qué sucede con la velocidad de un objeto en movimiento cuando la fuerza de fricción aumenta?  ');
+INSERT INTO PreguntasF2 VALUES (172,36,'¿Puede un objeto moverse sin fricción en un plano inclinado?  ');
+INSERT INTO PreguntasF2 VALUES (172,37,'¿Cuál es la definición de la fuerza de fricción estática? ');
+INSERT INTO PreguntasF2 VALUES (172,38,'¿Qué factor afecta principalmente la magnitud de la fuerza de fricción cinética? ');
+INSERT INTO PreguntasF2 VALUES (172,39,'¿Qué representa el coeficiente de fricción estático? ');
+INSERT INTO PreguntasF2 VALUES (172,40,'¿Cuál es el efecto de aumentar la masa de un objeto sobre la fuerza de fricción estática? ');
+INSERT INTO PreguntasF2 VALUES (172,41,'Los bloques A, B y C se colocan como en la figura y se conectan con cuerdas de masa despreciable;tanto A como B pesan 25N c/u y el coeficiente de fricción cinético entre cada bloque y las superficies es de 0.35. El bloque C va a descender a velocidad constante. a) Realizar los diagramas de cuerpo libre para cada bloque b) Calcule las tensiones de los cables T1 y T2');
+INSERT INTO PreguntasF2 VALUES (172,42,'Un bloque de hielo de 47.2 kg se desliza hacia abajo por un plano inclinado de 1.62 m de longitud y 0.902 m de altura. Un obrero lo empuja paralelo al plano inclinado de modo que se deslice hacia abajo a velocidad constante. El coeficiente de fricción cinética entre el hielo y el plano inclinado es de 0.110 Halle: a) la fuerza ejercida por el obrero.');
+INSERT INTO PreguntasF2 VALUES (172,43,'El bloque A de la figura tiene masa de 4.00 kg, y el bloque B, de 12.0 kg. El coeficiente de fricción cinética entre el bloque B y la superficie horizontal es de 0.25 a) ¿Qué masa tiene el bloque C si B se mueve a la derecha con aceleración de 2.00 m/s2? b) ¿Qué tensión hay en cada cuerda en tal situación?');
+INSERT INTO PreguntasF2 VALUES (172,44,'Dos bloques de masas de 4.00 kg y 8.00 kg están conectados por un cordón y bajan deslizándose por un plano inclinado a 30° como se muestra en la figura. El coeficiente de fricción cinética entre el bloque de 4.00 kg y el plano es de 0.25; y entre el bloque de 8.00 kg y el plano es de 0.35 a) Calcule la aceleración de cada bloque, b) calcule la tensión en el cordón.');
+INSERT INTO PreguntasF2 VALUES (172,45,'¿Cuáles son la aceleración del sistema y la tensión en la cuerda de unión con la distribución que se muestra en la figura?; considerar que el coeficiente de fricción cinético entre m1 y la mesa es de uK=0.1');
+INSERT INTO PreguntasF2 VALUES (172,46,' Dos bloques unidos mediante una cuerda de masa despreciable se arrastran mediante una fuerza horizontal como se muestra en la figura. Suponga que F = 68.0 N, m1 = 12.0 kg, m2 = 18.0 kg y el coeficiente de fricción cinética entre cada bloque y la superficie es 0.100 a) Dibuje un diagrama de cuerpo libre para cada bloque. B) Determine la tensión T y la magnitud de la aceleración del sistema.');
+INSERT INTO PreguntasF2 VALUES (172,47,'El bloque B de la figura pesa 712 N. El coeficiente de fricción estática entre el bloque B y la mesa es de 0.25. Halle el peso máximo del bloque A con el que el sistema se mantendrá en equilibrio');
+INSERT INTO PreguntasF2 VALUES (172,48,'Una mujer en un aeropuerto jala su maleta de 20.0 kg con rapidez constante al jalar de una correa en un ángulo θ sobre la horizontal como se muestra en la figura. Ella jala de la correa con una fuerza de 35.0 N. La fuerza de fricción sobre la maleta es de 20.0 N. Dibuje un diagrama de cuerpo libre de la maleta. a) ¿Qué ángulo forma la correa con la horizontal? B) ¿Qué fuerza normal ejerce el suelo sobre la maleta?');
+INSERT INTO PreguntasF2 VALUES (172,49,'Una losa de 42 kg descansa sobre un piso sin fricción. Un bloque de 9.7 kg descansa a su vez sobre la losa, como se muestra en la figura. El coeficiente de fricción estática entre el bloque y la losa es de 0.53 mientras que el coeficiente de fricción cinética es de 0.38 El bloque de 9.7 kg recibe la acción de una fuerza horizontal de 110 N. ¿Cuál es la aceleración de la losa?');
+INSERT INTO PreguntasF2 VALUES (172,50,'En la figura, A es un bloque de 4.4 kg y B es un bloque de 2.6 kg. Los coeficientes de fricción estática y cinética entre A y la mesa son de 0.18 y 0.15 a) Determine la masa mínima del bloque C que debe colocarse sobre A para evitar que se deslice. B) El bloque C es levantado súbitamente de A. ¿Cuál es la aceleración del bloque A?');
 
 
 
@@ -181,134 +103,38 @@ c)wc=10.04kg  a=2.7 m/s^2');
 
 -- Tema 3: Movimiento Circular Horizontal
 
-INSERT INTO PreguntasF2 VALUES (173,51,'Representan tres características del M.C.U: 
-a) Movimiento rectilíneo, velocidad constante y aceleración tangencial. 
-b) Movimiento curvilíneo, aceleración centrípeta y velocidad variable. 
-c) Movimiento circular, velocidad constante y aceleración centrípeta constante.');
-INSERT INTO PreguntasF2 VALUES (173,52,'En el plano horizontal de un M.C.U, si la fuerza centrípeta deja de actuar sobre el cuerpo en movimiento, entonces: 
-a) El cuerpo seguirá moviéndose en la misma dirección con la misma velocidad. 
-b) El cuerpo saldrá del plano horizontal y seguirá en línea recta. 
-c) El cuerpo dejará de moverse y se detendrá instantáneamente.');
-INSERT INTO PreguntasF2 VALUES (173,53,'En un movimiento circular, la magnitud de la velocidad tangencial siempre permanece: 
-a) Constante.  
-b) Variable.  
-c) Nula.');
-INSERT INTO PreguntasF2 VALUES (173,54,'Es el concepto de periodo en un M.C.U: 
-a) El tiempo que tarda el cuerpo en recorrer una circunferencia completa. 
-b) El tiempo que tarda el cuerpo en realizar medio ciclo. 
-c) El tiempo que tarda el cuerpo en cambiar su velocidad.');
-INSERT INTO PreguntasF2 VALUES (173,55,'Como es la fuerza Centrípeta respecto a la velocidad: 
-a) Es proporcional a la velocidad. 
-b) Es inversamente proporcional a la velocidad. 
-c) No guarda relación con la velocidad.');
-INSERT INTO PreguntasF2 VALUES (173,56,'Dos cuerpos llevan un M.C.U. Llevarán distinta rapidez, si…. 
-a) Tienen la misma frecuencia. 
-b) Tienen la misma amplitud. 
-c) Tienen diferente radio de la trayectoria.');
-INSERT INTO PreguntasF2 VALUES (173,57,'Si un cuerpo lleva una velocidad angular doble que otro, entonces, en el mismo tiempo….. 
-a) Recorrerá la mitad de la distancia. 
-b) Recorrerá el doble de la distancia. 
-c) Recorrerá la misma distancia.');
-INSERT INTO PreguntasF2 VALUES (173,58,'El Movimiento Circular Uniforme es acelerado…. 
-a) Sólo cuando la velocidad es constante. 
-b) Siempre, debido al cambio en la dirección de la velocidad. 
-c) Nunca, ya que la velocidad es constante.');
-INSERT INTO PreguntasF2 VALUES (173,59,'¿Cuál de las siguientes afirmaciones es falsa: 
-a)El radián es una unidad de medida de ángulos  
-b)Los grados sexagesimales se pueden transformar en radianes  
-c)El radián es una unidad de medida de longitudes de arcos  ');
-INSERT INTO PreguntasF2 VALUES (173,60,'¿Qué es el Movimiento Circular Uniforme?: 
-a) Un movimiento en línea recta con velocidad constante.  
-b) Un movimiento en el que la velocidad angular es constante.  
-c) Un movimiento en el que la aceleración es variable.');
-INSERT INTO PreguntasF2 VALUES (173,61,'Magnitud vectorial que indica cuál es el ángulo que puede recorrer un cuerpo por cada unidad de tiempo: 
-a) Aceleración angular. 
-b) Velocidad tangencial. 
-c) Velocidad angular.');
-INSERT INTO PreguntasF2 VALUES (173,62,'¿Cuál es la relación entre la velocidad angular y la velocidad lineal en un Movimiento Circular Uniforme (MCU)? 
-a) Son directamente proporcionales. 
-b) Son inversamente proporcionales. 
-c) Son independientes entre sí.');
-INSERT INTO PreguntasF2 VALUES (173,63,'¿Cuál es la dirección de la aceleración en un Movimiento Circular Uniforme (MCU)? 
-a) Paralela a la dirección de la velocidad.  
-b) Perpendicular a la dirección de la velocidad.  
-c) Opuesta a la dirección de la velocidad.');
-INSERT INTO PreguntasF2 VALUES (173,64,'¿Qué representa el periodo en un Movimiento Circular Uniforme (MCU)? 
-a) La distancia recorrida por el cuerpo en una vuelta completa.  
-b) El tiempo necesario para que el cuerpo complete una vuelta completa.  
-c) La rapidez angular del cuerpo en movimiento.');
-INSERT INTO PreguntasF2 VALUES (173,65,'¿Qué es la aceleración centrípeta en un MCU? 
-a) La aceleración que mantiene constante la velocidad tangencial. 
-b) La aceleración que mantiene constante la velocidad angular. 
-c) La aceleración que mantiene el cuerpo en movimiento en una trayectoria circular.');
-INSERT INTO PreguntasF2 VALUES (173,66,'¿Cuál es la magnitud de la fuerza centrípeta en un Movimiento Circular Uniforme (MCU)? 
-a) Es directamente proporcional a la masa del cuerpo. 
-b) Es inversamente proporcional al radio de la trayectoria. 
-c) Es directamente proporcional al cuadrado de la velocidad tangencial.');
-INSERT INTO PreguntasF2 VALUES (173,67,'¿Cuál es la diferencia entre el periodo y la frecuencia en un Movimiento Circular Uniforme (MCU)? 
-a) La frecuencia es el inverso del periodo. 
-b) El periodo es el inverso de la frecuencia. 
-c) El periodo y la frecuencia son lo mismo en un MCU.');
-INSERT INTO PreguntasF2 VALUES (173,68,'¿Qué ocurre con la rapidez tangencial en un Movimiento Circular Uniforme (MCU)? 
-a) Permanece constante. 
-b) Aumenta linealmente con el tiempo. 
-c) Disminuye cuadráticamente con el tiempo.');
-INSERT INTO PreguntasF2 VALUES (173,69,'¿Cómo afecta el cambio en el radio de la trayectoria al periodo en un Movimiento Circular Uniforme (MCU)? 
-a) Aumenta si el radio aumenta. 
-b) Disminuye si el radio aumenta. 
-c) Permanece constante independientemente del radio.');
-INSERT INTO PreguntasF2 VALUES (173,70,'¿Qué papel juega la fuerza centrípeta en un Movimiento Circular Uniforme (MCU)? 
-a) Mantiene la dirección del movimiento del cuerpo. 
-b) Asegura que el cuerpo se mueva con una velocidad constante. 
-c) Es responsable de mantener al cuerpo en una trayectoria curvilínea.');
-INSERT INTO PreguntasF2 VALUES (173,71,'¿Qué representa la velocidad angular en un Movimiento Circular Uniforme (MCU)? 
-a) La velocidad del cuerpo en dirección radial. 
-b) La velocidad del cuerpo en dirección tangencial. 
-c) La velocidad del cuerpo en dirección perpendicular al radio.');
-INSERT INTO PreguntasF2 VALUES (173,72,'- El bloque de 4.00 kg de la figura está unido a una varilla vertical con dos cordones. Cuando el sistema gira en torno al eje de la varilla, los dos cordones se extienden como se indica en el diagrama y la tensión en el cordón superior es de 80.0 N. a) ¿Qué tensión hay en el cordón inferior? b) ¿Cuál es la velocidad del sistema? 
-a)T2=31N V=3.53m/s
-b)T2=31N V=2.15m/s       
-c)T2=25N V=1.80/s');
-INSERT INTO PreguntasF2 VALUES (173,73,'Una cuenta hueca de 100g de masa se desliza libremente en una cuerda de 0.8 m de longitudb) ¿Cuál es la velocidad lineal de la cuent. Los extremos de la cuerda están atados a una varilla vertical en A y B, los cuales están a una distancia de 0,4m como se indica en la figura. Cuando la varilla gira, BC es completamente horizontal e igual a 0.3m a) ¿cuál es la tensión en la cuerda
-a)V=2.85m/s T=1.533N          
-b)V=3.15m/s T=2.723N        
-c)V=2.43m/s T=1.223N');
-INSERT INTO PreguntasF2 VALUES (173,74,'- En otra versión del “columpio gigante”, el asiento está conectado a dos cables, como se muestra en la figura, uno de los cuales es horizontal. El asiento gira en un círculo horizontal a una tasa de 32.0 rpm (rev/min). Si el asiento pesa 255 N y una persona de 825 N está sentada en él, obtenga la tensión en cada cable.
-a)T1=1461.83N T2=9773.53N     
-b)T1=1409.83N T2=8375.23N     
-c)T1=1009.83N T2=7685.15N');
-INSERT INTO PreguntasF2 VALUES (173,75,'Un disco de masa m que está sobre una mesa sin fricción está atado a un cilindro colgante de masa M por medio de un cordón que pasa por un orificio de la mesa como se muestra en la figura. Halle la velocidad con que debe moverse el disco en un círculo de radio r para que el cilindro permanezca en reposo.
-a)V=sqrt(RMg/m)    
-b)V=RM/m     
-c)V=sqrt(Rmg/M)');
-INSERT INTO PreguntasF2 VALUES (173,76,'Un aeroplano está volando en un círculo horizontal a una velocidad de 482 km/h. Las alas del aeroplano están inclinadas a 38.2° respecto a la horizontal como se muestra en la figura. Halle el radio del círculo en el cual está volando el aeroplano. Suponga que la fuerza centrípeta es proporcional enteramente por la fuerza de ascenso perpendicular a la superficie de las alas.
-a)R=2321.83m   
-b)R=3528.16m    
-c)R=2560.75m');
-INSERT INTO PreguntasF2 VALUES (173,77,'El columpio gigante de una feria local consiste en un eje vertical central con varios brazos horizontales unidos a su extremo superior como se muestra en la figura. Cada brazo sostiene una silla suspendida de un cable de 5.00 m, sujeto al brazo en un punto a 3.00 m del eje central. A) Calcule el tiempo de una revolución del columpio si el cable forma un ángulo de 30° con la vertical.
-a)V=2.45m/s    
-b)V=5.58m/s    
-c)V=3.15m/s');
-INSERT INTO PreguntasF2 VALUES (173,78,'- Un aeroplano a escala de 0.750 kg de masa vuela con una rapidez de 35.0 m/s en un círculo horizontal en el extremo de un alambre de control de 60.0 m. Calcule la tensión en el alambre, si supone que forma un ángulo constante de 20.0° con la horizontal. Las fuerzas que se ejercen sobre el aeroplano son el jalón del alambre de control, la fuerza gravitacional y la sustentación aerodinámica que actúa a 20.0° hacia adentro desde la vertical, como se muestra en la figura.
-a)F=16.1N T=17.3N   
-b)F=14.3N T=15.28N     
-c)F=12.5N T=12.75N');
-INSERT INTO PreguntasF2 VALUES (173,79,'Un péndulo cónico consta de una pelota de 53g de masa atado a un cordel de L=1.4m. La pelota oscila (gira) en un círculo de 25cm de radio. a) ¿Cuál es la velocidad lineal o tangencial de la pelota, b) ¿Cuál es la aceleración centrípeta, c) ¿Cuál es la Tensión en la cuerda?
-a)T=2.1529N  ac=1.18m/s^2  V=0.667m/s        
-b)T=1.7340N  ac=1.56m/s^2  V=1.68m/s            
-c)T=0.5284N  ac=1.78m/s^2  V=0.667m/s');
-INSERT INTO PreguntasF2 VALUES (173,80,'Un ciclista viaja en un círculo de 25m de radio a una velocidad constante de 8.7 m/s. La masa de la persona y la bicicleta es de 85 kg. Calcular la fuerza (magnitud y ángulo con la vertical) ejercida por la pista sobre la bicicleta.
-a)N=715N       
-b)N=878N       
-c)N=901N');
-INSERT INTO PreguntasF2 VALUES (173,81,'Un atleta da vueltas en círculos horizontales a un martillo de 7kg atado al extremo de una cadena de 1.3m a razón de 1rev/s.  a) ¿Cuál es la aceleración centrípeta del martillo? b) ¿Cuál es la tensión en la cadena? c) Periodo y frecuencia
-a)ac=51.322m/s^2  f=1Hz  T=Fc=359.3N  T=1s            
-b)ac=43.372m/s^2  f=1Hz  T=Fc=401.3N  T=3s               
-c)ac=61.322m/s^2  f=3Hz  T=Fc=337.8N  T=1s');
-INSERT INTO PreguntasF2 VALUES (173,82,'¿Cuánto valen el periodo y la magnitud de la velocidad de una persona en un carrusel si la magnitud de la aceleración centrípeta es de 0.8 m/s2 cuando se encuentra a una distancia de 4 metros del eje? b) Si la persona se coloca a 2 metros del eje y el carrusel sigue girando con el mismo periodo, ¿Cuánto valen la velocidad y aceleración centrípeta?
-a)V=1.7885m/s  T=14.025s   V=0.8942m/s ac=0.3998m/s2       
-b)V=2.6786m/s  T=11.524s   V=0.5932m/s ac=1.5697m/s2          
-c)V=1.3738m/s  T=10.369s   V=1.7531m/s ac=2.2345m/s2');
+INSERT INTO PreguntasF2 VALUES (173,51,'Representan tres características del M.C.U: ');
+INSERT INTO PreguntasF2 VALUES (173,52,'En el plano horizontal de un M.C.U, si la fuerza centrípeta deja de actuar sobre el cuerpo en movimiento, entonces: ');
+INSERT INTO PreguntasF2 VALUES (173,53,'En un movimiento circular, la magnitud de la velocidad tangencial siempre permanece: ');
+INSERT INTO PreguntasF2 VALUES (173,54,'Es el concepto de periodo en un M.C.U: ');
+INSERT INTO PreguntasF2 VALUES (173,55,'Como es la fuerza Centrípeta respecto a la velocidad: ');
+INSERT INTO PreguntasF2 VALUES (173,56,'Dos cuerpos llevan un M.C.U. Llevarán distinta rapidez, si…. ');
+INSERT INTO PreguntasF2 VALUES (173,57,'Si un cuerpo lleva una velocidad angular doble que otro, entonces, en el mismo tiempo….. ');
+INSERT INTO PreguntasF2 VALUES (173,58,'El Movimiento Circular Uniforme es acelerado…. ');
+INSERT INTO PreguntasF2 VALUES (173,59,'¿Cuál de las siguientes afirmaciones es falsa:  ');
+INSERT INTO PreguntasF2 VALUES (173,60,'¿Qué es el Movimiento Circular Uniforme?: ');
+INSERT INTO PreguntasF2 VALUES (173,61,'Magnitud vectorial que indica cuál es el ángulo que puede recorrer un cuerpo por cada unidad de tiempo: ');
+INSERT INTO PreguntasF2 VALUES (173,62,'¿Cuál es la relación entre la velocidad angular y la velocidad lineal en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,63,'¿Cuál es la dirección de la aceleración en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,64,'¿Qué representa el periodo en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,65,'¿Qué es la aceleración centrípeta en un MCU? ');
+INSERT INTO PreguntasF2 VALUES (173,66,'¿Cuál es la magnitud de la fuerza centrípeta en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,67,'¿Cuál es la diferencia entre el periodo y la frecuencia en un Movimiento Circular Uniforme (MCU)?');
+INSERT INTO PreguntasF2 VALUES (173,68,'¿Qué ocurre con la rapidez tangencial en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,69,'¿Cómo afecta el cambio en el radio de la trayectoria al periodo en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,70,'¿Qué papel juega la fuerza centrípeta en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,71,'¿Qué representa la velocidad angular en un Movimiento Circular Uniforme (MCU)? ');
+INSERT INTO PreguntasF2 VALUES (173,72,'El bloque de 4.00 kg de la figura está unido a una varilla vertical con dos cordones. Cuando el sistema gira en torno al eje de la varilla, los dos cordones se extienden como se indica en el diagrama y la tensión en el cordón superior es de 80.0 N. a) ¿Qué tensión hay en el cordón inferior? b) ¿Cuál es la velocidad del sistema? ');
+INSERT INTO PreguntasF2 VALUES (173,73,'Una cuenta hueca de 100g de masa se desliza libremente en una cuerda de 0.8 m de longitudb) ¿Cuál es la velocidad lineal de la cuent. Los extremos de la cuerda están atados a una varilla vertical en A y B, los cuales están a una distancia de 0,4m como se indica en la figura. Cuando la varilla gira, BC es completamente horizontal e igual a 0.3m a) ¿cuál es la tensión en la cuerda');
+INSERT INTO PreguntasF2 VALUES (173,74,'En otra versión del “columpio gigante”, el asiento está conectado a dos cables, como se muestra en la figura, uno de los cuales es horizontal. El asiento gira en un círculo horizontal a una tasa de 32.0 rpm (rev/min). Si el asiento pesa 255 N y una persona de 825 N está sentada en él, obtenga la tensión en cada cable.');
+INSERT INTO PreguntasF2 VALUES (173,75,'Un disco de masa m que está sobre una mesa sin fricción está atado a un cilindro colgante de masa M por medio de un cordón que pasa por un orificio de la mesa como se muestra en la figura. Halle la velocidad con que debe moverse el disco en un círculo de radio r para que el cilindro permanezca en reposo.');
+INSERT INTO PreguntasF2 VALUES (173,76,'Un aeroplano está volando en un círculo horizontal a una velocidad de 482 km/h. Las alas del aeroplano están inclinadas a 38.2° respecto a la horizontal como se muestra en la figura. Halle el radio del círculo en el cual está volando el aeroplano. Suponga que la fuerza centrípeta es proporcional enteramente por la fuerza de ascenso perpendicular a la superficie de las alas.');
+INSERT INTO PreguntasF2 VALUES (173,77,'El columpio gigante de una feria local consiste en un eje vertical central con varios brazos horizontales unidos a su extremo superior como se muestra en la figura. Cada brazo sostiene una silla suspendida de un cable de 5.00 m, sujeto al brazo en un punto a 3.00 m del eje central. A) Calcule el tiempo de una revolución del columpio si el cable forma un ángulo de 30° con la vertical.');
+INSERT INTO PreguntasF2 VALUES (173,78,'Un aeroplano a escala de 0.750 kg de masa vuela con una rapidez de 35.0 m/s en un círculo horizontal en el extremo de un alambre de control de 60.0 m. Calcule la tensión en el alambre, si supone que forma un ángulo constante de 20.0° con la horizontal. Las fuerzas que se ejercen sobre el aeroplano son el jalón del alambre de control, la fuerza gravitacional y la sustentación aerodinámica que actúa a 20.0° hacia adentro desde la vertical, como se muestra en la figura.');
+INSERT INTO PreguntasF2 VALUES (173,79,'Un péndulo cónico consta de una pelota de 53g de masa atado a un cordel de L=1.4m. La pelota oscila (gira) en un círculo de 25cm de radio. a) ¿Cuál es la velocidad lineal o tangencial de la pelota, b) ¿Cuál es la aceleración centrípeta, c) ¿Cuál es la Tensión en la cuerda?');
+INSERT INTO PreguntasF2 VALUES (173,80,'Un ciclista viaja en un círculo de 25m de radio a una velocidad constante de 8.7 m/s. La masa de la persona y la bicicleta es de 85 kg. Calcular la fuerza (magnitud y ángulo con la vertical) ejercida por la pista sobre la bicicleta.');
+INSERT INTO PreguntasF2 VALUES (173,81,'Un atleta da vueltas en círculos horizontales a un martillo de 7kg atado al extremo de una cadena de 1.3m a razón de 1rev/s.  a) ¿Cuál es la aceleración centrípeta del martillo? b) ¿Cuál es la tensión en la cadena? c) Periodo y frecuencia');
+INSERT INTO PreguntasF2 VALUES (173,82,'¿Cuánto valen el periodo y la magnitud de la velocidad de una persona en un carrusel si la magnitud de la aceleración centrípeta es de 0.8 m/s2 cuando se encuentra a una distancia de 4 metros del eje? b) Si la persona se coloca a 2 metros del eje y el carrusel sigue girando con el mismo periodo, ¿Cuánto valen la velocidad y aceleración centrípeta?');
 
 
 
@@ -1177,7 +1003,7 @@ INSERT INTO Incisos_F2 VALUES
 (69,79,"a) Aumenta si el radio aumenta","b) Disminuye si el radio aumenta","c) Permanece constante independientemente del radio"),
 (70,80,"a) Mantiene la dirección del movimiento del cuerpo","b) Asegura que el cuerpo se mueva con una velocidad constante","c) Es responsable de mantener al cuerpo en una trayectoria curvilínea"),
 (71,81,"a) La velocidad del cuerpo en dirección radial","b) La velocidad del cuerpo en dirección tangencial","c) La velocidad del cuerpo en dirección perpendicular al radio"),
-(72,82,"a) V=1.7885m/s T=14.025s","b) V=0.8942m/s ac=0.3998m/s2","c) V=2.6786m/s T=11.524s"),
+(72,82,"a) T2=31N  V=3.53m/s","b) T2=31N  V=2.15m/s","c) T2=25N  V=1.80m/s"),
 (73,83,"a) V=2.85m/s T=1.533N","b) V=3.15m/s T=2.723N","c) V=2.43m/s T=1.223N"),
 (74,84,"a) T1=1461.83N T2=9773.53N","b) T1=1409.83N T2=8375.23N","c) T1=1009.83N T2=7685.15N"),
 (75,85,"a) V=sqrt(RMg/m)","b) V=RM/m","c) V=sqrt(Rmg/M)"),
