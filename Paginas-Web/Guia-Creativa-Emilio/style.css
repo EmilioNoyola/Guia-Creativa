@@ -126,12 +126,21 @@ p {
     position: relative;
 }
 
+.VMV-lol{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .VMV-group{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
+.VMV-lol ul li{
+    text-align: justify;
+    
+}
 .VMV-lol p{
     text-align: justify;
 }
@@ -141,7 +150,6 @@ p {
     line-height: 70px;
     color: #3DADFF;
     text-transform: uppercase;
-   
     margin-bottom: 15px;
     text-align: center;
 }
