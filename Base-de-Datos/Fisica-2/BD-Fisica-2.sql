@@ -38,102 +38,30 @@ CREATE TABLE PreguntasF2(
 
 -- Tema 1: Leyes de Newton sin Fricción
 
-INSERT INTO PreguntasF2 VALUES (171,01,'El enunciado de la 1era Ley de Newton refiere a:
-a) La inercia de un cuerpo 
-b) La aceleración de un cuerpo 
-c) La fuerza resultante sobre un cuerpo');
-INSERT INTO PreguntasF2 VALUES (171,02,'¿En qué consiste la 3era ley de Newton? 
-a) Por cada acción hay una reacción igual en magnitud pero opuesta en dirección  
-b) La fuerza neta sobre un cuerpo es igual al producto de la masa por la aceleración 
-c) La suma de todas las fuerzas que actúan sobre un cuerpo es igual a cero');
-INSERT INTO PreguntasF2 VALUES (171,03,'Que afirma la 2da Ley de Newton: 
-a) La inercia de un cuerpo es proporcional a la masa 
-b) La fuerza resultante sobre un cuerpo es igual al producto de la masa por la aceleración  
-c) La suma de todas las fuerzas que actúan sobre un cuerpo es igual a cero');
-INSERT INTO PreguntasF2 VALUES (171,04,'¿Qué diferencia existe entre la Dinámica y la Cinemática? 
-a) La Dinámica estudia las fuerzas que causan los movimientos, mientras que la Cinemática se enfoca en la descripción de los movimientos sin considerar las causas 
-b) La Cinemática estudia las fuerzas que causan los movimientos, mientras que la Dinámica se enfoca en la descripción de los movimientos sin considerar las causas 
-c) Ambas disciplinas son lo mismo');
-INSERT INTO PreguntasF2 VALUES (171,05,'Punto donde convergen tres o más cuerdas sometidas a fuerzas de tensión: 
-a) Nodo 
-b) Centro de gravedad 
-c) Centro de masa');
-INSERT INTO PreguntasF2 VALUES (171,06,'Es la cantidad de materia que posee un cuerpo y se mide en kg (Sistema Internacional): 
-a) Peso 
-b) Masa 
-c) Volumen');
-INSERT INTO PreguntasF2 VALUES (171,07,'Es la fuerza de atracción gravitacional que ejerce la tierra sobre los cuerpos y se mide en N para el S.I.:
-a) Masa 
-b) Peso 
-c) Volumen');
-INSERT INTO PreguntasF2 VALUES (171,08,'Es la representación gráfica de todas las fuerzas que actúan sobre un nodo o una partícula: 
-a) Diagrama de cuerpo libre 
-b) Diagrama de cuerpo pesado 
-c) Diagrama de fuerza');
-INSERT INTO PreguntasF2 VALUES (171,09,'En qué tipo de casos la aceleración es nula? 
-a) Cuando la fuerza neta sobre un cuerpo es distinta de cero 
-b) Cuando la fuerza neta sobre un cuerpo es igual a cero 
-c) Cuando la fuerza neta sobre un cuerpo es menor que cero');
-INSERT INTO PreguntasF2 VALUES (171,10,'¿En qué momento existe una Fuerza Normal? 
-a) Cuando un cuerpo se encuentra en equilibrio 
-b) Cuando un cuerpo se encuentra en movimiento 
-c) Cuando un cuerpo está en contacto con una superficie');
-INSERT INTO PreguntasF2 VALUES (171,11,'¿Cuál es la ecuación de dimensión de la fuerza? 
-a) F = ma 
-b) F = mg 
-c) F = m/v^2');
-INSERT INTO PreguntasF2 VALUES (171,12,'¿Qué enuncia la primera ley de Newton en relación con el movimiento de un cuerpo sin fricción? 
-a) Un cuerpo en reposo permanece en reposo y un cuerpo en movimiento continúa moviéndose a velocidad constante en línea recta, a menos que actúe sobre él una fuerza neta. 
-b) La fuerza neta sobre un cuerpo es igual al producto de su masa por la aceleración. 
-c) Por cada acción hay una reacción igual en magnitud pero opuesta en dirección.');
-INSERT INTO PreguntasF2 VALUES (171,13,'¿Cuál es la condición necesaria para que un cuerpo experimente una aceleración no nula en un entorno sin fricción? 
-a) Debe estar sujeto a una fuerza externa neta. 
-b) Debe estar en equilibrio. 
-c) Debe tener una masa muy grande.');
-INSERT INTO PreguntasF2 VALUES (171,14,'¿Qué papel juega la fuerza normal en un sistema sin fricción? 
-a) Mantiene el cuerpo en equilibrio. 
-b) No tiene ningún papel en ausencia de fricción. 
-c) Contrarresta la fuerza de gravedad para mantener el cuerpo en reposo.');
-INSERT INTO PreguntasF2 VALUES (171,15,'¿Qué representa el diagrama de cuerpo libre en el análisis de un cuerpo sin fricción? 
-a) La representación gráfica de las fuerzas que actúan sobre el cuerpo. 
-b) La distribución de la masa del cuerpo. 
-c) La velocidad del cuerpo en movimiento.');
-INSERT INTO PreguntasF2 VALUES (171,16,'Una esfera cargada de 2.8x10-4 kg de masa está suspendida de una cuerda. Una fuerza eléctrica actúa horizontalmente sobre la esfera de modo que la cuerda forma un ángulo de 33° con la vertical cuando está en reposo. Hallar: a) la fuerza eléctrica sobre la esfera b) La tensión en la cuerda 
-a)T=3.275x10^-3N   F= 1.781x10^-3N 
-b)T=7.530x10^-3N   F= 2.561x10^-4N 
-c)T=1.378x10^-4N   F= 1.581x10^-3N');
-INSERT INTO PreguntasF2 VALUES (171,17,'Una cierta fuerza (F) da al objeto m1 una aceleración de 12m/s^2. La misma fuerza da al objeto m2 una aceleración de 3.3 m/s2. ¿Qué aceleración daría la fuerza a un objeto cuya masa sea la suma de m1 y m2?. 
-a)a3=1.33  m/s^2     
-b)a3=2.588 m/s^2 
-c)a3=2.11  m/s^2');
-INSERT INTO PreguntasF2 VALUES (171,18,'Un electrón viaja en línea recta desde el cátodo de un tubo al vacío hasta el ánodo, que está a una longitud de 1.5 cm de distancia. Comienza con velocidad de cero y llega al ánodo a una velocidad de 5.8x106 m/s. (Considerar que el melectrón =9.11x10-31 kg y permanece constante).  a) Calcular la fuerza eléctrica (Fe) sobre el electrón.  b) Calcular la fuerza gravitacional sobre el electrón (Peso).
-a)Fe=1.021x10^-15N  W=8.93X10^-30N
-b)Fe=1.950x10^-14N  W=6.15X10^-28N      
-c)Fe=2.051x10^-16N  W=9.63X10^-30N');
-INSERT INTO PreguntasF2 VALUES (171,19,'Una persona arrastra una caja y ejerce una fuerza F=450N sobre la cuerda, la cual esta inclinada a 38° sobre la horizontal. El suelo ejerce una fuerza de resistencia (fricción Nw) a la izquierda de 125N como se muestra en la figura. Calcular: a) La aceleración de la caja si su masa es de 96 kgb) La fuerza Normal que ejerce el piso sobre el bloque (fuerza de reacción)
-a)N= 664.785N     a=3.111m/s^2    
-b)N= 550.755N     a=2.391m/s^2   
-c)N= 664.785N     a=2.391m/s^2');
-INSERT INTO PreguntasF2 VALUES (171,20,'Un hombre de 12kg de masa, desciende al suelo desde una altura de 12m sujetando una cuerda que pasa por una polea fija sin fricción atado a un saco de Arena de 8 kg de masa; calcular: a) La aceleración del sistema b) La tensión de la cuerda c) ¿Con qué velocidad llega el hombre al suelo?: 
-a)a=1.962 m/s^2   T=94.176N   V= 6.862m/s^2      
-b)a=1.15  m/s^2   T=70.180N   V= 8.112m/s^2     
-c)a=2.64  m/s^2   T=94.176N   V= 7.344m/s^2 ');
-INSERT INTO PreguntasF2 VALUES (171,21,'Un bloque de masa m1 = 3.70kg está sobre un plano inclinado de ángulo 28° y unido por una cuerda a un segundo bloque de m2 =1.86kg que cuelga verticalmente como lo indica la figura. Calcular: (Considerar que la rampa y la polea son carentes de fricción) a) La aceleración del sistema b) La tensión de la cuerda 
-a)T=20.24N    a=1.1112m/s^2      
-b)T=17.84N    a=0.2169m/s^2       
-c)T=11.85N    a=0.9879m/s^2 ');
-INSERT INTO PreguntasF2 VALUES (171,22,'Una gran bola para demolición está sujeta por dos cables de acero ligeros como se muestra en la figura. Si su masa m es de 4090 kg, calcule a) la tensión TB en el cable que forma un ángulo de 40° con la vertical. B) Calcule la tensión TA en el cable horizontal. 
-a)TA=53689.1 N    TB= 68123.80 N     
-b)TA=24128.7 N    TB= 23713.75 N      
-c)TA=33627.8 N    TB= 52376.72 N');
-INSERT INTO PreguntasF2 VALUES (171,23,'Dos bloques de masas m y 2m están sostenidos en equilibrio sobre un plano inclinado sin fricción como se muestra en la figura. En términos de m y θ, halle a) la magnitud de la tensión T1 y b) la magnitud de la tensión T2.
-a)T1= 5mg cos(35.9-θ)    T2=mg cos(70-θ)       
-b)T1= 3mg cos(90-θ)    T2=2mg cos(90-θ)    
-c)T1= 2mg cos(80-θ)    T2=6mg cos(90-θ)');
-INSERT INTO PreguntasF2 VALUES (171,24,'Una esfera uniforme sólida de 45.0 kg, cuyo diámetro es de 32.0 cm, se apoya contra una pared vertical sin fricción, usando un alambre delgado de 30.0 cm con masa despreciable, como se muestra en la figura. A) Elabore el diagrama de cuerpo libre para la esfera yúselo para determinar la tensión en el alambre. B) ¿Qué tan fuerte empuja la esfera a la pared?
-a)T=470.88 N    N=163.81N       
-b)T=499.68 N    N=63.88N       
-c)T=590.75 N    N=163.81N');
+INSERT INTO PreguntasF2 VALUES (171,01,'El enunciado de la 1era Ley de Newton refiere a:');
+INSERT INTO PreguntasF2 VALUES (171,02,'¿En qué consiste la 3era ley de Newton? ');
+INSERT INTO PreguntasF2 VALUES (171,03,'Que afirma la 2da Ley de Newton: ');
+INSERT INTO PreguntasF2 VALUES (171,04,'¿Qué diferencia existe entre la Dinámica y la Cinemática? ');
+INSERT INTO PreguntasF2 VALUES (171,05,'Punto donde convergen tres o más cuerdas sometidas a fuerzas de tensión: ');
+INSERT INTO PreguntasF2 VALUES (171,06,'Es la cantidad de materia que posee un cuerpo y se mide en kg (Sistema Internacional): ');
+INSERT INTO PreguntasF2 VALUES (171,07,'Es la fuerza de atracción gravitacional que ejerce la tierra sobre los cuerpos y se mide en N para el S.I.:');
+INSERT INTO PreguntasF2 VALUES (171,08,'Es la representación gráfica de todas las fuerzas que actúan sobre un nodo o una partícula: ');
+INSERT INTO PreguntasF2 VALUES (171,09,'En qué tipo de casos la aceleración es nula? ');
+INSERT INTO PreguntasF2 VALUES (171,10,'¿En qué momento existe una Fuerza Normal? e');
+INSERT INTO PreguntasF2 VALUES (171,11,'¿Cuál es la ecuación de dimensión de la fuerza? ');
+INSERT INTO PreguntasF2 VALUES (171,12,'¿Qué enuncia la primera ley de Newton en relación con el movimiento de un cuerpo sin fricción? ');
+INSERT INTO PreguntasF2 VALUES (171,13,'¿Cuál es la condición necesaria para que un cuerpo experimente una aceleración no nula en un entorno sin fricción? ');
+INSERT INTO PreguntasF2 VALUES (171,14,'¿Qué papel juega la fuerza normal en un sistema sin fricción? ');
+INSERT INTO PreguntasF2 VALUES (171,15,'¿Qué representa el diagrama de cuerpo libre en el análisis de un cuerpo sin fricción? ');
+INSERT INTO PreguntasF2 VALUES (171,16,'Una esfera cargada de 2.8x10-4 kg de masa está suspendida de una cuerda. Una fuerza eléctrica actúa horizontalmente sobre la esfera de modo que la cuerda forma un ángulo de 33° con la vertical cuando está en reposo. Hallar: a) la fuerza eléctrica sobre la esfera b) La tensión en la cuerda ');
+INSERT INTO PreguntasF2 VALUES (171,17,'Una cierta fuerza (F) da al objeto m1 una aceleración de 12m/s^2. La misma fuerza da al objeto m2 una aceleración de 3.3 m/s2. ¿Qué aceleración daría la fuerza a un objeto cuya masa sea la suma de m1 y m2?. ');
+INSERT INTO PreguntasF2 VALUES (171,18,'Un electrón viaja en línea recta desde el cátodo de un tubo al vacío hasta el ánodo, que está a una longitud de 1.5 cm de distancia. Comienza con velocidad de cero y llega al ánodo a una velocidad de 5.8x106 m/s. (Considerar que el melectrón =9.11x10-31 kg y permanece constante).  a) Calcular la fuerza eléctrica (Fe) sobre el electrón.  b) Calcular la fuerza gravitacional sobre el electrón (Peso).');
+INSERT INTO PreguntasF2 VALUES (171,19,'Una persona arrastra una caja y ejerce una fuerza F=450N sobre la cuerda, la cual esta inclinada a 38° sobre la horizontal. El suelo ejerce una fuerza de resistencia (fricción Nw) a la izquierda de 125N como se muestra en la figura. Calcular: a) La aceleración de la caja si su masa es de 96 kgb) La fuerza Normal que ejerce el piso sobre el bloque (fuerza de reacción)');
+INSERT INTO PreguntasF2 VALUES (171,20,'Un hombre de 12kg de masa, desciende al suelo desde una altura de 12m sujetando una cuerda que pasa por una polea fija sin fricción atado a un saco de Arena de 8 kg de masa; calcular: a) La aceleración del sistema b) La tensión de la cuerda c) ¿Con qué velocidad llega el hombre al suelo?:  ');
+INSERT INTO PreguntasF2 VALUES (171,21,'Un bloque de masa m1 = 3.70kg está sobre un plano inclinado de ángulo 28° y unido por una cuerda a un segundo bloque de m2 =1.86kg que cuelga verticalmente como lo indica la figura. Calcular: (Considerar que la rampa y la polea son carentes de fricción) a) La aceleración del sistema b) La tensión de la cuerda  ');
+INSERT INTO PreguntasF2 VALUES (171,22,'Una gran bola para demolición está sujeta por dos cables de acero ligeros como se muestra en la figura. Si su masa m es de 4090 kg, calcule a) la tensión TB en el cable que forma un ángulo de 40° con la vertical. B) Calcule la tensión TA en el cable horizontal. ');
+INSERT INTO PreguntasF2 VALUES (171,23,'Dos bloques de masas m y 2m están sostenidos en equilibrio sobre un plano inclinado sin fricción como se muestra en la figura. En términos de m y θ, halle a) la magnitud de la tensión T1 y b) la magnitud de la tensión T2.');
+INSERT INTO PreguntasF2 VALUES (171,24,'Una esfera uniforme sólida de 45.0 kg, cuyo diámetro es de 32.0 cm, se apoya contra una pared vertical sin fricción, usando un alambre delgado de 30.0 cm con masa despreciable, como se muestra en la figura. A) Elabore el diagrama de cuerpo libre para la esfera yúselo para determinar la tensión en el alambre. B) ¿Qué tan fuerte empuja la esfera a la pared?');
 
 
 
@@ -1342,59 +1270,42 @@ INSERT INTO Incisos_F2 VALUES
 
 
 -- Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
-(151,161 "a) Velocidad lineal", "b) Velocidad angular", "c) Frecuencia", "d) Aceleración tangencial"),
-(152,162 "a) Magnitud de una fuerza", "b) Magnitud del desplazamiento", "c) Producto de la fuerza y el desplazamiento"),
-(153,163 "a) W = F*d", "b) W = F + d", "c) W = F/d"),
+(151,161 "a) Newton", "b) Julio", "c) Vatio"),
+(152,162 "a) La cantidad de energía almacenada en un objeto.", "b) La cantidad de fuerza aplicada a un objeto.", "c) La transferencia de energía que ocurre cuando una fuerza actúa sobre un objeto y lo desplaza en la dirección de la fuerza."),
+(153,163 "a) W=Fd", "b) W=F+d", "c) W=F/d"),
 (154,164 "a) Masa", "b) Fuerza", "c) Distancia"),
 (155,165 "a) Positivo", "b) Negativo", "c) Cero"),
-(156,166 "a) La fuerza y el desplazamiento están en direcciones opuestas.", "b) La fuerza y el desplazamiento están en la misma dirección.", "c) El objeto está en reposo."),
-(157,167 "a) La fuerza y el desplazamiento están en la misma dirección.", "b) La fuerza y el desplazamiento son perpendiculares entre sí.", "c) La fuerza y el desplazamiento forman un ángulo θ."),
-(158,168 "a) Se suman algebraicamente.", "b) Se restan algebraicamente.", "c) Se multiplican."),
-(159,169 "a) El trabajo es una forma de energía.", "b) La energía es una forma de trabajo.", "c) No hay relación entre trabajo y energía."),
+(156,166 "a) La fuerza y el desplazamiento están en la misma dirección.", "b) La fuerza y el desplazamiento están en direcciones opuestas.", "c) El objeto está en reposo"),
+(157,167 "a) La fuerza y el desplazamiento son perpendiculares entre sí.", "b) La fuerza y el desplazamiento están en la misma dirección.", "c) La fuerza y el desplazamiento forman un ángulo θ"),
+(158,168 "a) Se suman algebraicamente", "b) Se restan algebraicamente", "c) Se multiplican"),
+(159,169 "a) El trabajo es una forma de energía", "b) La energía es una forma de trabajo", "c) No hay relación entre trabajo y energía"),
 (160,170 "a) Energía cinética", "b) Energía potencial", "c) Energía térmica"),
-(161,171 "a) Sumando todas las fuerzas aplicadas.", "b) Sumando los trabajos individuales realizados por cada fuerza.", "c) Restando los trabajos individuales realizados por cada fuerza."),
+(161,171 "a) Sumando todas las fuerzas aplicadas", "b) Sumando los trabajos individuales realizados por cada fuerza", "c) Restando los trabajos individuales realizados por cada fuerza"),
 (162,172 "a) Trabajo positivo", "b) Trabajo negativo", "c) Trabajo cero"),
-(163,173 "a) 500 J", "b) 50 J", "c) 500 N"),
-(164,174 "a) El trabajo es cero.", "b) El trabajo es máximo.", "c) El trabajo es mínimo."),
+(163,173 "a) 500 N", "b) 50 J", "c) 500 J"),
+(164,174 "a) El trabajo es máximo", "b) El trabajo es mínimo", "c) El trabajo es cero"),
 (165,175 "a) Directamente proporcional", "b) Inversamente proporcional", "c) No hay relación"),
-(166,176 "a) El objeto no se desplaza.", "b) La fuerza aplicada es cero.", "c) El objeto se mueve en la dirección opuesta."),
-(167,177 "a) WT=-150 J", "b) WT=150 J", "c) WT=-300 J"),
-(168,178 "a) WT=3.12x10^-9 J", "b) WT=2.62x10^9 J", "c) WT=1.82x10^-10 J"),
-(169,179 "a) 432.04 J", "b) WT=308.02 J", "c) WT=216.02 J"),
-(170,180 "a) WT=11655 J, b) F=777 N, c) Ww=-10594.8 J", "b) WT=1288 J, b) F=71 N, c) Ww=534.4 J", "c) WT=-13655 J, b) F=861 N, c) Ww=-12424.7 J"),
-(171,181 "a) Wo=456 J, Wmg=-456 J, WN=0 J", "b) Wo=581.34 J, Wmg=0 J, WN=0 J", "c) Wo=156.13 J, Wmg=-1 J, WN=1 J"),
-(172,182 "a) WT=(-3Mg)/4d, Ww=gd/M", "b) WT=(4Mgd)/3, Ww=Md/g", "c) WT=(-3Mgd)/4, Ww=Mgd"),
-(173,183 "a) WT=897.1 J", "b) WT=160 J", "c) WT=-422.1 J"),
-(174,184 "a) WT=165.18 J", "b) WT=80.38 J", "c) WT=30.67 J"),
-(175,185 "a) W=35 J", "b) W=16 J", "c) W=10 J"),
-(176,186 "a) T=1600 J", "b) T=3500 J", "c) T=2000 J");
-
-(151,161),
-(152,162),
-(153,163),
-(154,164),
-(155,165),
-(156,166),
-(157,167),
-(158,168),
-(159,169),
-(160,170),
-(161,171),
-(162,172),
-(163,173),
-(164,174),
-(165,175),
-(166,176),
-(167,177),
-(168,178),
-(169,179),
-(170,180),
-(171,181),
-(172,182),
-(173,183),
-(174,184),
-(175,185),
-(176,186);
+(166,176 "a) La fuerza aplicada es cero", "b) El objeto no se desplaza", "c) El objeto se mueve en la dirección opuesta"),
+(167,177 "a) W=Fd", "b) W=F×d×cos(θ)", "c) W=F/d"),
+(168,178 "a) Energía cinética", "b) Energía elástica", "c) Energía gravitacional"),
+(169,179 "a) La fuerza aplicada es nula", "b) La dirección del movimiento es la misma que la dirección de la fuerza", "c) La dirección del movimiento es opuesta a la dirección de la fuerza"),
+(170,180 "a) a.32J, b.31.26N, c.0, d.32J", "b) a.45J, b.81.14N, c.1, d.46J", "c) a.8J, b.31.26N, c.0, d.16J"),
+(171,181 "a) θ=83.15°, W=32J", "b) θ=36.75°, W=16J", "c) θ=233.76°, W=52J"),
+(172,182 "a) a.73.5N, b.0J, c.400J, d.400J, e.WT=800J", "b) a.73.5N, b.370.75J, c.370.75J, d.1J, e.WT=751.5J", "c) a.73.5N, b.370.75J, c.-370.75J, d.0J, e.WT=0J"),
+(173,183 "a) Wo=432J, Ww=-400J, WN=0J", "b) Wo=432J, Ww=-432J, WN=1J", "c) Wo=543J, Ww=-500J, WN=0J"),
+(174,184 "a) a. F=95.46N, b. W=614.3J", "b) a. F=45.28N, b. W=318.89J", "c) F=24.18N, b. W=190.89J"),
+(175,185 "a) WT=300J", "b) WT=219.718J", "c) WT=156.35J"),
+(176,186 "a) F=165.50N, Wo=417.65J", "b) F=384.63N, Wo=500J", "c) F=215.50N, Wo=-417.65J"),
+(177,187 "a) WT=-150J", "b) WT=150J", "c) W=T=-300J"),
+(178,188 "a) WT=3.12x10^-9J", "b) WT=2.62x10^9J", "c) WT=1.82x10^-10J"),
+(179,189 "a) 432.04J", "b) WT=308.02J", "c) WT=216.02J"),
+(180,190 "a) Wo=11655J, b) F=777N, c) Ww=-10594.8J", "b) a.Wo=1288J, b.F=71N, c.Ww=534.4J", "c) a.Wo=-13655J, b.F=861N, c.Ww=-12424.7J"),
+(181,191 "a) Wo=456J, Wmg=-456J, WN=0J", "b) Wo=581.34J, Wmg=0J, WN=0J", "c) Wo=156.13J, Wmg=-1J, WN=1J"),
+(182,192 "a) WT=(-3Mg)/4d, Ww=gd/M", "b) WT=(4Mgd)/3, Ww=Md/g", "c) WT=(-3Mgd)/4, Ww=Mgd"),
+(183,193 "a) a.WF=1600J, WN=0J, Ww=-490.5J, Wff=-212.39J, b.WT=897.1J", "b)a.WF=160J, WN=0J, Ww=0J, Wff=245.39J, b.WT=160J", "c)a.WF=1600J, WN=0J, Ww=-211.5J, Wff=-211.39J, b.WT=-422.1J"),
+(184,194 "a) WT=165.18J", "b) WT=80.38J", "c) WT=30.67J"),
+(185,195 "a) W=35J", "b) W=16J", "c) W=10J"),
+(186,196 "a) T=1600J", "b) T=3500J", "c) T=2000J");
 
 
 -- Tema 3 POTENCIA MECÁNICA
