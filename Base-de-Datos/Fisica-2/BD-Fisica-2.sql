@@ -1342,6 +1342,32 @@ INSERT INTO Incisos_F2 VALUES
 
 
 -- Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
+(151,161 "a) Velocidad lineal", "b) Velocidad angular", "c) Frecuencia", "d) Aceleración tangencial"),
+(152,162 "a) Magnitud de una fuerza", "b) Magnitud del desplazamiento", "c) Producto de la fuerza y el desplazamiento"),
+(153,163 "a) W = F*d", "b) W = F + d", "c) W = F/d"),
+(154,164 "a) Masa", "b) Fuerza", "c) Distancia"),
+(155,165 "a) Positivo", "b) Negativo", "c) Cero"),
+(156,166 "a) La fuerza y el desplazamiento están en direcciones opuestas.", "b) La fuerza y el desplazamiento están en la misma dirección.", "c) El objeto está en reposo."),
+(157,167 "a) La fuerza y el desplazamiento están en la misma dirección.", "b) La fuerza y el desplazamiento son perpendiculares entre sí.", "c) La fuerza y el desplazamiento forman un ángulo θ."),
+(158,168 "a) Se suman algebraicamente.", "b) Se restan algebraicamente.", "c) Se multiplican."),
+(159,169 "a) El trabajo es una forma de energía.", "b) La energía es una forma de trabajo.", "c) No hay relación entre trabajo y energía."),
+(160,170 "a) Energía cinética", "b) Energía potencial", "c) Energía térmica"),
+(161,171 "a) Sumando todas las fuerzas aplicadas.", "b) Sumando los trabajos individuales realizados por cada fuerza.", "c) Restando los trabajos individuales realizados por cada fuerza."),
+(162,172 "a) Trabajo positivo", "b) Trabajo negativo", "c) Trabajo cero"),
+(163,173 "a) 500 J", "b) 50 J", "c) 500 N"),
+(164,174 "a) El trabajo es cero.", "b) El trabajo es máximo.", "c) El trabajo es mínimo."),
+(165,175 "a) Directamente proporcional", "b) Inversamente proporcional", "c) No hay relación"),
+(166,176 "a) El objeto no se desplaza.", "b) La fuerza aplicada es cero.", "c) El objeto se mueve en la dirección opuesta."),
+(167,177 "a) WT=-150 J", "b) WT=150 J", "c) WT=-300 J"),
+(168,178 "a) WT=3.12x10^-9 J", "b) WT=2.62x10^9 J", "c) WT=1.82x10^-10 J"),
+(169,179 "a) 432.04 J", "b) WT=308.02 J", "c) WT=216.02 J"),
+(170,180 "a) WT=11655 J, b) F=777 N, c) Ww=-10594.8 J", "b) WT=1288 J, b) F=71 N, c) Ww=534.4 J", "c) WT=-13655 J, b) F=861 N, c) Ww=-12424.7 J"),
+(171,181 "a) Wo=456 J, Wmg=-456 J, WN=0 J", "b) Wo=581.34 J, Wmg=0 J, WN=0 J", "c) Wo=156.13 J, Wmg=-1 J, WN=1 J"),
+(172,182 "a) WT=(-3Mg)/4d, Ww=gd/M", "b) WT=(4Mgd)/3, Ww=Md/g", "c) WT=(-3Mgd)/4, Ww=Mgd"),
+(173,183 "a) WT=897.1 J", "b) WT=160 J", "c) WT=-422.1 J"),
+(174,184 "a) WT=165.18 J", "b) WT=80.38 J", "c) WT=30.67 J"),
+(175,185 "a) W=35 J", "b) W=16 J", "c) W=10 J"),
+(176,186 "a) T=1600 J", "b) T=3500 J", "c) T=2000 J");
 
 (151,161),
 (152,162),
