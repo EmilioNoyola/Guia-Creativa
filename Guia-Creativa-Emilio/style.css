@@ -120,7 +120,31 @@ p {
     color: #F9FAFC;
     margin-bottom: 15px;
 }
+.VMV {
+    padding: 100px 0;
+    background-color: #021562;
+    position: relative;
+}
 
+.VMV-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.VMV-lol p{
+    text-align: justify;
+}
+
+.VMV-lol h3{
+    font-size: 20px;
+    line-height: 70px;
+    color: #3DADFF;
+    text-transform: uppercase;
+   
+    margin-bottom: 15px;
+    text-align: center;
+}
 /* Agrega estilos CSS para el panel */
         .panel {
             display: none; /* Oculta el panel inicialmente */
