@@ -402,7 +402,7 @@ INSERT INTO Incisos_CD VALUES
 (153,163, "a)x=10m, y=30m, A=300m²", "b)x=25m, y=20m, A=500m²", "c)x=10m, y=20m, A=200m²", "d)x=10m, y=25m, A=250m²"),
 (154,164, "a)Marco superior e inferior: 4$/m, cada marco lateral: 2$/m", "b)Marco superior e inferior: 5$/m, cada marco lateral: 1$/m", "c)Marco superior e inferior: 2$/m, cada marco lateral: 4$/m", "d)Marco superior e inferior: 1$/m, cada marco lateral: 5$/m"),
 (155,165, "a)Alto: 4m, largo: 8m, ancho:8m", "b)Alto: 4m, largo: 4m, ancho:12m", "c)Alto: 2m, largo: 6m, ancho:8m", "d)Alto: 6m, largo: 7m, ancho:7m"),
-(156,166, "a)2", "b)1.30", "c)2.30", "d)1"),
+(156,166, "a)2", "b)1.30", "c)2.30", "d)1"); 
 
 
 
