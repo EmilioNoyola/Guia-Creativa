@@ -32,274 +32,58 @@ CREATE TABLE PreguntasCD(
 -- Preguntas Primer Parcial Calculo diferencial.
 
 -- Tema 1 Inecuaciones lineales
-INSERT INTO PreguntasCD VALUES (161,01,'¿Cuál es la solución de la desigualdad: 6(x²+1) - (2x-4)(3x+2) < 3(5x+21)?; Respuesta: 
-a) x > −7. Notación de intervalos:(−7, ∞)
-b) x < −7. Notación de intervalos:(−∞, −7)
-c) x > 7. Notación de intervalos:(7, ∞)
-d) x < 7. Notación de intervalos:(−∞, 7)
-');
-INSERT INTO PreguntasCD VALUES (161,02,'¿Cuáles son los números enteros cuyo tercio aumentado en 15 es mayor que su mitad aumentada en 1?; Respuesta:
-a) Todos los números enteros menores que 84
-b) Todos los números enteros menores que 82
-c) Todos los números enteros mayores que 84
-d) Todos los números enteros mayores que 86
-');
-INSERT INTO PreguntasCD VALUES (161,03,'¿Cuál es la solución de la desigualdad: 10(x-1) > 10(x+1)-10x?; Respuesta:
-a) x > 2. Notación en intervalos: (2, ∞)
-b) x < 2. Notación en intervalos: (−∞, 2)
-c) x > −2. Notación en intervalos: (−2, ∞)
-d) x < −2. Notación en intervalos: (−∞, −2)
-');
-INSERT INTO PreguntasCD VALUES (161,04,'¿Cuál es la solución de la desigualdad: ((x+3)(x+2)/3)-4 > x(x+2)/3?; Respuesta:
-a) x > 2. Notación en intervalos: (2, ∞)
-b) x < 2. Notación en intervalos: (−∞, 2)
-c) x > −2. Notación en intervalos: (−2, ∞)
-d) x < −2. Notación en intervalos: (−∞, −2)
-');
-INSERT INTO PreguntasCD VALUES (161,05,'¿Cuál es la solución de la desigualdad: x/2+x/3 > 5?; Respuesta:
-a) x > 6. Notación en intervalos: (6, ∞)
-b) x < 6. Notación en intervalos: (−∞, 6)
-c) x > −6. Notación en intervalos: (−6, ∞)
-d) x < −6. Notación en intervalos: (−∞, −6)
-');
-INSERT INTO PreguntasCD VALUES (161,06,'¿Cuál es la solución de la desigualdad: -2 < 8-2x ≤ -1?; Respuesta:
-a) 9/2 ≤ x < 5. Notación de intervalos [9/2,5)
-b) 9/2 < x ≤ 5. Notación de intervalos (9/2,5]
-c) 9/2 < x < 5. Notación de intervalos (9/2,5)
-d) 9/2 ≤ x ≤ 5. Notación de intervalos [9/2,5]
-');
-INSERT INTO PreguntasCD VALUES (161,07,'¿Cuál es la solución de la desigualdad: 2x+1 ≤ (3x-4)/2 < x?; Respuesta:
-a) x ≤ -6. Notación en intervalos: (-∞, -6]
-b) x > -6. Notación en intervalos: (-6, ∞)
-c) x < -6. Notación en intervalos: (-∞, -6)
-d) x ≥ -6. Notación en intervalos: [-6, ∞)
-');
-INSERT INTO PreguntasCD VALUES (161,08,'¿Cuál es la solución de la desigualdad: (3/5x)-7 ≤ 5x-(9/5)?; Respuesta:
-a) x ≥ -13/11. Notación de intervalos: [-13/11, ∞)
-b) x < -13/11. Notación de intervalos: (-∞, -13/11)
-c) x > -13/11. Notación de intervalos: (-13/11, ∞)
-d) x ≤ -13/11. Notación de intervalos: (-∞, -13/11]
-');
-INSERT INTO PreguntasCD VALUES (161,09,'¿Cuál es la solución de la desigualdad: (1/14x) + 4 ≥ 6(1-(2/7x))?; Respuesta:
-a) x ≥ 28/25. Notación de intervalos: [28/25, ∞)
-b) x < 28/25. Notación de intervalos: (-∞, 28/25)
-c) x > 28/25. Notación de intervalos: (28/25, ∞)
-d) x ≤ 28/25. Notación de intervalos: (-∞, 28/25]
-');
-INSERT INTO PreguntasCD VALUES (161,10,'¿Cuál es la solución de la desigualdad: 6(x-5)(x-4) > 0?; Respuesta:
-a) x < 4 o x > 5. Notación de intervalos: (-∞,4) ∪ (5, ∞)
-b) x > 4 y x < 5. Notación de intervalos: (4, 5)
-c) x ≤ 4 o x ≥ 5. Notación de intervalos: (-∞,4] ∪ [5, ∞)
-d) x ≥ 4 y x ≤ 5. Notación de intervalos: [4, 5]
-');
+INSERT INTO PreguntasCD VALUES (161,01,'¿Cuál es la solución de la desigualdad: 6(x²+1) - (2x-4)(3x+2) < 3(5x+21)? ');
+INSERT INTO PreguntasCD VALUES (161,02,'¿Cuáles son los números enteros cuyo tercio aumentado en 15 es mayor que su mitad aumentada en 1?');
+INSERT INTO PreguntasCD VALUES (161,03,'¿Cuál es la solución de la desigualdad: 10(x-1) > 10(x+1)-10x?');
+INSERT INTO PreguntasCD VALUES (161,04,'¿Cuál es la solución de la desigualdad: ((x+3)(x+2)/3)-4 > x(x+2)/3?');
+INSERT INTO PreguntasCD VALUES (161,05,'¿Cuál es la solución de la desigualdad: x/2+x/3 > 5?');
+INSERT INTO PreguntasCD VALUES (161,06,'¿Cuál es la solución de la desigualdad: -2 < 8-2x ≤ -1?');
+INSERT INTO PreguntasCD VALUES (161,07,'¿Cuál es la solución de la desigualdad: 2x+1 ≤ (3x-4)/2 < x?');
+INSERT INTO PreguntasCD VALUES (161,08,'¿Cuál es la solución de la desigualdad: (3/5x)-7 ≤ 5x-(9/5)?');
+INSERT INTO PreguntasCD VALUES (161,09,'¿Cuál es la solución de la desigualdad: (1/14x) + 4 ≥ 6(1-(2/7x))?');
+INSERT INTO PreguntasCD VALUES (161,10,'¿Cuál es la solución de la desigualdad: 6(x-5)(x-4) > 0?');
 
 -- Tema 2 Inecuaciones de valor absoluto
-INSERT INTO PreguntasCD VALUES (162,11,'¿Cuál es la solución de la desigualdad | x²-2 | ≤ 2?; Respuesta:
-a) −1 ≤ x ≤ 1. Notación de intervalos: [-1,1]
-b) −2 ≤ x ≤ 2. Notación de intervalos: [-2,2]
-c) −3 ≤ x ≤ 3. Notación de intervalos: [-3,3]
-d) −4 ≤ x ≤ 4. Notación de intervalos: [-4,4]
-');
-INSERT INTO PreguntasCD VALUES (162,12,'¿Cuál es la solución de la desigualdad | 4-(7/(2x-1)) | ≥ 7?; Respuesta:
-a) 0 < x ≤ 1/2 o x > 1/2. Notación de intervalos: (0,1/2] ∪ (1/2, ∞)
-b) −2/3 ≤ x <1/2 o 1/2 < x ≤ 9/11. Notación de intervalos: [−2/3,1/2) ∪ (1/2,9/11]
-c) −1 ≤ x ≤ 1. Notación de intervalos: [-1,1]
-d) 1 < x ≤ 2. Notación de intervalos: (1,2]
-');
-INSERT INTO PreguntasCD VALUES (162,13,'¿Cuál es la solución de la desigualdad | x+5 | ≤ 3?; Respuesta:
-a) −5 ≤ x ≤ −2. Notación de intervalos: [-5,-2]
-b) −8 ≤ x ≤ −2. Notación de intervalos: [-8,−2]
-c) −3 ≤ x ≤ 2. Notación de intervalos: [-3,2]
-d) −6 ≤ x ≤ 1. Notación de intervalos: [-6,1]
-');
-INSERT INTO PreguntasCD VALUES (162,14,'¿Cuál es la solución de la desigualdad | 1-(2/3x) |<1?; Respuesta:
-a) 0 ≤ x < 3. Notación de intervalos: [0,3)
-b) 0 < x < 3. Notación de intervalos: (0,3)
-c) −1 ≤ x ≤ 1. Notación de intervalos: [-1,1]
-d) 0 ≤ x ≤ 2. Notación de intervalos: [0,2]
-');
-INSERT INTO PreguntasCD VALUES (162,15,'¿Cuál es la solución de la desigualdad | (4x+2) /2 | ≤ 5x?; Respuesta:
-a) x ≥ 1/3. Notación de intervalos: [1/3, ∞)
-b) x > 0. Notación de intervalos: (0, ∞)
-c) x < −1/3. Notación de intervalos: (-∞, -1/3)
-d) x ≤ −1/4. Notación de intervalos: (-∞, -1/4]
-');
-INSERT INTO PreguntasCD VALUES (162,16,'¿Cuál es la solución de la desigualdad 1 ≤ | (3x+2) /(x-3) |?; Respuesta:
-a) x ≤ -5/2 o 1/4 ≤ x ≤ 3 o x > 3. Notación de intervalos: (-∞, -5/2] ∪ [1/4,3) ∪ (3, ∞)
-b) x ≤ -3 o -1 ≤ x ≤ 2 o x > 2. Notación de intervalos: (-∞, -3] ∪ [-1,2] ∪ (2, ∞)
-c) x ≤ -4 o -1/3 ≤ x ≤ 3 o x > 3. Notación de intervalos: (-∞, -4] ∪ [-1/3,3) ∪ (3, ∞)
-d) x ≤ -2 o 1/3 ≤ x ≤ 4 o x > 4. Notación de intervalos: (-∞, -2] ∪ [1/3,4) ∪ (4, ∞)
-');
-INSERT INTO PreguntasCD VALUES (162,17,'¿Cuál es la solución de la desigualdad | (2-3x) /(1+x) | > 1?; Respuesta:
-a) x < -1 o -1 < x < 1/4 o x > 1/4. Notación de intervalos: (-∞, -1) ∪ (-1,1/4) ∪ (1/4, ∞)
-b) x < -2 o -1 < x < 0 o x > 0. Notación de intervalos: (-∞, -2) ∪ (-1,0) ∪ (0, ∞)
-c) x < -3 o -1/2 < x < 1/4 o x > 1/4. Notación de intervalos: (-∞, -3) ∪ (-1/2,1/4) ∪ (1/4, ∞)
-d) x < -4 o -1 < x < 1/3 o x > 1/3. Notación de intervalos: (-∞, -4) ∪ (-1,1/3) ∪ (1/3, ∞)
-');
-
-INSERT INTO PreguntasCD VALUES (162,18,'¿Cuál es la solución de la desigualdad | (x+3) /(2x) | ≤ 10?; Respuesta:
-a) x ≤ -1/7 o x ≥ 3/19. Notación de intervalos: (-∞, -1/7] ∪ (3/19, ∞)
-b) x < -1 o x > 1. Notación de intervalos: (-∞, -1) ∪ (1, ∞)
-c) x ≤ -1/3 o x ≥ 1/4. Notación de intervalos: (-∞, -1/3] ∪ (1/4, ∞)
-d) x < -1/4 o x > 1/3. Notación de intervalos: (-∞, -1/4) ∪ (1/3, ∞)
-');
-INSERT INTO PreguntasCD VALUES (162,19,'¿Cuál es la solución de la desigualdad (6x+3) /(4x-2) |<12?; Respuesta:
-a) x < 7/18 o x > 9/14. Notación de intervalos: (-∞,7/18) ∪ (9/14, ∞)
-b) x < 1/6 o x > 1/3. Notación de intervalos: (-∞,1/6) ∪ (1/3, ∞)
-c) x < 1/2 o x > 2/3. Notación de intervalos: (-∞,1/2) ∪ (2/3, ∞)
-d) x < 1/4 o x > 1/2. Notación de intervalos: (-∞,1/4) ∪ (1/2, ∞)
-');
-INSERT INTO PreguntasCD VALUES (162,20,'¿Cuál es la solución de la desigualdad | 13-2x | > (1 / 2) +x?; Respuesta:
-a) x < 25/6 o x > 27/2. Notación de intervalos: (-∞,25/6) ∪ (27/2, ∞)
-b) x < 5/2 o x > 13/6. Notación de intervalos: (-∞,5/2) ∪ (13/6, ∞)
-c) x < 7/2 o x > 17/4. Notación de intervalos: (-∞,7/2) ∪ (17/4, ∞)
-d) x < 4 o x > 15/4. Notación de intervalos: (-∞,4) ∪ (15/4, ∞)
-');
+INSERT INTO PreguntasCD VALUES (162,11,'¿Cuál es la solución de la desigualdad | x²-2 | ≤ 2?');
+INSERT INTO PreguntasCD VALUES (162,12,'¿Cuál es la solución de la desigualdad | 4-(7/(2x-1)) | ≥ 7?');
+INSERT INTO PreguntasCD VALUES (162,13,'¿Cuál es la solución de la desigualdad | x+5 | ≤ 3?');
+INSERT INTO PreguntasCD VALUES (162,14,'¿Cuál es la solución de la desigualdad | 1-(2/3x) |<1?');
+INSERT INTO PreguntasCD VALUES (162,15,'¿Cuál es la solución de la desigualdad | (4x+2) /2 | ≤ 5x?');
+INSERT INTO PreguntasCD VALUES (162,16,'¿Cuál es la solución de la desigualdad 1 ≤ | (3x+2) /(x-3) |?');
+INSERT INTO PreguntasCD VALUES (162,17,'¿Cuál es la solución de la desigualdad | (2-3x) /(1+x) | > 1?');
+INSERT INTO PreguntasCD VALUES (162,18,'¿Cuál es la solución de la desigualdad | (x+3) /(2x) | ≤ 10?');
+INSERT INTO PreguntasCD VALUES (162,19,'¿Cuál es la solución de la desigualdad (6x+3) /(4x-2) |<12?');
+INSERT INTO PreguntasCD VALUES (162,20,'¿Cuál es la solución de la desigualdad | 13-2x | > (1 / 2) +x?');
 
 
 -- Tema 3 Inecuaciones no lineales
-INSERT INTO PreguntasCD VALUES (163,21,'¿Cuál es la solución de la desigualdad 1 < 6x²-x?; Respuesta:
-a) x < −1/3 o x > 1/2. Notación de intervalos: (−∞, −1/3) ∪ (1/2, ∞)
-b) x < 1/3 o x > 1/6. Notación de intervalos: (−∞, 1/3) ∪ (1/6, ∞)
-c) x < 1/2 o x > 1/4. Notación de intervalos: (−∞, 1/2) ∪ (1/4, ∞)
-d) x < 1 o x > 2/3. Notación de intervalos: (−∞, 1) ∪ (2/3, ∞)
-');
-INSERT INTO PreguntasCD VALUES (163,22,'¿Cuál es la solución de la desigualdad x² < x+2?; Respuesta:
-a) −1 < x < 2. Notación de intervalos: (−1,2)
-b) −2 < x < 3. Notación de intervalos: (−2,3)
-c) −3 < x < 4. Notación de intervalos: (−3,4)
-d) −4 < x < 5. Notación de intervalos: (−4,5)
-');
-INSERT INTO PreguntasCD VALUES (163,23,'¿Cuál es la solución de la desigualdad x²+x-1 ≤ 5?; Respuesta:
-a) −3 ≤ x ≤ 2. Notación de intervalos: [−3,2]
-b) −2 ≤ x ≤ 3. Notación de intervalos: [−2,3]
-c) −1 ≤ x ≤ 4. Notación de intervalos: [−1,4]
-d) 0 ≤ x ≤ 5. Notación de intervalos: [0,5]
-');
-INSERT INTO PreguntasCD VALUES (163,24,'¿Cuál es la solución de la desigualdad 2x²+x ≥ 1?; Respuesta:
-a) x ≤ -1 o x ≥ 1/2. Notación de intervalos: (−∞, −1]∪ [1/2, ∞)
-b) x ≤ -1/2 o x ≥ 1. Notación de intervalos: (−∞, −1/2]∪ [1, ∞)
-c) x ≤ 0 o x ≥ 3/2. Notación de intervalos: (−∞, 0]∪ [3/2, ∞)
-d) x ≤ 1/3 o x ≥ 2. Notación de intervalos: (−∞, 1/3]∪ [2, ∞)
-');
-INSERT INTO PreguntasCD VALUES (163,25,'¿Cuál es la solución de la desigualdad 3²-3x < 2x²+4?; Respuesta:
-a) -1< x < 4. Notación de intervalos: (1,4)
-b) -2< x < 5. Notación de intervalos: (2,5)
-c) -3< x < 6. Notación de intervalos: (3,6)
-d) -4< x < 7. Notación de intervalos: (4,7)
-');
-INSERT INTO PreguntasCD VALUES (163,26,'¿Cuál es la solución de la desigualdad x²+1 < 9x-3?; Respuesta:
-a) 1/2 < x < 4. Notación de intervalos: (1/2,4)
-b) 1/3 < x < 5. Notación de intervalos: (1/3,5)
-c) 1/4 < x < 6. Notación de intervalos: (1/4,6)
-d) 1/5 < x < 7. Notación de intervalos: (1/5,7)
-');
-INSERT INTO PreguntasCD VALUES (163,27,'¿Cuál es la solución de la desigualdad x³ > (x-1)²?; Respuesta:
-a) x > 0.56984029. Notación de intervalos: (0.56984029, ∞)
-b) x > 0.46984029. Notación de intervalos: (0.46984029, ∞)
-c) x > 0.36984029. Notación de intervalos: (0.36984029, ∞)
-d) x > 0.26984029. Notación de intervalos: (0.26984029, ∞)
-');
-INSERT INTO PreguntasCD VALUES (163,28,'¿Cuál es la solución de la desigualdad 2x²+9x+4 > 0?; Respuesta:
-a) x < -4 o x > -1/2. Notación de intervalos: (-∞, -4) ∪ (-1/2, ∞)
-b) x < -3 o x > -1. Notación de intervalos: (-∞, -3) ∪ (-1, ∞)
-c) x < -2 o x > -1/4. Notación de intervalos: (-∞, -2) ∪ (-1/4, ∞)
-d) x < -1 o x > -1/8. Notación de intervalos: (-∞, -1) ∪ (-1/8, ∞)
-');
-INSERT INTO PreguntasCD VALUES (163,29,'¿Cuál es la solución de la desigualdad 2x²+5x < -x²+1?; Respuesta:
-a) (-5+(√37)) /6 < x < (-5-(√37)) /6. Notación de intervalos: ((-5+(√37)) /6, (-5-(√37)) /6)
-b) (-5+(√27)) /6 < x < (-5-(√27)) /6. Notación de intervalos: ((-5+(√27)) /6, (-5-(√27)) /6)
-c) (-5+(√17)) /6 < x < (-5-(√17)) /6. Notación de intervalos: ((-5+(√17)) /6, (-5-(√17)) /6)
-d) (-5+(√7)) /5 <x < -(-5-(√17))/6. Notacion de intervalos: -((-5+(√17)) /5, (-5-(√17)) /6)
-');
-INSERT INTO PreguntasCD VALUES (163,30,'¿Cuál es la solución de la desigualdad x³-4x > 0?; Respuesta:
-a) -2 < x o x > 2. Notación de intervalos: (-2,0) ∪ (2, ∞)
-b) -3 < x o x > 3. Notación de intervalos: (-3,0) ∪ (3, ∞)
-c) -4 < x o x > 4. Notación de intervalos: (-4,0) ∪ (4, ∞)
-d) -5 < x o x > 5. Notación de intervalos: (-5,0) ∪ (5, ∞)
-');
-INSERT INTO PreguntasCD VALUES (163,31,'¿Cuál es la solución de la desigualdad 4x²(x²-9) ≤ 0?; Respuesta:
-a) -3 ≤ x ≤ 3. Notación de intervalos: [-3,3]
-b) -4 ≤ x ≤ 4. Notación de intervalos: [-4,4]
-c) -5 ≤ x ≤ 5. Notación de intervalos: [-5,5]
-d) -6 ≤ x ≤ 6. Notación de intervalos: [-6,6]
-');
-INSERT INTO PreguntasCD VALUES (163,32,'¿Cuál es la solución de la desigualdad (x+3)²(x+1)>0?; Respuesta:
-a) x > -1. Notación de intervalos: (-1, ∞)
-b) x > -2. Notación de intervalos: (-2, ∞)
-c) x > -3. Notación de intervalos: (-3, ∞)
-d) x > -4. Notación de intervalos: (-4, ∞)
-');
+INSERT INTO PreguntasCD VALUES (163,21,'¿Cuál es la solución de la desigualdad 1 < 6x²-x?;');
+INSERT INTO PreguntasCD VALUES (163,22,'¿Cuál es la solución de la desigualdad x² < x+2?');
+INSERT INTO PreguntasCD VALUES (163,23,'¿Cuál es la solución de la desigualdad x²+x-1 ≤ 5?');
+INSERT INTO PreguntasCD VALUES (163,24,'¿Cuál es la solución de la desigualdad 2x²+x ≥ 1?');
+INSERT INTO PreguntasCD VALUES (163,25,'¿Cuál es la solución de la desigualdad 3²-3x < 2x²+4?');
+INSERT INTO PreguntasCD VALUES (163,26,'¿Cuál es la solución de la desigualdad x²+1 < 9x-3?');
+INSERT INTO PreguntasCD VALUES (163,27,'¿Cuál es la solución de la desigualdad x³ > (x-1)²?');
+INSERT INTO PreguntasCD VALUES (163,28,'¿Cuál es la solución de la desigualdad 2x²+9x+4 > 0?');
+INSERT INTO PreguntasCD VALUES (163,29,'¿Cuál es la solución de la desigualdad 2x²+5x < -x²+1?');
+INSERT INTO PreguntasCD VALUES (163,30,'¿Cuál es la solución de la desigualdad x³-4x > 0?');
+INSERT INTO PreguntasCD VALUES (163,31,'¿Cuál es la solución de la desigualdad 4x²(x²-9) ≤ 0?');
+INSERT INTO PreguntasCD VALUES (163,32,'¿Cuál es la solución de la desigualdad (x+3)²(x+1)>0?');
 
 -- Tema 4 Inecuaciones racionales
-INSERT INTO PreguntasCD VALUES (164,33,'¿Cuál es la solución de la desigualdad |(x+1) / (2)| ≥ 1?; Respuesta:
-a) x ≤ −3 ∪ x ≥ 1. Notación de intervalos:(−∞, −3] ∪ [1, ∞)
-b) x ≤ −1 ∪ x ≥ 3. Notación de intervalos:(−∞, −1] ∪ [3, ∞)
-c) x ≤ −2 ∪ x ≥ 2. Notación de intervalos:(−∞, −2] ∪ [2, ∞)
-d) x ≤ −4 ∪ x ≥ 4. Notación de intervalos:(−∞, −4] ∪ [4, ∞)
-');
-INSERT INTO PreguntasCD VALUES (164,34,'¿Cuál es la solución de la desigualdad (x²-4x+5) / (x²-3x-4) < 0?; Respuesta:
-a) -1 < x < 4. Notación de intervalos:(-1,4)
-b) 1 < x < 3. Notación de intervalos:(1,3)
-c) -1 < x < 2. Notación de intervalos:(-1,2)
-d) -2 < x < 1. Notación de intervalos:(-2,1)
-');
-INSERT INTO PreguntasCD VALUES (164,35,'¿Cuál es la solución de la desigualdad 1/(x+3) ≤ 4/x?; Respuesta:
-a) −4 ≤ x < −3 o x > 0. Notación de intervalos: [−4,−3) ∪ (0, ∞)
-b) −5 ≤ x < −2 o x > 1. Notación de intervalos: [−5,−2) ∪ (1, ∞)
-c) −6 ≤ x < −1 o x > 2. Notación de intervalos: [−6,−1) ∪ (2, ∞)
-d) −7 ≤ x < 0 o x > 3. Notación de intervalos: [−7,0) ∪ (3, ∞)
-');
-INSERT INTO PreguntasCD VALUES (164,36,'¿Cuál es la solución de la desigualdad 1 ≤ -2x/(x-1)?; Respuesta:
-a) 1/3 ≤ x < 1. Notación de intervalos: [1/3,1)
-b) 1/2 ≤ x < 2. Notación de intervalos: [1/2,2)
-c) 1/4 ≤ x < 3. Notación de intervalos: [1/4,3)
-d) 1/5 ≤ x < 4. Notación de intervalos: [1/5,4)
-');
-INSERT INTO PreguntasCD VALUES (164,37,'¿Cuál es la solución de la desigualdad (x+3) /(2-x) ≥ x /(x+1)?; Respuesta:
-a) -1 < x < 2. Notación de intervalos:(-1,2)
-b) -2 < x < 1. Notación de intervalos:(-2,1)
-c) -3 < x < 0. Notación de intervalos:(-3,0)
-d) -4 < x < -1. Notación de intervalos:(-4,-1)
-');
-INSERT INTO PreguntasCD VALUES (164,38,'¿Cuál es la solución de la desigualdad 1/(x) ≤ (1/(x+1)) -(2/(x+2))?; Respuesta:
-a) x < -2 o -1 < x < 0 o . Notación de intervalos:(-∞, -2) ∪ (-1,0)
-b) x < -1 o -1/3 ≤ x < 0 o 1/2 < x ≤ 3/2. Notación de intervalos:(-∞, -1) ∪ [-1/3,0) ∪ (1/2,3/2)
-c) x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)
-d) x < 0 o 1/3 ≤ x < 2/3 o 3/2 < x ≤ 2. Notación de intervalos
-');
-INSERT INTO PreguntasCD VALUES (164,39,'¿Cuál es la solución de la desigualdad x/(x+1) ≥ 5/x?; Respuesta:
-a)x < -1 o -0.8541 ≤ x < 0 o x ≥ 5. 8441.Notacion de intervalos:(-∞, -1)∪ [-0.8541,0) ∪ [5.8541, ∞)
-b)-3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)
-c)(-5+(√7)) /5 <x < -(-5-(√17))/6. Notacion de intervalos: -((-5+(√17)) /5, (-5-(√17)) /6)
-d)x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)
-');
-INSERT INTO PreguntasCD VALUES (164,40,'¿Cuál es la solución de la desigualdad x/(x-5) > 3x?; Respuesta:
-a)x < 0 o 5 < x < 16/3. Notación de intervalos:(-∞,0) ∪ (5,16/3)
-b)(-5+(√7)) /5 <x < -(-5-(√17))/6. Notacion de intervalos: -((-5+(√17)) /5, (-5-(√17)) /6)
-c)-3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)
-d)x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)
-');
-INSERT INTO PreguntasCD VALUES (164,41,'¿Cuál es la solución de la desigualdad 6/x ≤ x-5?; Respuesta:
-a) -1 ≤ x < 0 o x ≥ 6. Notación de intervalos: [-1,0) ∪ [6, ∞)
-b) -2 ≤ x < -1 o x ≥ 5. Notación de intervalos: [-2,-1) ∪ [5, ∞)
-c) -3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)
-d) -4 ≤ x < -3 o x ≥ 3. Notación de intervalos: [-4,-3) ∪ [3, ∞)
-');
-INSERT INTO PreguntasCD VALUES (164,42,'¿Cuál es la solución de la desigualdad (x+2) /(x+3) < (x-1) /(x-2)?; Respuesta:
-a) -3 < x < -1/2 o x > 2. Notación de intervalos:(-3,-1/2) ∪ (2, ∞)
-b) -4 < x < -1/3 o x > 3. Notación de intervalos:(-4,-1/3) ∪ (3, ∞)
-c) -5 < x < -1/4 o x > 4. Notación de intervalos:(-5,-1/4) ∪ (4, ∞)
-d) -6 < x < -1/5 o x > 5. Notación de intervalos:(-6,-1/5) ∪ (5, ∞)
-');
+INSERT INTO PreguntasCD VALUES (164,33,'¿Cuál es la solución de la desigualdad |(x+1) / (2)| ≥ 1?');
+INSERT INTO PreguntasCD VALUES (164,34,'¿Cuál es la solución de la desigualdad (x²-4x+5) / (x²-3x-4) < 0?');
+INSERT INTO PreguntasCD VALUES (164,35,'¿Cuál es la solución de la desigualdad 1/(x+3) ≤ 4/x?');
+INSERT INTO PreguntasCD VALUES (164,36,'¿Cuál es la solución de la desigualdad 1 ≤ -2x/(x-1)?');
+INSERT INTO PreguntasCD VALUES (164,37,'¿Cuál es la solución de la desigualdad (x+3) /(2-x) ≥ x /(x+1)?');
+INSERT INTO PreguntasCD VALUES (164,38,'¿Cuál es la solución de la desigualdad 1/(x) ≤ (1/(x+1)) - (2/(x+2))?');
+INSERT INTO PreguntasCD VALUES (164,39,'¿Cuál es la solución de la desigualdad x/(x+1) ≥ 5/x?');
+INSERT INTO PreguntasCD VALUES (164,40,'¿Cuál es la solución de la desigualdad x/(x-5) > 3x?');
+INSERT INTO PreguntasCD VALUES (164,41,'¿Cuál es la solución de la desigualdad 6/x ≤ x-5?');
+INSERT INTO PreguntasCD VALUES (164,42,'¿Cuál es la solución de la desigualdad (x+2) /(x+3) < (x-1) /(x-2)?');
 
 -- Tema 5 Evaluar funciones
-INSERT INTO PreguntasCD VALUES (165,43,'f(x) = 3x-2; a) f (0)		b) f(5)		c) f(b) 		d) f(x-1)
-A)a) -2 		b) 13 		c) 3b-2 	d) 3x-5
-B)a) -1 		b) 14 		c) 6b-1 	d) 3x+3
-C)a) 0 		    b) 16 		c) 2b-9 	d) x-6
-D)a) -3 		b) 14 		c) b-2 	    d) 6x-8
-');
+INSERT INTO PreguntasCD VALUES (165,43,'f(x) = 3x-2; a) f (0)		b) f(5)		c) f(b) 		d) f(x-1)');
 INSERT INTO PreguntasCD VALUES (165,44,'x es inversamente proporcional a y²-1. Si x=9 cuando y=3, hallar cuando y=5
 a)3
 b)5
@@ -330,25 +114,25 @@ b)3 y 4
 c)4 y 5
 d)4 y -4
 ');
-INSERT INTO PreguntasCD VALUES (165,49,'g(x) = 5-x²; a) g (0)		b) g(√5)		c) g(-2) 		d) g(t-1)
-A)a) 4√18	b) √8 		c) 2√4 	d) √(x^2+2bx^2+b^2+4)
-B)a) √3		b) √10 		c) 3√6 	d) √(x^2+2bx^2+b^2x)
-C)a) √2		b) √11 		c) 2√2 	d) √(2bx^2+b^2x^2+4)
-D)a) 2√2	b) √13 		c) 2√2 	d) √(x^2+2bx^2+b^2x^2+4)
+INSERT INTO PreguntasCD VALUES (165,49,'f(x) = √ (x²+5); a) f (-2)		b) f(3)		c) f (2) 			
+A)a) 4√18	b) √8 		c) 2√4 	
+B)a) √3		b) √10 		c) 3√6 	
+C)a) √2		b) √11 		c) 2√2 	
+D)a) 3	    b)√14   	c) 3 	
 ');
-INSERT INTO PreguntasCD VALUES (165,50,'f(x) = √ (x²+5); a) f (-2)		b) f(3)		c) f (2) 		d) f(x+bx)
-A)a) 5		b) 0 		c) 1 	d) 4+2t-t^2
-B)a) 7		b) 1 		c) 6 	d) 6+4t-t^2
-C)a) 6		b) 4 		c) 8 	d) 4+-t^2
-D)a) 4		b) 2 		c) 1 	d) 4+4t-t
+INSERT INTO PreguntasCD VALUES (165,50,'g(x) = 5-x² ; a) g (0)		b) g(√5)		c) g(-2)                                          	
+A)a) 5		b) 0 		c) 1 	
+B)a) 7		b) 1 		c) 6 	
+C)a) 6		b) 4 		c) 8 	
+D)a) 4		b) 2 		c) 1 	
 ');
 INSERT INTO PreguntasCD VALUES (165,51,'f(x) = x³; (f(x+Δx)-f(x)) /Δx
-a)3x^2 + 3x∆x + (∆x) ^2, ∆x ≠ 0
-b)3x^2 + 6x∆x + (∆x) ^4, ∆x ≠ 0
-c)5x^2 + 4x∆x + (∆x) ^3, ∆x ≠ 0
-d)x^2 + 5x∆x + (∆x) ^2, ∆x ≠ 0
+a)3x² + 3x∆x + (∆x)², ∆x ≠ 0
+b)3x² + 6x∆x + (∆x) ^4, ∆x ≠ 0
+c)5x² + 4x∆x + (∆x) ^3, ∆x ≠ 0
+d)x² + 5x∆x + (∆x)², ∆x ≠ 0
 ');
-INSERT INTO PreguntasCD VALUES (165,52,'Sea f(x) = 3x²+x-5;Evalua en: a) f (-2)		b) f(0)		c) f (4) 		d) f (1/2)
+INSERT INTO PreguntasCD VALUES (165,52,'Sea f(x) = 3x²+x-5; Evalua en: a) f (-2)		b) f(0)		c) f (4) 		d) f (1/2)
 A) a) 5		b) -5 	c) 47 	d) -15/4
 B) a) 10	b) -3 	c) 47 	d) 15/4
 C) a) 5		b) -3 	c) 33 	d) -12/2
@@ -361,10 +145,10 @@ C)a) El cambio neto es 8 		b) El cambio neto es 0
 D)a) El cambio neto es 6 		b) El cambio neto es 2
 ');
 INSERT INTO PreguntasCD VALUES (165,54,'Sea f(x) = 2x²+3x-1; a) f (a)		b) f(-a)		c) f (a+h) 		d) (f(a+h)-f(a)) /(h), h ≠ 0
-A)a) 5x^2 - 3x + 2  b) 4x^2 + 2x - 1    c) 3x^2 - 5x + 4                d) 2x^2 - 3x - 2
-B)a) 3y^2 + 5y - 2  b) 4y^2 - 3y + 1    c) 2y^2 + 4y + 3                d) 5y - 2y^2 - 4
-C)a) 6z^2 + 2z - 3  b) 3z^2 - 4z + 5    c) 2z^2 + 3z + 1                d) 4z - 2z^2 - 3
-D)a) 2a^2+3a-1		b) 2a^2-3a-1		c) 2a^2+4ah+2h^2+3a+3h-1	    d) 4a+2h+3	
+A)a) 5x² - 3x + 2  b) 4x² + 2x - 1    c) 3x² - 5x + 4                d) 2x^2 - 3x - 2
+B)a) 3y² + 5y - 2  b) 4y² - 3y + 1    c) 2y² + 4y + 3                d) 5y - 2y^2 - 4
+C)a) 6z² + 2z - 3  b) 3z² - 4z + 5    c) 2z² + 3z + 1                d) 4z - 2z^2 - 3
+D)a) 2a²+3a-1		b) 2a²-3a-1		c) 2a²+4ah+2h²+3a+3h-1	         d) 4a+2h+3	
 ');
 INSERT INTO PreguntasCD VALUES (165,55,'Si una astronauta pesa 130 libras en la superficie de la Tierra, entonces cuando esté a h millas sobre la Tierra suu peso está dado por la función w(h)= 130(3960/3960+h)², a)	Cual es el peso del astronauta a 100 millas sobre la Tierra?, b)Encuentre el cambio de peso neto en el peso del astronauta desde el nivel del suelo hasta una altura de 500mi 
 A)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 114lb
@@ -415,7 +199,7 @@ b) Dominio: (-∞,1] | Rango: [0, ∞)
 c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
 d) Dominio: (-∞, 1] | Rango: [0,∞)
 ');
-INSERT INTO PreguntasCD VALUES (166, 62,'f(x) = 2X+1, x < 0 & 2x+2, x ≥ 0  (a) f(-1)	(b) f(0)		(c) f(2)		(d) f (t^ 2+1) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (166, 62,'f(x) = 2X+1, x < 0 & 2x+2, x ≥ 0  (a) f(-1)	(b) f(0)		(c) f(2)		(d) f (t²+1) ; Respuesta:
 A)(a) -1 		(b) 2		(c) 6		(d) 2t²+4
 Dominio: (-∞, ∞)
 Rango: (-∞,1) ∪ [2, ∞)
@@ -483,50 +267,50 @@ b)√3
 c)√3 - 3
 d)√3 + 1	
 ');
-INSERT INTO PreguntasCD VALUES (261, 70,'lim┬(x→π/2)⁡(sen(x)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 70,'lim┬(x→π/2) ⁡(sen(x)); Respuesta:
 a)0
 b)1
 c)3
 d)1/3
 ');
-INSERT INTO PreguntasCD VALUES (261, 71,'lim┬(x→0)⁡(sec(2x)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 71,'lim┬(x→0) ⁡(sec(2x)); Respuesta:
 a)0
 b)1
 c)2
 d)3
 ');
-INSERT INTO PreguntasCD VALUES (261, 72,'lim┬(x→5π/6)⁡(sen(x)); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 72,'lim┬(x→5π/6)⁡ (sen(x)); Respuesta:
 a)1/3
 b)1
 c)1/4
 d)1/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 73,'lim┬(x→3)⁡(tan πx)/4; Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 73,'lim┬(x→3) ⁡(tan πx)/4; Respuesta:
 a)1
 b)0
 c)-1
 d)2
 ');
 
-INSERT INTO PreguntasCD VALUES (261, 74,'lim┬(z→∞)⁡(3z-3/2z+1); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 74,'lim┬(z→∞) ⁡(3z-3/2z+1); Respuesta:
 a)8/4
 b)3/2
 c)2
 d)4
 ');
-INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(t→∞)⁡(t+t²)/(2t-t²); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(t→∞) ⁡(t+t²)/(2t-t²); Respuesta:
 a)-1
 b)1
 c)0
 d)2
 ');
-INSERT INTO PreguntasCD VALUES (261, 76,'lim┬(x→∞)⁡(x²+x³); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 76,'lim┬(x→∞) ⁡(x²+x³); Respuesta:
 a)1
 b)1/2
 c)-∞
 d)∞
 ');
-INSERT INTO PreguntasCD VALUES (261, 77,'lim┬(x→∞)⁡((x^4-3x³+2x-1) / (x²-1) ); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 77,'lim┬(x→∞) ⁡((x^4-3x³+2x-1) / (x²-1) ); Respuesta:
 a)2
 b)5
 c)3
@@ -610,13 +394,13 @@ b)1/2e
 c)e
 d)e^2
 ');
-INSERT INTO PreguntasCD VALUES (261, 91,'lim┬(x→∞)⁡(√(x²+1)-√(x²-3x) ); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 91,'lim┬(x→∞) ⁡( √(x²+1) - √(x²-3x) ); Respuesta:
 a)1/2
 b)1/3
 c)1
 d)3/2
 ');
-INSERT INTO PreguntasCD VALUES (261, 92,'lim┬(x→∞)⁡(√(x²+x+1))-√(x²-x+1) ); Respuesta:
+INSERT INTO PreguntasCD VALUES (261, 92,'lim┬(x→∞) ⁡(√(x²+x+1)) - √(x²-x+1) ); Respuesta:
 a)1
 b)1/2
 c)2
@@ -629,17 +413,17 @@ c)-3/2
 d)0
 ');
 -- Tema 2 Derivadas
-INSERT INTO PreguntasCD VALUES (262, 94,'Deriva por definición la función: f(t)= b/(t-b); Respuesta:
-a)t+b/(t−b)^2
-b)b/(t+b)^2
-c)-b/(t−b)^2
-d)t-b/(t−b)^2
+INSERT INTO PreguntasCD VALUES (262, 94,'Deriva por definición la función: f(t)= b / (t-b); Respuesta:
+a)t+b/(t−b)²
+b)b/(t+b)²
+c)-b/(t−b)²
+d)t-b/(t−b)²
 ');
 INSERT INTO PreguntasCD VALUES (262, 95,'Deriva por definición la función: y= ∛(x+3); Respuesta:
-a)1/3 / (∛((x+3)^2))
+a)1/3 / (∛((x+3)²))
 b)1/3 / (∛(x+3))
-c)1/3 / (∛(x-3)^2)
-d)1/3 / (∛(x-3)^2)
+c)1/3 / (∛(x-3)²)
+d)1/3 / (∛(x-3)²)
 ');
 INSERT INTO PreguntasCD VALUES (262, 96,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2096.png?raw=true
 a)a/(x(a²+x²))
@@ -689,13 +473,13 @@ B)a)48ft/s b)40ft/s c)33.6ft/s
 C)a)-48ft/s b)-40ft/s c)-33.6ft/s
 D)a)-46ft/s b)-40ft/s c)-36.3ft/s
 ');
-INSERT INTO PreguntasCD VALUES (262, 104,'Encuentre la pendiente de la gráfica de la función f(x)=8/x² en el punto(2,2) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 104,'Encuentre la pendiente de la gráfica de la función f(x)= 8/x² en el punto(2,2) ; Respuesta:
 a)1
 b)0
 c)-2
 d)1/2
 ');
-INSERT INTO PreguntasCD VALUES (262, 105,'Encuentre la pendiente de la gráfica de la función f(x)=-1/2+7/5x³ en el punto(0,-1/2) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 105,'Encuentre la pendiente de la gráfica de la función f(x)= -1/2 + 7/5x³ en el punto(0,-1/2) ; Respuesta:
 a)0
 b)2
 c)3
@@ -707,7 +491,7 @@ b)8
 c)2
 d)4
 ');
-INSERT INTO PreguntasCD VALUES (262,107,'Encuentre la pendiente de la gráfica de la función f(θ)= 4senθ-θ en el punto(0,0) ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262,107,'Encuentre la pendiente de la gráfica de la función f(θ)= 4senθ - θ en el punto(0,0) ; Respuesta:
 a)3
 b)5
 c)2
@@ -719,7 +503,7 @@ b)10x-10senx
 c)18x+5senx
 d)-18-10senx
 ');
-INSERT INTO PreguntasCD VALUES (262, 109,'Encuentre la derivada de f(x)=6√x + 5cosx; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 109,'Encuentre la derivada de f(x)= 6(√x) + 5cosx; Respuesta:
 a)3/√x -2cosx
 b)6/x -5cosx
 c)3/√x -5senx
@@ -743,13 +527,13 @@ b)(π ,π)
 c)(1,π)
 d)(π,0)
 ');
-INSERT INTO PreguntasCD VALUES (262, 113,'Encuentre una k tal que la recta tal que la recta sea tangente a la gràfica de f(x)=k-x² ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 113,'Encuentre una k tal que la recta sea tangente a la gràfica de f(x)=k-x² ; Respuesta:
 a)k=-8
 b)k=8
 c)k=-2
 d)k=2
 ');
-INSERT INTO PreguntasCD VALUES (262, 114,'Encuentre una k tal que la recta tal que la recta sea tangente a la gràfica de f(x)=k/x ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 114,'Encuentre una k tal que la recta sea tangente a la gràfica de f(x)=k/x ; Respuesta:
 a)k=2
 b)k=1
 c)k=3
@@ -780,13 +564,13 @@ c)1 / √(1-x²)
 d)-1 / -√(1-x²)
 
 ');
-INSERT INTO PreguntasCD VALUES (262, 119,'Deriva y=xarcsen2x; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 119,'Deriva y = (x)arcsen(2x); Respuesta:
 a)arcsen2x+ 2x/(√1-4x²)
 b)arccos4x+ 2x/(√1+4x²)
 c)arccos2x+ x/(√1+4x)
 d)arcsenx+ 2x/(√1+4x)
 ');
-INSERT INTO PreguntasCD VALUES (262, 120,'
+INSERT INTO PreguntasCD VALUES (262, 120,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20120.png?raw=true
 a)xarctgx²
 b)x²arctgx
 c)2xarctgx²
@@ -798,13 +582,13 @@ b)1/1+r²
 c)1/2+r
 d)r
 ');
-INSERT INTO PreguntasCD VALUES (262, 122,'Encuentra la pendiente de la derivada de y=arcsec2x/√x en el punto x=1; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 122,'Encuentra la pendiente de la derivada de y = arcsec(2x) / √x en el punto x=1; Respuesta:
 a)0.053
 b)0.530
 c)5.303
 d)5
 ');
-INSERT INTO PreguntasCD VALUES (262, 123,'Encuentra la pendiente de la derivada de y=x²arccsc√x en el punto x=2; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 123,'Encuentra la pendiente de la derivada de y = (x²)arccsc(√x) en el punto x=2; Respuesta:
 a)1.9873
 b)1.789
 c)2.142
@@ -822,17 +606,17 @@ https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Di
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/c%20125.png?raw=true
 https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/d%20125.png?raw=true+
 ');
-INSERT INTO PreguntasCD VALUES (262, 126,'Deriva y=arcsen(sen(senθ)); Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 126,'Deriva y = arcsen(sen(senθ)); Respuesta:
 a)arccosθ
 b)senθ
 c)tanθ
 d)cosθ
 ');
-INSERT INTO PreguntasCD VALUES (262, 127, "Si f'(x)= g'(x), entonces f(x)=g(x); Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 127, "Si f'(x) = g'(x), entonces f(x)=g(x); Respuesta:
 a)Verdadero
 b)Falso
 ");
-INSERT INTO PreguntasCD VALUES (262, 128,'Si y=π², entonces dy/dx=2π ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 128,'Si y=π², entonces dy/dx = 2π ; Respuesta:
 a)Verdadero
 b)Falso
 ');
@@ -872,13 +656,13 @@ b)(2x+x³+x²+9)/(x²+1)
 c)(2x+x³+x²+9)(x²+1)
 d)(2x^5+4x³+4x²-4)/(x²+1)²
 ');
-INSERT INTO PreguntasCD VALUES (262, 135,'Encuentre la derivada de g(θ)=θ/1-senθ ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 135,'Encuentre la derivada de g(θ)= θ / (1-senθ) ; Respuesta:
 a)(senθ²)+cosθ (1-senθ)²
 b)(1+2senθ)+θcosθ/ (1+arcsenθ)
 c)(1-senθ)+θcosθ/ (1-senθ)²
 d)(1+senθ)-θarccosθ/ (1+senθ)²
 ');
-INSERT INTO PreguntasCD VALUES (262, 136,'Encuentre la derivada de f(x)= cosx/1-senx ; Respuesta:
+INSERT INTO PreguntasCD VALUES (262, 136,'Encuentre la derivada de f(x)= cosx / (1-senx) ; Respuesta:
 a)1/2+senx
 b)1/1-senx
 c)1-senx
@@ -899,7 +683,7 @@ b)La variación es aproximadamente de 0.5757 cm²/s
 c)La variación es aproximadamente de 0.2124 cm²/s
 d)La variación es aproximadamente de 1.7787 cm²/s
 ');
-INSERT INTO PreguntasCD VALUES (361, 139,'Sean las funciones f(x)=k arctan(x) y g(x)=-1/2senx ¿ Cuál es el valor de la constante k para que el ángulo se intersección de ambas curvas sea de 90 grados en el origen?  ; Respuesta:
+INSERT INTO PreguntasCD VALUES (361, 139,'Sean las funciones f(x)= k arctan(x) y g(x)= -1/2senx ¿ Cuál es el valor de la constante k para que el ángulo se intersección de ambas curvas sea de 90 grados en el origen?  ; Respuesta:
 a)k=1.5
 b)k=2
 c)k=1
@@ -918,10 +702,10 @@ c)P(20-ln20,20)
 d)P(20-2ln20,20)
 ');
 INSERT INTO PreguntasCD VALUES (361, 142,'Obtener las ecuaciones de la recta tengente y normal de la curva (∛xy)-14x=y en el punto (2,-32)  ; Respuesta:
-a)Ec tangente: (361/23)x+ y + 32/21=0, ec normal:y-(20/350)x + 5655/176
-b)Ec tangente: (36/27)x+ y + 26/23=0, ec normal:y+(23/35)x + 555/16
-c)Ec tangente: (36/323)x+ y + 30/23=0, ec normal:y+(23/352)x - 655/176
-d)Ec tangente: (362/23)x+ y + 32/23=0, ec normal:y-(23/352)x + 5655/176
+a)Ec tangente: (361/23)x + y + 32/21=0, ec normal:y-(20/350)x + 5655/176
+b)Ec tangente: (36/27)x + y + 26/23=0, ec normal:y+(23/35)x + 555/16
+c)Ec tangente: (36/323)x + y + 30/23=0, ec normal:y+(23/352)x - 655/176
+d)Ec tangente: (362/23)x + y + 32/23=0, ec normal:y-(23/352)x + 5655/176
 ');
 INSERT INTO PreguntasCD VALUES (361, 143,'Determinar el ángulo agudo formado al intersectarse las curvas y=x²-4x+5 y y=-x²+4x-1 en unos de sus puntos de intersección  ; Respuesta:
 a)53.1301
@@ -1007,6 +791,102 @@ b)1.30
 c)2.30
 d)1
 ');
+
+
+
+
+
+-- Creacion de la tabla para los incisos
+CREATE TABLE Incisos_CD( 
+		ID_PreguntaCD INTEGER NOT NULL,
+		ID_Incisos_CD INTEGER NOT NULL,
+		Inciso_A VARCHAR(300) NOT NULL,
+		Inciso_B VARCHAR(300) NOT NULL,
+		Inciso_C VARCHAR(300) NOT NULL,
+		Inciso_D VARCHAR(300) NOT NULL,
+		PRIMARY KEY(ID_Incisos_CD),
+		FOREIGN KEY(ID_PreguntaCD)
+		REFERENCES PreguntasCD(ID_PreguntaCD)
+		);
+		
+INSERT INTO Incisos_CD VALUES 
+
+-- Incisos Parcial 1
+
+-- Tema 1
+(01,11, "a) x > −7. Notación de intervalos:(−7, ∞)", "b) x < −7. Notación de intervalos:(−∞, −7)", "c) x > 7. Notación de intervalos:(7, ∞)", "d) x < 7. Notación de intervalos:(−∞, 7)"),
+(02,12, "a) Todos los números enteros menores que 84", "b) Todos los números enteros menores que 82", "c) Todos los números enteros mayores que 84", "d) Todos los números enteros mayores que 86"),
+(03,13, "a) x > 2. Notación en intervalos: (2, ∞)", "b) x < 2. Notación en intervalos: (−∞, 2)", "c) x > −2. Notación en intervalos: (−2, ∞)", "d) x < −2. Notación en intervalos: (−∞, −2)"),
+(04,14, "a) x > 2. Notación en intervalos: (2, ∞)", "b) x < 2. Notación en intervalos: (−∞, 2)", "c) x > −2. Notación en intervalos: (−2, ∞)", "d) x < −2. Notación en intervalos: (−∞, −2)"),
+(05,15, "a) x > 6. Notación en intervalos: (6, ∞)", "b) x < 6. Notación en intervalos: (−∞, 6)", "c) x > −6. Notación en intervalos: (−6, ∞)", "d) x < −6. Notación en intervalos: (−∞, −6)"),
+(06,16, "a) 9/2 ≤ x < 5. Notación de intervalos [9/2,5)", "b) 9/2 < x ≤ 5. Notación de intervalos (9/2,5]", "c) 9/2 < x < 5. Notación de intervalos (9/2,5)", "d) 9/2 ≤ x ≤ 5. Notación de intervalos [9/2,5]"),
+(07,17, "a) x ≤ -6. Notación en intervalos: (-∞, -6]", "b) x > -6. Notación en intervalos: (-6, ∞)", "c) x < -6. Notación en intervalos: (-∞, -6)", "d) x ≥ -6. Notación en intervalos: [-6, ∞)"),
+(08,18, "a) x ≥ -13/11. Notación de intervalos: [-13/11, ∞)", "b) x < -13/11. Notación de intervalos: (-∞, -13/11)", "c) x > -13/11. Notación de intervalos: (-13/11, ∞)", "d) x ≤ -13/11. Notación de intervalos: (-∞, -13/11]"),
+(09,19, "a) x ≥ 28/25. Notación de intervalos: [28/25, ∞)", "b) x < 28/25. Notación de intervalos: (-∞, 28/25)", "c) x > 28/25. Notación de intervalos: (28/25, ∞)", "d) x ≤ 28/25. Notación de intervalos: (-∞, 28/25]"),
+(10,20, "a) x < 4 o x > 5. Notación de intervalos: (-∞,4) ∪ (5, ∞)", "b) x > 4 y x < 5. Notación de intervalos: (4, 5)", "c) x ≤ 4 o x ≥ 5. Notación de intervalos: (-∞,4] ∪ [5, ∞)", "d) x ≥ 4 y x ≤ 5. Notación de intervalos: [4, 5]"),
+
+-- Tema 2
+(11,21, "a) −1 ≤ x ≤ 1. Notación de intervalos: [-1,1]", "b) −2 ≤ x ≤ 2. Notación de intervalos: [-2,2]", "c) −3 ≤ x ≤ 3. Notación de intervalos: [-3,3]", "d) −4 ≤ x ≤ 4. Notación de intervalos: [-4,4]"),
+(12,22, "a) 0 < x ≤ 1/2 o x > 1/2. Notación de intervalos: (0,1/2] ∪ (1/2, ∞)", "b) −2/3 ≤ x <1/2 o 1/2 < x ≤ 9/11. Notación de intervalos: [−2/3,1/2) ∪ (1/2,9/11]", "c) −1 ≤ x ≤ 1. Notación de intervalos: [-1,1]", "d) 1 < x ≤ 2. Notación de intervalos: (1,2]"),
+(13,23, "a) −5 ≤ x ≤ −2. Notación de intervalos: [-5,-2]", "b) −8 ≤ x ≤ −2. Notación de intervalos: [-8,−2]", "c) −3 ≤ x ≤ 2. Notación de intervalos: [-3,2]", "d) −6 ≤ x ≤ 1. Notación de intervalos: [-6,1]"),
+(14,24, "a) 0 ≤ x < 3. Notación de intervalos: [0,3)", "b) 0 < x < 3. Notación de intervalos: (0,3)", "c) −1 ≤ x ≤ 1. Notación de intervalos: [-1,1]", "d) 0 ≤ x ≤ 2. Notación de intervalos: [0,2]"),
+(15,25, "a) x ≥ 1/3. Notación de intervalos: [1/3, ∞)", "b) x > 0. Notación de intervalos: (0, ∞)", "c) x < −1/3. Notación de intervalos: (-∞, -1/3)", "d) x ≤ −1/4. Notación de intervalos: (-∞, -1/4]"),
+(16,26, "a) x ≤ -5/2 o 1/4 ≤ x ≤ 3 o x > 3. Notación de intervalos: (-∞, -5/2] ∪ [1/4,3) ∪ (3, ∞)", "b) x ≤ -3 o -1 ≤ x ≤ 2 o x > 2. Notación de intervalos: (-∞, -3] ∪ [-1,2] ∪ (2, ∞)", "c) x ≤ -4 o -1/3 ≤ x ≤ 3 o x > 3. Notación de intervalos: (-∞, -4] ∪ [-1/3,3) ∪ (3, ∞)", "d) x ≤ -2 o 1/3 ≤ x ≤ 4 o x > 4. Notación de intervalos: (-∞, -2] ∪ [1/3,4) ∪ (4, ∞)"),
+(17,27, "a) x < -1 o -1 < x < 1/4 o x > 1/4. Notación de intervalos: (-∞, -1) ∪ (-1,1/4) ∪ (1/4, ∞)", "b) x < -2 o -1 < x < 0 o x > 0. Notación de intervalos: (-∞, -2) ∪ (-1,0) ∪ (0, ∞)", "c) x < -3 o -1/2 < x < 1/4 o x > 1/4. Notación de intervalos: (-∞, -3) ∪ (-1/2,1/4) ∪ (1/4, ∞)", "d) x < -4 o -1 < x < 1/3 o x > 1/3. Notación de intervalos: (-∞, -4) ∪ (-1,1/3) ∪ (1/3, ∞)"),
+(18,28, "a) x ≤ -1/7 o x ≥ 3/19. Notación de intervalos: (-∞, -1/7] ∪ (3/19, ∞)", "b) x < -1 o x > 1. Notación de intervalos: (-∞, -1) ∪ (1, ∞)", "c) x ≤ -1/3 o x ≥ 1/4. Notación de intervalos: (-∞, -1/3] ∪ (1/4, ∞)", "d) x < -1/4 o x > 1/3. Notación de intervalos: (-∞, -1/4) ∪ (1/3, ∞)"),
+(19,29, "a) x < 7/18 o x > 9/14. Notación de intervalos: (-∞,7/18) ∪ (9/14, ∞)", "b) x < 1/6 o x > 1/3. Notación de intervalos: (-∞,1/6) ∪ (1/3, ∞)", "c) x < 1/2 o x > 2/3. Notación de intervalos: (-∞,1/2) ∪ (2/3, ∞)", "d) x < 1/4 o x > 1/2. Notación de intervalos: (-∞,1/4) ∪ (1/2, ∞)"),
+(20,30, "a) x < 25/6 o x > 27/2. Notación de intervalos: (-∞,25/6) ∪ (27/2, ∞)", "b) x < 5/2 o x > 13/6. Notación de intervalos: (-∞,5/2) ∪ (13/6, ∞)", "c) x < 7/2 o x > 17/4. Notación de intervalos: (-∞,7/2) ∪ (17/4, ∞)", "d) x < 4 o x > 15/4. Notación de intervalos: (-∞,4) ∪ (15/4, ∞)"),
+
+-- Tema 3
+(21,31, "a) x < −1/3 o x > 1/2. Notación de intervalos: (−∞, −1/3) ∪ (1/2, ∞)", "b) x < 1/3 o x > 1/6. Notación de intervalos: (−∞, 1/3) ∪ (1/6, ∞)", "c) x < 1/2 o x > 1/4. Notación de intervalos: (−∞, 1/2) ∪ (1/4, ∞)", "d) x < 1 o x > 2/3. Notación de intervalos: (−∞, 1) ∪ (2/3, ∞)"),
+(22,32, "a) −1 < x < 2. Notación de intervalos: (−1,2)", "b) −2 < x < 3. Notación de intervalos: (−2,3)", "c) −3 < x < 4. Notación de intervalos: (−3,4)", "d) −4 < x < 5. Notación de intervalos: (−4,5)"),
+(23,33, "a) −3 ≤ x ≤ 2. Notación de intervalos: [−3,2]", "b) −2 ≤ x ≤ 3. Notación de intervalos: [−2,3]", "c) −1 ≤ x ≤ 4. Notación de intervalos: [−1,4]", "d) 0 ≤ x ≤ 5. Notación de intervalos: [0,5]"),
+(24,34, "a) x ≤ -1 o x ≥ 1/2. Notación de intervalos: (−∞, −1] ∪ [1/2, ∞)", "b) x ≤ -1/2 o x ≥ 1. Notación de intervalos: (−∞, −1/2] ∪ [1, ∞)", "c) x ≤ 0 o x ≥ 3/2. Notación de intervalos: (−∞, 0] ∪ [3/2, ∞)", "d) x ≤ 1/3 o x ≥ 2. Notación de intervalos: (−∞, 1/3] ∪ [2, ∞)"),
+(25,35, "a) -1< x < 4. Notación de intervalos: (-1,4)", "b) -2< x < 5. Notación de intervalos: (-2,5)", "c) -3< x < 6. Notación de intervalos: (-3,6)", "d) -4< x < 7. Notación de intervalos: (-4,7)"),
+(26,36, "a) 1/2 < x < 4. Notación de intervalos: (1/2,4)", "b) 1/3 < x < 5. Notación de intervalos: (1/3,5)", "c) 1/4 < x < 6. Notación de intervalos: (1/4,6)", "d) 1/5 < x < 7. Notación de intervalos: (1/5,7)"),
+(27,37, "a) x > 0.56984029. Notación de intervalos: (0.56984029, ∞)", "b) x > 0.46984029. Notación de intervalos: (0.46984029, ∞)", "c) x > 0.36984029. Notación de intervalos: (0.36984029, ∞)", "d) x > 0.26984029. Notación de intervalos: (0.26984029, ∞)"),
+(28,38, "a) x < -4 o x > -1/2. Notación de intervalos: (-∞, -4) ∪ (-1/2, ∞)", "b) x < -3 o x > -1. Notación de intervalos: (-∞, -3) ∪ (-1, ∞)", "c) x < -2 o x > -1/4. Notación de intervalos: (-∞, -2) ∪ (-1/4, ∞)", "d) x < -1 o x > -1/8. Notación de intervalos: (-∞, -1) ∪ (-1/8, ∞)"),
+(29,39, "a) ((-5+(√37)) / 6, (-5-(√37)) / 6), Notación de intervalos: ((-5+(√37)) / 6 , (-5-(√37)) / 6)", "b) ((-5+(√27)) / 6, (-5-(√27)) / 6), Notación de intervalos: ((-5+(√27)) / 6, (-5-(√27)) / 6)", "c) ((-5+(√17)) /6, (-5-(√17)) / 6), Notación de intervalos: ((-5+(√17)) / 6, (-5-(√17)) / 6)", "d) -((-5+(√17)) /5, (-5-(√17)) /6), Notación de intervalos: -((-5+(√17)) /5, (-5-(√17)) /6)"),
+(30,40, "a) -2 < x o x > 2. Notación de intervalos: (-2,0) ∪ (2, ∞)", "b) -3 < x o x > 3. Notación de intervalos: (-3,0) ∪ (3, ∞)", "c) -4 < x o x > 4. Notación de intervalos: (-4,0) ∪ (4, ∞)", "d) -5 < x o x > 5. Notación de intervalos: (-5,0) ∪ (5, ∞)"),
+(31,41, "a) -3 ≤ x ≤ 3. Notación de intervalos: [-3,3]", "b) -4 ≤ x ≤ 4. Notación de intervalos: [-4,4]", "c) -5 ≤ x ≤ 5. Notación de intervalos: [-5,5]", "d) -6 ≤ x ≤ 6. Notación de intervalos: [-6,6]"),
+(32,42, "a) x > -1. Notación de intervalos: (-1, ∞)", "b) x > -2. Notación de intervalos: (-2, ∞)", "c) x > -3. Notación de intervalos: (-3, ∞)", "d) x > -4. Notación de intervalos: (-4, ∞)"),
+
+-- Tema 4
+(33,43, "a) x ≤ −3 ∪ x ≥ 1. Notación de intervalos:(−∞, −3] ∪ [1, ∞)", "b) x ≤ −1 ∪ x ≥ 3. Notación de intervalos:(−∞, −1] ∪ [3, ∞)", "c) x ≤ −2 ∪ x ≥ 2. Notación de intervalos:(−∞, −2] ∪ [2, ∞)", "d) x ≤ −4 ∪ x ≥ 4. Notación de intervalos:(−∞, −4] ∪ [4, ∞)"),
+(34,44, "a) -1 < x < 4. Notación de intervalos:(-1,4)", "b) 1 < x < 3. Notación de intervalos:(1,3)", "c) -1 < x < 2. Notación de intervalos:(-1,2)", "d) -2 < x < 1. Notación de intervalos:(-2,1)"),
+(35,45, "a) −4 ≤ x < −3 o x > 0. Notación de intervalos: [−4,−3) ∪ (0, ∞)", "b) −5 ≤ x < −2 o x > 1. Notación de intervalos: [−5,−2) ∪ (1, ∞)", "c) −6 ≤ x < −1 o x > 2. Notación de intervalos: [−6,−1) ∪ (2, ∞)", "d) −7 ≤ x < 0 o x > 3. Notación de intervalos: [−7,0) ∪ (3, ∞)"),
+(36,46, "a) 1/3 ≤ x < 1. Notación de intervalos: [1/3,1)", "b) 1/2 ≤ x < 2. Notación de intervalos: [1/2,2)", "c) 1/4 ≤ x < 3. Notación de intervalos: [1/4,3)", "d) 1/5 ≤ x < 4. Notación de intervalos: [1/5,4)"),
+(37,47, "a) -1 < x < 2. Notación de intervalos:(-1,2)", "b) -2 < x < 1. Notación de intervalos:(-2,1)", "c) -3 < x < 0. Notación de intervalos:(-3,0)", "d) -4 < x < -1. Notación de intervalos:(-4,-1)"),
+(38,48, "a) x < -2 o -1 < x < 0 . Notación de intervalos:(-∞, -2) ∪ (-1,0)", "b) x < -1 o -1/3 ≤ x < 0 o 1/2 < x ≤ 3/2. Notación de intervalos:(-∞, -1) ∪ [-1/3,0) ∪ (1/2,3/2)", "c) x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)", "d) x < 0 o 1/3 ≤ x < 2/3 o 3/2 < x ≤ 2. Notación de intervalos:(-∞,0) ∪ [1/3,2/3) ∪ (3/2,2]"),
+(39,49, "a) x < -1 o -0.8541 ≤ x < 0 o x ≥ 5.8441. Notacion de intervalos:(-∞, -1) ∪ [-0.8541,0) ∪ [5.8441, ∞)", "b) -3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)", "c) (-5+(√7)) /5 <x < -(-5-(√17))/6. Notacion de intervalos: -((-5+(√17))/5, (-5-(√17))/6)", "d) x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)"),
+(40,50, "a) x < 0 o 5 < x < 16/3. Notación de intervalos:(-∞,0) ∪ (5,16/3)", "b) (-5+(√7))/5 < x < -(-5-(√17))/6. Notación de intervalos: -((-5+(√17))/5, (-5-(√17))/6)", "c) -3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)", "d) x < -1/2 o 0 ≤ x < 1 o 2 < x ≤ 5/2. Notación de intervalos:(-∞, -1/2) ∪ [0,1) ∪ (2,5/2)"),
+(41,51, "a) -1 ≤ x < 0 o x ≥ 6. Notación de intervalos: [-1,0) ∪ [6, ∞)", "b) -2 ≤ x < -1 o x ≥ 5. Notación de intervalos: [-2,-1) ∪ [5, ∞)", "c) -3 ≤ x < -2 o x ≥ 4. Notación de intervalos: [-3,-2) ∪ [4, ∞)", "d) -4 ≤ x < -3 o x ≥ 3. Notación de intervalos: [-4,-3) ∪ [3, ∞)"),
+(42,52, "a) -3 < x < -1/2 o x > 2. Notación de intervalos:(-3,-1/2) ∪ (2, ∞)", "b) -4 < x < -1/3 o x > 3. Notación de intervalos:(-4,-1/3) ∪ (3, ∞)", "c) -5 < x < -1/4 o x > 4. Notación de intervalos:(-5,-1/4) ∪ (4, ∞)", "d) -6 < x < -1/5 o x > 5. Notación de intervalos:(-6,-1/5) ∪ (5, ∞)"),
+
+-- Tema 5
+(43,53, "A)a) -2 		b) 13 		c) 3b-2 	d) 3x-5", "B)a) -1 		b) 14 		c) 6b-1 	d) 3x+3", "C)a) 0 		    b) 16 		c) 2b-9 	d) x-6", "D)a) -3 		b) 14 		c) b-2 	    d) 6x-8"),
+(44,54),
+(45,55),
+(46,56),
+(47,57),
+(48,58),
+(49,59),
+(50,60),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- Creación de Tabla para las Respuestas Calculo diferencial
 CREATE TABLE RespuestasCD(
