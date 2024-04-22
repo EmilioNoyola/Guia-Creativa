@@ -84,719 +84,135 @@ INSERT INTO PreguntasCD VALUES (164,42,'¿Cuál es la solución de la desigualda
 
 -- Tema 5 Evaluar funciones
 INSERT INTO PreguntasCD VALUES (165,43,'f(x) = 3x-2; a) f (0)		b) f(5)		c) f(b) 		d) f(x-1)');
-INSERT INTO PreguntasCD VALUES (165,44,'x es inversamente proporcional a y²-1. Si x=9 cuando y=3, hallar cuando y=5
-a)3
-b)5
-c)6
-d)4
-');
-INSERT INTO PreguntasCD VALUES (165,45,'El área lateral de una pirámide regular es proporcional a su apotema y al perímetro de la base. Si el área es 480m² cuando la apotema es 12m y el perímetro de la base 80m, hallar el área cuando la apotema es 6m y el perímetro de la base 40m
-a)110m²
-b)120m²
-c)100m²
-d)40m²
-');
-INSERT INTO PreguntasCD VALUES (165,46,'El volumen de una pirámide es proporcional a su altura y al área de su base. Si el volumen de una pirámide, cuya altura es 8m y el área de su base es 36m², es 96m³, ¿Cuál será el volumen de una pirámide cuya altura es 12m y el área de su base 64m²?
-a)186m²
-b)236m²
-c)256m²
-d)276m²
-');
-INSERT INTO PreguntasCD VALUES (165,47,'La longitud de una circunferencia es proporcional al radio. Si una circunferencia de 7cm de radio tiene una longitud de 44cm, ¿Cuál es el radio de una circunferencia de 66cm de longitud?
-a)10 cm
-b)10.7cm
-c)9.8cm
-d)10.5cm
-');
-INSERT INTO PreguntasCD VALUES (165,48,'x es inversamente proporcional al cuadrado de y. Cuando y=6, x=4. Hallar y cuando x=9
-a)-3 y 3
-b)3 y 4
-c)4 y 5
-d)4 y -4
-');
-INSERT INTO PreguntasCD VALUES (165,49,'f(x) = √ (x²+5); a) f (-2)		b) f(3)		c) f (2) 			
-A)a) 4√18	b) √8 		c) 2√4 	
-B)a) √3		b) √10 		c) 3√6 	
-C)a) √2		b) √11 		c) 2√2 	
-D)a) 3	    b)√14   	c) 3 	
-');
-INSERT INTO PreguntasCD VALUES (165,50,'g(x) = 5-x² ; a) g (0)		b) g(√5)		c) g(-2)                                          	
-A)a) 5		b) 0 		c) 1 	
-B)a) 7		b) 1 		c) 6 	
-C)a) 6		b) 4 		c) 8 	
-D)a) 4		b) 2 		c) 1 	
-');
-INSERT INTO PreguntasCD VALUES (165,51,'f(x) = x³; (f(x+Δx)-f(x)) /Δx
-a)3x² + 3x∆x + (∆x)², ∆x ≠ 0
-b)3x² + 6x∆x + (∆x) ^4, ∆x ≠ 0
-c)5x² + 4x∆x + (∆x) ^3, ∆x ≠ 0
-d)x² + 5x∆x + (∆x)², ∆x ≠ 0
-');
-INSERT INTO PreguntasCD VALUES (165,52,'Sea f(x) = 3x²+x-5; Evalua en: a) f (-2)		b) f(0)		c) f (4) 		d) f (1/2)
-A) a) 5		b) -5 	c) 47 	d) -15/4
-B) a) 10	b) -3 	c) 47 	d) 15/4
-C) a) 5		b) -3 	c) 33 	d) -12/2
-D) a) 15	b) 3 	c) 33 	d) 12/2
-');
-INSERT INTO PreguntasCD VALUES (165,53,'Sea f(x) = x².Encuentre el cambio neto en el valor de f; a) De 1 a 3		b) De -2 a 2
-A)a) El cambio neto es 7 		b) El cambio neto es 1
-B)a) El cambio neto es 7 		b) El cambio neto es 3
-C)a) El cambio neto es 8 		b) El cambio neto es 0
-D)a) El cambio neto es 6 		b) El cambio neto es 2
-');
-INSERT INTO PreguntasCD VALUES (165,54,'Sea f(x) = 2x²+3x-1; a) f (a)		b) f(-a)		c) f (a+h) 		d) (f(a+h)-f(a)) /(h), h ≠ 0
-A)a) 5x² - 3x + 2  b) 4x² + 2x - 1    c) 3x² - 5x + 4                d) 2x^2 - 3x - 2
-B)a) 3y² + 5y - 2  b) 4y² - 3y + 1    c) 2y² + 4y + 3                d) 5y - 2y^2 - 4
-C)a) 6z² + 2z - 3  b) 3z² - 4z + 5    c) 2z² + 3z + 1                d) 4z - 2z^2 - 3
-D)a) 2a²+3a-1		b) 2a²-3a-1		c) 2a²+4ah+2h²+3a+3h-1	         d) 4a+2h+3	
-');
-INSERT INTO PreguntasCD VALUES (165,55,'Si una astronauta pesa 130 libras en la superficie de la Tierra, entonces cuando esté a h millas sobre la Tierra suu peso está dado por la función w(h)= 130(3960/3960+h)², a)	Cual es el peso del astronauta a 100 millas sobre la Tierra?, b)Encuentre el cambio de peso neto en el peso del astronauta desde el nivel del suelo hasta una altura de 500mi 
-A)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 114lb
-	b) El peso de la astronauta disminuye aproximadamente 18lb 
-B)	a) Entonces a una altura de 100 millas ella pesa aproximadamente 124lb
-	b) El peso de la astronauta disminuye aproximadamente 28lb 
-C)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 147lb
-	b) El peso de la astronauta disminuye aproximadamente 32lb 
-D)  a) Entonces a una altura de 100 millas ella pesa aproximadamente 94lb
-	b) El peso de la astronauta disminuye aproximadamente 18lb 
-');
+INSERT INTO PreguntasCD VALUES (165,44,'x es inversamente proporcional a y²-1. Si x=9 cuando y=3, hallar cuando y=5');
+INSERT INTO PreguntasCD VALUES (165,45,'El área lateral de una pirámide regular es proporcional a su apotema y al perímetro de la base. Si el área es 480m² cuando la apotema es 12m y el perímetro de la base 80m, hallar el área cuando la apotema es 6m y el perímetro de la base 40m');
+INSERT INTO PreguntasCD VALUES (165,46,'El volumen de una pirámide es proporcional a su altura y al área de su base. Si el volumen de una pirámide, cuya altura es 8m y el área de su base es 36m², es 96m³, ¿Cuál será el volumen de una pirámide cuya altura es 12m y el área de su base 64m²?');
+INSERT INTO PreguntasCD VALUES (165,47,'La longitud de una circunferencia es proporcional al radio. Si una circunferencia de 7cm de radio tiene una longitud de 44cm, ¿Cuál es el radio de una circunferencia de 66cm de longitud?');
+INSERT INTO PreguntasCD VALUES (165,48,'x es inversamente proporcional al cuadrado de y. Cuando y=6, x=4. Hallar y cuando x=9');
+INSERT INTO PreguntasCD VALUES (165,49,'f(x) = √ (x²+5); a) f (-2)		b) f(3)		c) f (2) ');
+INSERT INTO PreguntasCD VALUES (165,50,'g(x) = 5-x² ; a) g (0)		b) g(√5)		c) g(-2) ');
+INSERT INTO PreguntasCD VALUES (165,51,'f(x) = x³; (f(x+Δx)-f(x)) /Δx');
+INSERT INTO PreguntasCD VALUES (165,52,'Sea f(x) = 3x²+x-5; Evalua en: a) f (-2)		b) f(0)		c) f (4) 		d) f (1/2)');
+INSERT INTO PreguntasCD VALUES (165,53,'Sea f(x) = x².Encuentre el cambio neto en el valor de f; a) De 1 a 3		b) De -2 a 2');
+INSERT INTO PreguntasCD VALUES (165,54,'Sea f(x) = 2x²+3x-1; a) f (a)		b) f(-a)		c) f (a+h) 		d) (f(a+h)-f(a)) /(h), h ≠ 0');
+INSERT INTO PreguntasCD VALUES (165,55,'Si una astronauta pesa 130 libras en la superficie de la Tierra, entonces cuando esté a h millas sobre la Tierra suu peso está dado por la función w(h)= 130(3960/3960+h)², a)	Cual es el peso del astronauta a 100 millas sobre la Tierra?, b)Encuentre el cambio de peso neto en el peso del astronauta desde el nivel del suelo hasta una altura de 500 millas');
 
 -- Tema 6 Dominio y rango
 
-INSERT INTO PreguntasCD VALUES (166, 56,'Calcula el dominio y rango de la funcion: f(x) = (4-x²) / (x² +1); Respuesta:
-a) Dominio: (-∞, ∞) | Rango: (1, 4]
-b) Dominio: (-∞, -1) ∪ (-1, ∞) | Rango: (-∞,0)
-c) Dominio: (-∞, ∞) | Rango: (-∞,1]
-d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)
-');
-INSERT INTO PreguntasCD VALUES (166, 57,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2057.png?raw=true
-a) Dominio: (-4, ∞) | Rango: (0, ∞)
-b) Dominio: (-∞, -4) ∪ (-4, ∞) | Rango: (-∞,0)
-c) Dominio: (-∞, ∞) | Rango: (1, 4]
-d) Dominio: (-∞,0) ∪ (0, ∞) | Rango: (-∞, ∞)
-');
-INSERT INTO PreguntasCD VALUES (166, 58,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2058.png?raw=true
-a) Dominio: (-∞,0) ∪ (0, 3) ∪ (3, ∞) | Rango: (-∞,0)
-b) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞,0)
-c) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞, ∞)
-d) Dominio: (-∞, ∞) | Rango: (-∞,1)
-');
-INSERT INTO PreguntasCD VALUES (166, 59,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2059.png?raw=true
-a) Dominio: (-∞, ∞) | Rango: (-∞,0)
-b) Dominio: (-∞,1] | Rango: [0, ∞)
-c) Dominio: (-∞,0) ∪ (0,1] | Rango: (-∞, ∞)
-d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)
-');
-INSERT INTO PreguntasCD VALUES (166, 60,'Calcula el dominio y rango de la funcion: f(x) = √(1-x); Respuesta: 
-a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
-b) Dominio: (-∞,1] | Rango: [0, ∞)
-c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
-d) Dominio: (-∞, 1] | Rango: [0,∞)
-');
-INSERT INTO PreguntasCD VALUES (166, 61,'Calcula el dominio y rango de la funcion: f(x) = 1/8x² + 5/4x + 9/8; Respuesta:
-a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
-b) Dominio: (-∞,1] | Rango: [0, ∞)
-c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
-d) Dominio: (-∞, 1] | Rango: [0,∞)
-');
-INSERT INTO PreguntasCD VALUES (166, 62,'f(x) = 2X+1, x < 0 & 2x+2, x ≥ 0  (a) f(-1)	(b) f(0)		(c) f(2)		(d) f (t²+1) ; Respuesta:
-A)(a) -1 		(b) 2		(c) 6		(d) 2t²+4
-Dominio: (-∞, ∞)
-Rango: (-∞,1) ∪ [2, ∞)
-B)(a) 0 		(b) 4		(c) 4		(d) 2t+4
-Dominio: (-∞, ∞)
-Rango: (-∞,2) ∪ [5, ∞)
-C)(a) -1 		(b) 2		(c) 1		(d) 2t²+6
-Dominio: (-∞, ∞)
-Rango: (-∞,1) ∪ [1, ∞)
-D)(a) -2		(b) 5		(c) 8		(d) t²
-Dominio: (-∞, 0)
-Rango: (-1,1) ∪ [2, 5)
-');
-INSERT INTO PreguntasCD VALUES (166, 63,'f(x) = |x|+1, x<1 & -x+1, x≥1  (a) f(-3)	(b) f(1)		(c) f(3)		(d) f (b^ 2+1) ; Respuesta: 
-A)(a) 0 		(b) 0		(c) -4		(d) -b
-Dominio: (-∞, 5)
-Rango: (0,∞) ∪ [2, ∞)
-B)(a) 2 		(b) 1		(c) -5		(d) b²
-Dominio: (-1, ∞)
-Rango: (-∞,1] ∪ [2, ∞)
-C)(a) 4 		(b) 0		(c) -2		(d) -b²
-Dominio: (-∞, ∞)
-Rango: (-∞,0] ∪ [1, ∞)
-D)(a) 0 		(b) 0		(c) -4		(d) -b
-Dominio: (-∞, 5)
-Rango: (0,∞) ∪ [2, ∞)
-'); 
-INSERT INTO PreguntasCD VALUES (166, 64,'Calcula el dominio y rango de la funcion: f(x) = 1 / (√x-3); Respuesta:
-a) Dominio: (-∞, ∞)  Rango: [-2, ∞)
-b) Dominio: (3, ∞)| Rango: (0, ∞)
-c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
-d) Dominio: (-∞, 1] | Rango: [0,∞)
-');
-INSERT INTO PreguntasCD VALUES (166, 65,'Calcula el dominio y rango de la funcion: f(x) = 8/x² +4; Respuesta:
-a) Dominio: (-∞, ∞)  Rango: [-2, ∞) 
-b) Dominio: (-∞,1] | Rango: [0, ∞)
-c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)
-d) Dominio: (-∞, ∞)| Rango: (0,2]
-');
+INSERT INTO PreguntasCD VALUES (166, 56,'Calcula el dominio y rango de la funcion: f(x) = (4-x²) / (x² +1); Respuesta:');
+INSERT INTO PreguntasCD VALUES (166, 57,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2057.png?raw=true');
+INSERT INTO PreguntasCD VALUES (166, 58,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2058.png?raw=true');
+INSERT INTO PreguntasCD VALUES (166, 59,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2059.png?raw=true');
+INSERT INTO PreguntasCD VALUES (166, 60,'Calcula el dominio y rango de la funcion: f(x) = √(1-x); Respuesta:');
+INSERT INTO PreguntasCD VALUES (166, 61,'Calcula el dominio y rango de la funcion: f(x) = 1/8x² + 5/4x + 9/8; Respuesta:');
+INSERT INTO PreguntasCD VALUES (166, 62,'f(x) = 2X+1, x < 0 & 2x+2, x ≥ 0  (a) f(-1)	(b) f(0)		(c) f(2)		(d) f (t²+1) ');
+INSERT INTO PreguntasCD VALUES (166, 63,'f(x) = |x|+1, x<1 & -x+1, x≥1  (a) f(-3)	(b) f(1)		(c) f(3)		(d) f (b^ 2+1) '); 
+INSERT INTO PreguntasCD VALUES (166, 64,'Calcula el dominio y rango de la funcion: f(x) = 1 / (√x-3)');
+INSERT INTO PreguntasCD VALUES (166, 65,'Calcula el dominio y rango de la funcion: f(x) = 8/x² +4; Respuesta:');
 
 -- Preguntas Segundo Parcial Calculo diferencial.
 
 -- Tema 1 Limites 
-INSERT INTO PreguntasCD VALUES (261, 66,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2066.png?raw=true
-a)1/3
-b)3
-c)2/3
-d)1
-');
-INSERT INTO PreguntasCD VALUES (261, 67,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2067.png?raw=true
-a)6/3
-b)8/2
-c)16/7
-d)5/7
-');
-INSERT INTO PreguntasCD VALUES (261, 68,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2068.png?raw=true
-a)-4/5
-b)4/10
-c)-4/10
-d)-1/5
-');
-INSERT INTO PreguntasCD VALUES (261, 69,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2069.png?raw=true
-a)√4 - 2
-b)√3
-c)√3 - 3
-d)√3 + 1	
-');
-INSERT INTO PreguntasCD VALUES (261, 70,'lim┬(x→π/2) ⁡(sen(x)); Respuesta:
-a)0
-b)1
-c)3
-d)1/3
-');
-INSERT INTO PreguntasCD VALUES (261, 71,'lim┬(x→0) ⁡(sec(2x)); Respuesta:
-a)0
-b)1
-c)2
-d)3
-');
-INSERT INTO PreguntasCD VALUES (261, 72,'lim┬(x→5π/6)⁡ (sen(x)); Respuesta:
-a)1/3
-b)1
-c)1/4
-d)1/2
-');
-INSERT INTO PreguntasCD VALUES (261, 73,'lim┬(x→3) ⁡(tan πx)/4; Respuesta:
-a)1
-b)0
-c)-1
-d)2
-');
-
-INSERT INTO PreguntasCD VALUES (261, 74,'lim┬(z→∞) ⁡(3z-3/2z+1); Respuesta:
-a)8/4
-b)3/2
-c)2
-d)4
-');
-INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(t→∞) ⁡(t+t²)/(2t-t²); Respuesta:
-a)-1
-b)1
-c)0
-d)2
-');
-INSERT INTO PreguntasCD VALUES (261, 76,'lim┬(x→∞) ⁡(x²+x³); Respuesta:
-a)1
-b)1/2
-c)-∞
-d)∞
-');
-INSERT INTO PreguntasCD VALUES (261, 77,'lim┬(x→∞) ⁡((x^4-3x³+2x-1) / (x²-1) ); Respuesta:
-a)2
-b)5
-c)3
-d)∞
-');
-INSERT INTO PreguntasCD VALUES (261, 78,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2078.png?raw=true
-a)5/10
-b)0
-c)6/4
-d)3
-');
-INSERT INTO PreguntasCD VALUES (261, 79,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2079.png?raw=true
-a)1
-b)0
-c)∞
-d)1/2
-');
-INSERT INTO PreguntasCD VALUES (261, 80,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2080.png?raw=true
-a)∞
-b)1
-c)-1
-d)2
-');
-INSERT INTO PreguntasCD VALUES (261, 81,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2081.png?raw=true
-a)1/36
-b)-1/36
-c)-1/48
-d)1/48
-');
-INSERT INTO PreguntasCD VALUES (261, 82,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2082.png?raw=true
-a)1/2
-b)-1
-c)1
-d)0
-');
-INSERT INTO PreguntasCD VALUES (261, 83,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2083.png?raw=true
-a)-∞
-b)∞
-c)0
-d)1/2
-');
-INSERT INTO PreguntasCD VALUES (261, 84,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2084.png?raw=true
-a)4/8
-b)2/3
-c)4/6
-d)-4/6
-');
-INSERT INTO PreguntasCD VALUES (261, 85,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2085.png?raw=true
-a)1/3
-b)8/3
-c)9/4
-d)-8/3
-');
-INSERT INTO PreguntasCD VALUES (261, 86,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2086.png?raw=true
-a)√8/2
-b)√6/3
-c)√4/2
-d)√2/4
-');
-INSERT INTO PreguntasCD VALUES (261, 87,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2087.png?raw=true
-a)3
-b)0
-c)∞
-d)-1
-');
-INSERT INTO PreguntasCD VALUES (261, 88,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2088.png?raw=true
-a)1/3
-b)2
-c)∞
-d)3
-');
-INSERT INTO PreguntasCD VALUES (261, 89,'lim┬(x→∞)⁡ ((4x²+1) / (2x²+5) ); Respuesta:
-a)6
-b)4
-c)2
-d)3
-');
-INSERT INTO PreguntasCD VALUES (261, 90,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2090.png?raw=true
-a)e^-2
-b)1/2e
-c)e
-d)e^2
-');
-INSERT INTO PreguntasCD VALUES (261, 91,'lim┬(x→∞) ⁡( √(x²+1) - √(x²-3x) ); Respuesta:
-a)1/2
-b)1/3
-c)1
-d)3/2
-');
-INSERT INTO PreguntasCD VALUES (261, 92,'lim┬(x→∞) ⁡(√(x²+x+1)) - √(x²-x+1) ); Respuesta:
-a)1
-b)1/2
-c)2
-d)1/3
-');
-INSERT INTO PreguntasCD VALUES (261, 93,'lim┬(z→1)⁡((1-z³)/(z²-1) ); Respuesta:
-a)3/2
-b)-1
-c)-3/2
-d)0
-');
+INSERT INTO PreguntasCD VALUES (261, 66,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2066.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 67,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2067.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 68,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2068.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 69,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2069.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 70,'lim┬(x→π/2) ⁡(sen(x))');
+INSERT INTO PreguntasCD VALUES (261, 71,'lim┬(x→0) ⁡(sec(2x))');
+INSERT INTO PreguntasCD VALUES (261, 72,'lim┬(x→5π/6)⁡ (sen(x))');
+INSERT INTO PreguntasCD VALUES (261, 73,'lim┬(x→3) ⁡(tan πx)/4');
+INSERT INTO PreguntasCD VALUES (261, 74,'lim┬(z→∞) ⁡(3z-3/2z+1)');
+INSERT INTO PreguntasCD VALUES (261, 75,'lim┬(t→∞) ⁡(t+t²)/(2t-t²)');
+INSERT INTO PreguntasCD VALUES (261, 76,'lim┬(x→∞) ⁡(x²+x³)');
+INSERT INTO PreguntasCD VALUES (261, 77,'lim┬(x→∞) ⁡((x^4-3x³+2x-1) / (x²-1) )');
+INSERT INTO PreguntasCD VALUES (261, 78,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2078.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 79,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2079.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 80,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2080.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 81,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2081.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 82,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2082.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 83,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2083.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 84,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2084.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 85,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2085.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 86,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2086.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 87,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2087.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 88,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2088.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 89,'lim┬(x→∞)⁡ ((4x²+1) / (2x²+5) )');
+INSERT INTO PreguntasCD VALUES (261, 90,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2090.png?raw=true');
+INSERT INTO PreguntasCD VALUES (261, 91,'lim┬(x→∞) ⁡( √(x²+1) - √(x²-3x) )');
+INSERT INTO PreguntasCD VALUES (261, 92,'lim┬(x→∞) ⁡(√(x²+x+1)) - √(x²-x+1) )');
+INSERT INTO PreguntasCD VALUES (261, 93,'lim┬(z→1)⁡((1-z³)/(z²-1) )');
 -- Tema 2 Derivadas
-INSERT INTO PreguntasCD VALUES (262, 94,'Deriva por definición la función: f(t)= b / (t-b); Respuesta:
-a)t+b/(t−b)²
-b)b/(t+b)²
-c)-b/(t−b)²
-d)t-b/(t−b)²
-');
-INSERT INTO PreguntasCD VALUES (262, 95,'Deriva por definición la función: y= ∛(x+3); Respuesta:
-a)1/3 / (∛((x+3)²))
-b)1/3 / (∛(x+3))
-c)1/3 / (∛(x-3)²)
-d)1/3 / (∛(x-3)²)
-');
-INSERT INTO PreguntasCD VALUES (262, 96,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2096.png?raw=true
-a)a/(x(a²+x²))
-b)-a²/(x(a²+x))
-c)a²/(x(a²+x²))
-d)-a²/(x²(√(a²+x²)))
-');
-INSERT INTO PreguntasCD VALUES (262, 97,'Deriva por definición la función: y= x²(√3-4x) ; Respuesta:
-a)6x-10x²/(√3-2x)
-b)6x+10x²/(√3+4x)
-c)6x+10x/(√3+4x)
-d)6x-10x²/(√3-4x)
-');
-INSERT INTO PreguntasCD VALUES (262, 98,'Halle la primera derivada parcial con respecto a x de sea y=(ax^n -c / ax^n +c)^m; Respuesta:
-a)macn(x^n-1)(ac^x -c)^m / (a^xn +c)^n+1
-b)2acn(x^n-1)(ax-n)^m / (a^xn +c)^n+1
-c)2acmn(x^n-1)(ax^n -c)^m-1 / (ax^n +c)^m+1
-d)2acn(x^n-1)(ax^c -n)^m / (a^xn +c)^n+1
-');
-INSERT INTO PreguntasCD VALUES (262, 99,'Encuentre la ecuaciòn general de la recta tangente y normal de la curva (4-x)y²=x³ en el punto (2,-2); Respuesta:
-a)Recta tangente:y-2x+4=0 , Para la normal:2y+2x-6=0
-b)Recta tangente:y-2x+2=0 , Para la normal:2y-2x+6=0
-c)Recta tangente:y+2x-2=0 , Para la normal:2y-x+6=0
-d)Recta tangente:x-2y-2=0 , Para la normal:2y+2xx+6=0
-');
-INSERT INTO PreguntasCD VALUES (262, 100,'La ecuación de movimiento de un objeto en caída libre es s(t)=-16t²-22t+220, dondes esta dado en pies y t en segundos.Determina la velocidad promedio sobre el intervalo [2,3], así como la rapidez y la aceleración en el instante t=3; Respuesta:
-a)V=102ft/s, rapidez=158ft/s, aceleración=16ft/s²
-b)V=-102ft/s, rapidez=118ft/s, aceleración=-32ft/s²
-c)V=-342ft/s, rapidez=568ft/s, aceleración=-16ft/s²
-d)V=242ft/s, rapidez=348ft/s, aceleración=-24ft/s²
-');
-INSERT INTO PreguntasCD VALUES (262, 101,'Deriva por definición la siguiente función: f(x)=(∛bx+a)  ; Respuesta:
-a)b/3(∛bx+a)²
-b)b/6(∛ba+x)²
-c)b/2(∛bx+b)²
-d)b/6(√bx+a)
-');
-INSERT INTO PreguntasCD VALUES (262, 102,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20102.png?raw=true
-a)a²-x²-x/ (√(a²-x²)) (a+x)
-b)a²-x²+ax/ (√(a²-x²)) (a-x)
-c)x²-a²+ax/ (√(x²-a²)) (x-a)
-d)a²+x²+x/ (√(a²+x²)) (a-x)
-');
-INSERT INTO PreguntasCD VALUES (262, 103,'Si se deja caer una bola de billar desde una altura de 100 pies, su altura s en el instante t se representa: s=-16t²+100, donde s se mide en pies y t en segundos.Encuentre la velocidad promedio para cada unp de estos intervalos: a)[1,2] b)[1,1.5] c)[1,1.1]; Respuesta:
-A)a)46ft/s b)40ft/s c)36.3ft/s
-B)a)48ft/s b)40ft/s c)33.6ft/s
-C)a)-48ft/s b)-40ft/s c)-33.6ft/s
-D)a)-46ft/s b)-40ft/s c)-36.3ft/s
-');
-INSERT INTO PreguntasCD VALUES (262, 104,'Encuentre la pendiente de la gráfica de la función f(x)= 8/x² en el punto(2,2) ; Respuesta:
-a)1
-b)0
-c)-2
-d)1/2
-');
-INSERT INTO PreguntasCD VALUES (262, 105,'Encuentre la pendiente de la gráfica de la función f(x)= -1/2 + 7/5x³ en el punto(0,-1/2) ; Respuesta:
-a)0
-b)2
-c)3
-d)1/2
-');
-INSERT INTO PreguntasCD VALUES (262, 106,'Encuentre la pendiente de la gráfica de la función y=(4x+1)² en el punto(0,1) ; Respuesta:
-a)6
-b)8
-c)2
-d)4
-');
-INSERT INTO PreguntasCD VALUES (262,107,'Encuentre la pendiente de la gráfica de la función f(θ)= 4senθ - θ en el punto(0,0) ; Respuesta:
-a)3
-b)5
-c)2
-d)1/3
-');
-INSERT INTO PreguntasCD VALUES (262, 108,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20108.png?raw=true
-a)10x+5cosx
-b)10x-10senx
-c)18x+5senx
-d)-18-10senx
-');
-INSERT INTO PreguntasCD VALUES (262, 109,'Encuentre la derivada de f(x)= 6(√x) + 5cosx; Respuesta:
-a)3/√x -2cosx
-b)6/x -5cosx
-c)3/√x -5senx
-d)5/√x -3senx
-');
-INSERT INTO PreguntasCD VALUES (262, 110,'Determine los puntos (si los hay) donde la gràfica de y=x^4-2x²+3 tiene una recta tangente horizontal ; Respuesta:
-a)(-1,2),(0,3),(1,2)
-b)(-1,1),(0,-3),(1,-1)
-c)(-1,3),(2,4),(2,3)
-d)(-1,1),(3,0),(1,1)
-');
-INSERT INTO PreguntasCD VALUES (262, 111,'Determine los puntos (si los hay) donde la gràfica de y=1/x² tiene una recta tangente horizontal ; Respuesta:
-a)(-1,1),(0,-3),(1,-1)
-b)Sin tangentes horizontales
-c)(-1,1),(3,0),(1,1)
-d)(-1,3),(2,4),(2,3)
-');
-INSERT INTO PreguntasCD VALUES (262, 112,'Determine los puntos (si los hay) donde la gràfica de y=x+senx tiene una recta tangente horizontal ; Respuesta:
-a)(π,1)
-b)(π ,π)
-c)(1,π)
-d)(π,0)
-');
-INSERT INTO PreguntasCD VALUES (262, 113,'Encuentre una k tal que la recta sea tangente a la gràfica de f(x)=k-x² ; Respuesta:
-a)k=-8
-b)k=8
-c)k=-2
-d)k=2
-');
-INSERT INTO PreguntasCD VALUES (262, 114,'Encuentre una k tal que la recta sea tangente a la gràfica de f(x)=k/x ; Respuesta:
-a)k=2
-b)k=1
-c)k=3
-d)k=1/3
-');
-INSERT INTO PreguntasCD VALUES (262, 115,'Deriva y= 4/(√secx); Respuesta:
-a)2tgx/(√cscx)
-b)-2tgx/(√cscx)
-c)-2tgx/(√secx)
-d)2tgx/(√secx)
-');
-INSERT INTO PreguntasCD VALUES (262, 116,'Deriva y=e^ax senbx ; Respuesta:
-a)e^a (acosbx-bsenbx)
-b)e^a (asenbx+bcosbx)
-c)e^ax (asenbx+bcosbx)
-d)e^a (asenbx-bcosbx)
-');
-INSERT INTO PreguntasCD VALUES (262, 117,'Deriva y=sen nx sen^n x ; Respuesta:
-a)(narccos)^n-1 xcos(n+1)x
-b)(nsen)^n-1 xsen(n+1)x
-c)(ncos)^n-2 xcos(n+1)x
-d)(narcsen)^n-2 xsen(n+1)x
-');
-INSERT INTO PreguntasCD VALUES (262, 118,'Deriva y= arcsec 1/x; Respuesta:
-a)-1 / √(1-x²)
-b)1 / -√(1-x²)
-c)1 / √(1-x²)
-d)-1 / -√(1-x²)
-
-');
-INSERT INTO PreguntasCD VALUES (262, 119,'Deriva y = (x)arcsen(2x); Respuesta:
-a)arcsen2x+ 2x/(√1-4x²)
-b)arccos4x+ 2x/(√1+4x²)
-c)arccos2x+ x/(√1+4x)
-d)arcsenx+ 2x/(√1+4x)
-');
-INSERT INTO PreguntasCD VALUES (262, 120,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20120.png?raw=true
-a)xarctgx²
-b)x²arctgx
-c)2xarctgx²
-d)x²arctg2x
-');
-INSERT INTO PreguntasCD VALUES (262, 121,'Deriva y=arctg((a+r)/(1-ar)); Respuesta:
-a)r²
-b)1/1+r²
-c)1/2+r
-d)r
-');
-INSERT INTO PreguntasCD VALUES (262, 122,'Encuentra la pendiente de la derivada de y = arcsec(2x) / √x en el punto x=1; Respuesta:
-a)0.053
-b)0.530
-c)5.303
-d)5
-');
-INSERT INTO PreguntasCD VALUES (262, 123,'Encuentra la pendiente de la derivada de y = (x²)arccsc(√x) en el punto x=2; Respuesta:
-a)1.9873
-b)1.789
-c)2.142
-d)2.098
-');
-INSERT INTO PreguntasCD VALUES (262, 124,'Deriva por definición y=-2/√(x-3); Respuesta:
-a)-1/√(x-3) (x+3)
-b)1/√(x-3) / (x-3)
-c)1/√(x-3) (x-3)
-d)1/√(x-3)/ (x+3)
-');
-INSERT INTO PreguntasCD VALUES (262, 125,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20125.png?raw=true
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/a%20125.png?raw=true
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/b%20125.png?raw=true
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/c%20125.png?raw=true
-https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/d%20125.png?raw=true+
-');
-INSERT INTO PreguntasCD VALUES (262, 126,'Deriva y = arcsen(sen(senθ)); Respuesta:
-a)arccosθ
-b)senθ
-c)tanθ
-d)cosθ
-');
-INSERT INTO PreguntasCD VALUES (262, 127, "Si f'(x) = g'(x), entonces f(x)=g(x); Respuesta:
-a)Verdadero
-b)Falso
-");
-INSERT INTO PreguntasCD VALUES (262, 128,'Si y=π², entonces dy/dx = 2π ; Respuesta:
-a)Verdadero
-b)Falso
-');
-INSERT INTO PreguntasCD VALUES (262, 129,'Encuentre las ecuaciones de las rectas tangentes a la gráfica de la curva y=x³-9x que pasan por el punto (1,-9) que no está en la gráfica ; Respuesta:
-a)3x+y=0, 8x+y+13=0
-b)x+y=0, x+8y+13=0
-c)9x+y=0, 9x+4y+27=0
-d)9x-y=0, 5x+3y+27=0
-');
-INSERT INTO PreguntasCD VALUES (262, 130,'Encuentre la ecuación de la parábola y=ax²+bx+c que pasa por el punto (0,1) y es tangente a la recta y=x-1 en el punto (1,0) ; Respuesta:
-a)y=5x²-4x-1
-b)y=x²-6x-7
-c)y=2x²-3x+1
-d)y=4x²+3x+5
-');
-INSERT INTO PreguntasCD VALUES (262, 131,'Encuentre la derivada de f(x)=(2x³+5x)(x-3)(x+2) ; Respuesta:
-a)10x^4-8x³-21x²-10x-30
-b)5x^4-8x-26x²-7x+56
-c)4x^6-4x³+13x²-5x+67
-d)7x^6-4x³-13x²-4-67
-');
-INSERT INTO PreguntasCD VALUES (262, 132,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20132.png?raw=true
-a)2csc(3-2x)²
-b)cosx/cotx
-c)senx arccot²x
-d)senx/arccot²x
-');
-INSERT INTO PreguntasCD VALUES (262, 133,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20133.png?raw=true
-a)(2x²-8x+1)/(x-2)²
-b)(x²-8x+1)(x-2)
-c)(x²-8x+1)(x-2)²
-d)(2x²+8x-1)/(x+2)²
-');
-INSERT INTO PreguntasCD VALUES (262, 134,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20134.png?raw=true
-a)(x²-8x+1)(x-2)²
-b)(2x+x³+x²+9)/(x²+1)
-c)(2x+x³+x²+9)(x²+1)
-d)(2x^5+4x³+4x²-4)/(x²+1)²
-');
-INSERT INTO PreguntasCD VALUES (262, 135,'Encuentre la derivada de g(θ)= θ / (1-senθ) ; Respuesta:
-a)(senθ²)+cosθ (1-senθ)²
-b)(1+2senθ)+θcosθ/ (1+arcsenθ)
-c)(1-senθ)+θcosθ/ (1-senθ)²
-d)(1+senθ)-θarccosθ/ (1+senθ)²
-');
-INSERT INTO PreguntasCD VALUES (262, 136,'Encuentre la derivada de f(x)= cosx / (1-senx) ; Respuesta:
-a)1/2+senx
-b)1/1-senx
-c)1-senx
-d)1/1+cosx
-');
+INSERT INTO PreguntasCD VALUES (262, 94,'Deriva por definición la función: f(t)= b / (t-b)');
+INSERT INTO PreguntasCD VALUES (262, 95,'Deriva por definición la función: y= ∛(x+3)');
+INSERT INTO PreguntasCD VALUES (262, 96,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%2096.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 97,'Deriva por definición la función: y= x²(√3-4x)');
+INSERT INTO PreguntasCD VALUES (262, 98,'Halle la primera derivada parcial con respecto a x de sea y=(ax^n -c / ax^n +c)^m ');
+INSERT INTO PreguntasCD VALUES (262, 99,'Encuentre la ecuaciòn general de la recta tangente y normal de la curva (4-x)y²=x³ en el punto (2,-2)');
+INSERT INTO PreguntasCD VALUES (262, 100,'La ecuación de movimiento de un objeto en caída libre es s(t)=-16t²-22t+220, dondes esta dado en pies y t en segundos.Determina la velocidad promedio sobre el intervalo [2,3], así como la rapidez y la aceleración en el instante t=3');
+INSERT INTO PreguntasCD VALUES (262, 101,'Deriva por definición la siguiente función: f(x)=(∛bx+a)');
+INSERT INTO PreguntasCD VALUES (262, 102,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20102.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 103,'Si se deja caer una bola de billar desde una altura de 100 pies, su altura s en el instante t se representa: s=-16t²+100, donde s se mide en pies y t en segundos.Encuentre la velocidad promedio para cada unp de estos intervalos: a)[1,2] b)[1,1.5] c)[1,1.1]');
+INSERT INTO PreguntasCD VALUES (262, 104,'Encuentre la pendiente de la gráfica de la función f(x)= 8/x² en el punto(2,2)');
+INSERT INTO PreguntasCD VALUES (262, 105,'Encuentre la pendiente de la gráfica de la función f(x)= -1/2 + 7/5x³ en el punto(0,-1/2)');
+INSERT INTO PreguntasCD VALUES (262, 106,'Encuentre la pendiente de la gráfica de la función y=(4x+1)² en el punto(0,1)');
+INSERT INTO PreguntasCD VALUES (262,107,'Encuentre la pendiente de la gráfica de la función f(θ)= 4senθ - θ en el punto(0,0)');
+INSERT INTO PreguntasCD VALUES (262, 108,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20108.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 109,'Encuentre la derivada de f(x)= 6(√x) + 5cosx ');
+INSERT INTO PreguntasCD VALUES (262, 110,'Determine los puntos (si los hay) donde la gràfica de y=x^4-2x²+3 tiene una recta tangente horizontal');
+INSERT INTO PreguntasCD VALUES (262, 111,'Determine los puntos (si los hay) donde la gràfica de y=1/x² tiene una recta tangente horizontal');
+INSERT INTO PreguntasCD VALUES (262, 112,'Determine los puntos (si los hay) donde la gràfica de y=x+senx tiene una recta tangente horizontal');
+INSERT INTO PreguntasCD VALUES (262, 113,'Encuentre una k tal que la recta sea tangente a la gràfica de f(x)=k-x²');
+INSERT INTO PreguntasCD VALUES (262, 114,'Encuentre una k tal que la recta sea tangente a la gràfica de f(x)=k/x');
+INSERT INTO PreguntasCD VALUES (262, 115,'Deriva y= 4/(√secx)');
+INSERT INTO PreguntasCD VALUES (262, 116,'Deriva y=e^ax senbx');
+INSERT INTO PreguntasCD VALUES (262, 117,'Deriva y=sen nx sen^n x ');
+INSERT INTO PreguntasCD VALUES (262, 118,'Deriva y= arcsec 1/x ');
+INSERT INTO PreguntasCD VALUES (262, 119,'Deriva y = (x)arcsen(2x)');
+INSERT INTO PreguntasCD VALUES (262, 120,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20120.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 121,'Deriva y=arctg((a+r)/(1-ar))');
+INSERT INTO PreguntasCD VALUES (262, 122,'Encuentra la pendiente de la derivada de y = arcsec(2x) / √x en el punto x=1');
+INSERT INTO PreguntasCD VALUES (262, 123,'Encuentra la pendiente de la derivada de y = (x²)arccsc(√x) en el punto x=2');
+INSERT INTO PreguntasCD VALUES (262, 124,'Deriva por definición y=-2/√(x-3)');
+INSERT INTO PreguntasCD VALUES (262, 125,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20125.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 126,'Deriva y = arcsen(sen(senθ))');
+INSERT INTO PreguntasCD VALUES (262, 127, "Si f'(x) = g'(x), entonces f(x)=g(x)");
+INSERT INTO PreguntasCD VALUES (262, 128,'Si y=π², entonces dy/dx = 2π ');
+INSERT INTO PreguntasCD VALUES (262, 129,'Encuentre las ecuaciones de las rectas tangentes a la gráfica de la curva y=x³-9x que pasan por el punto (1,-9) que no está en la gráfica');
+INSERT INTO PreguntasCD VALUES (262, 130,'Encuentre la ecuación de la parábola y=ax²+bx+c que pasa por el punto (0,1) y es tangente a la recta y=x-1 en el punto (1,0)');
+INSERT INTO PreguntasCD VALUES (262, 131,'Encuentre la derivada de f(x)=(2x³+5x)(x-3)(x+2)');
+INSERT INTO PreguntasCD VALUES (262, 132,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20132.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 133,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20133.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 134,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/Pregunta%20134.png?raw=true');
+INSERT INTO PreguntasCD VALUES (262, 135,'Encuentre la derivada de g(θ)= θ / (1-senθ)');
+INSERT INTO PreguntasCD VALUES (262, 136,'Encuentre la derivada de f(x)= cosx / (1-senx)');
 
 -- Preguntas Tercer Parcial Calculo diferencial.
 
-INSERT INTO PreguntasCD VALUES (361,137,'Cada lado de un cuadrado mide 5 unidades de longitud.Hallar la longitud de cada lado del cuadrado de máxima área que puede circunscribirse al cuadrado dado;Respuesta:
-a)(5√2)/2
-b)(5√2)
-c)(5√3)/3
-d)(2√3)/2
-');
-INSERT INTO PreguntasCD VALUES (361,138,'Un rectángulo tiene 2 de sus lados sobre los ejes coordenados positivos y su vértice opuesto al origen M(x,y) está sobre la curva de ecuación x=(1/2)^-y.En este vértice la ordenada aumenta a razón d 1/3 cm/s,¿Cuál es la variación del área del rectángulo cuando y=1cm?  ;Respuesta:
-a)La variación es aproximadamente de 1.1287 cm²/s
-b)La variación es aproximadamente de 0.5757 cm²/s
-c)La variación es aproximadamente de 0.2124 cm²/s
-d)La variación es aproximadamente de 1.7787 cm²/s
-');
-INSERT INTO PreguntasCD VALUES (361, 139,'Sean las funciones f(x)= k arctan(x) y g(x)= -1/2senx ¿ Cuál es el valor de la constante k para que el ángulo se intersección de ambas curvas sea de 90 grados en el origen?  ; Respuesta:
-a)k=1.5
-b)k=2
-c)k=1
-d)k=3
-');
-INSERT INTO PreguntasCD VALUES (361, 140,'Sea la función f(x)=-x(e^x/3).Determinar los puntos de inflexión y los intervalos de sentido de concavidad.   ; Respuesta:
-a)Punto de inflexión: (3,-3/e²), de(∞,3),la función es concava y de (3,∞), la función es convexa 
-b)Punto de inflexión: (-6,6/e²), de(-∞,-6),la función es concava y de (-6,∞), la función es convexa 
-c)Punto de inflexión: (-3,3/e²), de(-∞,-3),la función es concava y de (-3,∞), la función es convexa 
-d)Punto de inflexión: (6,-6/e²), de(∞,6),la función es concava y de (6,∞), la función es convexa 
-');
-INSERT INTO PreguntasCD VALUES (361, 141,'Hallar un punto sobre la curva y-x=ln(y) donde la recta tangente tiene como pendiente 20/19, aproximar el resultado  ; Respuesta:
-a)P(20-ln2,20)
-b)P(210-10ln20,20)
-c)P(20-ln20,20)
-d)P(20-2ln20,20)
-');
-INSERT INTO PreguntasCD VALUES (361, 142,'Obtener las ecuaciones de la recta tengente y normal de la curva (∛xy)-14x=y en el punto (2,-32)  ; Respuesta:
-a)Ec tangente: (361/23)x + y + 32/21=0, ec normal:y-(20/350)x + 5655/176
-b)Ec tangente: (36/27)x + y + 26/23=0, ec normal:y+(23/35)x + 555/16
-c)Ec tangente: (36/323)x + y + 30/23=0, ec normal:y+(23/352)x - 655/176
-d)Ec tangente: (362/23)x + y + 32/23=0, ec normal:y-(23/352)x + 5655/176
-');
-INSERT INTO PreguntasCD VALUES (361, 143,'Determinar el ángulo agudo formado al intersectarse las curvas y=x²-4x+5 y y=-x²+4x-1 en unos de sus puntos de intersección  ; Respuesta:
-a)53.1301
-b)43.1301
-c)34.2356
-d)54.2356
-');
-INSERT INTO PreguntasCD VALUES (361, 144,'Un envase tiene un volumen de 10m³, consta de un cilindro de base plana y una tapa semiesférica.¿Cuál es el radio de la base del envase para que tenga la menor área superficial posible?, la superfecie esférica es de 4πr²  ;Respuesta:
-a)r=0.88m
-b)r=0.80m
-c)r=1.88m
-d)r=1.80m
-');
-INSERT INTO PreguntasCD VALUES (361, 145,'Un depósito de agua de forma cilíndrica de 4 pies de radio, la profundidad de agua disminuye a razón de 3ft/2min ¿Con qué rápidez disminuye el volumen de agua? ;Respuesta:
-a)(24πft³)/min
-b)(22πft³)/min
-c)(20πft³)/min
-d)(26πft³)/min
-');
-INSERT INTO PreguntasCD VALUES (361, 146,'Sea f(x)=x³-3x², hallar los máximos y mínimos ; Respuesta:
-a)Máximo: (0,0), mínimo(2,-2)
-b)Máximo: (0,1), mínimo(2,-6)
-c)Máximo: (0,0), mínimo(2,-4)
-d)Máximo: (1,0), mínimo(-2,4)
-');
-INSERT INTO PreguntasCD VALUES (361, 147,'Sea f(x)=x²+2x-3, hallar los máximos y mínimos ; Respuesta:
-a)Máximo:(0,0), mínimo: no hay
-b)Máximo:No hay, mínimo(1,-3)
-c)Máximo:No hay, mínimo(-1,-4)
-d)Máximo:(1,1), mínimo: no hay
-');
-INSERT INTO PreguntasCD VALUES (361, 148,'Sea f(x)=2x²-x^4, hallar los máximos y mínimos ; Respuesta:
-a)Máximo: (1,1), máximo(-1,-1), mínimo(0,0)
-b)Máximo: (-1,1), máximo(1,1), mínimo(0,0)
-c)Máximo: (-1,0), máximo(2,-2), mínimo(0,1)
-d)Máximo: (1,-1), máximo(1,-1), mínimo(1,0)
-');
-INSERT INTO PreguntasCD VALUES (361, 149,'Sea f(x)=x³-6x²+9x-8, hallar los máximos y mínimos ; Respuesta:
-a)Máximo: (1,-4), mínimo(3,-8)
-b)Máximo: (2,-4), mínimo(1,-6)
-c)Máximo: (1,-4), mínimo(1,-4)
-d)Máximo: (2,-4), mínimo(-6,3)
-');
-INSERT INTO PreguntasCD VALUES (361, 150,'De una puerta cuadrada de lámina de lado de 12cm, se desea construir una caja abierta por arriba del mayor volumen posible, cortando de las esquinas cuadradas iguales y doblando hacia arriba para formar las caras laterales ¿Cuál debe ser la longitud del lado de los cuadrados iguales? ; Respuesta:
-a)2.5cm
-b)1.5cm
-c)6cm
-d)2cm
-');
-INSERT INTO PreguntasCD VALUES (361, 151,'Se dispone de una barra de hierro de 10m para construir una portería de manera que la portería tenga la máxima superficie interior posible ¿Cúal debe ser la longitud de los postes y el área interior?  ; Respuesta:
-a)Postes:1.5m, travesaño:7m, área interior:10.5m²
-b)Postes:3m, travesaño:4m, área interior:12m²
-c)Postes:2.5m, travesaño:5m, área interior:12.5m²
-d)Postes:2m, travesaño:6m, área interior:12m²
-');
-INSERT INTO PreguntasCD VALUES (361, 152,'Calcule el área máxima que puede tener un triángulo rectángulo de tal manera que la suma de sus catetos sea igual a 4cm ; Respuesta:
-a)4.5m²
-b)6m²
-c)2m²
-d)4m²
-');
-INSERT INTO PreguntasCD VALUES (361, 153,'Se desea sembrar en un jardín rectangular utilizando un lado de su casa como muro del jardín y colocando una cerca de alambre en los tres lados restantes.¿Cuáles son las dimensiones del jardín que maximiza eñ área utilizando una malla de 40m?  ; Respuesta:
-a)x=10m, y=30m, A=300m²
-b)x=25m, y=20m, A=500m²
-c)x=10m, y=20m, A=200m²
-d)x=10m, y=25m, A=250m²
-');
-INSERT INTO PreguntasCD VALUES (361, 154,'Se requiere construir un marco rectangular para un cuadro de área de 8m², el precio del marco lateral es de 4$/m y el del marco superior e inferior es de 2$/m. Calcular las dimensiones del marco para que su costo sea mínimo ; Respuesta:
-a)Marco superior e inferior: 4$/m, cada marco lateral: 2$/m
-b)Marco superior e inferior: 5$/m, cada marco lateral: 1$/m
-c)Marco superior e inferior: 2$/m, cada marco lateral: 4$/m
-d)Marco superior e inferior: 1$/m, cada marco lateral: 5$/m
-');
-INSERT INTO PreguntasCD VALUES (361, 155,'Se requiere construir una piscina en forma de paralepípedo recto de base cuadrada.Disponemos de 192m² de baldosas para recubrir las paredes y el fondo de la piscina. Hallar ñas dimensiones de la piscina para que el volumen sea máximo; Respuesta:
-a)Alto: 4m, largo: 8m, ancho:8m 
-b)Alto: 4m, largo: 4m, ancho:12m 
-c)Alto: 2m, largo: 6m, ancho:8m 
-d)Alto: 6m, largo: 7m, ancho:7m 
-');
-INSERT INTO PreguntasCD VALUES (361, 156,'Un reactor químico en forma de cilindro circular será construido usando exactamente 100m² de material y se requiere que tenga el mayor volumen posible ¿Cuál debe ser el valor de su radio? ; Respuesta:
-a)2
-b)1.30
-c)2.30
-d)1
-');
+INSERT INTO PreguntasCD VALUES (361,137,'Cada lado de un cuadrado mide 5 unidades de longitud.Hallar la longitud de cada lado del cuadrado de máxima área que puede circunscribirse al cuadrado dado');
+INSERT INTO PreguntasCD VALUES (361,138,'Un rectángulo tiene 2 de sus lados sobre los ejes coordenados positivos y su vértice opuesto al origen M(x,y) está sobre la curva de ecuación x=(1/2)^-y.En este vértice la ordenada aumenta a razón d 1/3 cm/s,¿Cuál es la variación del área del rectángulo cuando y=1cm?');
+INSERT INTO PreguntasCD VALUES (361, 139,'Sean las funciones f(x)= k arctan(x) y g(x)= -1/2senx ¿ Cuál es el valor de la constante k para que el ángulo se intersección de ambas curvas sea de 90 grados en el origen?');
+INSERT INTO PreguntasCD VALUES (361, 140,'Sea la función f(x)=-x(e^x/3).Determinar los puntos de inflexión y los intervalos de sentido de concavidad.');
+INSERT INTO PreguntasCD VALUES (361, 141,'Hallar un punto sobre la curva y-x=ln(y) donde la recta tangente tiene como pendiente 20/19, aproximar el resultado');
+INSERT INTO PreguntasCD VALUES (361, 142,'Obtener las ecuaciones de la recta tengente y normal de la curva (∛xy)-14x=y en el punto (2,-32)');
+INSERT INTO PreguntasCD VALUES (361, 143,'Determinar el ángulo agudo formado al intersectarse las curvas y=x²-4x+5 y y=-x²+4x-1 en unos de sus puntos de intersección');
+INSERT INTO PreguntasCD VALUES (361, 144,'Un envase tiene un volumen de 10m³, consta de un cilindro de base plana y una tapa semiesférica.¿Cuál es el radio de la base del envase para que tenga la menor área superficial posible?, la superfecie esférica es de 4πr²');
+INSERT INTO PreguntasCD VALUES (361, 145,'Un depósito de agua de forma cilíndrica de 4 pies de radio, la profundidad de agua disminuye a razón de 3ft/2min ¿Con qué rápidez disminuye el volumen de agua?');
+INSERT INTO PreguntasCD VALUES (361, 146,'Sea f(x)=x³-3x², hallar los máximos y mínimos');
+INSERT INTO PreguntasCD VALUES (361, 147,'Sea f(x)=x²+2x-3, hallar los máximos y mínimos');
+INSERT INTO PreguntasCD VALUES (361, 148,'Sea f(x)=2x²-x^4, hallar los máximos y mínimos');
+INSERT INTO PreguntasCD VALUES (361, 149,'Sea f(x)=x³-6x²+9x-8, hallar los máximos y mínimos');
+INSERT INTO PreguntasCD VALUES (361, 150,'De una puerta cuadrada de lámina de lado de 12cm, se desea construir una caja abierta por arriba del mayor volumen posible, cortando de las esquinas cuadradas iguales y doblando hacia arriba para formar las caras laterales ¿Cuál debe ser la longitud del lado de los cuadrados iguales?');
+INSERT INTO PreguntasCD VALUES (361, 151,'Se dispone de una barra de hierro de 10m para construir una portería de manera que la portería tenga la máxima superficie interior posible ¿Cúal debe ser la longitud de los postes y el área interior?');
+INSERT INTO PreguntasCD VALUES (361, 152,'Calcule el área máxima que puede tener un triángulo rectángulo de tal manera que la suma de sus catetos sea igual a 4cm');
+INSERT INTO PreguntasCD VALUES (361, 153,'Se desea sembrar en un jardín rectangular utilizando un lado de su casa como muro del jardín y colocando una cerca de alambre en los tres lados restantes.¿Cuáles son las dimensiones del jardín que maximiza eñ área utilizando una malla de 40m?');
+INSERT INTO PreguntasCD VALUES (361, 154,'Se requiere construir un marco rectangular para un cuadro de área de 8m², el precio del marco lateral es de 4$/m y el del marco superior e inferior es de 2$/m. Calcular las dimensiones del marco para que su costo sea mínimo');
+INSERT INTO PreguntasCD VALUES (361, 155,'Se requiere construir una piscina en forma de paralepípedo recto de base cuadrada.Disponemos de 192m² de baldosas para recubrir las paredes y el fondo de la piscina. Hallar ñas dimensiones de la piscina para que el volumen sea máximo');
+INSERT INTO PreguntasCD VALUES (361, 156,'Un reactor químico en forma de cilindro circular será construido usando exactamente 100m² de material y se requiere que tenga el mayor volumen posible ¿Cuál debe ser el valor de su radio?');
 
 
 
 
 
--- Creacion de la tabla para los incisos
 CREATE TABLE Incisos_CD( 
 		ID_PreguntaCD INTEGER NOT NULL,
 		ID_Incisos_CD INTEGER NOT NULL,
@@ -865,22 +281,128 @@ INSERT INTO Incisos_CD VALUES
 
 -- Tema 5
 (43,53, "A)a) -2 		b) 13 		c) 3b-2 	d) 3x-5", "B)a) -1 		b) 14 		c) 6b-1 	d) 3x+3", "C)a) 0 		    b) 16 		c) 2b-9 	d) x-6", "D)a) -3 		b) 14 		c) b-2 	    d) 6x-8"),
-(44,54),
-(45,55),
-(46,56),
-(47,57),
-(48,58),
-(49,59),
-(50,60),
+(44,54, "a) 3", "b) 5", "c) 6", "d) 4"),
+(45,55, "a) 110m²", "b) 120m²", "c) 100m²", "d) 40m²"),
+(46,56, "a) 186m²", "b) 236m²", "c) 256m²", "d) 276m²"),
+(47,57, "a) 10 cm", "b) 10.7 cm", "c) 9.8 cm", "d) 10.5 cm"),
+(48,58, "a) -3 y 3", "b) 3 y 4", "c) 4 y 5", "d) 4 y -4"),
+(49,59, "A) a) 4√18 b) √8 c) 2√4",  "B) a) √3 b) √10 c) 3√6",  "C) a) √2 b) √11 c) 2√2",  "D) a) 3 b) √14 c) 3"  ),
+(50,60, "A) a) 5 b) 0 c) 1" , "B) a) 7 b) 1 c) 6" , "C) a) 6 b) 4 c) 8" , "D) a) 4 b) 2 c) 1"),
+(51,61, "a) 3x² + 3x∆x + (∆x)², ∆x ≠ 0", "b) 3x² + 6x∆x + (∆x) ^4, ∆x ≠ 0", "c) 5x² + 4x∆x + (∆x) ^3, ∆x ≠ 0", "d) x² + 5x∆x + (∆x)², ∆x ≠ 0"),
+(52,62, "A) a) 5 b) -5 c) 47 d) -15/4", "B) a) 10 b) -3 c) 47 d) 15/4", "C) a) 5 b) -3 c) 33 d) -12/2", "D) a) 15 b) 3 c) 33 d) 12/2"),
+(53,63, "A) a) El cambio neto es 7 b) El cambio neto es 1", "B) a) El cambio neto es 7 b) El cambio neto es 3", "C) a) El cambio neto es 8 b) El cambio neto es 0", "D) a) El cambio neto es 6 b) El cambio neto es 2"),
+(54,64, "A) a) 5x² - 3x + 2 b) 4x² + 2x - 1 c) 3x² - 5x + 4 d) 2x² - 3x - 2", "B) a) 3y² + 5y - 2 b) 4y² - 3y + 1 c) 2y² + 4y + 3 d) 5y - 2y² - 4", "C) a) 6z² + 2z - 3 b) 3z² - 4z + 5 c) 2z² + 3z + 1 d) 4z - 2z² - 3", "D) a) 2a² + 3a - 1 b) 2a² - 3a - 1 c) 2a² + 4ah + 2h² + 3a + 3h - 1 d) 4a + 2h + 3"),
+(55,65, "A) a) Entonces a una altura de 100 millas ella pesa aproximadamente 114lb b) El peso de la astronauta disminuye aproximadamente 18lb", "B) a) Entonces a una altura de 100 millas ella pesa aproximadamente 124lb b) El peso de la astronauta disminuye aproximadamente 28lb", "C) a) Entonces a una altura de 100 millas ella pesa aproximadamente 147lb b) El peso de la astronauta disminuye aproximadamente 32lb", "D) a) Entonces a una altura de 100 millas ella pesa aproximadamente 94lb b) El peso de la astronauta disminuye aproximadamente 18lb"),
 
+-- Tema 6
+(56,66, "a) Dominio: (-∞, ∞) | Rango: (1, 4]", "b) Dominio: (-∞, -1) ∪ (-1, ∞) | Rango: (-∞,0)", "c) Dominio: (-∞, ∞) | Rango: (-∞,1]", "d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)"),
+(57,67, "a) Dominio: (-4, ∞) | Rango: (0, ∞)", "b) Dominio: (-∞, -4) ∪ (-4, ∞) | Rango: (-∞,0)", "c) Dominio: (-∞, ∞) | Rango: (1, 4]", "d) Dominio: (-∞,0) ∪ (0, ∞) | Rango: (-∞, ∞)"),
+(58,68, "a) Dominio: (-∞,0) ∪ (0, 3) ∪ (3, ∞) | Rango: (-∞,0)", "b) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞,0)", "c) Dominio: (-∞, -3) ∪ (3, ∞) | Rango: (-∞, ∞)", "d) Dominio: (-∞, ∞) | Rango: (-∞,1)"),
+(59,69, "a) Dominio: (-∞, ∞) | Rango: (-∞,0)", "b) Dominio: (-∞,1] | Rango: [0, ∞)", "c) Dominio: (-∞,0) ∪ (0,1] | Rango: (-∞, ∞)", "d) Dominio: (-∞,1) ∪ (1, ∞) | Rango: (-∞, ∞)"),
+(60,70, "a) Dominio: (-∞, ∞) | Rango: [-2, ∞)", "b) Dominio: (-∞,1] | Rango: [0, ∞)", "c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)", "d) Dominio: (-∞, 1] | Rango: [0,∞)"),
+(61,71, "a) Dominio: (-∞, ∞) | Rango: [-2, ∞)", "b) Dominio: (-∞,1] | Rango: [0, ∞)", "c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)", "d) Dominio: (-∞, 1] | Rango: [0,∞)"),
+(62,72, "A) (a) -1 (b) 2 (c) 6 (d) 2t²+4 Dominio: (-∞, ∞) Rango: (-∞,1) ∪ [2, ∞)", "B) (a) 0 (b) 4 (c) 4 (d) 2t+4 Dominio: (-∞, ∞) Rango: (-∞,2) ∪ [5, ∞)", "C) (a) -1 (b) 2 (c) 1 (d) 2t²+6 Dominio: (-∞, ∞) Rango: (-∞,1) ∪ [1, ∞)", "D) (a) -2 (b) 5 (c) 8 (d) t² Dominio: (-∞, 0) Rango: (-1,1) ∪ [2, 5)"),
+(63,73, "A) (a) 0 (b) 0 (c) -4 (d) -b Dominio: (-∞, 5) Rango: (0,∞) ∪ [2, ∞)", "B) (a) 2 (b) 1 (c) -5 (d) b² Dominio: (-1, ∞) Rango: (-∞,1] ∪ [2, ∞)", "C) (a) 4 (b) 0 (c) -2 (d) -b² Dominio: (-∞, ∞) Rango: (-∞,0] ∪ [1, ∞)", "D) (a) 0 (b) 0 (c) -4 (d) -b Dominio: (-∞, 5) Rango: (0,∞) ∪ [2, ∞)"),
+(64,74, "a) Dominio: (-∞, ∞) Rango: [-2, ∞)", "b) Dominio: (3, ∞) Rango: (0, ∞)", "c) Dominio: (-∞,0] ∪ (0,1] Rango: (-∞, ∞)", "d) Dominio: (-∞, 1] Rango: [0,∞)"),
+(65,75, "a) Dominio: (-∞, ∞) Rango: [-2, ∞)", "b) Dominio: (-∞,1] | Rango: [0, ∞)", "c) Dominio: (-∞,0] ∪ (0,1] | Rango: (-∞, ∞)", "d) Dominio: (-∞, ∞)| Rango: (0,2]"),
 
+-- Incisos segundo parcial 
+-- Tema 1
+(66,76, "a) 1/3", "b) 3", "c) 2/3", "d) 1"),
+(67,77, "a) 6/3", "b) 8/2", "c) 16/7", "d) 5/7"),
+(68,78, "a) -4/5", "b) 4/10", "c) -4/10", "d) -1/5"),
+(69,79, "a) √4 - 2", "b) √3", "c) √3 - 3", "d) √3 + 1"),
+(70,80, "a) 0", "b) 1", "c) 3", "d) 1/3"),
+(71,81, "a) 0", "b) 1", "c) 2", "d) 3"),
+(72,82, "a) 1/3", "b) 1", "c) 1/4", "d) 1/2"),
+(73,83, "a) 1", "b) 0", "c) -1", "d) 2"),
+(74,84, "a) 8/4", "b) 3/2", "c) 2", "d) 4"),
+(75,85, "a) -1", "b) 1", "c) 0", "d) 2"),
+(76,86, "a) 1", "b) 1/2", "c) -∞", "d) ∞"),
+(77,87, "a) 2", "b) 5", "c) 3", "d) ∞"),
+(78,88, "a) 5/10", "b) 0", "c) 6/4", "d) 3"),
+(79,89, "a) 1", "b) 0", "c) ∞", "d) 1/2"),
+(80,90, "a) ∞", "b) 1", "c) -1", "d) 2"),
+(81,91, "a) 1/36", "b) -1/36", "c) -1/48", "d) 1/48"),
+(82,92, "a) 1/2", "b) -1", "c) 1", "d) 0"),
+(83,93, "a) -∞", "b) ∞", "c) 0", "d) 1/2"),
+(84,94, "a) 4/8", "b) 2/3", "c) 4/6", "d) -4/6"),
+(85,95, "a) 1/3", "b) 8/3", "c) 9/4", "d) -8/3"),
+(86,96, "a) √8/2", "b) √6/3", "c) √4/2", "d) √2/4"),
+(87,97, "a) 3", "b) 0", "c) ∞", "d) -1"),
+(88,98, "a) 1/3", "b) 2", "c) ∞", "d) 3"),
+(89,99, "a) 6", "b) 4", "c) 2", "d) 3"),
+(90,100, "a) e^-2", "b) 1/2e", "c) e", "d) e²"),
+(91,101, "a) 1/2", "b) 1/3", "c) 1", "d) 3/2"),
+(92,102, "a) 1", "b) 1/2", "c) 2", "d) 1/3"),
+(93,103, "a) 3/2", "b) -1", "c) -3/2", "d) 0"),
 
+-- Tema 2
+(94,104, "a) t+b/(t−b)²", "b) b/(t+b)²", "c) -b/(t−b)²", "d) t-b/(t−b)²"),
+(95,105, "a) 1/3 / (∛((x+3)²))", "b) 1/3 / (∛(x+3))", "c) 1/3 / (∛(x-3)²)", "d) 1/3 / (∛(x-3)²)"),
+(96,106, "a) a/(x(a²+x²))", "b) -a²/(x(a²+x))", "c) a²/(x(a²+x²))", "d) -a²/(x²(√(a²+x²)))"),
+(97,107, "a) 6x-10x²/(√3-2x)", "b) 6x+10x²/(√3+4x)", "c) 6x+10x/(√3+4x)", "d) 6x-10x²/(√3-4x)"),
+(98,108, "a) macn(x^n-1)(ac^x -c)^m / (a^xn +c)^(n+1)", "b) 2acn(x^n-1)(ax-n)^m / (a^xn +c)^(n+1)", "c) 2acmn(x^n-1)(ax^n -c)^m-1 / (ax^n +c)^(m+1)", "d) 2acn(x^n-1)(ax^c -n)^m / (a^xn +c)^(n+1)"),
+(99,109, "a) Recta tangente: y - 2x + 4 = 0, Para la normal: 2y + 2x - 6 = 0", "b) Recta tangente: y - 2x + 2 = 0, Para la normal: 2y - 2x + 6 = 0", "c) Recta tangente: y + 2x - 2 = 0, Para la normal: 2y - x + 6 = 0", "d) Recta tangente: x - 2y - 2 = 0, Para la normal: 2y + 2xx + 6 = 0"),
+(100,110, "a) V=102ft/s, rapidez=158ft/s, aceleración=16ft/s²", "b) V=-102ft/s, rapidez=118ft/s, aceleración=-32ft/s²", "c) V=-342ft/s, rapidez=568ft/s, aceleración=-16ft/s²", "d) V=242ft/s, rapidez=348ft/s, aceleración=-24ft/s²"),
+(101,111, "a) b/3(∛(bx + a))²", "b) b/6(∛(ba + x))²", "c) b/2(∛(bx + b))²", "d) b/6(√(bx + a))"),
+(102,112, "a)a²-x²-x/ (√(a²-x²)) (a+x)", "b)a²-x²+ax/ (√(a²-x²)) (a-x)", "c)x²-a²+ax/ (√(x²-a²)) (x-a)", "d)a²+x²+x/ (√(a²+x²)) (a-x)"),
+(103,113, "A)a)46ft/s b)40ft/s c)36.3ft/s", "B)a)48ft/s b)40ft/s c)33.6ft/s", "C)a)-48ft/s b)-40ft/s c)-33.6ft/s", "D)a)-46ft/s b)-40ft/s c)-36.3ft/s"),
+(104,114, "a)1", "b)0", "c)-2", "d)1/2"),
+(105,115, "a)0", "b)2" ,"c)3", "d)1/2"),
+(106,116, "a)6" ,"b)8", "c)2", "d)4"),
+(107,117, "a)3", "b)5", "c)2" ,"d)1/3"),
+(108,118, "a)10x+5cosx", "b)10x-10senx", "c)18x+5senx", "d)-18-10senx"),
+(109,119, "a)3/√x -2cosx", "b)6/x -5cosx" ,"c)3/√x -5senx", "d)5/√x -3senx"),
+(110,120, "a)(-1,2),(0,3),(1,2)", "b)(-1,1),(0,-3),(1,-1)", "c)(-1,3),(2,4),(2,3)", "d)(-1,1),(3,0),(1,1)"),
+(111,121, "a)(-1,1),(0,-3),(1,-1)", "b)Sin tangentes horizontales", "c)(-1,1),(3,0),(1,1)", "d)(-1,3),(2,4),(2,3)"),
+(112,122, "a)(π,1)", "b)(π ,π)", "c)(1,π)", "d)(π,0)"),
+(113,123, "a)k=-8", "b)k=8", "c)k=-2", "d)k=2"),
+(114,124, "a)k=2", "b)k=1", "c)k=3", "d)k=1/3"),
+(115,125, "a)2tgx/(√cscx)", "b)-2tgx/(√cscx)", "c)-2tgx/(√secx)", "d)2tgx/(√secx)"),
+(116,126, "a)e^a (acosbx-bsenbx)" ,"b)e^a (asenbx+bcosbx)" ,"c)e^ax (asenbx+bcosbx)", "d)e^a (asenbx-bcosbx)"),
+(117,127, "a)(narccos)^n-1 xcos(n+1)x" ,"b)(nsen)^n-1 xsen(n+1)x" ,"c)(ncos)^n-2 xcos(n+1)x", "d)(narcsen)^n-2 xsen(n+1)x"),
+(118,128, "a)-1 / √(1-x²)","b)1 / -√(1-x²)", "c)1 / √(1-x²)", "d)-1 / -√(1-x²)"),
+(119,129, "a)arcsen2x+ 2x/(√1-4x²)", "b)arccos4x+ 2x/(√1+4x²)", "c)arccos2x+ x/(√1+4x)", "d)arcsenx+ 2x/(√1+4x)"),
+(120,130, "a)xarctgx²", "b)x²arctgx", "c)2xarctgx²", "d)x²arctg2x"),
+(121,131, "a)r²", "b)1/1+r²", "c)1/2+r", "d)r"),
+(122,132, "a)0.053", "b)0.530", "c)5.303", "d)5"),
+(123,133, "a)1.9873", "b)1.789", "c)2.142", "d)2.098"),
+(124,134, "a)-1/√(x-3) (x+3)", "b)1/√(x-3) / (x-3)", "c)1/√(x-3) (x-3)", "d)1/√(x-3)/ (x+3)"),
+(125,135, "a) https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/a%20125.png?raw=true", "b) https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/b%20125.png?raw=true", "c) https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/c%20125.png?raw=true", "d) https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Calculo-Diferencial/Img/d%20125.png?raw=true"),
+(126,136, "a)arccosθ", "b)senθ", "c)tanθ", "d)cosθ"),
+(127,137, "a)Verdadero", "b)Falso"),
+(128,138, "a)Verdadero", "b)Falso"),
+(129,139, "a)3x+y=0, 8x+y+13=0", "b)x+y=0, x+8y+13=0", "c)9x+y=0, 9x+4y+27=0", "d)9x-y=0, 5x+3y+27=0"),
+(130,140, "a)y=5x²-4x-1", "b)y=x²-6x-7", "c)y=2x²-3x+1", "d)y=4x²+3x+5"),
+(131,141, "a)10x^4-8x³-21x²-10x-30", "b)5x^4-8x-26x²-7x+56", "c)4x^6-4x³+13x²-5x+67", "d)7x^6-4x³-13x²-4-67"),
+(132,142, "a)2csc(3-2x)²", "b)cosx/cotx", "c)senx arccot²x", "d)senx/arccot²x"),
+(133,143, "a)(2x²-8x+1)/(x-2)²", "b)(x²-8x+1)(x-2)", "c)(x²-8x+1)(x-2)²", "d)(2x²+8x-1)/(x+2)²"),
+(134,144, "a)(x²-8x+1)(x-2)²", "b)(2x+x³+x²+9)/(x²+1)", "c)(2x+x³+x²+9)(x²+1)", "d)(2x^5+4x³+4x²-4)/(x²+1)²"),
+(135,145, "a)(senθ²)+cosθ (1-senθ)²", "b)(1+2senθ)+θcosθ/ (1+arcsenθ)", "c)(1-senθ)+θcosθ/ (1-senθ)²", "d)(1+senθ)-θarccosθ/ (1+senθ)²"),
+(136,146, "a)1/2+senx", "b)1/1-senx", "c)1-senx", "d)1/1+cosx"),
 
-
-
-
-
-
+-- Tercer Parcial
+(137,147, "a)(5√2)/2", "b)(5√2)", "c)(5√3)/3", "d)(2√3)/2"),
+(138,148, "a)La variación es aproximadamente de 1.1287 cm²/s", "b)La variación es aproximadamente de 0.5757 cm²/s", "c)La variación es aproximadamente de 0.2124 cm²/s", "d)La variación es aproximadamente de 1.7787 cm²/s"),
+(139,149, "a)k=1.5", "b)k=2", "c)k=1", "d)k=3"),
+(140,150, "a)Punto de inflexión: (3,-3/e²), de(∞,3),la función es concava y de (3,∞), la función es convexa","b)Punto de inflexión: (-6,6/e²), de(-∞,-6),la función es concava y de (-6,∞), la función es convexa","c)Punto de inflexión: (-3,3/e²), de(-∞,-3),la función es concava y de (-3,∞), la función es convexa","d)Punto de inflexión: (6,-6/e²), de(∞,6),la función es concava y de (6,∞), la función es convexa"),
+(141,151, "a)P(20-ln2,20)", "b)P(210-10ln20,20)", "c)P(20-ln20,20)", "d)P(20-2ln20,20)"),
+(142,152, "a)Ec tangente: (361/23)x + y + 32/21=0, ec normal:y-(20/350)x + 5655/176", "b)Ec tangente: (36/27)x + y + 26/23=0, ec normal:y+(23/35)x + 555/16", "c)Ec tangente: (36/323)x + y + 30/23=0, ec normal:y+(23/352)x - 655/176", "d)Ec tangente: (362/23)x + y + 32/23=0, ec normal:y-(23/352)x + 5655/176"),
+(143,153, "a)53.1301", "b)43.1301", "c)34.2356", "d)54.2356"),
+(144,154, "a)r=0.88m", "b)r=0.80m", "c)r=1.88m", "d)r=1.80m"),
+(145,155, "a)(24πft³)/min", "b)(22πft³)/min", "c)(20πft³)/min", "d)(26πft³)/min"),
+(146,156, "a)Máximo: (0,0), mínimo(2,-2)", "b)Máximo: (0,1), mínimo(2,-6)", "c)Máximo: (0,0), mínimo(2,-4)", "d)Máximo: (1,0), mínimo(-2,4)"),
+(147,157, "a)Máximo:(0,0), mínimo: no hay", "b)Máximo:No hay, mínimo(1,-3)", "c)Máximo:No hay, mínimo(-1,-4)", "d)Máximo:(1,1), mínimo: no hay"),
+(148,158, "a)Máximo: (1,1), máximo(-1,-1), mínimo(0,0)", "b)Máximo: (-1,1), máximo(1,1), mínimo(0,0)", "c)Máximo: (-1,0), máximo(2,-2), mínimo(0,1)", "d)Máximo: (1,-1), máximo(1,-1), mínimo(1,0)"),
+(149,159, "a)Máximo: (1,-4), mínimo(3,-8)", "b)Máximo: (2,-4), mínimo(1,-6)", "c)Máximo: (1,-4), mínimo(1,-4)", "d)Máximo: (2,-4), mínimo(-6,3)"),
+(150,160, "a)2.5cm", "b)1.5cm", "c)6cm", "d)2cm"),
+(151,161, "a)Postes:1.5m, travesaño:7m, área interior:10.5m²", "b)Postes:3m, travesaño:4m, área interior:12m²", "c)Postes:2.5m, travesaño:5m, área interior:12.5m²", "d)Postes:2m, travesaño:6m, área interior:12m²"),
+(152,162, "a)4.5m²", "b)6m²", "c)2m²", "d)4m²"),
+(153,163, "a)x=10m, y=30m, A=300m²", "b)x=25m, y=20m, A=500m²", "c)x=10m, y=20m, A=200m²", "d)x=10m, y=25m, A=250m²"),
+(154,164, "a)Marco superior e inferior: 4$/m, cada marco lateral: 2$/m", "b)Marco superior e inferior: 5$/m, cada marco lateral: 1$/m", "c)Marco superior e inferior: 2$/m, cada marco lateral: 4$/m", "d)Marco superior e inferior: 1$/m, cada marco lateral: 5$/m"),
+(155,165, "a)Alto: 4m, largo: 8m, ancho:8m", "b)Alto: 4m, largo: 4m, ancho:12m", "c)Alto: 2m, largo: 6m, ancho:8m", "d)Alto: 6m, largo: 7m, ancho:7m"),
+(156,166, "a)2", "b)1.30", "c)2.30", "d)1"),
 
 
 
