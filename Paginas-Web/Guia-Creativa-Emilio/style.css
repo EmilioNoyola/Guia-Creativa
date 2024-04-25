@@ -134,17 +134,10 @@ p {
 }
 
 .VMV {
-<<<<<<< HEAD
     padding: 100px 0;
     background-color: #000E44;
-=======
-    padding: 50px ;
-    background-color:  #000E44;
->>>>>>> f23384c646ddd01e6943edb3bbf24af547804cfd
     position: relative;
     
-    
-   
 }
 
 .VMV-lol{
@@ -158,33 +151,11 @@ p {
     margin-bottom: 50px;
 }
 
-<<<<<<< HEAD
-=======
-/*.VMV-lol ul {
-    list-style-type: none; 
-    padding-left: 0; 
-}
-
-.VMV-lol ul li {
-    margin-bottom: 10px; 
-    color: #ffffff; /
-}
-
-.VMV-lol ul li:before {
-    content: "•"; 
-    color: #3DADFF; 
-    font-weight: bold; 
-    display: inline-block;
-    width: 1em; 
-    margin-left: -1em;  
-}*/
->>>>>>> f23384c646ddd01e6943edb3bbf24af547804cfd
 .VMV-lol p{
     text-align: justify;
 }
 
 .VMV-lol h2{
-<<<<<<< HEAD
     font-size: 55px;
     line-height: 70px;
     color: #3DADFF;
@@ -192,39 +163,6 @@ p {
     text-align: center;
 }
 
-=======
-    font-size: 50px;
-    line-height: 70px;
-    color: #3DADFF;
-    
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.Valor {
-    padding: 50px;
-    position: relative;
-    
-    background-color: #021562;
-    
-}
-
-.Valor h3{
-    font-size: 55px;
-    line-height: 70px;
-    color: #8BEAFF;
-    text-transform: uppercase;
-    padding: 0 50px;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.Valor ul{
-    font-size: 16px;
-    color: #ffffff;
-    text-align: justify;
-}
->>>>>>> f23384c646ddd01e6943edb3bbf24af547804cfd
 /* Agrega estilos CSS para el panel */
         .panel {
             display: none; /* Oculta el panel inicialmente */
