@@ -191,24 +191,24 @@ INSERT INTO PreguntasF2 VALUES (271,129,' ¿Cuál es la magnitud de la fuerza gr
 INSERT INTO PreguntasF2 VALUES (271,130,'¿Qué sucede con la fuerza gravitacional entre dos cuerpos si sus masas se duplican y la distancia entre ellos se reduce a la mitad? ');
 INSERT INTO PreguntasF2 VALUES (271,131,'¿Cómo afectaría un aumento en la constante gravitacional G a la fuerza gravitacional entre dos cuerpos? ');
 INSERT INTO PreguntasF2 VALUES (271,132,'¿Cómo se relaciona la fuerza gravitacional con la distancia entre dos cuerpos según la Ley de la Gravitación Universal? ');
-INSERT INTO PreguntasF2 VALUES (271,133,'Dos masas una de m1=500kg y la otra de m2=200kg se encuentran separadas por una distancia de r=0.4m ¿En qué posición entre ellas, debe colocarse una tercera masa m3 para que la fuerza total sobre ella sea de cero??');
-INSERT INTO PreguntasF2 VALUES (271,134,'Dos objetos se atraen uno a otro con una fuerza de 1x10-8 N cuando se encentran separados 20 cm. Si la masa total de los dos objetos es de 5kg. ¿Cuál es la masa de cada uno de ellos?');
-INSERT INTO PreguntasF2 VALUES (271,135,' En las esquinas de un triángulo equilátero con lados de longitud igual a 0.25m, se colocan tres masas de 5Kg c/u; determinar la magnitud y dirección de la fuerza resultante de dos de las masas sobre la otra.');
-INSERT INTO PreguntasF2 VALUES (271,136,'Se colocan 4 masas en las esquinas de un rectángulo. Determinar la magnitud y dirección de la fuerza resultante sobre la masa de 2 kg (color azul) que se encuentra en el origen. (considerar como un sistema aislado)');
-INSERT INTO PreguntasF2 VALUES (271,137,'Dado que el periodo de la luna alrededor de la tierra es de 27.32 días y que la distancia de la tierra a la luna es de 3.84x108 m, estime la masa de la tierra. Suponga que la órbita es circular.');
-INSERT INTO PreguntasF2 VALUES (271,138,'Io, una pequeña luna del planeta Júpiter, tiene un periodo orbital de 1.77 días y un radio orbital de 4.22x105 km. A partir de estos datos, determinar la masa de Júpiter. ');
-INSERT INTO PreguntasF2 VALUES (271,139,'Un sistema de dos estrellas idénticas de 3.22x1030 kg de masa, giran en torno a su centro de masa en común, situado a una distancia de 1.12x1011 m. Calcular el periodo (T) de revolución común en años para las estrellas. ');
-INSERT INTO PreguntasF2 VALUES (271,140,'Una persona de Masa m se encuentra sobre la superficie terrestre; encontrar una expresión matemática que permita calcular la aceleración gravitacional de la tierra “g”, considerando que la masa terrestre es de aproximadamente 6x1024kg y el diámetro de la tierra es de D=12700km.');
-INSERT INTO PreguntasF2 VALUES (271,141,'Encontrar una expresión matemática que permita calcular la velocidad tangencial o lineal de la luna en torno a la tierra ');
-INSERT INTO PreguntasF2 VALUES (271,142,'Suponga que dos masas m1=2.5 kg y m2=3.5 kg, están conectadas por cordeles ligeros y están en movimiento circular uniforme sobre una superficie horizontal sin fricción, como se ilustra en a figura donde r1=1m y r2=1.3m. Las fuerzas que actúan sobre las masas son T1=4.5N y T2=2.9 N, las tensiones en los cordeles, respectivamente. Calcular:a) La magnitud de la aceleración b) La rapidez tangencial de c/u de las masas');
+INSERT INTO PreguntasF2 VALUES (271,133,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-133.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,134,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-134.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,135,' https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-135.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,136,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-136.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,137,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-137.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,138,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-138.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,139,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-139.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,140,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-140.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,141,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-141.png?raw=true ');
+INSERT INTO PreguntasF2 VALUES (271,142,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-142.png?raw=true');
 INSERT INTO PreguntasF2 VALUES (271,143,'Una estrella de neutrones típica puede tener una masa igual a la del Sol, pero de un radio de 10km únicamente. ¿Cuál es la aceleración gravitacional en la superficie de esta estrella? Considerar que la masa del sol es de 1.98x1030 kg.');
-INSERT INTO PreguntasF2 VALUES (271,144,'Dos esferas uniformes m1 y m2 poseen una masa de 0.260 kg c/u; están fijas en los puntos a y b. Calcule la magnitud y dirección de la fuerza gravitacional y la aceleración inicial de una esfera uniforme de masa m=0.010 kg que se suelta desde el reposo en el punto p; suponiendo que es un sistema aislado y que solo actúan sobre “m” las fuerzas gravitacionales de las otras dos esferas m1 y m2.');
-INSERT INTO PreguntasF2 VALUES (271,145,'Calcular Magnitud, dirección y sentido de la fuerza gravitacional sobre la masa de 2 kg; reporta en sentido antihorario de las manecillas del reloj.');
-INSERT INTO PreguntasF2 VALUES (271,146,'Calcular la fuerza neta sobre la masa central m5 =250 Kg considerar que: m1=200kg,m2= 500kg,m3=300kg,m4=600kg ');
-INSERT INTO PreguntasF2 VALUES (271,147,'Calcular la fuerza gravitacional sobre la masa m4, considerando que el sistema es aislado. Considerar que m1=200kg,m2=500kg,m3=300kg,m4=600kg');
-INSERT INTO PreguntasF2 VALUES (271,148,'El sistema binario de Plaskett consta de dos estrellas que giran con órbitas circulares alrededor del centro de gravedad, que se encuentra en medio de ellas. Esto significa que las masas de las dos estrellas son iguales. Si la velocidad de cada estrella es de 220km/s y el periodo orbital de cada una es de 14.4 días, encuentre la masa de cada estrella.');
-INSERT INTO PreguntasF2 VALUES (271,149,'Júpiter tiene una densidad promedio de 1.34x103 kg/m3 y un diámetro promedio de 1.436x106 km. ¿Cuál es la aceleración debida a la gravedad en la superficie?.');
-INSERT INTO PreguntasF2 VALUES (271,150,'A que distancia de la tierra debe colocarse un satélite espacial, a lo largo de la línea recta dirigida hacia el sol, de modo que la atracción gravitatoria del sol, equilibre el de la tierra. Msol=1.99x1030 kg Mtierra=5.98x1024 kg y R=150x109 m (Distancia entre el sol y la tierra)');
+INSERT INTO PreguntasF2 VALUES (271,144,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-144.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,145,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-145.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,146,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-146.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,147,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-147.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,148,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-148.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,149,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-149.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (271,150,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/Tema-1/271-150.png?raw=true');
 
 
 -- Tema 2 TRABAJO EFECTUADO POR FUERZAS CONSTANTES
