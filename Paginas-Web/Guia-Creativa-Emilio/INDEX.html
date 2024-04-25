@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gu&iacutea Creativa</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="algoritmo.js"></script>
 
 </head>
 
@@ -15,16 +14,14 @@
 
     <header class="header">
 
-
     </header>
-
 
     <section class="VMV">
         <div class="VMV-content1 container">
             <div class="VMV-group">
                 <div class="VMV-lol">
 
-                    <h3>MISIÓN</h3>
+                    <h2>MISIÓN</h2>
                     <p>Nuestra misión es desarrollar y proporcionar el software educativo
                         "Guía Creativa" que mejore el rendimiento académico en matemáticas
                         de estudiantes de tercero de secundaria y nivel medio superior.
@@ -36,18 +33,7 @@
                 </div>
                 <div class="VMV-lol">
 
-                    <h3>VALORES</h3>
-                        <ul>
-                            <li>Excelencia: Nos comprometemos a ofrecer soluciones educativas de alta calidad que promuevan el aprendizaje efectivo y significativo.</li>
-                            <li>Innovación: Buscamos constantemente nuevas formas de mejorar el proceso de enseñanza y aprendizaje mediante el uso de tecnologías educativas avanzadas.</li>
-                            <li>Accesibilidad: Nos esforzamos por hacer que la educación sea accesible para todos, proporcionando herramientas y recursos adaptados a las necesidades individuales de cada estudiante.</li>
-                            <li>Colaboración: Fomentamos la colaboración entre estudiantes, docentes y desarrolladores para crear un entorno de aprendizaje colaborativo y enriquecedor.</li>
-                            <li>Empoderamiento: Buscamos empoderar a los estudiantes para que tomen el control de su propio aprendizaje y se conviertan en aprendices autónomos y motivados.</li>
-                        </ul>
-                </div>
-                <div class="VMV-lol">
-
-                    <h3>VISIÓN</h3>
+                    <h2>VISIÓN</h2>
                     <p>Nuestra visión es ser líderes en el campo de la tecnología educativa,
                         transformando la forma en que se enseñan y se aprenden las matemáticas.
                         Nos esforzamos por crear un mundo donde todos los estudiantes tengan
@@ -62,6 +48,29 @@
         
         </div>
     </section>
+
+    <section class="informacion2">
+
+        <div class="informacion-content1 container">
+
+            <h2 align="center">VALORES</h2>
+
+            <p>
+
+                <ul>
+                    <li>Excelencia: Nos comprometemos a ofrecer soluciones educativas de alta calidad que promuevan el aprendizaje efectivo y significativo.</li>
+                    <li>Innovación: Buscamos constantemente nuevas formas de mejorar el proceso de enseñanza y aprendizaje mediante el uso de tecnologías educativas avanzadas.</li>
+                    <li>Accesibilidad: Nos esforzamos por hacer que la educación sea accesible para todos, proporcionando herramientas y recursos adaptados a las necesidades individuales de cada estudiante.</li>
+                    <li>Colaboración: Fomentamos la colaboración entre estudiantes, docentes y desarrolladores para crear un entorno de aprendizaje colaborativo y enriquecedor.</li>
+                    <li>Empoderamiento: Buscamos empoderar a los estudiantes para que tomen el control de su propio aprendizaje y se conviertan en aprendices autónomos y motivados.</li>
+                </ul>
+
+            </p>
+                
+        </div>
+
+    </section>
+
     <section class="informacion1">
 
         <div class="informacion-content2 container">
@@ -79,7 +88,30 @@
                 y recibir orientación para mejorar su desempeño.
             </p>
 
-            <a href="./Funcionamiento.html" target="_blank" class="btn-1">Funcionamiento</a>
+            <button id="abrirBtn" class="btn-1">Funcionamiento</button>
+
+            <div id="formularioEmergente" class="formulario">
+            <span class="cerrarBtn">&times;</span>
+            <h2 align="center">Funcionamiento</h2>
+
+                <p align="justify">
+                    El programa tendrá opciones de registro en donde se pedirán datos de identificación como por ejemplo 
+                    el Usuario y la boleta, para así poder guardar el progreso. Una vez que se ha identificado cuál es el 
+                    nivel que se desea cursar se cuestionará al usuario cual es la unidad de aprendizaje para la cual requiere ingresar. 
+                    Se le dará a escoger entre los periodos preestablecidos que el programa de estudios exige (Primer parcial, Segundo parcial,
+                    Tercer Parcial y Periodo Extraordinario), justo después el usuario elegirá entre distintos tiempos de estudio según su 
+                    disponibilidad como por ejemplo 15 minutos, 30 minutos, 1 hora o un simulador de examen real (2 horas). Ya que se ha elegido
+                    el tiempo que se desea practicar, iniciará un temporizador y comenzará el cuestionario. Una vez que el usuario empiece a 
+                    responder las preguntas se le darán consejos prácticos dependiendo
+                </p>
+
+                <div class="imagen-centrada">
+                    <img src="IMG/INTERFAZ-1.png" width="80%" height="80%" alt="Descripción de la imagen">
+                </div>
+
+            </div>
+
+            <script src="PantallaEmergente.js"></script>
 
         </div>
 
@@ -109,10 +141,29 @@
                 y su estilo de vida.
             </p>
 
-            <button id="mercado-btn" class="btn-1">Mostrar Estudio de Mercado</button>
-            <div id="mercado-panel" class="panel">
-                Contenido del panel de Estudio de Mercado aquí...
+            <button id="abrirMercadoBtn" class="btn-1">Estudio de Mercado</button>
+            <div id="mercado-panel" class="formulario">
+            <span class="cerrarBtnEstudio">&times;</span>
+            <h2 align="center">Estudio de Mercado</h2>
+
+            <div class="imagen-centrada">
+                <img src="IMG/GRAFICA-1.png" align="middle">
             </div>
+            
+
+            <p align="justify">
+                Los resultados sugieren áreas de enfoque para desarrollar contenido y recursos educativos 
+                que aborden las dificultades específicas de los estudiantes no inscritos o egresados. 
+                Es evidente que las materias de Matemáticas, Física y Química representan puntos críticos de dificultad
+                para estos estudiantes. Además, se identifica que existe una falta de acceso a información para el estudio, 
+                lo cual dificulta aún más el proceso de aprendizaje y la preparación académica de los estudiantes. 
+                Esta carencia de recursos educativos adecuados contribuye a aumentar los desafíos que enfrentan los jóvenes 
+                en su camino hacia el éxito académico.
+
+            </p>
+            </div>
+
+            <script src="PantallaEmergenteEstudioDeMercado.js"></script>
 
         </div>
 
@@ -130,7 +181,23 @@
                 en las materias con alto índice de reprobación, tales como Matemáticas, Física y Química.
             </p>
 
-            <a href="./Objetivos.html" target="_blank" class="btn-1">Objetivos Particulares</a>
+            <button id="abrirObjetivosBtn" class="btn-1">Objetivos Particulares</button>
+            <div id="objetivos-panel" class="formulario">
+            <span class="cerrarObjetivosBtn">&times;</span>
+            <h2 align="center">Objetivos Particulares</h2>
+            <p>
+                <ul>
+                    <li>Implementar un software que automatice sesiones de estudio personalizadas y eficaces, adaptadas a las necesidades individuales de los estudiantes del CECyT 9.</li>
+                    <li>Ofrecer un software que proporcione información y recursos educativos al mismo nivel de exigencia que el CECyT 9, garantizando un contenido relevante y de calidad para el aprendizaje.</li>
+                    <li>Integrar características que promuevan la participación activa de los estudiantes en su proceso de aprendizaje, fomentando la interacción y la motivación para el estudio.</li>
+                    <li>Garantizar la accesibilidad y la usabilidad del software, asegurando que sea intuitivo y fácil de usar para estudiantes de diferentes niveles de habilidad tecnológica.</li>
+                    <li>Implementar un sistema de seguimiento y retroalimentación que permita a los estudiantes monitorear su progreso académico y recibir orientación para mejorar su desempeño.</li>
+                </ul>
+            </p>
+
+            </div>
+
+            <script src="PantallaEmergenteObjetivosParticulares.js"></script>
 
         </div>
 

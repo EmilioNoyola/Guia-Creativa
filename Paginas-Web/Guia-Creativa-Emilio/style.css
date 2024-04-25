@@ -72,6 +72,18 @@ body {
     color: #ffffff;
 }
 
+.informacion-content2 ul {
+    text-align: left;
+    list-style-type: disc; 
+    margin-left: 20px; 
+    color: #ffffff;
+}
+
+.imagen-centrada {
+    text-align: center; /* Alinea horizontalmente el contenido al centro */
+}
+
+
 .btn-1 {
     display: inline-block;
     padding: 11px 35px;
@@ -120,9 +132,10 @@ p {
     color: #F9FAFC;
     margin-bottom: 15px;
 }
+
 .VMV {
     padding: 100px 0;
-    background-color: #021562;
+    background-color: #000E44;
     position: relative;
 }
 
@@ -137,22 +150,18 @@ p {
     margin-bottom: 50px;
 }
 
-.VMV-lol ul li{
-    text-align: justify;
-    
-}
 .VMV-lol p{
     text-align: justify;
 }
 
-.VMV-lol h3{
-    font-size: 20px;
+.VMV-lol h2{
+    font-size: 55px;
     line-height: 70px;
     color: #3DADFF;
     text-transform: uppercase;
-    margin-bottom: 15px;
     text-align: center;
 }
+
 /* Agrega estilos CSS para el panel */
         .panel {
             display: none; /* Oculta el panel inicialmente */
@@ -165,3 +174,114 @@ p {
             background-color: #021562;
             position: relative;
         }
+
+
+
+.formulario {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000E44;
+    padding: 20px;
+    border: 1px solid #3DADFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .formulario h2 {
+    margin-top: 0;
+  }
+  
+  .cerrarBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #3DADFF;
+  }
+  
+  #abrirBtn {
+    border: none;
+    background-color: #0052D4;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #abrirBtn:hover {
+    background-color: #65C7F7; 
+  }
+  
+
+  @keyframes animacionEntrada {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  /* Estilos para el botón de abrir */
+#abrirMercadoBtn {
+    border: none;
+    background-color: #0052D4;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+
+#abrirMercadoBtn:hover {
+    background-color: #65C7F7;
+}
+
+/* Estilos para el botón de cerrar */
+.cerrarBtnEstudio {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #3DADFF;
+}
+
+/* Objetivos */
+
+#abrirObjetivosBtn {
+    border: none;
+    background-color: #0052D4;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+
+#abrirObjetivosBtn:hover {
+    background-color: #65C7F7;
+}
+
+/* Estilos para el botón de cerrar */
+.cerrarObjetivosBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #3DADFF;
+}
