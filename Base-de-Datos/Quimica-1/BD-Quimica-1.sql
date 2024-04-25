@@ -1,7 +1,3 @@
-USE Guia_Creativa;
-
--- Hecho por Cayetano Verduzco Alejandro
-
 -- Tercer Semestre - Química 1.
 
 -- Temas Primer Parcial Química 1.
@@ -463,6 +459,39 @@ INSERT INTO PreguntasQ1 VALUES (356,364,'¿Cómo está conformado un hidróxido?
 (356,378,'¿Cuál es la nomenclatura correcta para la fórmula Al(OH)3? a) Hidróxido de aluminio b) Oxihidróxido de aluminio c) Hidróxido tríaluminio'),
 (356,379,'¿Cuál es la nomenclatura correcta para la fórmula Zn(OH)2? a) Hidróxido de zinc b) Oxihidróxido de zinc c) Hidróxido di-zincoso'),
 (356,380,'¿Cuál es la nomenclatura correcta para la fórmula KOH? a) Hidróxido de potasio b) Oxihidróxido de potasio c) Hidróxido monopotásico');
+
+-- Creacion de Tabla para los incisos Quimica 1
+
+CREATE TABLE Incisos_Q1( 
+		ID_PreguntaQ1 INTEGER NOT NULL,
+		ID_Incisos_Q1 INTEGER NOT NULL,
+		Inciso_A VARCHAR(300) NOT NULL,
+		Inciso_B VARCHAR(300) NOT NULL,
+		Inciso_C VARCHAR(300) NOT NULL,
+		Inciso_D VARCHAR(300) NOT NULL,
+		PRIMARY KEY(ID_Incisos_Q1),
+		FOREIGN KEY(ID_PreguntaQ1)
+		REFERENCES PreguntasQ1(ID_PreguntaQ1)
+		);
+		
+INSERT INTO Incisos_Q2 VALUES 
+
+-- Incisos Parcial 1
+
+-- Incisos Tema 1
+(01, 11, "a) Todo lo que ocupa un lugar en el espacio y tiene masa","b) La cantidad de materia contenida en un objeto","c) La energía asociada con un objeto en movimiento","");
+(02, 12, "a) Masa y energía", "b) Masa, volumen y temperatura", "c) Masa, energía y espacio", ""),
+(03, 13, "a) La cantidad de materia contenida en un objeto", "b) La fuerza con la que un objeto es atraído hacia la Tierra", "c) La capacidad de un objeto para hacer trabajo", ""),
+(04, 14, "a) La capacidad de un objeto para hacer trabajo", "b) La cantidad de espacio que ocupa un objeto", "c) La fuerza con la que un objeto es atraído hacia la Tierra", ""),
+(05, 15, "a) La masa de un sistema cerrado permanece constante con el tiempo, a medida que la materia no puede ser creada ni destruida, solo transformada en diferentes formas", "b) La energía total de un sistema cerrado permanece constante con el tiempo, a medida que la energía no puede ser creada ni destruida, solo transformada en diferentes formas", "c) La masa y la energía de un sistema cerrado permanecen constantes con el tiempo, ya que ambos no pueden ser creados ni destruidos, solo transformados en diferentes formas", ""),
+(06, 16, "a) La masa de un sistema cerrado permanece constante con el tiempo, a medida que la materia no puede ser creada ni destruida, solo transformada en diferentes formas", "b) La energía total de un sistema cerrado permanece constante con el tiempo, a medida que la energía no puede ser creada ni destruida, solo transformada en diferentes formas", "c) La masa y la energía de un sistema cerrado permanecen constantes con el tiempo, ya que ambos no pueden ser creados ni destruidos, solo transformados en diferentes formas", ""),
+(07, 17, "a) La masa de un sistema cerrado permanece constante con el tiempo, a medida que la materia no puede ser creada ni destruida, solo transformada en diferentes formas", "b) La energía total de un sistema cerrado permanece constante con el tiempo, a medida que la energía no puede ser creada ni destruida, solo transformada en diferentes formas", "c) La masa y la energía de un sistema cerrado permanecen constantes con el tiempo, ya que ambos no pueden ser creados ni destruidos, solo transformados en diferentes formas", ""),
+(08, 18, "a) La energía asociada con la posición de un objeto en un campo gravitacional", "b) La energía asociada con la velocidad de un objeto en movimiento", "c) La energía asociada con la temperatura de un objeto", ""),
+(09, 19, "a) La energía asociada con la posición de un objeto en un campo gravitacional", "b) La energía almacenada en los enlaces químicos de una sustancia", "c) La energía asociada con la velocidad de un objeto en movimiento", ""),
+(10, 20, "a) La energía asociada con la posición de un objeto en un campo gravitacional", "b) La energía asociada con la velocidad de un objeto en movimiento", "c) La energía almacenada en los enlaces químicos de una sustancia", "");
+
+-- Incisos Tema 2
+(11, 21, ""),
 
 -- Creación de Tabla para las Respuetas de Química 1
 CREATE TABLE RespuestasQ1(

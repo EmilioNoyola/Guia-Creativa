@@ -1,13 +1,13 @@
 USE Guia_Creativa;
-CREATE TABLE Incisos_Q2( 
-		ID_PreguntaQ2 INTEGER NOT NULL,
-		ID_Incisos_Q2 INTEGER NOT NULL,
+CREATE TABLE Incisos_Q1( 
+		ID_PreguntaQ1 INTEGER NOT NULL,
+		ID_Incisos_Q1 INTEGER NOT NULL,
 		Inciso_A VARCHAR(300) NOT NULL,
 		Inciso_B VARCHAR(300) NOT NULL,
 		Inciso_C VARCHAR(300) NOT NULL,
 		Inciso_D VARCHAR(300) NOT NULL,
-		PRIMARY KEY(ID_Incisos_Q2),
-		FOREIGN KEY(ID_PreguntaQ2)
+		PRIMARY KEY(ID_Incisos_Q1),
+		FOREIGN KEY(ID_PreguntaQ1)
 		REFERENCES PreguntasQ2(ID_PreguntaQ2)
 		);
 		
