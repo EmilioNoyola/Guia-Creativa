@@ -23,6 +23,8 @@ INSERT INTO Temas VALUES (330,323,'Ángulos de referencia');
 INSERT INTO Temas VALUES (330,324,'Identidades trigonométricas'); 
 INSERT INTO Temas VALUES (330,325,'Ecuaciones trigonométricas'); 
 
+-- Parte Samuel
+
 -- Creación de Tabla para las Preguntas Geometría y Trigometría.
 CREATE TABLE PreguntasGyT( 
 		ID_Tema INTEGER NOT NULL,
@@ -33,523 +35,99 @@ CREATE TABLE PreguntasGyT(
 		REFERENCES Temas(ID_Tema)
 		);
 -- Tema 1
-INSERT INTO PreguntasGyT VALUES (121, 01,'Resuelve la siguiente ecuación exponencial: (9^x)-(3^(x+1))=54 ;Respuesta:
-a)x=2
-b)x=3
-c)x=0
-d)x=1/2
-');
-INSERT INTO PreguntasGyT VALUES (121, 02,'Resuelve la siguiente ecuación exponencial:(4^x)-(2^(x+1))=48 ;Respuesta:
-a)x=2
-b)x=3
-c)x=0
-d)x=1/2
-');
-INSERT INTO PreguntasGyT VALUES (121, 03,'Resuelve la siguiente ecuación exponencial:(3^(6x+1)) - 4/ (3^(1-3x)) = -9^(-1) ;Respuesta:
-a)x1= -2/3, x2=-1/3
-b)x1= -2/6, x2=-1/6
-c)x1= -1/3, x2=-4/3
-d)x1= -1/2, x2=1/3
-');
-INSERT INTO PreguntasGyT VALUES (121, 04,'Resulve la siguiente ecuación exponencial: (6^(x+3)) + 5. 7^(x+2) + 8. 7^(x+1) = 7^(x+3) + 5. 6^(x+2) ;Respuesta:
-a)x=-1
-b)x=1
-c)x=-1/2
-d)x=1/2
-');
-INSERT INTO PreguntasGyT VALUES (121, 05,'Resuelve la siguiente ecuación exponencial: (3^(x+4)) + 3. 5^(x+3) = 5^(x+4) + 3^(x+3) ;Respuesta:
-a)x=3
-b)x=1/3
-c)x=-3
-d)x=-1/3
-');
-INSERT INTO PreguntasGyT VALUES (121, 06,'Resuelve la siguiente ecuación exponencial: 27^(x+1) = 9^(2x-3) ;Respuesta: 
-a)x=-3
-b)x=-9
-c)x=3
-d)x=9
-');
-INSERT INTO PreguntasGyT VALUES (121, 07,'Resuelve la siguiente ecuación exponencial: 5^(x) + 5^(x-1) - 5^(x-2) = 725 ;Respuesta: 
-a)x=-4
-b)x=2
-c)x=4
-d)x=-2
-');
-INSERT INTO PreguntasGyT VALUES (121, 08,'Resuelve la siguiente ecuación exponencial: 3^(2x+1) -10(3^x) + 3 = 0 ;Respuesta: 
-a)x1=-1, x2=1/3
-b)x1=-1/2, x2=1/2
-c)x1=-1, x2=1
-d)x1=1, x2=2
-');
-INSERT INTO PreguntasGyT VALUES (121, 09,'Resuelve la siguiente ecuación exponencial: 2^x + 2^(x-3) = 18 ;Respuesta: 
-a)x=-2
-b)x=2
-c)x=4
-d)x=-4
-');
-INSERT INTO PreguntasGyT VALUES (121, 10,'Resuelve la siguiente ecuación exponencial: 2^(x+1) + 2^(x-1) - 3^(x-1) = 3^(x-2) -2^(x-3) + 2. 3^(x-3)  ;Respuesta: 
-a)x=-2
-b)x=2
-c)x=-4
-d)x=4
-');
-INSERT INTO PreguntasGyT VALUES (122, 11,'Desarrolla el siguiente logaritmo: -log₂(log₂(√(√2))) ; Respuesta:
-a)2
-b)1
-c)4
-d)0
-');
-INSERT INTO PreguntasGyT VALUES (122, 12,'Desarrolla el siguiente logaritmo: log₈12-log₈15+log₈20 ; Respuesta:
-a)4/3
-b)4/5
-c)1/3
-d)3
-');
-INSERT INTO PreguntasGyT VALUES (122, 13,'Desarrolla el siguiente logaritmo: log (√(xyz) / ∛(xyz) ) ; Respuesta:
-a)1/6 log(x) + 1/6 log(y) + 1/6 log(z)
-b)1/3 log(x) + 1/3 log(y) + 1/3 log(z)
-c)1/12 log(x) + 2/6 log(y) + 1/3 log(z)
-d)1/6 log(x) + 1/9 log(y) + 1/4 log(z)
-');
-INSERT INTO PreguntasGyT VALUES (122, 14,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2014.png?raw=true 
-a)8/15 log₁₀2
-b)15 log₂10
-c)15/8 log₁₀2
-d)5 log₂10
-');
-INSERT INTO PreguntasGyT VALUES (122, 15,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2015.png?raw=true 
-a)log₂(a-b)-log₂(a+b)-log₂a+log₂b
-b)log₂(a-b)+log₂(a+b)-log₂a+log₂b
-c)log₂(a+b)+log₂(a-b)-log₂a-log₂b
-d)log₂(a+b)-log₂(a-b)+log₂a-log₂b
-');
-INSERT INTO PreguntasGyT VALUES (122, 16,'log₃(27x²y⁵) ; Respuesta:
-a)2+3log₃(y)+5log₃(x)
-b)3+3log₃(x)+2log₃(x)
-c)2+3log₃(y)+5log₃(y)
-d)3+2log₃(x)+5log₃(y)
-');
-INSERT INTO PreguntasGyT VALUES (122, 17,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2017.png?raw=true 
-a)3/4
-b)4/3
-c)8/5
-d)5/8
-');
-INSERT INTO PreguntasGyT VALUES (122, 18,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2018.png?raw=true 
-a)log₂(a^-1)
-b)log₂(a^2)
-c)log₂(a^-2)
-d)log₂(a)
-');
-INSERT INTO PreguntasGyT VALUES (122, 19,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2019.png?raw=true 
-a)log (x/dy)
-b)log (c/xy)
-c)log (x/cy)
-d)log (y/xc)
-');
-INSERT INTO PreguntasGyT VALUES (122, 20,'log( (m²-x²)/(√(m²+x²)) ) ; Respuesta:
-a)log₁₀(m²-x²)- 1/2 log₁₀(m²+x²)
-b)2log₁₀(m²-x²)- 1/2 log₁₀(m²-x²)
-c)log₁₀(m²+x²)- 1/2 log₁₀(m²-x²)
-d)log₁₀(m²+x²)- 1/2 log₁₀(m²+x²)
-');
-INSERT INTO PreguntasGyT VALUES (123, 21,'Resuelva la siguiente ecuación logaritmica: log₃x+log₉x+log₂₇x = 11/2 ; Respuesta:
-a)x=27
-b)x=13
-c)x=1/2
-d)x=4
-');
-INSERT INTO PreguntasGyT VALUES (123, 22,'Resuelva la siguiente ecuación logaritmica: ln(x-1)-ln(2x-11) = ln2 ; Respuesta:
-a)x=7
-b)x=13
-c)x=1/2
-d)x=4
-');
-INSERT INTO PreguntasGyT VALUES (123, 23,'Resuelva la siguiente ecuación logaritmica: log₂(x²-3x+6) - log₂(x-1) = 2  ; Respuesta:
-a)x=7
-b)x=3
-c)x1=2 ; x2=5
-d)x1= 3 ; x2=5
-');
-INSERT INTO PreguntasGyT VALUES (123, 24,'Resuelve la siguiente ecuación logaritmica: logₓ(3x²+10x) = 3  ; Respuesta:
-a)x=1/5
-b)x=3
-c)x=5
-d)x=3/5
-');
-INSERT INTO PreguntasGyT VALUES (123, 25,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2025.png?raw=true  
-a)y=4
-b)y=3
-c)y=14
-d)y=7
-');
-INSERT INTO PreguntasGyT VALUES (123, 26,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2026.png?raw=true  
-a)x1=43 ; x2=-2.36
-b)x1=-43 ; x2=2.36
-c)x1=97 ; x2=1.99
-d)x1=-97 ; x2=2.99
-');
-INSERT INTO PreguntasGyT VALUES (123, 27,'Resuelve la siguiente ecuación logaritmica: log₂x+log₄x+log₈x = 11/2  ; Respuesta:
-a)x=4
-b)x=8
-c)x=7
-d)x=5/2
-');
-INSERT INTO PreguntasGyT VALUES (123, 28,'Resuelve la siguiente ecuación logaritmica: ln(x-2)-ln(x-8) = ln3  ; Respuesta:
-a)x=9
-b)x=11
-c)x=7
-d)x=3
-');
-INSERT INTO PreguntasGyT VALUES (123, 29,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2029.png?raw=true  
-a)x=4
-b)x=2
-c)x=6
-d)x=8
-');
-INSERT INTO PreguntasGyT VALUES (123, 30,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2030.png?raw=true  
-a)x1=√5 ; x2=5
-b)x1=√3 ; x2=3
-c)x1=√7 ; x2=7
-d)x=3
-');
-INSERT INTO PreguntasGyT VALUES (124, 31,'La vida media del radio es de 1600 años ¿Después de cuantos años, tardará una muestra de 125gr en decaer al 30% de su valor original?  ; Respuesta:
-a)En 2779.1449 años
-b)En 3123.4567 años
-c)En 2134.7864 años
-d)En 2567.4546 años
-');
-INSERT INTO PreguntasGyT VALUES (124, 32,'Que conviene más, invertir en fondos de inversión CITIBANAMEX con un interés anual compuesto del 8% capitalizable trimestralmente o en CETES DIRECTO con un interés anual compuesto del 7.5% capitalizable mensualmente. Justifica tu respuesta  ; Respuesta:
-a)Citibanamex
-b)CETES DIRECTO
-');
-INSERT INTO PreguntasGyT VALUES (124, 33,'Se invierte una suma de 5000 dólares a una tasa de interés de 5% al año.Encuentre el tiempo necesario para que el dinero se duplique si el interés se capitaliza de acuerdo a)Semestralmente y b)Continuamente  ; Respuesta:
-a)Semestralmente: t=14.04 ; Continuamente: t=13.86
-b)Semestralmente: t=11.56 ; Continuamente: t=16.78
-c)Semestralmente: t=16.78 ; Continuamente: t=11.56
-d)Semestralmente: t=13.86 ; Continuamente: t=14.04
-');
-INSERT INTO PreguntasGyT VALUES (124, 34,'La población aproximada de la India en 1990 era de 762 millones de personas y para el año 2000 había aumentado a 947 millones de personas.Si la tasa de crecimiento poblacional se conserva constante entonces: a)Encuentra la expresión que represente este crecimiento, b)¿Cuál será la población existente para el 2018?, c)¿En que año la población llegará a 1500 millones de habitantes?  ; Respuesta:
-A)a)A(t)= 762(e^(ln947/762)t /10 )
-  b)En el 2018 en la India habrán 1400 millones de habitantes 
-  c)Habrán 1500 millones de habitantes en el año 2021
-B)a)A(t)= 486(e^(ln762t /10 )
-  b)En el 2018 en la India habrán 1500 millones de habitantes 
-  c)Habrán 1500 millones de habitantes en el año 2020
-C)a)A(t)= 486(e^(ln947t /10 )
-  b)En el 2018 en la India habrán 1300 millones de habitantes 
-  c)Habrán 1500 millones de habitantes en el año 2022
-D)a)A(t)= 762(e^(ln762/847)t /10 )
-  b)En el 2018 en la India habrán 1400 millones de habitantes 
-  c)Habrán 1300 millones de habitantes en el año 2021
-');
-INSERT INTO PreguntasGyT VALUES (124, 35,'¿Cuánto tiempo debe transcurrir para que se duplique una inversión de 1200 euros al 8% compuesto trimestralmente?  ; Respuesta:
-a)7.2345 años
-b)8.1234 años
-c)8.7506 años
-d)7.8790 años
-');
-INSERT INTO PreguntasGyT VALUES (124, 36,'Una población de bacterias tiene un tamaño dada por la formula: P(t)= 10000(e^(kt)) donde P(t) es la población después de t horas y k es una constante. Si después de 18 horas hay 25000 bacterias ¿Cuándo habrá 50000 bacterias? ; Respuesta:
-a)En 39.3465 años
-b)En 27.4546 años
-c)En 31.6164 años
-d)En 43.5789 años
-');
-INSERT INTO PreguntasGyT VALUES (124, 37,'El carbono 14, es radiactivo y se desintegra a una razón proporcional a la cantidad a actual.Su vida media es de 5730 años, es decir, una cantidad dada de carbono 14 tarda 5730 años en reducirse a la mitad de su cantidad original.Si hay 20 gramos de carbono 14 ¿Cuánto quedará al cabo de 3000 años?  ; Respuesta:
-a)13.1232 gramos
-b)12.9130 gramos
-c)13.9130 gramos
-d)12.1232 gramos
-');
-INSERT INTO PreguntasGyT VALUES (124, 38,'Una momia egipcia contiene el 60% de su carbono 14 original.Calcula la antigüedad de la momia  ; Respuesta:
-a)
-b)4222.81 años
-c)3989.56 años
-d)4767.23 años
-');
-INSERT INTO PreguntasGyT VALUES (124, 39,'Supongamos que se invierten $1000 al 10% de interés compuesto continuamente. ¿Cuánto tiempo debe pasar para que se duplique esta inversión?  ; Respuesta:
-a)4.6798 años
-b)6.9314 años
-c)5.9314 años
-d)9.6798 años
-');
-INSERT INTO PreguntasGyT VALUES (124, 40,'Cuántos años tardará en triplicarse una inversión de $4000 si se invierte con un interés compuesto del 2.5% capitalizable diariamente?; Respuesta:
-a)40.6798 años
-b)43.9444 años
-c)53.9314 años
-d)50.6798 años
-');
-INSERT INTO PreguntasGyT VALUES (221, 41,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2041.png?raw=true 
-a)35 
-b)25
-c)30
-d)15
-');
-INSERT INTO PreguntasGyT VALUES (221, 42,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2042.png?raw=true
-a)53
-b)44
-c)47
-d)57
-');
-INSERT INTO PreguntasGyT VALUES (221, 43,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2043.png?raw=true
-a)139
-b)127
-c)113
-d)97
-');
-INSERT INTO PreguntasGyT VALUES (221, 44,'Calcular el ángulo complementario de 30° ; Respuesta:
-a)60°
-b)45°
-c)30°
-d)70°
-');
-INSERT INTO PreguntasGyT VALUES (221, 45, 'Calcular el ángulo complementario de 19° 37\' 23\'\' ; Respuesta:
-a)70° 22\' 37\'\' 
-b)87° 34\' 45\'\' 
-c)73° 67\' 23\'\' 
-d)72° 67\' 23\'\' 
-');
-INSERT INTO PreguntasGyT VALUES (221, 46,'Calcular el ángulo suplementario de 57° ; Respuesta:
-a)23°
-b)33°
-c)123°
-d)113°
-');
-INSERT INTO PreguntasGyT VALUES (221, 47, 'Calcular el ángulo suplementario de 114° 52\'  ; Respuesta:
-a)60° 15\'  
-b)68° 56\'  
-c)65° 08\'  
-d)70° 67\'
-');
-INSERT INTO PreguntasGyT VALUES (221, 48, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2048.png?raw=true  
-a)73
-b)34  
-c)48
-d)67
-');
-INSERT INTO PreguntasGyT VALUES (221, 49, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2049.png?raw=true  
-a)73
-b)34  
-c)71
-d)67
-');
-INSERT INTO PreguntasGyT VALUES (221, 50	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2050.png?raw=true  
-a)73
-b)34  
-c)50
-d)67
-');
-INSERT INTO PreguntasGyT VALUES (222, 51	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2051.png?raw=true  
-a)73
-b)34  
-c)50
-d)75
-');
-INSERT INTO PreguntasGyT VALUES (222, 52	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2052.png?raw=true  
-a)173
-b)134  
-c)150
-d)135
-')
-INSERT INTO PreguntasGyT VALUES (222, 53	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2053.png?raw=true  
-a)70° 22\' 37\'\' 
-b)87° 34\' 45\'\' 
-c)13° 67\' 23\'\' 
-d)11° 25\' 43\'\' 
-');
-INSERT INTO PreguntasGyT VALUES (222, 54	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2054.png?raw=true  
-a)18° 22\' 7\'\' 
-b)23° 34\' 5\'\' 
-c)11° 67\' 3\'\' 
-d)21° 49\' 6\'\' 
-');
-INSERT INTO PreguntasGyT VALUES (222, 55	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2055.png?raw=true  
-a)33
-b)34  
-c)35
-d)30
-');
-INSERT INTO PreguntasGyT VALUES (222, 56	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2056.png?raw=true  
-a)53
-b)54  
-c)55
-d)50
-');
-INSERT INTO PreguntasGyT VALUES (222, 57	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2057.png?raw=true  
-a)30° 22\' 
-b)27° 34\' 
-c)23° 67\' 
-d)20° 50\'
-');
-INSERT INTO PreguntasGyT VALUES (222, 58	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2058.png?raw=true  
-a)30° 22\' 
-b)27° 34\' 
-c)23° 67\' 
-d)21° 40\'
-');
-INSERT INTO PreguntasGyT VALUES (222, 59	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2059.png?raw=true  
-a)50° 22\' 
-b)57° 34\' 
-c)53° 67\' 
-d)50° 40\'
-');
-INSERT INTO PreguntasGyT VALUES (222, 60	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2060.png?raw=true 
-a)18° 22\' 72'\' 
-b)23° 34\' 53'\' 
-c)11° 67\' 35\'\' 
-d)13° 19\' 59\'\' 
-');
-INSERT INTO PreguntasGyT VALUES (223, 61	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2061.png?raw=true  
-a)33
-b)24  
-c)20
-d)30
-');
-INSERT INTO PreguntasGyT VALUES (223, 62	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2062.png?raw=true  
-a)33
-b)31  
-c)42
-d)32
-');
-INSERT INTO PreguntasGyT VALUES (223, 63	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2063.png?raw=true  
-a)33
-b)31  
-c)50
-d)52
-');
-INSERT INTO PreguntasGyT VALUES (223, 64	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2064.png?raw=true  
-a)33
-b)31  
-c)35
-d)22
-');
-INSERT INTO PreguntasGyT VALUES (223, 65	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2065.png?raw=true  
-a)43
-b)41  
-c)40
-d)32
-');
-INSERT INTO PreguntasGyT VALUES (223, 66	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2066.png?raw=true  
-a)143
-b)141  
-c)110
-d)132
-');
-INSERT INTO PreguntasGyT VALUES (223, 67	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2067.png?raw=true  
-a)143
-b)141  
-c)120
-d)132
-');
-INSERT INTO PreguntasGyT VALUES (223, 68	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2068.png?raw=true  
-a)45
-b)95  
-c)90
-d)112
-');
-INSERT INTO PreguntasGyT VALUES (223, 69	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2069.png?raw=true  
-a)25
-b)35  
-c)24
-d)32
-');
-INSERT INTO PreguntasGyT VALUES (223, 70	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2070.png?raw=true  
-a)17
-b)15  
-c)14
-d)12
-');
-INSERT INTO PreguntasGyT VALUES (224, 71	, '¿Cuál es el polígono que tiene 12 diagonales más que lados?  ; Respuesta:
-a)Octágono
-b)Dodecágono
-c)Heptágono
-d)Eneágono
-');
-INSERT INTO PreguntasGyT VALUES (224, 72	, '¿Qué valor tendrá cada ángulo exterior de un icoságono resular?   ; Respuesta:
-a)18°
-b)16°
-c)23°
-d)21°
-');
-INSERT INTO PreguntasGyT VALUES (224, 73	, 'Cuántos lados tiene un polígono cuya suma de los ángulos interiores es de 1440°?   ; Respuesta:
-a)Decágono
-b)Octágono
-c)Dodecágono
-d)Heptágono
-');
-INSERT INTO PreguntasGyT VALUES (224, 74	, 'Cuál es el polígono en el que se pueden trazar 44 diagonales en total?   ; Respuesta:
-a)Endecágono
-b)Octágono
-c)Dodecágono
-d)Heptágono
-');
-INSERT INTO PreguntasGyT VALUES (224, 75	, 'Si los ángulos de un cuadrilatero miden 80°,110° y 70°, ¿Cuánto mide el ángulo que falta?   ; Respuesta:
-a)110°
-b)20°
-c)120°
-d)30°
-');
-INSERT INTO PreguntasGyT VALUES (224, 76	, '¿Cuántos lados tiene un polígono cuyos ángulos interiores suman 1260°?   ; Respuesta:
-a)Nueve
-b)Siete
-c)Doce
-d)Catorce
-');
-INSERT INTO PreguntasGyT VALUES (224, 77	, 'Calcular los ángulos exteriores de un triángulo rectángulo que tiene un ángulo agudo doble del otro    ; Respuesta:
-a)150° 120\' 90'\' 
-b)134° 142\' 45'\' 
-c)111° 167\' 35\'\' 
-d)131° 143\' 59\'\'
-');
-INSERT INTO PreguntasGyT VALUES (224, 78	, 'Dos polígonos regulares cumplen las siguientes condiciones: el número de lados del primero es el triple del número de lados del segundo y la razón de las diagonales totales del primero respecto del segundo es de 63 a 5,¿Cuántos lados tiene cada polígono?   ; Respuesta:
-a)Polígonos de 8 y 24 lados
-b)Polígonos de 6 y 18 lados
-c)Polígonos de 9 y 27 lados
-d)Polígonos de 7 y 28 lados
-');
-INSERT INTO PreguntasGyT VALUES (224, 79	, 'De dos polígonos regulares, el número de lados de uno es el doble del número de lados del otro y un ángulo interior de uno es 15/14 del ángulo interior del otro, ¿cuántos lados tiene cada polígono?  ; Respuesta:
-a)Polígonos de 16 y 32 lados
-b)Polígonos de 6 y 18 lados
-c)Polígonos de 9 y 27 lados
-d)Polígonos de 7 y 28 lados
-');
-INSERT INTO PreguntasGyT VALUES (224, 80	, 'Se requiere embaldosar el suelo de una plaza, con tres tipos de baldosas con forma de polígonos regulares.Sabemos que una es cuadrada y otra hexagonal, ¿Qué tipo de polígono debe ser el restante para que ajuste perfectamente?   ; Respuesta:
-a)Dodecágono
-b)Endecágono
-c)Octágono
-d)Heptágono
-');
-
-INSERT INTO PreguntasGyT VALUES (225, 81   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2081.png?raw=true
-a)h=3.2m
-b)h=4.8m
-c)h=5.2m
-d)h=3.9m
-');
-INSERT INTO PreguntasGyT VALUES (225, 82   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2082.png?raw=true
-a)n=1.3m, h=3.8m
-b)n=1.6m, h=1.2m
-c)n=2.3m, h=2.3m
-d)n=2.8m, h=6.5m
-');
-INSERT INTO PreguntasGyT VALUES (225, 83   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2083.png?raw=true
-a)5
-b)9
-c)7
-d)8
-');
-INSERT INTO PreguntasGyT VALUES (225, 84   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2084.png?raw=true
-a)(√450)
-b)(√500)
-c)(√300)
-d)(√4050)
-');
-INSERT INTO PreguntasGyT VALUES (225, 85  ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2085.png?raw=true
-a)3
-b)12
-c)16
-d)32
-');
+INSERT INTO PreguntasGyT VALUES (121, 01,'Resuelve la siguiente ecuación exponencial: (9^x)-(3^(x+1))=54 ');
+INSERT INTO PreguntasGyT VALUES (121, 02,'Resuelve la siguiente ecuación exponencial:(4^x)-(2^(x+1))=48 ');
+INSERT INTO PreguntasGyT VALUES (121, 03,'Resuelve la siguiente ecuación exponencial:(3^(6x+1)) - 4/ (3^(1-3x)) = -9^(-1) ');
+INSERT INTO PreguntasGyT VALUES (121, 04,'Resulve la siguiente ecuación exponencial: (6^(x+3)) + 5. 7^(x+2) + 8. 7^(x+1) = 7^(x+3) + 5. 6^(x+2) ');
+INSERT INTO PreguntasGyT VALUES (121, 05,'Resuelve la siguiente ecuación exponencial: (3^(x+4)) + 3. 5^(x+3) = 5^(x+4) + 3^(x+3) ');
+INSERT INTO PreguntasGyT VALUES (121, 06,'Resuelve la siguiente ecuación exponencial: 27^(x+1) = 9^(2x-3) ');
+INSERT INTO PreguntasGyT VALUES (121, 07,'Resuelve la siguiente ecuación exponencial: 5^(x) + 5^(x-1) - 5^(x-2) = 725 ');
+INSERT INTO PreguntasGyT VALUES (121, 08,'Resuelve la siguiente ecuación exponencial: 3^(2x+1) -10(3^x) + 3 = 0 ');
+INSERT INTO PreguntasGyT VALUES (121, 09,'Resuelve la siguiente ecuación exponencial: 2^x + 2^(x-3) = 18 ');
+INSERT INTO PreguntasGyT VALUES (121, 10,'Resuelve la siguiente ecuación exponencial: 2^(x+1) + 2^(x-1) - 3^(x-1) = 3^(x-2) -2^(x-3) + 2. 3^(x-3)  ');
+-- Tema 2
+INSERT INTO PreguntasGyT VALUES (122, 11,'Desarrolla el siguiente logaritmo: -log₂(log₂(√(√2))) ');
+INSERT INTO PreguntasGyT VALUES (122, 12,'Desarrolla el siguiente logaritmo: log₈12-log₈15+log₈20 ');
+INSERT INTO PreguntasGyT VALUES (122, 13,'Desarrolla el siguiente logaritmo: log (√(xyz) / ∛(xyz) ) ');
+INSERT INTO PreguntasGyT VALUES (122, 14,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2014.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (122, 15,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2015.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (122, 16,'log₃(27x²y⁵) ');
+INSERT INTO PreguntasGyT VALUES (122, 17,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2017.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (122, 18,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2018.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (122, 19,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2019.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (122, 20,'log( (m²-x²)/(√(m²+x²)) ) ');
+-- Tema 3
+INSERT INTO PreguntasGyT VALUES (123, 21,'Resuelva la siguiente ecuación logaritmica: log₃x+log₉x+log₂₇x = 11/2 ');
+INSERT INTO PreguntasGyT VALUES (123, 22,'Resuelva la siguiente ecuación logaritmica: ln(x-1)-ln(2x-11) = ln2 ');
+INSERT INTO PreguntasGyT VALUES (123, 23,'Resuelva la siguiente ecuación logaritmica: log₂(x²-3x+6) - log₂(x-1) = 2  ');
+INSERT INTO PreguntasGyT VALUES (123, 24,'Resuelve la siguiente ecuación logaritmica: logₓ(3x²+10x) = 3  ');
+INSERT INTO PreguntasGyT VALUES (123, 25,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2025.png?raw=true  ');
+INSERT INTO PreguntasGyT VALUES (123, 26,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2026.png?raw=true  ');
+INSERT INTO PreguntasGyT VALUES (123, 27,'Resuelve la siguiente ecuación logaritmica: log₂x+log₄x+log₈x = 11/2  ');
+INSERT INTO PreguntasGyT VALUES (123, 28,'Resuelve la siguiente ecuación logaritmica: ln(x-2)-ln(x-8) = ln3  ');
+INSERT INTO PreguntasGyT VALUES (123, 29,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2029.png?raw=true  ');
+INSERT INTO PreguntasGyT VALUES (123, 30,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2030.png?raw=true  ');
+-- Tema 4
+INSERT INTO PreguntasGyT VALUES (124, 31,'La vida media del radio es de 1600 años ¿Después de cuantos años, tardará una muestra de 125gr en decaer al 30% de su valor original? ');
+INSERT INTO PreguntasGyT VALUES (124, 32,'Que conviene más, invertir en fondos de inversión CITIBANAMEX con un interés anual compuesto del 8% capitalizable trimestralmente o en CETES DIRECTO con un interés anual compuesto del 7.5% capitalizable mensualmente');
+INSERT INTO PreguntasGyT VALUES (124, 33,'Se invierte una suma de 5000 dólares a una tasa de interés de 5% al año.Encuentre el tiempo necesario para que el dinero se duplique si el interés se capitaliza de acuerdo a)Semestralmente y b)Continuamente  ');
+INSERT INTO PreguntasGyT VALUES (124, 34,'La población aproximada de la India en 1990 era de 762 millones de personas y para el año 2000 había aumentado a 947 millones de personas.Si la tasa de crecimiento poblacional se conserva constante entonces: a)Encuentra la expresión que represente este crecimiento, b)¿Cuál será la población existente para el 2018?, c)¿En que año la población llegará a 1500 millones de habitantes? ');
+INSERT INTO PreguntasGyT VALUES (124, 35,'¿Cuánto tiempo debe transcurrir para que se duplique una inversión de 1200 euros al 8% compuesto trimestralmente?');
+INSERT INTO PreguntasGyT VALUES (124, 36,'Una población de bacterias tiene un tamaño dada por la formula: P(t)= 10000(e^(kt)) donde P(t) es la población después de t horas y k es una constante. Si después de 18 horas hay 25000 bacterias ¿Cuándo habrá 50000 bacterias?');
+INSERT INTO PreguntasGyT VALUES (124, 37,'El carbono 14, es radiactivo y se desintegra a una razón proporcional a la cantidad a actual.Su vida media es de 5730 años, es decir, una cantidad dada de carbono 14 tarda 5730 años en reducirse a la mitad de su cantidad original.Si hay 20 gramos de carbono 14 ¿Cuánto quedará al cabo de 3000 años? ');
+INSERT INTO PreguntasGyT VALUES (124, 38,'Una momia egipcia contiene el 60% de su carbono 14 original.Calcula la antigüedad de la momia ');
+INSERT INTO PreguntasGyT VALUES (124, 39,'Supongamos que se invierten $1000 al 10% de interés compuesto continuamente. ¿Cuánto tiempo debe pasar para que se duplique esta inversión?');
+INSERT INTO PreguntasGyT VALUES (124, 40,'Cuántos años tardará en triplicarse una inversión de $4000 si se invierte con un interés compuesto del 2.5% capitalizable diariamente?');
+-- Tema 5
+INSERT INTO PreguntasGyT VALUES (221, 41,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2041.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (221, 42,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2042.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (221, 43,'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2043.png?raw=true');
+INSERT INTO PreguntasGyT VALUES (221, 44,'Calcular el ángulo complementario de 30° ');
+INSERT INTO PreguntasGyT VALUES (221, 45, 'Calcular el ángulo complementario de 19° 37\' 23\'\' ');
+INSERT INTO PreguntasGyT VALUES (221, 46,'Calcular el ángulo suplementario de 57° ');
+INSERT INTO PreguntasGyT VALUES (221, 47, 'Calcular el ángulo suplementario de 114° 52\' ');
+INSERT INTO PreguntasGyT VALUES (221, 48, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2048.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (221, 49, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2049.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (221, 50, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2050.png?raw=true ');
+-- Tema 6
+INSERT INTO PreguntasGyT VALUES (222, 51, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2051.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 52	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2052.png?raw=true')
+INSERT INTO PreguntasGyT VALUES (222, 53	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2053.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 54	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2054.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 55	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2055.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 56	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2056.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 57	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2057.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 58	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2058.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 59	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2059.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (222, 60	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2060.png?raw=true');
+-- Tema 7
+INSERT INTO PreguntasGyT VALUES (223, 61	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2061.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 62	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2062.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 63	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2063.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 64	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2064.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 65	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2065.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 66	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2066.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 67	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2067.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 68	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2068.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 69	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2069.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (223, 70	, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2070.png?raw=true ');
+-- Tema 8
+INSERT INTO PreguntasGyT VALUES (224, 71	, '¿Cuál es el polígono que tiene 12 diagonales más que lados?');
+INSERT INTO PreguntasGyT VALUES (224, 72	, '¿Qué valor tendrá cada ángulo exterior de un icoságono resular?');
+INSERT INTO PreguntasGyT VALUES (224, 73	, 'Cuántos lados tiene un polígono cuya suma de los ángulos interiores es de 1440°?');
+INSERT INTO PreguntasGyT VALUES (224, 74	, 'Cuál es el polígono en el que se pueden trazar 44 diagonales en total?');
+INSERT INTO PreguntasGyT VALUES (224, 75	, 'Si los ángulos de un cuadrilatero miden 80°,110° y 70°, ¿Cuánto mide el ángulo que falta?');
+INSERT INTO PreguntasGyT VALUES (224, 76	, '¿Cuántos lados tiene un polígono cuyos ángulos interiores suman 1260°?');
+INSERT INTO PreguntasGyT VALUES (224, 77	, 'Calcular los ángulos exteriores de un triángulo rectángulo que tiene un ángulo agudo doble del otro ');
+INSERT INTO PreguntasGyT VALUES (224, 78	, 'Dos polígonos regulares cumplen las siguientes condiciones: el número de lados del primero es el triple del número de lados del segundo y la razón de las diagonales totales del primero respecto del segundo es de 63 a 5,¿Cuántos lados tiene cada polígono?');
+INSERT INTO PreguntasGyT VALUES (224, 79	, 'De dos polígonos regulares, el número de lados de uno es el doble del número de lados del otro y un ángulo interior de uno es 15/14 del ángulo interior del otro, ¿cuántos lados tiene cada polígono?');
+-- Tema 9 (hasta la pregunta 5)
+INSERT INTO PreguntasGyT VALUES (224, 80	, 'Se requiere embaldosar el suelo de una plaza, con tres tipos de baldosas con forma de polígonos regulares.Sabemos que una es cuadrada y otra hexagonal, ¿Qué tipo de polígono debe ser el restante para que ajuste perfectamente?');
+INSERT INTO PreguntasGyT VALUES (225, 81   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2081.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (225, 82   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2082.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (225, 83   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2083.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (225, 84   ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2084.png?raw=true ');
+INSERT INTO PreguntasGyT VALUES (225, 85  ,  'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Geometria-y-Trigonometria/Imagenes%20(desde%20el%20prcial%201%20hasta%20el%20tema%205)/Pregunta%2085.png?raw=true ');
 
 
 
@@ -678,94 +256,96 @@ CREATE TABLE Incisos_GyT(
 		FOREIGN KEY(ID_PreguntaGyT)
 		REFERENCES PreguntasGyT(ID_PreguntaGyT)
 		);
-		
+
+-- Parte Samuel
 INSERT INTO Incisos_GyT VALUES
-(01, 11, "", "", "", ""), 
-(02, 12, "", "", "", ""),
-(03, 13, "", "", "", ""),
-(04, 14, "", "", "", ""),
-(05, 15, "", "", "", ""),
-(06, 16, "", "", "", ""),
-(07, 17, "", "", "", ""),
-(08, 18, "", "", "", ""),
-(09, 19, "", "", "", ""),
-(10, 20, "", "", "", ""),
-(12, 22, "", "", "", ""),
-(13, 23, "", "", "", ""),
-(14, 24, "", "", "", ""),
-(15, 25, "", "", "", ""),
-(16, 26, "", "", "", ""),
-(17, 27, "", "", "", ""),
-(18, 28, "", "", "", ""),
-(19, 29, "", "", "", ""),
-(20, 30, "", "", "", ""),
-(21, 31, "", "", "", ""),
-(22, 32, "", "", "", ""),
-(23, 33, "", "", "", ""),
-(24, 34, "", "", "", ""),
-(25, 35, "", "", "", ""),
-(26, 36, "", "", "", ""),
-(27, 37, "", "", "", ""),
-(28, 38, "", "", "", ""),
-(29, 39, "", "", "", ""),
-(30, 40, "", "", "", ""),
-(31, 41, "", "", "", ""),
-(32, 42, "", "", "", ""),
-(33, 43, "", "", "", ""),
-(34, 44, "", "", "", ""),
-(35, 45, "", "", "", ""),
-(36, 46, "", "", "", ""),
-(37, 47, "", "", "", ""),
-(38, 48, "", "", "", ""),
-(39, 49, "", "", "", ""),
-(40, 50, "", "", "", ""),
-(41, 51, "", "", "", ""),
-(42, 52, "", "", "", ""),
-(43, 53, "", "", "", ""),
-(44, 54, "", "", "", ""),
-(45, 55, "", "", "", ""),
-(46, 56, "", "", "", ""),
-(47, 57, "", "", "", ""),
-(48, 58, "", "", "", ""),
-(49, 59, "", "", "", ""),
-(50, 60, "", "", "", ""),
-(51, 61, "", "", "", ""),
-(52, 62, "", "", "", ""),
-(53, 63, "", "", "", ""),
-(54, 64, "", "", "", ""),
-(55, 65, "", "", "", ""),
-(56, 66, "", "", "", ""),
-(57, 67, "", "", "", ""),
-(58, 68, "", "", "", ""),
-(59, 69, "", "", "", ""),
-(60, 70, "", "", "", ""),
-(61, 71, "", "", "", ""),
-(62, 72, "", "", "", ""),
-(63, 73, "", "", "", ""),
-(64, 74, "", "", "", ""),
-(65, 75, "", "", "", ""),
-(66, 76, "", "", "", ""),
-(67, 77, "", "", "", ""),
-(68, 78, "", "", "", ""),
-(69, 79, "", "", "", ""),
-(70, 80, "", "", "", ""),
-(71, 81, "", "", "", ""),
-(72, 82, "", "", "", ""),
-(73, 83, "", "", "", ""),
-(74, 84, "", "", "", ""),
-(75, 85, "", "", "", ""),
-(76, 86, "", "", "", ""),
-(77, 87, "", "", "", ""),
-(78, 88, "", "", "", ""),
-(79, 89, "", "", "", ""),
-(80, 90, "", "", "", ""),
-(81, 91, "", "", "", ""),
-(82, 92, "", "", "", ""),
-(83, 93, "", "", "", ""),
-(84, 94, "", "", "", ""),
-(85, 95, "", "", "", ""),
+-- Tema 1
 
-
+(01, 11, "a)x=2", "b)x=3", "c)x=0", "d)x=1/2" ),
+(02, 12, "a)x=2", "b)x=3", "c)x=0", "d)x=1/2"),
+(03, 13, "a)x1= -2/3, x2=-1/3", "b)x1= -2/6, x2=-1/6", "c)x1= -1/3, x2=-4/3", "d)x1= -1/2, x2=1/3"),
+(04, 14, "a)x=-1", "b)x=1", "c)x=-1/2", "d)x=1/2"),
+(05, 15, "a)x=3", "b)x=1/3", "c)x=-3", "d)x=-1/3"),
+(06, 16, "a)x=-3", "b)x=-9", "c)x=3", "d)x=9"),
+(07, 17, "a)x=-4", "b)x=2", "c)x=4", "d)x=-2"),
+(08, 18, "a)x1=-1, x2=1/3", "b)x1=-1/2, x2=1/2", "c)x1=-1, x2=1", "d)x1=1, x2=2"),
+(09, 19, "a)x=-2", "b)x=2", "c)x=4", "d)x=-4"),
+(10, 20, "a)x=-2", "b)x=2", "c)x=-4", "d)x=4"),
+(11, 21, "a)2", "b)1", "c)4", "d)0"),
+(12, 22, "a)4/3", "b)4/5", "c)1/3", "d)3"),
+(13, 23, "a)1/6 log(x) + 1/6 log(y) + 1/6 log(z)", "b)1/3 log(x) + 1/3 log(y) + 1/3 log(z)", "c)1/12 log(x) + 2/6 log(y) + 1/3 log(z)", "d)1/6 log(x) + 1/9 log(y) + 1/4 log(z)"),
+(14, 24, "a)8/15 log₁₀2", "b)15 log₂10", "c)15/8 log₁₀2", "d)5 log₂10"),
+(15, 25, "a)log₂(a-b)-log₂(a+b)-log₂a+log₂b", "b)log₂(a-b)+log₂(a+b)-log₂a+log₂b", "c)log₂(a+b)+log₂(a-b)-log₂a-log₂b", "d)log₂(a+b)-log₂(a-b)+log₂a-log₂b"),
+(16, 26, "a)2+3log₃(y)+5log₃(x)", "b)3+3log₃(x)+2log₃(x)", "c)2+3log₃(y)+5log₃(y)", "d)3+2log₃(x)+5log₃(y)"),
+(17, 27, "a)3/4", "b)4/3", "c)8/5", "d)5/8"),
+(18, 28, "a)log₂(a^-1)", "b)log₂(a^2)", "c)log₂(a^-2)", "d)log₂(a)"),
+(19, 29, "a)log(x/dy)", "b)log(c/xy)", "c)log(x/cy)", "d)log(y/xc)"),
+(20, 30, "a)log₁₀(m²-x²)- 1/2 log₁₀(m²+x²)", "b)2log₁₀(m²-x²)- 1/2 log₁₀(m²-x²)", "c)log₁₀(m²+x²)- 1/2 log₁₀(m²-x²)", "d)log₁₀(m²+x²)- 1/2 log₁₀(m²+x²)"),
+(21, 31, "a)x=27", "b)x=13", "c)x=1/2", "d)x=4"),
+(22, 32, "a)x=7", "b)x=13", "c)x=1/2", "d)x=4"),
+(23, 33, "a)x=7", "b)x=3", "c)x1=2 ; x2=5", "d)x1= 3 ; x2=5"),
+(24, 34, "a)x=1/5", "b)x=3", "c)x=5", "d)x=3/5"),
+(25, 35, "a)y=4", "b)y=3", "c)y=14", "d)y=7"),
+(26, 36, "a)x1=43 ; x2=-2.36", "b)x1=-43 ; x2=2.36", "c)x1=97 ; x2=1.99", "d)x1=-97 ; x2=2.99"),
+(27, 37, "a)x=4", "b)x=8", "c)x=7", "d)x=5/2"),
+(28, 38, "a)x=9", "b)x=11", "c)x=7", "d)x=3"),
+(29, 39, "a)x=4", "b)x=2", "c)x=6", "d)x=8"),
+(30, 40, "a)x1=√5 ; x2=5", "b)x1=√3 ; x2=3", "c)x1=√7 ; x2=7", "d)x=3"),
+(31, 41, "a)En 2779.1449 años", "b)En 3123.4567 años", "c)En 2134.7864 años", "d)En 2567.4546 años"),
+(32, 42, "a)Citibanamex", "b)CETES DIRECTO"),
+(33, 43, "a)Semestralmente: t=14.04 ; Continuamente: t=13.86", "b)Semestralmente: t=11.56 ; Continuamente: t=16.78", "c)Semestralmente: t=16.78 ; Continuamente: t=11.56", "d)Semestralmente: t=13.86 ; Continuamente: t=14.04"),
+(34, 44, "A)a)A(t)= 762(e^(ln947/762)t /10 ), b)En el 2018 en la India habrán 1400 millones de habitantes, c)Habrán 1500 millones de habitantes en el año 2021", "B)a)A(t)= 486(e^(ln762t /10 ), b)En el 2018 en la India habrán 1500 millones de habitantes, c)Habrán 1500 millones de habitantes en el año 2020", "C)a)A(t)= 486(e^(ln947t /10 ), b)En el 2018 en la India habrán 1300 millones de habitantes, c)Habrán 1500 millones de habitantes en el año 2022", "D)a)A(t)= 762(e^(ln762/847)t /10 ), b)En el 2018 en la India habrán 1400 millones de habitantes, c)Habrán 1300 millones de habitantes en el año 2021"),
+(35, 45, "a)7.2345 años", "b)8.1234 años", "c)8.7506 años", "d)7.8790 años"),
+(36, 46, "a)En 39.3465 años", "b)En 27.4546 años", "c)En 31.6164 años", "d)En 43.5789 años"),
+(37, 47, "a)13.1232 gramos", "b)12.9130 gramos", "c)13.9130 gramos", "d)12.1232 gramos"),
+(38, 48, "a) 4334.89 años", "b) 4222.81 años", "c) 3989.56 años", "d) 4767.23 años"),
+(39, 49, "a) 4.6798 años", "b) 6.9314 años", "c) 5.9314 años", "d) 9.6798 años"),
+(40, 50, "a) 40.6798 años", "b) 43.9444 años", "c) 53.9314 años", "d) 50.6798 años"),
+(41, 51, "a) 35", "b) 25", "c) 30", "d) 15"),
+(42, 52, "a) 53", "b) 44", "c) 47", "d) 57"),
+(43, 53, "a) 139", "b) 127", "c) 113", "d) 97"),
+(44, 54, "a) 60°", "b) 45°", "c) 30°", "d) 70°"),
+(45, 55, "a)70° 22\' 37\'\' ", "b)87° 34\' 45\'\' ", "c)73° 47\' 23\'\' ", "d)72° 37\' 23\'\' "),
+(46, 56, "a) 23°", "b) 33°", "c) 123°", "d) 113°"),
+(47, 57, "a)60° 15\' ", "b)68° 56\' ", "c)65° 08\'  ", "d)70° 67\'"),
+(48, 58, "a) 73", "b) 34", "c) 48", "d) 67"),
+(49, 59, "a) 73", "b) 34", "c) 71", "d) 67"),
+(50, 60, "a) 73", "b) 34", "c) 50", "d) 67"),
+(51, 61, "a) 73", "b) 34", "c) 50", "d) 75"),
+(52, 62, "a) 173", "b) 134", "c) 150", "d) 135"),
+(53, 63, "a) 70° 22' 37'' ", "b) 87° 34' 45'' ", "c) 13° 67' 23'' ", "d) 11° 25' 43'' "),
+(54, 64, "a) 18° 22' 7'' ", "b) 23° 34' 5'' ", "c) 11° 67' 3'' ", "d) 21° 49' 6'' "),
+(55, 65, "a) 33", "b) 34", "c) 35", "d) 30"),
+(56, 66, "a) 53", "b) 54", "c) 55", "d) 50"),
+(57, 67, "a) 30° 22'", "b) 27° 34'", "c) 23° 67'", "d) 20° 50'"),
+(58, 68, "a) 30° 22' ", "b) 27° 34' ", "c) 23° 67' ", "d) 21° 40' "),
+(59, 69, "a) 50° 22'", "b) 57° 34'", "c) 53° 67'", "d) 50° 40'"),
+(60, 70, "a) 18° 22' 72'' ", "b) 23° 34' 53'' ", "c) 11° 67' 35'' ", "d) 13° 19' 59'' "),
+(61, 71, "a) 33", "b) 24", "c) 20", "d) 30"),
+(62, 72, "a) 33", "b) 31", "c) 42", "d) 32"),
+(63, 73, "a) 33", "b) 31", "c) 50", "d) 52"),
+(64, 74, "a) 33", "b) 31", "c) 35", "d) 22"),
+(65, 75, "a) 43", "b) 41", "c) 40", "d) 32"),
+(66, 76, "a) 143", "b) 141", "c) 110", "d) 132"),
+(67, 77, "a) 143", "b) 141", "c) 120", "d) 132"),
+(68, 78, "a) 45", "b) 95", "c) 90", "d) 112"),
+(69, 79, "a) 25", "b) 35", "c) 24", "d) 32"),
+(70, 80, "a) 17", "b) 15", "c) 14", "d) 12"),
+(71, 81, "a) Octágono", "b) Dodecágono", "c) Heptágono", "d) Eneágono"),
+(72, 82, "a) 18°", "b) 16°", "c) 23°", "d) 21°"),
+(73, 83, "a) Decágono", "b) Octágono", "c) Dodecágono", "d) Heptágono"),
+(74, 84, "a) Endecágono", "b) Octágono", "c) Dodecágono", "d) Heptágono"),
+(75, 85, "a) 110°", "b) 20°", "c) 120°", "d) 30°"),
+(76, 86, "a) Nueve", "b) Siete", "c) Doce", "d) Catorce" ),
+(77, 87, "a) 150° 120' 90'' ", "b) 134° 142' 45'' ", "c) 111° 167' 35'' ", "d) 131° 143' 59'' " ),
+(78, 88, "a) Polígonos de 8 y 24 lados", "b) Polígonos de 6 y 18 lados", "c) Polígonos de 9 y 27 lados", "d) Polígonos de 7 y 28 lados"),
+(79, 89, "a) Polígonos de 16 y 32 lados", "b) Polígonos de 6 y 18 lados", "c) Polígonos de 9 y 27 lados", "d) Polígonos de 7 y 28 lados"),
+(80, 90, "a) Dodecágono", "b) Endecágono", "c) Octágono", "d) Heptágono"),
+(81, 91, "a) h=3.2m", "b) h=4.8m", "c) h=5.2m", "d) h=3.9m"),
+(82, 92, "a) n=1.3m, h=3.8m", "b) n=1.6m, h=1.2m", "c) n=2.3m, h=2.3m", "d) n=2.8m, h=6.5m"),
+(83, 93, "a)5", "b)9", "c)7", "d)8"),
+(84, 94, "a)(√450)", "b)(√500)", "c)(√300)", "d)(√4050)"),
+(85, 95, "a)3", "b)12", "c)16", "d)32"),
 
 
 
