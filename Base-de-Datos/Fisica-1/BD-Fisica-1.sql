@@ -929,8 +929,7 @@ INSERT INTO RespuestasF1 VALUES(82,820,'d');
 INSERT INTO RespuestasF1 VALUES(83,830,'b');
 INSERT INTO RespuestasF1 VALUES(84,840,'a');
 INSERT INTO RespuestasF1 VALUES(85,850,'d');
-
-
+.
 
 
 
