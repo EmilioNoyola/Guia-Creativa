@@ -298,89 +298,27 @@ INSERT INTO PreguntasF2 VALUES (273, 219,'');
 
 -- Tema 4 TEOREMA TRABAJO- ENERGÍA
 
-INSERT INTO PreguntasF2 VALUES (274, 220, '¿Cuál es el enunciado del teorema trabajo-energía? 
-a) El trabajo realizado sobre un objeto es igual a la diferencia en su energía cinética. 
-b) La energía cinética de un objeto es igual al trabajo realizado sobre él. 
-c) La fuerza aplicada sobre un objeto es directamente proporcional a su energía cinética.');
-INSERT INTO PreguntasF2 VALUES (274, 221, '¿Qué relación establece el teorema trabajo-energía entre el trabajo realizado sobre un objeto y los cambios en su energía cinética? 
-a) El trabajo es igual al doble de la energía cinética. 
-b) El trabajo es igual a la energía cinética. 
-c) El trabajo es igual a la diferencia en la energía cinética.');
-INSERT INTO PreguntasF2 VALUES (274, 222, '¿Cómo se calcula el trabajo realizado sobre un objeto según el teorema trabajo-energía? 
-a) Multiplicando la fuerza aplicada por la distancia recorrida. 
-b) Multiplicando la masa del objeto por la aceleración. 
-c) Dividiendo la energía cinética entre la velocidad.');
-INSERT INTO PreguntasF2 VALUES (274, 223, '¿Qué representa la energía cinética en el contexto del teorema trabajo-energía? 
-a) La energía asociada a la posición de un objeto en un campo de fuerza. 
-b) La energía almacenada en un objeto debido a su posición. 
-c) La energía asociada al movimiento de un objeto.');
-INSERT INTO PreguntasF2 VALUES (274, 224, '¿Qué condiciones deben cumplirse para aplicar el teorema trabajo-energía a un sistema? 
-a) Debe haber fuerzas conservativas actuando sobre el sistema. 
-b) El sistema debe estar en equilibrio. 
-c) El sistema debe tener energía cinética.');
-INSERT INTO PreguntasF2 VALUES (274, 225, '¿Cómo se calcula el trabajo neto realizado sobre un objeto utilizando el teorema trabajo-energía? 
-a) Sumando los trabajos realizados por cada fuerza aplicada. 
-b) Restando los trabajos realizados por cada fuerza aplicada. 
-c) Multiplicando los trabajos realizados por cada fuerza aplicada.');
-INSERT INTO PreguntasF2 VALUES (274, 226, '¿Qué representa un trabajo positivo en el contexto del teorema trabajo-energía? 
-a) Un aumento en la energía cinética del sistema. 
-b) Una disminución en la energía cinética del sistema. 
-c) Ninguna de las anteriores.');
-INSERT INTO PreguntasF2 VALUES (274, 227, '¿Qué representa un trabajo negativo en el contexto del teorema trabajo-energía? 
-a) Un aumento en la energía potencial del sistema. 
-b) Una disminución en la energía potencial del sistema. 
-c) Una disminución en la energía cinética del sistema.');
-INSERT INTO PreguntasF2 VALUES (274, 228, '¿Cómo se relaciona el trabajo neto con los cambios en la energía cinética de un objeto según el teorema trabajo-energía? 
-a) El trabajo neto es igual a la energía cinética inicial del objeto. 
-b) El trabajo neto es igual al cambio en la energía cinética del objeto. 
-c) El trabajo neto es igual al doble de la energía cinética final del objeto.');
-INSERT INTO PreguntasF2 VALUES (274, 229, '¿Cuál es la expresión matemática del teorema trabajo-energía para un objeto que se mueve en línea recta? 
-a) W = ΔE_pot 
-b) W = ΔE_cin 
-c) W = ΔK');
-INSERT INTO PreguntasF2 VALUES (274, 230, '¿Qué significa un valor de trabajo neto igual a cero según el teorema trabajo-energía? 
-a) El objeto ha detenido su movimiento. 
-b) No se ha realizado trabajo neto sobre el objeto. c) El objeto ha aumentado su energía potencial.');
-INSERT INTO PreguntasF2 VALUES (274, 231, '¿Cómo se calcula el trabajo neto si se conocen las fuerzas que actúan sobre un objeto y las distancias sobre las cuales actúan? 
-a) Multiplicando la fuerza por la distancia. 
-b) Dividiendo la fuerza entre la distancia. 
-c) Sumando la fuerza y la distancia.');
--- faltan incisos
-INSERT INTO PreguntasF2 VALUES (274, 232, ' 
-a)WF=650J  Wff=-588.6J  VF=1.752m/s......    
-b)WF=894J  Wff=238.9J  VF=3.158m/s      
-c)WF=-450J  Wff=428.9J  VF=1.112m/s');
-INSERT INTO PreguntasF2 VALUES (274, 233, ' a)Wff=208276.11J S=35.12m    
-b)Wff=-208276.11J S=20.22m.......     
-c)Wff=-32826.21J S=51.62m');
-INSERT INTO PreguntasF2 VALUES (274, 234, 'Un colector (camión) de basura empuja con una fuerza horizontal de 6N un bote de 20kg. Si el bote parte del reposo hasta alcanzar una velocidad de 3 m/s, calcular: a) Energía Cinética inicial b) Energía Cinética Finalc) Que trabajo realiza sobre el bote la fuerza que imprime el camión d) Que desplazamiento se produce
-a)Ko=90J Kf=-90J Wneto=180J S=25m   
-b)Ko=0J Kf=-90J Wneto=180J S=55m         
-c)Ko=0J Kf=90J Wneto=90J S=15m......');
-INSERT INTO PreguntasF2 VALUES (274, 235, 'En una pista de hielo horizontal, prácticamente sin fricción, Un patinador se mueve a 3m/s; encuentra una Zona áspera que reduce su rapidez en un 45% debido a una fuerza de fricción que es el 25% del peso del patinador. Use el teorema trabajo-energía para determinar la longitud de la zona áspera.
-a)S=1.463m......   
-b)S=4.168m   
-c)S=5.163m');
-INSERT INTO PreguntasF2 VALUES (274, 236, 'Un vagón de 15 Kg se mueve por un corredor horizontal con una velocidad de 7.5 m/s. Una fuerza constante contraria al sentido del vagón de 10N, actúa sobre este, reduciendo su velocidad a 3.2m/s. Calcular: a) El desplazamiento realizado por el vagónb) El cambio de energía cinética c) Que trabajo realiza sobre el vagón
-a)S=14.775m  W=235.075J=∆K    
-b)S=34.5075m  W=-345.075J=∆K......   
-c)S=22.1069m  W=-445.71J=∆K');
-INSERT INTO PreguntasF2 VALUES (274, 237, '
-a)Wf=∆K=170x10^7J Kf=170x10^7J V=45.21m/s 
-b)Wf=∆K=-250x10^10J Kf=123x10^6J V=101.123m/s
-c)Wf=∆K=250x10^6J Kf=250x10^6J V=141.421m/s......');
-INSERT INTO PreguntasF2 VALUES (274, 238, '
-a)Wneto=35.226J VB=3.4266m/s  S=1.994m...... 
-b)Wneto=-55.126J VB=1.568m/s  S=2.824m 
-c)Wneto=25.125J VB=0.968m/s  S=1.124m ');
-INSERT INTO PreguntasF2 VALUES (274, 239, 'Un automóvil de 900kg de masa viaja a 60km/h y al acelerar ejerce una fuerza neta de 3000N hasta alcanzar una velocidad de 90km/h sin cambiar la dirección como se muestra en la figura. Calcular: a) El trabajo realizado por la fuerza neta  b) Que distancia recorre el automóvil  c) La aceleración y el tiempo invertido para poder alcanzar la velocidad de 90km/h  d) La potencia generada por la fuerza neta 
-a)W=251200J  S=86.1383m  a=5.121m/s^2  Tf=4.8s  P=89126.16Watts
-b)W=156200J  S=52.0833m  a=3.334m/s^2  Tf=2.5s  P=62506.96Watts..... 
-c)W=151200J  S=28.2485m  a=1.551m/s^2  Tf=1.25s  P=31576.34Watts');
-INSERT INTO PreguntasF2 VALUES (274, 240, '
-a)Wf=383.17J
-b)Wf=1567.67J
-c)Wf=783.67J.....');
+INSERT INTO PreguntasF2 VALUES (274, 220, '¿Cuál es el enunciado del teorema trabajo-energía?');
+INSERT INTO PreguntasF2 VALUES (274, 221, '¿Qué relación establece el teorema trabajo-energía entre el trabajo realizado sobre un objeto y los cambios en su energía cinética? ');
+INSERT INTO PreguntasF2 VALUES (274, 222, '¿Cómo se calcula el trabajo realizado sobre un objeto según el teorema trabajo-energía? ');
+INSERT INTO PreguntasF2 VALUES (274, 223, '¿Qué representa la energía cinética en el contexto del teorema trabajo-energía? ');
+INSERT INTO PreguntasF2 VALUES (274, 224, '¿Qué condiciones deben cumplirse para aplicar el teorema trabajo-energía a un sistema? ');
+INSERT INTO PreguntasF2 VALUES (274, 225, '¿Cómo se calcula el trabajo neto realizado sobre un objeto utilizando el teorema trabajo-energía? ');
+INSERT INTO PreguntasF2 VALUES (274, 226, '¿Qué representa un trabajo positivo en el contexto del teorema trabajo-energía? ');
+INSERT INTO PreguntasF2 VALUES (274, 227, '¿Qué representa un trabajo negativo en el contexto del teorema trabajo-energía? ');
+INSERT INTO PreguntasF2 VALUES (274, 228, '¿Cómo se relaciona el trabajo neto con los cambios en la energía cinética de un objeto según el teorema trabajo-energía? ');
+INSERT INTO PreguntasF2 VALUES (274, 229, '¿Cuál es la expresión matemática del teorema trabajo-energía para un objeto que se mueve en línea recta? ');
+INSERT INTO PreguntasF2 VALUES (274, 230, '¿Qué significa un valor de trabajo neto igual a cero según el teorema trabajo-energía? ');
+INSERT INTO PreguntasF2 VALUES (274, 231, '¿Cómo se calcula el trabajo neto si se conocen las fuerzas que actúan sobre un objeto y las distancias sobre las cuales actúan? ');
+INSERT INTO PreguntasF2 VALUES (274, 232, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/tema-4/274-232.png?raw=true ');
+INSERT INTO PreguntasF2 VALUES (274, 233, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/tema-4/274-233.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (274, 234, 'Un colector (camión) de basura empuja con una fuerza horizontal de 6N un bote de 20kg. Si el bote parte del reposo hasta alcanzar una velocidad de 3 m/s, calcular: a) Energía Cinética inicial b) Energía Cinética Finalc) Que trabajo realiza sobre el bote la fuerza que imprime el camión d) Que desplazamiento se produce');
+INSERT INTO PreguntasF2 VALUES (274, 235, 'En una pista de hielo horizontal, prácticamente sin fricción, Un patinador se mueve a 3m/s; encuentra una Zona áspera que reduce su rapidez en un 45% debido a una fuerza de fricción que es el 25% del peso del patinador. Use el teorema trabajo-energía para determinar la longitud de la zona áspera.');
+INSERT INTO PreguntasF2 VALUES (274, 236, 'Un vagón de 15 Kg se mueve por un corredor horizontal con una velocidad de 7.5 m/s. Una fuerza constante contraria al sentido del vagón de 10N, actúa sobre este, reduciendo su velocidad a 3.2m/s. Calcular: a) El desplazamiento realizado por el vagónb) El cambio de energía cinética c) Que trabajo realiza sobre el vagón');
+INSERT INTO PreguntasF2 VALUES (274, 237, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/tema-4/274-237.png?raw=true');
+INSERT INTO PreguntasF2 VALUES (274, 238, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/tema-4/274-238.png?raw=true ');
+INSERT INTO PreguntasF2 VALUES (274, 239, 'Un automóvil de 900kg de masa viaja a 60km/h y al acelerar ejerce una fuerza neta de 3000N hasta alcanzar una velocidad de 90km/h sin cambiar la dirección como se muestra en la figura. Calcular: a) El trabajo realizado por la fuerza neta  b) Que distancia recorre el automóvil  c) La aceleración y el tiempo invertido para poder alcanzar la velocidad de 90km/h  d) La potencia generada por la fuerza neta ');
+INSERT INTO PreguntasF2 VALUES (274, 240, 'https://github.com/EmilioNoyola/Guia-Creativa/blob/main/Base-de-Datos/Fisica-2/IMG-F2/Parcial-2/tema-4/274-240.png?raw=true');
 INSERT INTO PreguntasF2 VALUES (274, 241, 'Un bloque de 263 g se deja caer sobre un resorte vertical con una constante de fuerza k = 2.52 N/cm como se muestra figura. El bloque se pega al resorte, y el resorte se comprime 11.8 cm antes de alcanzar el reposo momentáneamente. Mientras el resorte está siendo comprimido, ¿cuánto trabajo efectúan (a) la fuerza de gravedad y (b) el resorte? (c) ¿Cuál era la velocidad del bloque inmediatamente antes de que alcanzara al resorte?
 a)..... b) c)');
 INSERT INTO PreguntasF2 VALUES (274, 242, 'Un bloque de 10.0 kg se libera desde el punto A como se muestra en la figura. La pista no tiene fricción excepto por la porción entre los puntos B y C, que tiene una longitud de 6.00 m. El bloque viaja por la pista, golpea un resorte con 2250 N/m de constante de fuerza y comprime el resorte 0.300 m desde su posición de equilibrio antes de llegar al reposo momentáneamente. Determine el coeficiente de fricción cinética entre el bloque y la superficie rugosa entre B y C.
@@ -1140,23 +1078,23 @@ INSERT INTO RespuestasF2 VALUES (220,2200,'a');
 INSERT INTO RespuestasF2 VALUES (221,2210,'c');
 INSERT INTO RespuestasF2 VALUES (222,2220,'a');
 INSERT INTO RespuestasF2 VALUES (223,2230,'c');
-INSERT INTO RespuestasF2 VALUES (224,2240,'a');
-INSERT INTO RespuestasF2 VALUES (225,2250,'b');
+INSERT INTO RespuestasF2 VALUES (224,2240,'c');
+INSERT INTO RespuestasF2 VALUES (225,2250,'a');
 INSERT INTO RespuestasF2 VALUES (226,2260,'a');
 INSERT INTO RespuestasF2 VALUES (227,2270,'c');
 INSERT INTO RespuestasF2 VALUES (228,2280,'b');
 INSERT INTO RespuestasF2 VALUES (229,2290,'c');
 INSERT INTO RespuestasF2 VALUES (230,2300,'b');
-INSERT INTO RespuestasF2 VALUES (231,2310,'c');
-INSERT INTO RespuestasF2 VALUES (232,2320,'');
-INSERT INTO RespuestasF2 VALUES (233,2330,'');
-INSERT INTO RespuestasF2 VALUES (234,2340,'');
-INSERT INTO RespuestasF2 VALUES (235,2350,'');
-INSERT INTO RespuestasF2 VALUES (236,2360,'');
-INSERT INTO RespuestasF2 VALUES (237,2370,'');
-INSERT INTO RespuestasF2 VALUES (238,2380,'');
-INSERT INTO RespuestasF2 VALUES (239,2390,'');
-INSERT INTO RespuestasF2 VALUES (240,2400,'');
+INSERT INTO RespuestasF2 VALUES (231,2310,'a');
+INSERT INTO RespuestasF2 VALUES (232,2320,'a');
+INSERT INTO RespuestasF2 VALUES (233,2330,'b');
+INSERT INTO RespuestasF2 VALUES (234,2340,'c');
+INSERT INTO RespuestasF2 VALUES (235,2350,'a');
+INSERT INTO RespuestasF2 VALUES (236,2360,'b');
+INSERT INTO RespuestasF2 VALUES (237,2370,'c');
+INSERT INTO RespuestasF2 VALUES (238,2380,'a');
+INSERT INTO RespuestasF2 VALUES (239,2390,'b');
+INSERT INTO RespuestasF2 VALUES (240,2400,'c');
 INSERT INTO RespuestasF2 VALUES (241,2410,'');
 INSERT INTO RespuestasF2 VALUES (242,2420,'');
 INSERT INTO RespuestasF2 VALUES (243,2430,'');
