@@ -254,23 +254,23 @@ INSERT INTO PreguntasF2 VALUES (272,186,'Una persona tira un bloque con una cuer
 
 -- Tema 3 POTENCIA MECÁNICA
 
-INSERT INTO PreguntasF2 VALUES (273, 187, '¿Cuál es la definición de potencia mecánica? a) La cantidad total de energía en un sistema. b) La tasa de transferencia de energía o la cantidad de trabajo realizado por unidad de tiempo. c) La cantidad de trabajo total realizado sobre un objeto.');
-INSERT INTO PreguntasF2 VALUES (273, 188, '¿Cuál es la unidad SI de la potencia mecánica? a) Julio. b) Vatio. c) Newton.');
-INSERT INTO PreguntasF2 VALUES (273, 189, '¿Cómo se calcula la potencia mecánica cuando se conoce el trabajo realizado y el tiempo empleado? a) Potencia = Trabajo × Tiempo. b) Potencia = Trabajo / Tiempo. c) Potencia = Tiempo / Trabajo.');
-INSERT INTO PreguntasF2 VALUES (273, 190, '¿Cuál de las siguientes situaciones tiene mayor potencia: levantar una caja de 20 kg a una altura de 2 metros en 10 segundos o levantar la misma caja a la misma altura en 5 segundos? a) Ambas tienen la misma potencia. b) Levantar la caja en 10 segundos. c) Levantar la caja en 5 segundos.');
-INSERT INTO PreguntasF2 VALUES (273, 191, 'Si dos trabajadores realizan el mismo trabajo pero uno lo hace en la mitad de tiempo, ¿cuál tiene mayor potencia? a) El que realiza el trabajo en más tiempo. b) El que realiza el trabajo en menos tiempo. c) Ambos tienen la misma potencia.');
-INSERT INTO PreguntasF2 VALUES (273, 192, '¿Cuál es la relación entre la potencia y el trabajo realizado? a) La potencia es igual al trabajo. b) La potencia es inversamente proporcional al trabajo. c) La potencia es directamente proporcional al trabajo.');
-INSERT INTO PreguntasF2 VALUES (273, 193, '¿Qué tipo de potencia se utiliza comúnmente para medir la potencia de motores y máquinas? a) Potencia mecánica. b) Potencia térmica. c) Potencia eléctrica.');
-INSERT INTO PreguntasF2 VALUES (273, 194, '¿Cuál de las siguientes fórmulas se usa para calcular la potencia si se conoce la fuerza aplicada y la velocidad del objeto? a) Potencia = Fuerza × Velocidad. b) Potencia = Fuerza / Velocidad. c) Potencia = Fuerza × Distancia.');
-INSERT INTO PreguntasF2 VALUES (273, 195, '¿Cuál es la potencia necesaria para levantar un objeto de 100 N a una altura de 2 metros en 5 segundos? a) 10 W. b) 20 W. c) 40 W.');
-INSERT INTO PreguntasF2 VALUES (273, 196, '¿Cómo se relaciona la potencia y la energía en física? a) La potencia es una forma de energía. b) La energía es una forma de potencia. c) No hay relación entre potencia y energía.');
-INSERT INTO PreguntasF2 VALUES (273, 197, '¿Cuál es la potencia necesaria para realizar un trabajo de 500 J en 10 segundos? a) 50 W. b) 500 W. c) 5000 W.');
-INSERT INTO PreguntasF2 VALUES (273, 198, '¿Qué significa una potencia negativa en el contexto de un objeto en movimiento? a) El objeto está en reposo. b) El objeto está adquiriendo energía. c) El objeto está perdiendo energía.');
-INSERT INTO PreguntasF2 VALUES (273, 199, '¿Qué sucede con la potencia si se duplica la fuerza aplicada a un objeto? a) La potencia se duplica. b) La potencia se reduce a la mitad. c) La potencia se cuadruplica.');
-INSERT INTO PreguntasF2 VALUES (273, 200, '¿Cuál es la potencia necesaria para levantar un objeto de 200 N a una altura de 4 metros en 10 segundos? a) 20 W. b) 40 W. c) 80 W.');
-INSERT INTO PreguntasF2 VALUES (273, 201, '¿Cuál es la potencia necesaria para realizar un trabajo de 100 J en 5 segundos? a) 20 W. b) 50 W. c) 200 W.');
-INSERT INTO PreguntasF2 VALUES (273, 202, '¿Cuál de las siguientes fórmulas se usa para calcular la potencia si se conoce la fuerza aplicada y la velocidad del objeto? a) Potencia = Fuerza × Velocidad. b) Potencia = Fuerza / Velocidad. c) Potencia = Fuerza × Distancia.');
-INSERT INTO PreguntasF2 VALUES (273, 203, '¿Cuál es la potencia requerida para levantar un objeto de 100 N a una altura de 2 metros en 5 segundos? a) 10 W. b) 20 W. c) 40 W.');
+INSERT INTO PreguntasF2 VALUES (273, 187, '¿Cuál es la definición de potencia mecánica? ');
+INSERT INTO PreguntasF2 VALUES (273, 188, '¿Cuál es la unidad SI de la potencia mecánica? ');
+INSERT INTO PreguntasF2 VALUES (273, 189, '¿Cómo se calcula la potencia mecánica cuando se conoce el trabajo realizado y el tiempo empleado? ');
+INSERT INTO PreguntasF2 VALUES (273, 190, '¿Cuál de las siguientes situaciones tiene mayor potencia: levantar una caja de 20 kg a una altura de 2 metros en 10 segundos o levantar la misma caja a la misma altura en 5 segundos? ');
+INSERT INTO PreguntasF2 VALUES (273, 191, 'Si dos trabajadores realizan el mismo trabajo pero uno lo hace en la mitad de tiempo, ¿cuál tiene mayor potencia? ');
+INSERT INTO PreguntasF2 VALUES (273, 192, '¿Cuál es la relación entre la potencia y el trabajo realizado? ');
+INSERT INTO PreguntasF2 VALUES (273, 193, '¿Qué tipo de potencia se utiliza comúnmente para medir la potencia de motores y máquinas? ');
+INSERT INTO PreguntasF2 VALUES (273, 194, '¿Cuál de las siguientes fórmulas se usa para calcular la potencia si se conoce la fuerza aplicada y la velocidad del objeto? ');
+INSERT INTO PreguntasF2 VALUES (273, 195, '¿Cuál es la potencia necesaria para levantar un objeto de 100 N a una altura de 2 metros en 5 segundos? ');
+INSERT INTO PreguntasF2 VALUES (273, 196, '¿Cómo se relaciona la potencia y la energía en física? ');
+INSERT INTO PreguntasF2 VALUES (273, 197, '¿Cuál es la potencia necesaria para realizar un trabajo de 500 J en 10 segundos? ');
+INSERT INTO PreguntasF2 VALUES (273, 198, '¿Qué significa una potencia negativa en el contexto de un objeto en movimiento? ');
+INSERT INTO PreguntasF2 VALUES (273, 199, '¿Qué sucede con la potencia si se duplica la fuerza aplicada a un objeto? ');
+INSERT INTO PreguntasF2 VALUES (273, 200, '¿Cuál es la potencia necesaria para levantar un objeto de 200 N a una altura de 4 metros en 10 segundos? ');
+INSERT INTO PreguntasF2 VALUES (273, 201, '¿Cuál es la potencia necesaria para realizar un trabajo de 100 J en 5 segundos? ');
+INSERT INTO PreguntasF2 VALUES (273, 202, '¿Cuál de las siguientes fórmulas se usa para calcular la potencia si se conoce la fuerza aplicada y la velocidad del objeto? ');
+INSERT INTO PreguntasF2 VALUES (273, 203, '¿Cuál es la potencia requerida para levantar un objeto de 100 N a una altura de 2 metros en 5 segundos? ');
 -- faltan incisos
 INSERT INTO PreguntasF2 VALUES (273, 204, 'Una masa de 40 kg se eleva hasta una distancia de 20 m en un lapso de 3 s. ¿Qué potencia promedio se ha utilizado?
 a)            b)             c)');
@@ -297,7 +297,6 @@ INSERT INTO PreguntasF2 VALUES (273, 219,'');
 
 
 -- Tema 4 TEOREMA TRABAJO- ENERGÍA
-
 INSERT INTO PreguntasF2 VALUES (274, 220, '¿Cuál es el enunciado del teorema trabajo-energía?');
 INSERT INTO PreguntasF2 VALUES (274, 221, '¿Qué relación establece el teorema trabajo-energía entre el trabajo realizado sobre un objeto y los cambios en su energía cinética? ');
 INSERT INTO PreguntasF2 VALUES (274, 222, '¿Cómo se calcula el trabajo realizado sobre un objeto según el teorema trabajo-energía? ');
@@ -1051,9 +1050,9 @@ INSERT INTO RespuestasF2 VALUES (195,1950,'c');
 INSERT INTO RespuestasF2 VALUES (196,1960,'c');
 INSERT INTO RespuestasF2 VALUES (197,1970,'a');
 INSERT INTO RespuestasF2 VALUES (198,1980,'c');
-INSERT INTO RespuestasF2 VALUES (199,1990,'a');
-INSERT INTO RespuestasF2 VALUES (200,2000,'b');
-INSERT INTO RespuestasF2 VALUES (201,2010,'b');
+INSERT INTO RespuestasF2 VALUES (199,1990,'c');
+INSERT INTO RespuestasF2 VALUES (200,2000,'c');
+INSERT INTO RespuestasF2 VALUES (201,2010,'a');
 INSERT INTO RespuestasF2 VALUES (202,2020,'a');
 INSERT INTO RespuestasF2 VALUES (203,2030,'c');
 INSERT INTO RespuestasF2 VALUES (204,2040,'');
