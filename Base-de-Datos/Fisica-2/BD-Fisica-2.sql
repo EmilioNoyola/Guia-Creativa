@@ -842,18 +842,19 @@ INSERT INTO Incisos_F2 VALUES
 (229,239'a) W = ΔE_pot b) W = ΔE_cin c) W = ΔK');
 (230,240'a) El objeto ha detenido su movimiento. b) No se ha realizado trabajo neto sobre el objeto. c) El objeto ha aumentado su energía potencial.'), 
 (231,241'a) Multiplicando la fuerza por la distancia. b) Dividiendo la fuerza entre la distancia. c) Sumando la fuerza y la distancia.'), 
-(232,242), 
-(233,243), 
-(234,244);
-(235,245), 
-(236,246), 
-(237,247), 
-(238,248), 
-(239,249);
-(240,250), 
+(232,242'a)Wf=650J  Wff=-588.6J  Vf=1.750m/s  b)Wf=-650J  Wff=688.6J  Vf=2.980m/s  c)Wf=370J  Wff=-258.6J  Vf=0.370m/s'), 
+(233,243'a)Wff=-438176.14J S=42.12  b)Wff=-208276.11J S=20.22  c)Wff=105679.89J S=10.32'), 
+(234,244'a)Ko=-90J Kf=90J Wneto=58J S=8m     b)Ko=0J Kf=-150J Wneto=150J S=45m    c)Ko=0J Kf=90J Wneto=90J S=15m');
+(235,245'a)S=1.463m  b)3.985m   c)9.145m'), 
+(236,246'a)S=54.5m  W=∆K=-789.125J  b)S=34.5075m  W=∆K=-345.075J  c)S=14.562m  W=∆K=125.046J'), 
+(237,247'a)WF=∆K=562x10^5J  Kf=562x10^5  V=231.678m/s   b)WF=∆K=260x10^6J  Kf=140x10^6  V=89.171m/s   c)WF=∆K=250x10^6J  Kf=250x10^6  V=141.421m/s'), 
+(238,248'a)Wneto=35.226J VB=3.4266m/s  S=1.994m  b)Wneto=62.186J VB=6.315m/s  S=3.824m  c)Wneto=35.226J VB=3.4266m/s  S=1.994m'), 
+(239,249'a)W=268100J  S=72.1839m  a=5.144m/s^2  Tf=5.78s  P=79501.98Watts   b)W=156200J  S=52.0833m  a=3.334m/s^2  Tf=2.5s  P=62506.96Watts  c)W=57285J  S=83.1633m  a=1.944m/s^2  Tf=4.7s  P=71509.96Watts');
+(240,250'a)Wf=283.19J  b)Wf=913.37J   c)Wf=783.67J'), 
 (241,251), 
 (242,252), 
 (243,253),
+INSERT INTO PreguntasF2 VALUES (274, 241, 'Un bloque de 263 g se deja caer sobre un resorte vertical con una constante de fuerza k = 2.52 N/cm como se muestra figura. El bloque se pega al resorte, y el resorte se comprime 11.8 cm antes de alcanzar el reposo momentáneamente. Mientras el resorte está siendo comprimido, ¿cuánto trabajo efectúan (a) la fuerza de gravedad y (b) el resorte? (c) ¿Cuál era la velocidad del bloque inmediatamente antes de que alcanzara al resorte?')
 
 
 
