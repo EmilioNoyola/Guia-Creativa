@@ -795,6 +795,147 @@ INSERT INTO Incisos_F2 VALUES
 
 
 -- Tema 3 POTENCIA MECÁNICA
+(187,197'a) La cantidad total de energía en un sistema. b) La tasa de transferencia de energía o la cantidad de trabajo realizado por unidad de tiempo. c) La cantidad de trabajo total realizado sobre un objeto.'), 
+(188,198'a) Julio b) Vatio c) Newton'), 
+(189,199'a) Potencia = Trabajo × Tiempo b) Potencia = Trabajo / Tiempo c) Potencia = Tiempo / Trabajo'), 
+(190,200'a) Ambas tienen la misma potencia. b) Levantar la caja en 10 segundos. c) Levantar la caja en 5 segundos.'), 
+(191,201'a) El que realiza el trabajo en más tiempo. b) El que realiza el trabajo en menos tiempo. c) Ambos tienen la misma potencia.'), 
+(192,202'a) La potencia es igual al trabajo. b) La potencia es inversamente proporcional al trabajo. c) La potencia es directamente proporcional al trabajo.'), 
+(193,203'a) Potencia mecánica b) Potencia térmica c) Potencia eléctrica'), 
+(194,204'a) Potencia = Fuerza × Velocidad b) Potencia = Fuerza / Velocidad c) Potencia = Fuerza × Distancia'), 
+(195,205'a) 10 W   b) 20 W   c) 40 W'), 
+(196,206'a) La potencia es una forma de energía. b) La energía es una forma de potencia.  c) No hay relación entre potencia y energía.'),
+(197,207'a) 50 W  b) 500 W  c) 5000 W'), 
+(198,208'a) El objeto está en reposo.  b) El objeto está adquiriendo energía.  c) El objeto está perdiendo energía.'), 
+(199,209'a) La potencia se duplica.  b) La potencia se reduce a la mitad.  c) La potencia se cuadruplica.'), 
+(200,210'a) 20 W  b) 40 W  c) 80 W'), 
+(201,211'a) 20 W  b) 50 W  c) 200 W'), 
+(202,212'a) Potencia = Fuerza × Velocidad  b) Potencia = Fuerza / Velocidad  c) Potencia = Fuerza × Distancia'), 
+(203,213'a) 10 W   b) 20 W   c) 40 W'), 
+(204,214), 
+(205,215), 
+(206,216),
+(207,217), 
+(208,218), 
+(209,219),
+(210,220),
+(211,221), 
+(212,222), 
+(213,223), 
+(214,224), 
+(215,225), 
+(216,226), 
+(217,227), 
+(218,228), 
+(219,229);
+
+-- Tema 4 TEOREMA TRABAJO- ENERGÍA
+(220,230'a) El trabajo realizado sobre un objeto es igual a la diferencia en su energía cinética. b) La energía cinética de un objeto es igual al trabajo realizado sobre él. c) La fuerza aplicada sobre un objeto es directamente proporcional a su energía cinética.'), 
+(221,231'a) El trabajo es igual al doble de la energía cinética. b) El trabajo es igual a la energía cinética. c) El trabajo es igual a la diferencia en la energía cinética.'), 
+(222,232'a) Multiplicando la fuerza aplicada por la distancia recorrida. b) Multiplicando la masa del objeto por la aceleración. c) Dividiendo la energía cinética entre la velocidad.'), 
+(223,233'a) La energía asociada a la posición de un objeto en un campo de fuerza. b) La energía almacenada en un objeto debido a su posición. c) La energía asociada al movimiento de un objeto.'), 
+(224,234'a) Debe haber fuerzas conservativas actuando sobre el sistema. b) El sistema debe estar en equilibrio. c) El sistema debe tener energía cinética.');
+(225,235'a) Sumando los trabajos realizados por cada fuerza aplicada. b) Restando los trabajos realizados por cada fuerza aplicada. c) Multiplicando los trabajos realizados por cada fuerza aplicada.'), 
+(226,236'a) Un aumento en la energía cinética del sistema. b) Una disminución en la energía cinética del sistema. c) Ninguna de las anteriores.'), 
+(227,237'a) Un aumento en la energía potencial del sistema. b) Una disminución en la energía potencial del sistema. c) Una disminución en la energía cinética del sistema.'), 
+(228,238'a) El trabajo neto es igual a la energía cinética inicial del objeto. b) El trabajo neto es igual al cambio en la energía cinética del objeto. c) El trabajo neto es igual al doble de la energía cinética final del objeto.'), 
+(229,239'a) W = ΔE_pot b) W = ΔE_cin c) W = ΔK');
+(230,240'a) El objeto ha detenido su movimiento. b) No se ha realizado trabajo neto sobre el objeto. c) El objeto ha aumentado su energía potencial.'), 
+(231,241'a) Multiplicando la fuerza por la distancia. b) Dividiendo la fuerza entre la distancia. c) Sumando la fuerza y la distancia.'), 
+(232,242), 
+(233,243), 
+(234,244);
+(235,245), 
+(236,246), 
+(237,247), 
+(238,248), 
+(239,249);
+(240,250), 
+(241,251), 
+(242,252), 
+(243,253),
+
+
+
+-- Tema 5 LEY DE LA CONSERVACIÓN DE LA ENERGÍA MECÁNICA
+(244,254);
+(245,255), 
+(246,256), 
+(247,257), 
+(248,258), 
+(249,259),
+(250,260), 
+(251,261), 
+(252,262), 
+(253,263), 
+(254,264),
+(255,265), 
+(256,266), 
+(257,267), 
+(258,268), 
+(259,269),
+(260,270), 
+(261,271), 
+(262,272), 
+(263,273), 
+(264,274),
+(265,275), 
+(266,276), 
+(267,277), 
+(268,278), 
+(269,279),
+(270,280), 
+(271,281), 
+(272,282), 
+(273,283), 
+(274,284);
+
+
+-- Respuestas Tercer Parcial Física II.
+-- Tema 1 COLISIONES UNIDIMENSIONALES
+(275,285), (276,286), (277,287), (278,288), (279,289);
+(280,290), (281,291), (282,292), (283,293), (284,294);
+(285,295), (286,296), (287,297), (288,298), (289,299);
+(290,300), (291,301), (292,302), (293,303), (294,304);
+(295,305), (296,306), (297,307), (298,308), (299,309);
+(300,310), (301,311), (302,312),
+
+-- Tema 2 ELASTICIDAD
+(303,313), (304,314);
+(305,315), (306,316), (307,317), (308,318), (309,319);
+(310,320), (311,321), (312,322), (313,323), (314,324);
+(315,325), (316,326), (317,327), (318,328), (319,329)
+(320,330), (321,331), (322,332), (323,333), (324,334), 
+(325,335), (326,336), (327,337), (328,338), (329,339);
+(330,340), (331,341), (332,342), (333,343), (334,344), 
+(335,345),
+
+
+-- Tema 3 PRESIÓN Y PRINCIPIO DE PASCAL 
+(336,346), (337,347), (338,348), (339,349);
+(340,350), (341,351), (342,352), (343,353), (344,354), 
+(345,355), (346,356), (347,357), (348,358), (349,359);
+(350,360), (351,361), (352,362), (353,363), (354,364), 
+(355,365), (356,366), (357,367), (358,368), (359,369);
+(360,370), (361,371),
+
+-- Tema 4 PRINCIPIO DE ARQUIMEDES
+(362,372), (363,373), (364,374), (365,375), (366,376), 
+(367,377), (368,378), (369,379);(370,380), (371,381), 
+(372,382), (373,383), (374,384), (375,385), (376,386), 
+(377,387), (378,388), (379,389);(380,390), (381,391), 
+(382,392), (383,393), (384,394), (385,395), (386,396), 
+(387,397), (388,398),
+
+
+
+
+
+
+
+
+
+
 
 
 
